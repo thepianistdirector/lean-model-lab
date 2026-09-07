@@ -6,7 +6,7 @@ Create an open experimental laboratory for reducing the time, memory, energy and
 
 Created and maintained by **Lucas Santana** ([thepianistdirector](https://github.com/thepianistdirector)). [Tanduna project](https://tanduna.com/p/lean-model-lab) · [Public repository](https://github.com/thepianistdirector/lean-model-lab)
 
-> **Starting from zero.** This repository currently contains project design, architecture and a contributor plan. No simulator, application, autonomous research system or benchmark result has been implemented here. All 24 build tasks are planned. Proposed capabilities below describe what we want to build.
+> **Architecture foundation completed.** The three Wave 0 tasks are **DONE**: the architecture contract, outcome/dependency roadmap, and executable next-work packet with a standard-library plan validator. The original 24 scientific/build tasks remain **PLANNED**. No simulator, model integration, application, autonomous research runtime or scientific result is implemented. Acceptance and reproduced checks are recorded in [STATUS.md](STATUS.md).
 
 ## Who this is for
 
@@ -42,7 +42,7 @@ Publish settings, source, environment, raw traces and a scoped Pareto report; re
 
 ## Architecture in one paragraph
 
-Use a Python experiment controller, workload generator, process-isolated backend adapters and a protected evaluation service. Each run declares whether it is simulated or measured. A local artifact store keeps traces, token counts, quality measurements, hardware state and failures. Training and serving share experiment metadata but use different metrics and quality contracts. Begin with one local backend and small model; add distributed execution only after single-device measurements are repeatable. A future Research Continuum adapter can request experiments through the public contract without controlling this lab's evaluator.
+Use a local Python controller, versioned experiment contracts, backend adapters and a protected evaluator. Provenance binds model weights/config, data, tokenizer, workload, runtime and hardware to every attempt. Training keeps tokens, modeled/measured compute, elapsed time and time-to-quality separate; inference keeps queueing, prefill, decode, TTFT, inter-token latency, tails, throughput and SLO-qualified goodput separate. Run bundles retain raw events, full-wall costs, unavailable telemetry and negative outcomes. Begin with a no-compute contract harness, one CPU control and one reviewed local backend. Before untrusted candidates, agents or protected confirmation run, enforce read/write, credential, network and resource isolation with an OS sandbox, container or VM. Add Metal or CUDA only after exact capability probes, and add remote/distributed execution only after local budget, cancellation, recovery and replay behavior pass.
 
 Agents propose and interpret experiments; numerical engines and protected evaluators determine results. Every experiment retains its inputs, assumptions, source version, environment, resource budget and failure state.
 
@@ -50,6 +50,7 @@ Agents propose and interpret experiments; numerical engines and protected evalua
 
 | Wave | Outcome | Gate |
 | --- | --- | --- |
+| 0 | Architecture and research-programme foundation | Contracts, roadmap, next packet and plan validator agree and pass authorized root review. |
 | 1 | Workload and comparison contract | Quality, hardware and resource limits are specified before tuning. |
 | 2 | Repeatable local baselines | Measurement and simulation are separately reproducible. |
 | 3 | First efficiency comparisons | Two narrow improvements are evaluated at fixed quality. |
@@ -59,17 +60,17 @@ Agents propose and interpret experiments; numerical engines and protected evalua
 | 7 | Workbench and portable execution | Contributors can inspect and compare experiments safely. |
 | 8 | Independent efficiency preview | Performance claims survive independent reproduction. |
 
-Read the [roadmap](ROADMAP.md), [24 contributor tasks](TASKS.md), [architecture](ARCHITECTURE.md), [experiment and evaluation contract](EXPERIMENTS.md), [sources and data policy](SOURCES.md) and [current state](STATUS.md). All waves are future work; a plan is not execution authorization.
+Read the [roadmap](ROADMAP.md), [27 contributor tasks](TASKS.md), [architecture](ARCHITECTURE.md), [experiment and evaluation contract](EXPERIMENTS.md), [sources and data policy](SOURCES.md) and [current state](STATUS.md). Wave 0 is accepted documentation/tooling; Waves 1–8 are future work. A plan is not execution authorization.
 
 ## Scientific and operating boundaries
 
-No speedup from dropping requests, shortening outputs, changing tokenizers, skipping quality evaluation or hiding compile time. Keep workload, quality target and hardware conditions comparable. Record failed/OOM runs. No private prompts, unauthorized model weights, arbitrary model loading code or unapproved cloud/GPU spend. Simulation cannot be presented as measured hardware performance.
+No speedup from dropping requests, shortening outputs, changing tokenizers, skipping quality evaluation or hiding compile/startup/evaluation time. Keep workload, quality target and hardware/runtime conditions comparable. Record failed, OOM, cancelled and inconclusive runs. Keep development search separate from untouched confirmation evidence. No private prompts, unauthorized model weights, arbitrary model loading code or unapproved cloud/GPU spend. Simulation, profiler output and upstream capability tables cannot be presented as measured application performance.
 
-If the gain is smaller than run-to-run variance, report no demonstrated improvement. If quality fails or latency tails worsen beyond the predeclared bound, reject the candidate even when tokens per second improves. If energy sensors are absent, leave measured energy unavailable instead of fabricating it.
+If the gain is smaller than run-to-run variance or the predeclared practical threshold, report no demonstrated improvement. If quality fails or latency tails worsen beyond the predeclared bound, reject the candidate even when tokens per second improves. Report sensor scope and method for measured energy; when telemetry is absent, unsupported or ambiguous, mark it unavailable rather than inferring it from TDP.
 
 ## Contribute
 
-Start with [CONTRIBUTING.md](CONTRIBUTING.md). The next eligible work is the first benchmark/contract task. Implementation follows review of exact dependency choices and a maintainer-accepted bounded task. There are no install or runtime commands yet; do not interpret proposed paths or commands as an existing application.
+Start with [CONTRIBUTING.md](CONTRIBUTING.md). The immediate gate is authorized root review of Wave 0. After acceptance, LM-001 freezes a bounded model/tokenizer/workload selection, LM-002 binds the local hardware/backend envelope, and LM-003 builds the standard-library no-compute contract harness. The sequence installs no backend and downloads no weights. Run `python3 tools/validate_plan.py` to check plan/document consistency; this validates the repository plan, not scientific behavior.
 
 ## Related independent projects
 

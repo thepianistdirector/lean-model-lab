@@ -1,92 +1,175 @@
 # Lean Model Lab architecture
 
-Status: proposed design, no implementation. Owner: Lucas Santana. Version: initial plan, 2026-09-07.
+Status: **architecture foundation accepted; research runtime not implemented**. Owner: Lucas Santana. Foundation date: 2026-09-07. Acceptance evidence: [STATUS.md](STATUS.md).
 
-## Scientific boundary and adapters
+## Product contract
 
-Use a Python experiment controller, workload generator, process-isolated backend adapters and a protected evaluation service. Each run declares whether it is simulated or measured. A local artifact store keeps traces, token counts, quality measurements, hardware state and failures. Training and serving share experiment metadata but use different metrics and quality contracts. Begin with one local backend and small model; add distributed execution only after single-device measurements are repeatable. A future Research Continuum adapter can request experiments through the public contract without controlling this lab's evaluator.
+Lean Model Lab is a rigorous optimization laboratory for language-model training and inference. It should answer a bounded question: for an exact model, data/tokenizer contract, workload, runtime and hardware envelope, which candidate configurations improve a declared combination of quality, wall time, latency, throughput, memory, energy and cost, and where do those gains stop transferring?
 
-Evaluate PyTorch profiling for training instrumentation and llama.cpp for an initial local inference adapter; vLLM is a later serving adapter when suitable hardware and an approved environment exist. MLPerf methodology is a reference for controlled comparisons, not a certification claim. Exact model weights, training data and backend versions require separate rights/security review.
+The long-range ambition is a portable research programme that can progress from one laptop to heterogeneous devices and remote workers, compare training and serving ideas under shared evidence rules, and accumulate useful negative results. The first system remains a local command-line lab with filesystem artifacts. Scale follows measured need; it is not an initial infrastructure requirement.
 
-Referenced engines are candidates for a version-specific evaluation, not installed or approved production dependencies. Wave 1 records the exact official source/version/license, maintenance and advisory review, runtime/transitive behavior, telemetry/data implications, alternatives and rollback before adoption. Prefer the smallest viable local stack; do not introduce Kubernetes, a vector database, a workflow platform or a model provider merely to create infrastructure.
+Protected invariants:
 
-## Experiment flow
+- quality and workload semantics are fixed before optimization;
+- training compute, processed tokens, elapsed time and time-to-quality remain different quantities;
+- inference prefill, decode, queueing and end-to-end service behavior remain visible;
+- simulated, modeled, estimated and measured values never share an unlabeled result class;
+- every claim resolves to an accepted specification, exact inputs, runtime/hardware identity, raw observations and evaluator version;
+- failed, invalid, cancelled, out-of-memory and inconclusive attempts remain part of campaign accounting;
+- a candidate cannot modify its evaluator, confirmation set, resource ledger or accepted comparison contract;
+- missing telemetry is reported as unavailable, never reconstructed from a nameplate power rating.
+
+## Architecture layers
 
 ```mermaid
 flowchart LR
-  A[Approved public sources or synthetic inputs] --> B[Source and scenario validation]
-  B --> C[Accepted experiment specification]
-  H[Human or bounded proposal agent] --> C
-  C --> D[Budget and scope gate]
-  D --> E[Isolated domain adapter]
-  E --> F[Protected numerical and quality evaluator]
-  F --> G[Recorded results and limitations]
-  G --> I[Independent reproduction]
-  I --> J[Research report]
+  subgraph S[Specification plane]
+    C[Catalogs and provenance] --> X[Accepted experiment specification]
+    X --> B[Budget and policy admission]
+  end
+  subgraph E[Execution plane]
+    B --> O[Local coordinator]
+    O --> A[Process-isolated backend adapter]
+    A --> R[Raw observations]
+  end
+  subgraph V[Evidence plane]
+    X --> Q[Protected evaluator]
+    R --> Q
+    Q --> U[Atomic run bundle]
+  end
+  subgraph D[Discovery plane]
+    U --> P[Profiler and analysis]
+    P --> H[Candidate proposals]
+    H --> X
+    U --> F[Confirmation and scoped findings]
+  end
 ```
 
-This diagram describes the planned system. A producer cannot edit its evaluator, overwrite accepted results or extend its own budget. Source text and model output are untrusted data, never permission to execute code or change project rules.
+The coordinator moves work and accounts for resources; it does not decide scientific truth. An adapter translates a versioned contract into one backend process; it does not define metrics. The evaluator owns validity and quality decisions. Search may read development evidence, but confirmation evidence is released only through a separately authorized evaluation path.
 
-## Components and ownership
+## Domain model and contracts
 
-| Component | Owns | Does not own |
-| --- | --- | --- |
-| Input catalog | Exact public source reference, date/version, license, units and permitted transformations | Silent data scraping or access to private records |
-| Scenario contract | Inputs, supported ranges, initial/boundary conditions, comparison arms and seeds | Numerical claims outside the model card |
-| Coordinator | Scheduling, state transitions, cancellation and resource accounting | Scientific truth or automatic publication |
-| Domain adapter | Engine-specific conversion, execution and raw diagnostics | Metric definitions and permission changes |
-| Evaluator | Predeclared invariants, metrics, holdouts and invalidity decisions | Editing the candidate to make it pass |
-| Artifact store | Immutable completed run bundles and explicit partial/failed results | Personal credentials or hidden data copies |
-| Report/workbench | Inspectable comparisons, uncertainty, limitations and source links | Invented outcomes or unlabeled simulations |
+All persisted contracts carry a schema version and reject unknown execution fields. Human-readable IDs aid navigation; intrinsic digests identify model weights, tokenizer assets, datasets and result artifacts where byte identity matters.
 
-Use a local Python command-line coordinator and filesystem bundles first. SQLite is appropriate when durable multi-run scheduling becomes necessary. Keep JSON for contracts and small metadata, CSV for simple numeric tables, and introduce a larger-array format only when the data warrants it. Numerical engines may use C/C++ or other languages behind process adapters. Select exact language/runtime versions in the first implementation task after compatibility checks.
+| Contract | Required identity and behavior |
+| --- | --- |
+| `ModelRecord` | Architecture/config, parameter count definition, weight artifact and format, source revision, license/use terms, precision, safe-loading policy and compatibility limits. A model name is insufficient identity. |
+| `DataRecord` | Source snapshot, license and redistribution terms, original partitions, transformations and code revisions, deduplication/leakage checks, record counts and retained lineage. Synthetic data records generator source, version and seed. |
+| `TokenizerRecord` | Vocabulary and merges/model files, normalization and pre-tokenization rules, special tokens, chat/prompt template, truncation/padding behavior and exact asset identity. Baseline and candidate use one accepted tokenizer unless tokenizer change is the declared research variable. |
+| `WorkloadSpec` | Request or sequence population, prompt/input and output-length distributions, arrival process, concurrency, batching freedom, stop rules, seeds, request deadlines, quality set and invalid/missing-response rules. A stored trace and a generated distribution are distinct modes. |
+| `HardwareRecord` | Device class and stable device identity where available, CPU/GPU/accelerator, memory capacity, topology/interconnect, relevant clocks/power mode, driver/firmware, thermal/power telemetry capabilities and instrumentation scope. |
+| `RuntimeRecord` | OS, architecture, compiler, language/runtime, backend and library versions, build flags, environment variables that affect execution, numerical modes, thread/affinity settings, container or process boundary and source revision. Secrets are excluded. |
+| `EvaluationPlan` | Primary and guardrail metrics, quality target, equivalence rules, development/confirmation partition, evaluation schedule and maximum accesses, sequential/multiple-testing rule when applicable, invalidity rules, repetitions, uncertainty method, resource ceiling and stopping decision. Accepted versions are append-only. |
+| `CandidateSpec` | One declared change from its baseline, hypothesis, allowed files/configuration, expected effect, resource reservation and evaluator reference. It contains no evaluator code or development/confirmation answers. |
+| `RunAttempt` | Logical run and attempt IDs, accepted inputs, worker/device lease, lifecycle events, timings, resource deltas, diagnostics, output references and terminal state. Retries append attempts and never overwrite a prior attempt. |
+| `Finding` | Claim text, exact applicability envelope, baseline/candidate attempts, supporting and contradicting evidence, effect and uncertainty, quality decision, confirmation status, limitations and reviewer disposition. |
 
-## Planned repository map
+Provenance is a graph rather than a single “environment” string: a result links exact model, tokenizer, data, workload, evaluator, candidate, runtime, hardware and source identities. Derived artifacts link their parent artifacts and transformation. A portability claim requires separate findings per backend/device before any cross-device synthesis.
+
+## Metric semantics
+
+### Training
+
+Training reports at least four separate axes:
+
+1. **Work:** raw examples, source tokens, non-padding tokens presented, tokens contributing to loss, optimizer steps, global batch/accumulation and repeat exposure. Packing may reduce padding without being mislabeled as fewer semantic tokens.
+2. **Compute:** model-useful FLOP estimates, recomputation/communication overhead when observable and device activity/profiler counters where supported. A FLOP model is labeled modeled compute; it is not elapsed time or hardware utilization.
+3. **Time and capacity:** campaign setup, compile, initialization, data preparation, training, evaluation/checkpoint and recovery time; peak resident host memory and accelerator allocation/reservation where the backend exposes them.
+4. **Quality:** predeclared held-out metric, time and work to first confirmed target, final quality at budget, stability/failure rate and seed distribution.
+
+Training fixes the development-evaluation schedule in steps or non-padding tokens before a run. Development evaluation may guide training. Confirmation does not. The ordinary rule freezes the checkpoint-selection procedure, selects one checkpoint without confirmation feedback and evaluates that checkpoint once on untouched confirmation data. If a study needs protected sequential checkpoint evaluation, it must predeclare the checkpoint order, maximum accesses and a statistically justified sequential or multiple-testing decision rule; all checkpoints are frozen first and no intermediate confirmation outcome returns to training or search. “Time to confirmed quality” is claimed only within that procedure. Fixed-token, fixed-compute and fixed-wall-time studies are separate experiment families. Compute-optimal scaling results from published model families are hypotheses to test within their conditions, not universal ratios to copy into this lab.
+
+### Inference
+
+Every request retains arrival, admission, backend start, first-token, subsequent-token and completion timestamps when the adapter can observe them. Report:
+
+- queue delay and admission/rejection outcome;
+- prefill input tokens and prefill/first-token boundary;
+- time to first token (TTFT), with the clock boundary stated as client-observed or backend-observed;
+- inter-token latency (ITL) as the distribution of consecutive output-token gaps, plus time per output token (TPOT) when the study defines its aggregation;
+- end-to-end latency, generated length and finish reason;
+- request throughput, output-token throughput and total-token throughput as separate rates;
+- goodput only against named request-level TTFT/TPOT/end-to-end/quality SLOs;
+- p50/p95/p99 request tails, success, timeout, cancellation, rejection and drop counts;
+- peak host/accelerator memory and KV-cache capacity/occupancy where observable;
+- task-specific quality or distributional delta, never output length as a quality proxy.
+
+Do not pool unlike prompt/output-length classes into one unexplained percentile. Under concurrency, preserve the arrival process, offered load, achieved load and per-request results; throughput from an always-full offline batch does not predict online latency.
+
+### Full-wall cost and energy
+
+A result declares one or more clock envelopes: cold end to end (environment readiness through evaluated artifacts), warm service (ready endpoint through completed requests), and kernel/operator scope. Report them side by side. Compilation, model/tokenizer load, cache preparation, evaluation, failed attempts and orchestration overhead cannot disappear from campaign cost merely because a backend benchmark omits them.
+
+Energy records the sensor/API, device scope, sampling interval, start/end counter semantics and missing intervals. Direct counter energy, sampled-power integration and analytical energy estimates are different methods. Host-only or accelerator-only energy must say so. If an API returns unsupported, permissions fail or the counter scope cannot be established, measured energy is `UNAVAILABLE`; TDP multiplied by time is not a measurement.
+
+## Measurement protocol
+
+An accepted measurement plan declares the conditions that can materially move the result:
+
+- cold/warm cache state; model and filesystem cache policy; compilation and warmup schedule;
+- explicit synchronization at asynchronous CPU/accelerator boundaries before timestamps are compared;
+- thermal state before and during runs, power/clock policy when observable, power source and cooling condition;
+- CPU load, affinity/thread counts, accelerator sharing, background processes and memory pressure;
+- request trace, concurrency, run order, seeds and baseline/candidate pairing;
+- timer source/resolution, instrumentation overhead and clock boundary;
+- minimum/maximum repetitions, outlier policy fixed before results, uncertainty method and practical-effect threshold.
+
+Warmup samples are retained but excluded only according to the accepted plan. Baseline/candidate order is randomized or counterbalanced after any required cold-start controls. A run with unexpected throttling or contamination is marked with a reason; it is not silently deleted. If the gain is below noise or the practical threshold, the result is `INCONCLUSIVE` or “no demonstrated improvement.”
+
+## Backend and platform boundary
+
+`BackendAdapter` is a process protocol with four conceptual calls: `probe`, `prepare`, `run`, and `collect`. `probe` returns versioned capabilities rather than a broad “supported” boolean. `prepare` resolves only approved local artifacts. `run` accepts a canonical spec and bounded directories. `collect` returns raw events and declared telemetry support; metric scoring remains outside the adapter.
+
+Initial seams are deliberately conditional:
+
+- **CPU:** portable control path and first no-compute contract harness; vector ISA, BLAS and affinity are recorded only when used.
+- **Apple Metal:** eligible only after a local capability and correctness probe. PyTorch MPS and llama.cpp Metal are separate adapters with different semantics, build/runtime identities and measurement support.
+- **NVIDIA CUDA:** eligible only on an explicitly available device with compatible driver/toolkit/backend. CUDA event timing and NVML telemetry are optional capabilities, not assumptions.
+- **Other serving/training engines:** added behind the same protocol only when a real experiment needs them and exact version/license/security/runtime review passes.
+
+“Supported by upstream” means candidate capability, not that Lean Model Lab has implemented, tested or performance-qualified it. Cross-backend comparisons require equivalent model/tokenizer/workload semantics and backend-specific correctness checks.
+
+## Profiling, search and confirmation
+
+Optimization follows three isolated stages:
+
+1. **Profile and diagnose:** collect bounded traces on development cases; name a bottleneck, uncertainty and falsifiable mechanism.
+2. **Search and ablate:** compare single changes first, then declared combinations. Grid, random, Bayesian or agent proposals share one experiment/cost budget and evaluator. Every attempted point, including invalid and worse points, remains in the campaign ledger.
+3. **Confirm:** lock the selected candidate and execute untouched cases with a separately reserved confirmation allocation and fresh attempt/evaluator release. Search plus confirmation remain in total campaign cost. Confirmation failure demotes the candidate; it does not reopen protected evidence for tuning.
+
+The evaluator returns a metric vector and constraint decisions, not one magic score. Pareto dominance is computed only among valid candidates in the same comparison family. Quality, correctness and safety constraints are hard gates; preferences among latency, throughput, memory, energy and monetary cost are declared before selection. Reports show dominated, negative and inconclusive outcomes when they teach where a method fails.
+
+## Durable execution, cancellation and recovery
+
+Lifecycle: `PROPOSED -> ACCEPTED -> RESERVED -> QUEUED -> RUNNING -> EVALUATING -> TERMINAL`. Terminal states are `SUCCEEDED`, `QUALITY_REJECTED`, `INCONCLUSIVE`, `INVALID`, `FAILED`, `OOM`, `CANCELLED` and `BUDGET_EXHAUSTED`.
+
+The local coordinator owns an append-only event journal and a monotonic budget ledger. It reserves wall-time, attempts, artifact bytes and any approved cost before a worker starts, reconciles actual usage after each attempt and does not erase charges for failures. Cancellation is durable intent: stop admission, signal the process group, escalate after a grace period, collect diagnostics, reconcile usage and atomically write the terminal record. A restart replays events, identifies abandoned workers, reconciles temp directories and either resumes from an explicitly compatible checkpoint or closes the attempt. “Resume” never means rerunning invisibly under the same attempt ID.
+
+Multi-device work is deferred until local replay, cancellation, idempotent submission and artifact validation pass. A future remote worker receives an expiring experiment lease, approved inputs and bounded scratch/output locations; it cannot access protected evaluator data, credentials or arbitrary host paths. Capability matching selects eligible devices, while results stay device-specific. Loss of connection cannot extend a lease or budget. Remote outputs enter quarantine and pass schema, provenance and evaluator checks before becoming evidence.
+
+Process separation alone is not a security boundary. The first prototype may run only reviewed built-in coordinator/evaluator code and inert development fixtures. Before executing any untrusted candidate, contributed adapter or proposing agent—or running protected confirmation—the system must enforce isolation outside that code with an OS sandbox, container or VM appropriate to the host. The enforcement profile denies network by default, injects no personal/provider/release credentials, mounts only approved inputs read-only, exposes only bounded scratch/output as writable, hides evaluator logic and protected data from candidate contexts, and applies CPU, accelerator, memory, process, wall-time and storage limits that the candidate cannot raise. Protected confirmation executes in a separate evaluator-controlled context. If the host cannot prove the required controls are active, the run is rejected rather than downgraded to best-effort isolation.
+
+## Local-first module map and scale triggers
 
 ```text
-src/                 coordinator, contracts, evaluation and reports
-adapters/            independently testable domain engines
-scenarios/           lawful public or synthetic scenarios
-benchmarks/          fixed numerical references and confirmation cases
-tests/               behavior, failure and boundary checks
-apps/workbench/      later local comparison interface
-docs/                domain decisions and scientific interpretation
+src/contracts/       versioned records and validation
+src/coordinator/     lifecycle, journal, budgets, cancellation and recovery
+src/evaluation/      protected metrics, validity and confirmation boundary
+src/artifacts/       atomic bundles, lineage and retention
+src/analysis/        statistics, Pareto sets and reports
+adapters/            process-isolated CPU/Metal/CUDA/backend implementations
+workloads/           synthetic fixtures and accepted workload manifests
+benchmarks/          controls, development cases and protected confirmation cases
+experiments/         immutable accepted specs and candidate declarations
+tools/               repository-plan and later artifact validators
+tests/               contract, failure, recovery and representative integration checks
+apps/workbench/      later read-oriented local comparison interface
 ```
 
-These directories are proposed owned scopes, not existing software. The project starts as documentation only. Early tasks establish an actual runnable skeleton and exact verification commands before downstream implementation begins.
+Use the Python standard library for the first contract and plan harness. Adopt numerical or backend dependencies only through the Wave 1 decision. Add SQLite after concurrent or crash-recovery tests show filesystem locking/journal lookup is inadequate. Add multiple local workers after single-worker cancellation and duplicate prevention pass. Add remote execution after device need and elapsed-time benefit outweigh the security and operations cost. Add a service/database only after measured collaboration or query needs exceed local bundles. Extract a shared cross-project library only after two working consumers reveal a stable contract.
 
-## Shared data contracts
+## Security and nonclaims
 
-- `SourceRecord`: human-readable ID, provider URL, version/date, license, permitted use, transformations, coverage, quality limitations and whether redistribution is allowed.
-- `ModelCard`: engine/version, governing assumptions, variables/units, supported ranges, calibration evidence, validation cases, numerical tolerances, invalid states and prohibited interpretations.
-- `ExperimentSpec`: ID, question, model/scenario versions, source references, parameters, seeds, baseline/candidate, metrics, quality constraints, acceptance/falsification rule, allowed adapter and compute/storage limits.
-- `RunResult`: spec ID, repository commit, environment, actual seed, start/end, raw artifact paths, diagnostics, measured/modelled status, metrics, uncertainty, cost and terminal state.
-- `ResearchClaim`: exact statement, supporting and contradicting run/source references, applicability, limitations, reproduction status and reviewer decision.
+Inputs, model cards and generated text are untrusted data. Untrusted code never runs with personal credentials, default network access, arbitrary remote-code trust, shell interpolation or unrestricted filesystem access. Serialized model formats require a safe-loading decision. OS/container/VM policy—not application intent—enforces candidate read/write, credential, network and resource boundaries and protects evaluator logic and confirmation data. Publishing a finding, spending money, downloading gated weights, adding a production dependency or running remote/cloud compute requires separate authority.
 
-The persisted contract uses explicit schema versions and rejects unknown execution fields. Units are machine-readable and must be converted at a named boundary. A run records seeds, solver settings, thread count, hardware and tolerances: stochastic reproducibility and floating-point equivalence are distinct from bitwise determinism.
-
-## Execution and recovery
-
-Lifecycle: `PROPOSED -> ACCEPTED -> QUEUED -> RUNNING -> EVALUATED -> REPLICATED` with `REJECTED`, `INVALID`, `FAILED` and `CANCELLED` terminal alternatives. A low score is a valid negative result; a numerical failure is invalid evidence and must not become a favorable score.
-
-Write outputs into a run-specific temporary directory and publish the result atomically only when required outputs validate. Preserve partial diagnostics after interruption. Retries use the same logical run ID and cannot overwrite a completed result. At restart, reconcile running subprocesses, recorded costs and worker ownership before scheduling. Cancellation must terminate the subprocess tree and mark its artifacts and cost state explicitly.
-
-Workers receive only the accepted scenario, pinned engine environment and bounded scratch/output locations. Deny network by default after input preparation, omit personal credentials and limit CPU/GPU time, memory, disk and subprocess count. Use process argument arrays rather than shell interpolation. Model weights and serialized objects require safe loading; no arbitrary remote-code trust. Separate contributor code from evaluator and release credentials.
-
-## Evaluation and domain invariants
-
-Training: time and energy to a fixed quality target, tokens processed, peak memory and validation loss. Inference: time to first token, inter-token latency, p50/p95/p99 latency, goodput meeting quality/SLO constraints, throughput, memory and quality deltas. Energy is measured only with supported instrumentation; modeled joules and estimated costs remain labeled estimates. Include warmup/compile/startup separately and total end-to-end cost.
-
-No speedup from dropping requests, shortening outputs, changing tokenizers, skipping quality evaluation or hiding compile time. Keep workload, quality target and hardware conditions comparable. Record failed/OOM runs. No private prompts, unauthorized model weights, arbitrary model loading code or unapproved cloud/GPU spend. Simulation cannot be presented as measured hardware performance.
-
-Tolerances are justified from numerical analysis, source precision or a domain reference before candidate search. Calibrate on development evidence and confirm on reserved cases. Save all candidate attempts, including failure, and report comparison uncertainty; do not tune repeatedly against a supposedly independent final holdout.
-
-## Scale and integration decisions
-
-Prove one local experiment first. Add batch workers only after replay, cancellation and duplicate prevention pass; add distributed runs only when measured elapsed time justifies the complexity. No cloud resource is provisioned by this plan. Future Tanduna contributions remain ordinary reviewed GitHub changes. An optional Research Continuum integration uses versioned experiment contracts and cannot bypass this project's evaluator or safety policy.
-
-## Risks and cut order
-
-If the gain is smaller than run-to-run variance, report no demonstrated improvement. If quality fails or latency tails worsen beyond the predeclared bound, reject the candidate even when tokens per second improves. If energy sensors are absent, leave measured energy unavailable instead of fabricating it.
-
-Cut photorealism and polished dashboards first, distributed execution second, and additional scientific domains third. Preserve the first reproducible experiment, source rights, evaluation integrity and bounded claims. Revisit architecture only when a measured limitation or failed benchmark justifies it.
+This architecture does not claim an implemented simulator, benchmark runner, backend, energy meter, distributed system, autonomous researcher or research result. It defines the contracts against which those later systems can be built and falsified.

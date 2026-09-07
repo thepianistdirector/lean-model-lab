@@ -1,30 +1,57 @@
 # Lean Model Lab roadmap
 
-All eight waves and 24 tasks are **PLANNED**. No delivery date, compute allocation or completed research is promised.
+Wave 0 is **DONE**: its three architecture-foundation tasks were accepted by the authorized root after independent review and reproduced checks. All 24 original scientific/build tasks remain **PLANNED** across Waves 1–8. The programme now contains nine waves and 27 tasks; no scientific result or runtime is claimed.
 
 ## Product objective
 
 Create an open experimental laboratory for reducing the time, memory, energy and cost of training and serving LLMs at a declared quality level. Combine analytical hardware/workload simulation with bounded, reproducible software benchmarks. Measure which techniques help on which hardware and workloads, including when they fail.
 
-## First milestone
+## First implemented milestone
 
 Define one small lawful language-model workload and a synthetic request trace. Build a reproducible baseline, then compare batching and cache policies while holding model, tokenizer, quality checks and request distribution fixed. Add a tiny training experiment with an equal-quality target. Simulated predictions and measured runs are separate result classes.
 
-Waves 1–3 establish the first integrated experiment. Wave 4 tests whether its evidence is robust. Later waves expand domains, add agents, improve collaboration and prepare an independently reproduced research preview. Wave order is an integration dependency, not a calendar. The explicit task dependencies are in [TASKS.md](TASKS.md).
+Wave 0 establishes the research and execution contract. Waves 1–3 establish the first integrated experiment. Wave 4 tests whether its evidence is robust. Later waves expand methods, add bounded search, improve contributor inspection and prepare an independently reproduced research preview. Wave order is an integration dependency, not a calendar. The explicit task dependencies are in [TASKS.md](TASKS.md).
+
+## Research-programme horizon
+
+The eight build waves are the path to a credible first research preview, not the ceiling of the project. After independent reproduction, later programmes may study model/data/compute allocation, end-to-end training systems, online serving under mixed workloads, memory/energy constraints and transfer across heterogeneous devices. Each new programme needs a new model/workload/evaluator envelope and its own evidence gate. A result from a tiny local model cannot be extrapolated into a frontier-training, fleet-serving or cross-hardware claim.
+
+The scale sequence is evidence-driven:
+
+1. prove contracts and failure handling without model compute;
+2. reproduce one CPU/local-backend control under a bounded workload;
+3. qualify one accelerator/backend combination without changing workload semantics;
+4. establish useful ablation/search/confirmation separation;
+5. reproduce on a second exact device or backend;
+6. add multiple local and then remote workers only after budgets, leases, cancellation, recovery and artifact validation are reliable.
 
 ## Capacity and next planning window
 
-Assume one maintainer and one implementation owner per coherent surface. Human reviewer availability, hardware and paid-compute budget are currently unallocated. Plan the next one or two weeks around Waves 1–2 only after measuring the first task's throughput; later tasks are outcome packages to split when prerequisites exist. The conservative dependency graph waits for the previous wave's accepted gate. Within a wave, use disjoint work only when dependencies and shared resources permit it.
+Assume one maintainer and one implementation owner per coherent surface. Human reviewer availability and paid-compute budget are currently unallocated. The planning host observed on 2026-09-07 is an arm64 Apple M5 Mac with 16 GiB memory and Metal 4; this is an inventory observation, not an approved benchmark target or proof of backend compatibility. No CUDA device, `llama-cli` or `llama-server` was found on that host. Python 3.14.6 is present, but candidate packages must prove version compatibility before adoption.
+
+Plan the next one or two weeks around the Wave 0 review and Waves 1–2 only after measuring the first packet's throughput; later tasks are outcome packages to split when prerequisites exist. The conservative dependency graph waits for the previous wave's accepted gate. Within a wave, use disjoint work only when dependencies and shared resources permit it.
 
 Proposed initial experiment ceiling for future approval: one local worker, at most 20 trial runs, at most two elapsed compute hours and 5 GiB of new artifacts per campaign. Agent inference costs count toward an explicitly approved budget. These are draft limits, not permission to start or spend. Reduce the workload if the first benchmark cannot fit. GPU, cloud, domain-review time and additional workers need an explicit allocation before execution.
 
 ## Waves and tasks
 
+## Wave 0: Architecture and research-programme foundation
+
+Outcome/gate: The product, measurement, isolation, evaluator, artifact, execution and scale contracts are coherent; the original task graph remains intact; and the next no-compute packet can start without guessing after authorized root acceptance.
+
+Entry: Documentation-only repository at commit `f55f872c74caf0a5fa6f4503042ec22733adc2e3`; no runtime or scientific evidence inherited.
+
+- **LM-F01: Establish the architecture and experiment contract.** Define provenance, metric semantics, measurement controls, candidate/evaluator isolation, artifacts, durable execution and platform seams.
+- **LM-F02: Establish the outcome and dependency roadmap.** Connect local-first evidence gates to later heterogeneous and remote research without inventing dates, budget or implemented capability.
+- **LM-F03: Establish an executable next-work packet and repository-plan validation.** Specify the bounded workload/model/hardware decision and no-compute harness entry; provide a standard-library graph/document validator.
+
+Gate decision: the authorized root reviews the exact diff and validator result. On acceptance, record evidence in [STATUS.md](STATUS.md), move LM-F01–LM-F03 to `DONE`, and admit LM-001. If corrections reopen the batch, move all three coherently to `IN_PROGRESS` or `BLOCKED` and record the finding. Waves 1–8 stay blocked until this gate passes.
+
 ## Wave 1: Workload and comparison contract
 
 Outcome/gate: Quality, hardware and resource limits are specified before tuning.
 
-Entry: No implementation prerequisite; inspect the initial plan.
+Entry: Wave 0 accepted with its evidence recorded; LM-001 additionally depends on LM-F03.
 - **LM-001: Freeze the first model/data workload.** Record lawful model/data sources, tokenizer, prompt/output distributions, quality target, latency requirements and evaluation split.
 - **LM-002: Audit backends and measurement support.** Review exact versions/licenses/security, local hardware availability, energy measurement and approved resource limits.
 - **LM-003: Build the experiment skeleton.** CLI schema distinguishes simulated/measured runs, rejects missing quality metadata and runs a synthetic trace parser without model downloads.
@@ -106,7 +133,7 @@ Gate decision: continue when the outcome is reproduced and reviewed at its appro
 
 Numerical benchmarks, source rights, failure behavior and an end-to-end reproduction take precedence over task counts. Scientific extensions need their own applicability evidence; domain reviewer availability is a real dependency. High-risk interpretations require an independent qualified reviewer. A software preview can pass without demonstrating a novel scientific improvement; state the distinction explicitly.
 
-All source and clinical/environmental/privacy/performance claims stay within [EXPERIMENTS.md](EXPERIMENTS.md). A final release needs the exact candidate, clean reproducibility instructions, lawful inputs, resolved material defects and maintainer approval. No production deploy, physical action or unrestricted autonomous execution is included.
+All scientific, quality, performance, energy, cost and portability claims stay within [EXPERIMENTS.md](EXPERIMENTS.md). A final release needs the exact candidate, clean reproducibility instructions, lawful inputs, resolved material defects and maintainer approval. No production deploy, physical action or unrestricted autonomous execution is included.
 
 ## Stop and reduce-scope rules
 
