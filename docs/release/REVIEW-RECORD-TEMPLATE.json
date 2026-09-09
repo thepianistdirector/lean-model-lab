@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "record_kind": "UNFILLED_EXTERNAL_REVIEW_TEMPLATE",
+  "status": "NOT_ASSIGNED",
+  "scope": "A blank recording aid. No invitation, participation, consent, review, public access or successful execution is established by this file.",
+  "review_roles": [],
+  "reviewer_attribution": null,
+  "relevant_experience": null,
+  "consent_to_participate": null,
+  "permission_to_publish_attribution_or_quotes": null,
+  "started_utc": null,
+  "finished_utc": null,
+  "artifact": {
+    "actual_download_url": null,
+    "source_commit": null,
+    "application_version": null,
+    "candidate_manifest_sha256": null,
+    "complete_bundle_sha256": null,
+    "download_and_hash_verification_evidence": null
+  },
+  "environment": {
+    "relationship_to_development_environment": null,
+    "operating_system_and_architecture": null,
+    "python_version": null,
+    "model_and_backend_identities": null,
+    "browser_and_assistive_technology": null,
+    "authorized_resource_allocation": null
+  },
+  "observed_tasks": [],
+  "commands_and_retained_output_locations": [],
+  "failures_and_assistance": [],
+  "methodology_objections_with_evidence": [],
+  "accessibility_observations_with_reproduction_steps": [],
+  "complete_cost_record": null,
+  "resulting_export_identity": null,
+  "outcome": null,
+  "untested_or_unsupported_conditions": [],
+  "root_dispositions": [],
+  "recording_guidance": {
+    "review_roles": "Record the actual roles: researcher first use, methodology, accessibility. Roles may overlap only when the work and qualifications are recorded.",
+    "status": "Keep invited, consented, attempted, completed with assistance, completed without assistance and unable to complete distinct. Preserve earlier states with timestamps in the completed record.",
+    "observed_tasks": "For each task record its trigger, expected behavior, actual observation, evidence location and outcome. Do not treat blank fields as passing checks.",
+    "privacy": "Do not include credentials, private prompts, model weights or attribution without the person's permission.",
+    "claims": "Separate public download, model execution, retained-output reanalysis, accessibility observations and qualified feedback. None implies peer review or a general usability success rate."
+  }
+}

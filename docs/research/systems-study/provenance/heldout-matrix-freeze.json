@@ -1,0 +1,64 @@
+{
+  "frozen_utc": "2026-09-08T19:26:32.293079+00:00",
+  "frozen_ns": 288780732712678,
+  "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+  "implementation_sha256": "18c28e8075ebc9e5651bf4e0a66c2fca332480b4834a7342fc49d43775a9ab32",
+  "classification": "HELD_OUT_NEGATIVE_SYSTEM_COST_CHALLENGE_NOT_POSITIVE_ADVANCE",
+  "hypotheses": [
+    "H1: Across the frozen new tables, dependency slicing reduces first-use newly processed input tokens while the full-context cached baseline may require fewer new tokens on subsequent changing queries. Report cold, warm and all-query counters separately per table and attempt; no counterfactual extension past eight queries.",
+    "H2: Lower input-token work or shorter service/full wall cannot establish an efficiency gain when original quality gates fail. Report native generated-token counts, exact outputs and all charged cache preparation so output-length changes remain an explicit timing confound.",
+    "H3: Enumerate both-correct, baseline-only-correct, candidate-only-correct and both-wrong classes for each table and pair across the two context sizes and admitted model configurations. The joint correctness classes describe observed paired answers; they are not a deployable two-output oracle or a controller.",
+    "H4: Compare descriptive directions across 0.5B context24 versus64 and matched 0.5B versus14B context24 populations. Preserve model/runtime/thread differences and all failed states; no novel method, general language-quality, energy, API-price or population-risk claim."
+  ],
+  "cases": [
+    {
+      "id": "h1-small-reuse24",
+      "profile": "qwen2.5-0.5b-instruct-fp16-v2",
+      "context_records": 24,
+      "seed": 940129,
+      "threads": 2,
+      "requests_per_attempt": 128,
+      "attempts": 4,
+      "protocol_file_sha256": "a0160a87058a91e3658fb434acbdeb6d692503bb245e0032f3528ea0fd00b8f3",
+      "recipe_file_sha256": "3c55d694550bbd2e9399b16cd69c54725f654c4f2a941db14dc4509ea52e8e41"
+    },
+    {
+      "id": "h2-small-reuse64",
+      "profile": "qwen2.5-0.5b-instruct-fp16-v2",
+      "context_records": 64,
+      "seed": 940193,
+      "threads": 2,
+      "requests_per_attempt": 128,
+      "attempts": 4,
+      "protocol_file_sha256": "a0160a87058a91e3658fb434acbdeb6d692503bb245e0032f3528ea0fd00b8f3",
+      "recipe_file_sha256": "d1fbc80edfb8b79418681594fe4c32a3278df2ee1f7f73d81da5ef4415ea7a9c"
+    },
+    {
+      "id": "h3-large-reuse24",
+      "profile": "qwen2.5-14b-instruct-fp16-v1",
+      "context_records": 24,
+      "seed": 940129,
+      "threads": 6,
+      "requests_per_attempt": 128,
+      "attempts": 4,
+      "protocol_file_sha256": "a0160a87058a91e3658fb434acbdeb6d692503bb245e0032f3528ea0fd00b8f3",
+      "recipe_file_sha256": "a4b70e7fed26622ee92126be8517d2f2221aa8872cf4c44dceebcc0ed7f54136"
+    }
+  ],
+  "prior_offered_requests": 64,
+  "maximum_total_offered_requests": 1600,
+  "prior_execution_seconds": 248.081342296,
+  "maximum_native_execution_seconds": 5400,
+  "original_deadline_ns": 310468865220540,
+  "forecast": {
+    "cell_execution_seconds": [
+      311.811144111,
+      617.712953791,
+      2361.707204382
+    ],
+    "safety_factor": 1.5,
+    "safety_total_seconds": 4936.846953426,
+    "remaining_execution_budget_seconds": 5151.918657704,
+    "method": "Scale per-case development service for sixteen tables while retaining four attempt non-service envelopes; context64 small-model service multiplier2 is prospective, uncertain, and must be replaced by available held-out timing evidence before admission. Add 1.5x safety per case; no additional populations if resource check fails. Native request service and full execution remain separately charged."
+  }
+}

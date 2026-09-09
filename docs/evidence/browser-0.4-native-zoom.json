@@ -1,0 +1,276 @@
+{
+  "schema": "lean-model-lab.browser-evidence-summary.v1",
+  "date_utc": "2026-09-08",
+  "status": "PASS_TINY_NATIVE_BROWSER_ZOOM",
+  "scope": "Development-only full Chromium proof on a tiny synthetic local data page. Does not verify the actual final v2/14B workbench or certify accessibility/security.",
+  "raw_evidence_distribution": "Only this text summary is included. Binaries, harness copies, private receipts/netlogs and raster captures listed by local identifier remain in project cache and are not distributed in the source archive. Hashes identify those retained bytes, not bundled attachments.",
+  "browser": {
+    "product": "Chrome/140.0.7339.186",
+    "protocol_version": "1.3",
+    "revision": "@c643dfff61ee0c447b89c05001216825c74120ff",
+    "existing_binary_sha256": "5386de944dc312f838d69a974253d23bdb029acc072e28e6b11aa478c8b504d5"
+  },
+  "tiny_document_sha256": "6b54446b0a2977797bf1d2d3183f3541003fd7c0bbd09143a2220fdf499e0d8f",
+  "mechanism": {
+    "native_preference": "partition.default_zoom_level.x",
+    "zoom_level_for_200pct": 3.8017840169239308,
+    "formula": "log(2) / log(1.2)",
+    "css_or_font_or_device_scale_override_used": false,
+    "transport": "CDP pipe; no debug TCP port",
+    "child_temporary_directory": "Fresh private .tX directly under project root; removed after browser closure.",
+    "hostname_rule_single_argument": "--host-resolver-rules=MAP * ~NOTFOUND"
+  },
+  "baseline": {
+    "recorded_status": "STOP_EXTERNAL_CONNECTION_EVENT",
+    "native_metrics": {
+      "page_zoom": 1,
+      "inner_width_css_px": 1440,
+      "inner_height_css_px": 846,
+      "outer_window_px": [
+        1440,
+        1000
+      ],
+      "device_pixel_ratio": 1,
+      "visual_viewport_scale": 1,
+      "probe_css_px": [
+        100,
+        44
+      ],
+      "body_css_zoom": "1",
+      "html_css_zoom": "1"
+    },
+    "sandbox": {
+      "renderer_count_observed": 2,
+      "all_observed_renderers_no_new_privs_1": true,
+      "all_observed_renderers_seccomp_2": true,
+      "sandbox_disabling_launch_flags": false,
+      "scope": "Renderer observations only; browser and utility processes have different sandbox configurations."
+    },
+    "cleanup": {
+      "browser_exit": {
+        "code": 0,
+        "signal": null
+      },
+      "remaining_owned_processes": 0,
+      "owned_short_tmp_removed": true,
+      "singleton_socket_path_bytes": 105
+    },
+    "network": {
+      "owned_tcp_listeners_at_inspection": 0,
+      "owned_ip_sockets_at_inspection": 0,
+      "name_not_resolved_results": 7,
+      "tcp_connect_events": 0,
+      "udp_bytes_sent_events": 0,
+      "source_reviewed_closed_local_route_probes": 1,
+      "unmatched_connection_or_send_events_after_review": 0,
+      "scope": "Browser background requests were attempted and observed hostname resolutions failed. The accepted UDP event is source-linked connect/getsockname/close without send. No universal egress-isolation or zero-attempt claim."
+    },
+    "page_javascript_exceptions": 0,
+    "gpu_warning": "InitializeSandbox() called with multiple threads in process gpu-process.",
+    "receipt": {
+      "local_identifier": ".cache/browser-review/native-zoom-proof-1-receipt.json",
+      "sha256": "fb984241aff9a3f70904a210e44cf8a879b8a9e6cc73ee7816e1ab313b02a520",
+      "bytes": 498788,
+      "distributed_in_source_archive": false
+    },
+    "netlog": {
+      "local_identifier": ".cache/browser-review/run/native-zoom-proof-1-6facb1a7-097a-4bb7-bb17-49fd92630ebf/net-log.json",
+      "sha256": "b414395d221d222e35ba9b929262efb237acf73ea775c15b0cef5e8bb9ad41ef",
+      "bytes": 109008,
+      "distributed_in_source_archive": false
+    },
+    "capture": {
+      "local_identifier": ".cache/browser-review/native-zoom-proof-1.png",
+      "sha256": "7c93cdc270d5e722867325d5e7f6a6e2ace217adf7b5b9ce59052177e9d08b1c",
+      "bytes": 21857,
+      "distributed_in_source_archive": false
+    },
+    "capture_visually_inspected": true,
+    "retained_harness": {
+      "local_identifier": ".cache/browser-review/native-zoom-proof-strict-network.mjs",
+      "sha256": "6a5a5c1c0334a2df5ff7fa1da78f1e706da1734753f622ea0c768224d363c466",
+      "bytes": 14534,
+      "distributed_in_source_archive": false
+    },
+    "harness_hash_recorded_in_receipt": false,
+    "adjudication": "Original STOP_EXTERNAL_CONNECTION_EVENT preserved unchanged. Root accepted the exact Chromium source/netlog linkage as a closed local route/address probe with no send; the broad event-name stop was a false positive."
+  },
+  "native_200_percent": {
+    "recorded_status": "PASS",
+    "native_metrics": {
+      "page_zoom": 2,
+      "inner_width_css_px": 720,
+      "inner_height_css_px": 430,
+      "outer_window_px": [
+        1440,
+        1000
+      ],
+      "device_pixel_ratio": 2,
+      "visual_viewport_scale": 1,
+      "probe_css_px": [
+        100,
+        44
+      ],
+      "body_css_zoom": "1",
+      "html_css_zoom": "1"
+    },
+    "sandbox": {
+      "renderer_count_observed": 2,
+      "all_observed_renderers_no_new_privs_1": true,
+      "all_observed_renderers_seccomp_2": true,
+      "sandbox_disabling_launch_flags": false,
+      "scope": "Renderer observations only; browser and utility processes have different sandbox configurations."
+    },
+    "cleanup": {
+      "browser_exit": {
+        "code": 0,
+        "signal": null
+      },
+      "remaining_owned_processes": 0,
+      "owned_short_tmp_removed": true,
+      "singleton_socket_path_bytes": 105
+    },
+    "network": {
+      "owned_tcp_listeners_at_inspection": 0,
+      "owned_ip_sockets_at_inspection": 0,
+      "name_not_resolved_results": 7,
+      "tcp_connect_events": 0,
+      "udp_bytes_sent_events": 0,
+      "source_reviewed_closed_local_route_probes": 1,
+      "unmatched_connection_or_send_events_after_review": 0,
+      "scope": "Browser background requests were attempted and observed hostname resolutions failed. The accepted UDP event is source-linked connect/getsockname/close without send. No universal egress-isolation or zero-attempt claim."
+    },
+    "page_javascript_exceptions": 0,
+    "gpu_warning": "InitializeSandbox() called with multiple threads in process gpu-process.",
+    "receipt": {
+      "local_identifier": ".cache/browser-review/native-zoom-proof-2-receipt.json",
+      "sha256": "095edd84fbf78be70b0d641a0e7efd04a7f645b3aef1051a1968f6afec374905",
+      "bytes": 487214,
+      "distributed_in_source_archive": false
+    },
+    "netlog": {
+      "local_identifier": ".cache/browser-review/run/native-zoom-proof-2-5a4c5e01-e74a-491f-b11a-5938de56dd17/net-log.json",
+      "sha256": "346cd4fa0a738028a50c932aa36226a04c883cfb3de0b1cbb3dcb07c9bee2d70",
+      "bytes": 112740,
+      "distributed_in_source_archive": false
+    },
+    "capture": {
+      "local_identifier": ".cache/browser-review/native-zoom-proof-2.png",
+      "sha256": "73ae6d789cfa5e13ff479236a9409a49ee91729b606f8b5dce26a0dfe568912f",
+      "bytes": 39684,
+      "distributed_in_source_archive": false
+    },
+    "capture_visually_inspected": true,
+    "retained_harness": {
+      "local_identifier": ".cache/browser-review/native-zoom-proof.mjs",
+      "sha256": "a409be25cc7d012f22bdb89c17e935c0e9ec54ac1fc2ffb914467f5de65c77ab",
+      "bytes": 16956,
+      "distributed_in_source_archive": false
+    },
+    "harness_hash_recorded_in_receipt": true
+  },
+  "comparison_checks": {
+    "same_browser": true,
+    "same_tiny_document": true,
+    "same_outer_window": true,
+    "native_zoom_1_to_2": true,
+    "css_viewport_width_halved": true,
+    "dpr_doubled": true,
+    "visual_scale_unchanged_1": true,
+    "css_probe_unchanged": true,
+    "css_zoom_unchanged_1": true,
+    "normal_exit_and_cleanup": true,
+    "no_observed_owned_tcp_listeners": true,
+    "no_observed_owned_ip_sockets": true
+  },
+  "preserved_prior_results": [
+    {
+      "receipt": {
+        "local_identifier": ".cache/browser-review/native-zoom-1-receipt.json",
+        "sha256": "0108a23976ac994b53937ecb4c4ba7deaed2f137cfa327c9375dad43c8067ee6",
+        "bytes": 2609,
+        "distributed_in_source_archive": false
+      },
+      "recorded_status": "FAILED",
+      "interpretation": "Genuine startup failure: SIGTRAP before CDP; later traced to an overlong Unix socket path.",
+      "original_retained_unchanged": true
+    },
+    {
+      "receipt": {
+        "local_identifier": ".cache/browser-review/native-zoom-diagnostic-1-receipt.json",
+        "sha256": "385b70f07491323e35f9a43d3cf51216083b25f7be6cd4637ef7108e4f471ab6",
+        "bytes": 3635,
+        "distributed_in_source_archive": false
+      },
+      "recorded_status": "FAILED",
+      "interpretation": "One logging retry reproduced the same overlong-path SIGTRAP; no sandbox weakening.",
+      "original_retained_unchanged": true
+    },
+    {
+      "receipt": {
+        "local_identifier": ".cache/browser-review/native-zoom-short-1-receipt.json",
+        "sha256": "9dbad65b24c669f3b111f4463b60a0e72d3a2e408c233b2b9f7aa9d5f1f99a8b",
+        "bytes": 51756,
+        "distributed_in_source_archive": false
+      },
+      "recorded_status": "FAILED",
+      "interpretation": "Native baseline reached, but renderer detector falsely failed because full Chrome rewrites /proc command strings. Retained process records show two Seccomp=2/NoNewPrivs=1 renderers; whitespace parsing corrected the harness.",
+      "original_retained_unchanged": true
+    }
+  ],
+  "dependency_phase": {
+    "reviewed_rpms_acquired": 10,
+    "acquired_rpm_bytes": 2374668,
+    "all_pinned_hashes_and_rpm_signatures_passed": true,
+    "packages_with_staged_dsos": 7,
+    "additional_sonames": [
+      "libavahi-client.so.3",
+      "libavahi-common.so.3",
+      "libcairo.so.2",
+      "libcups.so.2",
+      "libdatrie.so.1",
+      "libfribidi.so.0",
+      "libpango-1.0.so.0",
+      "libthai.so.0"
+    ],
+    "selected_files": 24,
+    "scriptlets_executed": false,
+    "system_installation": false,
+    "product_runtime_or_release_adoption": false,
+    "receipts": [
+      {
+        "local_identifier": ".cache/browser-review/native-zoom-plan.json",
+        "sha256": "b3c0c25d0f0aa8ee02db4d5eefb595c54d366cd034064969cf6ac564fbff5d09",
+        "bytes": 41873,
+        "distributed_in_source_archive": false
+      },
+      {
+        "local_identifier": ".cache/browser-review/native-zoom-acquisition-receipt.json",
+        "sha256": "0e9d0024b850e95a2c2e78e6a309686b00ea5e8e63134c0d36e856ec4ecf39ee",
+        "bytes": 7183,
+        "distributed_in_source_archive": false
+      },
+      {
+        "local_identifier": ".cache/browser-review/native-zoom-payload-inspection.json",
+        "sha256": "d62f86e4233a322011f6b1cd0fcdd04a4e1938ff1c1130006f7a0515ca5110a7",
+        "bytes": 66315,
+        "distributed_in_source_archive": false
+      },
+      {
+        "local_identifier": ".cache/browser-review/native-zoom-extraction-receipt.json",
+        "sha256": "11509e5d12533ef761eb8192765f2382d7726b7d02ebb2b947be75e8d205c24b",
+        "bytes": 53399,
+        "distributed_in_source_archive": false
+      }
+    ]
+  },
+  "primary_sources": [
+    "https://chromium.googlesource.com/chromium/src/+/140.0.7339.186/chrome/browser/ui/zoom/chrome_zoom_level_prefs.cc",
+    "https://chromium.googlesource.com/chromium/src/+/140.0.7339.186/third_party/blink/common/page/page_zoom.cc",
+    "https://chromium.googlesource.com/chromium/src/+/140.0.7339.186/third_party/blink/renderer/core/inspector/inspector_page_agent.cc",
+    "https://chromium.googlesource.com/chromium/src/+/140.0.7339.186/net/dns/host_resolver_manager.cc",
+    "https://chromium.googlesource.com/chromium/src/+/140.0.7339.186/net/socket/udp_client_socket.cc",
+    "https://chromium.googlesource.com/chromium/src/+/140.0.7339.186/net/socket/udp_socket_posix.cc"
+  ],
+  "remaining_gate": "Review actual final v2/14B workbench HTML at native200 after root handoff between inference studies; no large workbench loaded during this proof."
+}

@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "native_offered": 1984,
+  "actual_exports": 8,
+  "unique_original_tables": 200,
+  "native_execution_s": 4104.999705749,
+  "manifest_sha256": "7b3ff880aa620dbb67bad98e1ce68e1d6f0a9c32d33283318ba1a6e22f4bf54b",
+  "executed_staged_scripts": {
+    "reanalyze.py": "5b0d3f9831b9693713580c2dd164d69634545bc1e096b5efd7c6a72c47932b6b",
+    "render_pdf_for_review.py": "448553de073943552f33034651621ead5b3af717fc59b2d5eee7a9594c7e7c97",
+    "validate_training.py": "61fd1e423e3a8db417204c7840291841ac5a150f3ab2ce8171893ca8ba75d037",
+    "plot.py": "6adf519387e0495e6b4e1d4f6671e9362e8c542e3c2c8053fa1186f32945bb4e",
+    "illustrations.py": "1798b3bcb899e61dffcea741276d36ee42cde902d6725e72f373e6ad66167ea8"
+  },
+  "original_analysis_sha256": "9e777f3493a45157a2692ece9ce16a08261148259611e0f22e06ceca0b999f6e",
+  "training_validation_sha256": "95263abbf6e129ea447c5663f5db2687a4ef9c782d3bc238250170c29d2db128",
+  "illustration_receipt_sha256": "3da35674909cca2311088de0a785f8b022806b77faed8a247e80953ac71b0232",
+  "operational_derivatives": [
+    {
+      "artifact": "docs/research/candidate-study/publication/tables/final/analysis.json",
+      "original_sha256": "9e777f3493a45157a2692ece9ce16a08261148259611e0f22e06ceca0b999f6e",
+      "derived_sha256": "fd3582250cc1afc03d424e8118552067848f25ef3ae55289e7a081b28a277019",
+      "operation": "Operational evidence-root text replaced with $EVIDENCE_ROOT; scientific values unchanged."
+    }
+  ],
+  "scope": "Executed staged scripts against all eight actual exported studies in complete-builder layout, plus both original producer files. Reanalysis, native training reconciliation, prospective illustration selection with raw SSE reconstruction and all seven plots completed; no native inference. Four prior PNGs reproduced byte-exactly; final PNG and actual PDF-render visual review recorded separately."
+}

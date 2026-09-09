@@ -1,0 +1,166 @@
+{
+  "status": "COMPLETED_DEVELOPMENT_WORKFLOW",
+  "error": null,
+  "started_ns": 286174238698831,
+  "finished_ns": 286236913710221,
+  "original_deadline_ns": 310468865220540,
+  "archive_sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f",
+  "phases": [
+    {
+      "phase": "run-candidate",
+      "started_ns": 286174239041749,
+      "finished_ns": 286217265917226,
+      "exit_code": 0,
+      "argv": [
+        "python",
+        "-I",
+        ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+        "run",
+        "--recipe",
+        ".cache/v1-first-workflow-20260908-02/recipe.json",
+        "--server",
+        ".cache/prepared-20260908-01/build/bin/llama-server",
+        "--model",
+        ".cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf",
+        "--setup",
+        ".cache/adopted-0.5b-current-02/setup.json",
+        "--output",
+        ".cache/v1-first-workflow-20260908-02/study"
+      ]
+    },
+    {
+      "phase": "inspect",
+      "started_ns": 286217266309987,
+      "finished_ns": 286217480059347,
+      "exit_code": 0,
+      "argv": [
+        "python",
+        "-I",
+        ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+        "inspect",
+        ".cache/v1-first-workflow-20260908-02/study"
+      ]
+    },
+    {
+      "phase": "report",
+      "started_ns": 286217480216871,
+      "finished_ns": 286217743919112,
+      "exit_code": 0,
+      "argv": [
+        "python",
+        "-I",
+        ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+        "report",
+        ".cache/v1-first-workflow-20260908-02/study",
+        "--output",
+        ".cache/v1-first-workflow-20260908-02/result.json",
+        "--html",
+        ".cache/v1-first-workflow-20260908-02/report.html"
+      ]
+    },
+    {
+      "phase": "raw-audit",
+      "started_ns": 286217744133451,
+      "finished_ns": 286217957895625,
+      "exit_code": 0,
+      "argv": [
+        "python",
+        "tools/audit_raw_study.py",
+        ".cache/v1-first-workflow-20260908-02/study",
+        "--output",
+        ".cache/v1-first-workflow-20260908-02/raw-audit.json"
+      ]
+    },
+    {
+      "phase": "workbench",
+      "started_ns": 286217958162582,
+      "finished_ns": 286218322219352,
+      "exit_code": 0,
+      "argv": [
+        "python",
+        "-I",
+        ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+        "workbench",
+        "--study",
+        ".cache/v1-first-workflow-20260908-02/study",
+        "--output",
+        ".cache/v1-first-workflow-20260908-02/workbench.json",
+        "--html",
+        ".cache/v1-first-workflow-20260908-02/workbench.html"
+      ]
+    },
+    {
+      "phase": "recovery",
+      "started_ns": 286218322505584,
+      "finished_ns": 286236913344841,
+      "exit_code": 0,
+      "argv": [
+        "python",
+        "tools/verify_recipe_recovery.py",
+        "--parent-study",
+        ".cache/v1-first-workflow-20260908-02/study",
+        "--archive",
+        ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+        "--server",
+        ".cache/prepared-20260908-01/build/bin/llama-server",
+        "--model",
+        ".cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf",
+        "--setup",
+        ".cache/adopted-0.5b-current-02/setup.json",
+        "--recipe",
+        ".cache/v1-first-workflow-20260908-02/recipe.json",
+        "--output",
+        ".cache/v1-first-workflow-20260908-02/recovery"
+      ]
+    }
+  ],
+  "scope": "Queued actual development model workflow; not confirmation, a substantive research result, external-person verification or publication.",
+  "export": {
+    "changed_raw_file_count": 36,
+    "expected_requests": 32,
+    "observed_requests": 32,
+    "provenance_sha256": "866f2abf733456e2c8a08b87a0e5feea26dc226ce94a0a9784cfa314a11e0296",
+    "report_sha256": "2dd47d02bcd749e4ae0730cd43e3e150778ef2439ed5fba43a4bb22be898c61e",
+    "status": "LOCAL_REDACTED_EXPORT_VERIFIED_NOT_PUBLISHED"
+  },
+  "quality": {
+    "baseline_correct_per_arm": 1,
+    "candidate_correct_per_arm": 1,
+    "requests_per_arm": 8,
+    "scope": "Adverse development result; workflow operation does not imply quality acceptance."
+  },
+  "retained_prior_failure": {
+    "workflow": "v1-first-workflow-20260908-01",
+    "adoption": "adopted-0.5b-current-01",
+    "scope": "Profile-size mismatch before inference; corrected versioned profile and identical weights."
+  },
+  "recovery": {
+    "allocation_elapsed_ns": 18967993610674,
+    "allocation_id": "lean-model-lab-0.4-20260908-01",
+    "allocation_started_ns": 267268865220540,
+    "archive_sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f",
+    "backend_stopped_on_parent_death": true,
+    "damaged_journal_sha256": "3347518cb277b16bf7adc787a9efdb18d4873b1e3f3346b934bac14c91819873",
+    "evidence_class": "MEASURED_RECOVERY_CONTROL",
+    "finished_ns": 286236858831214,
+    "observed_requests_before_crash": 2,
+    "original_attempt_id": "attempt-cc513b5d391e4bb3bea79ce3ebb22a91",
+    "original_attempt_unchanged": true,
+    "original_journal_sha256": "43b91dd65a8490ffc120d95dc3a68f8a71295da63c0c74c5b3869fe3433e551e",
+    "recipe_sha256": "46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506",
+    "replacement_attempt_id": "attempt-069fb03c85f744e18b7d17139ba5d6cb",
+    "replacement_requests": 8,
+    "resume_exit_code": -2,
+    "retained_attempt_count": 2,
+    "retained_observed_requests": 10,
+    "schema_version": 2,
+    "scope": "Intentional crash, torn-journal repair, same-boot reconciliation and first-cell restart using the real packaged CLI/model; not a completed extra comparison.",
+    "started_ns": 286218354752463,
+    "status": "PASS",
+    "stop_semantics": "SIGINT after first replacement terminal; graceful cancellation or KeyboardInterrupt accepted only after final inventory reconciliation",
+    "study_schema_version": 3,
+    "successful_replacement_native_requests": 8,
+    "unique_terminal_ids": true,
+    "within_original_allocation": true
+  }
+}

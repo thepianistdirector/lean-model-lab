@@ -1,0 +1,827 @@
+{
+  "status": "KNOWN_HISTORICAL_NORMALIZATION_FAILURE_CONFIRMED",
+  "rows": [
+    {
+      "request_id": "r000",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        12987,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        12987,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 2,
+      "native_terminal_reported_prompt_tokens": 74,
+      "native_terminal_new_input_tokens": 74,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "a5e37d7b7d8785fdbe4aa0dbe15d02ab478db05ed81eb1611dcbe86ffff16264"
+    },
+    {
+      "request_id": "r001",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        5469,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        5469,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 2,
+      "native_terminal_reported_prompt_tokens": 122,
+      "native_terminal_new_input_tokens": 122,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "c1937e7bc74ff53adc8283ac5c003e5f41a445bb9265a715a933b0c2d2f1b004"
+    },
+    {
+      "request_id": "r002",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        48,
+        51326,
+        6126,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        48,
+        51326,
+        6126,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 186,
+      "native_terminal_new_input_tokens": 186,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "31e0f1743814a8709571f8c854c93d96f4d38555af44d32a51f72939d8f356d8"
+    },
+    {
+      "request_id": "r003",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        48,
+        33536,
+        12545,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        48,
+        33536,
+        12545,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 314,
+      "native_terminal_new_input_tokens": 314,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "cdb7372a4a7958c30f914853aa33e9ef0c54aab630e47b62822b18c78433bd6a"
+    },
+    {
+      "request_id": "r004",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        17845,
+        13485,
+        57,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        17845,
+        13485,
+        57,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 74,
+      "native_terminal_new_input_tokens": 74,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "6d5a47310d535f85f5074ab27877967372157ed014bf17a559576652a852b6cc"
+    },
+    {
+      "request_id": "r005",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        54,
+        59272,
+        3506,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        54,
+        59272,
+        3506,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 122,
+      "native_terminal_new_input_tokens": 122,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "99af13a417e9fc6612e7f94d0c36bc9517530d80135c948d03d870c25cf85cd6"
+    },
+    {
+      "request_id": "r006",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        17602,
+        8276,
+        35,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        17602,
+        8276,
+        35,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 186,
+      "native_terminal_new_input_tokens": 186,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "0788c202c23deff79d04110dff8610b5ba11454a2db22df484ac2b15aea04249"
+    },
+    {
+      "request_id": "r007",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        44,
+        6076,
+        1911,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        44,
+        6076,
+        1911,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 314,
+      "native_terminal_new_input_tokens": 314,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "69be1ad35007447af2d212ebb318d54e6dd80a87cd805dc229153277d2f5072b"
+    },
+    {
+      "request_id": "r008",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        12987,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        12987,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 2,
+      "native_terminal_reported_prompt_tokens": 75,
+      "native_terminal_new_input_tokens": 75,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "241d650980fa0197e60786f83ce4758e202d85992412ecd8cf1badfaa01c3072"
+    },
+    {
+      "request_id": "r009",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        53725,
+        42,
+        66138,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        53725,
+        42,
+        66138,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 122,
+      "native_terminal_new_input_tokens": 122,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "af241399f0718ecf524d8edb628774768310ab1f8413ab2e03ffc93a16f3002d"
+    },
+    {
+      "request_id": "r010",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        57447,
+        13095,
+        47,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        57447,
+        13095,
+        47,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 186,
+      "native_terminal_new_input_tokens": 186,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "96f3ffd27139e47e05137efde534185e5fa4f5b071c22a6c0ae1d98c0ab8daad"
+    },
+    {
+      "request_id": "r011",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        15,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        15,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 11,
+      "native_terminal_reported_prompt_tokens": 314,
+      "native_terminal_new_input_tokens": 314,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "f8af7ec6d9395e841d20b7733c1fd4eee870409b68e5e85f6c6e21862195b1d8"
+    },
+    {
+      "request_id": "r012",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        63787,
+        16381,
+        39,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        63787,
+        16381,
+        39,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 74,
+      "native_terminal_new_input_tokens": 74,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "83da0d280e8fbaea74bc2f5f537a12995fed289df562636ed003f122163ddd01"
+    },
+    {
+      "request_id": "r013",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        38,
+        42,
+        16028,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        38,
+        42,
+        16028,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 121,
+      "native_terminal_new_input_tokens": 121,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "34fdfdc984ab55412e194f196c3bc200d5de725b8932a080e38b1eea23abcadb"
+    },
+    {
+      "request_id": "r014",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        48,
+        23236,
+        48,
+        35,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        48,
+        23236,
+        48,
+        35,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 5,
+      "native_terminal_reported_prompt_tokens": 187,
+      "native_terminal_new_input_tokens": 187,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "977ceee18524489d42e08e7ef365885b0200ec295cace670b14389cddaa3560f"
+    },
+    {
+      "request_id": "r015",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        4086,
+        11287,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        4086,
+        11287,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 3,
+      "native_terminal_reported_prompt_tokens": 313,
+      "native_terminal_new_input_tokens": 313,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "82a7f1d4fd395c772d67b33d25c0d5c4519dcf88e48e3a79269a7cee422ad382"
+    },
+    {
+      "request_id": "r016",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        32,
+        7612,
+        57,
+        47,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        32,
+        7612,
+        57,
+        47,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 5,
+      "native_terminal_reported_prompt_tokens": 75,
+      "native_terminal_new_input_tokens": 75,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "6c15f02e854b3c8d23c8448b0c69d4cea7194cdf9697555fdda53cefdd16e872"
+    },
+    {
+      "request_id": "r017",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        41,
+        2034,
+        16381,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        41,
+        2034,
+        16381,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 122,
+      "native_terminal_new_input_tokens": 122,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "f437d3799068e14b111db53e94f5a2ad8c959ae2152e6c6bd9ad1a4da66cc994"
+    },
+    {
+      "request_id": "r018",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        37,
+        5262,
+        48,
+        42,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        37,
+        5262,
+        48,
+        42,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 5,
+      "native_terminal_reported_prompt_tokens": 187,
+      "native_terminal_new_input_tokens": 187,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "9764488c9736a9c6115ae5bda547fd75889eb7dd5d8984b8f3da36ae8b2814c5"
+    },
+    {
+      "request_id": "r019",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        12987,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        12987,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 2,
+      "native_terminal_reported_prompt_tokens": 314,
+      "native_terminal_new_input_tokens": 314,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "4842e4a0a1f9a9e97bd9e1854efc43baa19d75f78521660675b731718405821c"
+    },
+    {
+      "request_id": "r020",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        5865,
+        36,
+        2941,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        5865,
+        36,
+        2941,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 73,
+      "native_terminal_new_input_tokens": 73,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "104f46c813783f4dc8ad0186b72e1b38b851332e8c8ff9c5673105aab6c6cd63"
+    },
+    {
+      "request_id": "r021",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        68316,
+        48,
+        65008,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        68316,
+        48,
+        65008,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 122,
+      "native_terminal_new_input_tokens": 122,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "834fae8e07b0f7db3f9b7a385df5d713b901822c6fa132a2db46d75f01063c52"
+    },
+    {
+      "request_id": "r022",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        8281,
+        41,
+        7268,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        8281,
+        41,
+        7268,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 186,
+      "native_terminal_new_input_tokens": 186,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "36c6f0e595e214e0a2f7e6a1d64a9ce12acf7e395908d0814c15a127ba53455b"
+    },
+    {
+      "request_id": "r023",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        53,
+        3256,
+        23236,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        53,
+        3256,
+        23236,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 314,
+      "native_terminal_new_input_tokens": 314,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "24dfa46cf0c837491da4d613cde96eace24750f02737f6c3398f8f82f305b286"
+    },
+    {
+      "request_id": "r024",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        12987,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        12987,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 2,
+      "native_terminal_reported_prompt_tokens": 74,
+      "native_terminal_new_input_tokens": 74,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "c44123014801c393afd0a5948d546199282f425249b7167dd8e7651e382ae7fe"
+    },
+    {
+      "request_id": "r025",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        7268,
+        41664,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        7268,
+        41664,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 3,
+      "native_terminal_reported_prompt_tokens": 121,
+      "native_terminal_new_input_tokens": 121,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "b290caf7d9465bfce69db0d8936b56865f918d290d692423b00a8299ec70f273"
+    },
+    {
+      "request_id": "r026",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        12987,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        12987,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 2,
+      "native_terminal_reported_prompt_tokens": 186,
+      "native_terminal_new_input_tokens": 186,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "3b4417e247bd1efc67fadc580b3b43cef0943687f563e3966433210d11defa4a"
+    },
+    {
+      "request_id": "r027",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        12987,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        12987,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 2,
+      "native_terminal_reported_prompt_tokens": 314,
+      "native_terminal_new_input_tokens": 314,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "67351138bf755801a0954a5b75c5742a2994433385a52f5ba4a33130dc4eef18"
+    },
+    {
+      "request_id": "r028",
+      "retained_status": "FAILED",
+      "normalized_tokens": [
+        0,
+        0,
+        1911,
+        38,
+        2801,
+        151645
+      ],
+      "actual_stream_generated_token_ids": [
+        1911,
+        38,
+        2801,
+        151645
+      ],
+      "progress_sentinel_token_ids": [
+        0,
+        0
+      ],
+      "native_terminal_count": 1,
+      "native_terminal_reported_generated_tokens": 4,
+      "native_terminal_reported_prompt_tokens": 74,
+      "native_terminal_new_input_tokens": 74,
+      "native_terminal_reused_input_tokens": 0,
+      "raw_sha256": "970d71bd5f6f34bf927dc85c6574a47a9d42ff94bf373d7c1c361ff816171870"
+    },
+    {
+      "request_id": "r029",
+      "retained_status": "CANCELLED",
+      "normalized_tokens": [
+        0
+      ],
+      "actual_stream_generated_token_ids": [],
+      "progress_sentinel_token_ids": [
+        0
+      ],
+      "native_terminal_count": 0,
+      "native_terminal_reported_generated_tokens": null,
+      "native_terminal_reported_prompt_tokens": null,
+      "native_terminal_new_input_tokens": null,
+      "native_terminal_reused_input_tokens": null,
+      "raw_sha256": "09fcbb7119d8e63db4a01ed65e1bbadec78feae5ea2e88892533e414ead18433"
+    }
+  ],
+  "observed_failed_requests": 30,
+  "missing_requests": 98,
+  "raw_terminal_reported_generated_tokens": 110,
+  "raw_terminal_reported_prompt_tokens": 4946,
+  "scope": "Descriptive reconstruction of existing raw terminal counters in the historical failed normalization attempt. These counters show work occurred; they do not relabel protocol-failed observations as successful or complete a missing paired study. Original normalized generated_tokens remain unknown, as retained reports declare."
+}

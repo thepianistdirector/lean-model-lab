@@ -1,0 +1,75 @@
+{
+  "artifact": {
+    "bytes": 185633,
+    "sha256": "3fcd61d577769c16c2a3de477902ecb884469ffcd515995df689a6543bccdd06",
+    "status": "LOCAL_CANDIDATE_NOT_PUBLISHED",
+    "version": "1.0.0.dev0"
+  },
+  "checks": [
+    {
+      "check": "deterministic_manifest_and_implementation_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "create_trace",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "validate_trace",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "refuse_trace_overwrite",
+      "exit_code": 2,
+      "status": "PASS"
+    },
+    {
+      "check": "evaluate_fixtures",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "reject_missing_request",
+      "exit_code": 2,
+      "status": "PASS"
+    },
+    {
+      "check": "inspect_complete_inventory",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "report_complete_inventory",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "detect_torn_journal",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "reject_unreconciled_report",
+      "exit_code": 2,
+      "status": "PASS"
+    },
+    {
+      "check": "recover_journal",
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "inspect_recovered_inventory",
+      "exit_code": 0,
+      "status": "PASS"
+    }
+  ],
+  "evidence_class": "TEST_FIXTURE",
+  "implementation_sha256": "d45525722e010a870743421119ece2dc35542d52e38e076f9f90c9816c34b615",
+  "measured_claim_eligible": false,
+  "python": "3.12.14",
+  "schema_version": 1,
+  "scope": "locally built package on the development host; no model inference or external reproduction"
+}

@@ -1,0 +1,307 @@
+{
+  "status": "PASS",
+  "checked_local_links": 50,
+  "missing": [],
+  "checks": [
+    {
+      "package": "quality",
+      "entrypoint": "docs/research/quality-study/confirmation-14b/manuscript.md",
+      "target": "protocol.json",
+      "exists": true
+    },
+    {
+      "package": "quality",
+      "entrypoint": "docs/research/quality-study/confirmation-14b/manuscript.md",
+      "target": "publication/figures/quality-gates.png",
+      "exists": true
+    },
+    {
+      "package": "quality",
+      "entrypoint": "docs/research/quality-study/confirmation-14b/manuscript.md",
+      "target": "publication/requests.csv",
+      "exists": true
+    },
+    {
+      "package": "quality",
+      "entrypoint": "docs/research/quality-study/confirmation-14b/manuscript.md",
+      "target": "publication/output-differences.csv",
+      "exists": true
+    },
+    {
+      "package": "quality",
+      "entrypoint": "docs/research/quality-study/confirmation-14b/manuscript.md",
+      "target": "publication/figures/paired-effects.png",
+      "exists": true
+    },
+    {
+      "package": "quality",
+      "entrypoint": "docs/research/quality-study/confirmation-14b/manuscript.md",
+      "target": "publication/figures/latency-distributions.png",
+      "exists": true
+    },
+    {
+      "package": "quality",
+      "entrypoint": "docs/research/quality-study/confirmation-14b/manuscript.md",
+      "target": "../manuscript.md",
+      "exists": true
+    },
+    {
+      "package": "quality",
+      "entrypoint": "docs/research/quality-study/confirmation-14b/manuscript.md",
+      "target": "../methodology.md",
+      "exists": true
+    },
+    {
+      "package": "quality",
+      "entrypoint": "docs/research/quality-study/confirmation-14b/manuscript.md",
+      "target": "../rights-and-build.md",
+      "exists": true
+    },
+    {
+      "package": "quality",
+      "entrypoint": "docs/research/quality-study/confirmation-14b/manuscript.md",
+      "target": "PORTABLE-REANALYSIS.md",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "figures/development/controller-calibration.png",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "figures/confirmation/confirmation-quality-and-cost.png",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "figures/confirmation/confirmation-four-outcomes.png",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "figures/confirmation/slice-family-outcomes.png",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "figures/development/matched-budget-development-control.png",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "publication/artifacts/confirmation-illustrations-final/harmful-r009.md",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "publication/artifacts/confirmation-illustrations-final/beneficial-r003.md",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "publication/artifacts/confirmation-illustrations-final/selection-receipt.json",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "publication/tables/final/cost-scopes.csv",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "publication/tables/final/memory-and-timing-summary.json",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "publication/tables/final/analysis.json",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "PUBLICATION-RERUN.md",
+      "exists": true
+    },
+    {
+      "package": "candidate",
+      "entrypoint": "docs/research/candidate-study/manuscript.md",
+      "target": "publication/evidence-manifest-final.json",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "protocol.md",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "generator-namespace-check.json",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "reproduce.md",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "tables/summary.json",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "tables/requests.csv",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "figures/quality.png",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "figures/d1-small-reuse24-cache.png",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "figures/d2-large-reuse24-cache.png",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "figures/h1-small-reuse24-table-effects.png",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "figures/h2-small-reuse64-table-effects.png",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "figures/h3-large-reuse24-table-effects.png",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "figures/d1-small-reuse24-cost.png",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "figures/d2-large-reuse24-cost.png",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "figures/h2-small-reuse64-cost.png",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "figures/h3-large-reuse24-cost.png",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "provenance/final-campaign-status.json",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "export-reanalysis-check.json",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "portable-relocation-check.json",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "PUBLICATION-RERUN.md",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "analyze.py",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "tables/cases.csv",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "tables/pairs.csv",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "tables/attempts.csv",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "tables/summary.json",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "plot.py",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "protocol.md",
+      "exists": true
+    },
+    {
+      "package": "systems",
+      "entrypoint": "docs/research/systems-study/manuscript.md",
+      "target": "reproduce.md",
+      "exists": true
+    }
+  ]
+}

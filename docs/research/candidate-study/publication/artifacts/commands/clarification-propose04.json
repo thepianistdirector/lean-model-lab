@@ -1,0 +1,26 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "research",
+    "propose",
+    "--mechanism",
+    "explicit-grammar-v2",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/clarification-proposal04.json"
+  ],
+  "exit_code": 0,
+  "finished_ns": 287894047661324,
+  "label": "clarification-propose04",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 287893934032655,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 540,
+    "sha256": "7a0fde56abd69f7d0636a0102f0432778552a1def59a6ec92f5a8ce1072d51fe"
+  }
+}

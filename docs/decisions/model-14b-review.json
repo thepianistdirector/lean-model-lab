@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "status": "REVIEWED_WITHIN_OWNER_AUTHORIZED_MODEL_CHANGE",
+  "reviewed_utc": "2026-09-08",
+  "profile": {
+    "profile_id": "qwen2.5-14b-instruct-fp16-v1",
+    "repository": "Qwen/Qwen2.5-14B-Instruct-GGUF",
+    "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
+    "precision": "FP16",
+    "license": "Apache-2.0",
+    "license_sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+    "architecture": "qwen2",
+    "entrypoint": "qwen2.5-14b-instruct-fp16-00001-of-00008.gguf",
+    "files": [
+      {
+        "filename": "qwen2.5-14b-instruct-fp16-00001-of-00008.gguf",
+        "sha256": "18ccd380458642716373134dd9aeb194bf11b97085c5ce78aaec768f0f2a51aa",
+        "bytes": 3891239200
+      },
+      {
+        "filename": "qwen2.5-14b-instruct-fp16-00002-of-00008.gguf",
+        "sha256": "d55f0a9808ebe5fde158e904884dd3f227e10d36df3598c9582f1bd8a84d0523",
+        "bytes": 3995566912
+      },
+      {
+        "filename": "qwen2.5-14b-instruct-fp16-00003-of-00008.gguf",
+        "sha256": "db6e3e4466ece09a65577a1611ff569f751d2677dd4ae4b21c2156e6db8e3513",
+        "bytes": 3995566976
+      },
+      {
+        "filename": "qwen2.5-14b-instruct-fp16-00004-of-00008.gguf",
+        "sha256": "bf402e7f26ed075863a2cf1c203f6f81a88224a8dc27f3a1e12c07f4a15716ff",
+        "bytes": 3995608064
+      },
+      {
+        "filename": "qwen2.5-14b-instruct-fp16-00005-of-00008.gguf",
+        "sha256": "f17a7615d7518b93072e6cde7b382e47dc142a81e59a4595d4b00104dce78f8a",
+        "bytes": 3979867360
+      },
+      {
+        "filename": "qwen2.5-14b-instruct-fp16-00006-of-00008.gguf",
+        "sha256": "dbbaf1f47f920ad0aab9e1e17cd3d40e5f7b0815e584e7992766b5f3180f776f",
+        "bytes": 3995566976
+      },
+      {
+        "filename": "qwen2.5-14b-instruct-fp16-00007-of-00008.gguf",
+        "sha256": "62bd5a129ed80ffdab24158e8db4ac54f72f8fbef0283c2cc3eb05a3be6f8a08",
+        "bytes": 3995546432
+      },
+      {
+        "filename": "qwen2.5-14b-instruct-fp16-00008-of-00008.gguf",
+        "sha256": "4a5e06a3d286001c3cfc95aa2fe991db58062f8775bfaeca7a66e43d980b51b6",
+        "bytes": 1698754944
+      }
+    ]
+  },
+  "source_api_metadata_sha256": "1e003dd2d96bd78b27e91237fbc5a6c76759cbdfd6d387f753319835842b4388",
+  "readme_sha256": "04f07e2206495d2aaf71701e3b87790553b06468a9c969f56e76972f68192d49",
+  "rights_source": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF/blob/b466e1f8c07172155743e8e1307507d8a4f91fbd/LICENSE",
+  "model_card": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF/blob/b466e1f8c07172155743e8e1307507d8a4f91fbd/README.md",
+  "backend": "Previously admitted llama.cpp v0.2.0 exact source+GCC8 patch; its existing model loader reads all GGUF split filenames and split counts, no merge or new tool required. Existing binary may be reused only after hash/version/profile receipt checks.",
+  "security": "Public ungated official inert GGUF data; no transformers/pickle/model remote code, no HF client or new library installation; sequential HTTPS exact shard retrieval with reviewed redirect allowlist and byte/SHA checks. No weight redistribution authorized.",
+  "transitive_change": "No new production dependency or compiler; model parameter/tensor sizes change. Official card describes 48 layers, GQA40query/8KVheads, Qwen2 architecture. ChatML render unchanged; embedded tokenizer and every shard are bound by hashes.",
+  "feasibility": "29,547,716,864 weight bytes; additional KV/workspace/coordinator memory must fit60,000,000,000 aggregate resident bytes. Start with2048context/slot and<=12compute threads, max4slots in planned measurement; model-specific quality and speed NOT YET TESTED. Shared host available memory183,961,280kB,32CPU,load0.2; availability is not exclusive reservation.",
+  "approval": "Lucas explicitly authorized changing project inference model up to60GBRAM/12threads and a new200GBdisk/12hour local autonomous allocation on2026-09-08. This is selection within that authorization, not assumed publication permission.",
+  "recovery": "A failed/missing/modified shard fails before inference; downloads kept as partial until exactsize+SHA; no silently enlarged wall/disk budget."
+}

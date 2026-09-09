@@ -1,0 +1,73 @@
+{
+  "evidence_manifest_sha256": "ca56cafea92b732a6c179ae168f0acb21eba20295a820c9e55489a15df11f111",
+  "files": [
+    {
+      "bytes": 40820,
+      "path": "figures/latency-distributions.pdf",
+      "sha256": "5659b4357cc943cfebd949246504b6cb0e0b631c8c45445de9962bccbffba626",
+      "source_csv": "requests.csv",
+      "source_csv_sha256": "1ecccedf665f612b4ef0cd349c6baaaa75c5989335519f77362270416f39bc92"
+    },
+    {
+      "bytes": 150171,
+      "path": "figures/latency-distributions.png",
+      "sha256": "b71c59cba9568d5c99a7789fd5c0ed0fb3a8749479d944aba4b4e5ba64f3b35e",
+      "source_csv": "requests.csv",
+      "source_csv_sha256": "1ecccedf665f612b4ef0cd349c6baaaa75c5989335519f77362270416f39bc92"
+    },
+    {
+      "bytes": 133454,
+      "path": "figures/latency-distributions.svg",
+      "sha256": "c8f2c904ec776f9b2c7c61822f48e057f201c4629b91717f4a2f43c82e5e155f",
+      "source_csv": "requests.csv",
+      "source_csv_sha256": "1ecccedf665f612b4ef0cd349c6baaaa75c5989335519f77362270416f39bc92"
+    },
+    {
+      "bytes": 26710,
+      "path": "figures/paired-effects.pdf",
+      "sha256": "c5e916572d2a513a32cb5db73beb57e4bce7db705d66a0338b5cf4f883db79ef",
+      "source_csv": "pairs.csv",
+      "source_csv_sha256": "76b9e62c0d4c190466d0593c5491a698002f92137506a824c99c07c2f0b0b4cc"
+    },
+    {
+      "bytes": 85429,
+      "path": "figures/paired-effects.png",
+      "sha256": "3143467d3368c588e7100772f1fa500f43c05387c4d572b1cd3816bdc5b1535a",
+      "source_csv": "pairs.csv",
+      "source_csv_sha256": "76b9e62c0d4c190466d0593c5491a698002f92137506a824c99c07c2f0b0b4cc"
+    },
+    {
+      "bytes": 74695,
+      "path": "figures/paired-effects.svg",
+      "sha256": "2e93edbfc8c21a9aaab120c747e4054876c382658794e8c47358d87ba324efee",
+      "source_csv": "pairs.csv",
+      "source_csv_sha256": "76b9e62c0d4c190466d0593c5491a698002f92137506a824c99c07c2f0b0b4cc"
+    },
+    {
+      "bytes": 19450,
+      "path": "figures/quality-gates.pdf",
+      "sha256": "d61f3ee0f7df81fa68dafae30656461004ccadf8c625759402ed8d267788d5d9",
+      "source_csv": "attempts.csv",
+      "source_csv_sha256": "1d9e324cd78929829dcdd338649ac29b5ecadaad1d0b7000a169922528045628"
+    },
+    {
+      "bytes": 111761,
+      "path": "figures/quality-gates.png",
+      "sha256": "58df39ec6f5c8950202e68eba26d56a63f984d8adaf6d3e5c95813bab11f556d",
+      "source_csv": "attempts.csv",
+      "source_csv_sha256": "1d9e324cd78929829dcdd338649ac29b5ecadaad1d0b7000a169922528045628"
+    },
+    {
+      "bytes": 62698,
+      "path": "figures/quality-gates.svg",
+      "sha256": "d5dc10ff49a4a98cf6ecd9f90a344d65e1f1a698649351f435e46b5a9e9e92bc",
+      "source_csv": "attempts.csv",
+      "source_csv_sha256": "1d9e324cd78929829dcdd338649ac29b5ecadaad1d0b7000a169922528045628"
+    }
+  ],
+  "relative_path_base": "Analysis output directory containing this manifest.",
+  "renderer_script": "portable_reanalysis-final.py",
+  "renderer_script_sha256": "637f86dfd005a4e33abc8c6407a63a0c643d48d3839a12920f9349f7ba716375",
+  "schema_version": 1,
+  "visual_review": "PENDING_SEPARATE_REVIEW_OF_EXPORTED_FILES"
+}

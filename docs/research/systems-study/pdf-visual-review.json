@@ -1,0 +1,240 @@
+{
+  "status": "PASS_ALL_14_ACTUAL_PDF_PAGES_VISUALLY_REVIEWED",
+  "reviewed_utc": "2026-09-08T21:24:43.281858+00:00",
+  "command": [
+    ".cache/research-plot-env/bin/python",
+    "docs/research/quality-study/confirmation-14b/render_pdf_for_review.py",
+    "--dependency-directory",
+    ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-dependencies",
+    "--figure-directory",
+    "docs/research/systems-study/figures",
+    "--output",
+    ".cache/v1-investigations-20260908/systems/final-pdf-previews"
+  ],
+  "started_ns": 295783445707772,
+  "finished_ns": 295784352523426,
+  "returncode": 0,
+  "renderer_helper_sha256": "448553de073943552f33034651621ead5b3af717fc59b2d5eee7a9594c7e7c97",
+  "renderer_binary_sha256": "224f8ece41f7e35891f11c10073b7b7062d7a18e9ef870586162a85c46130f7d",
+  "scope": "Author visual artifact QA with an existing dependency; no dependency installation, model execution, scientific reanalysis or independent replication.",
+  "renderer": {
+    "renderer": "pypdfium2",
+    "version": "5.13.0",
+    "scope": "Local visual QA only; rendered output still requires visual inspection. No model execution."
+  },
+  "renderer_binary_source": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-dependencies/pypdfium2_raw/libpdfium.so",
+  "renderer_binary_bytes": 7669256,
+  "renderer_version_record": {
+    "major": 153,
+    "minor": 0,
+    "build": 7999,
+    "patch": 0,
+    "n_commits": 0,
+    "hash": null,
+    "origin": "pdfium-binaries",
+    "flags": []
+  },
+  "renderer_package_inventory": "docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-file-inventory.json",
+  "method": "The retained helper asserts each PDF has exactly one page, renders its actual page with PDFium at scale 1.8, saves a PNG preview and closes resources. Every one of the 14 newly rendered preview files was opened and visually inspected after this command completed.",
+  "figure_bytes_unchanged": true,
+  "unchanged_28_asset_map_sha256": "3502d72de5f5b8d3e877fef8a605a8fa9737b727e6753417289897c5a836aa40",
+  "preview_distribution": "Preview PNGs remain in the private local QA directory; the distribution retains the reviewed original PDFs and PNGs plus this exact hash record. No additional binary preview assets are shipped.",
+  "files": [
+    {
+      "pdf_source": "docs/research/systems-study/figures/d1-small-reuse24-cache.pdf",
+      "pdf_sha256": "6cdf0d2cf0163fa7d61b46f7e780a2e644998ffa0bddf74802dbf36f138fbd3f",
+      "pdf_bytes": 16258,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/d1-small-reuse24-cache.png",
+      "rendered_preview_sha256": "fe9350022b0d27f30d21b296cf132cdb75b9cd51f573bc1344ec12c63ac02297",
+      "rendered_preview_bytes": 114374,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/d1-small-reuse24-cost.pdf",
+      "pdf_sha256": "98851be2a53417b1abcab016395d4fee0e62b603f23e72c6070f135f3ea555a5",
+      "pdf_bytes": 40165,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/d1-small-reuse24-cost.png",
+      "rendered_preview_sha256": "ff3a84d38fd14da9d4d8df567bbaffafb8a3878c266e334b4e6f16f929159a19",
+      "rendered_preview_bytes": 139998,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/d2-large-reuse24-cache.pdf",
+      "pdf_sha256": "9512a5e275a5d76b421ae9ef4e0ab4d18b1d94215647ca40a67ea3e36ca0feb7",
+      "pdf_bytes": 16270,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/d2-large-reuse24-cache.png",
+      "rendered_preview_sha256": "9e2fdd53cea5a461dfdfc77922396bfa6bdc98a9a194d2d8f88168e1f2f3fa13",
+      "rendered_preview_bytes": 115157,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/d2-large-reuse24-cost.pdf",
+      "pdf_sha256": "6487e05b49eb91af3bbb16d7355f6265793b4b31759b2b9e9fd3fda10490c8d3",
+      "pdf_bytes": 40227,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/d2-large-reuse24-cost.png",
+      "rendered_preview_sha256": "e7cbc0dc89b8d0121deb0ee11255de83d6ca68ba9b74bb238ca2cda06c57dbb4",
+      "rendered_preview_bytes": 177139,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/h1-small-reuse24-cache.pdf",
+      "pdf_sha256": "2fcb5c6a6cc7f9085329f7dc5f437af5c5cce799ed7f84afa83c1dac7325282f",
+      "pdf_bytes": 16138,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/h1-small-reuse24-cache.png",
+      "rendered_preview_sha256": "a444c2e74bcd55b856d759c065b979e7cfbc8ab6b234aad6914ed39a33921d24",
+      "rendered_preview_bytes": 111028,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/h1-small-reuse24-cost.pdf",
+      "pdf_sha256": "f113172d7624df2d993150c219eaae59e12968cd7c4a2a517343ee1fd7f0620f",
+      "pdf_bytes": 40133,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/h1-small-reuse24-cost.png",
+      "rendered_preview_sha256": "b09f3ca7297ff1052c4e62a6e6653c1a9e3b41e52209d8c84d43a0321e8269b9",
+      "rendered_preview_bytes": 108855,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/h1-small-reuse24-table-effects.pdf",
+      "pdf_sha256": "f5ff10a2d359ce12e8fee83b820f4eaf5742545d47ff6c4a34aad0ef76a46128",
+      "pdf_bytes": 44422,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/h1-small-reuse24-table-effects.png",
+      "rendered_preview_sha256": "caa338dc586144913dc49742df1ffa08b73924e738a74f652c9df5e2462083c4",
+      "rendered_preview_bytes": 250907,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/h2-small-reuse64-cache.pdf",
+      "pdf_sha256": "eede452145c0799ec02d583daefcec45b462cc296c59c54883fefdc047fb69f9",
+      "pdf_bytes": 16172,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/h2-small-reuse64-cache.png",
+      "rendered_preview_sha256": "52747a28af0efc412f69caf1b19851b601674b7d284f69f0f3c738f92b01d07d",
+      "rendered_preview_bytes": 120160,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/h2-small-reuse64-cost.pdf",
+      "pdf_sha256": "b52b9949e90dd2be298045d4cdcd173f4174f3aa74ea5968f5e9c4dd5bed4cfb",
+      "pdf_bytes": 40206,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/h2-small-reuse64-cost.png",
+      "rendered_preview_sha256": "b7993a066d7bdb5187773c826429b8e399108a2a32611e463ee407fde569fb22",
+      "rendered_preview_bytes": 109207,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/h2-small-reuse64-table-effects.pdf",
+      "pdf_sha256": "22a7b7a052997029c3b479a59813b3b271a97fd79f779ea8c9801c00bdf060e5",
+      "pdf_bytes": 44239,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/h2-small-reuse64-table-effects.png",
+      "rendered_preview_sha256": "acf1f6881f5f5ee2737c586b06957b2ba18f3a14d075eadc1a0285c3810add06",
+      "rendered_preview_bytes": 254175,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/h3-large-reuse24-cache.pdf",
+      "pdf_sha256": "de0c7ba0cff13f637f8d4a45fdd3b98330e67251c254c077f57771449978e300",
+      "pdf_bytes": 16152,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/h3-large-reuse24-cache.png",
+      "rendered_preview_sha256": "ae422a81e06437c93d8183625d22f60bb7d71af11faad18a2cee421239ea60b2",
+      "rendered_preview_bytes": 111892,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/h3-large-reuse24-cost.pdf",
+      "pdf_sha256": "2c850b2a6b94cb5d2087361508f4195ca7971d4cd67cfa0670233994c499378a",
+      "pdf_bytes": 40240,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/h3-large-reuse24-cost.png",
+      "rendered_preview_sha256": "c1c9491f0856219b465b07c0a52de157e9d07954f7527c32b7032f40f4638f4c",
+      "rendered_preview_bytes": 116336,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/h3-large-reuse24-table-effects.pdf",
+      "pdf_sha256": "09eaf2b1010caff7494e8bdf055fb36b359bc64aa4226d53fa98e239c978ed98",
+      "pdf_bytes": 44420,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/h3-large-reuse24-table-effects.png",
+      "rendered_preview_sha256": "77f83af31e9c66423030fb057c61fe7b159157ecd1d8fbbc86708824d30d1ed4",
+      "rendered_preview_bytes": 240408,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    },
+    {
+      "pdf_source": "docs/research/systems-study/figures/quality.pdf",
+      "pdf_sha256": "bf361c7203b0ed890107893143b1c563c0d777c907d29ee4c1479ceffe86701a",
+      "pdf_bytes": 16059,
+      "page_count": 1,
+      "rendered_preview_retained_privately": ".cache/v1-investigations-20260908/systems/final-pdf-previews/quality.png",
+      "rendered_preview_sha256": "6079ba52e4a1e7ce023970d9a08cd7c880cdba459e7d9f189b45fe619ee04b12",
+      "rendered_preview_bytes": 120135,
+      "visual_review": "PASS_ACTUAL_PDF_PAGE_VISUALLY_INSPECTED",
+      "checks": [
+        "All labels, captions, units and legends render without clipping or overlap.",
+        "Actual PDF page preserves plotted values, arm encodings, quality gates and ineligibility labels."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "status": "NEW_PROSPECTIVE_NEGATIVE_INVESTIGATION_CONTRACT",
+  "frozen_ns": 288409276587879,
+  "closed_branches": [
+    "00-feasibility-rule.json",
+    "01-clarification-rule.json"
+  ],
+  "authorization": "Root separately approved the exact1920-request negative investigation after both positive-advance branches closed. Their failures remain retained, with no new prompt/model/context/seed search.",
+  "question": "Can exact symbolic dependency preservation support a useful model-specific harm gate on fresh mixed record graphs, and where do semantic correctness, actual model answers, fixed-output routing ceilings and complete costs diverge?",
+  "classification": "Candidate-mechanism negative/engineering investigation; substantive value assessed from actual results, no guaranteed publication worth or novelty.",
+  "archive": ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+  "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+  "implementation_sha256": "18c28e8075ebc9e5651bf4e0a66c2fca332480b4834a7342fc49d43775a9ab32",
+  "population": {
+    "model_profile": "qwen2.5-0.5b-instruct-fp16-v2",
+    "grammar": "RECORD-LANGUAGE v1 unchanged",
+    "family": "record-mixed-v1",
+    "context_records": 24,
+    "concurrency": [
+      1
+    ],
+    "threads": 2,
+    "pairs": 2,
+    "pair_order": [
+      "AB",
+      "BA"
+    ],
+    "output_token_cap": 32,
+    "cache": "disabled in every policy"
+  },
+  "studies": [
+    {
+      "name": "negative-fit04",
+      "purpose": "DEVELOPMENT",
+      "split": "development",
+      "requests": 32,
+      "seed": 920260811,
+      "mechanism": "dependency-slice-v1",
+      "native_offered": 128
+    },
+    {
+      "name": "negative-calibration04",
+      "purpose": "DEVELOPMENT",
+      "split": "development",
+      "requests": 32,
+      "seed": 920260812,
+      "mechanism": "dependency-slice-v1",
+      "native_offered": 128
+    },
+    {
+      "name": "negative-budget-control04",
+      "purpose": "DEVELOPMENT",
+      "split": "development",
+      "requests": 32,
+      "seed": 920260811,
+      "mechanism": "matched-budget-slice-v1",
+      "native_offered": 128
+    },
+    {
+      "name": "negative-confirm-slice04",
+      "purpose": "MEASUREMENT",
+      "split": "confirmation",
+      "requests": 128,
+      "seed": 920260813,
+      "mechanism": "dependency-slice-v1",
+      "native_offered": 512
+    },
+    {
+      "name": "negative-confirm-simple04",
+      "purpose": "MEASUREMENT",
+      "split": "confirmation",
+      "requests": 128,
+      "seed": 920260813,
+      "mechanism": "simple-gated-slice-v1",
+      "native_offered": 512
+    },
+    {
+      "name": "negative-confirm-learned04",
+      "purpose": "MEASUREMENT",
+      "split": "confirmation",
+      "requests": 128,
+      "seed": 920260813,
+      "mechanism": "learned-gated-slice-v1",
+      "native_offered": 512
+    }
+  ],
+  "primary_tests": [
+    {
+      "test": "fresh_native_harm",
+      "falsifier": "At least one full-correct/slice-wrong native response with independently checked semantic closure on fresh confirmation tables refutes universal preservation of these model task answers by this certificate. Zero observed harm is not a guarantee.",
+      "denominator": "Every offered request, with all four correctness classes, separately by pair and family."
+    },
+    {
+      "test": "fixed_output_oracle_ceiling",
+      "definition": "Within each repeat independently, a request is oracle-correct iff that repeat full OR slice native output is exact. Never combine outputs across repeats opportunistically. A second conservative ceiling uses (full correct in all repeats) OR (slice correct in all repeats).",
+      "falsifier": "If a ceiling is below95%, no selector limited to those observed outputs can meet95% on that defined population/repetition. This does not rule out other outputs, prompts, checkpoints or learning methods. If it is at least95%, routing remains sufficient in principle; no impossibility claim."
+    },
+    {
+      "test": "trained_gate",
+      "definition": "Actual product depth-two harmful-omission Gini training, separate calibration grid0,.05,.1,.25,.5,1. At least8 accepted, zero observed calibration harm,95% routed calibration accuracy and positive request savings; otherwise ALWAYS_FULL. All-repetition conservative labels, all four classes retained.",
+      "falsifier": "ALWAYS_FULL refusal is this fixed calibration outcome. Matching simple/alwaysslice gives no learned advantage. Failure on confirmation remains failure. No trained-LLM or population guarantee."
+    },
+    {
+      "test": "semantic_selection_control",
+      "definition": "On exactly the32 fit tables, compare actual dependency-slice responses with actual matched-budget-slice responses; each policy has its own same-size full baseline and two balanced pairs. Match record counts, disclose actual token differences, unchanged fixed output caps. No result-driven selection.",
+      "falsifier": "No better actual correctness/harm behavior than matched shortening weakens the practical claim that exact dependency selection matters here. A symbolic answer difference in the deliberately nonsemantic control is expected and disclosed. Development only, not protected confirmation."
+    }
+  ],
+  "descriptive_strata": {
+    "family": [
+      "record-lookup",
+      "reference-chain",
+      "record-updates"
+    ],
+    "closure_records": [
+      "1",
+      "2",
+      "3+"
+    ],
+    "overwritten_writes": [
+      "0",
+      "1+"
+    ],
+    "min_retained_position_permille": [
+      "0-333",
+      "334-666",
+      "667-1000"
+    ],
+    "max_retained_position_permille": [
+      "0-333",
+      "334-666",
+      "667-1000"
+    ],
+    "total_records": "Constant24, no within-study size inference.",
+    "expected_family_counts": {
+      "32": [
+        11,
+        11,
+        10
+      ],
+      "128": [
+        43,
+        43,
+        42
+      ]
+    },
+    "scope": "Marginal descriptive strata only, no outcome-selected bins, significance or independent-repetition assumptions."
+  },
+  "controller_features": [
+    "closure_records",
+    "max_retained_position_permille",
+    "min_retained_position_permille",
+    "overwritten_writes",
+    "total_records"
+  ],
+  "forbidden_predictors": [
+    "expected answer",
+    "raw keys/values",
+    "seed",
+    "request id",
+    "family name",
+    "confirmation outcomes"
+  ],
+  "freezes": [
+    "Exact fit/calibration/control recipes and native training protocol before native labels.",
+    "Seeds/generator/counts above frozen before confirmation generation. Freeze actual fitted controller, then construct all three exact confirmation recipes (recording first population generation/access), then freeze their hashes before any native confirmation or outcome access. Generation is necessary to compute exact recipes and cannot adapt any parameter."
+  ],
+  "quality_and_cost": "Existing95% absolute quality for both arms, zero aggregate pair regression, original5% full-wall improvement/10% tail rules remain unchanged. Every actual request remains offered work. Ineligible timing is descriptive; no positive speedup rescue. Request-cost calibration excludes preparation and is not full-cost evidence. All failed attempts, retries if any, setup/build/search/analysis/training costs remain recorded with overlapping scopes separated.",
+  "budget": {
+    "phase_native_offered": 1920,
+    "prior_closed_native_offered": 64,
+    "total_native_offered": 1984,
+    "maximum_native_offered": 2000,
+    "maximum_actual_native_execution_s": 10800,
+    "prior_native_execution_s": 523.025664774,
+    "original_allocation_start_ns": 267268865220540,
+    "original_deadline_ns": 310468865220540,
+    "heavy_jobs": 1,
+    "fit_timing_rule": "After first completed fit study, project all remaining phase requests at its enclosing product-execution seconds/request multiplied by1.5. Stop before additional native studies if this projection plus actual native execution exceeds10800 seconds or remaining original deadline. No replacement matrix or setting search from outcomes."
+  },
+  "prior_sources": [
+    "https://arxiv.org/abs/2310.04408",
+    "https://arxiv.org/abs/2403.12968",
+    "https://arxiv.org/abs/2509.17338",
+    "https://arxiv.org/abs/2406.18665",
+    "https://arxiv.org/abs/2110.01052",
+    "https://arxiv.org/abs/2208.02814",
+    "https://arxiv.org/abs/2605.17304",
+    "https://github.com/dshakes/distil/blob/main/docs/PAPER.md"
+  ],
+  "claim_limits": "Substantial prior-art overlap; no new architecture, Qwen training, population-risk guarantee, general language compression claim or publication-ready promise. Fixed-output ceilings are conditional and repetitions share tables.",
+  "supersedes_before_execution": {
+    "file": "02-negative-contract04.json",
+    "sha256": "f079894571421cceba84b15f12c489bae56acfa9b5a8b41267411db0c2fd312d",
+    "reason": "Clarify that exact recipe construction may generate and hash the already-frozen confirmation population; all three recipes must precede native confirmation/outcome access. No population or criterion changes."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "energy": "UNAVAILABLE; no sensor",
+  "money": "UNAVAILABLE; no monetary probe",
+  "producer_accounting": {
+    "14b": {
+      "allocation_id": "lean-model-lab-0.4-20260908-01",
+      "attributed_setup_and_attempt_ns": 15642631971669,
+      "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+      "cutoff_ns": 285838453027090,
+      "registered_full_wall_ns": 18569587806550,
+      "scope": "original allocation start through last retained producer observation; all intervening development/idle/prior work remains charged",
+      "status": "RECORDED",
+      "unattributed_coordinator_or_idle_ns": 2926955834881
+    },
+    "confirmation-14b": {
+      "allocation_id": "lean-model-lab-0.4-20260908-01",
+      "attributed_setup_and_attempt_ns": 19288543752052,
+      "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+      "cutoff_ns": 291210012268005,
+      "registered_full_wall_ns": 23941147047465,
+      "scope": "original allocation start through last retained producer observation; all intervening development/idle/prior work remains charged",
+      "status": "RECORDED",
+      "unattributed_coordinator_or_idle_ns": 4652603295413
+    },
+    "development": {
+      "allocation_id": "lean-model-lab-0.4-20260908-01",
+      "attributed_setup_and_attempt_ns": 15746479760936,
+      "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+      "cutoff_ns": 286705871005041,
+      "registered_full_wall_ns": 19437005784501,
+      "scope": "original allocation start through last retained producer observation; all intervening development/idle/prior work remains charged",
+      "status": "RECORDED",
+      "unattributed_coordinator_or_idle_ns": 3690526023565
+    },
+    "legacy-comparison": {
+      "attributed_setup_and_attempt_ns": 1551313644909,
+      "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+      "cutoff_ns": 265187607622260,
+      "registered_full_wall_ns": 2423214019209,
+      "scope": "first retained setup phase through last retained producer observation; includes intervening idle/coordinator work",
+      "status": "RECORDED",
+      "unattributed_coordinator_or_idle_ns": 871900374300
+    },
+    "legacy-protocol-failure": {
+      "attributed_setup_and_attempt_ns": 247610059902,
+      "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+      "cutoff_ns": 263574365322166,
+      "registered_full_wall_ns": 809971719115,
+      "scope": "first retained setup phase through last retained producer observation; includes intervening idle/coordinator work",
+      "status": "RECORDED",
+      "unattributed_coordinator_or_idle_ns": 562361659213
+    }
+  },
+  "producer_boot_count": 1,
+  "reanalysis_elapsed_s": 0.289727214,
+  "reanalysis_started_monotonic_ns": 291420564922585,
+  "scope": "Producer clock cutoffs remain frozen. Current reanalysis-host monotonic time never extends a historical allocation. No all-allocation savings ratio.",
+  "union_scope": "Union of supplied intervals only on one recorded boot; unavailable across distinct boot clocks; not complete campaign total.",
+  "unique_supplied_interval_union_s": 20839.857396961
+}

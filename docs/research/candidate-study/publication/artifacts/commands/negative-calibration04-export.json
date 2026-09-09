@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "tools/export_study.py",
+    ".cache/v1-investigations-20260908/candidate/negative-calibration-study04",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/negative-calibration-export04",
+    "--model-path",
+    "$PROJECT_ROOT/.cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf"
+  ],
+  "exit_code": 0,
+  "finished_ns": 292203567569663,
+  "label": "negative-calibration04-export",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 292202803120506,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 316,
+    "sha256": "0b6d0ba2a8142a714e8965e4e970eedf93ab08c4b8fa6fa20792faffd3f55018"
+  }
+}

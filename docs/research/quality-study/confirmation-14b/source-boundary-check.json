@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "invocation": "python .cache/v1-investigations-20260908/quality/confirmation-14b/source-boundary-check.py",
+  "collector": "tools/build_v1_release_bundle.py:source_snapshot",
+  "collector_sha256": "ae8cec6dffac52ac7f5c15c114bf27197ae5e54c826ad4aa4510216d48ccd820",
+  "scope": "SOURCE_FILES=(); SOURCE_DIRS=(docs/research/quality-study,). Actual collector implementation and validators unchanged. Other studies are outside this scoped check. This receipt and the enclosing inventory can be refreshed after the check; --check-only verifies their final bytes without rewriting the receipt.",
+  "asset_manifest": "docs/research/quality-study/confirmation-14b/quality-source-assets.json",
+  "asset_manifest_sha256": "54d4e4b9fc000aa166d287fafd74116f0316483b64548e9feb8613edf2d9bfd5",
+  "mapped_provenance_files_verified_in_collector_and_against_private_originals": 8,
+  "encoding_derivatives_and_lossless_original_roundtrips_verified": 2,
+  "quality_files_at_check": 155,
+  "missing_files": [],
+  "byte_mismatches": [],
+  "manuscript_sha256": "a3a0fcb886f2ac1de4de1c5cdb1b556c6398c66804b0a70e87f5a515fd15854d"
+}

@@ -1,0 +1,208 @@
+{
+  "status": "COMPLETE_WITH_RETAINED_PRE_INFERENCE_FAILURE",
+  "processes": [
+    {
+      "process": "quality",
+      "offered_native_requests": 512,
+      "receipt": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "error": null,
+        "execution_started_ns": 303259447423580,
+        "exit_code": 0,
+        "finished_ns": 306111035868020,
+        "scope": "Queue/process receipt; successful process exit alone does not establish quality or efficiency.",
+        "started_ns": 303259435355581,
+        "status": "COMPLETED"
+      },
+      "registration": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "recipe_file_sha256": "1bb41c2538cde8652069d10409d17bfc71e5760d2ff18288acb75c0de97bcf79",
+        "scope": "Queued one-time product execution; same allocation, no automatic retries.",
+        "started_ns": 303259435355581
+      },
+      "queue_wait_seconds": 0.012067999,
+      "archive_execution_seconds": 2851.58844444,
+      "queue_to_finish_seconds": 2851.600512439,
+      "retained_files": {
+        "receipt.json": {
+          "sha256": "ee6bf8a56bf2c26c23bc5546ef330d691237c241012c17113011ce7c6903511e",
+          "bytes": 367
+        },
+        "product.log": {
+          "sha256": "5e6af969ddedccfc06f85125abd52cf375f31d591e1e319cbcaafab17f31075c",
+          "bytes": 475
+        },
+        "registration.json": {
+          "sha256": "535d76787dc5bf894b5d759c1c287e614a36886596bd578bea36069edc366b62",
+          "bytes": 317
+        }
+      }
+    },
+    {
+      "process": "candidate-first-admission",
+      "offered_native_requests": 0,
+      "receipt": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "error": null,
+        "execution_started_ns": 306111111493221,
+        "exit_code": 2,
+        "finished_ns": 306117831985180,
+        "scope": "Queue/process receipt; successful process exit alone does not establish quality or efficiency.",
+        "started_ns": 306111102711231,
+        "status": "FAILED_OR_CANCELLED"
+      },
+      "registration": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "recipe_file_sha256": "01b50acbfb0ad51b29bff26f23c27c1420dd2c36f73b682fe3c53881e11f5c75",
+        "scope": "Queued one-time product execution; same allocation, no automatic retries.",
+        "started_ns": 306111102711231
+      },
+      "queue_wait_seconds": 0.00878199,
+      "archive_execution_seconds": 6.720491959,
+      "queue_to_finish_seconds": 6.729273949,
+      "retained_files": {
+        "receipt.json": {
+          "sha256": "3d75eac56634b0dc5496c565ec1463f710ba2e93847c9fbc9fda9aed17e010c8",
+          "bytes": 377
+        },
+        "product.log": {
+          "sha256": "04b85d8bf1d3773f9c750f654a906e557c19ff3be40997991ef2bab48b0ac1c7",
+          "bytes": 73
+        },
+        "registration.json": {
+          "sha256": "e17170d40cd19f27aa3540cc02dae2003767a8f1fe02a823686a43bc5e2a7ddc",
+          "bytes": 317
+        }
+      }
+    },
+    {
+      "process": "candidate",
+      "offered_native_requests": 512,
+      "receipt": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "error": null,
+        "execution_started_ns": 306621462800039,
+        "exit_code": 0,
+        "finished_ns": 308364183850314,
+        "scope": "Queue/process receipt; successful process exit alone does not establish quality or efficiency.",
+        "started_ns": 306621438811253,
+        "status": "COMPLETED"
+      },
+      "registration": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "recipe_file_sha256": "01b50acbfb0ad51b29bff26f23c27c1420dd2c36f73b682fe3c53881e11f5c75",
+        "scope": "Queued one-time product execution; same allocation, no automatic retries.",
+        "started_ns": 306621438811253
+      },
+      "queue_wait_seconds": 0.023988786,
+      "archive_execution_seconds": 1742.721050275,
+      "queue_to_finish_seconds": 1742.745039061,
+      "retained_files": {
+        "receipt.json": {
+          "sha256": "dcb575d9bb3c7e78cf804e613dd64c5c708324fa234f65264805868bc4fc8a12",
+          "bytes": 367
+        },
+        "product.log": {
+          "sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+          "bytes": 475
+        },
+        "registration.json": {
+          "sha256": "00e4d152bb7708e52b4d2c5456e46733c37c6455c200aa1fb18b5c1390221bfe",
+          "bytes": 317
+        }
+      }
+    },
+    {
+      "process": "systems",
+      "offered_native_requests": 512,
+      "receipt": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "error": null,
+        "execution_started_ns": 308364247693790,
+        "exit_code": 0,
+        "finished_ns": 309782014670338,
+        "scope": "Queue/process receipt; successful process exit alone does not establish quality or efficiency.",
+        "started_ns": 308364239781192,
+        "status": "COMPLETED"
+      },
+      "registration": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "recipe_file_sha256": "3c55d694550bbd2e9399b16cd69c54725f654c4f2a941db14dc4509ea52e8e41",
+        "scope": "Queued one-time product execution; same allocation, no automatic retries.",
+        "started_ns": 308364239781192
+      },
+      "queue_wait_seconds": 0.007912598,
+      "archive_execution_seconds": 1417.766976548,
+      "queue_to_finish_seconds": 1417.774889146,
+      "retained_files": {
+        "receipt.json": {
+          "sha256": "dbfb27c5406f8db3c890083d5a353e1d8fccd0ba11ada6bcd5b6f366a545f68d",
+          "bytes": 367
+        },
+        "product.log": {
+          "sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+          "bytes": 475
+        },
+        "registration.json": {
+          "sha256": "25b69766eea1af33b78b83cf1d3f30f81f789ddbde60978f9aad8c02ad1d5366",
+          "bytes": 317
+        }
+      }
+    }
+  ],
+  "combined_archive_execution_seconds": 6018.796963222,
+  "archive_execution_interval_union_seconds": 6018.796963222,
+  "overlapping_native_execution_seconds": 0.0,
+  "combined_queue_wait_seconds": 0.052751373000000004,
+  "native_interval_span_seconds": 6522.567246758,
+  "execution_cap_seconds": 6300,
+  "execution_cap_remaining_seconds": 281.20303677799984,
+  "original_deadline_ns": 310468865220540,
+  "last_native_finish_ns": 309782014670338,
+  "offered_native_requests": 1536,
+  "observed_native_requests": 1536,
+  "inherited_allocation_cost_snapshots": {
+    "quality": {
+      "allocation_id": "lean-model-lab-0.4-20260908-01",
+      "attributed_setup_and_attempt_ns": 28888012170652,
+      "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+      "cutoff_ns": 306110633375375,
+      "registered_full_wall_ns": 38841768154835,
+      "scope": "original allocation start through last retained producer observation; all intervening development/idle/prior work remains charged",
+      "status": "RECORDED",
+      "unattributed_coordinator_or_idle_ns": 9953755984183
+    },
+    "candidate": {
+      "allocation_id": "lean-model-lab-0.4-20260908-01",
+      "attributed_setup_and_attempt_ns": 30675991826967,
+      "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+      "cutoff_ns": 308363112841154,
+      "registered_full_wall_ns": 41094247620614,
+      "scope": "original allocation start through last retained producer observation; all intervening development/idle/prior work remains charged",
+      "status": "RECORDED",
+      "unattributed_coordinator_or_idle_ns": 10418255793647
+    },
+    "systems": {
+      "allocation_id": "lean-model-lab-0.4-20260908-01",
+      "attributed_setup_and_attempt_ns": 32092049491085,
+      "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+      "cutoff_ns": 309781264414557,
+      "registered_full_wall_ns": 42512399194017,
+      "scope": "original allocation start through last retained producer observation; all intervening development/idle/prior work remains charged",
+      "status": "RECORDED",
+      "unattributed_coordinator_or_idle_ns": 10420349702932
+    }
+  },
+  "scope": "All four archive processes are charged, including the zero-inference admission failure. Queue, archive execution, attempt service, inherited setup and original-allocation elapsed are nested/overlapping scopes and must not be added. Original-allocation snapshots already include prior work and intervening idle/development. This review acquired no models, built no backend and installed no packages; inherited costs are not zero.",
+  "monetary_cost": "UNAVAILABLE; not estimated",
+  "energy_cost": "UNAVAILABLE; not measured",
+  "created_ns": 309827459720616
+}

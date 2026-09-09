@@ -1,0 +1,39 @@
+[
+  {
+    "file": "figures/quality-gates",
+    "question": "Does observed task quality meet the same 95% requirement?",
+    "takeaway": "Historical 0.5B and new development fail while historical 14B passes; cross-study settings differ.",
+    "family": "comparison",
+    "variant": "grouped horizontal bars",
+    "data": "attempts.csv",
+    "grain": "Study, concurrency and arm; all available attempts.",
+    "groups": 5,
+    "renderer": "Matplotlib3.10.6 static PNG/SVG",
+    "palette_policy": "One blue root; filled baseline and hatched candidate; neutral 95% line.",
+    "qa": "inspected final PNG; moved legend below plot; zero origin; all labels visible"
+  },
+  {
+    "file": "figures/paired-effects",
+    "question": "How much do full-attempt overheads attenuate eligible 14B service effects?",
+    "takeaway": "Every eligible pair retains a practical gain but full-attempt effects are smaller than service effects.",
+    "family": "comparison",
+    "variant": "paired point series",
+    "data": "pairs.csv",
+    "grain": "Eight eligible pairs.",
+    "renderer": "Matplotlib3.10.6 static PNG/SVG",
+    "palette_policy": "Two roots: blue and gold; circles/solid versus squares/dashed.",
+    "qa": "Inspected final PNG; shared zero-based scale; all pairs retained; paired order labeled."
+  },
+  {
+    "file": "figures/latency-distributions",
+    "question": "How do local batch latencies compare with the 30-second end-to-end target?",
+    "takeaway": "Candidate batches finish earlier but most requests exceed the SLO.",
+    "family": "distribution",
+    "variant": "empirical cumulative curves",
+    "data": "requests.csv",
+    "grain": "512 correlated observations per arm and concurrency.",
+    "renderer": "Matplotlib3.10.6 static PNG/SVG",
+    "palette_policy": "Two roots: blue and gold; solid/dashed curves; neutral SLO line.",
+    "qa": "Inspected final PNG; shared seconds axis; correlation and denominators disclosed."
+  }
+]

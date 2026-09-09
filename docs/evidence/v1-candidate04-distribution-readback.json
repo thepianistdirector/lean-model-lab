@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "status": "PASS_ACTUAL_DISTRIBUTION_READBACK",
+  "started_ns": 310100752742005,
+  "candidate_manifest_sha256": "8f54cb9fe8bfedb8772565de1a249a77ac0af4b84f146bbbce45d9f074284093",
+  "archives": {
+    "candidate-research.zip": {
+      "sha256": "2abcca8f23e7edc13bf8274701262b93161306c8b767f3a1520f2977b050bf39",
+      "files": 9524,
+      "directories": 99,
+      "local_top_level_html_links": {
+        "clarification-05b-study04.html": 0,
+        "feasibility-14b-study03.html": 0,
+        "index.html": 31,
+        "negative-budget-control-study04.html": 0,
+        "negative-calibration-study04.html": 0,
+        "negative-confirm-learned-study04.html": 0,
+        "negative-confirm-simple-study04.html": 0,
+        "negative-confirm-slice-study04.html": 0,
+        "negative-fit-study04.html": 0,
+        "reproduction-candidate.html": 0
+      },
+      "checked_source_markdown_links": 369,
+      "preserved_upstream_notice_exceptions": [
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        },
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        }
+      ]
+    },
+    "clarification-05b-study04-evidence.zip": {
+      "sha256": "3afe38e60ab0ee6384d03f76a17291bc4c06abeb7a6e75d3963043f2d77a995f",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "feasibility-14b-study03-evidence.zip": {
+      "sha256": "23d9d0b8e550a778db477cfb8580e6577ea4f7d05226fd23e8704f6a1c908259",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "lean-model-lab-source.zip": {
+      "sha256": "13adcc6a98a9a94657c6b222afd1ec91d4ff808afdaf997aba76e8392c6b9477",
+      "files": 1248,
+      "directories": 0,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 369,
+      "preserved_upstream_notice_exceptions": [
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        },
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        }
+      ]
+    },
+    "legacy-05b-comparison-evidence.zip": {
+      "sha256": "cd0dd055f9de383cbe6ee75c765d977085418b9ab68238866d61d1763b6a0983",
+      "files": 4756,
+      "directories": 19,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "legacy-protocol-failure-evidence.zip": {
+      "sha256": "68e6738f96f367c79f70e1f6f8859bef2265208511ef908a963d2d3c7ed4d9b5",
+      "files": 117,
+      "directories": 8,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-budget-control-study04-evidence.zip": {
+      "sha256": "84784541ad875dccf16be60df03d241611ecc912e4075e79a3db0fce56aac490",
+      "files": 468,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-calibration-study04-evidence.zip": {
+      "sha256": "7780ceccb706c2d9e0285ace80c790bf7945b6bfceea09212da76b63e53de70b",
+      "files": 468,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-confirm-learned-study04-evidence.zip": {
+      "sha256": "dad63cbb25e651a39774ab598ecd3a72f8c765fcd2beeecc1c328dffe5afb439",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-confirm-simple-study04-evidence.zip": {
+      "sha256": "80f8ad66dc09439f38f9dedd90d85e9114debc7d146d83d9791c312752b5bbbc",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-confirm-slice-study04-evidence.zip": {
+      "sha256": "48909160f74393ccefb9d3976f554d9c1f715c04d79500c9a24ae4062550483a",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-fit-study04-evidence.zip": {
+      "sha256": "e04f3f3f177dd46d24387424c40be53831d262a1ed25b850b2bf8f4306fdca6b",
+      "files": 468,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "quality-05b-development-evidence.zip": {
+      "sha256": "bc74732f8273e266e77900eb4d29e295850ce10091506dfcbeeb21441b62f743",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "quality-14b-confirmation-evidence.zip": {
+      "sha256": "ed41be95d50d2c7879ebe228fabcd825212b09b79a30c8e5f808e7afa3296918",
+      "files": 1616,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "quality-research.zip": {
+      "sha256": "148283c033c123ab198a67546745d1773d225028a3b0a3a143e24451cd2d637d",
+      "files": 15985,
+      "directories": 83,
+      "local_top_level_html_links": {
+        "index.html": 22,
+        "legacy-05b-comparison.html": 0,
+        "legacy-protocol-failure.html": 0,
+        "quality-05b-development.html": 0,
+        "quality-14b-confirmation.html": 0,
+        "reproduction-quality.html": 0,
+        "retained-14b-main.html": 0
+      },
+      "checked_source_markdown_links": 369,
+      "preserved_upstream_notice_exceptions": [
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        },
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        }
+      ]
+    },
+    "reproduction-candidate-evidence.zip": {
+      "sha256": "e403058dc4c09e5273a8dbfab675188297d3e73ebdfadd5dab32218262d5c4be",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "reproduction-quality-evidence.zip": {
+      "sha256": "180f420c6aad5bf34454464cfbf3725cdb9d6d8c11692d312919fef99b5f2bf5",
+      "files": 1616,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "reproduction-systems-evidence.zip": {
+      "sha256": "40399083b630c1d261274491eecbb69368e2cb5fbbb39e2990e2cd6fa5773e63",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "retained-14b-main-evidence.zip": {
+      "sha256": "616be802ac67a0b48ae819a44874d110705a8082178efd00f7f22785ad761cf9",
+      "files": 6416,
+      "directories": 23,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-d1-small-reuse24-evidence.zip": {
+      "sha256": "a2cbdb03307c2b0d94a4565cd08b0027bf9433fe3e4e926165ac217e194836a2",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-d2-large-reuse24-evidence.zip": {
+      "sha256": "2ed1cec930ed78d7b517b2164cc1150d52cae1c6ab1fae3abd4e25ebb901ab5b",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-h1-small-reuse24-evidence.zip": {
+      "sha256": "5bc8ba33d477682f2ae1b8281c1afd9615e34534a3e421ad43d03c3970ab8c17",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-h2-small-reuse64-evidence.zip": {
+      "sha256": "d2d405e6278963bd5d676a964bfdb291b12b321b27c296336781c1c5940d724f",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-h3-large-reuse24-evidence.zip": {
+      "sha256": "47224c417af86965b50a03528d6c1f2c381e77cad07e42785e2a8a191a16984d",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-research.zip": {
+      "sha256": "f72431bd0e812d3f89a4b501522ba0a86c4e187ffd9ec06dbea03d5aa97d967a",
+      "files": 8111,
+      "directories": 66,
+      "local_top_level_html_links": {
+        "index.html": 22,
+        "reproduction-systems.html": 0,
+        "systems-d1-small-reuse24.html": 0,
+        "systems-d2-large-reuse24.html": 0,
+        "systems-h1-small-reuse24.html": 0,
+        "systems-h2-small-reuse64.html": 0,
+        "systems-h3-large-reuse24.html": 0
+      },
+      "checked_source_markdown_links": 369,
+      "preserved_upstream_notice_exceptions": [
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        },
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        }
+      ]
+    },
+    "v1-clean-first-use-evidence.zip": {
+      "sha256": "b3d976a30698d5a201148c9c9e9f1dfa43413fed23f9b4d03362654b70f5b982",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "v1-clean-recovery-evidence.zip": {
+      "sha256": "f9e505fa7a0a46e21e56a0794714e47c159d2c7864b32a280d76af4aafc23a0d",
+      "files": 80,
+      "directories": 9,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    }
+  },
+  "html_links": {
+    "clarification-05b-study04.html": 0,
+    "feasibility-14b-study03.html": 0,
+    "index.html": 75,
+    "legacy-05b-comparison.html": 0,
+    "legacy-protocol-failure.html": 0,
+    "negative-budget-control-study04.html": 0,
+    "negative-calibration-study04.html": 0,
+    "negative-confirm-learned-study04.html": 0,
+    "negative-confirm-simple-study04.html": 0,
+    "negative-confirm-slice-study04.html": 0,
+    "negative-fit-study04.html": 0,
+    "quality-05b-development.html": 0,
+    "quality-14b-confirmation.html": 0,
+    "reproduction-candidate.html": 0,
+    "reproduction-quality.html": 0,
+    "reproduction-systems.html": 0,
+    "retained-14b-main.html": 0,
+    "systems-d1-small-reuse24.html": 0,
+    "systems-d2-large-reuse24.html": 0,
+    "systems-h1-small-reuse24.html": 0,
+    "systems-h2-small-reuse64.html": 0,
+    "systems-h3-large-reuse24.html": 0,
+    "v1-clean-first-use.html": 0,
+    "v1-clean-recovery.html": 0
+  },
+  "scope": "Actual artifact hashes, ZIP inventories and local top-level HTML link targets. No native execution, public access, publisher authentication or human review.",
+  "finished_ns": 310106635803638
+}

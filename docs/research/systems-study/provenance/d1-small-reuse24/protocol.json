@@ -1,0 +1,22 @@
+{
+  "ablations": [
+    "Full context without cache versus full context with cache: prefix-cache-v1.",
+    "Uncached full context versus uncached dependency slice: dependency-slice-v1.",
+    "Both arms cached: slice-versus-full-cache-v1, the primary strong comparator."
+  ],
+  "baseline": "Complete original record table with same-slot prefix caching enabled; candidate uses dependency slice with caching also enabled. Each arm has its own real cold-start history.",
+  "claim_limit": "Instrumented CPU cache-compression interaction and model-transfer study; substantial known prior-art overlap; novelty unestablished; this eight-request development case cannot establish measurement eligibility, broad natural-language quality, energy savings, API-price equivalence or novelty.",
+  "confirmation_isolation": "Separate modules, candidate receives prompt only, regenerated fixed answers, distinct seeded split, frozen implementation hashes. Shared Unix identity: workflow convention, not an adversarial security boundary.",
+  "development_evidence": "Root reports0.5B reference-chain/context8 only1/8correctperarm; quality investigator reportslookup/context8 6/8perarm. These are warning signals, not outcomes of the newly frozen repeated-table population.",
+  "hypothesis": "Repeated-table full-context caching can reuse the original table prefix across changing queries, while query-dependent dependency slices can destroy that reuse. Shorter prompts may then have no quality-qualified full-cost advantage; actual native histories, not API prices or two hypothetical simultaneous caches, decide.",
+  "primary_sources": [
+    "https://arxiv.org/abs/2607.15516",
+    "https://arxiv.org/abs/2310.04408",
+    "https://arxiv.org/abs/2403.12968"
+  ],
+  "proposal_sha256": "ea937fc7d7c1dbdbdb771e6e3e6b1613d80716750de314d79975859c88be157d",
+  "question": "When do context omission savings disappear against full-context prefix caching under repeated tables, longer contexts, arrivals and model transfer?",
+  "selection_rule": "Require each full-context baseline attempt at least95% exact task accuracy (8/8 in eight-request feasibility). If baseline fails, preserve complete adverse study and do not launch small-model confirmations. Any harmful omission remains visible.",
+  "stopping_rule": "Exactly frozen cells once. No automatic rerun, no filtering baseline failures, no gate relaxation. Stop before request/time/globaldeadline caps. Failed/interrupted native attempts retain costs and cancel remaining confirmation cells.",
+  "uncertainty": "Two balanced AB/BA pairs; descriptive pair ranges only. Eight-query shared-table trajectories are dependent. No request-IID confidence or cross-device/population claim."
+}

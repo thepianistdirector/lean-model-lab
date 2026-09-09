@@ -1,0 +1,27 @@
+{
+  "status": "STOPPED_AFTER_DEVELOPMENT_FUTILITY",
+  "confirmation_status": "UNSTARTED",
+  "confirmation_recipe_created": false,
+  "confirmation_seed_predeclared": 830129,
+  "development_seed": 830091,
+  "observed_correct_per_arm": [
+    6,
+    6,
+    6,
+    6
+  ],
+  "offered_per_arm": 8,
+  "pairs": 2,
+  "exact_token_parity_pairs": 2,
+  "new_native_requests": 32,
+  "native_archive_process_seconds": 43.775866314,
+  "native_attempt_envelope_seconds": 39.980784424,
+  "native_service_seconds": 34.239854217,
+  "request_ceiling": 544,
+  "execution_seconds_ceiling": 1200,
+  "retries": 0,
+  "family_or_seed_searches": 0,
+  "reason": "All four arms were below the prospective 8/8 feasibility condition; the 95% measurement gate is unchanged. Root accepted the bounded historical benchmark and negative contrast alternative.",
+  "skeptical_reproduction": "PENDING",
+  "no_further_native_requests": true
+}

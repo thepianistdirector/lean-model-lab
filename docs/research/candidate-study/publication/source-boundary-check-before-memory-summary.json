@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "recorded_ns": 298927423301691,
+  "scope": "Actual unmodified complete-builder text/privacy/SVG and figure checks scoped to final candidate sources. Final whole-project assembly remains separate.",
+  "counts": {
+    "text": 430,
+    "svg": 7,
+    "binary": 21
+  },
+  "builder_sha256": "87cf56157b137677822198d6d6c4289453e5bc2894caad3460d85c4cb4514226"
+}

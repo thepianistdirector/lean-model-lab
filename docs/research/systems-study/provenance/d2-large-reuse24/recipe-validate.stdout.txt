@@ -1,0 +1,1 @@
+{"status": "VALID", "recipe_sha256": "908f214c2deeac8f40433332c3524d963ad70d4eed6949ad11e4d422778a6907", "model_profile": "qwen2.5-14b-instruct-fp16-v1", "requests": 8, "concurrency_modes": [1], "pairs_per_concurrency": 2, "purpose": "DEVELOPMENT", "inference_performed": false}

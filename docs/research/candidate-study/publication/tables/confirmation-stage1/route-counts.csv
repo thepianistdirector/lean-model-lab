@@ -1,0 +1,13 @@
+study,pair_index,decision,offered
+feasibility-14b-study03,0,CERTIFIED_SLICE,8
+feasibility-14b-study03,1,CERTIFIED_SLICE,8
+clarification-0.5b-study04,0,EXPLICIT_GRAMMAR_RESTATEMENT,8
+clarification-0.5b-study04,1,EXPLICIT_GRAMMAR_RESTATEMENT,8
+negative-fit-study04,0,CERTIFIED_SLICE,32
+negative-fit-study04,1,CERTIFIED_SLICE,32
+negative-calibration-study04,0,CERTIFIED_SLICE,32
+negative-calibration-study04,1,CERTIFIED_SLICE,32
+negative-budget-control-study04,0,ABLATION_SLICE,32
+negative-budget-control-study04,1,ABLATION_SLICE,32
+negative-confirm-slice-study04,0,CERTIFIED_SLICE,128
+negative-confirm-slice-study04,1,CERTIFIED_SLICE,128

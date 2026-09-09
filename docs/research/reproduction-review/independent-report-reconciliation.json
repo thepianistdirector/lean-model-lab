@@ -1,0 +1,1166 @@
+{
+  "status": "PASS",
+  "attempts_checked": 89,
+  "checks_per_attempt": 6,
+  "checks": [
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-ec5f35cf66cb410b9d97fbf8c2084c66",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-5c026fdd420f41658ecb853f15b5cbe5",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-988cad0681ac478ba6d32525882a287b",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-af146de3b73d4fd0ac7d5446b42940ad",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-50443973acdc475ab42accaf1b0f48ea",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-d13e813736b24df7bb5b01a7508de0eb",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-c303d6408a1d419ab96362e13ee6dd09",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-51f395ff6dca4ef5a6eaf7c28f294cc8",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-357c80e6e5e94281b84b212643a7408d",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-34d417c369374b8f9b3b312c74b38a83",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-9b041326da4d407b9d9e5b72315860aa",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-59cd557c468f4441b94dcc2f5a19b3d8",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-7c9be96cd8f44a358d194e6953ac5695",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-71dd4c560fa14c84a56659b393046b86",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-236e9d95e84d429099b3c0f21140f7f0",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "retained-14b-main",
+      "attempt_id": "attempt-b5455be84a2b4eed9da360cbcbbd9827",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-c82e85b5a55f4d2ea23a96d3b643ba55",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-7e8d30b9fe014d74a2983459225b1145",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-ff893fe67723474c9f6da20edbeec395",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-c8478af2e19a441baa00086d2455f5f3",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-415f123085be4036a4720561cc6fac27",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-807b9d388a774011acbb04d391d1191b",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-e998bd9edfc24cdc9d9b114042c66bdd",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-2b30a89a94b84ead9df92a9ac8003ab6",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-658054606e3744f0a397f220d88b7170",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-2b0790a3a70c4e55b26b20fcb6176933",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-2fd2e65f95d44d8eaece2f96086beb53",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-05b-comparison",
+      "attempt_id": "attempt-f5e310022c50421eb0c8fbaca9a8c64b",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "legacy-protocol-failure",
+      "attempt_id": "attempt-79ef9215fce64bbb86824cbcd11c9d16",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 30
+    },
+    {
+      "study": "quality-05b-development",
+      "attempt_id": "attempt-95b5419029c448338f1073c7165f594a",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "quality-05b-development",
+      "attempt_id": "attempt-cdfa74b562fa44cea228a4ecb7b7dc97",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "quality-05b-development",
+      "attempt_id": "attempt-8491a78c65ed49c4bcd802b881f8f339",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "quality-05b-development",
+      "attempt_id": "attempt-a80e37f0d3f84a1389dfec4fd0cf9dd5",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "quality-14b-confirmation",
+      "attempt_id": "attempt-c11d044ecdb642b3b22ced85ff8e0c18",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "quality-14b-confirmation",
+      "attempt_id": "attempt-033f9d36d8aa4b3cbe5aa44db0bfb48f",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "quality-14b-confirmation",
+      "attempt_id": "attempt-09705c8591f64372be44520df2ee1d34",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "quality-14b-confirmation",
+      "attempt_id": "attempt-da272db19c274606b494cda494c0971b",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "feasibility-14b-study03",
+      "attempt_id": "attempt-cc3ebd7fc6654be7a2ace9632c7238f7",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "feasibility-14b-study03",
+      "attempt_id": "attempt-e1654646befe488b9c24685b6c55cda6",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "feasibility-14b-study03",
+      "attempt_id": "attempt-70c3b5d04ef7494f885780f85ba3b4e5",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "feasibility-14b-study03",
+      "attempt_id": "attempt-49b1e2e4ca7449e9ba0325bbdffaf734",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "clarification-05b-study04",
+      "attempt_id": "attempt-08bf3387a127497eb05a8a0882bc4a60",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "clarification-05b-study04",
+      "attempt_id": "attempt-3646b50a4e7f416295b4b8ef93b20ac8",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "clarification-05b-study04",
+      "attempt_id": "attempt-e76b70a0126a44b8a024f61f464a32f4",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "clarification-05b-study04",
+      "attempt_id": "attempt-d06d629c537749539419e33e8fb89e5e",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-fit-study04",
+      "attempt_id": "attempt-48d84052cbc74051bd6de656585a31fc",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-fit-study04",
+      "attempt_id": "attempt-512c83eda94541a5abf3fd0c277050c5",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-fit-study04",
+      "attempt_id": "attempt-5e5d559a3ca94a908e0daf1f595c3eb9",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-fit-study04",
+      "attempt_id": "attempt-22e527c470fb490290ad3aaf0f698a98",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-calibration-study04",
+      "attempt_id": "attempt-097219d435f54489826fb5d35715d6fe",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-calibration-study04",
+      "attempt_id": "attempt-c76e2d12d0c642bb8691e21922a37d79",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-calibration-study04",
+      "attempt_id": "attempt-f3d0adc912c241b98259bed9239e74d2",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-calibration-study04",
+      "attempt_id": "attempt-9717154965d04d8fbbd2a63f30db562e",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-budget-control-study04",
+      "attempt_id": "attempt-c1c4a58118094a6e9bf482074331a4d8",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-budget-control-study04",
+      "attempt_id": "attempt-9c8e96e8cc784b038e2716988ed010c0",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-budget-control-study04",
+      "attempt_id": "attempt-3ed39a7474324fc0ae4dcb9cf40c1e4d",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-budget-control-study04",
+      "attempt_id": "attempt-ecd6824ae5a5461c9eb7bb1a53e5c13f",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-slice-study04",
+      "attempt_id": "attempt-d9243ec1ba214342bf8f86e67be0e81d",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-slice-study04",
+      "attempt_id": "attempt-afac8d13924c45eb8e1105e81e36b4fa",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-slice-study04",
+      "attempt_id": "attempt-e070505dc1994de9a2d58ce16cbb5c2f",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-slice-study04",
+      "attempt_id": "attempt-10d60b6b7ddf4b3ea2d330ac2407fa5f",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-simple-study04",
+      "attempt_id": "attempt-110edf66c9bf4d65bb162f74e78ee0cf",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-simple-study04",
+      "attempt_id": "attempt-c65c672183404cf5912414913537ba2f",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-simple-study04",
+      "attempt_id": "attempt-3e7c45a36b06441a8c6069de5b62c01b",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-simple-study04",
+      "attempt_id": "attempt-dfd454c1b79b4785afc4deb4f9320a63",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-learned-study04",
+      "attempt_id": "attempt-1ccc906a49244dcd9b895392bfd40a5e",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-learned-study04",
+      "attempt_id": "attempt-e0a653d1b6f94c19b4ddc4eae6e8eabe",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-learned-study04",
+      "attempt_id": "attempt-acd2f91d01c34137947cab58c86b21c4",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "negative-confirm-learned-study04",
+      "attempt_id": "attempt-b4155f19ca25470ea05814baab7cca7a",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-d1-small-reuse24",
+      "attempt_id": "attempt-be5e5948f72a445aabaa85c068208136",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-d1-small-reuse24",
+      "attempt_id": "attempt-e3062f1adbe444078edd4548b198a9e0",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-d1-small-reuse24",
+      "attempt_id": "attempt-fd6771027773471e953b29a541459d73",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-d1-small-reuse24",
+      "attempt_id": "attempt-45af48da75a14de98489227a2d528ccc",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-d2-large-reuse24",
+      "attempt_id": "attempt-6e1d6aae3bb44acba3d2c26ce412eb3e",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-d2-large-reuse24",
+      "attempt_id": "attempt-5c47e3d568704c4baee9929ec1e79037",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-d2-large-reuse24",
+      "attempt_id": "attempt-27208fbbabd54825b71bef1ce6b90514",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-d2-large-reuse24",
+      "attempt_id": "attempt-53cedc1e12bd4444b72ec00d9834c3b3",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h1-small-reuse24",
+      "attempt_id": "attempt-36efaceb8d1842688115037ab1bc6551",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h1-small-reuse24",
+      "attempt_id": "attempt-ff6938a7a7ae4dd0936f03029d240865",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h1-small-reuse24",
+      "attempt_id": "attempt-988b01866edb4d97823bbbc018615c4e",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h1-small-reuse24",
+      "attempt_id": "attempt-e6b2a2da5032458ab5d5bc5c381b73b6",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h2-small-reuse64",
+      "attempt_id": "attempt-e7072fefa98948e4b6ec6d72814577fc",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h2-small-reuse64",
+      "attempt_id": "attempt-f5f5447674694fe1ba6b42939561dbcc",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h2-small-reuse64",
+      "attempt_id": "attempt-25827902e9144fe2aee55df753eb5dd2",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h2-small-reuse64",
+      "attempt_id": "attempt-42106cba8aa8443eb1245b2043b65235",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h3-large-reuse24",
+      "attempt_id": "attempt-b1eb4accdeed479badc300606ce025bc",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h3-large-reuse24",
+      "attempt_id": "attempt-7ba93bd7375447058898bc4e8c3d38a3",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h3-large-reuse24",
+      "attempt_id": "attempt-dc7d267e574b42378469341cd73667a4",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    },
+    {
+      "study": "systems-h3-large-reuse24",
+      "attempt_id": "attempt-1e69ada1a1324165b90744787b11bf9c",
+      "checks": {
+        "offered": true,
+        "observed": true,
+        "missing": true,
+        "correct": true,
+        "prompt_tokens": true,
+        "generated_tokens_reported": true
+      },
+      "generated_tokens_unknown_requests": 0
+    }
+  ],
+  "scope": "Reviewer-authored independent counts and token sums reconciled with every original published report. Unknown normalized generation counts remain explicit; historical raw terminal diagnostics are separate.",
+  "created_ns": 306184255734000
+}

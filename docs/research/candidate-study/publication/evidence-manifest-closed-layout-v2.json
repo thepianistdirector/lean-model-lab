@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "scope": "Portable reanalysis of actual exported derivatives. Paths resolve under the explicit --evidence-root; no developer cache paths are required.",
+  "studies": [
+    {
+      "id": "feasibility-14b-study03",
+      "study": "evidence/feasibility-14b-study03/study",
+      "report": "evidence/feasibility-14b-study03/report.json",
+      "queue_receipt": "docs/research/candidate-study/publication/artifacts/feasibility-14b-study03/queue-receipt.json",
+      "expected": {
+        "config_sha256": "afec0909cca0a5b3c1d8c32aa67430c98aafb69014fb1af234f6d338bd12c733",
+        "workload_sha256": "c9eeb11908dfc45a6c54cf3ded5aef85ddd409120f9ddc51a53dbe1da44aa354",
+        "report_sha256": "a7a1d9a4ea2bbafd3c643fbaa866100355b7adf11082ad9990f102c9aaaf34d3",
+        "queue_sha256": "f094421aa61dad4c34a186b9b54d60838bf9943fb71d25bd58d30bffe6e3e648"
+      }
+    },
+    {
+      "id": "clarification-0.5b-study04",
+      "study": "evidence/clarification-0.5b-study04/study",
+      "report": "evidence/clarification-0.5b-study04/report.json",
+      "queue_receipt": "docs/research/candidate-study/publication/artifacts/clarification-0.5b-study04/queue-receipt.json",
+      "expected": {
+        "config_sha256": "ff3d5d54a67eb72a28b005ff8153b2d70e44b24ff209691b35e7f13415555266",
+        "workload_sha256": "c9eeb11908dfc45a6c54cf3ded5aef85ddd409120f9ddc51a53dbe1da44aa354",
+        "report_sha256": "e6ebd72684d4869030823c92ac5aee967ef76d11b17b4205b80d8d742ee73e28",
+        "queue_sha256": "596a4209dccdeda915fce61941efec2d1a4975d6c130887b9e2c34401c6635cf"
+      }
+    }
+  ],
+  "relationships": {},
+  "instruction_bindings": {
+    "clarification-0.5b-study04": "docs/research/candidate-study/publication/artifacts/protocols/fixed-explicit-grammar-v2.json"
+  },
+  "producers": [
+    {
+      "path": "producer-f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f.pyz",
+      "sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f"
+    },
+    {
+      "path": "producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+      "sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986"
+    }
+  ],
+  "closed_figures": [
+    {
+      "id": "feasibility-14b-study03",
+      "candidate_label": "Dependency slice",
+      "title": "14B dependency-slice feasibility \u00b7 eight unique questions",
+      "figure_name": "closed-14b-feasibility"
+    },
+    {
+      "id": "clarification-0.5b-study04",
+      "candidate_label": "Explicit full v2",
+      "title": "0.5B fixed instruction diagnosis \u00b7 eight unique questions",
+      "figure_name": "closed-0.5b-clarification"
+    }
+  ]
+}

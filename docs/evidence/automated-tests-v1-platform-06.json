@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "started_ns": 292945848587704,
+  "original_deadline_ns": 310468865220540,
+  "steps": [
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "started_ns": 295240853591405,
+      "finished_ns": 295284520321117,
+      "log_sha256": "d41655b1925b27b882a6bed230dd3223f0cfe1c5666aadf3ae13eb281c1b16c9"
+    }
+  ],
+  "scope": "Final 1.0.0 runtime and strict split-package software suite; not native research or external-person evidence.",
+  "execution_started_ns": 295240853518359,
+  "finished_ns": 295284520519356,
+  "schema_version": 1,
+  "original_receipt_sha256": "34be0d87e04f7f25b854ed0c68ebbe09211788d0d051c2eea82c6bc837c71bae",
+  "software_tests": {
+    "count": 314,
+    "duration_seconds": 43.543,
+    "status": "PASS"
+  },
+  "source_identity": {
+    "archive_sha256": "4d7c6dfa28f4efda1359075d01cd8cf0af613b6a6aab13617dc7de89f0c4fd17",
+    "implementation_sha256": "69ffbaab10385701d00629852777301d568702c5cdf97259a46486ccaaa1a570",
+    "snapshot_recorded_ns": 295021415445181,
+    "snapshot_sha256": "d1acaaf5d4384cb31347166ed8d1c8580aadd346f5b83a3dbf9fae0119e2f1c0",
+    "current_check_ns": 296551980372489,
+    "checked_source_test_tool_files": 96,
+    "changed_files": []
+  },
+  "current_limit": "Software suite only; packaged native workflow and actual final browser evidence are separate checks."
+}

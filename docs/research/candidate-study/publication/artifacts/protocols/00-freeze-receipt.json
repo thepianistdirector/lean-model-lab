@@ -1,0 +1,8 @@
+{
+  "archive": ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+  "feasibility_rule_sha256": "7a48707673d407ae8dd73ddbe0dc3fb157826eba25c74cc41ee7b6d9a638b7a1",
+  "frozen_at_monotonic_ns": 286731336798569,
+  "original_deadline_ns": 310468865220540,
+  "remaining_seconds": 23737.528421811,
+  "sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f"
+}

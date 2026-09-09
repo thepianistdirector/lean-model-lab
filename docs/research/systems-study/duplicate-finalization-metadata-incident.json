@@ -1,0 +1,57 @@
+{
+  "status": "DUPLICATE_METADATA_PRESERVED_PRIOR_BYTES_VERIFIED",
+  "scope": "An unintended second finalization performed read-only inspect, then report refused existing output paths and stopped with exit code 2. No native execution or scientific result was repeated or replaced. All touched duplicate command/output bytes and original proof catalog were preserved privately before restoration. Earlier command/output bytes were restored only after exact original digests matched retained provenance.",
+  "recorded_ns": 294451720100115,
+  "prior_provenance_catalog_sha256": "176328ace668d57b4fb1c38524637312464109c5e234464aaaa03d6738ef78fb",
+  "files": [
+    {
+      "file": "inspect.command.json",
+      "duplicate_sha256": "c375070f4af1818cef2c52164ab7cdbf7045f31795eb7b20b9f252e4c32169c0",
+      "restored_sha256": "3aafe06ee34544c0f1e57f3b4f8984e5d632d2e704d9d3402cfb81bbc03442d7",
+      "proof_catalog_path": "provenance/h1-small-reuse24/inspect.command.json",
+      "status": "RESTORED_BYTE_EXACT_FROM_RETAINED_PROVENANCE"
+    },
+    {
+      "file": "inspect.stdout",
+      "duplicate_sha256": "0b03e592f860cc3d54b081a790c7c2a1e5311466b7f8b0cda39c1a18c26e374b",
+      "restored_sha256": "0b03e592f860cc3d54b081a790c7c2a1e5311466b7f8b0cda39c1a18c26e374b",
+      "proof_catalog_path": "provenance/h1-small-reuse24/inspect.stdout.txt",
+      "status": "RESTORED_BYTE_EXACT_FROM_RETAINED_PROVENANCE"
+    },
+    {
+      "file": "inspect.stderr",
+      "duplicate_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "restored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "proof_catalog_path": "provenance/h1-small-reuse24/inspect.stderr.txt",
+      "status": "RESTORED_BYTE_EXACT_FROM_RETAINED_PROVENANCE"
+    },
+    {
+      "file": "inspect.json",
+      "status": "VERIFIED_UNCHANGED_IDENTICAL_TO_ORIGINAL_INSPECT_STDOUT",
+      "current_sha256": "0b03e592f860cc3d54b081a790c7c2a1e5311466b7f8b0cda39c1a18c26e374b",
+      "proof_catalog_path": "provenance/h1-small-reuse24/inspect.stdout.txt"
+    },
+    {
+      "file": "report.command.json",
+      "duplicate_sha256": "c30b3b52bde6e10755ddb251c83be8a66e2e12f1bf18cf3953e404a4d2dbe76d",
+      "restored_sha256": "e08ed57c382555ccbc28aa6fa7c23ccac1456ad2b22a5adbacd00abc7b2af7df",
+      "proof_catalog_path": "provenance/h1-small-reuse24/report.command.json",
+      "status": "RESTORED_BYTE_EXACT_FROM_RETAINED_PROVENANCE"
+    },
+    {
+      "file": "report.stdout",
+      "duplicate_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "restored_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "proof_catalog_path": "provenance/h1-small-reuse24/report.stdout.txt",
+      "status": "RESTORED_BYTE_EXACT_FROM_RETAINED_PROVENANCE"
+    },
+    {
+      "file": "report.stderr",
+      "duplicate_sha256": "bf56bdeffc62aa691d493a0a2a6a83efc5b7739646167ef66b6bddc62d9a5704",
+      "restored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "proof_catalog_path": "provenance/h1-small-reuse24/report.stderr.txt",
+      "status": "RESTORED_BYTE_EXACT_FROM_RETAINED_PROVENANCE"
+    }
+  ],
+  "scientific_report_unchanged": true
+}

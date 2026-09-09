@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "created_monotonic_ns": 303356622637159,
+  "manifest_sha256": "f3e29240b15aad46cd704e95a7c4f4ffecfba310ac4594efac43997ac3942760",
+  "validator_sha256": "61fd1e423e3a8db417204c7840291841ac5a150f3ab2ce8171893ca8ba75d037",
+  "native_checks": [
+    {
+      "split": "fit",
+      "rows": 32,
+      "all_native_rows_reconciled": true
+    },
+    {
+      "split": "calibration",
+      "rows": 32,
+      "all_native_rows_reconciled": true
+    }
+  ],
+  "training_mode": "ALWAYS_FULL",
+  "selected_threshold_index": null,
+  "fitted_node_counts_reconciled": true,
+  "all_fixed_calibration_grid_rows_reconciled": true,
+  "scope": "Independent retained-artifact validation using actual redacted export outputs. No replacement tree or threshold was fitted; no native or population-risk claim."
+}

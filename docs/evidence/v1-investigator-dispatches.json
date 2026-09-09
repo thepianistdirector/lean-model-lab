@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "owner_dispatch": "tanduna-v1-research-20260908-lean-model-lab",
+  "status": "THREE_VERIFIED_INVESTIGATORS_RUNNING",
+  "scope": "Agent process separation, not independent human or institutional validation. Only active root delegates. No public publication or new spending.",
+  "first_native_workflow_evidence": "docs/evidence/v1-first-workflow-02.json",
+  "observed_ns": 286713427535936,
+  "investigators": [
+    {
+      "study": "quality",
+      "thread_id": "01a08258-09bb-7ec3-9ec1-7d374b817080",
+      "actual_turn_context_model": "gpt-6-astra",
+      "actual_effort": "high",
+      "leaf": true,
+      "new_native_requests_ceiling": 600,
+      "native_execution_minutes_ceiling": 20,
+      "output_directory": ".cache/v1-investigations-20260908/quality",
+      "report_directory": "docs/research/quality-study",
+      "original_allocation_deadline_ns": 310468865220540
+    },
+    {
+      "study": "candidate",
+      "thread_id": "01a080f7-a923-7ef1-a160-a67c8888f814",
+      "actual_turn_context_model": "gpt-6-astra",
+      "actual_effort": "high",
+      "leaf": true,
+      "new_native_requests_ceiling": 2000,
+      "native_execution_minutes_ceiling": 180,
+      "output_directory": ".cache/v1-investigations-20260908/candidate",
+      "report_directory": "docs/research/candidate-study",
+      "original_allocation_deadline_ns": 310468865220540
+    },
+    {
+      "study": "systems",
+      "thread_id": "01a08153-52b4-7721-8f36-8508558c30fa",
+      "actual_turn_context_model": "gpt-6-astra",
+      "actual_effort": "high",
+      "leaf": true,
+      "new_native_requests_ceiling": 3000,
+      "native_execution_minutes_ceiling": 90,
+      "output_directory": ".cache/v1-investigations-20260908/systems",
+      "report_directory": "docs/research/systems-study",
+      "original_allocation_deadline_ns": 310468865220540
+    }
+  ]
+}

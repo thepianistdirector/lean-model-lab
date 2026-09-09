@@ -1,0 +1,43 @@
+{
+  "status": "HELD_OUT_CONFIRMATION_AND_PORTABLE_PACKAGE_READY_FOR_INTEGRATION_REVIEW",
+  "confirmation_gates": {
+    "full_attempt_gate": "Prospectively declared external protocol requirement in addition to native v2 service criterion.",
+    "full_attempt_practical_threshold_ratio": 1.05,
+    "maximum_tail_ratio": 1.1,
+    "native_v2_eligible": true,
+    "observed_pairs": 2,
+    "observed_requests": 512,
+    "offered_requests": 512,
+    "required_pairs": 2,
+    "service_practical_threshold_ratio": 1.05,
+    "slo_goodput_separate": true,
+    "status": "PASS"
+  },
+  "unique_questions": 128,
+  "repeated_observations": 512,
+  "correct_observations": 508,
+  "correct_per_arm": 127,
+  "wrong_question": "r110 expected GNOSP returned SPNOG in all four arms",
+  "paired_token_mismatches": 0,
+  "joint_slo_qualified": {
+    "baseline": {
+      "qualified": 0,
+      "offered": 256
+    },
+    "candidate": {
+      "qualified": 0,
+      "offered": 256
+    }
+  },
+  "service_ratio_median": 4.123130406236786,
+  "full_attempt_ratio_median": 3.911671058347563,
+  "portable_five_export_validation": "PASS",
+  "png_and_pdf_visual_review": "PASS",
+  "native_retries": 0,
+  "stopped_05b_confirmation": "UNSTARTED_UNCHANGED",
+  "skeptical_native_reproduction": "PENDING_SEPARATE_AGENT",
+  "external_human_review": "NOT_OBSERVED",
+  "publication": "NOT_AUTHORIZED_NOT_PUBLISHED",
+  "producer_authentication": "NOT_ESTABLISHED_BY_LOCAL_HASHES",
+  "platform_blockers": []
+}

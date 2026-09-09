@@ -1,0 +1,15 @@
+{
+  "status": "ACTUAL_NATIVE_TRAINED_CONTROLLER_FROZEN_BEFORE_CONFIRMATION_GENERATION",
+  "frozen_ns": 292284370221705,
+  "mode": "ALWAYS_FULL",
+  "threshold_index": null,
+  "controller_internal_sha256": "5de087547f9f13ab351c5929e11697185cb0b3e3e10222a6607bd696de549562",
+  "files": {
+    ".cache/v1-investigations-20260908/candidate/negative-controller04/calibration-labels.json": "6bbae59de5793bdee720e702b8848c6bba82be6f00cb0775f7ec75ad46b84ec0",
+    ".cache/v1-investigations-20260908/candidate/negative-controller04/controller.json": "4eddbc0eb75fe434d08351e045c07921662ba7bde666830ab2bf7566f1c40c91",
+    ".cache/v1-investigations-20260908/candidate/negative-controller04/fit-labels.json": "d87ea5782077fd77cc98f866934604c6b828329b46573fe2876aa05959b7c486",
+    ".cache/v1-investigations-20260908/candidate/negative-controller04/training-protocol.json": "2bb5a29e4e075f5930ee1c6edde0d3891f1c68a4a2f9a2fabf93eb080e403916",
+    ".cache/v1-investigations-20260908/candidate/negative-controller04/training-receipt.json": "8af183a0ad094f7ea805475f021ebc17f69c231128961c7208668adea53f2023"
+  },
+  "confirmation_access": "No confirmation population generated or outcome accessed. Next step is exact recipe construction for already-frozen seed/generator/count, with first generation logged; all three recipe hashes precede native confirmation."
+}

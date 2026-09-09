@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "scope": "Exact original bytes and explicitly documented filename normalization; all seeds, rules, recipes, scientific fields and training artifacts unchanged.",
+  "files": [
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/00-feasibility-rule.json",
+      "original_filename": "00-feasibility-rule.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/00-feasibility-rule.json",
+      "original_sha256": "7a48707673d407ae8dd73ddbe0dc3fb157826eba25c74cc41ee7b6d9a638b7a1",
+      "derived_sha256": "7a48707673d407ae8dd73ddbe0dc3fb157826eba25c74cc41ee7b6d9a638b7a1",
+      "original_bytes": 2451,
+      "derived_bytes": 2451,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/00-freeze-receipt.json",
+      "original_filename": "00-freeze-receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/00-freeze-receipt.json",
+      "original_sha256": "197026ed374fa11a3c500b9ca637ef16c4d03b86351ce20df2a6f8b4116fd330",
+      "derived_sha256": "197026ed374fa11a3c500b9ca637ef16c4d03b86351ce20df2a6f8b4116fd330",
+      "original_bytes": 383,
+      "derived_bytes": 383,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/01-clarification-exact-freeze04.json",
+      "original_filename": "01-clarification-exact-freeze04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/01-clarification-exact-freeze04.json",
+      "original_sha256": "50f907f0d80c4dd88f0acb871f8120775446e139a403fa7c2ed8dec92a728a69",
+      "derived_sha256": "50f907f0d80c4dd88f0acb871f8120775446e139a403fa7c2ed8dec92a728a69",
+      "original_bytes": 1251,
+      "derived_bytes": 1251,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/01-clarification-rule-receipt.json",
+      "original_filename": "01-clarification-rule-receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/01-clarification-rule-receipt.json",
+      "original_sha256": "a1807e48c72feb1f127b38834d9a09d8794ad35031544e102eb6f376a0b8c4fd",
+      "derived_sha256": "a1807e48c72feb1f127b38834d9a09d8794ad35031544e102eb6f376a0b8c4fd",
+      "original_bytes": 314,
+      "derived_bytes": 314,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/01-clarification-rule.json",
+      "original_filename": "01-clarification-rule.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/01-clarification-rule.json",
+      "original_sha256": "c4dd88762a5f864dbb7eb3e70bd0018b7d53dcc134de2b8c956342428f78af66",
+      "derived_sha256": "c4dd88762a5f864dbb7eb3e70bd0018b7d53dcc134de2b8c956342428f78af66",
+      "original_bytes": 3068,
+      "derived_bytes": 3068,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/02-negative-contract04-v2.json",
+      "original_filename": "02-negative-contract04-v2.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/02-negative-contract04-v2.json",
+      "original_sha256": "3bd638e853a33d8a4d959a6eb0f464b0997139ebddae62e12095f0daceb58e4f",
+      "derived_sha256": "3bd638e853a33d8a4d959a6eb0f464b0997139ebddae62e12095f0daceb58e4f",
+      "original_bytes": 9109,
+      "derived_bytes": 9109,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/02-negative-contract04.json",
+      "original_filename": "02-negative-contract04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/02-negative-contract04.json",
+      "original_sha256": "f079894571421cceba84b15f12c489bae56acfa9b5a8b41267411db0c2fd312d",
+      "derived_sha256": "f079894571421cceba84b15f12c489bae56acfa9b5a8b41267411db0c2fd312d",
+      "original_bytes": 8541,
+      "derived_bytes": 8541,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/02-negative-development-freeze04.json",
+      "original_filename": "02-negative-development-freeze04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/02-negative-development-freeze04.json",
+      "original_sha256": "69924fca3bacbd479cfa86777bc20e0502bfe4df2ddd1e52c6dbff33caecffc8",
+      "derived_sha256": "69924fca3bacbd479cfa86777bc20e0502bfe4df2ddd1e52c6dbff33caecffc8",
+      "original_bytes": 1906,
+      "derived_bytes": 1906,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/02-negative-fit-timing-decision04.json",
+      "original_filename": "02-negative-fit-timing-decision04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/02-negative-fit-timing-decision04.json",
+      "original_sha256": "cf7af2216379331e8c4456996fa28ddbba7a50cb0fd63ba723396404a357cf19",
+      "derived_sha256": "cf7af2216379331e8c4456996fa28ddbba7a50cb0fd63ba723396404a357cf19",
+      "original_bytes": 718,
+      "derived_bytes": 718,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/03-negative-confirmation-freeze04.json",
+      "original_filename": "03-negative-confirmation-freeze04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/03-negative-confirmation-freeze04.json",
+      "original_sha256": "1b2146b9cb07d5f1df4dfee7d02d747149e6926985e7ad6ee4d6acaa3fc7a54c",
+      "derived_sha256": "1b2146b9cb07d5f1df4dfee7d02d747149e6926985e7ad6ee4d6acaa3fc7a54c",
+      "original_bytes": 1549,
+      "derived_bytes": 1549,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/03-negative-controller-freeze04.json",
+      "original_filename": "03-negative-controller-freeze04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/03-negative-controller-freeze04.json",
+      "original_sha256": "93f13287a5b3742fcb43540725f958ab0093ed3a84e8c5acfa1d97834a668fb7",
+      "derived_sha256": "93f13287a5b3742fcb43540725f958ab0093ed3a84e8c5acfa1d97834a668fb7",
+      "original_bytes": 1345,
+      "derived_bytes": 1345,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/04-confirmation-illustration-selection04.json",
+      "original_filename": "04-confirmation-illustration-selection04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/04-confirmation-illustration-selection04.json",
+      "original_sha256": "6809ebc3d4c9cc9c07c671bd97876f3b03865a8f33880bcbb0daeb72587dcff4",
+      "derived_sha256": "6809ebc3d4c9cc9c07c671bd97876f3b03865a8f33880bcbb0daeb72587dcff4",
+      "original_bytes": 1208,
+      "derived_bytes": 1208,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/clarification-0.5b-recipe04.json",
+      "original_filename": "clarification-0.5b-recipe04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/clarification-0.5b-recipe04.json",
+      "original_sha256": "6f8d0dacc9a404c7e457f450497c5252b53b0709d271e673a0ef3fd9a2217e35",
+      "derived_sha256": "6f8d0dacc9a404c7e457f450497c5252b53b0709d271e673a0ef3fd9a2217e35",
+      "original_bytes": 11839,
+      "derived_bytes": 11839,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/clarification-proposal04.json",
+      "original_filename": "clarification-proposal04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/clarification-proposal04.json",
+      "original_sha256": "b703accb384a36b6d7fc5bdcb5c58027d1c3b9d2a6fa48383ea11319953305eb",
+      "derived_sha256": "b703accb384a36b6d7fc5bdcb5c58027d1c3b9d2a6fa48383ea11319953305eb",
+      "original_bytes": 6647,
+      "derived_bytes": 6647,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/clarification-protocol-template04.json",
+      "original_filename": "clarification-protocol-template04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/clarification-protocol-template04.json",
+      "original_sha256": "a0735af121e7221b7745089718d948e8f6873e54fed8b6bc48eb43a6b991c909",
+      "derived_sha256": "a0735af121e7221b7745089718d948e8f6873e54fed8b6bc48eb43a6b991c909",
+      "original_bytes": 2056,
+      "derived_bytes": 2056,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/clarification-protocol04.json",
+      "original_filename": "clarification-protocol04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/clarification-protocol04.json",
+      "original_sha256": "99d0a11715fcdbd433a635f62f05ee84c8de8223216b3e3ecc1b94b2c5e5d207",
+      "derived_sha256": "99d0a11715fcdbd433a635f62f05ee84c8de8223216b3e3ecc1b94b2c5e5d207",
+      "original_bytes": 2770,
+      "derived_bytes": 2770,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/feasibility-14b-recipe03.json",
+      "original_filename": "feasibility-14b-recipe03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/feasibility-14b-recipe03.json",
+      "original_sha256": "fc3ace1f263d8d5b5bd9eb1a9e07eaa895e480197e735d2de946a2d8c18a5253",
+      "derived_sha256": "fc3ace1f263d8d5b5bd9eb1a9e07eaa895e480197e735d2de946a2d8c18a5253",
+      "original_bytes": 12092,
+      "derived_bytes": 12092,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/feasibility-proposal03.json",
+      "original_filename": "feasibility-proposal03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/feasibility-proposal03.json",
+      "original_sha256": "0d51e9b6115338c68f6cc06867dd7c9e8645879062b298a823ef1dbc8e2b3b4c",
+      "derived_sha256": "0d51e9b6115338c68f6cc06867dd7c9e8645879062b298a823ef1dbc8e2b3b4c",
+      "original_bytes": 6739,
+      "derived_bytes": 6739,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/feasibility-protocol-template03.json",
+      "original_filename": "feasibility-protocol-template03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/feasibility-protocol-template03.json",
+      "original_sha256": "ef9c6f6d57c48f1fb01c6921b139513c36720c14f1087dd6a787c5adf7e4ea27",
+      "derived_sha256": "ef9c6f6d57c48f1fb01c6921b139513c36720c14f1087dd6a787c5adf7e4ea27",
+      "original_bytes": 2385,
+      "derived_bytes": 2385,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/feasibility-protocol03.json",
+      "original_filename": "feasibility-protocol03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/feasibility-protocol03.json",
+      "original_sha256": "bc73f7616593789fe98b7d5daeccb239cb660a4f06875391b55cc14ef0f3f5ac",
+      "derived_sha256": "bc73f7616593789fe98b7d5daeccb239cb660a4f06875391b55cc14ef0f3f5ac",
+      "original_bytes": 2962,
+      "derived_bytes": 2962,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-budget-control-recipe04.json",
+      "original_filename": "negative-budget-control-recipe04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-budget-control-recipe04.json",
+      "original_sha256": "b26391fb2cd6cce5080c2e82ae9ff51fb9d520a1961cd657d5933f62d67b9ef2",
+      "derived_sha256": "b26391fb2cd6cce5080c2e82ae9ff51fb9d520a1961cd657d5933f62d67b9ef2",
+      "original_bytes": 12833,
+      "derived_bytes": 12833,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-budget-proposal04.json",
+      "original_filename": "negative-budget-proposal04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-budget-proposal04.json",
+      "original_sha256": "7f474b605ae4f04a2f2ea276c1010f2a164d63e98526406e2cf305d0dee41b62",
+      "derived_sha256": "7f474b605ae4f04a2f2ea276c1010f2a164d63e98526406e2cf305d0dee41b62",
+      "original_bytes": 6711,
+      "derived_bytes": 6711,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-budget-protocol-template04.json",
+      "original_filename": "negative-budget-protocol-template04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-budget-protocol-template04.json",
+      "original_sha256": "4626e51013c6f9f84490414b2e146eba1b9f5aaa1dc775151489cd4b973942db",
+      "derived_sha256": "4626e51013c6f9f84490414b2e146eba1b9f5aaa1dc775151489cd4b973942db",
+      "original_bytes": 2385,
+      "derived_bytes": 2385,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-budget-protocol04.json",
+      "original_filename": "negative-budget-protocol04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-budget-protocol04.json",
+      "original_sha256": "e47a4c2ac59102f812d623a6a3203861cbb3ff569129a42bde75ec1ee901506a",
+      "derived_sha256": "e47a4c2ac59102f812d623a6a3203861cbb3ff569129a42bde75ec1ee901506a",
+      "original_bytes": 3738,
+      "derived_bytes": 3738,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-calibration-recipe04.json",
+      "original_filename": "negative-calibration-recipe04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-calibration-recipe04.json",
+      "original_sha256": "dcfcbad8dfbc646e7b000e3d3fc1313a937b3352616d2c72c07138e72490d2c0",
+      "derived_sha256": "dcfcbad8dfbc646e7b000e3d3fc1313a937b3352616d2c72c07138e72490d2c0",
+      "original_bytes": 12857,
+      "derived_bytes": 12857,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-learned-protocol04.json",
+      "original_filename": "negative-confirm-learned-protocol04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-confirm-learned-protocol04.json",
+      "original_sha256": "3d18637fea41ef9f7843eb06b5df009c308c0f273acf76a490ce9bbcd6060af3",
+      "derived_sha256": "3d18637fea41ef9f7843eb06b5df009c308c0f273acf76a490ce9bbcd6060af3",
+      "original_bytes": 4263,
+      "derived_bytes": 4263,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-learned-recipe04.json",
+      "original_filename": "negative-confirm-learned-recipe04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-confirm-learned-recipe04.json",
+      "original_sha256": "28efc4f6520bd50c3c68badd0c3b785c44cde8903e9acfde06f653523faff063",
+      "derived_sha256": "28efc4f6520bd50c3c68badd0c3b785c44cde8903e9acfde06f653523faff063",
+      "original_bytes": 49891,
+      "derived_bytes": 49891,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-simple-protocol04.json",
+      "original_filename": "negative-confirm-simple-protocol04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-confirm-simple-protocol04.json",
+      "original_sha256": "8e84a892f7f38e4ec95c317f4b28686dd385039dfded7b706f33757eb18c3822",
+      "derived_sha256": "8e84a892f7f38e4ec95c317f4b28686dd385039dfded7b706f33757eb18c3822",
+      "original_bytes": 4263,
+      "derived_bytes": 4263,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-simple-recipe04.json",
+      "original_filename": "negative-confirm-simple-recipe04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-confirm-simple-recipe04.json",
+      "original_sha256": "51e3fc0fb53c0c44c1e349e00471941d4aa9a3730bfcc12d74e4fc8e1879c1b4",
+      "derived_sha256": "51e3fc0fb53c0c44c1e349e00471941d4aa9a3730bfcc12d74e4fc8e1879c1b4",
+      "original_bytes": 13523,
+      "derived_bytes": 13523,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-slice-protocol04.json",
+      "original_filename": "negative-confirm-slice-protocol04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-confirm-slice-protocol04.json",
+      "original_sha256": "c2db2ec02a70abb7c411a68fb2f8e58a8eb5c329e153a96e8ba0c21e6daf18f6",
+      "derived_sha256": "c2db2ec02a70abb7c411a68fb2f8e58a8eb5c329e153a96e8ba0c21e6daf18f6",
+      "original_bytes": 4263,
+      "derived_bytes": 4263,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-slice-recipe04.json",
+      "original_filename": "negative-confirm-slice-recipe04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-confirm-slice-recipe04.json",
+      "original_sha256": "01b50acbfb0ad51b29bff26f23c27c1420dd2c36f73b682fe3c53881e11f5c75",
+      "derived_sha256": "01b50acbfb0ad51b29bff26f23c27c1420dd2c36f73b682fe3c53881e11f5c75",
+      "original_bytes": 13385,
+      "derived_bytes": 13385,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-fit-recipe04.json",
+      "original_filename": "negative-fit-recipe04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-fit-recipe04.json",
+      "original_sha256": "984b71e8aee5830f0bb8948394450e240657b45062887fe9bf25bea5d24fd52e",
+      "derived_sha256": "984b71e8aee5830f0bb8948394450e240657b45062887fe9bf25bea5d24fd52e",
+      "original_bytes": 12857,
+      "derived_bytes": 12857,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-learned-proposal04.json",
+      "original_filename": "negative-learned-proposal04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-learned-proposal04.json",
+      "original_sha256": "2abbfb3f1d296f36c49725dffe16b4a4a6f4505474510140eb3c3824d47bb841",
+      "derived_sha256": "2abbfb3f1d296f36c49725dffe16b4a4a6f4505474510140eb3c3824d47bb841",
+      "original_bytes": 7076,
+      "derived_bytes": 7076,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-learned-protocol-template04.json",
+      "original_filename": "negative-learned-protocol-template04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-learned-protocol-template04.json",
+      "original_sha256": "8f5657417f691abb4c7dc3e4e71836e4e47ca7d34e727ac7fcaf5ed0bfb003e8",
+      "derived_sha256": "8f5657417f691abb4c7dc3e4e71836e4e47ca7d34e727ac7fcaf5ed0bfb003e8",
+      "original_bytes": 2416,
+      "derived_bytes": 2416,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-learned-protocol04.json",
+      "original_filename": "negative-learned-protocol04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-learned-protocol04.json",
+      "original_sha256": "19bb875e2a8535261303b7c957bee538a9a2dcb4b32cafcce408e3f8e5e70016",
+      "derived_sha256": "19bb875e2a8535261303b7c957bee538a9a2dcb4b32cafcce408e3f8e5e70016",
+      "original_bytes": 3738,
+      "derived_bytes": 3738,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-simple-proposal04.json",
+      "original_filename": "negative-simple-proposal04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-simple-proposal04.json",
+      "original_sha256": "fbecfd9398e5e54fb222564ee96428b3603c25b4987046d7ffe6f3caf2f8df49",
+      "derived_sha256": "fbecfd9398e5e54fb222564ee96428b3603c25b4987046d7ffe6f3caf2f8df49",
+      "original_bytes": 6875,
+      "derived_bytes": 6875,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-simple-protocol-template04.json",
+      "original_filename": "negative-simple-protocol-template04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-simple-protocol-template04.json",
+      "original_sha256": "cfe91315f8935e4c54fcfe53f2ec1b59c4a2131809e9c650600dff507b80f5d1",
+      "derived_sha256": "cfe91315f8935e4c54fcfe53f2ec1b59c4a2131809e9c650600dff507b80f5d1",
+      "original_bytes": 2416,
+      "derived_bytes": 2416,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-simple-protocol04.json",
+      "original_filename": "negative-simple-protocol04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-simple-protocol04.json",
+      "original_sha256": "d08ad8957ec6eceada280678a19cda2bd793b25a18a5d6b51676308376e5bba0",
+      "derived_sha256": "d08ad8957ec6eceada280678a19cda2bd793b25a18a5d6b51676308376e5bba0",
+      "original_bytes": 3738,
+      "derived_bytes": 3738,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-slice-proposal04.json",
+      "original_filename": "negative-slice-proposal04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-slice-proposal04.json",
+      "original_sha256": "0d51e9b6115338c68f6cc06867dd7c9e8645879062b298a823ef1dbc8e2b3b4c",
+      "derived_sha256": "0d51e9b6115338c68f6cc06867dd7c9e8645879062b298a823ef1dbc8e2b3b4c",
+      "original_bytes": 6739,
+      "derived_bytes": 6739,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-slice-protocol-template04.json",
+      "original_filename": "negative-slice-protocol-template04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-slice-protocol-template04.json",
+      "original_sha256": "ef9c6f6d57c48f1fb01c6921b139513c36720c14f1087dd6a787c5adf7e4ea27",
+      "derived_sha256": "ef9c6f6d57c48f1fb01c6921b139513c36720c14f1087dd6a787c5adf7e4ea27",
+      "original_bytes": 2385,
+      "derived_bytes": 2385,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-slice-protocol04.json",
+      "original_filename": "negative-slice-protocol04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-slice-protocol04.json",
+      "original_sha256": "e3ee74a95e2662e683e227b815992756dd554846791654c5959e15cf9e8f649f",
+      "derived_sha256": "e3ee74a95e2662e683e227b815992756dd554846791654c5959e15cf9e8f649f",
+      "original_bytes": 3738,
+      "derived_bytes": 3738,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-training-protocol04.json",
+      "original_filename": "negative-training-protocol04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/negative-training-protocol04.json",
+      "original_sha256": "2bb5a29e4e075f5930ee1c6edde0d3891f1c68a4a2f9a2fabf93eb080e403916",
+      "derived_sha256": "2bb5a29e4e075f5930ee1c6edde0d3891f1c68a4a2f9a2fabf93eb080e403916",
+      "original_bytes": 819,
+      "derived_bytes": 819,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/03-confirmation-access-log04.jsonl",
+      "original_filename": "03-confirmation-access-log04.jsonl",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/protocols/03-confirmation-access-log04.jsonl.txt",
+      "original_sha256": "0136ceeee9b99965b4ce698ca9d127cf762e938730fa4a33c12c0a25a2105cd8",
+      "derived_sha256": "0136ceeee9b99965b4ce698ca9d127cf762e938730fa4a33c12c0a25a2105cd8",
+      "original_bytes": 1158,
+      "derived_bytes": 1158,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-controller04/calibration-labels.json",
+      "original_filename": "calibration-labels.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/training/calibration-labels.json",
+      "original_sha256": "6bbae59de5793bdee720e702b8848c6bba82be6f00cb0775f7ec75ad46b84ec0",
+      "derived_sha256": "6bbae59de5793bdee720e702b8848c6bba82be6f00cb0775f7ec75ad46b84ec0",
+      "original_bytes": 14421,
+      "derived_bytes": 14421,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-controller04/controller.json",
+      "original_filename": "controller.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/training/controller.json",
+      "original_sha256": "4eddbc0eb75fe434d08351e045c07921662ba7bde666830ab2bf7566f1c40c91",
+      "derived_sha256": "4eddbc0eb75fe434d08351e045c07921662ba7bde666830ab2bf7566f1c40c91",
+      "original_bytes": 36153,
+      "derived_bytes": 36153,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-controller04/fit-labels.json",
+      "original_filename": "fit-labels.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/training/fit-labels.json",
+      "original_sha256": "d87ea5782077fd77cc98f866934604c6b828329b46573fe2876aa05959b7c486",
+      "derived_sha256": "d87ea5782077fd77cc98f866934604c6b828329b46573fe2876aa05959b7c486",
+      "original_bytes": 14400,
+      "derived_bytes": 14400,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-controller04/training-protocol.json",
+      "original_filename": "training-protocol.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/training/training-protocol.json",
+      "original_sha256": "2bb5a29e4e075f5930ee1c6edde0d3891f1c68a4a2f9a2fabf93eb080e403916",
+      "derived_sha256": "2bb5a29e4e075f5930ee1c6edde0d3891f1c68a4a2f9a2fabf93eb080e403916",
+      "original_bytes": 819,
+      "derived_bytes": 819,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-controller04/training-receipt.json",
+      "original_filename": "training-receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/training/training-receipt.json",
+      "original_sha256": "8af183a0ad094f7ea805475f021ebc17f69c231128961c7208668adea53f2023",
+      "derived_sha256": "8af183a0ad094f7ea805475f021ebc17f69c231128961c7208668adea53f2023",
+      "original_bytes": 521,
+      "derived_bytes": 521,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Byte-exact original scientific artifact; filename extension mapping only when documented."
+    }
+  ]
+}

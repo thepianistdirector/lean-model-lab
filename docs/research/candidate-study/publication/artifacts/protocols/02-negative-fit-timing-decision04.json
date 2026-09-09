@@ -1,0 +1,16 @@
+{
+  "status": "ADVANCE_FIXED_NEGATIVE_MATRIX",
+  "evaluated_ns": 291487139100836,
+  "fit_queue_execution_s": 208.324388002,
+  "fit_offered": 128,
+  "prior_closed_native_execution_s": 523.025664774,
+  "native_execution_so_far_s": 731.350052776,
+  "remaining_offered": 1792,
+  "safety_multiplier": 1.5,
+  "projected_remaining_native_s": 4374.812148042,
+  "projected_total_native_s": 5106.162200818,
+  "native_ceiling_s": 10800,
+  "original_deadline_ns": 310468865220540,
+  "fit_receipt_sha256": "a59c62248a9d2a8158592e55327323deed56cc7e3e55871ec375a758f79602a9",
+  "scope": "Prospectively frozen timing rule only. Quality failures remain outcomes of the new negative contract; no positive-advance branch is reopened."
+}

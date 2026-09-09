@@ -1,0 +1,261 @@
+{
+  "review_status": "COMPLETE_BOUNDED_REVIEW",
+  "reviewer_separation": "Separate GPT-6 Astra process on the same physical host and Unix identity; not external human or institutional validation.",
+  "reviewed_package_identities": {
+    "candidate-research.zip": {
+      "sha256": "0d7f475e5db5e5e6c7b78b777acd83a5253f75558bc292110b8a09cd83104e21",
+      "files": 7857,
+      "directories": 88,
+      "manifest_entries_verified_after_extraction": 7856,
+      "safe_paths": true
+    },
+    "quality-research.zip": {
+      "sha256": "5c9d4f5f5e47f8a03113fe72c203d0926801c3f515939c43a381be2ec92893ab",
+      "files": 14318,
+      "directories": 72,
+      "manifest_entries_verified_after_extraction": 14317,
+      "safe_paths": true
+    },
+    "systems-research.zip": {
+      "sha256": "7652be420b810b2398649b5e099581da1214f31e4ec632ac4ef4f226760e4085",
+      "files": 6444,
+      "directories": 55,
+      "manifest_entries_verified_after_extraction": 6443,
+      "safe_paths": true
+    }
+  },
+  "source_zip_sha256": "b9b933e862b9f69f34367bad48e0bbff665cc30d65cfbeed04f2885627d9b430",
+  "source_payload_files_verified_per_package": 1203,
+  "native_exact_producer_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+  "native_exports": {
+    "quality": {
+      "alias": "reproduction-quality",
+      "public_package_location": "evidence/reproduction-quality",
+      "ready": {
+        "changed_raw_file_count": 516,
+        "expected_requests": 512,
+        "observed_requests": 512,
+        "provenance_sha256": "5bb4574721925a092c3f84223735bd3a7d3c63f8ac82d31fc431ff73db28770c",
+        "report_sha256": "55833827abd333c1f99dd0f2f1e7d907af5daa9610469d3f8608118e88653e20",
+        "status": "LOCAL_REDACTED_EXPORT_VERIFIED_NOT_PUBLISHED"
+      },
+      "retained_key_files": {
+        "EXPORT-READY.json": {
+          "sha256": "9b06e4e2a42e0d2dbd00d80d2ca4cc5ddc1f65bf9e387e4e76529f65463f4a61",
+          "bytes": 305
+        },
+        "study/EXPORT-PROVENANCE.json": {
+          "sha256": "5bb4574721925a092c3f84223735bd3a7d3c63f8ac82d31fc431ff73db28770c",
+          "bytes": 289417
+        },
+        "report.json": {
+          "sha256": "55833827abd333c1f99dd0f2f1e7d907af5daa9610469d3f8608118e88653e20",
+          "bytes": 123263
+        }
+      },
+      "recipe_sha256": "1bb41c2538cde8652069d10409d17bfc71e5760d2ff18288acb75c0de97bcf79",
+      "producer_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+      "fresh_offered_requests": 512,
+      "fresh_observed_requests": 512,
+      "official_eligible": false
+    },
+    "candidate": {
+      "alias": "reproduction-candidate",
+      "public_package_location": "evidence/reproduction-candidate",
+      "ready": {
+        "changed_raw_file_count": 516,
+        "expected_requests": 512,
+        "observed_requests": 512,
+        "provenance_sha256": "d3d4e22dd83ce63e2ca98753187cafe054c54d0d4366ad3a762bfdd31e41c97f",
+        "report_sha256": "6d51cc6cd7f8f449677e46b6d1fff33baa9dd34c8cda5eef1e47ad5201f17273",
+        "status": "LOCAL_REDACTED_EXPORT_VERIFIED_NOT_PUBLISHED"
+      },
+      "retained_key_files": {
+        "EXPORT-READY.json": {
+          "sha256": "18caf334d4bdabfa7705d6668e31e167900f08a10c1de312d135e03d77c96ba1",
+          "bytes": 305
+        },
+        "study/EXPORT-PROVENANCE.json": {
+          "sha256": "d3d4e22dd83ce63e2ca98753187cafe054c54d0d4366ad3a762bfdd31e41c97f",
+          "bytes": 282203
+        },
+        "report.json": {
+          "sha256": "6d51cc6cd7f8f449677e46b6d1fff33baa9dd34c8cda5eef1e47ad5201f17273",
+          "bytes": 150536
+        }
+      },
+      "recipe_sha256": "01b50acbfb0ad51b29bff26f23c27c1420dd2c36f73b682fe3c53881e11f5c75",
+      "producer_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+      "fresh_offered_requests": 512,
+      "fresh_observed_requests": 512,
+      "official_eligible": false
+    },
+    "systems": {
+      "alias": "reproduction-systems",
+      "public_package_location": "evidence/reproduction-systems",
+      "ready": {
+        "changed_raw_file_count": 516,
+        "expected_requests": 512,
+        "observed_requests": 512,
+        "provenance_sha256": "241e4d3fdb091fbad1f22ce43c8abe9fb4913488e7df2d3ddff074194a36d6d7",
+        "report_sha256": "e9e50df734689cd569a4924c9984cb07073689678ec60270424909dec4e949d6",
+        "status": "LOCAL_REDACTED_EXPORT_VERIFIED_NOT_PUBLISHED"
+      },
+      "retained_key_files": {
+        "EXPORT-READY.json": {
+          "sha256": "a8ad8765820e78ca924260ef199626092a32440c75cf1f931ff52609edc8c8b3",
+          "bytes": 305
+        },
+        "study/EXPORT-PROVENANCE.json": {
+          "sha256": "241e4d3fdb091fbad1f22ce43c8abe9fb4913488e7df2d3ddff074194a36d6d7",
+          "bytes": 282195
+        },
+        "report.json": {
+          "sha256": "e9e50df734689cd569a4924c9984cb07073689678ec60270424909dec4e949d6",
+          "bytes": 149740
+        }
+      },
+      "recipe_sha256": "3c55d694550bbd2e9399b16cd69c54725f654c4f2a941db14dc4509ea52e8e41",
+      "producer_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+      "fresh_offered_requests": 512,
+      "fresh_observed_requests": 512,
+      "official_eligible": false
+    }
+  },
+  "original_denominators": {
+    "studies": 18,
+    "attempts": 89,
+    "offered": 7840,
+    "observed": 7742,
+    "missing": 98
+  },
+  "fresh_denominators": {
+    "studies": 3,
+    "attempts": 12,
+    "offered": 1536,
+    "observed": 1536,
+    "failed_pre_inference_admissions": 1,
+    "failed_admission_native_requests": 0
+  },
+  "acceptance_verdicts": {
+    "quality": {
+      "status": "ACCEPT_SCOPED_ORIGINAL_BATCH_RESULT_AND_EXACT_RETAINED_OUTPUT_REPRODUCTION",
+      "limits": "All 512 fresh outputs match; original recipe/config/workload retained. Fresh official report remains ineligible solely for retained prior same-recipe measurements, with official ratios null. Labeled descriptive quality/parity/cost/tail numeric checks pass. No interactive-SLO or independent-confirmation claim."
+    },
+    "candidate": {
+      "status": "ACCEPT_SCOPED_NEGATIVE_RESULT_AND_SELECTED_DEPENDENCY_SLICE_REPRODUCTION",
+      "limits": "Fresh reproduction covers the original dependency-slice confirmation cell only. Other policies, fit/calibration grid and frozen ALWAYS_FULL controller are checked through original evidence and offline reanalysis. No superiority over all shortening policies or general task-solving claim."
+    },
+    "systems": {
+      "status": "ACCEPT_SCOPED_NEGATIVE_CACHED_COMPARATOR_RESULT_AND_SELECTED_H1_REPRODUCTION",
+      "limits": "Fresh reproduction covers H1 0.5B reuse24 only. Transfer/model/context cells are checked through original evidence and offline reanalysis. Failed absolute quality prevents eligible efficiency claims."
+    },
+    "package_usability": {
+      "status": "ACCEPT_OFFLINE_REANALYSIS_WITH_VERIFIED_QUEUE_SUPPLEMENT_AND_DISCLOSED_NATIVE_PROVENANCE_REPAIR",
+      "limits": "Three immutable candidate03 packages are inventoried separately. A missing original quality queue payload has been exactly verified as a supplement. Same-host native continuation needed restoration of two original predecessor trees for root-created derivative exports; this is an operational portability dependency. Final integrated ZIP inclusion/readback belongs to root. No external-user usability observation."
+    }
+  },
+  "unobserved_gates": [
+    "public release",
+    "separate physical-host execution",
+    "external person use",
+    "qualified researcher review",
+    "accessibility expertise"
+  ],
+  "public_review_files": {
+    "audit_studies.py": {
+      "sha256": "a14a02d56c3ce7033d3f1fcd5dc1d35eba2bec3bfc148fea67d48d93c724525c",
+      "bytes": 5408
+    },
+    "entrypoint-link-check.json": {
+      "sha256": "4cd92895c0d06559b18966eaced18cc6d12ba0b02ea4011624552bb4f5dc8a8f",
+      "bytes": 9256
+    },
+    "frozen-split-trace-check.json": {
+      "sha256": "fc7e51a513408214b8bb67c03f4cc517945f06f94dbd901c374a78e909ae23fe",
+      "bytes": 1610
+    },
+    "historical-protocol-diagnostics.json": {
+      "sha256": "37a4ef143bb1bcd2d3a4a9937ac754580ceccd6d057fe1975891b055dfd3d21d",
+      "bytes": 21052
+    },
+    "independent-raw-audit.json": {
+      "sha256": "8be4b0b120c6e398f338852d139d986603d743a01ebfef1d407256abbed19054",
+      "bytes": 93517
+    },
+    "independent-report-reconciliation.json": {
+      "sha256": "ebc69434d9d6eeac8d7a537c1df5278919e207b28d2cecd8242f09b946daeba4",
+      "bytes": 32880
+    },
+    "native-command-receipts.json": {
+      "sha256": "2a5247b29db21d753501a8baf431de5ca4a2d34e3e8feb5af956400bb0e2d3eb",
+      "bytes": 36527
+    },
+    "native-comparison.csv": {
+      "sha256": "fef51d4d1a8784bbf516905d115ce393581acbd7ad4084cfa8f8b32e6beb0dac",
+      "bytes": 3047
+    },
+    "native-comparison.json": {
+      "sha256": "118e8514d28bc8601e249aa2c5a8a3c15fe77ce6045e1f59d2b8c01cfa59de34",
+      "bytes": 27925
+    },
+    "native-process-costs.json": {
+      "sha256": "7991c9d1c79317788b3bd841cb8425ba9ac23592446ff34c98f43ff8b9bf37d0",
+      "bytes": 9315
+    },
+    "native-resource-receipts.json": {
+      "sha256": "1da9c9d1345c5b6a00c5d3ed2cf875a6722821a2993d8e0bd07dc3c74f4d4f1b",
+      "bytes": 21833
+    },
+    "observer-source-check.json": {
+      "sha256": "4a605aca9ac66d6c20ace786816ecc62ba16a647e2f72fe9b59cd8cd01cc29d2",
+      "bytes": 2984
+    },
+    "offline-command-receipts.json": {
+      "sha256": "ec09a03b375e1d5bccd698148c20a767938bfee1eebfe44a6be2bf5851e6b925",
+      "bytes": 10227
+    },
+    "offline-review.json": {
+      "sha256": "8b7d97166b44232b2929ff43b99c8d0fc80ed871911d50621f17f3d4a7eb4d7d",
+      "bytes": 5706
+    },
+    "original-producer-inspection.json": {
+      "sha256": "fab3608f732068f33d58afe98c05df7af10295864401326ad99b76464662c093",
+      "bytes": 8713
+    },
+    "producer-history-restoration-check.json": {
+      "sha256": "9a8e934f3cc3b7fa812e0d9785831d8dfba6d8e37a5300b4ed8552f0d1589f92",
+      "bytes": 1141
+    },
+    "quality-queue-supplement-check.json": {
+      "sha256": "14bb44d080201738cc4110db1b2ce4c5e64664b7e492c61869b0ec44f130ef12",
+      "bytes": 1094
+    },
+    "quality-reproduction-gate-observation.json": {
+      "sha256": "86aaea8bb0d653b6ab323753fb01f1ee19ead06eec39b5f5d8150a3f04d59a4b",
+      "bytes": 2255
+    },
+    "reanalysis-comparison.json": {
+      "sha256": "7dc71c5bce4863f1c88e4353d49bd5259dc72a9bc675a5ae66777179f82f2b5f",
+      "bytes": 8248
+    },
+    "report.md": {
+      "sha256": "3ab9595d38f17f97675ac5d849a13ed68442183b2bca8628e1e9265ac4d4172e",
+      "bytes": 10603
+    },
+    "reproduction-raw-audit.json": {
+      "sha256": "c7bb8cb608e5f8580623f5a0b584a027ed7a289ebfc6eecb4e05e4888b872902",
+      "bytes": 17328
+    },
+    "reviewer-command-discrepancies.json": {
+      "sha256": "c6191b1746462028c52923f5b51193004bb14e167be3b0934d5d70356361594b",
+      "bytes": 8636
+    },
+    "training-validation.json": {
+      "sha256": "2513ae3273013403df5deec8cb87920bd08e5244dc5a13cc7b0c3648500d2230",
+      "bytes": 805
+    }
+  },
+  "hash_scope": "Local artifact consistency; not producer authentication. Final integrated release packages have separate identities.",
+  "finalized_ns": 310034019714298
+}

@@ -1,0 +1,16 @@
+{
+  "source_url": "https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct-GGUF/tree/9217f5db79a29953eb74d5343926648285ec7e67?recursive=false&expand=false",
+  "entry": {
+    "type": "file",
+    "oid": "8a56296b52e3eaf9dbd1784787e6c9d577b15b30",
+    "size": 1266425696,
+    "lfs": {
+      "oid": "8e0ae26000627ed62de0e78e41860af70094558b9d2913385c842a6aa06cf3fc",
+      "size": 1266425696,
+      "pointerSize": 135
+    },
+    "xetHash": "3506faf16cbb9eb015f6041ecbcf9147fdc8fbccb682d63662329ff183fcd23e",
+    "path": "qwen2.5-0.5b-instruct-fp16.gguf"
+  },
+  "scope": "Public repository tree at the already pinned revision, no model download."
+}

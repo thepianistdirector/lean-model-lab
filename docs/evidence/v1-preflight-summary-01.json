@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "FIVE_FINDINGS_ADDRESSED",
+  "reviewer": "separate GPT-6 Astra leaf",
+  "review_artifact_sha256": "e231dfe579b086e8a65f0175b58e65585799f5cc9849ebcb7ac3ff0f8142e827",
+  "checks_passed": 14,
+  "findings": [
+    "Measured v3 reports require raw native evidence, not normalized records alone.",
+    "Compiler rejects quality/metrics/baseline/intervention metadata inconsistent with registered execution.",
+    "Actual input IDs compare across arms for same-input controls and within arms for declared changed-input policies.",
+    "Interrupted preparation retains observed timed envelope and supports honest adverse evidence inspection.",
+    "Non-cache mechanisms reject observed unexpected native prefix reuse in either arm."
+  ],
+  "scope": "Bounded engineering preflight with mocked function boundaries; separate process is not independent human validation. Actual inert HTTP controls and full test suite are recorded separately. Real candidate model execution and after-results skeptical reproduction remain pending."
+}

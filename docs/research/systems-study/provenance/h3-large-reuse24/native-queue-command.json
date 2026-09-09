@@ -1,0 +1,24 @@
+{
+  "recorded_before_invocation_ns": 292840088871578,
+  "command": [
+    "python3",
+    "tools/run_queued_recipe.py",
+    "--archive",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "--recipe",
+    ".cache/v1-investigations-20260908/systems/h3-large-reuse24/recipe.json",
+    "--server",
+    ".cache/prepared-14b-20260908-01/build/bin/llama-server",
+    "--model",
+    ".cache/prepared-14b-20260908-01/qwen2.5-14b-instruct-fp16-00001-of-00008.gguf",
+    "--setup",
+    ".cache/prepared-14b-20260908-01/setup.json",
+    "--output",
+    ".cache/v1-investigations-20260908/systems/h3-large-reuse24/study"
+  ],
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "TMPDIR": ".cache/tmp"
+  },
+  "scope": "Command record prepared after budget admission and before the one native queue invocation; original queue registration/receipt will retain actual execution timestamps."
+}

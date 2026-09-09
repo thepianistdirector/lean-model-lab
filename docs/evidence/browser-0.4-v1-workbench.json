@@ -1,0 +1,225 @@
+{
+  "schema": "lean-model-lab.browser-evidence-summary.v1",
+  "date_utc": "2026-09-08",
+  "status": "OBSERVED_V1_WORKBENCH_TASKS",
+  "scope": "Actual browser review of first real v1 comparison/recovery evidence, not final v2/14B artifact or broad accessibility certification.",
+  "raw_evidence_distribution": "Only this text summary is included. HTML, raw receipts, accessibility tree, harness and captures remain in local project cache and are not distributed in the source archive.",
+  "browser": {
+    "product": "HeadlessChrome/140.0.7339.186",
+    "revision": "@c643dfff61ee0c447b89c05001216825c74120ff",
+    "protocol_version": "1.3"
+  },
+  "artifacts": {
+    "original_html": {
+      "local_identifier": ".cache/workbench-0.4-first.html",
+      "sha256": "ba7ba7439b35427f439c8dee72905631667a9158a0ebe4cdf086d93ca297b624",
+      "bytes": 12300776,
+      "distributed_in_source_archive": false
+    },
+    "reviewed_html": {
+      "local_identifier": ".cache/workbench-browser-0.4-first/workbench-reviewed.html",
+      "sha256": "96232b38356b6988daa7b8f89e705677b239eb3354f1c09d4a100eefe8d6fd8c",
+      "bytes": 13474311,
+      "distributed_in_source_archive": false
+    },
+    "generator_sha256_at_review": "0ddf0607219d31948fc569e446ccfe776dfdf29722ea314101471213466f4233"
+  },
+  "observations": {
+    "expected_request_rows": 1792,
+    "retained_attempts": 14,
+    "labeled_filter_count": 7,
+    "filter_labels": [
+      "Study",
+      "Workload family",
+      "Concurrency",
+      "Pair",
+      "Arm",
+      "Request quality",
+      "Paired token evidence"
+    ],
+    "combined_keyboard_filter_visible_rows": 2,
+    "combined_keyboard_filter_request_ids": [
+      "r108",
+      "r121"
+    ],
+    "reset_restored_rows": 1792,
+    "contradictory_filter_visible_rows": 0,
+    "empty_state_visible": true,
+    "attempt_inventory_unaffected_by_request_filters": true,
+    "recovery_expected_rows": 256,
+    "recovery_missing_observations": 123,
+    "recovery_interrupted_observed_expected": [
+      5,
+      128
+    ],
+    "recovery_retry_observed_expected": [
+      128,
+      128
+    ],
+    "readable_request_token_text_and_cache_disclosure_opened_with_space": true,
+    "cost_disclosure_retained_failed_builds": 2,
+    "cost_disclosure_retained_failed_protocol_phases": 1,
+    "viewport_375px": {
+      "viewport_px": [
+        375,
+        812
+      ],
+      "page_scroll_width_css_px": 360,
+      "page_client_width_css_px": 360,
+      "control_min_height_css_px": 44,
+      "focused_table_arrow_scroll_left_before_after": [
+        0,
+        40
+      ]
+    },
+    "enlargement_200pct": {
+      "mechanism": "body.style.zoom = 200%",
+      "native_browser_zoom": false,
+      "page_scroll_client_width_css_px": [
+        1425,
+        1425
+      ],
+      "full_selected_family_visible": true
+    },
+    "accessibility_tree": {
+      "seven_named_selectors_observed": true,
+      "count_live_region": "polite, atomic",
+      "human_screen_reader_test": false
+    },
+    "keyboard_scope": "Tab/arrows/End/Space task segments; some initial focus and scroll positioning was programmatic, not a complete keyboard-only traversal from browser launch."
+  },
+  "run_closure": [
+    {
+      "run": "original",
+      "browser_exit": {
+        "code": 0,
+        "signal": null
+      },
+      "remaining_owned_processes": 0,
+      "owned_tcp_listeners": 0,
+      "javascript_exceptions": 0,
+      "console_errors": 0,
+      "only_local_html_document_network_request": true,
+      "audited_html_bytes_unchanged": true,
+      "receipt": {
+        "local_identifier": ".cache/workbench-browser-0.4-first/original-receipt.json",
+        "sha256": "f0ea8276681cb92a68269318a15c4ed0d2d48dd269b1ad521ee6601a20e30d93",
+        "bytes": 54399,
+        "distributed_in_source_archive": false
+      }
+    },
+    {
+      "run": "fixed",
+      "browser_exit": {
+        "code": 0,
+        "signal": null
+      },
+      "remaining_owned_processes": 0,
+      "owned_tcp_listeners": 0,
+      "javascript_exceptions": 0,
+      "console_errors": 0,
+      "only_local_html_document_network_request": true,
+      "audited_html_bytes_unchanged": true,
+      "receipt": {
+        "local_identifier": ".cache/workbench-browser-0.4-first/fixed-receipt.json",
+        "sha256": "465d5ede2ce0617868ad8f38d312b0e24fc6f858842d880f491ce5d4a6659206",
+        "bytes": 265143,
+        "distributed_in_source_archive": false
+      }
+    },
+    {
+      "run": "final",
+      "browser_exit": {
+        "code": 0,
+        "signal": null
+      },
+      "remaining_owned_processes": 0,
+      "owned_tcp_listeners": 0,
+      "javascript_exceptions": 0,
+      "console_errors": 0,
+      "only_local_html_document_network_request": true,
+      "audited_html_bytes_unchanged": true,
+      "receipt": {
+        "local_identifier": ".cache/workbench-browser-0.4-first/final-receipt.json",
+        "sha256": "44a309a3850e194e812f3f122cd00daca6f636c290ff6a0d990d695c1fbef0df",
+        "bytes": 188503,
+        "distributed_in_source_archive": false
+      }
+    },
+    {
+      "run": "reviewed",
+      "browser_exit": {
+        "code": 0,
+        "signal": null
+      },
+      "remaining_owned_processes": 0,
+      "owned_tcp_listeners": 0,
+      "javascript_exceptions": 0,
+      "console_errors": 0,
+      "only_local_html_document_network_request": true,
+      "audited_html_bytes_unchanged": true,
+      "receipt": {
+        "local_identifier": ".cache/workbench-browser-0.4-first/reviewed-receipt.json",
+        "sha256": "1abb0469c1db2229728f30f68587d72418a858e8cfb766af3da9a530cb2fa5d1",
+        "bytes": 142272,
+        "distributed_in_source_archive": false
+      }
+    }
+  ],
+  "captures": [
+    {
+      "local_identifier": ".cache/workbench-browser-0.4-first/08-fixed-open-request-details.png",
+      "sha256": "463517d9e71b0819174283dfaf8e9c7b079efd1efe8a4b5b1344823674ea74d5",
+      "bytes": 86050,
+      "distributed_in_source_archive": false,
+      "visually_inspected": true
+    },
+    {
+      "local_identifier": ".cache/workbench-browser-0.4-first/09-fixed-costs-and-failed-history.png",
+      "sha256": "802fff116a3c6b6f820de2b8c889b6183137eb8099a9a172d9b2740467a65da6",
+      "bytes": 117556,
+      "distributed_in_source_archive": false,
+      "visually_inspected": true
+    },
+    {
+      "local_identifier": ".cache/workbench-browser-0.4-first/12-fixed-narrow-empty-state.png",
+      "sha256": "11d8007be696e357171fa5dec50d3932c373210c57430b587702129e1723b904",
+      "bytes": 42652,
+      "distributed_in_source_archive": false,
+      "visually_inspected": true
+    },
+    {
+      "local_identifier": ".cache/workbench-browser-0.4-first/16-reviewed-desktop-filters.png",
+      "sha256": "1f46a5f88719ef48ae2860bd375d5ae8e7a44b0202a7618d58432db159300545",
+      "bytes": 152624,
+      "distributed_in_source_archive": false,
+      "visually_inspected": true
+    },
+    {
+      "local_identifier": ".cache/workbench-browser-0.4-first/17-reviewed-200pct-content-controls.png",
+      "sha256": "2571aa534bac89f81ef7ae5a4851e00ed0629b148964e90f87af8d801b5a0203",
+      "bytes": 90635,
+      "distributed_in_source_archive": false,
+      "visually_inspected": true
+    },
+    {
+      "local_identifier": ".cache/workbench-browser-0.4-first/18-reviewed-375px-controls.png",
+      "sha256": "d26717859487c1d28e69b4154280f75a8c1f2081407f60b0f620a722133f3e9d",
+      "bytes": 39383,
+      "distributed_in_source_archive": false,
+      "visually_inspected": true
+    }
+  ],
+  "capture_provenance": "16/17/18 use final audited generator. 08/09/12 precede only the final quality-copy and filter-width changes. Capture07 was closed and is not open-detail evidence; intermediate capture14 was superseded.",
+  "automated_checks": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=src:tests python -m unittest tests/test_workbench.py -q",
+    "tests_passed": 16,
+    "elapsed_seconds": 11.524,
+    "scope": "Run after final audited generator change; no new test run implied by this summary."
+  },
+  "remaining_checks": [
+    "Actual final v2/14B workbench at native200; tiny native proof is separately summarized.",
+    "Complete keyboard traversal from launch, 320px/400% reflow, human screen-reader use, actual no-script fallback, forced colors/contrast/print.",
+    "Largest admitted catalog performance and usability profiling."
+  ]
+}

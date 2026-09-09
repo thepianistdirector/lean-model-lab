@@ -1,0 +1,9 @@
+study,phase,mechanism,attempt_id,pair_index,arm,offered,correct,accuracy,full_wall_s,service_s,end_to_end_p95_s,ttft_p95_s,prompt_tokens,generated_tokens,quality_pass,eligible,status
+feasibility-14b-study03,DEVELOPMENT,dependency-slice-v1,attempt-49b1e2e4ca7449e9ba0325bbdffaf734,1,candidate,8,2,0.25,93.352388077,75.948474005,75.944786354,75.319714989,864,21,False,False,COMPLETED
+feasibility-14b-study03,DEVELOPMENT,dependency-slice-v1,attempt-70c3b5d04ef7494f885780f85ba3b4e5,1,baseline,8,1,0.125,139.698570032,122.097138068,122.084845087,120.205026607,1184,54,False,False,COMPLETED
+feasibility-14b-study03,DEVELOPMENT,dependency-slice-v1,attempt-cc3ebd7fc6654be7a2ace9632c7238f7,0,baseline,8,1,0.125,138.180478324,120.936694016,120.929132076,119.029441922,1184,54,False,False,COMPLETED
+feasibility-14b-study03,DEVELOPMENT,dependency-slice-v1,attempt-e1654646befe488b9c24685b6c55cda6,0,candidate,8,2,0.25,93.112162726,75.923943228,75.915381058,75.267481633,864,21,False,False,COMPLETED
+clarification-0.5b-study04,DEVELOPMENT,explicit-grammar-v2,attempt-08bf3387a127497eb05a8a0882bc4a60,0,baseline,8,1,0.125,10.190968666,8.805678714,8.797071571,8.728806168,1184,36,False,False,COMPLETED
+clarification-0.5b-study04,DEVELOPMENT,explicit-grammar-v2,attempt-3646b50a4e7f416295b4b8ef93b20ac8,0,candidate,8,0,0.0,15.411522119,13.954027254,13.94964937,13.857578087,1664,51,False,False,COMPLETED
+clarification-0.5b-study04,DEVELOPMENT,explicit-grammar-v2,attempt-d06d629c537749539419e33e8fb89e5e,1,candidate,8,0,0.0,14.398157779,12.962376982,12.953709827,12.852802465,1664,51,False,False,COMPLETED
+clarification-0.5b-study04,DEVELOPMENT,explicit-grammar-v2,attempt-e76b70a0126a44b8a024f61f464a32f4,1,baseline,8,1,0.125,10.117220512,8.649706788,8.637131713,8.570486273,1184,36,False,False,COMPLETED

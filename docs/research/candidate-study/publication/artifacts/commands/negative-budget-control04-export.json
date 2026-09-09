@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "tools/export_study.py",
+    ".cache/v1-investigations-20260908/candidate/negative-budget-control-study04",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/negative-budget-control-export04",
+    "--model-path",
+    "$PROJECT_ROOT/.cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf"
+  ],
+  "exit_code": 0,
+  "finished_ns": 292935752695772,
+  "label": "negative-budget-control04-export",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 292934938252829,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 316,
+    "sha256": "bb505056c0385b05a51b286db332e32544d3993b3b69351e816bdab2172df001"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "PASS_SCOPED_NATIVE_REPRODUCTION_AND_REVIEW",
+  "native_observed_requests": 1536,
+  "complete_repeated_cells": 3,
+  "observed_ns": 309954246873779,
+  "review_report_sha256": "3ab9595d38f17f97675ac5d849a13ed68442183b2bca8628e1e9265ac4d4172e",
+  "review_inventory_sha256": "e351ef5b20c3d4d969c6f33597caf6bbfd8dee3e872d269d285211b0088f4811",
+  "native_process_execution_seconds": 6018.796963222,
+  "scientific_differences": 0,
+  "scope_of_acceptance": "Three distinct bounded findings and exact same-host retained-cell scientific output reproduction accepted after separate review. Substantial timing variation, failed quality/SLO gates, a pre-inference admission failure, limited controls, workflow-only isolation and human/public gates remain explicit. No universal gain, novelty, external person or institutional validation inferred.",
+  "publication_path_correction": "Three documentary interpreter paths replaced by an existing-Python placeholder after actual source guard rejection; original review directory preserved privately, discrepancy retained, strict source snapshot passed. No science or native-clock changes.",
+  "reconciled_ns": 310171973555467,
+  "browser_receipt_sha256": "719c6d8e569483940fc989e97698b90cc7f298435916510da0d6ec2b6fec0712",
+  "candidate04_readback_sha256": "b91284565756a7e7c001345b5cf700c5e1286feea9ba867a9ba02a20ea8b9956",
+  "remaining_gates": [
+    "exact public-release authorization",
+    "supported authenticated Tanduna submission and actual decision",
+    "external-person public-download workflow and recovery",
+    "qualified methodology and accessibility review"
+  ],
+  "scope": "Scoped local acceptance before final self-excluding delivery byte/source-commit/resource records. Overall native Goal remains active and incomplete."
+}

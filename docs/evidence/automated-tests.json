@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "test_count": 99,
+  "command": "PYTHONPATH=src python3 -m unittest discover -s tests -v",
+  "python": "3.12.14",
+  "platform": "Linux x86_64",
+  "elapsed_seconds": 11.411,
+  "log_sha256": "28c65de6cdcf8eace33ab5b475e2849c1693e6da07d1d89b39fc7affbc63a693",
+  "scope": "Local automated software tests; native-server fixtures are synthetic, not model inference or human validation."
+}

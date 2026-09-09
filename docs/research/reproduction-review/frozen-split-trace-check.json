@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "method": "Verify every original split-trace candidate, exact Gini fraction, deterministic tie break, stopping condition and stored-node consistency using original retained labels. Follow existing tree only; no replacement controller is trained or written.",
+  "controller_file_sha256": "4eddbc0eb75fe434d08351e045c07921662ba7bde666830ab2bf7566f1c40c91",
+  "nodes": [
+    {
+      "node_id": 3,
+      "samples": 5,
+      "candidate_thresholds": 0,
+      "stored_selection_verified": null
+    },
+    {
+      "node_id": 4,
+      "samples": 24,
+      "candidate_thresholds": 0,
+      "stored_selection_verified": null
+    },
+    {
+      "node_id": 1,
+      "samples": 29,
+      "candidate_thresholds": 31,
+      "stored_selection_verified": {
+        "feature": "max_retained_position_permille",
+        "threshold": 478
+      }
+    },
+    {
+      "node_id": 5,
+      "samples": 1,
+      "candidate_thresholds": 0,
+      "stored_selection_verified": null
+    },
+    {
+      "node_id": 6,
+      "samples": 2,
+      "candidate_thresholds": 0,
+      "stored_selection_verified": null
+    },
+    {
+      "node_id": 2,
+      "samples": 3,
+      "candidate_thresholds": 5,
+      "stored_selection_verified": {
+        "feature": "max_retained_position_permille",
+        "threshold": 869
+      }
+    },
+    {
+      "node_id": 0,
+      "samples": 32,
+      "candidate_thresholds": 33,
+      "stored_selection_verified": {
+        "feature": "min_retained_position_permille",
+        "threshold": 826
+      }
+    }
+  ],
+  "declared_split_candidates_checked": 69,
+  "deployed_mode": "ALWAYS_FULL"
+}

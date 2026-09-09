@@ -1,0 +1,49 @@
+{
+  "created_ns": 291090358619587,
+  "script_sha256": "0dab5379327e5427f029f3ca0debb718e008d531f2dcda61437c87dd8119a325",
+  "analysis_attempts_csv_sha256": "c4fd35752dd7d4ea9ac28ca6cf282f84b9e090de647f39d60c1a505a88e58d83",
+  "files": [
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-0.5b-clarification.pdf",
+      "original_sha256": "0b57183d6dbf771bba9f13909fa7e434c75341f58adde26dc4f86462f15a69ff",
+      "sha256": "32f41561845a26151e4e1f7ff2ce7b3aaca4b41395a70aec6143692fc26e2aeb",
+      "visual_review": "Companion export from the same inspected figure; no independent PDF raster renderer available",
+      "revision_scope": "Publication visual encoding only; native data and analysis table bytes unchanged."
+    },
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-0.5b-clarification.png",
+      "original_sha256": "e36649393248d8a6ce0259a42ff3cfe482868eaef6b576cc395e0a7f646acde9",
+      "sha256": "77b3e3794b808e878a5cd41b37cbbb1d2dec67efd541f41905d5fbe6adffe159",
+      "visual_review": "Revised PNG visually inspected: neutral charcoal95% reference, candidate open fill/diagonal hatch, unchanged labels/counts/timings",
+      "revision_scope": "Publication visual encoding only; native data and analysis table bytes unchanged."
+    },
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-0.5b-clarification.svg",
+      "original_sha256": "91d074eb83360ba80b31ab96f43f3b4ff86cce33f4259e80d6845fb9051e2500",
+      "sha256": "3f863948c7c66d45b211059b7cbcf8631492f80018bbcbb7ccd535316d6dc01d",
+      "visual_review": "Companion SVG from the same inspected figure",
+      "revision_scope": "Publication visual encoding only; native data and analysis table bytes unchanged."
+    },
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-14b-feasibility.pdf",
+      "original_sha256": "49090f95dde8965cc927df34cdf753860d0bcbeacba691b17036d2f37a0b238a",
+      "sha256": "8e718b8a955578a210d4c2be93eebd75cbdd39cc42a6c062356b6eba4470c8a1",
+      "visual_review": "Companion export from the same inspected figure; no independent PDF raster renderer available",
+      "revision_scope": "Publication visual encoding only; native data and analysis table bytes unchanged."
+    },
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-14b-feasibility.png",
+      "original_sha256": "adda6e2cf2d0a3837e73a154470ff77154671fe6c0d1aa5c970a86b912d53858",
+      "sha256": "b136048f0e18b964470acc5a82b4120c7677a283ca3004b4bee70d17a4a09edf",
+      "visual_review": "Revised PNG visually inspected: neutral charcoal95% reference, candidate open fill/diagonal hatch, unchanged labels/counts/timings",
+      "revision_scope": "Publication visual encoding only; native data and analysis table bytes unchanged."
+    },
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-14b-feasibility.svg",
+      "original_sha256": "c30151fa324ea8587ea18d14c1e11d64bfffb24403ccb8605eedf223206fca94",
+      "sha256": "ec98a498f3f9b940cc04ee466481507d9798e355f805dfec99d75685e9f0297a",
+      "visual_review": "Companion SVG from the same inspected figure",
+      "revision_scope": "Publication visual encoding only; native data and analysis table bytes unchanged."
+    }
+  ]
+}

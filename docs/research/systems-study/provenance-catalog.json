@@ -1,0 +1,2094 @@
+{
+  "scope": "Byte-exact scientific specifications and documented operational metadata derivatives, with original/derived hashes and original filenames.",
+  "files": [
+    {
+      "path": "portable-relocation-check.json",
+      "original_filename": "portable-relocation-check.json",
+      "bytes": 2365,
+      "sha256": "3bab8e8483fbd70aa9b088617d23d5fdf5c94063e31edddbd0619fe7d2f2b11a",
+      "operational_metadata_derivative": true,
+      "original_sha256": "73bbdb666a06c3105dd3f0590078cf568f5271d8f3d6fa58ab2cb6341b53b990"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/EXPORT-READY.json",
+      "original_filename": "EXPORT-READY.json",
+      "bytes": 302,
+      "sha256": "3e4f444c80da543970077f97999ff0610d163f5fa7552ff73b58113cb4f1252e",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/export.command.json",
+      "original_filename": "export.command.json",
+      "bytes": 542,
+      "sha256": "a92361ff1ae5838425001ced9828d802785f05c0bf5bb8a901dd0484bcb86353",
+      "operational_metadata_derivative": true,
+      "original_sha256": "2688494f9e1f3a6ad8ebd1665b4f283a8e3e79d1dda56e31f9b659cc94fb65f8"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/export.stderr.txt",
+      "original_filename": "export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/export.stdout.txt",
+      "original_filename": "export.stdout",
+      "bytes": 313,
+      "sha256": "dc611d8872385b1b534d5aca87c5906598ddc9869ef5fd7bea62ea943f80f315",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/freeze.command.json",
+      "original_filename": "freeze.command.json",
+      "bytes": 549,
+      "sha256": "8684c04a8088b9f733cb0bb8b0390369b4cb41b1425d14848a598b68b9a944af",
+      "operational_metadata_derivative": true,
+      "original_sha256": "d62b27bc41a9d626644f25446eb55c15d06b176c5743f5d83a73f1f759b63334"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/freeze.stderr.txt",
+      "original_filename": "freeze.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/freeze.stdout.txt",
+      "original_filename": "freeze.stdout",
+      "bytes": 861,
+      "sha256": "83cc30ccd6308dd1b966d3ef061504c4f051f49e60d8541d8d764b30c49a887f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/inspect-export.command.json",
+      "original_filename": "inspect-export.command.json",
+      "bytes": 417,
+      "sha256": "b73d3349cc1cb9d5601e180fb57ccc2ffd16294a2b37245015d1d8b8f090a45c",
+      "operational_metadata_derivative": true,
+      "original_sha256": "97bb438e9a01f601048d50fbb2dc71f0e9650ddd7fcaececaf862b33e90dccd6"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/inspect-export.json",
+      "original_filename": "inspect-export.json",
+      "bytes": 44013,
+      "sha256": "31e34a36c32e0c5b5486626409fdbc9d78ce627664c4cc897cc3e09669023a8b",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/inspect-export.stderr.txt",
+      "original_filename": "inspect-export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/inspect-export.stdout.txt",
+      "original_filename": "inspect-export.stdout",
+      "bytes": 44013,
+      "sha256": "31e34a36c32e0c5b5486626409fdbc9d78ce627664c4cc897cc3e09669023a8b",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/inspect.command.json",
+      "original_filename": "inspect.command.json",
+      "bytes": 410,
+      "sha256": "4b9267f596c155e16a60848ccbcc26867b5c2db7041b6924e3f4f682ac121fe8",
+      "operational_metadata_derivative": true,
+      "original_sha256": "998e810ffc116ad5d2b00ccb55d67c13cef64228b56c8dbfd1dd44f400d551a0"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/inspect.stderr.txt",
+      "original_filename": "inspect.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/inspect.stdout.txt",
+      "original_filename": "inspect.stdout",
+      "bytes": 44013,
+      "sha256": "31e34a36c32e0c5b5486626409fdbc9d78ce627664c4cc897cc3e09669023a8b",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/proposal-bundle/RESEARCH-MANIFEST.json",
+      "original_filename": "RESEARCH-MANIFEST.json",
+      "bytes": 834,
+      "sha256": "9ddb7c60ef7c78ba451ff17f8397a0ed465ec7bdc4ebfa273cd429f2c1058ae5",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/proposal-bundle/catalog.json",
+      "original_filename": "catalog.json",
+      "bytes": 92730,
+      "sha256": "56a28a58dc93381761eaf4aed716ad25506c506883cc849932eebad0f58c561e",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/proposal-bundle/proposal.json",
+      "original_filename": "proposal.json",
+      "bytes": 6645,
+      "sha256": "6975585e84cbd4ca25daef4507e327df591b2042a44f8c7fd090de4900feb895",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/proposal.json",
+      "original_filename": "proposal.json",
+      "bytes": 6645,
+      "sha256": "6975585e84cbd4ca25daef4507e327df591b2042a44f8c7fd090de4900feb895",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/propose.command.json",
+      "original_filename": "propose.command.json",
+      "bytes": 503,
+      "sha256": "45b4da8add268d8e8c748121fc43dcdfaa73b17d72073d5616766db4e88bb611",
+      "operational_metadata_derivative": true,
+      "original_sha256": "1ab1e3feaa23fb901827589fb4c433d7bbbb309a0d3d5c7d469ef219eb6dcf9f"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/propose.stderr.txt",
+      "original_filename": "propose.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/propose.stdout.txt",
+      "original_filename": "propose.stdout",
+      "bytes": 546,
+      "sha256": "486f66611652718d5e059fcdf331bee0915eda017523993f819f7e24149fef0c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/protocol-template.command.json",
+      "original_filename": "protocol-template.command.json",
+      "bytes": 576,
+      "sha256": "81307e95e83f0f16a660f524ae485f14441ed0f2e0c393c08320a2c3faf5c53f",
+      "operational_metadata_derivative": true,
+      "original_sha256": "f11e06cd0ba17874144d2c42681abee5941ae63f22ea655ff07fa0b87d4642ab"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/protocol-template.json",
+      "original_filename": "protocol-template.json",
+      "bytes": 2168,
+      "sha256": "390c1b28ee9049583bec993ed6158964ae0aee1a0392297ea3f425a23051923d",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/protocol-template.stderr.txt",
+      "original_filename": "protocol-template.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/protocol-template.stdout.txt",
+      "original_filename": "protocol-template.stdout",
+      "bytes": 2199,
+      "sha256": "5316f7b0c928d55536e9dfb599a860443305909d9b6d201b34a65125539df1ed",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/protocol.json",
+      "original_filename": "protocol.json",
+      "bytes": 2712,
+      "sha256": "50397acdb55b9ea4dca07cb6e4a4680b45ae6a22f461ba6fe197fe6819933bfe",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/queue-command.json",
+      "original_filename": "queue-command.json",
+      "bytes": 1099,
+      "sha256": "def766f6d9d92c32e94a99b8cd9815d5008fdc6e98db0bd64ff2c26db1cc59ee",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/queue-product.log.txt",
+      "original_filename": "queue-product.log",
+      "bytes": 459,
+      "sha256": "89691c177afbddb38559f7f7fc288ce42d2e39eb2d3098766eecc51a85eecbbe",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/queue-receipt.json",
+      "original_filename": "queue-receipt.json",
+      "bytes": 367,
+      "sha256": "f01ad31f7eacf1f8984237d5d4ec9c281cadca158ddeeca8d94c2dc5351f63f3",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/queue-registration.json",
+      "original_filename": "queue-registration.json",
+      "bytes": 317,
+      "sha256": "47b1df7a752867575dcee856731da671cc6a95723ac784b49ab3211e1e4d9f49",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/raw-audit-export.command.json",
+      "original_filename": "raw-audit-export.command.json",
+      "bytes": 477,
+      "sha256": "ccc433c9ac23306a00406e8eae9372c4dc232be9fb9db093e63172fe2408135e",
+      "operational_metadata_derivative": true,
+      "original_sha256": "b9426f50bc3268ec8d49118cb4a8b2c5812246fbbac1ec2701388976fb6b5fc1"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/raw-audit-export.json",
+      "original_filename": "raw-audit-export.json",
+      "bytes": 2137,
+      "sha256": "9d762d38581761031972280711ca30b2e43b9c2d747a3ff8127f94c52893d879",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/raw-audit-export.stderr.txt",
+      "original_filename": "raw-audit-export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/raw-audit-export.stdout.txt",
+      "original_filename": "raw-audit-export.stdout",
+      "bytes": 33,
+      "sha256": "0bf1b64fd3a8e0b8f13f1bd763a0452a842545acf00bf8baaea8d839ed0bb388",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/raw-audit.command.json",
+      "original_filename": "raw-audit.command.json",
+      "bytes": 448,
+      "sha256": "b4188e46f1012364ef395d39743c69b92344f41ddf9e9ff00d822702c0c29acb",
+      "operational_metadata_derivative": true,
+      "original_sha256": "820ae6d64812308a228d86ce3c2c0d6fa6b4d2f72e3f2f1440a1ec59269b974b"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/raw-audit.stderr.txt",
+      "original_filename": "raw-audit.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/raw-audit.stdout.txt",
+      "original_filename": "raw-audit.stdout",
+      "bytes": 33,
+      "sha256": "0bf1b64fd3a8e0b8f13f1bd763a0452a842545acf00bf8baaea8d839ed0bb388",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/recipe-validate.command.json",
+      "original_filename": "recipe-validate.command.json",
+      "bytes": 431,
+      "sha256": "d3892d3f3a3face90c6051fe152a6d7b3005da6d17cb1cf06b3e8ce9c7933980",
+      "operational_metadata_derivative": true,
+      "original_sha256": "bbfd0879b54a7240c48e7de062e18e967582941c6348072a093c8839bafb74f4"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/recipe-validate.stderr.txt",
+      "original_filename": "recipe-validate.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/recipe-validate.stdout.txt",
+      "original_filename": "recipe-validate.stdout",
+      "bytes": 280,
+      "sha256": "12c33357671be77cbbfb4d0827ebf3e483e6a70b8b83af0ddf7c6568b5ef5c53",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/recipe.json",
+      "original_filename": "recipe.json",
+      "bytes": 11766,
+      "sha256": "48ce064c86bb29e18628dcfe4cce7a5f8b56acf8bc712ad8cd4ada35953e33f4",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/report.command.json",
+      "original_filename": "report.command.json",
+      "bytes": 631,
+      "sha256": "f256787886f2421757bedc573a84b6ae5933cd089e195508e27f4fcdf0fd4526",
+      "operational_metadata_derivative": true,
+      "original_sha256": "a201bad10289cc5d45f2c31e23ae3639eee0f20b5846183e24d9985932734ef6"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/report.json",
+      "original_filename": "report.json",
+      "bytes": 71155,
+      "sha256": "dab27594c18cb67fad2a303daa16876278845a04ffaf2e9fe26605f6727ce2a8",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/report.stderr.txt",
+      "original_filename": "report.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/report.stdout.txt",
+      "original_filename": "report.stdout",
+      "bytes": 96,
+      "sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/study-create.command.json",
+      "original_filename": "study-create.command.json",
+      "bytes": 1102,
+      "sha256": "ae35b805d9663f6ac2f9e9c7e5b7ecc687c92624f88abb0e9b06e57d18b25f2d",
+      "operational_metadata_derivative": true,
+      "original_sha256": "43dfeff906bac49380b728525d81104caa2672bfc13d720992b4ce9d5f5817b3"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/study-create.stderr.txt",
+      "original_filename": "study-create.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/study-create.stdout.txt",
+      "original_filename": "study-create.stdout",
+      "bytes": 464,
+      "sha256": "edf255e905bc9d83f2f09c1ac7466de6ddba2ddadec436e52e2803a8363a0f0f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/verify-proposal.command.json",
+      "original_filename": "verify-proposal.command.json",
+      "bytes": 435,
+      "sha256": "3233a271e9a84b89738be82a9412e8873dccb8437438d7f23787d530d38e77d9",
+      "operational_metadata_derivative": true,
+      "original_sha256": "c31324a1c9833a2decd9822de6eed35db9b0346abb6a4f7dcff4d13fbe04d693"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/verify-proposal.stderr.txt",
+      "original_filename": "verify-proposal.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/verify-proposal.stdout.txt",
+      "original_filename": "verify-proposal.stdout",
+      "bytes": 361,
+      "sha256": "ba169dfec9dbe00b17cf732c756391385c9f14817a9d4897c6e70410b962e10c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/workbench.command.json",
+      "original_filename": "workbench.command.json",
+      "bytes": 655,
+      "sha256": "1e21ce242ab582473f75d4386f2cd0486262e46fd2a1b1d0eb43e16d8990173f",
+      "operational_metadata_derivative": true,
+      "original_sha256": "c29899eda8aff9957e2ed0799b48cde9b70999a9847f6ea898080b33604e8e74"
+    },
+    {
+      "path": "provenance/d1-small-reuse24/workbench.stderr.txt",
+      "original_filename": "workbench.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d1-small-reuse24/workbench.stdout.txt",
+      "original_filename": "workbench.stdout",
+      "bytes": 159,
+      "sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/EXPORT-READY.json",
+      "original_filename": "EXPORT-READY.json",
+      "bytes": 302,
+      "sha256": "0897ab1accf6e45cc2ea66733e73cfee074d1e0a82b2407cccf8fc18e1cba040",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/export.command.json",
+      "original_filename": "export.command.json",
+      "bytes": 560,
+      "sha256": "01c193054994a864cb4c65689b64ee455006b8e6098388c7f57b1a8de173af4d",
+      "operational_metadata_derivative": true,
+      "original_sha256": "645b5011f1ebf37dac829e7c9b2d56e3413f3a642017b767200decb423e31e8e"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/export.stderr.txt",
+      "original_filename": "export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/export.stdout.txt",
+      "original_filename": "export.stdout",
+      "bytes": 313,
+      "sha256": "171bf8ea005df4065b9b3df222b3e183a76a0ea6ad675ad546a7b20785614939",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/freeze.command.json",
+      "original_filename": "freeze.command.json",
+      "bytes": 549,
+      "sha256": "1cde25cf9ef4c3e2750d6ab8a62788cf78e9366b492301d6ccccdce89f7f3afb",
+      "operational_metadata_derivative": true,
+      "original_sha256": "dbc324d21b28d8ccbb266b2e8819ad9a4e9266bf172c86480795ae1d0ee7e8d4"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/freeze.stderr.txt",
+      "original_filename": "freeze.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/freeze.stdout.txt",
+      "original_filename": "freeze.stdout",
+      "bytes": 861,
+      "sha256": "83cc30ccd6308dd1b966d3ef061504c4f051f49e60d8541d8d764b30c49a887f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/inspect-export.command.json",
+      "original_filename": "inspect-export.command.json",
+      "bytes": 417,
+      "sha256": "47199f4178b64f4da697b0998519aca5ed7b9ceb40dbdd5af4b87174e0839127",
+      "operational_metadata_derivative": true,
+      "original_sha256": "d801292df28d0f1e9ccf9789aa5389ebbe8d1f62f39b4cff90476c7b221c3b20"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/inspect-export.json",
+      "original_filename": "inspect-export.json",
+      "bytes": 51970,
+      "sha256": "ae76af52493d97079d77c76e1451bcde8923fa4994ed9749662fa206e28d3249",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/inspect-export.stderr.txt",
+      "original_filename": "inspect-export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/inspect-export.stdout.txt",
+      "original_filename": "inspect-export.stdout",
+      "bytes": 51970,
+      "sha256": "ae76af52493d97079d77c76e1451bcde8923fa4994ed9749662fa206e28d3249",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/inspect.command.json",
+      "original_filename": "inspect.command.json",
+      "bytes": 410,
+      "sha256": "f19e52642d519236a4001c49cc035f16a3a121d9c68f25ab7153cb27bb0f961d",
+      "operational_metadata_derivative": true,
+      "original_sha256": "c89f1e43b63a18176ab09ebf4c779301d339922df7f9de85d35d76798cf3d2ff"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/inspect.stderr.txt",
+      "original_filename": "inspect.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/inspect.stdout.txt",
+      "original_filename": "inspect.stdout",
+      "bytes": 51970,
+      "sha256": "ae76af52493d97079d77c76e1451bcde8923fa4994ed9749662fa206e28d3249",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/matched-population-check.json",
+      "original_filename": "matched-population-check.json",
+      "bytes": 347,
+      "sha256": "b0262540e0062323a94f04f09cebcaa1f213839d455f3eb9c31fa201c2827cf2",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/preexecution-freeze.json",
+      "original_filename": "preexecution-freeze.json",
+      "bytes": 606,
+      "sha256": "23fcdf3bca6fdf6812b004719799f0377c931c904e475d6446c79134e6ebf74a",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/proposal-bundle/RESEARCH-MANIFEST.json",
+      "original_filename": "RESEARCH-MANIFEST.json",
+      "bytes": 834,
+      "sha256": "9ddb7c60ef7c78ba451ff17f8397a0ed465ec7bdc4ebfa273cd429f2c1058ae5",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/proposal-bundle/catalog.json",
+      "original_filename": "catalog.json",
+      "bytes": 92730,
+      "sha256": "56a28a58dc93381761eaf4aed716ad25506c506883cc849932eebad0f58c561e",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/proposal-bundle/proposal.json",
+      "original_filename": "proposal.json",
+      "bytes": 6645,
+      "sha256": "6975585e84cbd4ca25daef4507e327df591b2042a44f8c7fd090de4900feb895",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/proposal.json",
+      "original_filename": "proposal.json",
+      "bytes": 6645,
+      "sha256": "6975585e84cbd4ca25daef4507e327df591b2042a44f8c7fd090de4900feb895",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/propose.command.json",
+      "original_filename": "propose.command.json",
+      "bytes": 503,
+      "sha256": "bd5edf928b82ee99a8bcf384cc875fa86a8936b1375559661146898327068593",
+      "operational_metadata_derivative": true,
+      "original_sha256": "22cb50067c20bd43a9b6cdff1bef3aea2d8da491e2151d1227b78fbf4a16de3a"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/propose.stderr.txt",
+      "original_filename": "propose.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/propose.stdout.txt",
+      "original_filename": "propose.stdout",
+      "bytes": 546,
+      "sha256": "486f66611652718d5e059fcdf331bee0915eda017523993f819f7e24149fef0c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/protocol-template.command.json",
+      "original_filename": "protocol-template.command.json",
+      "bytes": 576,
+      "sha256": "17f7dc4d3317f26b4adeef61677c53dbb00d796006e4ebe4187dea4b85eedd17",
+      "operational_metadata_derivative": true,
+      "original_sha256": "b99ae69167cb1285020937aadf4b99f2e775ebf81019f6c19e9a69728f4d5042"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/protocol-template.json",
+      "original_filename": "protocol-template.json",
+      "bytes": 2168,
+      "sha256": "390c1b28ee9049583bec993ed6158964ae0aee1a0392297ea3f425a23051923d",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/protocol-template.stderr.txt",
+      "original_filename": "protocol-template.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/protocol-template.stdout.txt",
+      "original_filename": "protocol-template.stdout",
+      "bytes": 2199,
+      "sha256": "5316f7b0c928d55536e9dfb599a860443305909d9b6d201b34a65125539df1ed",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/protocol.json",
+      "original_filename": "protocol.json",
+      "bytes": 3226,
+      "sha256": "3887284419ea34ed320a55f9b24c00be2c2e46644bc1daaec3ea899c2bf936d5",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/queue-command.json",
+      "original_filename": "queue-command.json",
+      "bytes": 1122,
+      "sha256": "48bbe77d6b636228b18ba39a59ecb0525e784ee09a0449509cace976d67bc65b",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/queue-product.log.txt",
+      "original_filename": "queue-product.log",
+      "bytes": 459,
+      "sha256": "89691c177afbddb38559f7f7fc288ce42d2e39eb2d3098766eecc51a85eecbbe",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/queue-receipt.json",
+      "original_filename": "queue-receipt.json",
+      "bytes": 367,
+      "sha256": "761a8b40b4af7e1c6f9b91e8a1f0ed248d6fdafa4dc15153420b8325d0dcf736",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/queue-registration.json",
+      "original_filename": "queue-registration.json",
+      "bytes": 317,
+      "sha256": "b9fafb02177613a832f07aa59617ec07a5ba0da09511721ec8279a0f3ba5ee67",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/raw-audit-export.command.json",
+      "original_filename": "raw-audit-export.command.json",
+      "bytes": 477,
+      "sha256": "1d218e478b7561c579855e443a74d1ab3c837de83e8524d9c862d925cd283006",
+      "operational_metadata_derivative": true,
+      "original_sha256": "3ef86924ceb041a22e057e3394ec0a827037cdb58d2e5ae6ea956beb26df03c0"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/raw-audit-export.json",
+      "original_filename": "raw-audit-export.json",
+      "bytes": 2137,
+      "sha256": "bfbafb150478be04fced78796d3c9017cc3bee3d14e589b37e374587f919fb0c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/raw-audit-export.stderr.txt",
+      "original_filename": "raw-audit-export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/raw-audit-export.stdout.txt",
+      "original_filename": "raw-audit-export.stdout",
+      "bytes": 33,
+      "sha256": "0bf1b64fd3a8e0b8f13f1bd763a0452a842545acf00bf8baaea8d839ed0bb388",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/raw-audit.command.json",
+      "original_filename": "raw-audit.command.json",
+      "bytes": 448,
+      "sha256": "7137ab1883d41ecde18bfb0377dd3887245ddae4537d5586c914d6092e0a41d7",
+      "operational_metadata_derivative": true,
+      "original_sha256": "62de985edcb7dbe6d8c1f30203d53d225802b8cc219fdaf1744bedaa5346bb1b"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/raw-audit.stderr.txt",
+      "original_filename": "raw-audit.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/raw-audit.stdout.txt",
+      "original_filename": "raw-audit.stdout",
+      "bytes": 33,
+      "sha256": "0bf1b64fd3a8e0b8f13f1bd763a0452a842545acf00bf8baaea8d839ed0bb388",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/recipe-validate.command.json",
+      "original_filename": "recipe-validate.command.json",
+      "bytes": 431,
+      "sha256": "b081732688c4af698216e6284341a39a323ce175985f52ed35b2ae15f0fed7c0",
+      "operational_metadata_derivative": true,
+      "original_sha256": "0c77bcf2d6a39b1636dfe2d50f57b0eda7bc4cfd6a410caf863522a1ad54b6b8"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/recipe-validate.stderr.txt",
+      "original_filename": "recipe-validate.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/recipe-validate.stdout.txt",
+      "original_filename": "recipe-validate.stdout",
+      "bytes": 279,
+      "sha256": "cadb7f4d180310c14c40c57317bfeb35080569c78ee32bc4c56dc9e236609594",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/recipe.json",
+      "original_filename": "recipe.json",
+      "bytes": 12279,
+      "sha256": "82fd56cd20c3ed9652085a88737295802e8310d572c0306b16aead9a85efbe37",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/report.command.json",
+      "original_filename": "report.command.json",
+      "bytes": 631,
+      "sha256": "ce93e1225a8719835ed364e24683e5add5fa9d699289bbd2cdec96948e2e19d2",
+      "operational_metadata_derivative": true,
+      "original_sha256": "372b2a29ec0f46854c8b43f6264b392be7b73bf3217dc966982f54f9f8e087ac"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/report.json",
+      "original_filename": "report.json",
+      "bytes": 79723,
+      "sha256": "297727e6693d8dcee827779d2158fdfcfe2cbf2e6cde741f1c3ca8b064e19056",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/report.stderr.txt",
+      "original_filename": "report.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/report.stdout.txt",
+      "original_filename": "report.stdout",
+      "bytes": 96,
+      "sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/study-create.command.json",
+      "original_filename": "study-create.command.json",
+      "bytes": 1101,
+      "sha256": "98b611a3b5fbd47d536df95da8a9c7c32990176142da0ef0730bd780acebe039",
+      "operational_metadata_derivative": true,
+      "original_sha256": "1e5e00438420826485f87951b17216bb4c9a1d59c32090c7b113380f32971fa1"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/study-create.stderr.txt",
+      "original_filename": "study-create.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/study-create.stdout.txt",
+      "original_filename": "study-create.stdout",
+      "bytes": 464,
+      "sha256": "89f6ca9cde737a495d27d82d7812c65846f162a7eb6ca8c0605f003b574612ae",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/verify-proposal.command.json",
+      "original_filename": "verify-proposal.command.json",
+      "bytes": 435,
+      "sha256": "13cd92232592cc79e586515a594e98716da9c57fa83b15d0352ddfc8464b590b",
+      "operational_metadata_derivative": true,
+      "original_sha256": "32884d4fa8075e40e3d734e5d4bb52e48165886505434a43a7939246e905cda0"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/verify-proposal.stderr.txt",
+      "original_filename": "verify-proposal.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/verify-proposal.stdout.txt",
+      "original_filename": "verify-proposal.stdout",
+      "bytes": 361,
+      "sha256": "ba169dfec9dbe00b17cf732c756391385c9f14817a9d4897c6e70410b962e10c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/workbench.command.json",
+      "original_filename": "workbench.command.json",
+      "bytes": 655,
+      "sha256": "3c1083b1171c27a37411cdfb19c86a792288e0d6227f1743700ffba4913510b5",
+      "operational_metadata_derivative": true,
+      "original_sha256": "02ff40f63bc76ef23c75a4cf1dc71adf8951b00f27275d6dcfc5555ac7e81dfe"
+    },
+    {
+      "path": "provenance/d2-large-reuse24/workbench.stderr.txt",
+      "original_filename": "workbench.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/d2-large-reuse24/workbench.stdout.txt",
+      "original_filename": "workbench.stdout",
+      "bytes": 159,
+      "sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/final-campaign-status.json",
+      "original_filename": "final-campaign-status.json",
+      "bytes": 2648,
+      "sha256": "9ab3c7f299ccd3947e79432635fc86acdf4a276830fec7d429ce47472e5f85f1",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/EXPORT-READY.json",
+      "original_filename": "EXPORT-READY.json",
+      "bytes": 305,
+      "sha256": "0421d160e1c7111e2e1ae4efcdefad7b6ed92630339229f33a987754f3885dc6",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/budget-admission.json",
+      "original_filename": "budget-admission.json",
+      "bytes": 467,
+      "sha256": "8e45429f9dc810b6cc59bef2d319d9b58584acdadcf2472d37c8cd15f6e956b8",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/export.command.json",
+      "original_filename": "export.command.json",
+      "bytes": 542,
+      "sha256": "4e3ffcf44f9a007b437c3e39d622f332f336d537eb8c4e129697263a0255fbd3",
+      "operational_metadata_derivative": true,
+      "original_sha256": "89dff49a3bb84df85c29da78ea9b2d47eb346b97eef083046e9010372ad1dced"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/export.stderr.txt",
+      "original_filename": "export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/export.stdout.txt",
+      "original_filename": "export.stdout",
+      "bytes": 316,
+      "sha256": "332c7b28db37f2b2251449b310b334fd8484a80473e98bad255e599816779cd2",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/freeze.command.json",
+      "original_filename": "freeze.command.json",
+      "bytes": 549,
+      "sha256": "fe9148241c425f0aba23580501835fa2e1dbdd55b9f88d83d162b573e14b4df2",
+      "operational_metadata_derivative": true,
+      "original_sha256": "e3ddec274fa9055ff8bb8abc5e1f75e8b2284fae7173cf6cbb101856dc3ea73a"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/freeze.stderr.txt",
+      "original_filename": "freeze.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/freeze.stdout.txt",
+      "original_filename": "freeze.stdout",
+      "bytes": 861,
+      "sha256": "83cc30ccd6308dd1b966d3ef061504c4f051f49e60d8541d8d764b30c49a887f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/inspect-export.command.json",
+      "original_filename": "inspect-export.command.json",
+      "bytes": 417,
+      "sha256": "a0f181b8bed35aa216e0e82f134b7543fd55b6b12ad864de856a409ffeb9a5c1",
+      "operational_metadata_derivative": true,
+      "original_sha256": "714fb5fa0aa1ac6b17e3d7ff12d18a14e860a8a86fde9971a8cdf0e5035a8515"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/inspect-export.json",
+      "original_filename": "inspect-export.json",
+      "bytes": 63928,
+      "sha256": "0b03e592f860cc3d54b081a790c7c2a1e5311466b7f8b0cda39c1a18c26e374b",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/inspect-export.stderr.txt",
+      "original_filename": "inspect-export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/inspect-export.stdout.txt",
+      "original_filename": "inspect-export.stdout",
+      "bytes": 63928,
+      "sha256": "0b03e592f860cc3d54b081a790c7c2a1e5311466b7f8b0cda39c1a18c26e374b",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/inspect.command.json",
+      "original_filename": "inspect.command.json",
+      "bytes": 410,
+      "sha256": "f9ce71cd59f339e1182d6fc1ca945ca4639b759d5ef3deea02a3fae422fefa6a",
+      "operational_metadata_derivative": true,
+      "original_sha256": "3aafe06ee34544c0f1e57f3b4f8984e5d632d2e704d9d3402cfb81bbc03442d7"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/inspect.stderr.txt",
+      "original_filename": "inspect.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/inspect.stdout.txt",
+      "original_filename": "inspect.stdout",
+      "bytes": 63928,
+      "sha256": "0b03e592f860cc3d54b081a790c7c2a1e5311466b7f8b0cda39c1a18c26e374b",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/proposal-bundle/RESEARCH-MANIFEST.json",
+      "original_filename": "RESEARCH-MANIFEST.json",
+      "bytes": 834,
+      "sha256": "9ddb7c60ef7c78ba451ff17f8397a0ed465ec7bdc4ebfa273cd429f2c1058ae5",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/proposal-bundle/catalog.json",
+      "original_filename": "catalog.json",
+      "bytes": 92730,
+      "sha256": "56a28a58dc93381761eaf4aed716ad25506c506883cc849932eebad0f58c561e",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/proposal-bundle/proposal.json",
+      "original_filename": "proposal.json",
+      "bytes": 6645,
+      "sha256": "6975585e84cbd4ca25daef4507e327df591b2042a44f8c7fd090de4900feb895",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/proposal.json",
+      "original_filename": "proposal.json",
+      "bytes": 6645,
+      "sha256": "6975585e84cbd4ca25daef4507e327df591b2042a44f8c7fd090de4900feb895",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/propose.command.json",
+      "original_filename": "propose.command.json",
+      "bytes": 503,
+      "sha256": "d306b207ac2655b01cd5fdcf9f92bdf6c8759322540013a81bb80f306bffb0ed",
+      "operational_metadata_derivative": true,
+      "original_sha256": "83995d10ade4ae8b2b7375c8c974d67871a6e64fba9dd88388ddc9e9625cff14"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/propose.stderr.txt",
+      "original_filename": "propose.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/propose.stdout.txt",
+      "original_filename": "propose.stdout",
+      "bytes": 546,
+      "sha256": "486f66611652718d5e059fcdf331bee0915eda017523993f819f7e24149fef0c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/protocol-template.command.json",
+      "original_filename": "protocol-template.command.json",
+      "bytes": 576,
+      "sha256": "f3b81d9bfa1bcf0cb6ce072c6464db4752cb671c858e63cd373b469daffbcab8",
+      "operational_metadata_derivative": true,
+      "original_sha256": "a18df3c56a41bde3a1ad756121b65ecc437e4d50004de360dbe81cac534821e3"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/protocol-template.json",
+      "original_filename": "protocol-template.json",
+      "bytes": 2168,
+      "sha256": "390c1b28ee9049583bec993ed6158964ae0aee1a0392297ea3f425a23051923d",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/protocol-template.stderr.txt",
+      "original_filename": "protocol-template.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/protocol-template.stdout.txt",
+      "original_filename": "protocol-template.stdout",
+      "bytes": 2199,
+      "sha256": "5316f7b0c928d55536e9dfb599a860443305909d9b6d201b34a65125539df1ed",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/protocol.json",
+      "original_filename": "protocol.json",
+      "bytes": 4576,
+      "sha256": "a0160a87058a91e3658fb434acbdeb6d692503bb245e0032f3528ea0fd00b8f3",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/queue-command.json",
+      "original_filename": "queue-command.json",
+      "bytes": 1099,
+      "sha256": "e2b5d2ba9b87f11a35bc5420a084fde2c05ec4ee12f982af55a40812c3364751",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/queue-product.log.txt",
+      "original_filename": "queue-product.log",
+      "bytes": 475,
+      "sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/queue-receipt.json",
+      "original_filename": "queue-receipt.json",
+      "bytes": 367,
+      "sha256": "c837ef294e998bc42a6cdd929ffdc25e252eb39d763bdaf293b9c066da043c07",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/queue-registration.json",
+      "original_filename": "queue-registration.json",
+      "bytes": 317,
+      "sha256": "d47e3e3f14e87d858ea47dd3242bb9395e7cffeae58af0b7ef9b6b61f9387c14",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/raw-audit-export.command.json",
+      "original_filename": "raw-audit-export.command.json",
+      "bytes": 477,
+      "sha256": "cdc8b8035dafd0d5a8da520977f7494fd60ce18fb73f1671be97fef4b42dfc20",
+      "operational_metadata_derivative": true,
+      "original_sha256": "fda01cdc9e12ff29134c3a51b762bda8767ab8b87874f27081c2116887a28d1d"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/raw-audit-export.json",
+      "original_filename": "raw-audit-export.json",
+      "bytes": 2169,
+      "sha256": "99075e1f9720ee5710c227e4fe83b635b8973213cfc80af41c03faffa8e3cbff",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/raw-audit-export.stderr.txt",
+      "original_filename": "raw-audit-export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/raw-audit-export.stdout.txt",
+      "original_filename": "raw-audit-export.stdout",
+      "bytes": 34,
+      "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/raw-audit.command.json",
+      "original_filename": "raw-audit.command.json",
+      "bytes": 448,
+      "sha256": "36ffce0a3c2af8c954afacc0c16c1f1b12b06b47b3e46c6e79d45d778ee8c51d",
+      "operational_metadata_derivative": true,
+      "original_sha256": "5290430f430173b5ee2850d6764e529853cd05ec017b97b42f30560f562bf702"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/raw-audit.stderr.txt",
+      "original_filename": "raw-audit.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/raw-audit.stdout.txt",
+      "original_filename": "raw-audit.stdout",
+      "bytes": 34,
+      "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/recipe-validate.command.json",
+      "original_filename": "recipe-validate.command.json",
+      "bytes": 431,
+      "sha256": "5734623c6686e38a9493a1699729ad4e4fd75b4e117df55743dfc663c0dbb374",
+      "operational_metadata_derivative": true,
+      "original_sha256": "2217985c161cba2ca79a3ea950ed14bf15cb056328553f69ea16b84f98bc22eb"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/recipe-validate.stderr.txt",
+      "original_filename": "recipe-validate.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/recipe-validate.stdout.txt",
+      "original_filename": "recipe-validate.stdout",
+      "bytes": 282,
+      "sha256": "6ee56efe3efff65dcd16943d3cfb5d52cb8d5e7311dda4169ae0d8cd38895cfc",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/recipe.json",
+      "original_filename": "recipe.json",
+      "bytes": 13635,
+      "sha256": "3c55d694550bbd2e9399b16cd69c54725f654c4f2a941db14dc4509ea52e8e41",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/report.command.json",
+      "original_filename": "report.command.json",
+      "bytes": 631,
+      "sha256": "1c4d401c8899696c66fa910e5e2f6865be9cabc885a2a7a80c9718055f8274f9",
+      "operational_metadata_derivative": true,
+      "original_sha256": "e08ed57c382555ccbc28aa6fa7c23ccac1456ad2b22a5adbacd00abc7b2af7df"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/report.json",
+      "original_filename": "report.json",
+      "bytes": 95435,
+      "sha256": "f21f721b67ae028ce77d7c485819646f2436667205f2c4f9d152fe40d9b7beac",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/report.stderr.txt",
+      "original_filename": "report.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/report.stdout.txt",
+      "original_filename": "report.stdout",
+      "bytes": 96,
+      "sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/study-create.command.json",
+      "original_filename": "study-create.command.json",
+      "bytes": 1105,
+      "sha256": "4de6bf3807d9a3d222fde1598021a766f23b1921a7b6e6bdd943e4896a3ebac0",
+      "operational_metadata_derivative": true,
+      "original_sha256": "a2c673842929c9105082826d234501c3c62b4e57b66bb25c274e1c538aeea3b9"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/study-create.stderr.txt",
+      "original_filename": "study-create.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/study-create.stdout.txt",
+      "original_filename": "study-create.stdout",
+      "bytes": 464,
+      "sha256": "8696ab8fdb939403c8fad9da1eabc3955c0f26307e00951bf6b2807b0c1e60a0",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/verify-proposal.command.json",
+      "original_filename": "verify-proposal.command.json",
+      "bytes": 435,
+      "sha256": "7c202ae29324582b56661a9d42dc0f702216152d3a4693033af473a77b6e120b",
+      "operational_metadata_derivative": true,
+      "original_sha256": "8a847a0f5ec59614fc3321101c82129406fb620c49c3d1e554ec37ab8e132029"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/verify-proposal.stderr.txt",
+      "original_filename": "verify-proposal.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/verify-proposal.stdout.txt",
+      "original_filename": "verify-proposal.stdout",
+      "bytes": 361,
+      "sha256": "ba169dfec9dbe00b17cf732c756391385c9f14817a9d4897c6e70410b962e10c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/workbench.command.json",
+      "original_filename": "workbench.command.json",
+      "bytes": 655,
+      "sha256": "ac8fc95d3c6dd72a543995a9871cc4dae746454a399508e3305cedd8cc2a59d8",
+      "operational_metadata_derivative": true,
+      "original_sha256": "cb089b96378b14fa437ee170bb93146fe0d1c95cb6efd3c1a29efe0e9d833fa7"
+    },
+    {
+      "path": "provenance/h1-small-reuse24/workbench.stderr.txt",
+      "original_filename": "workbench.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h1-small-reuse24/workbench.stdout.txt",
+      "original_filename": "workbench.stdout",
+      "bytes": 159,
+      "sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/EXPORT-READY.json",
+      "original_filename": "EXPORT-READY.json",
+      "bytes": 305,
+      "sha256": "e9b83c7a458b0933c735a0e17a2722a7be50f276f9c01d0d9752e5f19e07e57e",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/budget-admission.json",
+      "original_filename": "budget-admission.json",
+      "bytes": 1241,
+      "sha256": "6c079440b7832d1350c9585bb1ae6d4c3ac95e25ebc673fd7cdc392f86806c77",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/export.command.json",
+      "original_filename": "export.command.json",
+      "bytes": 542,
+      "sha256": "4aa49ffe7cbf95343df724937215c70403f6b5b3e5adb1537b2156a9d6f74b29",
+      "operational_metadata_derivative": true,
+      "original_sha256": "e439a077277cd16ce5c29e195753218ac15ee2e7656b00cf4c851359a2141719"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/export.stderr.txt",
+      "original_filename": "export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/export.stdout.txt",
+      "original_filename": "export.stdout",
+      "bytes": 316,
+      "sha256": "05e93bba55622f974ef2279004dc5deb241736b6e31a255b2417a44a021c51d9",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/freeze.command.json",
+      "original_filename": "freeze.command.json",
+      "bytes": 549,
+      "sha256": "bb506a1118a6fd83e3819860fbcca8d1f593cc25044e91f5d9044eeda7419f06",
+      "operational_metadata_derivative": true,
+      "original_sha256": "4c94914392cb982793788f1f076d23bb1c53d05c3b45495874530da56001750e"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/freeze.stderr.txt",
+      "original_filename": "freeze.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/freeze.stdout.txt",
+      "original_filename": "freeze.stdout",
+      "bytes": 861,
+      "sha256": "83cc30ccd6308dd1b966d3ef061504c4f051f49e60d8541d8d764b30c49a887f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/inspect-export.command.json",
+      "original_filename": "inspect-export.command.json",
+      "bytes": 417,
+      "sha256": "44b373932fc3c81bd908159ae0df964c428d5aa1163aaa776d3338e7b082c51b",
+      "operational_metadata_derivative": true,
+      "original_sha256": "7783553da69d488e5325f749b3d9ca0256dc2f683764a1fbf9e03081322dec2a"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/inspect-export.json",
+      "original_filename": "inspect-export.json",
+      "bytes": 71908,
+      "sha256": "4a807f4e4ab1623813813e3cbf0882f208d192cbae5b8a5a997060bc059df669",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/inspect-export.stderr.txt",
+      "original_filename": "inspect-export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/inspect-export.stdout.txt",
+      "original_filename": "inspect-export.stdout",
+      "bytes": 71908,
+      "sha256": "4a807f4e4ab1623813813e3cbf0882f208d192cbae5b8a5a997060bc059df669",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/inspect.command.json",
+      "original_filename": "inspect.command.json",
+      "bytes": 410,
+      "sha256": "637a44a99fbd733779d9ed6f7781484f57b7aaaf3672cdd127619fbe2e8e6b4a",
+      "operational_metadata_derivative": true,
+      "original_sha256": "81c61279cbdc7cb6bef05d58da6170dfaba0c35e52d55e6abba28b9790e796df"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/inspect.stderr.txt",
+      "original_filename": "inspect.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/inspect.stdout.txt",
+      "original_filename": "inspect.stdout",
+      "bytes": 71908,
+      "sha256": "4a807f4e4ab1623813813e3cbf0882f208d192cbae5b8a5a997060bc059df669",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/native-queue-command.json",
+      "original_filename": "native-queue-command.json",
+      "bytes": 877,
+      "sha256": "aeb93cab98bb513312e4729daf038f49dd9c7b2a3478704bd69454f7baa232f7",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/proposal-bundle/RESEARCH-MANIFEST.json",
+      "original_filename": "RESEARCH-MANIFEST.json",
+      "bytes": 834,
+      "sha256": "9ddb7c60ef7c78ba451ff17f8397a0ed465ec7bdc4ebfa273cd429f2c1058ae5",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/proposal-bundle/catalog.json",
+      "original_filename": "catalog.json",
+      "bytes": 92730,
+      "sha256": "56a28a58dc93381761eaf4aed716ad25506c506883cc849932eebad0f58c561e",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/proposal-bundle/proposal.json",
+      "original_filename": "proposal.json",
+      "bytes": 6645,
+      "sha256": "6975585e84cbd4ca25daef4507e327df591b2042a44f8c7fd090de4900feb895",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/proposal.json",
+      "original_filename": "proposal.json",
+      "bytes": 6645,
+      "sha256": "6975585e84cbd4ca25daef4507e327df591b2042a44f8c7fd090de4900feb895",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/propose.command.json",
+      "original_filename": "propose.command.json",
+      "bytes": 503,
+      "sha256": "5f1e6946592f0c255e828a95334fe8a54b0560becf26c4f01352cd47a6d70346",
+      "operational_metadata_derivative": true,
+      "original_sha256": "e81bd891388cd91a8df257b5ae80eac1f3950e4809fca127fefec768c2c51875"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/propose.stderr.txt",
+      "original_filename": "propose.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/propose.stdout.txt",
+      "original_filename": "propose.stdout",
+      "bytes": 546,
+      "sha256": "486f66611652718d5e059fcdf331bee0915eda017523993f819f7e24149fef0c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/protocol-template.command.json",
+      "original_filename": "protocol-template.command.json",
+      "bytes": 576,
+      "sha256": "12dd0eb344f409565adb42e43ce85d97e63516db1bf7314ef4d15479fb95c295",
+      "operational_metadata_derivative": true,
+      "original_sha256": "b0827f7f5f141bb06504e91a01fdab19b2a82a0b74278ec1ad038372e5276c57"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/protocol-template.json",
+      "original_filename": "protocol-template.json",
+      "bytes": 2168,
+      "sha256": "390c1b28ee9049583bec993ed6158964ae0aee1a0392297ea3f425a23051923d",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/protocol-template.stderr.txt",
+      "original_filename": "protocol-template.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/protocol-template.stdout.txt",
+      "original_filename": "protocol-template.stdout",
+      "bytes": 2199,
+      "sha256": "5316f7b0c928d55536e9dfb599a860443305909d9b6d201b34a65125539df1ed",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/protocol.json",
+      "original_filename": "protocol.json",
+      "bytes": 4576,
+      "sha256": "a0160a87058a91e3658fb434acbdeb6d692503bb245e0032f3528ea0fd00b8f3",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/queue-command.json",
+      "original_filename": "queue-command.json",
+      "bytes": 1099,
+      "sha256": "9a066007a094d1cf7294bce663ab0e42e004fc9b251e3230b6bb1ce5006e4957",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/queue-product.log.txt",
+      "original_filename": "queue-product.log",
+      "bytes": 475,
+      "sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/queue-receipt.json",
+      "original_filename": "queue-receipt.json",
+      "bytes": 367,
+      "sha256": "e8f588075af0fbc5dbb2fd17463aa24e1f5333ce8a85a5190d9903b2df1b2d2f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/queue-registration.json",
+      "original_filename": "queue-registration.json",
+      "bytes": 317,
+      "sha256": "06767489637e05ab470aee9a6d2c4a9a957db158696ad594a10ef915724353b8",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/raw-audit-export.command.json",
+      "original_filename": "raw-audit-export.command.json",
+      "bytes": 477,
+      "sha256": "4d5f34a13e97933e40c5c7620b31aeabf223adc8cb33c905450ddea86bd512be",
+      "operational_metadata_derivative": true,
+      "original_sha256": "3a3aa811929e7d322b695f0cd5f3c54a253ec15fe128e79e5ab259b35e032acd"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/raw-audit-export.json",
+      "original_filename": "raw-audit-export.json",
+      "bytes": 2169,
+      "sha256": "82e8f7c0ddd518d844e0bf28c32e612cb96ac1d198153e483b589d650e8fdde4",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/raw-audit-export.stderr.txt",
+      "original_filename": "raw-audit-export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/raw-audit-export.stdout.txt",
+      "original_filename": "raw-audit-export.stdout",
+      "bytes": 34,
+      "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/raw-audit.command.json",
+      "original_filename": "raw-audit.command.json",
+      "bytes": 448,
+      "sha256": "27358743d62a6a50c4a46d143727014aa95899fdaff467dc81404a8bbe51dace",
+      "operational_metadata_derivative": true,
+      "original_sha256": "fc84166acf906957bc556e151c508f7ed69e8d6a04a9002f76eaab8ffb7e3544"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/raw-audit.stderr.txt",
+      "original_filename": "raw-audit.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/raw-audit.stdout.txt",
+      "original_filename": "raw-audit.stdout",
+      "bytes": 34,
+      "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/recipe-validate.command.json",
+      "original_filename": "recipe-validate.command.json",
+      "bytes": 431,
+      "sha256": "3e408a77f6425fc16e55dded57b2cf91941b5330b21eecf8463ad0dc4a82684a",
+      "operational_metadata_derivative": true,
+      "original_sha256": "cbf4852c4c42262154cbd66f907e37b0a8a6dddd2deb052b8b640e544d72df9b"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/recipe-validate.stderr.txt",
+      "original_filename": "recipe-validate.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/recipe-validate.stdout.txt",
+      "original_filename": "recipe-validate.stdout",
+      "bytes": 282,
+      "sha256": "f7cf9bb4a940d2921ccc7e4a2ef3819ccd7ca470435781043c46c8fae819500e",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/recipe.json",
+      "original_filename": "recipe.json",
+      "bytes": 13635,
+      "sha256": "d1fbc80edfb8b79418681594fe4c32a3278df2ee1f7f73d81da5ef4415ea7a9c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/report.command.json",
+      "original_filename": "report.command.json",
+      "bytes": 631,
+      "sha256": "2e90d2ad9fed98ef8b9032137be77b4296f0ff6493e84e03ddac6d605b9f1913",
+      "operational_metadata_derivative": true,
+      "original_sha256": "a03f5f2375d56eee39ce1855b303d7c38f4bdb1a91aae5b53ff2978475ed5d90"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/report.json",
+      "original_filename": "report.json",
+      "bytes": 103294,
+      "sha256": "166cdee07b7591d30a10e8184940cf61fef207497aa778956c112b240c83614b",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/report.stderr.txt",
+      "original_filename": "report.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/report.stdout.txt",
+      "original_filename": "report.stdout",
+      "bytes": 96,
+      "sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/study-create.command.json",
+      "original_filename": "study-create.command.json",
+      "bytes": 1105,
+      "sha256": "60a1cfca647919a40200be2190384ce6d857ae71c8ae947998a7daf2d927ea4a",
+      "operational_metadata_derivative": true,
+      "original_sha256": "772af5922b837164e9030ef00f9cdbe71b877cbb2eb4125a4ac05cd4e3e61367"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/study-create.stderr.txt",
+      "original_filename": "study-create.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/study-create.stdout.txt",
+      "original_filename": "study-create.stdout",
+      "bytes": 464,
+      "sha256": "67f749be6ee85d053125e72a368f2ff6aec0d105a2ec9d2bc3136966172dde3a",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/verify-proposal.command.json",
+      "original_filename": "verify-proposal.command.json",
+      "bytes": 435,
+      "sha256": "75bc1818ebbb1ca71b71c0c69fce629bc5d078045b24d9a21cb4c58418162b83",
+      "operational_metadata_derivative": true,
+      "original_sha256": "5b6851b123a625b61adfe1cf3d4982f70df14f2833ee9d7ec5ec4b73633b993c"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/verify-proposal.stderr.txt",
+      "original_filename": "verify-proposal.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/verify-proposal.stdout.txt",
+      "original_filename": "verify-proposal.stdout",
+      "bytes": 361,
+      "sha256": "ba169dfec9dbe00b17cf732c756391385c9f14817a9d4897c6e70410b962e10c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/workbench.command.json",
+      "original_filename": "workbench.command.json",
+      "bytes": 655,
+      "sha256": "4038e907f656bb3676031ee7a41a38c8af5b096f83aba81a5e679e9366b26c76",
+      "operational_metadata_derivative": true,
+      "original_sha256": "f1808264d44c647e2d424435bf24600324e4d299455b7ae479ff7d0d9515c793"
+    },
+    {
+      "path": "provenance/h2-small-reuse64/workbench.stderr.txt",
+      "original_filename": "workbench.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h2-small-reuse64/workbench.stdout.txt",
+      "original_filename": "workbench.stdout",
+      "bytes": 159,
+      "sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/EXPORT-READY.json",
+      "original_filename": "EXPORT-READY.json",
+      "bytes": 305,
+      "sha256": "7ea7f83dec914a75c66c5486bacd3e81a4e7cd22bc56bddb5446397e8bc0236d",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/budget-admission.json",
+      "original_filename": "budget-admission.json",
+      "bytes": 1454,
+      "sha256": "5dd14aa8176d0a5eeb93a179c52f33959129e5c06280bb2395edc3df34529dff",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/export.command.json",
+      "original_filename": "export.command.json",
+      "bytes": 560,
+      "sha256": "ce5a3ac7ee8a4b12961c30ccee522c96b2f90542ce51b53204069f67629c75a5",
+      "operational_metadata_derivative": true,
+      "original_sha256": "86f17c60430e1ea16019bd7c00680ef5b60b251ef95affb7ad3db261b0c854db"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/export.stderr.txt",
+      "original_filename": "export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/export.stdout.txt",
+      "original_filename": "export.stdout",
+      "bytes": 316,
+      "sha256": "719705c667710e69c13164ca92c4a0f116d1c526de5099158c54e2243d2acd89",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/freeze.command.json",
+      "original_filename": "freeze.command.json",
+      "bytes": 549,
+      "sha256": "0b9bd285a3d7610b6167f9bec6f6f9e8f841ec45d73e8ba7677340a196381ace",
+      "operational_metadata_derivative": true,
+      "original_sha256": "8432bb87fc41fb3d4f5049d39fcd75d0f4a4b5a88b40ef495058d4c9e2d093a2"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/freeze.stderr.txt",
+      "original_filename": "freeze.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/freeze.stdout.txt",
+      "original_filename": "freeze.stdout",
+      "bytes": 861,
+      "sha256": "83cc30ccd6308dd1b966d3ef061504c4f051f49e60d8541d8d764b30c49a887f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/inspect-export.command.json",
+      "original_filename": "inspect-export.command.json",
+      "bytes": 417,
+      "sha256": "1113c887a8253e09285e6a36885402583f0e62346739e56d9db358c1150fea73",
+      "operational_metadata_derivative": true,
+      "original_sha256": "3be919ba9ccb8174d1e99718bd39c66e27cfe0eaea77ac13ef702c262bea697a"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/inspect-export.json",
+      "original_filename": "inspect-export.json",
+      "bytes": 79888,
+      "sha256": "0b12970a9670fd9b660a5a572095ae14e935ffe27fbb1b63f789b9045332251f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/inspect-export.stderr.txt",
+      "original_filename": "inspect-export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/inspect-export.stdout.txt",
+      "original_filename": "inspect-export.stdout",
+      "bytes": 79888,
+      "sha256": "0b12970a9670fd9b660a5a572095ae14e935ffe27fbb1b63f789b9045332251f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/inspect.command.json",
+      "original_filename": "inspect.command.json",
+      "bytes": 410,
+      "sha256": "4083a3cfedc364c33c3852f4920e28c4e5fe4a78ee195dc589145ee24e801cb2",
+      "operational_metadata_derivative": true,
+      "original_sha256": "2907132222fc7729cc00fdca1b04a3df2d5997964e24829a9afd0a66b22ce669"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/inspect.stderr.txt",
+      "original_filename": "inspect.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/inspect.stdout.txt",
+      "original_filename": "inspect.stdout",
+      "bytes": 79888,
+      "sha256": "0b12970a9670fd9b660a5a572095ae14e935ffe27fbb1b63f789b9045332251f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/matched-population-check.json",
+      "original_filename": "matched-population-check.json",
+      "bytes": 387,
+      "sha256": "3a1cfedb96b24a3e0e226191b5421e8ec74447d7f6ae9bf0980734fa55fe1889",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/native-queue-command.json",
+      "original_filename": "native-queue-command.json",
+      "bytes": 900,
+      "sha256": "99c961730aeaa0df3d0194be0209457d2090b3bb9dea10cbdb8c960bf32c063f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/proposal-bundle/RESEARCH-MANIFEST.json",
+      "original_filename": "RESEARCH-MANIFEST.json",
+      "bytes": 834,
+      "sha256": "9ddb7c60ef7c78ba451ff17f8397a0ed465ec7bdc4ebfa273cd429f2c1058ae5",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/proposal-bundle/catalog.json",
+      "original_filename": "catalog.json",
+      "bytes": 92730,
+      "sha256": "56a28a58dc93381761eaf4aed716ad25506c506883cc849932eebad0f58c561e",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/proposal-bundle/proposal.json",
+      "original_filename": "proposal.json",
+      "bytes": 6645,
+      "sha256": "6975585e84cbd4ca25daef4507e327df591b2042a44f8c7fd090de4900feb895",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/proposal.json",
+      "original_filename": "proposal.json",
+      "bytes": 6645,
+      "sha256": "6975585e84cbd4ca25daef4507e327df591b2042a44f8c7fd090de4900feb895",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/propose.command.json",
+      "original_filename": "propose.command.json",
+      "bytes": 503,
+      "sha256": "d58862ed7426273d9dca541fccec2323cbf7236d7d5bf56f227d16e93fb4afd3",
+      "operational_metadata_derivative": true,
+      "original_sha256": "a055c7c91ae4bea811c1980420160afab1e41cae7ec5f01643b0624b7be6e8d5"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/propose.stderr.txt",
+      "original_filename": "propose.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/propose.stdout.txt",
+      "original_filename": "propose.stdout",
+      "bytes": 546,
+      "sha256": "486f66611652718d5e059fcdf331bee0915eda017523993f819f7e24149fef0c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/protocol-template.command.json",
+      "original_filename": "protocol-template.command.json",
+      "bytes": 576,
+      "sha256": "e63e20ccda9cd47655d20a02a24580049e00bc7098a53dc2a7b5e51d5fbcc508",
+      "operational_metadata_derivative": true,
+      "original_sha256": "877caa77eed4a437c7ea7445954bc8550070c83e24bbd89a35d06cc6ddc2346e"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/protocol-template.json",
+      "original_filename": "protocol-template.json",
+      "bytes": 2168,
+      "sha256": "390c1b28ee9049583bec993ed6158964ae0aee1a0392297ea3f425a23051923d",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/protocol-template.stderr.txt",
+      "original_filename": "protocol-template.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/protocol-template.stdout.txt",
+      "original_filename": "protocol-template.stdout",
+      "bytes": 2199,
+      "sha256": "5316f7b0c928d55536e9dfb599a860443305909d9b6d201b34a65125539df1ed",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/protocol.json",
+      "original_filename": "protocol.json",
+      "bytes": 4576,
+      "sha256": "a0160a87058a91e3658fb434acbdeb6d692503bb245e0032f3528ea0fd00b8f3",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/queue-command.json",
+      "original_filename": "queue-command.json",
+      "bytes": 1122,
+      "sha256": "56d54732deef7b700d4ed37191a1d397e9b9acc1240ca5c612e15e62228259a1",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/queue-product.log.txt",
+      "original_filename": "queue-product.log",
+      "bytes": 475,
+      "sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/queue-receipt.json",
+      "original_filename": "queue-receipt.json",
+      "bytes": 367,
+      "sha256": "c2b0287ccb5dcf2d1d4656934aeef8ace465e9f66af510732b5117f0e7698e9b",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/queue-registration.json",
+      "original_filename": "queue-registration.json",
+      "bytes": 317,
+      "sha256": "a7b772fc7348c28157ff7bdce7013c7260fb8755a551fba295cf6fd6c07e8206",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/raw-audit-export.command.json",
+      "original_filename": "raw-audit-export.command.json",
+      "bytes": 477,
+      "sha256": "20d8577ffc6bb64c02ad8ffc1bbe4f2427b03dd37dc69d80d3b75a8bce6a8bab",
+      "operational_metadata_derivative": true,
+      "original_sha256": "8f91962099c1ecce8c168c08e473ae9f06b4d0bb88e5ddc83082d9c6c418a137"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/raw-audit-export.json",
+      "original_filename": "raw-audit-export.json",
+      "bytes": 2169,
+      "sha256": "cbe6cb96f50d30014e4ef4147b0e3b5c2c04129ce87279dd9d2348f5d648339e",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/raw-audit-export.stderr.txt",
+      "original_filename": "raw-audit-export.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/raw-audit-export.stdout.txt",
+      "original_filename": "raw-audit-export.stdout",
+      "bytes": 34,
+      "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/raw-audit.command.json",
+      "original_filename": "raw-audit.command.json",
+      "bytes": 448,
+      "sha256": "5edb2d95065ede500a4e2e9c3449fe9e54e81051846cbbc3a244f302191826b8",
+      "operational_metadata_derivative": true,
+      "original_sha256": "efa50708e4e31b32d907118a895f7bc5f8e27eeae46d93f759b1e52b8c66a7ba"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/raw-audit.stderr.txt",
+      "original_filename": "raw-audit.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/raw-audit.stdout.txt",
+      "original_filename": "raw-audit.stdout",
+      "bytes": 34,
+      "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/recipe-validate.command.json",
+      "original_filename": "recipe-validate.command.json",
+      "bytes": 431,
+      "sha256": "21ac524e96779caa02e55da07a5b0bf53e6be4861ce46c8d80c78a63f63efb1e",
+      "operational_metadata_derivative": true,
+      "original_sha256": "b6a169d71fb4aaaec196f2b6b85fb6de010a1f921efcb603678201228e64b4e3"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/recipe-validate.stderr.txt",
+      "original_filename": "recipe-validate.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/recipe-validate.stdout.txt",
+      "original_filename": "recipe-validate.stdout",
+      "bytes": 281,
+      "sha256": "d564fff5dddc47a70a4196ce43f8b3380f49bd79d96b19ae5cdff5bb80938b1d",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/recipe.json",
+      "original_filename": "recipe.json",
+      "bytes": 13634,
+      "sha256": "a4b70e7fed26622ee92126be8517d2f2221aa8872cf4c44dceebcc0ed7f54136",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/report.command.json",
+      "original_filename": "report.command.json",
+      "bytes": 631,
+      "sha256": "92cd7925bc96cdd67ddc28b105f57011160dfad201b322554a74e81c2075e9c9",
+      "operational_metadata_derivative": true,
+      "original_sha256": "668dc959e5ca5ee7284acaaf0eaae6b61aabd02cda6c73ae44be41ea3691995d"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/report.json",
+      "original_filename": "report.json",
+      "bytes": 111311,
+      "sha256": "82987ed2178f15ec4a93ff8649df929dc3ccbf3eb8137fa6eb1d369735714d41",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/report.stderr.txt",
+      "original_filename": "report.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/report.stdout.txt",
+      "original_filename": "report.stdout",
+      "bytes": 96,
+      "sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/study-create.command.json",
+      "original_filename": "study-create.command.json",
+      "bytes": 1104,
+      "sha256": "a58f7e35a9cc650a4868f2ef1edc7a27abb1b43e1f097d2ef8faa3e576a3713e",
+      "operational_metadata_derivative": true,
+      "original_sha256": "7fc4ed7da6bc6cebcc3e96dcc32cb8ec83498ba62b1aa74e456239099da35a3d"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/study-create.stderr.txt",
+      "original_filename": "study-create.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/study-create.stdout.txt",
+      "original_filename": "study-create.stdout",
+      "bytes": 464,
+      "sha256": "fbcb7c3bfd2d7fe22f4fc3640366221f1f5e74b0fffd41a13b8f7d333dda736a",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/verify-proposal.command.json",
+      "original_filename": "verify-proposal.command.json",
+      "bytes": 435,
+      "sha256": "2c89d66452199c06a1abf8e6690b976275a29b6baf27195f86cb411a8735891e",
+      "operational_metadata_derivative": true,
+      "original_sha256": "bd8ad47327215c87bb7fb4d2c3663bcb46077a7bd7e07ad4f636db5a95eab144"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/verify-proposal.stderr.txt",
+      "original_filename": "verify-proposal.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/verify-proposal.stdout.txt",
+      "original_filename": "verify-proposal.stdout",
+      "bytes": 361,
+      "sha256": "ba169dfec9dbe00b17cf732c756391385c9f14817a9d4897c6e70410b962e10c",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/workbench.command.json",
+      "original_filename": "workbench.command.json",
+      "bytes": 655,
+      "sha256": "79210dc109ecdc66f60473849c970046d3f90b7ece8f1e20c2315553d2cf8eb4",
+      "operational_metadata_derivative": true,
+      "original_sha256": "6638d6485a69e16ece92e234b5de5757f64b806020503d6917608e138a6475e7"
+    },
+    {
+      "path": "provenance/h3-large-reuse24/workbench.stderr.txt",
+      "original_filename": "workbench.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/h3-large-reuse24/workbench.stdout.txt",
+      "original_filename": "workbench.stdout",
+      "bytes": 159,
+      "sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/heldout-matrix-freeze.json",
+      "original_filename": "heldout-matrix-freeze.json",
+      "bytes": 3709,
+      "sha256": "83d5a2e0ff971b23423fc71644a4d0746e53b193024f7721f25f294e9c9941c0",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/original-run-scripts/admit-next.py",
+      "original_filename": "admit-next.py",
+      "bytes": 3329,
+      "sha256": "6c1900b9294bef3c593c2e8786d2417cc7fcee182a8567594737b3c16d3b26db",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/original-run-scripts/finalize-case.py",
+      "original_filename": "finalize-case.py",
+      "bytes": 2071,
+      "sha256": "204793a6b33f2880b56c469edc74e8bb31530c21d54cb778c5e0844a8b9faade",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/original-run-scripts/finalize-d2.py",
+      "original_filename": "finalize-d2.py",
+      "bytes": 1564,
+      "sha256": "c2cec067686162f4582860356adef388d649acbb3d16ccce70e67e84494ac0d7",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/original-run-scripts/prepare-d2.py",
+      "original_filename": "prepare-d2.py",
+      "bytes": 3930,
+      "sha256": "6f6d57e19d408d33f113507687b82c3053269634c081b9b467316afc0ebdcb68",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/original-run-scripts/prepare-heldout.py",
+      "original_filename": "prepare-heldout.py",
+      "bytes": 7638,
+      "sha256": "6367a4eede85dbdfe3ed847f2aa2f61be6d12153cd9ddba3ee24451e77f4e0d0",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/stage-plan.json",
+      "original_filename": "stage-plan.json",
+      "bytes": 5009,
+      "sha256": "4ba611cbd4cd22ac835c1182d76768398aa97a5787611c81a8757e8181feb173",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/stage-status-after-d1.json",
+      "original_filename": "stage-status-after-d1.json",
+      "bytes": 780,
+      "sha256": "65b0d700769253cd95c6443f232754222b8768e491f52b13e386f04a9e77654e",
+      "operational_metadata_derivative": false
+    },
+    {
+      "path": "provenance/stage-status-after-d2.json",
+      "original_filename": "stage-status-after-d2.json",
+      "bytes": 811,
+      "sha256": "5e98a6270e98bcb4146a2610d82b95b224b377b7be93fa1fb3a8347f75bc7059",
+      "operational_metadata_derivative": false
+    }
+  ]
+}

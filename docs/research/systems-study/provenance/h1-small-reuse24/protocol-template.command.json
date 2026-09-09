@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    "${WORKSPACE_ROOT}/.cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "research",
+    "protocol",
+    "--proposal",
+    "${WORKSPACE_ROOT}/.cache/v1-investigations-20260908/systems/h1-small-reuse24/proposal.json",
+    "--output",
+    "${WORKSPACE_ROOT}/.cache/v1-investigations-20260908/systems/h1-small-reuse24/protocol-template.json"
+  ],
+  "started_ns": 288779343898550,
+  "finished_ns": 288779409337521,
+  "returncode": 0,
+  "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986"
+}

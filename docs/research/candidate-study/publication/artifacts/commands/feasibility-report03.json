@@ -1,0 +1,26 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+    "report",
+    ".cache/v1-investigations-20260908/candidate/feasibility-14b-study03",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/feasibility-14b-report03.json",
+    "--html",
+    ".cache/v1-investigations-20260908/candidate/feasibility-14b-report03.html"
+  ],
+  "exit_code": 0,
+  "finished_ns": 287340253919423,
+  "label": "feasibility-report03",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 287339990122386,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 96,
+    "sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f"
+  }
+}

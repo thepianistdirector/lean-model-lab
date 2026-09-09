@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "started_ns": 289450804836359,
+  "original_deadline_ns": 310468865220540,
+  "steps": [
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "started_ns": 291430810258564,
+      "finished_ns": 291477282069444,
+      "log_sha256": "b852e2a876949ad26a6e613a6b3aab467a79cfed44d9cd555288d2cfe16cc227"
+    },
+    {
+      "name": "browser-100",
+      "exit_code": 0,
+      "started_ns": 291477282208002,
+      "finished_ns": 291479450878739,
+      "log_sha256": "40db6805976f733f0ca9df08d1335a587d5373bdb1aa080a987b52fdf6dc77ce"
+    },
+    {
+      "name": "browser-200",
+      "exit_code": 0,
+      "started_ns": 291479450999133,
+      "finished_ns": 291481721397519,
+      "log_sha256": "90d4f8e4b6d1f9b739ed3c490b6761960ab8fd59a8dad06b02d6964decd1befa"
+    }
+  ],
+  "scope": "Software suite and actual first-v1-workbench isolated browser verification; not final distribution, external person or native research evidence.",
+  "execution_started_ns": 291430810190428,
+  "finished_ns": 291481721539814,
+  "schema_version": 1,
+  "original_receipt_sha256": "8a3e7ff471f55902112221aa202b57d00e20c65831bb48d6db68223ffebb3edc",
+  "software_tests": {
+    "count": 313,
+    "duration_seconds": 46.067,
+    "status": "PASS"
+  },
+  "current_limit": "Later final-version and packaging changes require final verification."
+}

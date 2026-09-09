@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    "${WORKSPACE_ROOT}/.cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+    "research",
+    "freeze",
+    "${WORKSPACE_ROOT}/.cache/v1-investigations-20260908/systems/d1-small-reuse24/proposal.json",
+    "--output",
+    "${WORKSPACE_ROOT}/.cache/v1-investigations-20260908/systems/d1-small-reuse24/proposal-bundle"
+  ],
+  "started_ns": 286847949311868,
+  "finished_ns": 286848014720407,
+  "returncode": 0,
+  "archive_sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f"
+}

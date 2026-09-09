@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "created_ns": 291023247362613,
+  "surface": "Explicit standalone Matplotlib PNG/SVG/PDF exports for an independent open-source research project; no added brand emblem.",
+  "question": "Compare exact task success and full attempt wall for unchanged full versus candidate in each of two declared AB/BA repetitions.",
+  "takeaway": "Both closed development branches fail their advance rule; timing remains descriptive.",
+  "family": "Grouped bar comparison; four actual arm observations per study, eight unique questions repeated. No time-series inference.",
+  "data_sufficiency": "The frozen studies contain only two discrete paired repetitions. Additional native queries would violate their stop; retain grouped bars and exact numerator/denominator labels.",
+  "palette_policy": "Hard two-root cap: existing muted blue full-context fill and orange candidate keyline/hatch; neutral charcoal95% reference.",
+  "palette": {
+    "full": "#4c6585",
+    "candidate": "#b86939",
+    "reference": "#34383c",
+    "candidate_fill": "white"
+  },
+  "non_color_distinction": "Candidate open fill with diagonal hatch; full filled. AB/BA labels and direct correct/offered and seconds values unchanged.",
+  "revision_scope": "Publication rendering only. No native observation, cost, token, seed, recipe, rule or analysis denominator changes.",
+  "original_script_sha256": "b5d314b5b23c9ba5f62d4cc87abc1462f28784ab0a0826371872c62ef25fa71c",
+  "revised_script_sha256": "0dab5379327e5427f029f3ca0debb718e008d531f2dcda61437c87dd8119a325",
+  "final_qa": "Inspect regenerated PNG at delivered size; record PNG/SVG/PDF hashes and companion-format limitations."
+}

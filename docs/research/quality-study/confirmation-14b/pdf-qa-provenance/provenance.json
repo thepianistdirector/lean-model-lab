@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "classification": "NEW_OPTIONAL_PROJECT_LOCAL_PDF_QA_DEPENDENCY",
+  "package": "pypdfium2",
+  "version": "5.13.0",
+  "runtime_requirement": false,
+  "native_model_dependency": false,
+  "initial_install_argv": [
+    ".cache/research-plot-env/bin/python",
+    "-m",
+    "pip",
+    "install",
+    "--target",
+    ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-dependencies",
+    "pypdfium2"
+  ],
+  "initial_install_shell_redirection": "> .cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-install.log 2>&1",
+  "original_log_sha256": "d8d173f08239da30da3eec6483fe00fc94ef005e87ff5f07a3e8cf3191961b7c",
+  "original_pip_resolver_report": "NOT_REQUESTED_ON_INITIAL_INSTALL; this is a post-install verification report, not an original pip --report artifact.",
+  "initial_install_timing": {
+    "tool_reported_wall_seconds": 0.586264182,
+    "log_filesystem_created_utc": "2026-09-08T20:11:04.800270147Z",
+    "log_filesystem_last_write_utc": "2026-09-08T20:11:05.496256667Z",
+    "log_filesystem_write_span_seconds": 0.69598652,
+    "monotonic_start_end": "NOT_RECORDED_FOR_ORIGINAL_INSTALL",
+    "scope": "Tool-reported wall and filesystem log timestamps have different boundaries; not an instrumented exact install interval. All activity remains charged in the original common allocation all-clock."
+  },
+  "wheel": {
+    "filename": "pypdfium2-5.13.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "url": "https://files.pythonhosted.org/packages/d3/7c/74a2fb48e5b0d2402d9ca64b39074c722d67e9a8a2c58449a843a8c2329a/pypdfium2-5.13.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "sha256": "81df25c1ab4c13ff773102d3cbea1967511d079123b067fc077bd0c4d57d91d8",
+    "bytes": 3730077,
+    "official_metadata_url": "https://pypi.org/pypi/pypdfium2/5.13.0/json",
+    "official_metadata_sha256": "b49cb8b13a18f9565587fc6fce6e712ee8419186887cbdd5f4a4cca1465bf831",
+    "digest_matches_official_metadata": true
+  },
+  "installed_verification": {
+    "wheel_files_compared_to_installed_bytes_excluding_installer_rewritten_RECORD": 71,
+    "all_compared_files_match": true,
+    "installed_RECORD_retained": true,
+    "metadata_and_license_files_retained": true,
+    "license_file_count": 19,
+    "publication_license_encoding": "Two copies of the Latin-1 freetype license are published as explicitly mapped UTF-8 derivatives; original bytes retained privately and losslessly reconstructible. All original wheel-to-installed verification claims refer to original installed bytes."
+  },
+  "declared_license": "BSD-3-Clause, Apache-2.0, dependency licenses",
+  "verification_download": {
+    "started_ns": 292307688065811,
+    "finished_ns": 292308129301946,
+    "scope": "One retained official wheel downloaded for post-install provenance verification; no second installation, model change, account change or paid resource."
+  },
+  "scope": "Optional local rasterization of the already generated figure PDFs for agent visual QA. Public reanalysis and native backend do not require this package. This summary does not imply external human validation.",
+  "original_install_log_publication_filename": "original-install.log.txt",
+  "publication_filename_mapping": "publication-filename-map.json",
+  "initial_installer_filesystem_footprint": {
+    "installer_cache_location": "NOT_CAPTURED_FOR_ORIGINAL_INSTALL",
+    "installer_environment": "NOT_CAPTURED_FOR_ORIGINAL_INSTALL",
+    "complete_filesystem_footprint_recorded": false,
+    "scope": "The --target directory was recorded. A project-local target does not establish that all installer reads and writes stayed in that directory. Initial pip cache location, environment and complete filesystem activity were not captured; no later inspection is substituted for missing original evidence."
+  },
+  "publication_encoding_mapping": "publication-encoding-map.json"
+}

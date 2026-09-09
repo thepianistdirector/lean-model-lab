@@ -1,0 +1,19 @@
+{
+  "status": "PASS_SOURCE_SUPPLEMENT_FINAL_ZIP_INCLUSION_PENDING",
+  "reviewed_original": "candidate03 quality-research.zip",
+  "original_gap": "Original queue receipt, registration and product log were inventoried but absent as payload; raw attempt/service evidence was present.",
+  "supplement_files": {
+    "receipt.json": "483d0720a96f8953d2ec870b559195d96659c3ba502a9945532b3ebb47804dac",
+    "registration.json": "79379257ef2b3139efdf9b4fd5ee8bac15a089f962b74f5dc9ababad5927a969",
+    "product.txt": "5e6af969ddedccfc06f85125abd52cf375f31d591e1e319cbcaafab17f31075c"
+  },
+  "queue_status": "COMPLETED",
+  "recomputed": {
+    "queue_wait_s": 90.012337226,
+    "archive_execution_s": 2774.945479864,
+    "queue_total_s": 2864.95781709
+  },
+  "matches_original_activity_cost_receipt": true,
+  "scope": "Exact original bytes verified against hashes declared in the already reviewed immutable candidate03 inventory. This resolves source-supplement evidence availability, subject to final ZIP inclusion readback; no original package or observation changed.",
+  "checked_ns": 304380144949258
+}

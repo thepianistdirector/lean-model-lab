@@ -1,0 +1,1193 @@
+{
+  "scope": "Operational path metadata only. Exact originals remain privately retained. Recipe, protocol, proposal, freeze, cost and token fields are unchanged. Named workspace/interpreter replacements are documentation tokens, not new contemporaneous execution attestations.",
+  "files": [
+    {
+      "path": "provenance/d1-small-reuse24/export.command.json",
+      "original_sha256": "2688494f9e1f3a6ad8ebd1665b4f283a8e3e79d1dda56e31f9b659cc94fb65f8",
+      "derived_sha256": "a92361ff1ae5838425001ced9828d802785f05c0bf5bb8a901dd0484bcb86353",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/freeze.command.json",
+      "original_sha256": "d62b27bc41a9d626644f25446eb55c15d06b176c5743f5d83a73f1f759b63334",
+      "derived_sha256": "8684c04a8088b9f733cb0bb8b0390369b4cb41b1425d14848a598b68b9a944af",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/inspect-export.command.json",
+      "original_sha256": "97bb438e9a01f601048d50fbb2dc71f0e9650ddd7fcaececaf862b33e90dccd6",
+      "derived_sha256": "b73d3349cc1cb9d5601e180fb57ccc2ffd16294a2b37245015d1d8b8f090a45c",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/inspect.command.json",
+      "original_sha256": "998e810ffc116ad5d2b00ccb55d67c13cef64228b56c8dbfd1dd44f400d551a0",
+      "derived_sha256": "4b9267f596c155e16a60848ccbcc26867b5c2db7041b6924e3f4f682ac121fe8",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/propose.command.json",
+      "original_sha256": "1ab1e3feaa23fb901827589fb4c433d7bbbb309a0d3d5c7d469ef219eb6dcf9f",
+      "derived_sha256": "45b4da8add268d8e8c748121fc43dcdfaa73b17d72073d5616766db4e88bb611",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/protocol-template.command.json",
+      "original_sha256": "f11e06cd0ba17874144d2c42681abee5941ae63f22ea655ff07fa0b87d4642ab",
+      "derived_sha256": "81307e95e83f0f16a660f524ae485f14441ed0f2e0c393c08320a2c3faf5c53f",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/raw-audit-export.command.json",
+      "original_sha256": "b9426f50bc3268ec8d49118cb4a8b2c5812246fbbac1ec2701388976fb6b5fc1",
+      "derived_sha256": "ccc433c9ac23306a00406e8eae9372c4dc232be9fb9db093e63172fe2408135e",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/raw-audit.command.json",
+      "original_sha256": "820ae6d64812308a228d86ce3c2c0d6fa6b4d2f72e3f2f1440a1ec59269b974b",
+      "derived_sha256": "b4188e46f1012364ef395d39743c69b92344f41ddf9e9ff00d822702c0c29acb",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/recipe-validate.command.json",
+      "original_sha256": "bbfd0879b54a7240c48e7de062e18e967582941c6348072a093c8839bafb74f4",
+      "derived_sha256": "d3892d3f3a3face90c6051fe152a6d7b3005da6d17cb1cf06b3e8ce9c7933980",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/report.command.json",
+      "original_sha256": "a201bad10289cc5d45f2c31e23ae3639eee0f20b5846183e24d9985932734ef6",
+      "derived_sha256": "f256787886f2421757bedc573a84b6ae5933cd089e195508e27f4fcdf0fd4526",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/study-create.command.json",
+      "original_sha256": "43dfeff906bac49380b728525d81104caa2672bfc13d720992b4ce9d5f5817b3",
+      "derived_sha256": "ae35b805d9663f6ac2f9e9c7e5b7ecc687c92624f88abb0e9b06e57d18b25f2d",
+      "redaction_count": 6,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 5
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/verify-proposal.command.json",
+      "original_sha256": "c31324a1c9833a2decd9822de6eed35db9b0346abb6a4f7dcff4d13fbe04d693",
+      "derived_sha256": "3233a271e9a84b89738be82a9412e8873dccb8437438d7f23787d530d38e77d9",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d1-small-reuse24/workbench.command.json",
+      "original_sha256": "c29899eda8aff9957e2ed0799b48cde9b70999a9847f6ea898080b33604e8e74",
+      "derived_sha256": "1e21ce242ab582473f75d4386f2cd0486262e46fd2a1b1d0eb43e16d8990173f",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "historical-interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/export.command.json",
+      "original_sha256": "645b5011f1ebf37dac829e7c9b2d56e3413f3a642017b767200decb423e31e8e",
+      "derived_sha256": "01c193054994a864cb4c65689b64ee455006b8e6098388c7f57b1a8de173af4d",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/freeze.command.json",
+      "original_sha256": "dbc324d21b28d8ccbb266b2e8819ad9a4e9266bf172c86480795ae1d0ee7e8d4",
+      "derived_sha256": "1cde25cf9ef4c3e2750d6ab8a62788cf78e9366b492301d6ccccdce89f7f3afb",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/inspect-export.command.json",
+      "original_sha256": "d801292df28d0f1e9ccf9789aa5389ebbe8d1f62f39b4cff90476c7b221c3b20",
+      "derived_sha256": "47199f4178b64f4da697b0998519aca5ed7b9ceb40dbdd5af4b87174e0839127",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/inspect.command.json",
+      "original_sha256": "c89f1e43b63a18176ab09ebf4c779301d339922df7f9de85d35d76798cf3d2ff",
+      "derived_sha256": "f19e52642d519236a4001c49cc035f16a3a121d9c68f25ab7153cb27bb0f961d",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/propose.command.json",
+      "original_sha256": "22cb50067c20bd43a9b6cdff1bef3aea2d8da491e2151d1227b78fbf4a16de3a",
+      "derived_sha256": "bd5edf928b82ee99a8bcf384cc875fa86a8936b1375559661146898327068593",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/protocol-template.command.json",
+      "original_sha256": "b99ae69167cb1285020937aadf4b99f2e775ebf81019f6c19e9a69728f4d5042",
+      "derived_sha256": "17f7dc4d3317f26b4adeef61677c53dbb00d796006e4ebe4187dea4b85eedd17",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/raw-audit-export.command.json",
+      "original_sha256": "3ef86924ceb041a22e057e3394ec0a827037cdb58d2e5ae6ea956beb26df03c0",
+      "derived_sha256": "1d218e478b7561c579855e443a74d1ab3c837de83e8524d9c862d925cd283006",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/raw-audit.command.json",
+      "original_sha256": "62de985edcb7dbe6d8c1f30203d53d225802b8cc219fdaf1744bedaa5346bb1b",
+      "derived_sha256": "7137ab1883d41ecde18bfb0377dd3887245ddae4537d5586c914d6092e0a41d7",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/recipe-validate.command.json",
+      "original_sha256": "0c77bcf2d6a39b1636dfe2d50f57b0eda7bc4cfd6a410caf863522a1ad54b6b8",
+      "derived_sha256": "b081732688c4af698216e6284341a39a323ce175985f52ed35b2ae15f0fed7c0",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/report.command.json",
+      "original_sha256": "372b2a29ec0f46854c8b43f6264b392be7b73bf3217dc966982f54f9f8e087ac",
+      "derived_sha256": "ce93e1225a8719835ed364e24683e5add5fa9d699289bbd2cdec96948e2e19d2",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/study-create.command.json",
+      "original_sha256": "1e5e00438420826485f87951b17216bb4c9a1d59c32090c7b113380f32971fa1",
+      "derived_sha256": "98b611a3b5fbd47d536df95da8a9c7c32990176142da0ef0730bd780acebe039",
+      "redaction_count": 6,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 5
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/verify-proposal.command.json",
+      "original_sha256": "32884d4fa8075e40e3d734e5d4bb52e48165886505434a43a7939246e905cda0",
+      "derived_sha256": "13cd92232592cc79e586515a594e98716da9c57fa83b15d0352ddfc8464b590b",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/d2-large-reuse24/workbench.command.json",
+      "original_sha256": "02ff40f63bc76ef23c75a4cf1dc71adf8951b00f27275d6dcfc5555ac7e81dfe",
+      "derived_sha256": "3c1083b1171c27a37411cdfb19c86a792288e0d6227f1743700ffba4913510b5",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "portable-relocation-check.json",
+      "original_sha256": "73bbdb666a06c3105dd3f0590078cf568f5271d8f3d6fa58ab2cb6341b53b990",
+      "derived_sha256": "3bab8e8483fbd70aa9b088617d23d5fdf5c94063e31edddbd0619fe7d2f2b11a",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/export.command.json",
+      "original_sha256": "89dff49a3bb84df85c29da78ea9b2d47eb346b97eef083046e9010372ad1dced",
+      "derived_sha256": "4e3ffcf44f9a007b437c3e39d622f332f336d537eb8c4e129697263a0255fbd3",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/freeze.command.json",
+      "original_sha256": "e3ddec274fa9055ff8bb8abc5e1f75e8b2284fae7173cf6cbb101856dc3ea73a",
+      "derived_sha256": "fe9148241c425f0aba23580501835fa2e1dbdd55b9f88d83d162b573e14b4df2",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/inspect-export.command.json",
+      "original_sha256": "714fb5fa0aa1ac6b17e3d7ff12d18a14e860a8a86fde9971a8cdf0e5035a8515",
+      "derived_sha256": "a0f181b8bed35aa216e0e82f134b7543fd55b6b12ad864de856a409ffeb9a5c1",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/inspect.command.json",
+      "original_sha256": "3aafe06ee34544c0f1e57f3b4f8984e5d632d2e704d9d3402cfb81bbc03442d7",
+      "derived_sha256": "f9ce71cd59f339e1182d6fc1ca945ca4639b759d5ef3deea02a3fae422fefa6a",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/propose.command.json",
+      "original_sha256": "83995d10ade4ae8b2b7375c8c974d67871a6e64fba9dd88388ddc9e9625cff14",
+      "derived_sha256": "d306b207ac2655b01cd5fdcf9f92bdf6c8759322540013a81bb80f306bffb0ed",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/protocol-template.command.json",
+      "original_sha256": "a18df3c56a41bde3a1ad756121b65ecc437e4d50004de360dbe81cac534821e3",
+      "derived_sha256": "f3b81d9bfa1bcf0cb6ce072c6464db4752cb671c858e63cd373b469daffbcab8",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/raw-audit-export.command.json",
+      "original_sha256": "fda01cdc9e12ff29134c3a51b762bda8767ab8b87874f27081c2116887a28d1d",
+      "derived_sha256": "cdc8b8035dafd0d5a8da520977f7494fd60ce18fb73f1671be97fef4b42dfc20",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/raw-audit.command.json",
+      "original_sha256": "5290430f430173b5ee2850d6764e529853cd05ec017b97b42f30560f562bf702",
+      "derived_sha256": "36ffce0a3c2af8c954afacc0c16c1f1b12b06b47b3e46c6e79d45d778ee8c51d",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/recipe-validate.command.json",
+      "original_sha256": "2217985c161cba2ca79a3ea950ed14bf15cb056328553f69ea16b84f98bc22eb",
+      "derived_sha256": "5734623c6686e38a9493a1699729ad4e4fd75b4e117df55743dfc663c0dbb374",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/report.command.json",
+      "original_sha256": "e08ed57c382555ccbc28aa6fa7c23ccac1456ad2b22a5adbacd00abc7b2af7df",
+      "derived_sha256": "1c4d401c8899696c66fa910e5e2f6865be9cabc885a2a7a80c9718055f8274f9",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/study-create.command.json",
+      "original_sha256": "a2c673842929c9105082826d234501c3c62b4e57b66bb25c274e1c538aeea3b9",
+      "derived_sha256": "4de6bf3807d9a3d222fde1598021a766f23b1921a7b6e6bdd943e4896a3ebac0",
+      "redaction_count": 6,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 5
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/verify-proposal.command.json",
+      "original_sha256": "8a847a0f5ec59614fc3321101c82129406fb620c49c3d1e554ec37ab8e132029",
+      "derived_sha256": "7c202ae29324582b56661a9d42dc0f702216152d3a4693033af473a77b6e120b",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h1-small-reuse24/workbench.command.json",
+      "original_sha256": "cb089b96378b14fa437ee170bb93146fe0d1c95cb6efd3c1a29efe0e9d833fa7",
+      "derived_sha256": "ac8fc95d3c6dd72a543995a9871cc4dae746454a399508e3305cedd8cc2a59d8",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/export.command.json",
+      "original_sha256": "e439a077277cd16ce5c29e195753218ac15ee2e7656b00cf4c851359a2141719",
+      "derived_sha256": "4aa49ffe7cbf95343df724937215c70403f6b5b3e5adb1537b2156a9d6f74b29",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/freeze.command.json",
+      "original_sha256": "4c94914392cb982793788f1f076d23bb1c53d05c3b45495874530da56001750e",
+      "derived_sha256": "bb506a1118a6fd83e3819860fbcca8d1f593cc25044e91f5d9044eeda7419f06",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/inspect-export.command.json",
+      "original_sha256": "7783553da69d488e5325f749b3d9ca0256dc2f683764a1fbf9e03081322dec2a",
+      "derived_sha256": "44b373932fc3c81bd908159ae0df964c428d5aa1163aaa776d3338e7b082c51b",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/inspect.command.json",
+      "original_sha256": "81c61279cbdc7cb6bef05d58da6170dfaba0c35e52d55e6abba28b9790e796df",
+      "derived_sha256": "637a44a99fbd733779d9ed6f7781484f57b7aaaf3672cdd127619fbe2e8e6b4a",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/propose.command.json",
+      "original_sha256": "e81bd891388cd91a8df257b5ae80eac1f3950e4809fca127fefec768c2c51875",
+      "derived_sha256": "5f1e6946592f0c255e828a95334fe8a54b0560becf26c4f01352cd47a6d70346",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/protocol-template.command.json",
+      "original_sha256": "b0827f7f5f141bb06504e91a01fdab19b2a82a0b74278ec1ad038372e5276c57",
+      "derived_sha256": "12dd0eb344f409565adb42e43ce85d97e63516db1bf7314ef4d15479fb95c295",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/raw-audit-export.command.json",
+      "original_sha256": "3a3aa811929e7d322b695f0cd5f3c54a253ec15fe128e79e5ab259b35e032acd",
+      "derived_sha256": "4d5f34a13e97933e40c5c7620b31aeabf223adc8cb33c905450ddea86bd512be",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/raw-audit.command.json",
+      "original_sha256": "fc84166acf906957bc556e151c508f7ed69e8d6a04a9002f76eaab8ffb7e3544",
+      "derived_sha256": "27358743d62a6a50c4a46d143727014aa95899fdaff467dc81404a8bbe51dace",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/recipe-validate.command.json",
+      "original_sha256": "cbf4852c4c42262154cbd66f907e37b0a8a6dddd2deb052b8b640e544d72df9b",
+      "derived_sha256": "3e408a77f6425fc16e55dded57b2cf91941b5330b21eecf8463ad0dc4a82684a",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/report.command.json",
+      "original_sha256": "a03f5f2375d56eee39ce1855b303d7c38f4bdb1a91aae5b53ff2978475ed5d90",
+      "derived_sha256": "2e90d2ad9fed98ef8b9032137be77b4296f0ff6493e84e03ddac6d605b9f1913",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/study-create.command.json",
+      "original_sha256": "772af5922b837164e9030ef00f9cdbe71b877cbb2eb4125a4ac05cd4e3e61367",
+      "derived_sha256": "60a1cfca647919a40200be2190384ce6d857ae71c8ae947998a7daf2d927ea4a",
+      "redaction_count": 6,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 5
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/verify-proposal.command.json",
+      "original_sha256": "5b6851b123a625b61adfe1cf3d4982f70df14f2833ee9d7ec5ec4b73633b993c",
+      "derived_sha256": "75bc1818ebbb1ca71b71c0c69fce629bc5d078045b24d9a21cb4c58418162b83",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h2-small-reuse64/workbench.command.json",
+      "original_sha256": "f1808264d44c647e2d424435bf24600324e4d299455b7ae479ff7d0d9515c793",
+      "derived_sha256": "4038e907f656bb3676031ee7a41a38c8af5b096f83aba81a5e679e9366b26c76",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/export.command.json",
+      "original_sha256": "86f17c60430e1ea16019bd7c00680ef5b60b251ef95affb7ad3db261b0c854db",
+      "derived_sha256": "ce5a3ac7ee8a4b12961c30ccee522c96b2f90542ce51b53204069f67629c75a5",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/freeze.command.json",
+      "original_sha256": "8432bb87fc41fb3d4f5049d39fcd75d0f4a4b5a88b40ef495058d4c9e2d093a2",
+      "derived_sha256": "0b9bd285a3d7610b6167f9bec6f6f9e8f841ec45d73e8ba7677340a196381ace",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/inspect-export.command.json",
+      "original_sha256": "3be919ba9ccb8174d1e99718bd39c66e27cfe0eaea77ac13ef702c262bea697a",
+      "derived_sha256": "1113c887a8253e09285e6a36885402583f0e62346739e56d9db358c1150fea73",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/inspect.command.json",
+      "original_sha256": "2907132222fc7729cc00fdca1b04a3df2d5997964e24829a9afd0a66b22ce669",
+      "derived_sha256": "4083a3cfedc364c33c3852f4920e28c4e5fe4a78ee195dc589145ee24e801cb2",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/propose.command.json",
+      "original_sha256": "a055c7c91ae4bea811c1980420160afab1e41cae7ec5f01643b0624b7be6e8d5",
+      "derived_sha256": "d58862ed7426273d9dca541fccec2323cbf7236d7d5bf56f227d16e93fb4afd3",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/protocol-template.command.json",
+      "original_sha256": "877caa77eed4a437c7ea7445954bc8550070c83e24bbd89a35d06cc6ddc2346e",
+      "derived_sha256": "e63e20ccda9cd47655d20a02a24580049e00bc7098a53dc2a7b5e51d5fbcc508",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/raw-audit-export.command.json",
+      "original_sha256": "8f91962099c1ecce8c168c08e473ae9f06b4d0bb88e5ddc83082d9c6c418a137",
+      "derived_sha256": "20d8577ffc6bb64c02ad8ffc1bbe4f2427b03dd37dc69d80d3b75a8bce6a8bab",
+      "redaction_count": 4,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 3
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/raw-audit.command.json",
+      "original_sha256": "efa50708e4e31b32d907118a895f7bc5f8e27eeae46d93f759b1e52b8c66a7ba",
+      "derived_sha256": "5edb2d95065ede500a4e2e9c3449fe9e54e81051846cbbc3a244f302191826b8",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/recipe-validate.command.json",
+      "original_sha256": "b6a169d71fb4aaaec196f2b6b85fb6de010a1f921efcb603678201228e64b4e3",
+      "derived_sha256": "21ac524e96779caa02e55da07a5b0bf53e6be4861ce46c8d80c78a63f63efb1e",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/report.command.json",
+      "original_sha256": "668dc959e5ca5ee7284acaaf0eaae6b61aabd02cda6c73ae44be41ea3691995d",
+      "derived_sha256": "92cd7925bc96cdd67ddc28b105f57011160dfad201b322554a74e81c2075e9c9",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/study-create.command.json",
+      "original_sha256": "7fc4ed7da6bc6cebcc3e96dcc32cb8ec83498ba62b1aa74e456239099da35a3d",
+      "derived_sha256": "a58f7e35a9cc650a4868f2ef1edc7a27abb1b43e1f097d2ef8faa3e576a3713e",
+      "redaction_count": 6,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 5
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/verify-proposal.command.json",
+      "original_sha256": "bd8ad47327215c87bb7fb4d2c3663bcb46077a7bd7e07ad4f636db5a95eab144",
+      "derived_sha256": "2c89d66452199c06a1abf8e6690b976275a29b6baf27195f86cb411a8735891e",
+      "redaction_count": 3,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 2
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "provenance/h3-large-reuse24/workbench.command.json",
+      "original_sha256": "6638d6485a69e16ece92e234b5de5757f64b806020503d6917608e138a6475e7",
+      "derived_sha256": "79210dc109ecdc66f60473849c970046d3f90b7ece8f1e20c2315553d2cf8eb4",
+      "redaction_count": 5,
+      "changes": [
+        {
+          "kind": "workspace-prefix",
+          "replacement": "${WORKSPACE_ROOT}",
+          "count": 4
+        },
+        {
+          "kind": "interpreter-executable",
+          "replacement": "python3",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

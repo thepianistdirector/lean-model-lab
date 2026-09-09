@@ -1,0 +1,17 @@
+{
+  "status": "ALL_THREE_CONFIRMATION_RECIPES_FROZEN_BEFORE_NATIVE_EXECUTION",
+  "frozen_ns": 292402743060576,
+  "shared_workload_sha256": "9428be48167f9b03a1f08e22409480d31497d574e6383d1ad17439649bfbb408",
+  "files": {
+    ".cache/v1-investigations-20260908/candidate/negative-confirm-slice-recipe04.json": "01b50acbfb0ad51b29bff26f23c27c1420dd2c36f73b682fe3c53881e11f5c75",
+    ".cache/v1-investigations-20260908/candidate/negative-confirm-simple-recipe04.json": "51e3fc0fb53c0c44c1e349e00471941d4aa9a3730bfcc12d74e4fc8e1879c1b4",
+    ".cache/v1-investigations-20260908/candidate/negative-confirm-learned-recipe04.json": "28efc4f6520bd50c3c68badd0c3b785c44cde8903e9acfde06f653523faff063",
+    ".cache/v1-investigations-20260908/candidate/negative-controller04/controller.json": "4eddbc0eb75fe434d08351e045c07921662ba7bde666830ab2bf7566f1c40c91",
+    ".cache/v1-investigations-20260908/candidate/negative-confirm-slice-protocol04.json": "c2db2ec02a70abb7c411a68fb2f8e58a8eb5c329e153a96e8ba0c21e6daf18f6",
+    ".cache/v1-investigations-20260908/candidate/negative-confirm-simple-protocol04.json": "8e84a892f7f38e4ec95c317f4b28686dd385039dfded7b706f33757eb18c3822",
+    ".cache/v1-investigations-20260908/candidate/negative-confirm-learned-protocol04.json": "3d18637fea41ef9f7843eb06b5df009c308c0f273acf76a490ce9bbcd6060af3"
+  },
+  "controller_mode": "ALWAYS_FULL",
+  "expected_native_offered": 1536,
+  "scope": "Same fixed128 offered tasks for all three policies; only recipe identity hashes read, no confirmation responses or policy adaptation."
+}

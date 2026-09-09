@@ -1,0 +1,50 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+    "research",
+    "study-create",
+    "--proposal",
+    ".cache/v1-investigations-20260908/candidate/feasibility-proposal03.json",
+    "--protocol",
+    ".cache/v1-investigations-20260908/candidate/feasibility-protocol03.json",
+    "--allocation",
+    ".cache/allocation-0.4-20260908.json",
+    "--model-profile",
+    "qwen2.5-14b-instruct-fp16-v1",
+    "--family",
+    "reference-chain",
+    "--context-records",
+    "8",
+    "--split",
+    "development",
+    "--purpose",
+    "DEVELOPMENT",
+    "--requests",
+    "8",
+    "--seed",
+    "920260801",
+    "--concurrency",
+    "1",
+    "--pairs",
+    "2",
+    "--threads",
+    "6",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/feasibility-14b-recipe03.json"
+  ],
+  "exit_code": 0,
+  "finished_ns": 286802824183012,
+  "label": "feasibility-study-create03",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 286802760625377,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 464,
+    "sha256": "4bc5b58ed6b5a397b870bada6e4b1a76f9e798b382b9e171419866526f4d6eba"
+  }
+}

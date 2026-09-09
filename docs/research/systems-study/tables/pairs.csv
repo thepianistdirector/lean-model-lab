@@ -1,0 +1,11 @@
+case_id,pair_index,concurrency,offered_tasks,both_correct,baseline_only_correct,candidate_only_correct,both_wrong,observed_either_answer_correct,changed_output_token_sequences,official_campaign_eligible
+d1-small-reuse24,0,1,8,1,0,3,4,4,6,False
+d1-small-reuse24,1,1,8,1,0,3,4,4,6,False
+d2-large-reuse24,0,1,8,0,3,1,4,4,8,False
+d2-large-reuse24,1,1,8,0,3,1,4,4,8,False
+h1-small-reuse24,0,1,128,31,24,32,41,87,91,False
+h1-small-reuse24,1,1,128,31,24,32,41,87,91,False
+h2-small-reuse64,0,1,128,22,25,35,46,82,94,False
+h2-small-reuse64,1,1,128,22,25,35,46,82,94,False
+h3-large-reuse24,0,1,128,37,36,18,37,91,97,False
+h3-large-reuse24,1,1,128,37,36,18,37,91,97,False

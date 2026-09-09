@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "created_ns": 290689082546923,
+  "scope": "Actual unmodified source-builder text/privacy/SVG and research-figure format checks, scoped to candidate-study sources. Other investigators and final global bundle remain root responsibility.",
+  "counts": {
+    "text": 164,
+    "svg": 2,
+    "binary": 4
+  }
+}

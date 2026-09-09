@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "Latest published manifest/analysis/plot scripts executed from a copied extraction layout against actual redacted exports; no private original studies read. New output directories used.",
+  "manifest_sha256": "427b5e3c7885b8c9fd949d7eeec043990494c93210949bac965cd2deb29d73a8",
+  "analysis_script_sha256": "fbe957e468cfc1f3da3a54fae1781e922f506d3aa3c1bddad087ebde1bf71eb8",
+  "plot_script_sha256": "b5d314b5b23c9ba5f62d4cc87abc1462f28784ab0a0826371872c62ef25fa71c",
+  "native_offered": 64,
+  "figures": {
+    "closed-0.5b-clarification.pdf": "0b57183d6dbf771bba9f13909fa7e434c75341f58adde26dc4f86462f15a69ff",
+    "closed-0.5b-clarification.png": "e36649393248d8a6ce0259a42ff3cfe482868eaef6b576cc395e0a7f646acde9",
+    "closed-0.5b-clarification.svg": "91d074eb83360ba80b31ab96f43f3b4ff86cce33f4259e80d6845fb9051e2500",
+    "closed-14b-feasibility.pdf": "49090f95dde8965cc927df34cdf753860d0bcbeacba691b17036d2f37a0b238a",
+    "closed-14b-feasibility.png": "adda6e2cf2d0a3837e73a154470ff77154671fe6c0d1aa5c970a86b912d53858",
+    "closed-14b-feasibility.svg": "c30151fa324ea8587ea18d14c1e11d64bfffb24403ccb8605eedf223206fca94"
+  },
+  "review_status": "Generated; visual review recorded separately."
+}

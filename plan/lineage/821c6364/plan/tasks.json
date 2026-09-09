@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 2,
+  "project": "lean-model-lab",
+  "contractVersion": "architecture-foundation-2026-09-07",
+  "stateAuthority": "../STATUS.md",
+  "nextPacket": {
+    "after": "LM-F03",
+    "task": "LM-001",
+    "mode": "selection-then-no-compute-harness",
+    "workload": "128 deterministic synthetic decoder-only requests; four prompt-length strata; maximum 32 output tokens; concurrency 1 and 4",
+    "modelSelection": "One exact decoder-only model below 1 billion declared parameters with pinned tokenizer assets and accepted source/license/safe-loading terms",
+    "hardwareSelection": "CPU control on the reviewed 16 GiB arm64 host; Metal conditional on capability and correctness probes; CUDA and remote workers excluded",
+    "downstreamHardwareTask": "LM-002",
+    "downstreamHarnessTask": "LM-003",
+    "entryLimits": "LM-001 performs selection/provenance only; no model/backend download, dependency install, model compute or spend until separately accepted",
+    "isolationBoundary": "LM-003 uses reviewed built-in logic and inert development fixtures only; untrusted candidates/agents and protected confirmation require enforced OS/container/VM read/write, credential, network and resource isolation",
+    "unresolved": [
+      "exact model and tokenizer license/use terms",
+      "backend compatibility with Python 3.14 and the observed host",
+      "approved artifact/time limits",
+      "paid-compute budget",
+      "CUDA hardware",
+      "domain reviewer allocation"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "LM-F01",
+      "wave": 0,
+      "title": "Establish the architecture and experiment contract",
+      "status": "DONE",
+      "dependsOn": [],
+      "ownedPaths": [
+        "ARCHITECTURE.md",
+        "EXPERIMENTS.md",
+        "SOURCES.md"
+      ],
+      "acceptance": "Define versioned model/data/tokenizer/workload/hardware/runtime provenance; distinct training and inference metrics; measurement controls; enforced OS/container/VM isolation before untrusted candidate/agent or protected-confirmation execution; protected candidate/evaluator/holdout boundaries; multi-objective search and confirmation; durable run/failure artifacts; resource accounting, cancellation/recovery and conditional CPU/Metal/CUDA/remote seams, with current primary sources and explicit nonclaims."
+    },
+    {
+      "id": "LM-F02",
+      "wave": 0,
+      "title": "Establish the outcome and dependency roadmap",
+      "status": "DONE",
+      "dependsOn": [
+        "LM-F01"
+      ],
+      "ownedPaths": [
+        "README.md",
+        "ROADMAP.md",
+        "TASKS.md",
+        "STATUS.md",
+        "plan/tasks.json"
+      ],
+      "acceptance": "Add an outcome-based Wave 0 and evidence-driven scale path while preserving all original LM-001\u2013LM-024 IDs, acceptance text, dependency edges, Waves 1\u20138 and their gates; connect the original entry to LM-F03 without converting plans into delivery claims."
+    },
+    {
+      "id": "LM-F03",
+      "wave": 0,
+      "title": "Establish an executable next-work packet and repository-plan validation",
+      "status": "DONE",
+      "dependsOn": [
+        "LM-F02"
+      ],
+      "ownedPaths": [
+        "TASKS.md",
+        "EXPERIMENTS.md",
+        "STATUS.md",
+        "plan/tasks.json",
+        "tools/validate_plan.py"
+      ],
+      "acceptance": "Define an immediately executable LM-001 selection packet and the dependent LM-002 hardware/backend decision and LM-003 no-compute harness entry; bound one lawful decoder-only model/tokenizer, a deterministic synthetic 128-request workload and representative rejection fixtures; validate the repository plan without installing dependencies or running model compute."
+    },
+    {
+      "id": "LM-001",
+      "wave": 1,
+      "title": "Freeze the first model/data workload",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-F03"
+      ],
+      "ownedPaths": [
+        "docs/benchmarks/"
+      ],
+      "acceptance": "Record lawful model/data sources, tokenizer, prompt/output distributions, quality target, latency requirements and evaluation split."
+    },
+    {
+      "id": "LM-002",
+      "wave": 1,
+      "title": "Audit backends and measurement support",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-001"
+      ],
+      "ownedPaths": [
+        "docs/decisions/"
+      ],
+      "acceptance": "Review exact versions/licenses/security, local hardware availability, energy measurement and approved resource limits."
+    },
+    {
+      "id": "LM-003",
+      "wave": 1,
+      "title": "Build the experiment skeleton",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-001",
+        "LM-002"
+      ],
+      "ownedPaths": [
+        "src/",
+        "tests/",
+        "workloads/"
+      ],
+      "acceptance": "CLI schema distinguishes simulated/measured runs, rejects missing quality metadata and runs a synthetic trace parser without model downloads."
+    },
+    {
+      "id": "LM-004",
+      "wave": 2,
+      "title": "Integrate one inference backend",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-001",
+        "LM-002",
+        "LM-003"
+      ],
+      "ownedPaths": [
+        "adapters/inference/"
+      ],
+      "acceptance": "Record complete request/token accounting, warmup/startup and latency distributions on a pinned local workload."
+    },
+    {
+      "id": "LM-005",
+      "wave": 2,
+      "title": "Implement a tiny training baseline",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-001",
+        "LM-002",
+        "LM-003"
+      ],
+      "ownedPaths": [
+        "adapters/training/"
+      ],
+      "acceptance": "Reproduce held-out loss and total work across declared seeds; record optimizer, data order and memory."
+    },
+    {
+      "id": "LM-006",
+      "wave": 2,
+      "title": "Calibrate analytical cost models",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-001",
+        "LM-002",
+        "LM-003"
+      ],
+      "ownedPaths": [
+        "adapters/simulation/"
+      ],
+      "acceptance": "Fit only on calibration runs and report prediction error on held-out workloads; label simulated outputs."
+    },
+    {
+      "id": "LM-007",
+      "wave": 3,
+      "title": "Compare batching and cache policies",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-004",
+        "LM-005",
+        "LM-006"
+      ],
+      "ownedPaths": [
+        "experiments/inference/"
+      ],
+      "acceptance": "Use identical arrival traces and model outputs/quality constraints; include dropped, timed-out and failed requests."
+    },
+    {
+      "id": "LM-008",
+      "wave": 3,
+      "title": "Compare packing or checkpointing in training",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-004",
+        "LM-005",
+        "LM-006",
+        "LM-007"
+      ],
+      "ownedPaths": [
+        "experiments/training/"
+      ],
+      "acceptance": "Compare time-to-quality and memory with equivalent data exposure; include all overhead and failed runs."
+    },
+    {
+      "id": "LM-009",
+      "wave": 3,
+      "title": "Publish the baseline Pareto report",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-004",
+        "LM-005",
+        "LM-006",
+        "LM-008"
+      ],
+      "ownedPaths": [
+        "src/reports/"
+      ],
+      "acceptance": "Regenerate quality, latency, memory and cost tradeoffs from raw traces with uncertainty and no universal speedup claim."
+    },
+    {
+      "id": "LM-010",
+      "wave": 4,
+      "title": "Test evaluator and workload immutability",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-007",
+        "LM-008",
+        "LM-009"
+      ],
+      "ownedPaths": [
+        "tests/integrity/"
+      ],
+      "acceptance": "Reject changed tokenizers, truncated outputs, missing requests and altered quality thresholds."
+    },
+    {
+      "id": "LM-011",
+      "wave": 4,
+      "title": "Measure variance and tail behavior",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-007",
+        "LM-008",
+        "LM-009"
+      ],
+      "ownedPaths": [
+        "src/statistics/"
+      ],
+      "acceptance": "Randomize run order, repeat baseline/candidate pairs and report confidence intervals and p95/p99 behavior."
+    },
+    {
+      "id": "LM-012",
+      "wave": 4,
+      "title": "Confirm on untouched workloads",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-007",
+        "LM-008",
+        "LM-009"
+      ],
+      "ownedPaths": [
+        "benchmarks/holdout/"
+      ],
+      "acceptance": "Separate search from confirmation prompts/data and document hardware/thermal controls."
+    },
+    {
+      "id": "LM-013",
+      "wave": 5,
+      "title": "Evaluate quantization and speculative decoding",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-010",
+        "LM-011",
+        "LM-012"
+      ],
+      "ownedPaths": [
+        "experiments/inference/"
+      ],
+      "acceptance": "Test quality loss and output equivalence where claimed; compare equal workloads and end-to-end overhead."
+    },
+    {
+      "id": "LM-014",
+      "wave": 5,
+      "title": "Evaluate precision, optimizer and kernel choices",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-010",
+        "LM-011",
+        "LM-012"
+      ],
+      "ownedPaths": [
+        "experiments/training/"
+      ],
+      "acceptance": "Use numerical/gradient checks and quality targets; reject unstable or silently lower-precision comparisons."
+    },
+    {
+      "id": "LM-015",
+      "wave": 5,
+      "title": "Model distributed training and serving",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-010",
+        "LM-011",
+        "LM-012"
+      ],
+      "ownedPaths": [
+        "adapters/distributed/"
+      ],
+      "acceptance": "Account for communication, stragglers and memory; hardware results require approved real runs distinct from simulation."
+    },
+    {
+      "id": "LM-016",
+      "wave": 6,
+      "title": "Build profiler-grounded hypotheses",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-013",
+        "LM-014",
+        "LM-015"
+      ],
+      "ownedPaths": [
+        "src/agents/"
+      ],
+      "acceptance": "Tie each proposal to a measured bottleneck and a falsifiable performance/quality expectation."
+    },
+    {
+      "id": "LM-017",
+      "wave": 6,
+      "title": "Compare search with fixed baselines",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-013",
+        "LM-014",
+        "LM-015"
+      ],
+      "ownedPaths": [
+        "src/search/"
+      ],
+      "acceptance": "Use equal experiment/compute budgets and protected quality tests; keep negative results."
+    },
+    {
+      "id": "LM-018",
+      "wave": 6,
+      "title": "Confirm and package robust recipes",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-013",
+        "LM-014",
+        "LM-015"
+      ],
+      "ownedPaths": [
+        "src/evaluation/"
+      ],
+      "acceptance": "A fresh run reproduces selected gains with the exact hardware/workload scope and failure conditions."
+    },
+    {
+      "id": "LM-019",
+      "wave": 7,
+      "title": "Build the efficiency comparison view",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-016",
+        "LM-017",
+        "LM-018"
+      ],
+      "ownedPaths": [
+        "apps/workbench/"
+      ],
+      "acceptance": "Expose simulated/measured labels, quality gates, full costs and invalid results with accessible tables."
+    },
+    {
+      "id": "LM-020",
+      "wave": 7,
+      "title": "Add resource-limited workers",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-016",
+        "LM-017",
+        "LM-018"
+      ],
+      "ownedPaths": [
+        "src/workers/"
+      ],
+      "acceptance": "Enforce process, storage and time quotas; stop runaway jobs and reconcile interrupted experiment costs."
+    },
+    {
+      "id": "LM-021",
+      "wave": 7,
+      "title": "Export reproducible recipe bundles",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-016",
+        "LM-017",
+        "LM-018"
+      ],
+      "ownedPaths": [
+        "src/export/"
+      ],
+      "acceptance": "Bundle lawful configurations and traces; another machine can inspect without credentials and reproduce supported tests."
+    },
+    {
+      "id": "LM-022",
+      "wave": 8,
+      "title": "Replicate on a second device or backend",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-019",
+        "LM-020",
+        "LM-021"
+      ],
+      "ownedPaths": [
+        "benchmarks/replication/"
+      ],
+      "acceptance": "Report which recipes transfer; keep per-hardware outcomes separate rather than averaging away regressions."
+    },
+    {
+      "id": "LM-023",
+      "wave": 8,
+      "title": "Audit measurement and researcher workflow",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-019",
+        "LM-020",
+        "LM-021"
+      ],
+      "ownedPaths": [
+        "docs/review/"
+      ],
+      "acceptance": "An independent reviewer checks quality parity, accounting and fresh reproduction of a claimed improvement."
+    },
+    {
+      "id": "LM-024",
+      "wave": 8,
+      "title": "Prepare the research preview",
+      "status": "PLANNED",
+      "dependsOn": [
+        "LM-019",
+        "LM-020",
+        "LM-021"
+      ],
+      "ownedPaths": [
+        "docs/releases/"
+      ],
+      "acceptance": "Ship a bounded benchmark suite and supported recipes with maintainer approval; no unsupported best-in-class claims."
+    }
+  ]
+}

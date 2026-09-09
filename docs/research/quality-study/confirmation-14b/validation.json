@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "single_finding_primary_manuscript": "docs/research/quality-study/confirmation-14b/manuscript.md",
+  "original_completed_package_files_unchanged": true,
+  "original_package_inventory_sha256_preserved": true,
+  "protocol_frozen_before_recipe_and_queue": true,
+  "frozen_protocol_sha256": "82d1d704115878f038a28069a4cb6465a2b5901dae06edf155bacc00452b23c0",
+  "conservative_queue_budget_seconds": 5400,
+  "actual_queue_seconds": 2864.95781709,
+  "native_requests_new_confirmation": 512,
+  "native_requests_investigator_total": 544,
+  "actual_model_compute_affinity": "All four native process receipts record CPUs 0 through 11.",
+  "all_attempts_127_of_128": true,
+  "one_wrong_question_all_four_arms": true,
+  "exact_token_parity_both_pairs": true,
+  "each_arm_joint_slo_qualified": "0/256",
+  "portable_five_actual_exports": "PASS",
+  "final_png_pdf_visual_review": "PASS",
+  "source_relative_asset_hashes": "PASS",
+  "markdown_links": "PASS",
+  "separate_skeptical_reproduction": "PENDING",
+  "validated_monotonic_ns": 292013697176414
+}

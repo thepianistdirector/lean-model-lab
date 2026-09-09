@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "native_offered": 448,
+  "actual_exports": 5,
+  "scope": "Portable reanalysis reads actual exported derivatives in the final builder layout; no cache-native input or inference.",
+  "manifest_sha256": "cf98742c2ee51d8178d6aef927489ebe442d364c4e7147d9cc2eff325e781175",
+  "reanalyze_sha256": "fbe957e468cfc1f3da3a54fae1781e922f506d3aa3c1bddad087ebde1bf71eb8",
+  "plot_sha256": "e1dcbb01693d2ec7c801392dd356256eb43f9fb70e82389a2918f5ba361313c7",
+  "operational_table_derivatives": [
+    {
+      "original_sha256": "ebaaec9b438915be0ca6e16d995a3fde18df6897eadf984a5897cf1a5f3e90b5",
+      "derived_sha256": "c8db05c471dcc75cae113fb111aed5ad23420df96d8ec25a6b2f6988b54cb41d",
+      "artifact": "docs/research/candidate-study/publication/tables/development-stage3/analysis.json",
+      "replacement": "Absolute evidence root replaced by $EVIDENCE_ROOT in operational JSON only."
+    }
+  ]
+}

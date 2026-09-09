@@ -1,0 +1,58 @@
+{
+  "status": "PASS_RELOCATED_EXPORTED_PACKAGE_REANALYSIS",
+  "cases": [
+    "d1-small-reuse24",
+    "d2-large-reuse24",
+    "h1-small-reuse24",
+    "h2-small-reuse64",
+    "h3-large-reuse24"
+  ],
+  "command": [
+    "python3",
+    "-I",
+    "${WORKSPACE_ROOT}/.cache/v1-investigations-20260908/systems/final-portable-verification/after-relocation/lean-model-lab-source/docs/research/systems-study/analyze.py",
+    "${WORKSPACE_ROOT}/.cache/v1-investigations-20260908/systems/final-portable-verification/after-relocation/lean-model-lab-source/docs/research/systems-study/evidence-manifest.json",
+    "--output",
+    "${WORKSPACE_ROOT}/.cache/v1-investigations-20260908/systems/final-portable-verification/outside-relocated-analysis",
+    "--evidence-root",
+    "${WORKSPACE_ROOT}/.cache/v1-investigations-20260908/systems/final-portable-verification/after-relocation"
+  ],
+  "working_directory": "/",
+  "started_ns": 295328035716075,
+  "finished_ns": 295328238699690,
+  "returncode": 0,
+  "files": [
+    {
+      "file": "attempts.csv",
+      "byte_identical": true,
+      "sha256": "e0e5a7bbb45ae89e76eb88197f8e120b14160181e2838016f3938b0afc1215a3"
+    },
+    {
+      "file": "cases.csv",
+      "byte_identical": true,
+      "sha256": "bc3819ec6b808e5d863ebfcb5065fb1d0004afa7b49ceb21122a594977baec4a"
+    },
+    {
+      "file": "pairs.csv",
+      "byte_identical": true,
+      "sha256": "b4ece62ee98d7f4d43fa4d1908dccf80eb496c71680bb39632ddfeb4a68fd656"
+    },
+    {
+      "file": "requests.csv",
+      "byte_identical": true,
+      "sha256": "7df284b651273a85b8e4e8605416b38c3273042a55762e4de8ac5331cde6a88e"
+    },
+    {
+      "file": "summary.json",
+      "byte_identical": true,
+      "sha256": "5cd7327c907012c2ed10b35892a8aa0c581e329051e291f6c24cbeb745d9a21f"
+    },
+    {
+      "file": "tables.csv",
+      "byte_identical": true,
+      "sha256": "a7d58c2c3e22a3c46ba07e42340f9776c02211c75bc9b8452adc1db7dd27c36c"
+    }
+  ],
+  "analysis_source_sha256": "eed8fa66ff66b90c99971fb5512003315362546252cd95a684c3f8c4560b823a",
+  "scope": "Copied actual exported study trees and portable provenance, renamed the entire staged package, ran isolated Python from an unrelated working directory, and wrote a new external output directory. All six outputs match the original-study analysis byte for byte. The portable manifest requires no private original-study path."
+}

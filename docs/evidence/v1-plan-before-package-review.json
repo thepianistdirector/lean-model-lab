@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "PASS_LOCAL_GRAPH_AND_PROJECTIONS",
+  "observed_ns": 299134561876138,
+  "tasks": 249,
+  "waves": 32,
+  "dependency_edges": 472,
+  "immutable_lineage_source_records": 27,
+  "immutable_lineage_edges": 71,
+  "files": {
+    "plan/tasks.json": "d7bffa27c5b70f23988af455f36cbb4683e80191b3454e45ab3bc3e8c9199919",
+    "TASKS.md": "508724fd56c65e59c1a97373159b6533a52ccc269a70223b7982af44aff907c0",
+    "ROADMAP.md": "0340171b730f889d65eb3d6ada1cbf011f2d4703e74bb7b91f742097e3dffb9f",
+    "plan/tanduna-export.json": "032e5a1a21318fe16d7a09791add01397cc2e2a841243f5ebb0ec2f72164961b"
+  },
+  "check": "python3 tools/validate_plan.py",
+  "scope": "Local canonical ledger and generated projections only. Actual software/runtime evidence levels updated; no native Tanduna submission, accepted plan, public release, human or external-person verification."
+}

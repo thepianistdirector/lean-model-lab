@@ -1,0 +1,24 @@
+{
+  "command": [
+    "python3",
+    "tools/export_study.py",
+    ".cache/v1-investigations-20260908/candidate/clarification-0.5b-study04",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/clarification-0.5b-export04",
+    "--model-path",
+    "$PROJECT_ROOT/.cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf"
+  ],
+  "exit_code": 0,
+  "finished_ns": 288042020172528,
+  "label": "clarification-export04",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 288041606161357,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 313,
+    "sha256": "19cc64b4fac8607df43548c32af0ac3f62f283554abf5b31a27b5a845874d6fc"
+  }
+}

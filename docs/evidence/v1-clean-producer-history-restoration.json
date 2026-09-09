@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "ORIGINAL_PRODUCER_TREES_RESTORED_BYTE_IDENTICAL",
+  "finished_ns": 306451540045523,
+  "original_source_scope": "Retained completed final-clean workflow and recovery in the previously declared separate same-host worktree. Originals remain there too.",
+  "destination_scope": "Additional exact original producer copies inside the main admitted workspace, alongside its existing redacted publication derivatives.",
+  "reason": "Archive04 correctly refuses a local derivative when its original same-allocation producer is absent from that workspace. Root had staged final-clean derivatives before staging their original producers.",
+  "native_reexecution": false,
+  "clock_extended": false,
+  "failed_candidate_admission_retained": true,
+  "rows": [
+    {
+      "local_name": "study",
+      "session_id": "be2a5873b4f94963b5716a10146298f2",
+      "file_count": 126,
+      "original_session_sha256": "9b9110ca9816bff9740895a2833d65233b0df30253bdc25009ffb9b602dd23d5",
+      "copied_session_sha256": "9b9110ca9816bff9740895a2833d65233b0df30253bdc25009ffb9b602dd23d5"
+    },
+    {
+      "local_name": "recovery-study",
+      "session_id": "d54fab57a65c4813bf99ecbf01245ee7",
+      "file_count": 55,
+      "original_session_sha256": "d28167ff1411276d30b3dc97770a763769bb7754d84070eaf0a3be0e6d9c35bb",
+      "copied_session_sha256": "d28167ff1411276d30b3dc97770a763769bb7754d84070eaf0a3be0e6d9c35bb"
+    }
+  ],
+  "exact_full_inventory_sha256": "1946c71de456abfd1b30b9c0ecb147bc35698f9572b41d4e45e0b204933f3521",
+  "failed_candidate_process_seconds": 6.720491959
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "actual_exported_studies": 5,
+  "observed_requests": 4158,
+  "offered_requests": 4256,
+  "attempts": 37,
+  "pairs": 18,
+  "all_attempt_metrics_match_original_native_reanalysis": true,
+  "confirmation_gate": "PASS",
+  "confirmation_full_prompt_overlap": 0,
+  "all_evidence_paths_explicit_in_manifest": true,
+  "relative_paths_from_unrelated_working_directory": true,
+  "script_sha256": "637f86dfd005a4e33abc8c6407a63a0c643d48d3839a12920f9349f7ba716375",
+  "manifest_sha256": "ca56cafea92b732a6c179ae168f0acb21eba20295a820c9e55489a15df11f111",
+  "new_native_requests": 0,
+  "prior_unsuccessful_analysis": "First five-export invocation resolved the venv interpreter symlink to system Python, which lacked Matplotlib. Its partial output and failure are retained; the corrected invocation preserved the venv path. No model rerun or data replacement occurred.",
+  "validated_monotonic_ns": 291503827299197,
+  "scope": "Local actual-export reanalysis, not producer authentication, independent native reproduction or external human review."
+}

@@ -1,0 +1,56 @@
+{
+  "status": "ALL_FIVE_FROZEN_CASES_COMPLETE_NO_MORE_NATIVE_RUNS",
+  "recorded_ns": 295364809529912,
+  "original_deadline_ns": 310468865220540,
+  "original_request_ceiling": 3000,
+  "approved_fixed_matrix_total_request_ceiling": 1600,
+  "offered_native_requests": 1600,
+  "observed_native_responses": 1600,
+  "execution_ceiling_seconds": 5400,
+  "product_execution_seconds_including_admission": 3432.122977394,
+  "remaining_execution_seconds": 1967.877022606,
+  "native_attempt_wall_seconds": 3395.573936679,
+  "scope": "Product execution envelopes conservatively charge the investigator native-execution budget; queue waits are retained separately. All original quality gates remain unchanged and all five studies are ineligible. This is a completed fixed negative challenge, not permission to consume the remaining resource budget.",
+  "cases": [
+    {
+      "case_id": "d1-small-reuse24",
+      "queue_status": "COMPLETED",
+      "execution_seconds": 29.500493033,
+      "queue_wait_seconds": 450.004303967,
+      "recipe_file_sha256": "48ce064c86bb29e18628dcfe4cce7a5f8b56acf8bc712ad8cd4ada35953e33f4",
+      "raw_audit_sha256": "a6c2098b24b032c6f5a95ccb5a0cc8877e2bd1c74770e031fa3be7c99c2819be"
+    },
+    {
+      "case_id": "d2-large-reuse24",
+      "queue_status": "COMPLETED",
+      "execution_seconds": 218.580849263,
+      "queue_wait_seconds": 0.003123879,
+      "recipe_file_sha256": "82fd56cd20c3ed9652085a88737295802e8310d572c0306b16aead9a85efbe37",
+      "raw_audit_sha256": "87254d707c580dabdff24354001b6875a5dc3eedecdf83bef89b8637004dee8f"
+    },
+    {
+      "case_id": "h1-small-reuse24",
+      "queue_status": "COMPLETED",
+      "execution_seconds": 329.082441857,
+      "queue_wait_seconds": 2700.025659908,
+      "recipe_file_sha256": "3c55d694550bbd2e9399b16cd69c54725f654c4f2a941db14dc4509ea52e8e41",
+      "raw_audit_sha256": "5046b8e59db68c5a0f1f9586e24ac0593ca5a94ce2127d3b3cf0ab50d2db3ef2"
+    },
+    {
+      "case_id": "h2-small-reuse64",
+      "queue_status": "COMPLETED",
+      "execution_seconds": 550.836278554,
+      "queue_wait_seconds": 180.018489411,
+      "recipe_file_sha256": "d1fbc80edfb8b79418681594fe4c32a3278df2ee1f7f73d81da5ef4415ea7a9c",
+      "raw_audit_sha256": "d582469b1731ab0ea534386d45857e1987f63a3301fa7ca6fc1aaf5874f6e70b"
+    },
+    {
+      "case_id": "h3-large-reuse24",
+      "queue_status": "COMPLETED",
+      "execution_seconds": 2304.122914687,
+      "queue_wait_seconds": 90.016137865,
+      "recipe_file_sha256": "a4b70e7fed26622ee92126be8517d2f2221aa8872cf4c44dceebcc0ed7f54136",
+      "raw_audit_sha256": "d54f3370109542a93b0741290f2b05f9d6de575960d9a5ef971ce69cc95989cc"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "scope": "Development fit example selected for illustration after complete32-table observations; no extra native query or tuning. Fresh confirmation remains separate.",
+  "study_id": "negative-fit-study04",
+  "request_id": "r024",
+  "family": "record-lookup",
+  "expected": "DRIXT",
+  "full_prompt": "RECORD-LANGUAGE v1\nTASK record-lookup\nRULES Last assignment wins. REF follows the final assignment of its target.\nOUTPUT Resolve ASK to a VALUE. Reply with that alphabetic value only.\nBEGIN\nVALUE DRRJE DVLIP\nVALUE DKDIR DHXCS\nVALUE DXPZJ DXJIE\nVALUE DFVLX DXHRY\nVALUE DSPFH DRWUD\nVALUE DTONQ DOUDP\nVALUE DYAXR DUALH\nVALUE DDVEB DWYXT\nVALUE DHNWB DOPLS\nVALUE DAZBP DUTCW\nVALUE DDMVA DAXIO\nVALUE DQOMQ DWHUB\nVALUE DYWGQ DNHLM\nVALUE DZBEZ DUDGC\nVALUE DHBNA DHJCB\nVALUE DIBXY DGVDF\nVALUE DNLYT DNBAL\nVALUE DVZEM DZPGR\nVALUE DHYJS DLDQX\nVALUE DMBZK DUGPL\nVALUE DDMVJ DRIXT\nVALUE DNPMH DAMBC\nVALUE DNJFT DZMQS\nVALUE DWLTA DUGBO\nEND\nASK DDMVJ\nANSWER:",
+  "selected_prompt": "RECORD-LANGUAGE v1\nTASK record-lookup\nRULES Last assignment wins. REF follows the final assignment of its target.\nOUTPUT Resolve ASK to a VALUE. Reply with that alphabetic value only.\nBEGIN\nVALUE DDMVJ DRIXT\nEND\nASK DDMVJ\nANSWER:",
+  "observations": [
+    {
+      "attempt_id": "attempt-22e527c470fb490290ad3aaf0f698a98",
+      "pair_index": 1,
+      "arm": "candidate",
+      "actual_output": "DDMVJ",
+      "output_token_ids": [
+        4103,
+        66626,
+        41,
+        151645
+      ],
+      "finish_reason": "eos",
+      "status": "SUCCEEDED",
+      "attempt_sha256": "4be35cd1cc41ae65c66166b87a3161bfd175763524c534ffce14cb6e70493820",
+      "certificate": {
+        "budget_matched_to_dependency": false,
+        "budget_unit": "record_lines",
+        "closure_line_indices": [
+          25
+        ],
+        "closure_record_count": 1,
+        "dependency_closure_preserved": true,
+        "fallback_reason": null,
+        "input_prompt_sha256": "169ca430c75e199ebc7da98b7666dbd1a4628f308de5567560e43b598689b7e4",
+        "input_record_count": 24,
+        "input_syntax_valid": true,
+        "limitation": "No claim about logits, token distributions, model answer equivalence or LLM correctness.",
+        "mechanism_id": "dependency-slice-v1",
+        "output_prompt_sha256": "7abcce75c994d2e1dc01717e627aae6be839632d61eef5539cfd9bd537a85b28",
+        "query_key": "DDMVJ",
+        "retained_record_count": 1,
+        "schema_version": 1,
+        "scope": "SYNTAX_DEPENDENCY_CLOSURE_ONLY",
+        "selected_record_line_indices": [
+          25
+        ],
+        "selection_indices_complete": true
+      },
+      "trace_sha256": "6d88b59fb03e8ae1cdc20e95efc460a6ee38d559112754121702b3122b69e24b"
+    },
+    {
+      "attempt_id": "attempt-48d84052cbc74051bd6de656585a31fc",
+      "pair_index": 0,
+      "arm": "baseline",
+      "actual_output": "DRIXT",
+      "output_token_ids": [
+        35,
+        4305,
+        9036,
+        151645
+      ],
+      "finish_reason": "eos",
+      "status": "SUCCEEDED",
+      "attempt_sha256": "ece521a489c47c43629be592eb1de09b1ca7fa7b177edc8f93c7c0cd4fbab19f"
+    },
+    {
+      "attempt_id": "attempt-512c83eda94541a5abf3fd0c277050c5",
+      "pair_index": 0,
+      "arm": "candidate",
+      "actual_output": "DDMVJ",
+      "output_token_ids": [
+        4103,
+        66626,
+        41,
+        151645
+      ],
+      "finish_reason": "eos",
+      "status": "SUCCEEDED",
+      "attempt_sha256": "d0db5b58503bb33e3abbfb206b1c93778073e463c9c231f063cfc4891ab3aa4e",
+      "certificate": {
+        "budget_matched_to_dependency": false,
+        "budget_unit": "record_lines",
+        "closure_line_indices": [
+          25
+        ],
+        "closure_record_count": 1,
+        "dependency_closure_preserved": true,
+        "fallback_reason": null,
+        "input_prompt_sha256": "169ca430c75e199ebc7da98b7666dbd1a4628f308de5567560e43b598689b7e4",
+        "input_record_count": 24,
+        "input_syntax_valid": true,
+        "limitation": "No claim about logits, token distributions, model answer equivalence or LLM correctness.",
+        "mechanism_id": "dependency-slice-v1",
+        "output_prompt_sha256": "7abcce75c994d2e1dc01717e627aae6be839632d61eef5539cfd9bd537a85b28",
+        "query_key": "DDMVJ",
+        "retained_record_count": 1,
+        "schema_version": 1,
+        "scope": "SYNTAX_DEPENDENCY_CLOSURE_ONLY",
+        "selected_record_line_indices": [
+          25
+        ],
+        "selection_indices_complete": true
+      },
+      "trace_sha256": "a7ffd84c2c0f6b9a50dacaa596cb11952805274187f4720a472d61d51daf23ea"
+    },
+    {
+      "attempt_id": "attempt-5e5d559a3ca94a908e0daf1f595c3eb9",
+      "pair_index": 1,
+      "arm": "baseline",
+      "actual_output": "DRIXT",
+      "output_token_ids": [
+        35,
+        4305,
+        9036,
+        151645
+      ],
+      "finish_reason": "eos",
+      "status": "SUCCEEDED",
+      "attempt_sha256": "2013acd234bb0d79ac68bb141ba344a0f2494a9a0073bf1ef1af7bdd27d811be"
+    }
+  ],
+  "hash_scope": "Original producer-byte identities; exported metadata derivatives can differ under documented export provenance. Scientific record, output, certificate and timing values remain unchanged."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "scope": "Evidence validation strengthened before native confirmation access; all completed scientific CSV outputs unchanged. Added exact producer hashes, complete declared attempt/request inventories, and independent policy prompt reconstruction. Actual native policy parameters, output scoring and scientific criteria unchanged.",
+  "scientific_csv_byte_equality": {
+    "requests.csv": true,
+    "repetition-stability.csv": true,
+    "attempts.csv": true,
+    "paired.csv": true,
+    "route-counts.csv": true,
+    "oracle-strata.csv": true,
+    "cost-scopes.csv": true
+  },
+  "reanalyze_sha256": "32deea71909599deb49e06f5a5818c0a23ea33764b8d16d3935e8a7f12df4cce",
+  "validation_source": "Actual five exported studies in final bundle layout including both exact producer archives."
+}

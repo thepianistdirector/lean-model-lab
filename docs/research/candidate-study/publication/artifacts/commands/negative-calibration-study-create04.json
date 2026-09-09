@@ -1,0 +1,50 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "research",
+    "study-create",
+    "--proposal",
+    ".cache/v1-investigations-20260908/candidate/negative-slice-proposal04.json",
+    "--protocol",
+    ".cache/v1-investigations-20260908/candidate/negative-slice-protocol04.json",
+    "--allocation",
+    ".cache/allocation-0.4-20260908.json",
+    "--model-profile",
+    "qwen2.5-0.5b-instruct-fp16-v2",
+    "--family",
+    "record-mixed-v1",
+    "--context-records",
+    "24",
+    "--split",
+    "development",
+    "--purpose",
+    "DEVELOPMENT",
+    "--requests",
+    "32",
+    "--seed",
+    "920260812",
+    "--concurrency",
+    "1",
+    "--pairs",
+    "2",
+    "--threads",
+    "2",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/negative-calibration-recipe04.json"
+  ],
+  "exit_code": 0,
+  "finished_ns": 288448471704027,
+  "label": "negative-calibration-study-create04",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 288448357968700,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 464,
+    "sha256": "c610057783ea68000510b321936704dfc0fb5182aead1d3b8db99663b91eb7b5"
+  }
+}

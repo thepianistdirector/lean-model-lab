@@ -1,0 +1,21 @@
+{
+  "ablations": [
+    "Same-input prefix-cache-v1 cache_prompt true versus false only.",
+    "Historical 14B and 0.5B are uncontrolled evidence contrasts, not scaling controls."
+  ],
+  "baseline": "Identical Qwen2.5 0.5B FP16 weights, prompt token IDs, sampling, offered requests and CPU settings with cache_prompt false.",
+  "claim_limit": "Known cache mechanism on restricted generated lookup grammar. No model-training, novelty, general language, hardware scaling, energy or universal speedup claim. Same host is shared; historical studies were not protected confirmation.",
+  "confirmation_isolation": "Distinct declared development and confirmation streams and namespaces, frozen package/protocol, prompt-only candidate; workflow separation under shared Unix identity, no technically protected confirmation.",
+  "development_evidence": "Prospective development recipe,8 requests per arm,2 pairs,seed830091; pending. Prior root reference-chain context8 observed1/8 per arm, different family and no selection on this control.",
+  "hypothesis": "Prefix reuse can lower native prompt work without meeting the absolute task-quality gate; any quality-valid service improvement can be weakened by full-attempt and allocation costs.",
+  "primary_sources": [
+    "https://arxiv.org/abs/2312.07104",
+    "https://arxiv.org/abs/2412.15115",
+    "https://github.com/ggml-org/llama.cpp/tree/bb4caa7540188872173c44d161602d9271386413"
+  ],
+  "proposal_sha256": "993a912834d6b88ac36c0fe17d8fc9fa3a44b2ea50ddb0ed9d33792f1f12d238",
+  "question": "When is measured native same-input prefix reuse a quality-valid efficiency result under exact-answer and token-parity gates?",
+  "selection_rule": "Preselect record-lookup context8, C1, two AB/BA pairs,2 threads,max-output32. Development seed830091 requests8; only if all four arms reach8/8 and exact paired token parity, freeze confirmation seed830129 requests128. No family/context/seed search or replacement. Declining confirmation after futility is not a confirmation finding.",
+  "stopping_rule": "One development execution, no retries. If any arm below8/8, parity failure, protocol failure or interruption, stop and propose historical-audit-only alternative to root. If feasible, exactly one confirmation execution. At most544 native requests and1200 seconds native execution; original allocation deadline310468865220540. Stop on resource exhaustion/cancellation/identity failure; retain every attempt.",
+  "uncertainty": "Report all balanced pair effects and min/median/max, request-level correct-to-wrong and wrong-to-correct transitions, exact token differences, nearest-rank p50/p95/p99. No IID request or significance inference."
+}

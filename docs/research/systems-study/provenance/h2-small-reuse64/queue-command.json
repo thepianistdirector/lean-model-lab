@@ -1,0 +1,25 @@
+{
+  "command": [
+    "python3",
+    "tools/run_queued_recipe.py",
+    "--archive",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "--recipe",
+    ".cache/v1-investigations-20260908/systems/h2-small-reuse64/recipe.json",
+    "--server",
+    ".cache/prepared-20260908-01/build/bin/llama-server",
+    "--model",
+    ".cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf",
+    "--setup",
+    ".cache/adopted-0.5b-current-02/setup.json",
+    "--output",
+    ".cache/v1-investigations-20260908/systems/h2-small-reuse64/study"
+  ],
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "TMPDIR": ".cache/tmp"
+  },
+  "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+  "recipe_file_sha256": "d1fbc80edfb8b79418681594fe4c32a3278df2ee1f7f73d81da5ef4415ea7a9c",
+  "scope": "Documentary transcription of the original queue invocation, assembled during publication preparation. Original queue registration and receipt separately retain execution timestamps and producer hashes; this file is not a new contemporaneous process attestation."
+}

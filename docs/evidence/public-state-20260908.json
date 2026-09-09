@@ -1,0 +1,36 @@
+{
+  "observed_utc": "2026-09-08T13:13:26.038043+00:00",
+  "read_only": true,
+  "records": [
+    {
+      "url": "https://tanduna.com/projects/lean-model-lab",
+      "final_url": "https://tanduna.com/projects/lean-model-lab",
+      "status": 200,
+      "sha256": "b848a78381ec46b53a19a08fb20b39d9f44731ee47a4b6cf237e1ea78dca8b61"
+    },
+    {
+      "url": "https://tanduna.com/projects/lean-model-lab/roadmap",
+      "final_url": "https://tanduna.com/projects/lean-model-lab/roadmap",
+      "status": 200,
+      "sha256": "bca942c8a1661403b0c9936942f10d834f42e8c13e8cbe4f5dbdf0676fda754b"
+    },
+    {
+      "url": "https://tanduna.com/p/lean-model-lab/tasks",
+      "final_url": "https://tanduna.com/p/lean-model-lab/tasks",
+      "status": 200,
+      "sha256": "85cb50c620db0ffd69e4054468682d029979661e3865206704da99c05a81225b"
+    },
+    {
+      "url": "https://tanduna.com/p/lean-model-lab/proposals",
+      "final_url": "https://tanduna.com/p/lean-model-lab/proposals",
+      "status": 200,
+      "sha256": "dd505f886cbe8bc1ed1c7d878f023a4be74dbdd66a8189fc78d2c76dbad41918"
+    },
+    {
+      "url": "https://tanduna.com/p/lean-model-lab/proposals/prp_b4937892fb5adf25392c481d939656bd",
+      "final_url": "https://tanduna.com/p/lean-model-lab/proposals/prp_b4937892fb5adf25392c481d939656bd",
+      "status": 200,
+      "sha256": "1425b5f5637d2c26836e56257f4f366a18b5c97c6a0700c66f761df3e20a62bb"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "recorded_ns": 299141840727268,
+  "scope": "Actual unmodified complete-builder text/privacy/SVG and figure checks scoped to final candidate sources, including added observed-memory/process-timing summary and revised manuscript. Final whole-project assembly remains separate.",
+  "counts": {
+    "text": 433,
+    "svg": 7,
+    "binary": 21
+  },
+  "builder_sha256": "87cf56157b137677822198d6d6c4289453e5bc2894caad3460d85c4cb4514226",
+  "added_preserved_prior_boundary_receipt": "docs/research/candidate-study/publication/source-boundary-check-before-memory-summary.json"
+}

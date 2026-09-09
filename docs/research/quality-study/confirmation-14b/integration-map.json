@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "finding_count": 1,
+  "primary_manuscript": "docs/research/quality-study/confirmation-14b/manuscript.md",
+  "current_reader_route": "docs/research/quality-study/CURRENT.md",
+  "current_readme": "docs/research/quality-study/confirmation-14b/README.md",
+  "portable_entrypoint": "docs/research/quality-study/confirmation-14b/portable_reanalysis.py",
+  "portable_manifest_source": "docs/research/quality-study/confirmation-14b/distribution-evidence-manifest.json",
+  "portable_manifest_destination": "evidence-manifest.json at the extracted evidence root, alongside evidence/, audits/ and producer archives",
+  "safe_study_names": {
+    "14b": "retained-14b-main",
+    "legacy-comparison": "legacy-05b-comparison",
+    "legacy-protocol-failure": "legacy-protocol-failure",
+    "development": "quality-05b-development",
+    "confirmation-14b": "quality-14b-confirmation"
+  },
+  "export_sources": {
+    "retained-14b-main": ".cache/v1-export-14b-main-20260908-01",
+    "legacy-05b-comparison": ".cache/public-evidence-0.4-20260908/legacy-comparison",
+    "legacy-protocol-failure": ".cache/public-evidence-0.4-20260908/legacy-protocol-failure",
+    "quality-05b-development": ".cache/v1-investigations-20260908/quality/development-export",
+    "quality-14b-confirmation": ".cache/v1-investigations-20260908/quality/confirmation-14b/export"
+  },
+  "audit_sources": {
+    "retained-14b-main": ".cache/v1-investigations-20260908/quality/confirmation-14b/portable-validation/14b-export-raw-audit.json",
+    "legacy-05b-comparison": ".cache/v1-investigations-20260908/quality/confirmation-14b/portable-validation/legacy-comparison-export-raw-audit.json",
+    "legacy-protocol-failure": ".cache/v1-investigations-20260908/quality/confirmation-14b/portable-validation/legacy-protocol-failure-export-raw-audit.json",
+    "quality-05b-development": ".cache/v1-investigations-20260908/quality/confirmation-14b/portable-validation/development-export-raw-audit.json",
+    "quality-14b-confirmation": ".cache/v1-investigations-20260908/quality/confirmation-14b/portable-validation/confirmation-export-raw-audit.json"
+  },
+  "scope": "Local integration map. Published manifest paths are relative and configurable; source .cache locations are operator assembly sources, never runtime requirements for public reanalysis.",
+  "source_assets_manifest": "docs/research/quality-study/confirmation-14b/quality-source-assets.json",
+  "source_assets_manifest_scope": "All 15 quality-package PNG/PDF source assets, including original and preserved earlier revision copies. Directly consumable by build_v1_release_bundle.source_snapshot; combine with other study maps for global assembly.",
+  "pdf_qa_provenance_filename_map": "docs/research/quality-study/confirmation-14b/pdf-qa-provenance/publication-filename-map.json",
+  "pdf_qa_provenance_encoding_map": "docs/research/quality-study/confirmation-14b/pdf-qa-provenance/publication-encoding-map.json",
+  "scoped_source_boundary_receipt": "docs/research/quality-study/confirmation-14b/source-boundary-check.json"
+}

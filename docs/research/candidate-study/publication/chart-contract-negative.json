@@ -1,0 +1,14 @@
+{
+  "purpose": "Describe complete paired native output classes, actual calibration refusal, and costs without eligible speedup claims.",
+  "medium": "Static publication PNG, SVG and PDF from Matplotlib",
+  "palette": {
+    "blue": "Full context and correctness",
+    "orange": "Candidates and harm",
+    "neutral": "Both wrong, union, and 95 percent requirement"
+  },
+  "accessibility": "Direct count labels, distinct hatch patterns, and arm/order text remain interpretable without color.",
+  "denominators": "32 per development arm and pair; 128 per confirmation arm and pair, including both-wrong outcomes.",
+  "uncertainty": "Two fixed-order repetitions are displayed separately; no population error bars or guarantees.",
+  "source": "Portable reanalysis CSV outputs bound to actual exported evidence; controller artifact native and unchanged.",
+  "scientific_constraints": "Neither axes, gate thresholds, selected cohorts nor output scoring are changed by visual refinement."
+}

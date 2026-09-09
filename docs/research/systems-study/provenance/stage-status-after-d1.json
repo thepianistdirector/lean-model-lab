@@ -1,0 +1,24 @@
+{
+  "stage": "DEVELOPMENT_1_COMPLETE_SMALL_MODEL_CONFIRMATION_BRANCH_STOPPED",
+  "offered_requests_used": 32,
+  "native_attempt_wall_seconds": 25.028197536,
+  "queue_execution_elapsed_seconds": 29.500493033,
+  "request_budget_remaining": 2968,
+  "conservative_native_execution_budget_seconds_remaining": 5370.499506967,
+  "next_gate": "Wait for root decision on versioned instruction-clarity capability before spending large-model alternative or freezing confirmation. No automatic retry.",
+  "case": "d1-small-reuse24",
+  "quality": {
+    "baseline": [
+      1,
+      1
+    ],
+    "candidate": [
+      4,
+      4
+    ],
+    "denominator_per_attempt": 8
+  },
+  "all_native_attempts_retained": 4,
+  "raw_audit": "PASS",
+  "export": "LOCAL_REDACTED_EXPORT_VERIFIED_NOT_PUBLISHED"
+}

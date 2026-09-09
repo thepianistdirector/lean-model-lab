@@ -1,0 +1,23 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+    "research",
+    "train-controller",
+    "--help"
+  ],
+  "exit_code": 0,
+  "finished_ns": 286920489321404,
+  "label": "train-controller-help03",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 286920425718024,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 463,
+    "sha256": "2af22d1b5a8043c095cc7d790a111c904514cd2105b450a8d4035a16533bb72b"
+  }
+}

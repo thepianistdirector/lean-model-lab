@@ -1,0 +1,13 @@
+{
+  "title": "Context omission under prefix reuse: an instrumented CPU transfer study",
+  "classification": "NEGATIVE_ENGINEERING_STUDY",
+  "source_directory": "docs/research/systems-study",
+  "entrypoint": "docs/research/systems-study/manuscript.md",
+  "studies": [
+    "systems-d1-small-reuse24",
+    "systems-d2-large-reuse24",
+    "systems-h1-small-reuse24",
+    "systems-h2-small-reuse64",
+    "systems-h3-large-reuse24"
+  ]
+}

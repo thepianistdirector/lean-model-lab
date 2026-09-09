@@ -1,0 +1,35 @@
+{
+  "created_ns": 290186215568370,
+  "files": [
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-0.5b-clarification.pdf",
+      "sha256": "0b57183d6dbf771bba9f13909fa7e434c75341f58adde26dc4f86462f15a69ff",
+      "visual_review": "Companion export from the same inspected Matplotlib figure; no independent PDF raster renderer available"
+    },
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-0.5b-clarification.png",
+      "sha256": "e36649393248d8a6ce0259a42ff3cfe482868eaef6b576cc395e0a7f646acde9",
+      "visual_review": "PNG visually inspected; titles, labels, denominators and units readable"
+    },
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-0.5b-clarification.svg",
+      "sha256": "91d074eb83360ba80b31ab96f43f3b4ff86cce33f4259e80d6845fb9051e2500",
+      "visual_review": "Companion vector export from the same inspected Matplotlib figure"
+    },
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-14b-feasibility.pdf",
+      "sha256": "49090f95dde8965cc927df34cdf753860d0bcbeacba691b17036d2f37a0b238a",
+      "visual_review": "Companion export from the same inspected Matplotlib figure; no independent PDF raster renderer available"
+    },
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-14b-feasibility.png",
+      "sha256": "adda6e2cf2d0a3837e73a154470ff77154671fe6c0d1aa5c970a86b912d53858",
+      "visual_review": "PNG visually inspected; titles, labels, denominators and units readable"
+    },
+    {
+      "path": "docs/research/candidate-study/figures/closed/closed-14b-feasibility.svg",
+      "sha256": "c30151fa324ea8587ea18d14c1e11d64bfffb24403ccb8605eedf223206fca94",
+      "visual_review": "Companion vector export from the same inspected Matplotlib figure"
+    }
+  ]
+}

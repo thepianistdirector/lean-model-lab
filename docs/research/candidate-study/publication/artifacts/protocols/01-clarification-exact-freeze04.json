@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_BEFORE_NATIVE_EXECUTION",
+  "created_monotonic_ns": 287951082709283,
+  "implementation_sha256": "18c28e8075ebc9e5651bf4e0a66c2fca332480b4834a7342fc49d43775a9ab32",
+  "instructions_sha256": "ecc109d587be31927f3da220a9f48a8714d73af643c27273e43e75e74b5b4837",
+  "native_already_offered": 32,
+  "new_native_expected": 32,
+  "files": {
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+    "docs/research/fixed-explicit-grammar-v2.json": "9a8d778ecbb34a732de84331a01a546702b934c628a00cac41d0dc3fc386c507",
+    ".cache/v1-investigations-20260908/candidate/01-clarification-rule.json": "c4dd88762a5f864dbb7eb3e70bd0018b7d53dcc134de2b8c956342428f78af66",
+    ".cache/v1-investigations-20260908/candidate/clarification-proposal04.json": "b703accb384a36b6d7fc5bdcb5c58027d1c3b9d2a6fa48383ea11319953305eb",
+    ".cache/v1-investigations-20260908/candidate/clarification-protocol04.json": "99d0a11715fcdbd433a635f62f05ee84c8de8223216b3e3ecc1b94b2c5e5d207",
+    ".cache/v1-investigations-20260908/candidate/clarification-0.5b-recipe04.json": "6f8d0dacc9a404c7e457f450497c5252b53b0709d271e673a0ef3fd9a2217e35"
+  },
+  "original_deadline_ns": 310468865220540
+}

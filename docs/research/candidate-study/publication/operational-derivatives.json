@@ -1,0 +1,3167 @@
+{
+  "schema_version": 1,
+  "path_tokens": {
+    "$PROJECT_ROOT": "Original producer workspace root, a documentary token rather than an executable native recipe setting."
+  },
+  "files": [
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-export04.json",
+      "original_filename": "clarification-export04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-export04.json",
+      "original_sha256": "9414a01f221d908d407c112cfa3c3fb0892b296f05c7da3ae314c760f52535bc",
+      "derived_sha256": "a425364ec4c23e2813975b00a41f0e2b79e15a62686b2183bbe5be1b9a52116b",
+      "original_bytes": 825,
+      "derived_bytes": 783,
+      "replacement_counts": {
+        "PROJECT_ROOT": 1
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-export04.stderr",
+      "original_filename": "clarification-export04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-export04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-export04.stdout",
+      "original_filename": "clarification-export04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-export04.stdout.txt",
+      "original_sha256": "19cc64b4fac8607df43548c32af0ac3f62f283554abf5b31a27b5a845874d6fc",
+      "derived_sha256": "19cc64b4fac8607df43548c32af0ac3f62f283554abf5b31a27b5a845874d6fc",
+      "original_bytes": 313,
+      "derived_bytes": 313,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-inspect04.json",
+      "original_filename": "clarification-inspect04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-inspect04.json",
+      "original_sha256": "5e41ab47b89fefdcb8fb557ac91452e46899ddfb58108d9e686a19c1ba74d6eb",
+      "derived_sha256": "5e41ab47b89fefdcb8fb557ac91452e46899ddfb58108d9e686a19c1ba74d6eb",
+      "original_bytes": 652,
+      "derived_bytes": 652,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-inspect04.stderr",
+      "original_filename": "clarification-inspect04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-inspect04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-inspect04.stdout",
+      "original_filename": "clarification-inspect04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-inspect04.stdout.txt",
+      "original_sha256": "940a2a5542bf5ac896ebb973ca6e738fe01c9bb84db989538678e44a947fede2",
+      "derived_sha256": "940a2a5542bf5ac896ebb973ca6e738fe01c9bb84db989538678e44a947fede2",
+      "original_bytes": 47991,
+      "derived_bytes": 47991,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-propose04.json",
+      "original_filename": "clarification-propose04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-propose04.json",
+      "original_sha256": "dfa708ff069426ffe0078257c55152ada464fff46ab47061bde8233df4f34971",
+      "derived_sha256": "dfa708ff069426ffe0078257c55152ada464fff46ab47061bde8233df4f34971",
+      "original_bytes": 731,
+      "derived_bytes": 731,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-propose04.stderr",
+      "original_filename": "clarification-propose04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-propose04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-propose04.stdout",
+      "original_filename": "clarification-propose04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-propose04.stdout.txt",
+      "original_sha256": "7a0fde56abd69f7d0636a0102f0432778552a1def59a6ec92f5a8ce1072d51fe",
+      "derived_sha256": "7a0fde56abd69f7d0636a0102f0432778552a1def59a6ec92f5a8ce1072d51fe",
+      "original_bytes": 540,
+      "derived_bytes": 540,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-protocol-template04.json",
+      "original_filename": "clarification-protocol-template04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-protocol-template04.json",
+      "original_sha256": "6c14a8cc2da4005626d4272df37d8ddcb9a563ea96e39a3622b2e847eb6acce2",
+      "derived_sha256": "6c14a8cc2da4005626d4272df37d8ddcb9a563ea96e39a3622b2e847eb6acce2",
+      "original_bytes": 805,
+      "derived_bytes": 805,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-protocol-template04.stderr",
+      "original_filename": "clarification-protocol-template04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-protocol-template04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-protocol-template04.stdout",
+      "original_filename": "clarification-protocol-template04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-protocol-template04.stdout.txt",
+      "original_sha256": "f8f4e1e52fe1208de4e2a2457860e3768414b9c71ec0daa0c20bf0a115d4ec64",
+      "derived_sha256": "f8f4e1e52fe1208de4e2a2457860e3768414b9c71ec0daa0c20bf0a115d4ec64",
+      "original_bytes": 2080,
+      "derived_bytes": 2080,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-raw-audit04.json",
+      "original_filename": "clarification-raw-audit04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-raw-audit04.json",
+      "original_sha256": "710a57e80966190f3415638388c5e865978b8ca6845cbf5444517892e6d9452a",
+      "derived_sha256": "710a57e80966190f3415638388c5e865978b8ca6845cbf5444517892e6d9452a",
+      "original_bytes": 695,
+      "derived_bytes": 695,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-raw-audit04.stderr",
+      "original_filename": "clarification-raw-audit04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-raw-audit04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-raw-audit04.stdout",
+      "original_filename": "clarification-raw-audit04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-raw-audit04.stdout.txt",
+      "original_sha256": "0bf1b64fd3a8e0b8f13f1bd763a0452a842545acf00bf8baaea8d839ed0bb388",
+      "derived_sha256": "0bf1b64fd3a8e0b8f13f1bd763a0452a842545acf00bf8baaea8d839ed0bb388",
+      "original_bytes": 33,
+      "derived_bytes": 33,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-report04.json",
+      "original_filename": "clarification-report04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-report04.json",
+      "original_sha256": "b1f66410ad5aff089b5f8270c890eee5e61ae43630da85eae7e175a212cf6777",
+      "derived_sha256": "b1f66410ad5aff089b5f8270c890eee5e61ae43630da85eae7e175a212cf6777",
+      "original_bytes": 845,
+      "derived_bytes": 845,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-report04.stderr",
+      "original_filename": "clarification-report04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-report04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-report04.stdout",
+      "original_filename": "clarification-report04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-report04.stdout.txt",
+      "original_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "derived_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "original_bytes": 96,
+      "derived_bytes": 96,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-study-create04.json",
+      "original_filename": "clarification-study-create04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-study-create04.json",
+      "original_sha256": "b251137451a7a926beb26efc30c01379bf0239d0cf5e7ba0be174382be9357f1",
+      "derived_sha256": "b251137451a7a926beb26efc30c01379bf0239d0cf5e7ba0be174382be9357f1",
+      "original_bytes": 1300,
+      "derived_bytes": 1300,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-study-create04.stderr",
+      "original_filename": "clarification-study-create04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-study-create04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-study-create04.stdout",
+      "original_filename": "clarification-study-create04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-study-create04.stdout.txt",
+      "original_sha256": "7a4d4ee4a3f7534d8d7ae64bcc5346b98c690697867bbc79941c0d81c1594399",
+      "derived_sha256": "7a4d4ee4a3f7534d8d7ae64bcc5346b98c690697867bbc79941c0d81c1594399",
+      "original_bytes": 464,
+      "derived_bytes": 464,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-workbench04.json",
+      "original_filename": "clarification-workbench04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-workbench04.json",
+      "original_sha256": "fb8211b3ca9c10e30e17dc3ab86ccac6278d7319c46470c202471f6ad2414afa",
+      "derived_sha256": "fb8211b3ca9c10e30e17dc3ab86ccac6278d7319c46470c202471f6ad2414afa",
+      "original_bytes": 873,
+      "derived_bytes": 873,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-workbench04.stderr",
+      "original_filename": "clarification-workbench04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-workbench04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/clarification-workbench04.stdout",
+      "original_filename": "clarification-workbench04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/clarification-workbench04.stdout.txt",
+      "original_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "derived_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "original_bytes": 159,
+      "derived_bytes": 159,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-export03.json",
+      "original_filename": "feasibility-export03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-export03.json",
+      "original_sha256": "c99d9d50149f4b18a151aff10ead6d0cf85d21cf73632dea55087d5c1c6a576a",
+      "derived_sha256": "7a9f9acc4d21929b825942563715fea1d130ca54a5eabc20fe7de94ce333217f",
+      "original_bytes": 835,
+      "derived_bytes": 793,
+      "replacement_counts": {
+        "PROJECT_ROOT": 1
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-export03.stderr",
+      "original_filename": "feasibility-export03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-export03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-export03.stdout",
+      "original_filename": "feasibility-export03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-export03.stdout.txt",
+      "original_sha256": "d8e3176adb5d5f5edf5558f615e2c86bf4e09a099c6b5f7f09c8187bd58e7a4e",
+      "derived_sha256": "d8e3176adb5d5f5edf5558f615e2c86bf4e09a099c6b5f7f09c8187bd58e7a4e",
+      "original_bytes": 313,
+      "derived_bytes": 313,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-inspect03.json",
+      "original_filename": "feasibility-inspect03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-inspect03.json",
+      "original_sha256": "1c717bec0f2c96bc7de458c925c5677dacb5cf36d202b68eede9f417f9595319",
+      "derived_sha256": "1c717bec0f2c96bc7de458c925c5677dacb5cf36d202b68eede9f417f9595319",
+      "original_bytes": 647,
+      "derived_bytes": 647,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-inspect03.stderr",
+      "original_filename": "feasibility-inspect03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-inspect03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-inspect03.stdout",
+      "original_filename": "feasibility-inspect03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-inspect03.stdout.txt",
+      "original_sha256": "9bcaa11c9591606b0d6bec59e8d047680419683c441f9f99332cb1f7d1453a12",
+      "derived_sha256": "9bcaa11c9591606b0d6bec59e8d047680419683c441f9f99332cb1f7d1453a12",
+      "original_bytes": 40035,
+      "derived_bytes": 40035,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-propose03.json",
+      "original_filename": "feasibility-propose03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-propose03.json",
+      "original_sha256": "62ba194bf67055c9f2c969303d0f02b1dc9150b1b695ac8c512192e512197c8e",
+      "derived_sha256": "62ba194bf67055c9f2c969303d0f02b1dc9150b1b695ac8c512192e512197c8e",
+      "original_bytes": 727,
+      "derived_bytes": 727,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-propose03.stderr",
+      "original_filename": "feasibility-propose03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-propose03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-propose03.stdout",
+      "original_filename": "feasibility-propose03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-propose03.stdout.txt",
+      "original_sha256": "af91957614045722e7c09cfed34c01d54ffca3dc1108e60b1a4edc4db8df5f66",
+      "derived_sha256": "af91957614045722e7c09cfed34c01d54ffca3dc1108e60b1a4edc4db8df5f66",
+      "original_bytes": 546,
+      "derived_bytes": 546,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-protocol-template03.json",
+      "original_filename": "feasibility-protocol-template03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-protocol-template03.json",
+      "original_sha256": "ee9dc9adc3d1448950736771d741a12248e117494fe5a596d4388dd7634d155d",
+      "derived_sha256": "ee9dc9adc3d1448950736771d741a12248e117494fe5a596d4388dd7634d155d",
+      "original_bytes": 799,
+      "derived_bytes": 799,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-protocol-template03.stderr",
+      "original_filename": "feasibility-protocol-template03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-protocol-template03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-protocol-template03.stdout",
+      "original_filename": "feasibility-protocol-template03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-protocol-template03.stdout.txt",
+      "original_sha256": "12e4057f7b687a936c98533fc4f16a185d52323bc79dce7e697d0b201f2eedd6",
+      "derived_sha256": "12e4057f7b687a936c98533fc4f16a185d52323bc79dce7e697d0b201f2eedd6",
+      "original_bytes": 2415,
+      "derived_bytes": 2415,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-raw-audit03.json",
+      "original_filename": "feasibility-raw-audit03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-raw-audit03.json",
+      "original_sha256": "f745a636bdce6d59e530ebfffa6ad03b43691b5f3ee872969869c02d8acab815",
+      "derived_sha256": "f745a636bdce6d59e530ebfffa6ad03b43691b5f3ee872969869c02d8acab815",
+      "original_bytes": 687,
+      "derived_bytes": 687,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-raw-audit03.stderr",
+      "original_filename": "feasibility-raw-audit03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-raw-audit03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-raw-audit03.stdout",
+      "original_filename": "feasibility-raw-audit03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-raw-audit03.stdout.txt",
+      "original_sha256": "0bf1b64fd3a8e0b8f13f1bd763a0452a842545acf00bf8baaea8d839ed0bb388",
+      "derived_sha256": "0bf1b64fd3a8e0b8f13f1bd763a0452a842545acf00bf8baaea8d839ed0bb388",
+      "original_bytes": 33,
+      "derived_bytes": 33,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-report03.json",
+      "original_filename": "feasibility-report03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-report03.json",
+      "original_sha256": "1a13f19d4935caa4eec139f94053be053c84bd599dcb068f7d13e02af6911ce4",
+      "derived_sha256": "1a13f19d4935caa4eec139f94053be053c84bd599dcb068f7d13e02af6911ce4",
+      "original_bytes": 834,
+      "derived_bytes": 834,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-report03.stderr",
+      "original_filename": "feasibility-report03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-report03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-report03.stdout",
+      "original_filename": "feasibility-report03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-report03.stdout.txt",
+      "original_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "derived_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "original_bytes": 96,
+      "derived_bytes": 96,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-study-create03.json",
+      "original_filename": "feasibility-study-create03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-study-create03.json",
+      "original_sha256": "76da8172f7ce279ab07c9133bd8b671b3a2dfa691a6549af25bd4ea22f307fdc",
+      "derived_sha256": "76da8172f7ce279ab07c9133bd8b671b3a2dfa691a6549af25bd4ea22f307fdc",
+      "original_bytes": 1290,
+      "derived_bytes": 1290,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-study-create03.stderr",
+      "original_filename": "feasibility-study-create03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-study-create03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-study-create03.stdout",
+      "original_filename": "feasibility-study-create03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-study-create03.stdout.txt",
+      "original_sha256": "4bc5b58ed6b5a397b870bada6e4b1a76f9e798b382b9e171419866526f4d6eba",
+      "derived_sha256": "4bc5b58ed6b5a397b870bada6e4b1a76f9e798b382b9e171419866526f4d6eba",
+      "original_bytes": 464,
+      "derived_bytes": 464,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-workbench03.json",
+      "original_filename": "feasibility-workbench03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-workbench03.json",
+      "original_sha256": "6ef4e0e10a3a019ec3afdbf904d02da1a144227e541600a0f7b2e8546c04bc4f",
+      "derived_sha256": "6ef4e0e10a3a019ec3afdbf904d02da1a144227e541600a0f7b2e8546c04bc4f",
+      "original_bytes": 862,
+      "derived_bytes": 862,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-workbench03.stderr",
+      "original_filename": "feasibility-workbench03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-workbench03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/feasibility-workbench03.stdout",
+      "original_filename": "feasibility-workbench03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/feasibility-workbench03.stdout.txt",
+      "original_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "derived_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "original_bytes": 159,
+      "derived_bytes": 159,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/mechanisms03.json",
+      "original_filename": "mechanisms03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/mechanisms03.json",
+      "original_sha256": "a3fe7f7a9f184b461aeef23118271aebeca0af15b17a1fc00b9288f35008339b",
+      "derived_sha256": "a3fe7f7a9f184b461aeef23118271aebeca0af15b17a1fc00b9288f35008339b",
+      "original_bytes": 580,
+      "derived_bytes": 580,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/mechanisms03.stderr",
+      "original_filename": "mechanisms03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/mechanisms03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/mechanisms03.stdout",
+      "original_filename": "mechanisms03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/mechanisms03.stdout.txt",
+      "original_sha256": "343257f182165a55ae0f7f246bf77319ecb139804060dd826c6185cd5ac1b6bd",
+      "derived_sha256": "343257f182165a55ae0f7f246bf77319ecb139804060dd826c6185cd5ac1b6bd",
+      "original_bytes": 632,
+      "derived_bytes": 632,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/mixed-family-blocker03.json",
+      "original_filename": "mixed-family-blocker03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/mixed-family-blocker03.json",
+      "original_sha256": "d16d6347e5dde4a9e120e976409a1b8a216e6a25a73a1f45e5974d748d8b53e5",
+      "derived_sha256": "d16d6347e5dde4a9e120e976409a1b8a216e6a25a73a1f45e5974d748d8b53e5",
+      "original_bytes": 1287,
+      "derived_bytes": 1287,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/mixed-family-blocker03.stderr",
+      "original_filename": "mixed-family-blocker03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/mixed-family-blocker03.stderr.txt",
+      "original_sha256": "ff39a14d1f1a4bbec1aa5dada4b19b1740a0c24e3eda967beace3f78f6cf47fc",
+      "derived_sha256": "ff39a14d1f1a4bbec1aa5dada4b19b1740a0c24e3eda967beace3f78f6cf47fc",
+      "original_bytes": 1851,
+      "derived_bytes": 1851,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/mixed-family-blocker03.stdout",
+      "original_filename": "mixed-family-blocker03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/mixed-family-blocker03.stdout.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control-study-create04.json",
+      "original_filename": "negative-budget-control-study-create04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control-study-create04.json",
+      "original_sha256": "51e05146ca303f43eb0e7131dfbcbda7228a24ff77a6acda8b6968bc00707677",
+      "derived_sha256": "51e05146ca303f43eb0e7131dfbcbda7228a24ff77a6acda8b6968bc00707677",
+      "original_bytes": 1321,
+      "derived_bytes": 1321,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control-study-create04.stderr",
+      "original_filename": "negative-budget-control-study-create04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control-study-create04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control-study-create04.stdout",
+      "original_filename": "negative-budget-control-study-create04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control-study-create04.stdout.txt",
+      "original_sha256": "449de3b9db4b2fdc4df658b18f335281843fd8bf0970cc4bf21e850b1d34fee0",
+      "derived_sha256": "449de3b9db4b2fdc4df658b18f335281843fd8bf0970cc4bf21e850b1d34fee0",
+      "original_bytes": 464,
+      "derived_bytes": 464,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-export.json",
+      "original_filename": "negative-budget-control04-export.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-export.json",
+      "original_sha256": "5e272a5b304615ce21bd955fe498ac1370ac25fde960d1a53f5af181a8be6c5a",
+      "derived_sha256": "e1fd2351a09e5b8c5abad607b3fd3d810dcb7df97532fd6939a9d84c25c8bc1a",
+      "original_bytes": 845,
+      "derived_bytes": 803,
+      "replacement_counts": {
+        "PROJECT_ROOT": 1
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-export.stderr",
+      "original_filename": "negative-budget-control04-export.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-export.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-export.stdout",
+      "original_filename": "negative-budget-control04-export.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-export.stdout.txt",
+      "original_sha256": "bb505056c0385b05a51b286db332e32544d3993b3b69351e816bdab2172df001",
+      "derived_sha256": "bb505056c0385b05a51b286db332e32544d3993b3b69351e816bdab2172df001",
+      "original_bytes": 316,
+      "derived_bytes": 316,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-inspect.json",
+      "original_filename": "negative-budget-control04-inspect.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-inspect.json",
+      "original_sha256": "24bd15079ec6c2aee0b8d44d976b25ba8ba86fca00d4c84185424bd86f31d2a0",
+      "derived_sha256": "24bd15079ec6c2aee0b8d44d976b25ba8ba86fca00d4c84185424bd86f31d2a0",
+      "original_bytes": 667,
+      "derived_bytes": 667,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-inspect.stderr",
+      "original_filename": "negative-budget-control04-inspect.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-inspect.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-inspect.stdout",
+      "original_filename": "negative-budget-control04-inspect.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-inspect.stdout.txt",
+      "original_sha256": "a4370bf30532625335c831988c913c3da15bdaa7a1b96c6961b10590d6c3a9ad",
+      "derived_sha256": "a4370bf30532625335c831988c913c3da15bdaa7a1b96c6961b10590d6c3a9ad",
+      "original_bytes": 75902,
+      "derived_bytes": 75902,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-raw-audit.json",
+      "original_filename": "negative-budget-control04-raw-audit.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-raw-audit.json",
+      "original_sha256": "1cb0778ef779483d04eb1b3c2a1b186d08c17e76014caf666e3d313068f40979",
+      "derived_sha256": "1cb0778ef779483d04eb1b3c2a1b186d08c17e76014caf666e3d313068f40979",
+      "original_bytes": 715,
+      "derived_bytes": 715,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-raw-audit.stderr",
+      "original_filename": "negative-budget-control04-raw-audit.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-raw-audit.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-raw-audit.stdout",
+      "original_filename": "negative-budget-control04-raw-audit.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-raw-audit.stdout.txt",
+      "original_sha256": "1a65e18f1ee095e73a720e295671baac16c9a76fe3de6b343038e3bcabc151bc",
+      "derived_sha256": "1a65e18f1ee095e73a720e295671baac16c9a76fe3de6b343038e3bcabc151bc",
+      "original_bytes": 34,
+      "derived_bytes": 34,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-report.json",
+      "original_filename": "negative-budget-control04-report.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-report.json",
+      "original_sha256": "25594fdc504bfbb99a10a1cfbac0995652f367af2c6a73dc0ccc8daa7180cf51",
+      "derived_sha256": "25594fdc504bfbb99a10a1cfbac0995652f367af2c6a73dc0ccc8daa7180cf51",
+      "original_bytes": 870,
+      "derived_bytes": 870,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-report.stderr",
+      "original_filename": "negative-budget-control04-report.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-report.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-report.stdout",
+      "original_filename": "negative-budget-control04-report.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-report.stdout.txt",
+      "original_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "derived_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "original_bytes": 96,
+      "derived_bytes": 96,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-workbench.json",
+      "original_filename": "negative-budget-control04-workbench.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-workbench.json",
+      "original_sha256": "df05bb6c7c16322e1822c5b2c4fc14b25a924d5d42254275aecfd9688c47e592",
+      "derived_sha256": "df05bb6c7c16322e1822c5b2c4fc14b25a924d5d42254275aecfd9688c47e592",
+      "original_bytes": 898,
+      "derived_bytes": 898,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-workbench.stderr",
+      "original_filename": "negative-budget-control04-workbench.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-workbench.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-control04-workbench.stdout",
+      "original_filename": "negative-budget-control04-workbench.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-control04-workbench.stdout.txt",
+      "original_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "derived_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "original_bytes": 159,
+      "derived_bytes": 159,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-propose04.json",
+      "original_filename": "negative-budget-propose04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-propose04.json",
+      "original_sha256": "765d434abaa716246a7cdd0736bc59745fb4b4e588f0b550cf694c2693cd53f4",
+      "derived_sha256": "765d434abaa716246a7cdd0736bc59745fb4b4e588f0b550cf694c2693cd53f4",
+      "original_bytes": 739,
+      "derived_bytes": 739,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-propose04.stderr",
+      "original_filename": "negative-budget-propose04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-propose04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-propose04.stdout",
+      "original_filename": "negative-budget-propose04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-propose04.stdout.txt",
+      "original_sha256": "e1c50435c711ac3a7ae09550053369d159fcb21b8078b53191611a8b3f578577",
+      "derived_sha256": "e1c50435c711ac3a7ae09550053369d159fcb21b8078b53191611a8b3f578577",
+      "original_bytes": 546,
+      "derived_bytes": 546,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-protocol-template04.json",
+      "original_filename": "negative-budget-protocol-template04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-protocol-template04.json",
+      "original_sha256": "07f1c7b21e6d58e6a165d3305f641b0e779da12c2249c1e98cdf835481070796",
+      "derived_sha256": "07f1c7b21e6d58e6a165d3305f641b0e779da12c2249c1e98cdf835481070796",
+      "original_bytes": 811,
+      "derived_bytes": 811,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-protocol-template04.stderr",
+      "original_filename": "negative-budget-protocol-template04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-protocol-template04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-budget-protocol-template04.stdout",
+      "original_filename": "negative-budget-protocol-template04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-budget-protocol-template04.stdout.txt",
+      "original_sha256": "c13e181e30aafaca8f8045baf82a47e33ce827f583e14f3da3703c8c83819fe2",
+      "derived_sha256": "c13e181e30aafaca8f8045baf82a47e33ce827f583e14f3da3703c8c83819fe2",
+      "original_bytes": 2415,
+      "derived_bytes": 2415,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration-study-create04.json",
+      "original_filename": "negative-calibration-study-create04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration-study-create04.json",
+      "original_sha256": "927526dd617be534c660af6569d132aaa206ecbc34f7ef44b3f5929506557427",
+      "derived_sha256": "927526dd617be534c660af6569d132aaa206ecbc34f7ef44b3f5929506557427",
+      "original_bytes": 1313,
+      "derived_bytes": 1313,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration-study-create04.stderr",
+      "original_filename": "negative-calibration-study-create04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration-study-create04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration-study-create04.stdout",
+      "original_filename": "negative-calibration-study-create04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration-study-create04.stdout.txt",
+      "original_sha256": "c610057783ea68000510b321936704dfc0fb5182aead1d3b8db99663b91eb7b5",
+      "derived_sha256": "c610057783ea68000510b321936704dfc0fb5182aead1d3b8db99663b91eb7b5",
+      "original_bytes": 464,
+      "derived_bytes": 464,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-export.json",
+      "original_filename": "negative-calibration04-export.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-export.json",
+      "original_sha256": "9360f76f700e6be3d355fec460d834d4ff3caef91136589b8c34dd05f694ed3d",
+      "derived_sha256": "611e8048843fa42bd7c75051633e8c37fe1e7d4f6d5326d649e42608537e60c3",
+      "original_bytes": 836,
+      "derived_bytes": 794,
+      "replacement_counts": {
+        "PROJECT_ROOT": 1
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-export.stderr",
+      "original_filename": "negative-calibration04-export.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-export.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-export.stdout",
+      "original_filename": "negative-calibration04-export.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-export.stdout.txt",
+      "original_sha256": "0b6d0ba2a8142a714e8965e4e970eedf93ab08c4b8fa6fa20792faffd3f55018",
+      "derived_sha256": "0b6d0ba2a8142a714e8965e4e970eedf93ab08c4b8fa6fa20792faffd3f55018",
+      "original_bytes": 316,
+      "derived_bytes": 316,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-inspect.json",
+      "original_filename": "negative-calibration04-inspect.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-inspect.json",
+      "original_sha256": "4f8f7be6f98062fed9395c616cb4da5cc05eb622a841e99268ac31f8268d3d8e",
+      "derived_sha256": "4f8f7be6f98062fed9395c616cb4da5cc05eb622a841e99268ac31f8268d3d8e",
+      "original_bytes": 661,
+      "derived_bytes": 661,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-inspect.stderr",
+      "original_filename": "negative-calibration04-inspect.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-inspect.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-inspect.stdout",
+      "original_filename": "negative-calibration04-inspect.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-inspect.stdout.txt",
+      "original_sha256": "207d0aa7630d1e2fab1a612521fe86507f9079d0b49240aeeb2b63ab4007bda4",
+      "derived_sha256": "207d0aa7630d1e2fab1a612521fe86507f9079d0b49240aeeb2b63ab4007bda4",
+      "original_bytes": 67922,
+      "derived_bytes": 67922,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-raw-audit.json",
+      "original_filename": "negative-calibration04-raw-audit.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-raw-audit.json",
+      "original_sha256": "0eac58a3f47565d2c8e879cb12ee4592d6db3b910b8f134dd3a4c58b142d379b",
+      "derived_sha256": "0eac58a3f47565d2c8e879cb12ee4592d6db3b910b8f134dd3a4c58b142d379b",
+      "original_bytes": 706,
+      "derived_bytes": 706,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-raw-audit.stderr",
+      "original_filename": "negative-calibration04-raw-audit.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-raw-audit.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-raw-audit.stdout",
+      "original_filename": "negative-calibration04-raw-audit.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-raw-audit.stdout.txt",
+      "original_sha256": "1a65e18f1ee095e73a720e295671baac16c9a76fe3de6b343038e3bcabc151bc",
+      "derived_sha256": "1a65e18f1ee095e73a720e295671baac16c9a76fe3de6b343038e3bcabc151bc",
+      "original_bytes": 34,
+      "derived_bytes": 34,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-report.json",
+      "original_filename": "negative-calibration04-report.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-report.json",
+      "original_sha256": "22494cecada13b7d949e2eae0856689dbccb371eec2764783c0508ca9c4a2cc0",
+      "derived_sha256": "22494cecada13b7d949e2eae0856689dbccb371eec2764783c0508ca9c4a2cc0",
+      "original_bytes": 858,
+      "derived_bytes": 858,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-report.stderr",
+      "original_filename": "negative-calibration04-report.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-report.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-report.stdout",
+      "original_filename": "negative-calibration04-report.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-report.stdout.txt",
+      "original_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "derived_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "original_bytes": 96,
+      "derived_bytes": 96,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-workbench.json",
+      "original_filename": "negative-calibration04-workbench.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-workbench.json",
+      "original_sha256": "5bc12f001bac2560c57131db290d3ee5639179d9b7e1b145f4a0c1cd62c0283e",
+      "derived_sha256": "5bc12f001bac2560c57131db290d3ee5639179d9b7e1b145f4a0c1cd62c0283e",
+      "original_bytes": 886,
+      "derived_bytes": 886,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-workbench.stderr",
+      "original_filename": "negative-calibration04-workbench.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-workbench.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-calibration04-workbench.stdout",
+      "original_filename": "negative-calibration04-workbench.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-calibration04-workbench.stdout.txt",
+      "original_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "derived_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "original_bytes": 159,
+      "derived_bytes": 159,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned-study-create04.json",
+      "original_filename": "negative-confirm-learned-study-create04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned-study-create04.json",
+      "original_sha256": "cc39904bd0ec475a1aa6793004aba5bda4fe7a3ed0774b7daee8d1d90647f5c4",
+      "derived_sha256": "cc39904bd0ec475a1aa6793004aba5bda4fe7a3ed0774b7daee8d1d90647f5c4",
+      "original_bytes": 1444,
+      "derived_bytes": 1444,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned-study-create04.stderr",
+      "original_filename": "negative-confirm-learned-study-create04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned-study-create04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned-study-create04.stdout",
+      "original_filename": "negative-confirm-learned-study-create04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned-study-create04.stdout.txt",
+      "original_sha256": "05bbeb06d56be5ce30cbf833a2f4fc5388eb3cb04d8604f56ac7ea50c57aaaf3",
+      "derived_sha256": "05bbeb06d56be5ce30cbf833a2f4fc5388eb3cb04d8604f56ac7ea50c57aaaf3",
+      "original_bytes": 464,
+      "derived_bytes": 464,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-export.json",
+      "original_filename": "negative-confirm-learned04-export.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-export.json",
+      "original_sha256": "ed7bac7b4fb68d5345d74f2ed6562452e03b8c010348c295310cfc5bd0c29c92",
+      "derived_sha256": "319d5e349dd6a55951eaecebeee8856dc850d4c8f77a0c445269144e793e978f",
+      "original_bytes": 848,
+      "derived_bytes": 806,
+      "replacement_counts": {
+        "PROJECT_ROOT": 1
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-export.stderr",
+      "original_filename": "negative-confirm-learned04-export.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-export.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-export.stdout",
+      "original_filename": "negative-confirm-learned04-export.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-export.stdout.txt",
+      "original_sha256": "5f8bc08eb3aaf84c130b30c95d6d20885b25d5c26ab26f2a9e7264eccb8ef758",
+      "derived_sha256": "5f8bc08eb3aaf84c130b30c95d6d20885b25d5c26ab26f2a9e7264eccb8ef758",
+      "original_bytes": 316,
+      "derived_bytes": 316,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-inspect.json",
+      "original_filename": "negative-confirm-learned04-inspect.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-inspect.json",
+      "original_sha256": "358cc7da07784bf0fb770237e756c94643ec1e1bd985fe864b442cb3867cc410",
+      "derived_sha256": "358cc7da07784bf0fb770237e756c94643ec1e1bd985fe864b442cb3867cc410",
+      "original_bytes": 669,
+      "derived_bytes": 669,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-inspect.stderr",
+      "original_filename": "negative-confirm-learned04-inspect.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-inspect.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-inspect.stdout",
+      "original_filename": "negative-confirm-learned04-inspect.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-inspect.stdout.txt",
+      "original_sha256": "42c64fa7ea93ef571b2afb3bc4f339a63c3bd9e8ed5c412eda3a826c19d7b6a9",
+      "derived_sha256": "42c64fa7ea93ef571b2afb3bc4f339a63c3bd9e8ed5c412eda3a826c19d7b6a9",
+      "original_bytes": 91870,
+      "derived_bytes": 91870,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-raw-audit.json",
+      "original_filename": "negative-confirm-learned04-raw-audit.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-raw-audit.json",
+      "original_sha256": "e465735cdb05a08ef58612841ff76106d71def96d2103a2c3db5aea4b741f6b2",
+      "derived_sha256": "e465735cdb05a08ef58612841ff76106d71def96d2103a2c3db5aea4b741f6b2",
+      "original_bytes": 718,
+      "derived_bytes": 718,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-raw-audit.stderr",
+      "original_filename": "negative-confirm-learned04-raw-audit.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-raw-audit.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-raw-audit.stdout",
+      "original_filename": "negative-confirm-learned04-raw-audit.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-raw-audit.stdout.txt",
+      "original_sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "derived_sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "original_bytes": 34,
+      "derived_bytes": 34,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-report.json",
+      "original_filename": "negative-confirm-learned04-report.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-report.json",
+      "original_sha256": "3f24136988d70608532a9f823dc2ab331ab00839db26f88c4bd51b718ce4a82d",
+      "derived_sha256": "3f24136988d70608532a9f823dc2ab331ab00839db26f88c4bd51b718ce4a82d",
+      "original_bytes": 874,
+      "derived_bytes": 874,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-report.stderr",
+      "original_filename": "negative-confirm-learned04-report.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-report.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-report.stdout",
+      "original_filename": "negative-confirm-learned04-report.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-report.stdout.txt",
+      "original_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "derived_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "original_bytes": 96,
+      "derived_bytes": 96,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-workbench.json",
+      "original_filename": "negative-confirm-learned04-workbench.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-workbench.json",
+      "original_sha256": "ae5e018794e5f084d7d8023257cc029d544c01ef20490a4e379140ce87e09338",
+      "derived_sha256": "ae5e018794e5f084d7d8023257cc029d544c01ef20490a4e379140ce87e09338",
+      "original_bytes": 902,
+      "derived_bytes": 902,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-workbench.stderr",
+      "original_filename": "negative-confirm-learned04-workbench.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-workbench.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-learned04-workbench.stdout",
+      "original_filename": "negative-confirm-learned04-workbench.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-learned04-workbench.stdout.txt",
+      "original_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "derived_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "original_bytes": 159,
+      "derived_bytes": 159,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple-study-create04.json",
+      "original_filename": "negative-confirm-simple-study-create04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple-study-create04.json",
+      "original_sha256": "e9ebd4245252870d7a389270a9477007c73fc3ca0093d21f016f1d49b0794847",
+      "derived_sha256": "e9ebd4245252870d7a389270a9477007c73fc3ca0093d21f016f1d49b0794847",
+      "original_bytes": 1331,
+      "derived_bytes": 1331,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple-study-create04.stderr",
+      "original_filename": "negative-confirm-simple-study-create04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple-study-create04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple-study-create04.stdout",
+      "original_filename": "negative-confirm-simple-study-create04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple-study-create04.stdout.txt",
+      "original_sha256": "542fc461681d6045fc0f62293b1c2250a608a20b45f17d3e75fe8947eb69ec58",
+      "derived_sha256": "542fc461681d6045fc0f62293b1c2250a608a20b45f17d3e75fe8947eb69ec58",
+      "original_bytes": 464,
+      "derived_bytes": 464,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-export.json",
+      "original_filename": "negative-confirm-simple04-export.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-export.json",
+      "original_sha256": "d45e6e20b5c57fd4c0cc8904b60fef79801bc263974cc32f062fe5bdcdfadb70",
+      "derived_sha256": "e6c53537ef9c01f86218f70eb304a1b16969bc3f4356cdd78e5c8e063c899613",
+      "original_bytes": 845,
+      "derived_bytes": 803,
+      "replacement_counts": {
+        "PROJECT_ROOT": 1
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-export.stderr",
+      "original_filename": "negative-confirm-simple04-export.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-export.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-export.stdout",
+      "original_filename": "negative-confirm-simple04-export.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-export.stdout.txt",
+      "original_sha256": "7a7060f9aee4ca3acaa2c6dccd27989e34c40993fa8b5ede798774f2dd470f1e",
+      "derived_sha256": "7a7060f9aee4ca3acaa2c6dccd27989e34c40993fa8b5ede798774f2dd470f1e",
+      "original_bytes": 316,
+      "derived_bytes": 316,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-inspect.json",
+      "original_filename": "negative-confirm-simple04-inspect.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-inspect.json",
+      "original_sha256": "f450c69366ddcbd0d602aa4a7a38bcbe7936e34d897ea6fb199652531f5d6b6d",
+      "derived_sha256": "f450c69366ddcbd0d602aa4a7a38bcbe7936e34d897ea6fb199652531f5d6b6d",
+      "original_bytes": 667,
+      "derived_bytes": 667,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-inspect.stderr",
+      "original_filename": "negative-confirm-simple04-inspect.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-inspect.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-inspect.stdout",
+      "original_filename": "negative-confirm-simple04-inspect.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-inspect.stdout.txt",
+      "original_sha256": "df5a4d7992c70302ff9f56de526ecb7cfc7e5d0563adecb2f57e40660ed49e45",
+      "derived_sha256": "df5a4d7992c70302ff9f56de526ecb7cfc7e5d0563adecb2f57e40660ed49e45",
+      "original_bytes": 87876,
+      "derived_bytes": 87876,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-raw-audit.json",
+      "original_filename": "negative-confirm-simple04-raw-audit.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-raw-audit.json",
+      "original_sha256": "8b6cc6b450ab21d50b81bc47b194ea2670a1e13688a39b05e2f271c753295e39",
+      "derived_sha256": "8b6cc6b450ab21d50b81bc47b194ea2670a1e13688a39b05e2f271c753295e39",
+      "original_bytes": 715,
+      "derived_bytes": 715,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-raw-audit.stderr",
+      "original_filename": "negative-confirm-simple04-raw-audit.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-raw-audit.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-raw-audit.stdout",
+      "original_filename": "negative-confirm-simple04-raw-audit.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-raw-audit.stdout.txt",
+      "original_sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "derived_sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "original_bytes": 34,
+      "derived_bytes": 34,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-report.json",
+      "original_filename": "negative-confirm-simple04-report.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-report.json",
+      "original_sha256": "0244631367b2a5e560c55ef6e88ea7e76aabdb64c5a593b6881f643df874c2b4",
+      "derived_sha256": "0244631367b2a5e560c55ef6e88ea7e76aabdb64c5a593b6881f643df874c2b4",
+      "original_bytes": 870,
+      "derived_bytes": 870,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-report.stderr",
+      "original_filename": "negative-confirm-simple04-report.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-report.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-report.stdout",
+      "original_filename": "negative-confirm-simple04-report.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-report.stdout.txt",
+      "original_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "derived_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "original_bytes": 96,
+      "derived_bytes": 96,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-workbench.json",
+      "original_filename": "negative-confirm-simple04-workbench.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-workbench.json",
+      "original_sha256": "2d4eaad909c0f667359ca7035bba22d182467ed607a00b9116e111980944172d",
+      "derived_sha256": "2d4eaad909c0f667359ca7035bba22d182467ed607a00b9116e111980944172d",
+      "original_bytes": 898,
+      "derived_bytes": 898,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-workbench.stderr",
+      "original_filename": "negative-confirm-simple04-workbench.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-workbench.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-simple04-workbench.stdout",
+      "original_filename": "negative-confirm-simple04-workbench.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-simple04-workbench.stdout.txt",
+      "original_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "derived_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "original_bytes": 159,
+      "derived_bytes": 159,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice-study-create04.json",
+      "original_filename": "negative-confirm-slice-study-create04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice-study-create04.json",
+      "original_sha256": "85b17f6452c0e2343cf37678a7a6619eb23573156f47b1591b4a7933b8b7b867",
+      "derived_sha256": "85b17f6452c0e2343cf37678a7a6619eb23573156f47b1591b4a7933b8b7b867",
+      "original_bytes": 1327,
+      "derived_bytes": 1327,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice-study-create04.stderr",
+      "original_filename": "negative-confirm-slice-study-create04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice-study-create04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice-study-create04.stdout",
+      "original_filename": "negative-confirm-slice-study-create04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice-study-create04.stdout.txt",
+      "original_sha256": "8865c8adcd9bdb060a1cc0d019c8ebcf8db3b570828c78ab906a40852c6b3d4c",
+      "derived_sha256": "8865c8adcd9bdb060a1cc0d019c8ebcf8db3b570828c78ab906a40852c6b3d4c",
+      "original_bytes": 464,
+      "derived_bytes": 464,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-export.json",
+      "original_filename": "negative-confirm-slice04-export.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-export.json",
+      "original_sha256": "6634291179c23acb2a41d6cf21e503fb63d7a69a9d04a2fca09915090c468b4c",
+      "derived_sha256": "1342da168543b5fa9224437540910338b70aa33d834ca4bf9dd7aaef147ea58e",
+      "original_bytes": 842,
+      "derived_bytes": 800,
+      "replacement_counts": {
+        "PROJECT_ROOT": 1
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-export.stderr",
+      "original_filename": "negative-confirm-slice04-export.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-export.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-export.stdout",
+      "original_filename": "negative-confirm-slice04-export.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-export.stdout.txt",
+      "original_sha256": "a280364142662e6b86b84782bc1fd58041234d0bff0d230b5779a907764ceb22",
+      "derived_sha256": "a280364142662e6b86b84782bc1fd58041234d0bff0d230b5779a907764ceb22",
+      "original_bytes": 316,
+      "derived_bytes": 316,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-inspect.json",
+      "original_filename": "negative-confirm-slice04-inspect.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-inspect.json",
+      "original_sha256": "c10645eac7fdb56b327aae49b78fe4e954e701044c55441610dae5c00f7f17c3",
+      "derived_sha256": "c10645eac7fdb56b327aae49b78fe4e954e701044c55441610dae5c00f7f17c3",
+      "original_bytes": 665,
+      "derived_bytes": 665,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-inspect.stderr",
+      "original_filename": "negative-confirm-slice04-inspect.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-inspect.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-inspect.stdout",
+      "original_filename": "negative-confirm-slice04-inspect.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-inspect.stdout.txt",
+      "original_sha256": "642d806ea0a5854c03e38fd978059f65475a4b69d7a974064e4e14a253bc1fab",
+      "derived_sha256": "642d806ea0a5854c03e38fd978059f65475a4b69d7a974064e4e14a253bc1fab",
+      "original_bytes": 83882,
+      "derived_bytes": 83882,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-raw-audit.json",
+      "original_filename": "negative-confirm-slice04-raw-audit.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-raw-audit.json",
+      "original_sha256": "5baccc5bec1cc4cf290d035e9b4131a8e7a892c9766a4f0a1c727f1aba568da0",
+      "derived_sha256": "5baccc5bec1cc4cf290d035e9b4131a8e7a892c9766a4f0a1c727f1aba568da0",
+      "original_bytes": 712,
+      "derived_bytes": 712,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-raw-audit.stderr",
+      "original_filename": "negative-confirm-slice04-raw-audit.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-raw-audit.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-raw-audit.stdout",
+      "original_filename": "negative-confirm-slice04-raw-audit.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-raw-audit.stdout.txt",
+      "original_sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "derived_sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+      "original_bytes": 34,
+      "derived_bytes": 34,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-report.json",
+      "original_filename": "negative-confirm-slice04-report.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-report.json",
+      "original_sha256": "09d70089b4a463f5108464d3df641c79f6cb1cd234dcd62ff52fbffbb694f3ce",
+      "derived_sha256": "09d70089b4a463f5108464d3df641c79f6cb1cd234dcd62ff52fbffbb694f3ce",
+      "original_bytes": 866,
+      "derived_bytes": 866,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-report.stderr",
+      "original_filename": "negative-confirm-slice04-report.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-report.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-report.stdout",
+      "original_filename": "negative-confirm-slice04-report.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-report.stdout.txt",
+      "original_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "derived_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "original_bytes": 96,
+      "derived_bytes": 96,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-workbench.json",
+      "original_filename": "negative-confirm-slice04-workbench.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-workbench.json",
+      "original_sha256": "ffaec476aedb3d94e666b7f41881e80c6cdb3cea187fa4d89d36a07492aab076",
+      "derived_sha256": "ffaec476aedb3d94e666b7f41881e80c6cdb3cea187fa4d89d36a07492aab076",
+      "original_bytes": 894,
+      "derived_bytes": 894,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-workbench.stderr",
+      "original_filename": "negative-confirm-slice04-workbench.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-workbench.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-confirm-slice04-workbench.stdout",
+      "original_filename": "negative-confirm-slice04-workbench.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-confirm-slice04-workbench.stdout.txt",
+      "original_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "derived_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "original_bytes": 159,
+      "derived_bytes": 159,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit-study-create04.json",
+      "original_filename": "negative-fit-study-create04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit-study-create04.json",
+      "original_sha256": "9e37f85cb793c780498c3cab029f7ade5af930036ab53d529a2e5c680edbbcb5",
+      "derived_sha256": "9e37f85cb793c780498c3cab029f7ade5af930036ab53d529a2e5c680edbbcb5",
+      "original_bytes": 1297,
+      "derived_bytes": 1297,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit-study-create04.stderr",
+      "original_filename": "negative-fit-study-create04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit-study-create04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit-study-create04.stdout",
+      "original_filename": "negative-fit-study-create04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit-study-create04.stdout.txt",
+      "original_sha256": "5951f91e765428bbf00cb899b997286be00aeb810c593f6bd2da0e68e986b665",
+      "derived_sha256": "5951f91e765428bbf00cb899b997286be00aeb810c593f6bd2da0e68e986b665",
+      "original_bytes": 464,
+      "derived_bytes": 464,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-export.json",
+      "original_filename": "negative-fit04-export.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-export.json",
+      "original_sha256": "ed34a73802611acec27a49817d99a8a08dd35f9e539e406aa6a66758d76c8c04",
+      "derived_sha256": "31c7eb99f294ba4279e5a2f3e896ac6054e4e699187df86ba376d724aa558992",
+      "original_bytes": 812,
+      "derived_bytes": 770,
+      "replacement_counts": {
+        "PROJECT_ROOT": 1
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-export.stderr",
+      "original_filename": "negative-fit04-export.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-export.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-export.stdout",
+      "original_filename": "negative-fit04-export.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-export.stdout.txt",
+      "original_sha256": "43931d4d0aa4409c158e6b40c1423720f5a3c522197ebe3c9558ee030e5a9eeb",
+      "derived_sha256": "43931d4d0aa4409c158e6b40c1423720f5a3c522197ebe3c9558ee030e5a9eeb",
+      "original_bytes": 316,
+      "derived_bytes": 316,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-inspect.json",
+      "original_filename": "negative-fit04-inspect.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-inspect.json",
+      "original_sha256": "b0b0b94a0962399a26ab3d668a52f9c25401f69cb56c8017f4caeb551ec0756d",
+      "derived_sha256": "b0b0b94a0962399a26ab3d668a52f9c25401f69cb56c8017f4caeb551ec0756d",
+      "original_bytes": 645,
+      "derived_bytes": 645,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-inspect.stderr",
+      "original_filename": "negative-fit04-inspect.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-inspect.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-inspect.stdout",
+      "original_filename": "negative-fit04-inspect.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-inspect.stdout.txt",
+      "original_sha256": "65aeb43de9646d3870e8b4aa666dd20da4f63e4ca84be8c15c6ebd47d8d6018a",
+      "derived_sha256": "65aeb43de9646d3870e8b4aa666dd20da4f63e4ca84be8c15c6ebd47d8d6018a",
+      "original_bytes": 59942,
+      "derived_bytes": 59942,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-raw-audit.json",
+      "original_filename": "negative-fit04-raw-audit.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-raw-audit.json",
+      "original_sha256": "b513d013b88a74be77689c59cba7098090e1e6b84bb64e9899a8c3f50f23e579",
+      "derived_sha256": "b513d013b88a74be77689c59cba7098090e1e6b84bb64e9899a8c3f50f23e579",
+      "original_bytes": 682,
+      "derived_bytes": 682,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-raw-audit.stderr",
+      "original_filename": "negative-fit04-raw-audit.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-raw-audit.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-raw-audit.stdout",
+      "original_filename": "negative-fit04-raw-audit.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-raw-audit.stdout.txt",
+      "original_sha256": "1a65e18f1ee095e73a720e295671baac16c9a76fe3de6b343038e3bcabc151bc",
+      "derived_sha256": "1a65e18f1ee095e73a720e295671baac16c9a76fe3de6b343038e3bcabc151bc",
+      "original_bytes": 34,
+      "derived_bytes": 34,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-report.json",
+      "original_filename": "negative-fit04-report.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-report.json",
+      "original_sha256": "b351e7cd288e42a953734c3795828a2ba67aab67a1029e0ecfeecb88dc08815f",
+      "derived_sha256": "b351e7cd288e42a953734c3795828a2ba67aab67a1029e0ecfeecb88dc08815f",
+      "original_bytes": 826,
+      "derived_bytes": 826,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-report.stderr",
+      "original_filename": "negative-fit04-report.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-report.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-report.stdout",
+      "original_filename": "negative-fit04-report.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-report.stdout.txt",
+      "original_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "derived_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "original_bytes": 96,
+      "derived_bytes": 96,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-workbench.json",
+      "original_filename": "negative-fit04-workbench.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-workbench.json",
+      "original_sha256": "35564d0b6816baab293d8bb99749d09b829ab655913662ecb9ce8acb6eb0fe2f",
+      "derived_sha256": "35564d0b6816baab293d8bb99749d09b829ab655913662ecb9ce8acb6eb0fe2f",
+      "original_bytes": 854,
+      "derived_bytes": 854,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-workbench.stderr",
+      "original_filename": "negative-fit04-workbench.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-workbench.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-fit04-workbench.stdout",
+      "original_filename": "negative-fit04-workbench.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-fit04-workbench.stdout.txt",
+      "original_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "derived_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "original_bytes": 159,
+      "derived_bytes": 159,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-learned-propose04.json",
+      "original_filename": "negative-learned-propose04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-learned-propose04.json",
+      "original_sha256": "c36620b869c6b3d6c1498a95a4cb8c2d6dff7e0a058d1a1d41646b7d92dc066b",
+      "derived_sha256": "c36620b869c6b3d6c1498a95a4cb8c2d6dff7e0a058d1a1d41646b7d92dc066b",
+      "original_bytes": 740,
+      "derived_bytes": 740,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-learned-propose04.stderr",
+      "original_filename": "negative-learned-propose04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-learned-propose04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-learned-propose04.stdout",
+      "original_filename": "negative-learned-propose04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-learned-propose04.stdout.txt",
+      "original_sha256": "14d0a6d7fb072a7529b7328601c8dfe3a7461081e0eae1b6b8b27b31ef66b377",
+      "derived_sha256": "14d0a6d7fb072a7529b7328601c8dfe3a7461081e0eae1b6b8b27b31ef66b377",
+      "original_bytes": 546,
+      "derived_bytes": 546,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-learned-protocol-template04.json",
+      "original_filename": "negative-learned-protocol-template04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-learned-protocol-template04.json",
+      "original_sha256": "5f69408cff5b4c16e6edb46b67de0d0bc827d259f73d92fa6e55c935732c02c0",
+      "derived_sha256": "5f69408cff5b4c16e6edb46b67de0d0bc827d259f73d92fa6e55c935732c02c0",
+      "original_bytes": 814,
+      "derived_bytes": 814,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-learned-protocol-template04.stderr",
+      "original_filename": "negative-learned-protocol-template04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-learned-protocol-template04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-learned-protocol-template04.stdout",
+      "original_filename": "negative-learned-protocol-template04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-learned-protocol-template04.stdout.txt",
+      "original_sha256": "8832563eedd4318fce8a30bf0d14acc08dd9d24c4a31003a6e0e3d1454fec6d2",
+      "derived_sha256": "8832563eedd4318fce8a30bf0d14acc08dd9d24c4a31003a6e0e3d1454fec6d2",
+      "original_bytes": 2448,
+      "derived_bytes": 2448,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-native-train-controller04.json",
+      "original_filename": "negative-native-train-controller04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-native-train-controller04.json",
+      "original_sha256": "91221e0bd4ced4310271dddc0631f95c93c93780a25bd0ce6120df0c7a7db238",
+      "derived_sha256": "91221e0bd4ced4310271dddc0631f95c93c93780a25bd0ce6120df0c7a7db238",
+      "original_bytes": 998,
+      "derived_bytes": 998,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-native-train-controller04.stderr",
+      "original_filename": "negative-native-train-controller04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-native-train-controller04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-native-train-controller04.stdout",
+      "original_filename": "negative-native-train-controller04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-native-train-controller04.stdout.txt",
+      "original_sha256": "706247bba59de57390bf17155934ec3e2ea23d5efe2f8c69c1a55a7f42b6accd",
+      "derived_sha256": "706247bba59de57390bf17155934ec3e2ea23d5efe2f8c69c1a55a7f42b6accd",
+      "original_bytes": 536,
+      "derived_bytes": 536,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-simple-propose04.json",
+      "original_filename": "negative-simple-propose04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-simple-propose04.json",
+      "original_sha256": "65a02bff0c5b7c27a83da84ea333e6cd3c148d1b761653fabc6e4803e6acd501",
+      "derived_sha256": "65a02bff0c5b7c27a83da84ea333e6cd3c148d1b761653fabc6e4803e6acd501",
+      "original_bytes": 737,
+      "derived_bytes": 737,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-simple-propose04.stderr",
+      "original_filename": "negative-simple-propose04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-simple-propose04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-simple-propose04.stdout",
+      "original_filename": "negative-simple-propose04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-simple-propose04.stdout.txt",
+      "original_sha256": "5ddf7c87fe89d3ad4e8a845c891baf196ca89ba2deb257eb3892d2a719b21dd8",
+      "derived_sha256": "5ddf7c87fe89d3ad4e8a845c891baf196ca89ba2deb257eb3892d2a719b21dd8",
+      "original_bytes": 546,
+      "derived_bytes": 546,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-simple-protocol-template04.json",
+      "original_filename": "negative-simple-protocol-template04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-simple-protocol-template04.json",
+      "original_sha256": "db76653de72b5f3eb162cfbbafc09ccbd9a1dd6a0f08adf1da164a735eafc7dc",
+      "derived_sha256": "db76653de72b5f3eb162cfbbafc09ccbd9a1dd6a0f08adf1da164a735eafc7dc",
+      "original_bytes": 811,
+      "derived_bytes": 811,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-simple-protocol-template04.stderr",
+      "original_filename": "negative-simple-protocol-template04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-simple-protocol-template04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-simple-protocol-template04.stdout",
+      "original_filename": "negative-simple-protocol-template04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-simple-protocol-template04.stdout.txt",
+      "original_sha256": "38fafc12b3d8a40b3905ca301d78802bd6a969c2797344aa7efab29194519f22",
+      "derived_sha256": "38fafc12b3d8a40b3905ca301d78802bd6a969c2797344aa7efab29194519f22",
+      "original_bytes": 2448,
+      "derived_bytes": 2448,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-slice-propose04.json",
+      "original_filename": "negative-slice-propose04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-slice-propose04.json",
+      "original_sha256": "54262aa784e770f964fe085358c71d16ebd354938e01711cfe64871cb7a901a9",
+      "derived_sha256": "54262aa784e770f964fe085358c71d16ebd354938e01711cfe64871cb7a901a9",
+      "original_bytes": 733,
+      "derived_bytes": 733,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-slice-propose04.stderr",
+      "original_filename": "negative-slice-propose04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-slice-propose04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-slice-propose04.stdout",
+      "original_filename": "negative-slice-propose04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-slice-propose04.stdout.txt",
+      "original_sha256": "af91957614045722e7c09cfed34c01d54ffca3dc1108e60b1a4edc4db8df5f66",
+      "derived_sha256": "af91957614045722e7c09cfed34c01d54ffca3dc1108e60b1a4edc4db8df5f66",
+      "original_bytes": 546,
+      "derived_bytes": 546,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-slice-protocol-template04.json",
+      "original_filename": "negative-slice-protocol-template04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-slice-protocol-template04.json",
+      "original_sha256": "9425e12193c5cbdbd872d6db31da7b59e7bf8e3c94529592e6167499cb350632",
+      "derived_sha256": "9425e12193c5cbdbd872d6db31da7b59e7bf8e3c94529592e6167499cb350632",
+      "original_bytes": 808,
+      "derived_bytes": 808,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-slice-protocol-template04.stderr",
+      "original_filename": "negative-slice-protocol-template04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-slice-protocol-template04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-slice-protocol-template04.stdout",
+      "original_filename": "negative-slice-protocol-template04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-slice-protocol-template04.stdout.txt",
+      "original_sha256": "12e4057f7b687a936c98533fc4f16a185d52323bc79dce7e697d0b201f2eedd6",
+      "derived_sha256": "12e4057f7b687a936c98533fc4f16a185d52323bc79dce7e697d0b201f2eedd6",
+      "original_bytes": 2415,
+      "derived_bytes": 2415,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-training-protocol04.json",
+      "original_filename": "negative-training-protocol04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-training-protocol04.json",
+      "original_sha256": "5c26e9df444090d80d82cbfea9956f82a43332a3d6b9a3171fc59cd095448697",
+      "derived_sha256": "5c26e9df444090d80d82cbfea9956f82a43332a3d6b9a3171fc59cd095448697",
+      "original_bytes": 916,
+      "derived_bytes": 916,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-training-protocol04.stderr",
+      "original_filename": "negative-training-protocol04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-training-protocol04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/negative-training-protocol04.stdout",
+      "original_filename": "negative-training-protocol04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/negative-training-protocol04.stdout.txt",
+      "original_sha256": "8f7cb7b63886c1c98c3dfa5762e559d43a860f1ad054d5049219b99ab65aad82",
+      "derived_sha256": "8f7cb7b63886c1c98c3dfa5762e559d43a860f1ad054d5049219b99ab65aad82",
+      "original_bytes": 834,
+      "derived_bytes": 834,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/portable-native-inspect-confirm-slice04.json",
+      "original_filename": "portable-native-inspect-confirm-slice04.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/portable-native-inspect-confirm-slice04.json",
+      "original_sha256": "d78d55422068c0dff2510583900720fb106945759ae0a37744a5461465df116d",
+      "derived_sha256": "d78d55422068c0dff2510583900720fb106945759ae0a37744a5461465df116d",
+      "original_bytes": 796,
+      "derived_bytes": 796,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/portable-native-inspect-confirm-slice04.stderr",
+      "original_filename": "portable-native-inspect-confirm-slice04.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/portable-native-inspect-confirm-slice04.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/portable-native-inspect-confirm-slice04.stdout",
+      "original_filename": "portable-native-inspect-confirm-slice04.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/portable-native-inspect-confirm-slice04.stdout.txt",
+      "original_sha256": "642d806ea0a5854c03e38fd978059f65475a4b69d7a974064e4e14a253bc1fab",
+      "derived_sha256": "642d806ea0a5854c03e38fd978059f65475a4b69d7a974064e4e14a253bc1fab",
+      "original_bytes": 83882,
+      "derived_bytes": 83882,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/study-create-help03.json",
+      "original_filename": "study-create-help03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/study-create-help03.json",
+      "original_sha256": "f8b9e9f909f60cfae80a07246dffee9586ee872d101f76053baa0c729d01eadc",
+      "derived_sha256": "f8b9e9f909f60cfae80a07246dffee9586ee872d101f76053baa0c729d01eadc",
+      "original_bytes": 604,
+      "derived_bytes": 604,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/study-create-help03.stderr",
+      "original_filename": "study-create-help03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/study-create-help03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/study-create-help03.stdout",
+      "original_filename": "study-create-help03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/study-create-help03.stdout.txt",
+      "original_sha256": "9ffef55ad9511ebc2c60d2cdc1a96e70d48ab4ede55d01386d328b48672abf59",
+      "derived_sha256": "9ffef55ad9511ebc2c60d2cdc1a96e70d48ab4ede55d01386d328b48672abf59",
+      "original_bytes": 2583,
+      "derived_bytes": 2583,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/train-controller-help03.json",
+      "original_filename": "train-controller-help03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/train-controller-help03.json",
+      "original_sha256": "b005ce83d32b20ed11b23a1ea41bfd01b06d07b8816d663adfad5070cfc401c2",
+      "derived_sha256": "b005ce83d32b20ed11b23a1ea41bfd01b06d07b8816d663adfad5070cfc401c2",
+      "original_bytes": 611,
+      "derived_bytes": 611,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/train-controller-help03.stderr",
+      "original_filename": "train-controller-help03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/train-controller-help03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/train-controller-help03.stdout",
+      "original_filename": "train-controller-help03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/train-controller-help03.stdout.txt",
+      "original_sha256": "2af22d1b5a8043c095cc7d790a111c904514cd2105b450a8d4035a16533bb72b",
+      "derived_sha256": "2af22d1b5a8043c095cc7d790a111c904514cd2105b450a8d4035a16533bb72b",
+      "original_bytes": 463,
+      "derived_bytes": 463,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/training-protocol-help03.json",
+      "original_filename": "training-protocol-help03.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/training-protocol-help03.json",
+      "original_sha256": "6355087ba4cb188144903e2be66db1843a4ee71426b866bb9e13b18bff1fd2cd",
+      "derived_sha256": "6355087ba4cb188144903e2be66db1843a4ee71426b866bb9e13b18bff1fd2cd",
+      "original_bytes": 613,
+      "derived_bytes": 613,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/training-protocol-help03.stderr",
+      "original_filename": "training-protocol-help03.stderr",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/training-protocol-help03.stderr.txt",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "original_bytes": 0,
+      "derived_bytes": 0,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/commands/training-protocol-help03.stdout",
+      "original_filename": "training-protocol-help03.stdout",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/commands/training-protocol-help03.stdout.txt",
+      "original_sha256": "6d5baffcd176d3fa06c36d957b7cfdd9170bb8005e8007ac882aab39be2589b3",
+      "derived_sha256": "6d5baffcd176d3fa06c36d957b7cfdd9170bb8005e8007ac882aab39be2589b3",
+      "original_bytes": 433,
+      "derived_bytes": 433,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/clarification-0.5b-study04.queue/registration.json",
+      "original_filename": "registration.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/clarification-0.5b-study04/queue-registration.json",
+      "original_sha256": "2ea827d9700d37927dc939860ca843e41def0184d26abaf38431963a2ab4cfa0",
+      "derived_sha256": "2ea827d9700d37927dc939860ca843e41def0184d26abaf38431963a2ab4cfa0",
+      "original_bytes": 317,
+      "derived_bytes": 317,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/clarification-0.5b-study04.queue/receipt.json",
+      "original_filename": "receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/clarification-0.5b-study04/queue-receipt.json",
+      "original_sha256": "596a4209dccdeda915fce61941efec2d1a4975d6c130887b9e2c34401c6635cf",
+      "derived_sha256": "596a4209dccdeda915fce61941efec2d1a4975d6c130887b9e2c34401c6635cf",
+      "original_bytes": 367,
+      "derived_bytes": 367,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/clarification-0.5b-study04.queue/product.log",
+      "original_filename": "product.log",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/clarification-0.5b-study04/queue-product.log.txt",
+      "original_sha256": "89691c177afbddb38559f7f7fc288ce42d2e39eb2d3098766eecc51a85eecbbe",
+      "derived_sha256": "89691c177afbddb38559f7f7fc288ce42d2e39eb2d3098766eecc51a85eecbbe",
+      "original_bytes": 459,
+      "derived_bytes": 459,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/feasibility-14b-study03.queue/registration.json",
+      "original_filename": "registration.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/feasibility-14b-study03/queue-registration.json",
+      "original_sha256": "ecd72dbe2f4a2b8472c87320b375fc44f0f638e897a6b8ebc5577f77a4834d52",
+      "derived_sha256": "ecd72dbe2f4a2b8472c87320b375fc44f0f638e897a6b8ebc5577f77a4834d52",
+      "original_bytes": 317,
+      "derived_bytes": 317,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/feasibility-14b-study03.queue/receipt.json",
+      "original_filename": "receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/feasibility-14b-study03/queue-receipt.json",
+      "original_sha256": "f094421aa61dad4c34a186b9b54d60838bf9943fb71d25bd58d30bffe6e3e648",
+      "derived_sha256": "f094421aa61dad4c34a186b9b54d60838bf9943fb71d25bd58d30bffe6e3e648",
+      "original_bytes": 367,
+      "derived_bytes": 367,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/feasibility-14b-study03.queue/product.log",
+      "original_filename": "product.log",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/feasibility-14b-study03/queue-product.log.txt",
+      "original_sha256": "89691c177afbddb38559f7f7fc288ce42d2e39eb2d3098766eecc51a85eecbbe",
+      "derived_sha256": "89691c177afbddb38559f7f7fc288ce42d2e39eb2d3098766eecc51a85eecbbe",
+      "original_bytes": 459,
+      "derived_bytes": 459,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-budget-control-study04.queue/registration.json",
+      "original_filename": "registration.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-budget-control-study04/queue-registration.json",
+      "original_sha256": "b09f32f42c57cd0f807efef9e3648f758e0481fb6ac0007e4b9c799c162e308d",
+      "derived_sha256": "b09f32f42c57cd0f807efef9e3648f758e0481fb6ac0007e4b9c799c162e308d",
+      "original_bytes": 317,
+      "derived_bytes": 317,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-budget-control-study04.queue/receipt.json",
+      "original_filename": "receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-budget-control-study04/queue-receipt.json",
+      "original_sha256": "91270922d1537d37ce10da69d745a6d4b361c7a73517be5092ded0375b78428e",
+      "derived_sha256": "91270922d1537d37ce10da69d745a6d4b361c7a73517be5092ded0375b78428e",
+      "original_bytes": 367,
+      "derived_bytes": 367,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-budget-control-study04.queue/product.log",
+      "original_filename": "product.log",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-budget-control-study04/queue-product.log.txt",
+      "original_sha256": "d00d3d765be274babec163f07c3af319a10da1241de3d4788ff4f294c6c857f4",
+      "derived_sha256": "d00d3d765be274babec163f07c3af319a10da1241de3d4788ff4f294c6c857f4",
+      "original_bytes": 467,
+      "derived_bytes": 467,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-calibration-study04.queue/registration.json",
+      "original_filename": "registration.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-calibration-study04/queue-registration.json",
+      "original_sha256": "31d6cffb39ba7000e77460600b16785c2a5fbc48d7d371a989330142fb8b61e3",
+      "derived_sha256": "31d6cffb39ba7000e77460600b16785c2a5fbc48d7d371a989330142fb8b61e3",
+      "original_bytes": 317,
+      "derived_bytes": 317,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-calibration-study04.queue/receipt.json",
+      "original_filename": "receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-calibration-study04/queue-receipt.json",
+      "original_sha256": "136f44bbe39d5a262d98862eeef3e5d8a0f5ef645353c0489083ef3af1024adc",
+      "derived_sha256": "136f44bbe39d5a262d98862eeef3e5d8a0f5ef645353c0489083ef3af1024adc",
+      "original_bytes": 367,
+      "derived_bytes": 367,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-calibration-study04.queue/product.log",
+      "original_filename": "product.log",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-calibration-study04/queue-product.log.txt",
+      "original_sha256": "d00d3d765be274babec163f07c3af319a10da1241de3d4788ff4f294c6c857f4",
+      "derived_sha256": "d00d3d765be274babec163f07c3af319a10da1241de3d4788ff4f294c6c857f4",
+      "original_bytes": 467,
+      "derived_bytes": 467,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-learned-study04.queue/registration.json",
+      "original_filename": "registration.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-confirm-learned-study04/queue-registration.json",
+      "original_sha256": "7f7a9a928a43ee5f49f519e17cb27fea916d462b0119366811f395d6d2d0afe0",
+      "derived_sha256": "7f7a9a928a43ee5f49f519e17cb27fea916d462b0119366811f395d6d2d0afe0",
+      "original_bytes": 317,
+      "derived_bytes": 317,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-learned-study04.queue/receipt.json",
+      "original_filename": "receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-confirm-learned-study04/queue-receipt.json",
+      "original_sha256": "bfde64367a66e08c7ab0da6528dd19b04b7b2d3747a7ed18df46114aec7603e8",
+      "derived_sha256": "bfde64367a66e08c7ab0da6528dd19b04b7b2d3747a7ed18df46114aec7603e8",
+      "original_bytes": 367,
+      "derived_bytes": 367,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-learned-study04.queue/product.log",
+      "original_filename": "product.log",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-confirm-learned-study04/queue-product.log.txt",
+      "original_sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+      "derived_sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+      "original_bytes": 475,
+      "derived_bytes": 475,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-simple-study04.queue/registration.json",
+      "original_filename": "registration.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-confirm-simple-study04/queue-registration.json",
+      "original_sha256": "aabe3fef2fb2500ba45fab6a3b5e2964ba9af65c4efdae59014026845083fd9f",
+      "derived_sha256": "aabe3fef2fb2500ba45fab6a3b5e2964ba9af65c4efdae59014026845083fd9f",
+      "original_bytes": 317,
+      "derived_bytes": 317,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-simple-study04.queue/receipt.json",
+      "original_filename": "receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-confirm-simple-study04/queue-receipt.json",
+      "original_sha256": "c6c5ad79ed34c7006830fca183fa2cbfe3c92e257dd76c313b83a99ecceacc9e",
+      "derived_sha256": "c6c5ad79ed34c7006830fca183fa2cbfe3c92e257dd76c313b83a99ecceacc9e",
+      "original_bytes": 367,
+      "derived_bytes": 367,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-simple-study04.queue/product.log",
+      "original_filename": "product.log",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-confirm-simple-study04/queue-product.log.txt",
+      "original_sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+      "derived_sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+      "original_bytes": 475,
+      "derived_bytes": 475,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-slice-study04.queue/registration.json",
+      "original_filename": "registration.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-confirm-slice-study04/queue-registration.json",
+      "original_sha256": "5dc6a02c91f00969050c5de7d05ad422a48c457122d778e590beccd9f9589ed1",
+      "derived_sha256": "5dc6a02c91f00969050c5de7d05ad422a48c457122d778e590beccd9f9589ed1",
+      "original_bytes": 317,
+      "derived_bytes": 317,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-slice-study04.queue/receipt.json",
+      "original_filename": "receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-confirm-slice-study04/queue-receipt.json",
+      "original_sha256": "31148949fe27b46847caaac6acbc7d15bbdde3e1fb29860045b928747a8f3d13",
+      "derived_sha256": "31148949fe27b46847caaac6acbc7d15bbdde3e1fb29860045b928747a8f3d13",
+      "original_bytes": 367,
+      "derived_bytes": 367,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-confirm-slice-study04.queue/product.log",
+      "original_filename": "product.log",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-confirm-slice-study04/queue-product.log.txt",
+      "original_sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+      "derived_sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+      "original_bytes": 475,
+      "derived_bytes": 475,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-fit-study04.queue/registration.json",
+      "original_filename": "registration.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-fit-study04/queue-registration.json",
+      "original_sha256": "466cc9bbdc5e8465c08b54dff558c03c2ad87c40e403fd4473e00e9f0839c1f5",
+      "derived_sha256": "466cc9bbdc5e8465c08b54dff558c03c2ad87c40e403fd4473e00e9f0839c1f5",
+      "original_bytes": 317,
+      "derived_bytes": 317,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-fit-study04.queue/receipt.json",
+      "original_filename": "receipt.json",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-fit-study04/queue-receipt.json",
+      "original_sha256": "a59c62248a9d2a8158592e55327323deed56cc7e3e55871ec375a758f79602a9",
+      "derived_sha256": "a59c62248a9d2a8158592e55327323deed56cc7e3e55871ec375a758f79602a9",
+      "original_bytes": 367,
+      "derived_bytes": 367,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/negative-fit-study04.queue/product.log",
+      "original_filename": "product.log",
+      "publication_path": "docs/research/candidate-study/publication/artifacts/negative-fit-study04/queue-product.log.txt",
+      "original_sha256": "d00d3d765be274babec163f07c3af319a10da1241de3d4788ff4f294c6c857f4",
+      "derived_sha256": "d00d3d765be274babec163f07c3af319a10da1241de3d4788ff4f294c6c857f4",
+      "original_bytes": 467,
+      "derived_bytes": 467,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/analyze_feasibility.py",
+      "original_filename": "analyze_feasibility.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/analyze_feasibility.py",
+      "original_sha256": "f7298542746aed0b35ca5e2b482399e992a9c0de92b7ff94d41ca9bc438c97c1",
+      "derived_sha256": "f7298542746aed0b35ca5e2b482399e992a9c0de92b7ff94d41ca9bc438c97c1",
+      "original_bytes": 4635,
+      "derived_bytes": 4635,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/analyze_negative.py",
+      "original_filename": "analyze_negative.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/analyze_negative.py",
+      "original_sha256": "621d3a8d51766805097f088579578c47e588acdb37df71ef9caa04c65b814c01",
+      "derived_sha256": "621d3a8d51766805097f088579578c47e588acdb37df71ef9caa04c65b814c01",
+      "original_bytes": 14044,
+      "derived_bytes": 14044,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/build_delivery_manifest.py",
+      "original_filename": "build_delivery_manifest.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/build_delivery_manifest.py",
+      "original_sha256": "ac959ddd24a4c93d952c080bf1397fbdd102f4a82d33fc7a0cbcbf0b92789bcd",
+      "derived_sha256": "ac959ddd24a4c93d952c080bf1397fbdd102f4a82d33fc7a0cbcbf0b92789bcd",
+      "original_bytes": 3739,
+      "derived_bytes": 3739,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/check_clarification.py",
+      "original_filename": "check_clarification.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/check_clarification.py",
+      "original_sha256": "9077fecbdbb1ebef848d08d19802f06a601d97c702fd4f2cb205c06aded168e9",
+      "derived_sha256": "9077fecbdbb1ebef848d08d19802f06a601d97c702fd4f2cb205c06aded168e9",
+      "original_bytes": 1858,
+      "derived_bytes": 1858,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/check_counterexample.py",
+      "original_filename": "check_counterexample.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/check_counterexample.py",
+      "original_sha256": "a1d21c08afd70d3ea621f7440f46477c7504c087c6a2786ef861b3f4b3383f19",
+      "derived_sha256": "a1d21c08afd70d3ea621f7440f46477c7504c087c6a2786ef861b3f4b3383f19",
+      "original_bytes": 2186,
+      "derived_bytes": 2186,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/extend_portable_stage.py",
+      "original_filename": "extend_portable_stage.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/extend_portable_stage.py",
+      "original_sha256": "adb66c426d6e35ec2459f39bb7e1af88bc607499a5f1c7d00fb4a1321f1cc1be",
+      "derived_sha256": "adb66c426d6e35ec2459f39bb7e1af88bc607499a5f1c7d00fb4a1321f1cc1be",
+      "original_bytes": 3079,
+      "derived_bytes": 3079,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/finalize_operator_map.py",
+      "original_filename": "finalize_operator_map.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/finalize_operator_map.py",
+      "original_sha256": "fff00f791997771b155c3fa5d05eca477b4e73ef7da62579994b40e2cef408f9",
+      "derived_sha256": "fff00f791997771b155c3fa5d05eca477b4e73ef7da62579994b40e2cef408f9",
+      "original_bytes": 4860,
+      "derived_bytes": 4860,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/finalize_package_alias04.py",
+      "original_filename": "finalize_package_alias04.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/finalize_package_alias04.py",
+      "original_sha256": "15363290bc14de6694d2e944ad332aa844995585ad408eb6b9d054a86a5a7fdb",
+      "derived_sha256": "15363290bc14de6694d2e944ad332aa844995585ad408eb6b9d054a86a5a7fdb",
+      "original_bytes": 6070,
+      "derived_bytes": 6070,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/finish_publication04.py",
+      "original_filename": "finish_publication04.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/finish_publication04.py",
+      "original_sha256": "09f7bdaf2069689b2de28e8073dc5ef76f703509a59050a2846e5ba114e36497",
+      "derived_sha256": "09f7bdaf2069689b2de28e8073dc5ef76f703509a59050a2846e5ba114e36497",
+      "original_bytes": 13719,
+      "derived_bytes": 13719,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/plot_feasibility.py",
+      "original_filename": "plot_feasibility.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/plot_feasibility.py",
+      "original_sha256": "6469e1f2dfea81f626624191176f38a9789d3ec7e1cc35df8794065d9eff9bfc",
+      "derived_sha256": "6469e1f2dfea81f626624191176f38a9789d3ec7e1cc35df8794065d9eff9bfc",
+      "original_bytes": 1794,
+      "derived_bytes": 1794,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/plot_negative.py",
+      "original_filename": "plot_negative.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/plot_negative.py",
+      "original_sha256": "3dc084101e7cb120921992b10ca60675b3923fb56365b89a3d90e7563f6d8978",
+      "derived_sha256": "3dc084101e7cb120921992b10ca60675b3923fb56365b89a3d90e7563f6d8978",
+      "original_bytes": 7826,
+      "derived_bytes": 7826,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/postprocess_study.py",
+      "original_filename": "postprocess_study.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/postprocess_study.py",
+      "original_sha256": "3311f4614345d71b6e01977505b3cf10f120162a2cb215e70fb97862d5b08935",
+      "derived_sha256": "3311f4614345d71b6e01977505b3cf10f120162a2cb215e70fb97862d5b08935",
+      "original_bytes": 1538,
+      "derived_bytes": 1538,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/record_command.py",
+      "original_filename": "record_command.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/record_command.py",
+      "original_sha256": "5b842128603f9650555a74d3c0f2644d53d8fda4f302d6e247ba3cc4cf674e37",
+      "derived_sha256": "5b842128603f9650555a74d3c0f2644d53d8fda4f302d6e247ba3cc4cf674e37",
+      "original_bytes": 1981,
+      "derived_bytes": 1981,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/refresh_publication_provenance.py",
+      "original_filename": "refresh_publication_provenance.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/refresh_publication_provenance.py",
+      "original_sha256": "83672863be5252921abbd424470c2c7d86f37196f9b1c538210bc41a7c6d3706",
+      "derived_sha256": "83672863be5252921abbd424470c2c7d86f37196f9b1c538210bc41a7c6d3706",
+      "original_bytes": 3359,
+      "derived_bytes": 3359,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    },
+    {
+      "original_relative_path": ".cache/v1-investigations-20260908/candidate/reproduce_analysis.py",
+      "original_filename": "reproduce_analysis.py",
+      "publication_path": "docs/research/candidate-study/publication/original-scripts/reproduce_analysis.py",
+      "original_sha256": "82cd826982847d1ec4f8a34f85e1a304a3a11ef17b74c273441ec8cd8da1ab86",
+      "derived_sha256": "82cd826982847d1ec4f8a34f85e1a304a3a11ef17b74c273441ec8cd8da1ab86",
+      "original_bytes": 1059,
+      "derived_bytes": 1059,
+      "replacement_counts": {
+        "PROJECT_ROOT": 0
+      },
+      "operation": "Operational metadata derivative: literal workspace root replaced by named path token; stream suffix normalized to .txt. No scientific values changed."
+    }
+  ]
+}

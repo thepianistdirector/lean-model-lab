@@ -1,0 +1,982 @@
+{
+  "scope": "Exact actual commands preserved privately. Only documentary workspace/runtime placeholders replace environment-specific absolute paths in this public record; these strings are not runtime prerequisites. Native executable and recipe identities are exact.",
+  "inputs": {
+    "inputs": {
+      "quality": {
+        "study": "quality-14b-confirmation",
+        "archive": "<review-workspace>/extracted/quality/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "recipe": "<review-workspace>/extracted/quality/lean-model-lab-source/docs/research/quality-study/confirmation-14b/recipe.json",
+        "recipe_sha256": "1bb41c2538cde8652069d10409d17bfc71e5760d2ff18288acb75c0de97bcf79",
+        "original_recipe_sha256": "1bb41c2538cde8652069d10409d17bfc71e5760d2ff18288acb75c0de97bcf79",
+        "setup": "<source-workspace>/.cache/prepared-14b-20260908-01/setup.json",
+        "setup_sha256": "615c960fda75ede50e7209da9ab1530129cef09f24d7625510edf364f0896beb",
+        "server": "<source-workspace>/.cache/prepared-14b-20260908-01/build/bin/llama-server",
+        "model": "<source-workspace>/.cache/prepared-14b-20260908-01/qwen2.5-14b-instruct-fp16-00001-of-00008.gguf",
+        "output": "<review-workspace>/native/quality"
+      },
+      "candidate": {
+        "study": "negative-confirm-slice-study04",
+        "archive": "<review-workspace>/extracted/candidate/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "recipe": "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/artifacts/protocols/negative-confirm-slice-recipe04.json",
+        "recipe_sha256": "01b50acbfb0ad51b29bff26f23c27c1420dd2c36f73b682fe3c53881e11f5c75",
+        "original_recipe_sha256": "01b50acbfb0ad51b29bff26f23c27c1420dd2c36f73b682fe3c53881e11f5c75",
+        "setup": "<source-workspace>/.cache/adopted-0.5b-current-02/setup.json",
+        "setup_sha256": "e9568097e99fd6e670982e3c2e2b86fee04f7642ff84e61944745dc60add7c5e",
+        "server": "<source-workspace>/.cache/prepared-20260908-01/build/bin/llama-server",
+        "model": "<source-workspace>/.cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf",
+        "output": "<review-workspace>/native/candidate-resumed-01"
+      },
+      "systems": {
+        "study": "systems-h1-small-reuse24",
+        "archive": "<review-workspace>/extracted/systems/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "recipe": "<review-workspace>/extracted/systems/lean-model-lab-source/docs/research/systems-study/provenance/h1-small-reuse24/recipe.json",
+        "recipe_sha256": "3c55d694550bbd2e9399b16cd69c54725f654c4f2a941db14dc4509ea52e8e41",
+        "original_recipe_sha256": "3c55d694550bbd2e9399b16cd69c54725f654c4f2a941db14dc4509ea52e8e41",
+        "setup": "<source-workspace>/.cache/adopted-0.5b-current-02/setup.json",
+        "setup_sha256": "e9568097e99fd6e670982e3c2e2b86fee04f7642ff84e61944745dc60add7c5e",
+        "server": "<source-workspace>/.cache/prepared-20260908-01/build/bin/llama-server",
+        "model": "<source-workspace>/.cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf",
+        "output": "<review-workspace>/native/systems"
+      }
+    },
+    "environment": {
+      "TMPDIR": "<review-workspace>/tmp",
+      "MPLCONFIGDIR": "<review-workspace>/mpl",
+      "XDG_CACHE_HOME": "<review-workspace>/xdg",
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    },
+    "deadline_ns": 310468865220540,
+    "execution_cap_seconds": 6300,
+    "offered_requests": 1536
+  },
+  "native_queue_processes": [
+    {
+      "process": "quality",
+      "offered_native_requests": 512,
+      "receipt": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "error": null,
+        "execution_started_ns": 303259447423580,
+        "exit_code": 0,
+        "finished_ns": 306111035868020,
+        "scope": "Queue/process receipt; successful process exit alone does not establish quality or efficiency.",
+        "started_ns": 303259435355581,
+        "status": "COMPLETED"
+      },
+      "registration": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "recipe_file_sha256": "1bb41c2538cde8652069d10409d17bfc71e5760d2ff18288acb75c0de97bcf79",
+        "scope": "Queued one-time product execution; same allocation, no automatic retries.",
+        "started_ns": 303259435355581
+      },
+      "queue_wait_seconds": 0.012067999,
+      "archive_execution_seconds": 2851.58844444,
+      "queue_to_finish_seconds": 2851.600512439,
+      "retained_files": {
+        "receipt.json": {
+          "sha256": "ee6bf8a56bf2c26c23bc5546ef330d691237c241012c17113011ce7c6903511e",
+          "bytes": 367
+        },
+        "product.log": {
+          "sha256": "5e6af969ddedccfc06f85125abd52cf375f31d591e1e319cbcaafab17f31075c",
+          "bytes": 475
+        },
+        "registration.json": {
+          "sha256": "535d76787dc5bf894b5d759c1c287e614a36886596bd578bea36069edc366b62",
+          "bytes": 317
+        }
+      }
+    },
+    {
+      "process": "candidate-first-admission",
+      "offered_native_requests": 0,
+      "receipt": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "error": null,
+        "execution_started_ns": 306111111493221,
+        "exit_code": 2,
+        "finished_ns": 306117831985180,
+        "scope": "Queue/process receipt; successful process exit alone does not establish quality or efficiency.",
+        "started_ns": 306111102711231,
+        "status": "FAILED_OR_CANCELLED"
+      },
+      "registration": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "recipe_file_sha256": "01b50acbfb0ad51b29bff26f23c27c1420dd2c36f73b682fe3c53881e11f5c75",
+        "scope": "Queued one-time product execution; same allocation, no automatic retries.",
+        "started_ns": 306111102711231
+      },
+      "queue_wait_seconds": 0.00878199,
+      "archive_execution_seconds": 6.720491959,
+      "queue_to_finish_seconds": 6.729273949,
+      "retained_files": {
+        "receipt.json": {
+          "sha256": "3d75eac56634b0dc5496c565ec1463f710ba2e93847c9fbc9fda9aed17e010c8",
+          "bytes": 377
+        },
+        "product.log": {
+          "sha256": "04b85d8bf1d3773f9c750f654a906e557c19ff3be40997991ef2bab48b0ac1c7",
+          "bytes": 73
+        },
+        "registration.json": {
+          "sha256": "e17170d40cd19f27aa3540cc02dae2003767a8f1fe02a823686a43bc5e2a7ddc",
+          "bytes": 317
+        }
+      }
+    },
+    {
+      "process": "candidate",
+      "offered_native_requests": 512,
+      "receipt": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "error": null,
+        "execution_started_ns": 306621462800039,
+        "exit_code": 0,
+        "finished_ns": 308364183850314,
+        "scope": "Queue/process receipt; successful process exit alone does not establish quality or efficiency.",
+        "started_ns": 306621438811253,
+        "status": "COMPLETED"
+      },
+      "registration": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "recipe_file_sha256": "01b50acbfb0ad51b29bff26f23c27c1420dd2c36f73b682fe3c53881e11f5c75",
+        "scope": "Queued one-time product execution; same allocation, no automatic retries.",
+        "started_ns": 306621438811253
+      },
+      "queue_wait_seconds": 0.023988786,
+      "archive_execution_seconds": 1742.721050275,
+      "queue_to_finish_seconds": 1742.745039061,
+      "retained_files": {
+        "receipt.json": {
+          "sha256": "dcb575d9bb3c7e78cf804e613dd64c5c708324fa234f65264805868bc4fc8a12",
+          "bytes": 367
+        },
+        "product.log": {
+          "sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+          "bytes": 475
+        },
+        "registration.json": {
+          "sha256": "00e4d152bb7708e52b4d2c5456e46733c37c6455c200aa1fb18b5c1390221bfe",
+          "bytes": 317
+        }
+      }
+    },
+    {
+      "process": "systems",
+      "offered_native_requests": 512,
+      "receipt": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "error": null,
+        "execution_started_ns": 308364247693790,
+        "exit_code": 0,
+        "finished_ns": 309782014670338,
+        "scope": "Queue/process receipt; successful process exit alone does not establish quality or efficiency.",
+        "started_ns": 308364239781192,
+        "status": "COMPLETED"
+      },
+      "registration": {
+        "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+        "deadline_ns": 310468865220540,
+        "recipe_file_sha256": "3c55d694550bbd2e9399b16cd69c54725f654c4f2a941db14dc4509ea52e8e41",
+        "scope": "Queued one-time product execution; same allocation, no automatic retries.",
+        "started_ns": 308364239781192
+      },
+      "queue_wait_seconds": 0.007912598,
+      "archive_execution_seconds": 1417.766976548,
+      "queue_to_finish_seconds": 1417.774889146,
+      "retained_files": {
+        "receipt.json": {
+          "sha256": "dbfb27c5406f8db3c890083d5a353e1d8fccd0ba11ada6bcd5b6f366a545f68d",
+          "bytes": 367
+        },
+        "product.log": {
+          "sha256": "7f39ad1340e67162f13ca50a9d945c7d20c953e35bdb2c5190b21429504fe31a",
+          "bytes": 475
+        },
+        "registration.json": {
+          "sha256": "25b69766eea1af33b78b83cf1d3f30f81f789ddbde60978f9aad8c02ad1d5366",
+          "bytes": 317
+        }
+      }
+    }
+  ],
+  "native_finalization_commands": [
+    {
+      "cell": "quality",
+      "name": "inspect",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/quality/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "inspect",
+        "<review-workspace>/native/quality"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309787699882634,
+      "finished_ns": 309787958218905,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "5aa39dad3e7352b1ceba65aec8c69a5740e745aeaecd4f9dc9a2cbf2bcb44694",
+          "bytes": 95864
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "quality",
+      "name": "report",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/quality/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "report",
+        "<review-workspace>/native/quality",
+        "--output",
+        "<review-workspace>/native-finalization/quality/report.json",
+        "--html",
+        "<review-workspace>/native-finalization/quality/report.html"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309787958375966,
+      "finished_ns": 309788310757716,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+          "bytes": 96
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "quality",
+      "name": "workbench",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/quality/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "workbench",
+        "--study",
+        "<review-workspace>/native/quality",
+        "--output",
+        "<review-workspace>/native-finalization/quality/workbench.json",
+        "--html",
+        "<review-workspace>/native-finalization/quality/workbench.html"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309788310934554,
+      "finished_ns": 309788860682285,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+          "bytes": 159
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "quality",
+      "name": "raw-audit",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/quality/lean-model-lab-source/tools/audit_raw_study.py",
+        "<review-workspace>/native/quality",
+        "--output",
+        "<review-workspace>/native-finalization/quality/raw-audit.json"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309788860824970,
+      "finished_ns": 309789170915676,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+          "bytes": 34
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "quality",
+      "name": "export",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/quality/lean-model-lab-source/tools/export_study.py",
+        "<review-workspace>/native/quality",
+        "--output",
+        "<review-workspace>/exports/reproduction-quality",
+        "--model-path",
+        "<source-workspace>/.cache/prepared-14b-20260908-01/qwen2.5-14b-instruct-fp16-00001-of-00008.gguf"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309789171116680,
+      "finished_ns": 309790084093634,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "d5f98bfe78ae4634331f8d66a0a50c22ec08962008ef4b9625e180eb4ecde719",
+          "bytes": 316
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "quality",
+      "name": "export-inspect",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/quality/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "inspect",
+        "<review-workspace>/exports/reproduction-quality/study"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309790084340152,
+      "finished_ns": 309790343885638,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "5aa39dad3e7352b1ceba65aec8c69a5740e745aeaecd4f9dc9a2cbf2bcb44694",
+          "bytes": 95864
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "quality",
+      "name": "export-raw-audit",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/quality/lean-model-lab-source/tools/audit_raw_study.py",
+        "<review-workspace>/exports/reproduction-quality/study",
+        "--output",
+        "<review-workspace>/native-finalization/quality/export-raw-audit.json"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309790344041027,
+      "finished_ns": 309790644512721,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+          "bytes": 34
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "candidate",
+      "name": "inspect",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/candidate/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "inspect",
+        "<review-workspace>/native/candidate-resumed-01"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309790644819020,
+      "finished_ns": 309791338830292,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "a99a661bbc4d72f3492a00139e970e58d3d8d0105a88b1303c30fcdc95a4507d",
+          "bytes": 112342
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "candidate",
+      "name": "report",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/candidate/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "report",
+        "<review-workspace>/native/candidate-resumed-01",
+        "--output",
+        "<review-workspace>/native-finalization/candidate/report.json",
+        "--html",
+        "<review-workspace>/native-finalization/candidate/report.html"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309791352322610,
+      "finished_ns": 309792218767952,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+          "bytes": 96
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "candidate",
+      "name": "workbench",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/candidate/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "workbench",
+        "--study",
+        "<review-workspace>/native/candidate-resumed-01",
+        "--output",
+        "<review-workspace>/native-finalization/candidate/workbench.json",
+        "--html",
+        "<review-workspace>/native-finalization/candidate/workbench.html"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309792218974506,
+      "finished_ns": 309793654423505,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+          "bytes": 159
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "candidate",
+      "name": "raw-audit",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/tools/audit_raw_study.py",
+        "<review-workspace>/native/candidate-resumed-01",
+        "--output",
+        "<review-workspace>/native-finalization/candidate/raw-audit.json"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309793654698185,
+      "finished_ns": 309794420821847,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+          "bytes": 34
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "candidate",
+      "name": "export",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/tools/export_study.py",
+        "<review-workspace>/native/candidate-resumed-01",
+        "--output",
+        "<review-workspace>/exports/reproduction-candidate",
+        "--model-path",
+        "<source-workspace>/.cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309794421099703,
+      "finished_ns": 309796422578073,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "60727ef195f18bbcee5d8620da2d8c0e231935ec029ca1ccdf2b36b37b1d560f",
+          "bytes": 316
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "candidate",
+      "name": "export-inspect",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/candidate/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "inspect",
+        "<review-workspace>/exports/reproduction-candidate/study"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309796422883691,
+      "finished_ns": 309797119055396,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "a99a661bbc4d72f3492a00139e970e58d3d8d0105a88b1303c30fcdc95a4507d",
+          "bytes": 112342
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "candidate",
+      "name": "export-raw-audit",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/tools/audit_raw_study.py",
+        "<review-workspace>/exports/reproduction-candidate/study",
+        "--output",
+        "<review-workspace>/native-finalization/candidate/export-raw-audit.json"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309797132631900,
+      "finished_ns": 309797868592762,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+          "bytes": 34
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "systems",
+      "name": "inspect",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/systems/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "inspect",
+        "<review-workspace>/native/systems"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309797869019274,
+      "finished_ns": 309798294362771,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "baa5954653963383b2fcad8d22c10209091c5c66aefafe8d2bec606900b74a2f",
+          "bytes": 116336
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "systems",
+      "name": "report",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/systems/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "report",
+        "<review-workspace>/native/systems",
+        "--output",
+        "<review-workspace>/native-finalization/systems/report.json",
+        "--html",
+        "<review-workspace>/native-finalization/systems/report.html"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309798307059250,
+      "finished_ns": 309798874953206,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+          "bytes": 96
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "systems",
+      "name": "workbench",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/systems/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "workbench",
+        "--study",
+        "<review-workspace>/native/systems",
+        "--output",
+        "<review-workspace>/native-finalization/systems/workbench.json",
+        "--html",
+        "<review-workspace>/native-finalization/systems/workbench.html"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309798875159379,
+      "finished_ns": 309799789260301,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+          "bytes": 159
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "systems",
+      "name": "raw-audit",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/systems/lean-model-lab-source/tools/audit_raw_study.py",
+        "<review-workspace>/native/systems",
+        "--output",
+        "<review-workspace>/native-finalization/systems/raw-audit.json"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309799789564907,
+      "finished_ns": 309800302388946,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+          "bytes": 34
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "systems",
+      "name": "export",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/systems/lean-model-lab-source/tools/export_study.py",
+        "<review-workspace>/native/systems",
+        "--output",
+        "<review-workspace>/exports/reproduction-systems",
+        "--model-path",
+        "<source-workspace>/.cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309800302678775,
+      "finished_ns": 309801744270907,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "b805cf75a0b44d5b84800835a7a58f05bd80719f43234eb0ff3b9f8b9a9fce0b",
+          "bytes": 316
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "systems",
+      "name": "export-inspect",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/systems/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "inspect",
+        "<review-workspace>/exports/reproduction-systems/study"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309801744602023,
+      "finished_ns": 309802177598548,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "baa5954653963383b2fcad8d22c10209091c5c66aefafe8d2bec606900b74a2f",
+          "bytes": 116336
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "cell": "systems",
+      "name": "export-raw-audit",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/extracted/systems/lean-model-lab-source/tools/audit_raw_study.py",
+        "<review-workspace>/exports/reproduction-systems/study",
+        "--output",
+        "<review-workspace>/native-finalization/systems/export-raw-audit.json"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309802182954399,
+      "finished_ns": 309802650710606,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "17d2a6f48c908f75fe8c14e21e6265a43904253a79a826033668bf7e6eace7fc",
+          "bytes": 34
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "admission_checks": {
+    "admission-quality.json": {
+      "observed_ns": 303259414289957,
+      "remaining_common_seconds": 7209.450930583,
+      "remaining_execution_seconds": 6300,
+      "projected_seconds_with_1_5_margin": 5856.0869999999995,
+      "admitted": true
+    },
+    "continuation-admission-candidate.json": {
+      "observed_ns": 306621399256189,
+      "prior_actual_execution_seconds": 2858.308936399,
+      "remaining_execution_seconds": 3441.691063601,
+      "remaining_common_seconds": 3847.465964351,
+      "remaining_original_cell_execution_seconds": 1129.113258917,
+      "observed_timing_scale": 1.153660891356211,
+      "safety_factor": 1.5,
+      "projected_remaining_seconds": 1953.9207130864536,
+      "admitted": true
+    },
+    "admission-candidate.json": {
+      "observed_ns": 306111059165007,
+      "remaining_common_seconds": 4357.806055533,
+      "remaining_execution_seconds": 3448.41155556,
+      "projected_seconds_with_1_5_margin": 1693.6694999999997,
+      "admitted": true
+    },
+    "continuation-admission-systems.json": {
+      "observed_ns": 308364211320663,
+      "prior_actual_execution_seconds": 4601.029986674,
+      "remaining_execution_seconds": 1698.9700133260003,
+      "remaining_common_seconds": 2104.653899877,
+      "remaining_original_cell_execution_seconds": 329.082441857,
+      "observed_timing_scale": 2.1783174011711863,
+      "safety_factor": 1.5,
+      "projected_remaining_seconds": 1075.2690142755123,
+      "admitted": true
+    }
+  },
+  "complete_matrix": {
+    "status": "COMPLETE_WITH_RETAINED_PRE_INFERENCE_ADMISSION_FAILURE",
+    "execution_seconds_including_failed_admission": 6018.796963221999,
+    "offered_native_requests": 1536,
+    "quality_output": "<review-workspace>/native/quality",
+    "candidate_output": "<review-workspace>/native/candidate-resumed-01",
+    "systems_output": "<review-workspace>/native/systems",
+    "failed_candidate_output": "<review-workspace>/native/candidate",
+    "finished_ns": 309782040506018
+  },
+  "command_failures": "reviewer-command-discrepancies.json",
+  "producer_history_restoration": "producer-history-restoration-check.json",
+  "created_ns": 309827460207521,
+  "independent_completion_commands": [
+    {
+      "name": "compare-native",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/compare_native.py"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309827053373854,
+      "finished_ns": 309827290241767,
+      "exit_code": 0
+    },
+    {
+      "name": "independent-native-raw-audit",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<source-workspace>/docs/research/reproduction-review/audit_studies.py",
+        "--package",
+        "native-reproduction=<review-workspace>/reproduction-audit-package",
+        "--output",
+        "<source-workspace>/docs/research/reproduction-review/reproduction-raw-audit.json"
+      ],
+      "cwd": "<review-workspace>/unrelated-cwd",
+      "started_ns": 309827290447279,
+      "finished_ns": 309827422426477,
+      "exit_code": 0
+    },
+    {
+      "name": "write-final-report",
+      "argv": [
+        "<existing-python>",
+        "-I",
+        "<review-workspace>/write_final_report.py"
+      ],
+      "cwd": "<source-workspace>",
+      "started_ns": 309827436505614,
+      "finished_ns": 309827448263560,
+      "exit_code": 0
+    }
+  ],
+  "native_helper_commands": {
+    "command-quality.json": {
+      "argv": [
+        "<existing-python>",
+        "<source-workspace>/tools/run_queued_recipe.py",
+        "--archive",
+        "<review-workspace>/extracted/quality/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "--recipe",
+        "<review-workspace>/extracted/quality/lean-model-lab-source/docs/research/quality-study/confirmation-14b/recipe.json",
+        "--server",
+        "<source-workspace>/.cache/prepared-14b-20260908-01/build/bin/llama-server",
+        "--model",
+        "<source-workspace>/.cache/prepared-14b-20260908-01/qwen2.5-14b-instruct-fp16-00001-of-00008.gguf",
+        "--setup",
+        "<source-workspace>/.cache/prepared-14b-20260908-01/setup.json",
+        "--output",
+        "<review-workspace>/native/quality"
+      ],
+      "cwd": "<source-workspace>",
+      "environment": {
+        "TMPDIR": "<review-workspace>/tmp",
+        "MPLCONFIGDIR": "<review-workspace>/mpl",
+        "XDG_CACHE_HOME": "<review-workspace>/xdg",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      }
+    },
+    "command-candidate.json": {
+      "argv": [
+        "<existing-python>",
+        "<source-workspace>/tools/run_queued_recipe.py",
+        "--archive",
+        "<review-workspace>/extracted/candidate/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "--recipe",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/artifacts/protocols/negative-confirm-slice-recipe04.json",
+        "--server",
+        "<source-workspace>/.cache/prepared-20260908-01/build/bin/llama-server",
+        "--model",
+        "<source-workspace>/.cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf",
+        "--setup",
+        "<source-workspace>/.cache/adopted-0.5b-current-02/setup.json",
+        "--output",
+        "<review-workspace>/native/candidate"
+      ],
+      "cwd": "<source-workspace>",
+      "environment": {
+        "TMPDIR": "<review-workspace>/tmp",
+        "MPLCONFIGDIR": "<review-workspace>/mpl",
+        "XDG_CACHE_HOME": "<review-workspace>/xdg",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      }
+    },
+    "continuation-command-candidate.json": {
+      "argv": [
+        "<existing-python>",
+        "<source-workspace>/tools/run_queued_recipe.py",
+        "--archive",
+        "<review-workspace>/extracted/candidate/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "--recipe",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/artifacts/protocols/negative-confirm-slice-recipe04.json",
+        "--server",
+        "<source-workspace>/.cache/prepared-20260908-01/build/bin/llama-server",
+        "--model",
+        "<source-workspace>/.cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf",
+        "--setup",
+        "<source-workspace>/.cache/adopted-0.5b-current-02/setup.json",
+        "--output",
+        "<review-workspace>/native/candidate-resumed-01"
+      ],
+      "cwd": "<source-workspace>",
+      "environment": {
+        "TMPDIR": "<review-workspace>/tmp",
+        "MPLCONFIGDIR": "<review-workspace>/mpl",
+        "XDG_CACHE_HOME": "<review-workspace>/xdg",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      }
+    },
+    "continuation-command-systems.json": {
+      "argv": [
+        "<existing-python>",
+        "<source-workspace>/tools/run_queued_recipe.py",
+        "--archive",
+        "<review-workspace>/extracted/systems/producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+        "--recipe",
+        "<review-workspace>/extracted/systems/lean-model-lab-source/docs/research/systems-study/provenance/h1-small-reuse24/recipe.json",
+        "--server",
+        "<source-workspace>/.cache/prepared-20260908-01/build/bin/llama-server",
+        "--model",
+        "<source-workspace>/.cache/prepared-20260908-01/qwen2.5-0.5b-instruct-fp16.gguf",
+        "--setup",
+        "<source-workspace>/.cache/adopted-0.5b-current-02/setup.json",
+        "--output",
+        "<review-workspace>/native/systems"
+      ],
+      "cwd": "<source-workspace>",
+      "environment": {
+        "TMPDIR": "<review-workspace>/tmp",
+        "MPLCONFIGDIR": "<review-workspace>/mpl",
+        "XDG_CACHE_HOME": "<review-workspace>/xdg",
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "OPENBLAS_NUM_THREADS": "1"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "frozen_utc": "2026-09-08T18:51:05Z",
+  "frozen_monotonic_ns": 286653548126493,
+  "protocol_sha256": "9cec30df675cda4fbe21b997ed8a5865eae93184d3f84deb86be2c47f3d25975",
+  "archive_sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f",
+  "quality_gate": {
+    "accuracy_minimum": 0.95,
+    "no_pair_accuracy_loss": true,
+    "exact_token_parity": true
+  },
+  "cost_gate": {
+    "full_attempt_gain_minimum": 0.05,
+    "maximum_tail_regression": 0.1,
+    "service_only_insufficient": true
+  },
+  "native_request_ceiling": 544,
+  "native_wall_seconds_ceiling": 1200,
+  "original_deadline_ns": 310468865220540
+}

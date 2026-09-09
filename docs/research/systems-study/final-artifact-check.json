@@ -1,0 +1,19 @@
+{
+  "status": "PASS_FINAL_SYSTEMS_ARTIFACT_CHECKS",
+  "checked_utc": "2026-09-08T21:20:58.240611+00:00",
+  "file_counts_before_this_receipt": {
+    "text": 330,
+    "svg": 14,
+    "binary": 28
+  },
+  "checks": [
+    "Every owned text file passed actual source-distribution text checks; every SVG passed the current SVG validator.",
+    "All 28 final binary figures passed current PNG/PDF validation and matched the explicit reviewed SHA mapping.",
+    "All owned Python files parsed successfully; every relative Markdown artifact link resolved.",
+    "All per-table correctness classes sum to eight offered tasks.",
+    "Every table/repetition has more subsequent-query new tokens for slicing and fewer complete-trajectory new tokens for slicing.",
+    "Matched H1/H3 native requests have identical actual tokenized-input hashes and new/reused input counters."
+  ],
+  "analysis_summary_sha256": "5cd7327c907012c2ed10b35892a8aa0c581e329051e291f6c24cbeb745d9a21f",
+  "figure_asset_manifest_sha256": "3502d72de5f5b8d3e877fef8a605a8fa9737b727e6753417289897c5a836aa40"
+}

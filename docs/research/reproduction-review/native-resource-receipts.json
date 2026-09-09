@@ -1,0 +1,550 @@
+{
+  "scope": "Exact unchanged engine, declared caps, admitted model/backend identity and sampled per-attempt resource receipts. Sampled server/coordinator RSS is not a continuous or allocation-wide peak. Raw receipt hashes refer to original native output before derivative export redaction; exports retain their own traceable changed-file hashes.",
+  "cells": {
+    "quality": {
+      "engine": {
+        "cache_idle_slots": false,
+        "cache_ram_mib": 0,
+        "cache_reuse": 0,
+        "compute_threads": 12,
+        "context_per_slot": 2048,
+        "context_shift": false,
+        "continuous_batching": true,
+        "cpu_affinity_policy": "first_available_compute_thread_count",
+        "device": "none",
+        "gpu_layers": 0,
+        "http_threads": 4,
+        "kv_unified": false,
+        "warmup": false
+      },
+      "limits": {
+        "disk_bytes": 200000000000,
+        "full_wall_seconds": 43200,
+        "max_heavy_jobs": 1,
+        "memory_bytes": 60000000000,
+        "request_timeout_seconds": 300,
+        "startup_timeout_seconds": 600
+      },
+      "hardware": {
+        "cpu": "AMD Ryzen 9 7950X 16-Core Processor",
+        "platform": "Linux-x86_64"
+      },
+      "model": {
+        "artifacts": [
+          {
+            "bytes": 3891239200,
+            "filename": "qwen2.5-14b-instruct-fp16-00001-of-00008.gguf",
+            "sha256": "18ccd380458642716373134dd9aeb194bf11b97085c5ce78aaec768f0f2a51aa"
+          },
+          {
+            "bytes": 3995566912,
+            "filename": "qwen2.5-14b-instruct-fp16-00002-of-00008.gguf",
+            "sha256": "d55f0a9808ebe5fde158e904884dd3f227e10d36df3598c9582f1bd8a84d0523"
+          },
+          {
+            "bytes": 3995566976,
+            "filename": "qwen2.5-14b-instruct-fp16-00003-of-00008.gguf",
+            "sha256": "db6e3e4466ece09a65577a1611ff569f751d2677dd4ae4b21c2156e6db8e3513"
+          },
+          {
+            "bytes": 3995608064,
+            "filename": "qwen2.5-14b-instruct-fp16-00004-of-00008.gguf",
+            "sha256": "bf402e7f26ed075863a2cf1c203f6f81a88224a8dc27f3a1e12c07f4a15716ff"
+          },
+          {
+            "bytes": 3979867360,
+            "filename": "qwen2.5-14b-instruct-fp16-00005-of-00008.gguf",
+            "sha256": "f17a7615d7518b93072e6cde7b382e47dc142a81e59a4595d4b00104dce78f8a"
+          },
+          {
+            "bytes": 3995566976,
+            "filename": "qwen2.5-14b-instruct-fp16-00006-of-00008.gguf",
+            "sha256": "dbbaf1f47f920ad0aab9e1e17cd3d40e5f7b0815e584e7992766b5f3180f776f"
+          },
+          {
+            "bytes": 3995546432,
+            "filename": "qwen2.5-14b-instruct-fp16-00007-of-00008.gguf",
+            "sha256": "62bd5a129ed80ffdab24158e8db4ac54f72f8fbef0283c2cc3eb05a3be6f8a08"
+          },
+          {
+            "bytes": 1698754944,
+            "filename": "qwen2.5-14b-instruct-fp16-00008-of-00008.gguf",
+            "sha256": "4a5e06a3d286001c3cfc95aa2fe991db58062f8775bfaeca7a66e43d980b51b6"
+          }
+        ],
+        "gguf_sha256": "18ccd380458642716373134dd9aeb194bf11b97085c5ce78aaec768f0f2a51aa",
+        "license": "Apache-2.0",
+        "precision": "FP16",
+        "profile_id": "qwen2.5-14b-instruct-fp16-v1",
+        "profile_sha256": "f248b9b5b491f829653205e6a1878a81e217f3830a53198cbc2810ed61623caf",
+        "repository": "Qwen/Qwen2.5-14B-Instruct-GGUF",
+        "revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd"
+      },
+      "backend": {
+        "repository": "ggml-org/llama.cpp",
+        "revision": "bb4caa7540188872173c44d161602d9271386413",
+        "server_sha256": "e6e4555daed18ae36a87276f16bd4c9f859c92787884b726b7967474d8c4681e",
+        "source_patch_sha256": "598d10a911e4d9c33926bd2dfd75735d143b84db14ad644a7502f35bec8e0f1c",
+        "version": "v0.2.0"
+      },
+      "attempts": [
+        {
+          "attempt_id": "attempt-77e6dbff869243d58156eea990f9ffce",
+          "arm": "candidate",
+          "pair": 1,
+          "concurrency": 4,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 31435628544,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 31332134912
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "22da54d2308d2228732bd0284415e79f10c8ffa3c90a6be9078deed021e28617",
+              "bytes": 190
+            },
+            "model-verification.json": {
+              "sha256": "5f4f86cc27f20164d7e77ed954370e67325a4d8c5b7844a2ac118eaf8f507d8b",
+              "bytes": 1414
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "e2f4086b18d1f350dc765526cb679f8c7fb12fd8d3f885a406b30219d3748e5d",
+              "bytes": 167
+            }
+          }
+        },
+        {
+          "attempt_id": "attempt-8abd26f4d5b341879851f4c6c2ef870c",
+          "arm": "baseline",
+          "pair": 0,
+          "concurrency": 4,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 31428628480,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 31328649216
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "736007fa1b02583a01629a35140452f21ef762f098578c095bb402d4a2bd3ce9",
+              "bytes": 190
+            },
+            "model-verification.json": {
+              "sha256": "5f4f86cc27f20164d7e77ed954370e67325a4d8c5b7844a2ac118eaf8f507d8b",
+              "bytes": 1414
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "7c7d208b78115989f6ee2958d215800156ced1f4ee00f17d6c43b49b7884efbb",
+              "bytes": 167
+            }
+          }
+        },
+        {
+          "attempt_id": "attempt-90bb41af11484076a36abdb6757741c0",
+          "arm": "candidate",
+          "pair": 0,
+          "concurrency": 4,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 31433166848,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 31329120256
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "51541123d5aef85590313511e6c00c7e4166ecd121d206464c9c80f15e890a69",
+              "bytes": 190
+            },
+            "model-verification.json": {
+              "sha256": "5f4f86cc27f20164d7e77ed954370e67325a4d8c5b7844a2ac118eaf8f507d8b",
+              "bytes": 1414
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "fc1a3900f69161a05930e1ceca57c82f75f3b99edbc48a3142b8e30e9c4ff82d",
+              "bytes": 167
+            }
+          }
+        },
+        {
+          "attempt_id": "attempt-c74e0550ffb1418c94c980bffaf2569d",
+          "arm": "baseline",
+          "pair": 1,
+          "concurrency": 4,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 31444230144,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 31332225024
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "4405b769f3fbc0d0b2714c67069fa5bd7adbeadd46bdfde3d0392d84b05a9b33",
+              "bytes": 190
+            },
+            "model-verification.json": {
+              "sha256": "5f4f86cc27f20164d7e77ed954370e67325a4d8c5b7844a2ac118eaf8f507d8b",
+              "bytes": 1414
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "9f1677622764b55343ad92fbc9ef61c4143466223a81b52294b7a36e062f76d8",
+              "bytes": 167
+            }
+          }
+        }
+      ]
+    },
+    "candidate": {
+      "engine": {
+        "cache_idle_slots": false,
+        "cache_ram_mib": 0,
+        "cache_reuse": 0,
+        "compute_threads": 2,
+        "context_per_slot": 2048,
+        "context_shift": false,
+        "continuous_batching": true,
+        "cpu_affinity_policy": "first_available_compute_thread_count",
+        "device": "none",
+        "gpu_layers": 0,
+        "http_threads": 4,
+        "kv_unified": false,
+        "warmup": false
+      },
+      "limits": {
+        "disk_bytes": 200000000000,
+        "full_wall_seconds": 43200,
+        "max_heavy_jobs": 1,
+        "memory_bytes": 60000000000,
+        "request_timeout_seconds": 300,
+        "startup_timeout_seconds": 600
+      },
+      "hardware": {
+        "cpu": "AMD Ryzen 9 7950X 16-Core Processor",
+        "platform": "Linux-x86_64"
+      },
+      "model": {
+        "artifacts": [
+          {
+            "bytes": 1266425696,
+            "filename": "qwen2.5-0.5b-instruct-fp16.gguf",
+            "sha256": "8e0ae26000627ed62de0e78e41860af70094558b9d2913385c842a6aa06cf3fc"
+          }
+        ],
+        "gguf_sha256": "8e0ae26000627ed62de0e78e41860af70094558b9d2913385c842a6aa06cf3fc",
+        "license": "Apache-2.0",
+        "precision": "FP16",
+        "profile_id": "qwen2.5-0.5b-instruct-fp16-v2",
+        "profile_sha256": "13e85926dcbbf56e3004f3c72b8375d1b921355c15579ee92bb8bf141a5396e4",
+        "repository": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+        "revision": "9217f5db79a29953eb74d5343926648285ec7e67"
+      },
+      "backend": {
+        "repository": "ggml-org/llama.cpp",
+        "revision": "bb4caa7540188872173c44d161602d9271386413",
+        "server_sha256": "22bb24feddd1b44d0b793d044fd86dad4119b40d5485e58d9a6213d296cf71b2",
+        "source_patch_sha256": "598d10a911e4d9c33926bd2dfd75735d143b84db14ad644a7502f35bec8e0f1c",
+        "version": "v0.2.0"
+      },
+      "attempts": [
+        {
+          "attempt_id": "attempt-23d774d392224d66910d28e8bacc2c22",
+          "arm": "candidate",
+          "pair": 1,
+          "concurrency": 1,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 1451134976,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 1370923008
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "08ba2d08d097b94255404f55fb1f56dbc8e98d7777e0f076960edd84036ec708",
+              "bytes": 188
+            },
+            "model-verification.json": {
+              "sha256": "ee089ee553000688ce6a968eeee26d162c7b11af2b69df64842e7b453e773e49",
+              "bytes": 308
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "69f7998450468782a15ed54c6c8d1e2d25579cb5eb4253144136ef6fd0c7a662",
+              "bytes": 145
+            }
+          }
+        },
+        {
+          "attempt_id": "attempt-3deb01e653b54e3eaa55c354e2b28406",
+          "arm": "candidate",
+          "pair": 0,
+          "concurrency": 1,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 1450319872,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 1370898432
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "ab38bc8b326505c7d5e395c5b2723e711d0a2a30a04a810e899505f34891c454",
+              "bytes": 188
+            },
+            "model-verification.json": {
+              "sha256": "ee089ee553000688ce6a968eeee26d162c7b11af2b69df64842e7b453e773e49",
+              "bytes": 308
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "d8c4f0b7817ef64f38b1a8a9ba8f2e9f73f72ab1aaf493ff817098292037f5d2",
+              "bytes": 145
+            }
+          }
+        },
+        {
+          "attempt_id": "attempt-5b215338c47f4ab5b381cc632e364ce2",
+          "arm": "baseline",
+          "pair": 0,
+          "concurrency": 1,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 1460711424,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 1383505920
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "a149255b90fa0362bf40ac9203bff1176451cef57e04fde47a335f99aa7aa532",
+              "bytes": 188
+            },
+            "model-verification.json": {
+              "sha256": "ee089ee553000688ce6a968eeee26d162c7b11af2b69df64842e7b453e773e49",
+              "bytes": 308
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "63b6fa880193f54289f2dbb9926b60074469501e20d2edeb585bae5526b8a94f",
+              "bytes": 145
+            }
+          }
+        },
+        {
+          "attempt_id": "attempt-ab08a85d09274ff0a58e7a9b4264e3b2",
+          "arm": "baseline",
+          "pair": 1,
+          "concurrency": 1,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 1463689216,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 1383501824
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "9fa6eeec310c8334137b33ecea309fb9bdd54d5c4a4fa49e188343908c328d3f",
+              "bytes": 188
+            },
+            "model-verification.json": {
+              "sha256": "ee089ee553000688ce6a968eeee26d162c7b11af2b69df64842e7b453e773e49",
+              "bytes": 308
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "0bef3b8d05df330407062e0b1367ddb9e6e28332d233221c7670e5dde2fcede1",
+              "bytes": 145
+            }
+          }
+        }
+      ]
+    },
+    "systems": {
+      "engine": {
+        "cache_idle_slots": false,
+        "cache_ram_mib": 0,
+        "cache_reuse": 0,
+        "compute_threads": 2,
+        "context_per_slot": 2048,
+        "context_shift": false,
+        "continuous_batching": true,
+        "cpu_affinity_policy": "first_available_compute_thread_count",
+        "device": "none",
+        "gpu_layers": 0,
+        "http_threads": 4,
+        "kv_unified": false,
+        "warmup": false
+      },
+      "limits": {
+        "disk_bytes": 200000000000,
+        "full_wall_seconds": 43200,
+        "max_heavy_jobs": 1,
+        "memory_bytes": 60000000000,
+        "request_timeout_seconds": 300,
+        "startup_timeout_seconds": 600
+      },
+      "hardware": {
+        "cpu": "AMD Ryzen 9 7950X 16-Core Processor",
+        "platform": "Linux-x86_64"
+      },
+      "model": {
+        "artifacts": [
+          {
+            "bytes": 1266425696,
+            "filename": "qwen2.5-0.5b-instruct-fp16.gguf",
+            "sha256": "8e0ae26000627ed62de0e78e41860af70094558b9d2913385c842a6aa06cf3fc"
+          }
+        ],
+        "gguf_sha256": "8e0ae26000627ed62de0e78e41860af70094558b9d2913385c842a6aa06cf3fc",
+        "license": "Apache-2.0",
+        "precision": "FP16",
+        "profile_id": "qwen2.5-0.5b-instruct-fp16-v2",
+        "profile_sha256": "13e85926dcbbf56e3004f3c72b8375d1b921355c15579ee92bb8bf141a5396e4",
+        "repository": "Qwen/Qwen2.5-0.5B-Instruct-GGUF",
+        "revision": "9217f5db79a29953eb74d5343926648285ec7e67"
+      },
+      "backend": {
+        "repository": "ggml-org/llama.cpp",
+        "revision": "bb4caa7540188872173c44d161602d9271386413",
+        "server_sha256": "22bb24feddd1b44d0b793d044fd86dad4119b40d5485e58d9a6213d296cf71b2",
+        "source_patch_sha256": "598d10a911e4d9c33926bd2dfd75735d143b84db14ad644a7502f35bec8e0f1c",
+        "version": "v0.2.0"
+      },
+      "attempts": [
+        {
+          "attempt_id": "attempt-0c533865d286451dbd1ee8adc02d8d81",
+          "arm": "baseline",
+          "pair": 0,
+          "concurrency": 1,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 1457627136,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 1381482496
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "84e2ffc80367cc8e9f540e72584a003824f413a9667681fe1290fd86555896ea",
+              "bytes": 188
+            },
+            "model-verification.json": {
+              "sha256": "ee089ee553000688ce6a968eeee26d162c7b11af2b69df64842e7b453e773e49",
+              "bytes": 308
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "f8522512fc90fe7d6ef5469ae0532d835e10dab3720c4a1f9ca8671abbf68d61",
+              "bytes": 145
+            }
+          }
+        },
+        {
+          "attempt_id": "attempt-26950ebc9eb348b0a8de5211b95f6b25",
+          "arm": "baseline",
+          "pair": 1,
+          "concurrency": 1,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 1460453376,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 1381474304
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "3db819f6fbc661e8f612c0aab07544b73d120737f28543c1a19882b5ceba804d",
+              "bytes": 188
+            },
+            "model-verification.json": {
+              "sha256": "ee089ee553000688ce6a968eeee26d162c7b11af2b69df64842e7b453e773e49",
+              "bytes": 308
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "26752215248dabb88f9321cba0111c31da6ba795cfb4920bf6e178715d53ae3f",
+              "bytes": 145
+            }
+          }
+        },
+        {
+          "attempt_id": "attempt-33cfbccfc51847819fa5875191a26db6",
+          "arm": "candidate",
+          "pair": 0,
+          "concurrency": 1,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 1449238528,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 1370877952
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "e3cd6193be323f047935c6f1a050ff691876d664db199678609455c2c97ef305",
+              "bytes": 188
+            },
+            "model-verification.json": {
+              "sha256": "ee089ee553000688ce6a968eeee26d162c7b11af2b69df64842e7b453e773e49",
+              "bytes": 308
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "ea0907fa0debf9dccda619f9a4d6f216b483fc3793c6a8b524d26304b8f3b44e",
+              "bytes": 145
+            }
+          }
+        },
+        {
+          "attempt_id": "attempt-370baf176b6f4141bcc6c34f04864784",
+          "arm": "candidate",
+          "pair": 1,
+          "concurrency": 1,
+          "resource_observations": {
+            "maximum_observed_aggregate_rss_bytes": 1451261952,
+            "scope": "sampled owned server plus coordinator RSS; not a continuous or allocation-wide aggregate peak",
+            "server_vmhwm_bytes": 1373003776
+          },
+          "native_receipt_hashes": {
+            "resource-observations.json": {
+              "sha256": "05b969abdb4ce41304561c0b5f830c3b3b17dfa7845c63bf770d7c074433723a",
+              "bytes": 188
+            },
+            "model-verification.json": {
+              "sha256": "ee089ee553000688ce6a968eeee26d162c7b11af2b69df64842e7b453e773e49",
+              "bytes": 308
+            },
+            "backend-version.json": {
+              "sha256": "0fc21c5247d53d12307d97b40c801119ad0bad398e3b0b205d3afbe45a4a2a47",
+              "bytes": 121
+            },
+            "process.json": {
+              "sha256": "d36bc3b1a4f330e606679c42162f2a15c03c38e1cb3f838cb2fdab9d2b7962fb",
+              "bytes": 145
+            }
+          }
+        }
+      ]
+    }
+  }
+}

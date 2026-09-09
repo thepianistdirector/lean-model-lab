@@ -1,0 +1,30 @@
+{
+  "scope": "Same-boot common-allocation snapshot through this receipt; includes other investigators/coordinator/idle, not exclusively this finding. Producer native cutoff remains frozen. All envelopes below overlap; do not add them.",
+  "producer_boot_id": "bf6e335a-b7ba-4c68-ba5f-b7c47549b388",
+  "original_allocation_started_ns": 267268865220540,
+  "original_deadline_ns": 310468865220540,
+  "snapshot_monotonic_ns": 292421275915996,
+  "common_allocation_elapsed_s": 25152.410695456,
+  "common_allocation_remaining_s": 18047.589304544,
+  "new_confirmation_native_requests": 512,
+  "investigator_total_new_native_requests": 544,
+  "queue_total_s": 2864.95781709,
+  "queue_wait_s": 90.012337226,
+  "archive_execution_s": 2774.945479864,
+  "native_attempt_full_wall_s": 2769.370647081,
+  "native_service_s": 2694.486556098,
+  "native_producer_cutoff": {
+    "allocation_id": "lean-model-lab-0.4-20260908-01",
+    "attributed_setup_and_attempt_ns": 19288543752052,
+    "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+    "cutoff_ns": 291210012268005,
+    "registered_full_wall_ns": 23941147047465,
+    "scope": "original allocation start through last retained producer observation; all intervening development/idle/prior work remains charged",
+    "status": "RECORDED",
+    "unattributed_coordinator_or_idle_ns": 4652603295413
+  },
+  "post_native_analysis": "Exact operation receipts, one failed portable invocation and its corrected analysis, figure/PDF review, optional project-local PDF-QA install and wheel verification are retained and charged to common all-clock. No further model inference, second QA installation, account change or paid resource.",
+  "new_native_retries": 0,
+  "energy": "UNAVAILABLE",
+  "money": "UNAVAILABLE"
+}

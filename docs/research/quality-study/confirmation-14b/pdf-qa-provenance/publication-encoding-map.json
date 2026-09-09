@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "scope": "Two UTF-8 publication derivatives of the same original Latin-1 freetype license. Original installed/wheel bytes remain privately retained and their original SHA-256 stays authoritative in installed-file and wheel inventories. No content editing.",
+  "files": [
+    {
+      "original_filename": "installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/freetype.txt",
+      "included_filename": "installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/freetype.txt",
+      "retained_private_original": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/freetype.txt",
+      "original_encoding": "latin-1",
+      "included_encoding": "utf-8",
+      "original_bytes": 6741,
+      "original_sha256": "f4b133e25df1f86ad3ffea453aa0e613f0474f34778dbbb3e437e7b2724937d8",
+      "included_bytes": 6742,
+      "included_sha256": "4a9a548027a2c1d37788519dea833294c9c81f1ebc280e817f41f50d0c642d78",
+      "reconstruction": "included_bytes.decode('utf-8').encode('latin-1')",
+      "exact_roundtrip_verified": true
+    },
+    {
+      "original_filename": "license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/freetype.txt",
+      "included_filename": "license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/freetype.txt",
+      "retained_private_original": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-dependencies/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/freetype.txt",
+      "original_encoding": "latin-1",
+      "included_encoding": "utf-8",
+      "original_bytes": 6741,
+      "original_sha256": "f4b133e25df1f86ad3ffea453aa0e613f0474f34778dbbb3e437e7b2724937d8",
+      "included_bytes": 6742,
+      "included_sha256": "4a9a548027a2c1d37788519dea833294c9c81f1ebc280e817f41f50d0c642d78",
+      "reconstruction": "included_bytes.decode('utf-8').encode('latin-1')",
+      "exact_roundtrip_verified": true
+    }
+  ]
+}

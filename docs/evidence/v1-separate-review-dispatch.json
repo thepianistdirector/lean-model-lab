@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "status": "DISPATCHED_NATIVE_REPRODUCTION_RUNNING",
+  "verified_at_utc": "2026-09-08T23:25:00Z",
+  "actual_model": "gpt-6-astra",
+  "actual_effort": "high",
+  "actual_role": "separate leaf agent",
+  "model_verification": "Root inspected actual session metadata and turn context for the assigned leaf before granting native execution.",
+  "artifact_identities": {
+    "candidate_manifest": "CANDIDATE-MANIFEST.json",
+    "candidate_manifest_sha256": "9bddbe5be9ac157f184f4fb4913a929e7ed9f9d76026ec4b457f62f2c46e8a21",
+    "packages": {
+      "candidate-research.zip": {
+        "bytes": 29045914,
+        "directory_count": 88,
+        "file_count": 7857,
+        "sha256": "0d7f475e5db5e5e6c7b78b777acd83a5253f75558bc292110b8a09cd83104e21"
+      },
+      "quality-research.zip": {
+        "bytes": 33527140,
+        "directory_count": 72,
+        "file_count": 14318,
+        "sha256": "5c9d4f5f5e47f8a03113fe72c203d0926801c3f515939c43a381be2ec92893ab"
+      },
+      "systems-research.zip": {
+        "bytes": 23147129,
+        "directory_count": 55,
+        "file_count": 6444,
+        "sha256": "7652be420b810b2398649b5e099581da1214f31e4ec632ac4ef4f226760e4085"
+      }
+    },
+    "source": {
+      "bytes": 12369318,
+      "directory_count": 0,
+      "file_count": 1204,
+      "sha256": "b9b933e862b9f69f34367bad48e0bbff665cc30d65cfbeed04f2885627d9b430"
+    },
+    "cli": {
+      "bytes": 203056,
+      "sha256": "4d7c6dfa28f4efda1359075d01cd8cf0af613b6a6aab13617dc7de89f0c4fd17"
+    }
+  },
+  "original_deadline_ns": 310468865220540,
+  "execution_cap_seconds": 6300,
+  "native_offered_cap": 1536,
+  "native_admitted_ns": 303259414289957,
+  "agent_reported_remaining_common_seconds_at_admission": 7209.451,
+  "agent_reported_safety_projection_seconds": 5856.087,
+  "scope": "Same physical host and Unix identity, separate process and fresh output directories; exact extracted producer and unchanged scientific recipes, shared original queue/allocation. No human or institutional independence. Reproduction outcomes not yet known.",
+  "candidate_label": "v1-release-candidate-20260908-03"
+}

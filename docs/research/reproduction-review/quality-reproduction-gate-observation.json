@@ -1,0 +1,60 @@
+{
+  "status": "OBSERVATIONAL_THRESHOLDS_MET_OFFICIAL_REPEAT_INELIGIBLE",
+  "official_campaign_eligible": false,
+  "official_ineligibility_reasons": [
+    "retained_prior_same_recipe_measurement"
+  ],
+  "native_observed_requests": 512,
+  "correct_per_arm": [
+    127,
+    127,
+    127,
+    127
+  ],
+  "slo_qualified_per_arm": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "pairs": [
+    {
+      "pair": 0,
+      "observed_numeric_checks": {
+        "both_absolute_quality_at_least_95_percent": true,
+        "no_observed_aggregate_quality_loss": true,
+        "exact_output_token_parity": true,
+        "prompt_parity_and_no_campaign_drift": true,
+        "service_practical_effect_at_least_5_percent": true,
+        "full_attempt_practical_effect_at_least_5_percent": true,
+        "ttft_p95_relative_tail_within_10_percent": true,
+        "ttft_p99_relative_tail_within_10_percent": true,
+        "end_to_end_p95_relative_tail_within_10_percent": true,
+        "end_to_end_p99_relative_tail_within_10_percent": true
+      },
+      "all_observed_numeric_checks_pass": true,
+      "official_pair_eligible": false,
+      "official_service_ratio": null
+    },
+    {
+      "pair": 1,
+      "observed_numeric_checks": {
+        "both_absolute_quality_at_least_95_percent": true,
+        "no_observed_aggregate_quality_loss": true,
+        "exact_output_token_parity": true,
+        "prompt_parity_and_no_campaign_drift": true,
+        "service_practical_effect_at_least_5_percent": true,
+        "full_attempt_practical_effect_at_least_5_percent": true,
+        "ttft_p95_relative_tail_within_10_percent": true,
+        "ttft_p99_relative_tail_within_10_percent": true,
+        "end_to_end_p95_relative_tail_within_10_percent": true,
+        "end_to_end_p99_relative_tail_within_10_percent": true
+      },
+      "all_observed_numeric_checks_pass": true,
+      "official_pair_eligible": false,
+      "official_service_ratio": null
+    }
+  ],
+  "scope": "Independent descriptive threshold comparison for the predeclared retained-cell reproduction. Official null ratios and retained_prior_same_recipe_measurement ineligibility remain unchanged. This is not a new eligible campaign, a replacement result, or an interactive-serving claim.",
+  "checked_ns": 306453887510575
+}

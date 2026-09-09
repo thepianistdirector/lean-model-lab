@@ -1,0 +1,28 @@
+{
+  "ablations": [
+    "Full original context without cache, independently executed against each candidate.",
+    "Alwaysdependency-slice, predeclaredsimplegate andactualtraineddepth2gate on identical untouchedconfirmationtables.",
+    "Matchedrecord-budget control on exactlythe32fit tables, withsamecounts/repetitions andactualtokenbudgetdifferencesdisclosed.",
+    "Independent symbolic resolution verifiesrestricted semantics; neverinjectanswers into generation."
+  ],
+  "baseline": "The same checkpoint, offered requests and inference settings on complete original contexts with cache disabled.",
+  "claim_limit": "Negative/engineering investigation with substantial prior-art overlap. Fixed-output oracle is defined separately perrepeat and conservativelyallrepetitions; never mix repeats opportunistically or claim allcontrollersimpossible. Existing95%absolute andzeroaggregatepairregression qualitygates unchanged; ineligiblecostsdescriptiveonly. NoQwentraining,architecture orpopulationguarantee.",
+  "confirmation_isolation": "Fit/calibration native recipes frozen with producttraining-protocol before labels. Actualrecord-body groupdisjointness technically checked. Confirmationseed/generator/count alreadyfrozen; recordfirstrecipe-generation access, freezeactualcontroller andallthree exactconfirmationrecipes before nativeoutcomes. SharedUnix identityisworkflow separation only.",
+  "development_evidence": "Closed14B positive-feasibility branch has full1/8,slice2/8 eachpair; closed0.5B fixed-wording branch has original1/8,explicit0/8. New separately approved negative contract preserves both stops. No new prompt/model/contextsearch.",
+  "hypothesis": "Exact symbolic closure need not preserve actual model answers. Fresh full/slice outputs may have a95% fixed-output routing ceiling failure; depth-two fitted harmful-omission calibration may refuse routing; a matched-record-budget control tests whether semantic selection matters beyond shortening.",
+  "primary_sources": [
+    "https://arxiv.org/abs/2310.04408",
+    "https://arxiv.org/abs/2403.12968",
+    "https://arxiv.org/abs/2509.17338",
+    "https://arxiv.org/abs/2406.18665",
+    "https://arxiv.org/abs/2110.01052",
+    "https://arxiv.org/abs/2208.02814",
+    "https://arxiv.org/abs/2605.17304",
+    "https://github.com/dshakes/distil/blob/main/docs/PAPER.md"
+  ],
+  "proposal_sha256": "91727784f42d383d4e90803a85ea23b511acda381455e565e3e11798b8f1382e",
+  "question": "Can exact symbolic dependency preservation support a useful model-specific harm gate on fresh mixed record graphs, and where do semantic correctness, actual model answers, fixed-output routing ceilings and complete costs diverge?",
+  "selection_rule": "Prospectively fixed negative contract02-negative-contract04-v2.json: unchangedv1 grammar,0.5B profilev2,record-mixed-v1/context24,C1/two threads/twoAB/BApairs. Fit32 seed920260811,calibration32 seed920260812; matched-budget development control repeats the SAMEfit tables. Three128-request confirmation studies share seed920260813 and must all freeze with the actual controller before native confirmation. No outcome-driven tuning.",
+  "stopping_rule": "New negative phase1920native requests,totalincluding closedfeasibility1984,max2000; allnativeexecution<=10800seconds includingprior523.025664774seconds and original deadline310468865220540. Afterfirstfit, project remainingrequests at1.5x observedseconds/request; stop if remainingbudget cannotfit. Retain failures without replacement; no search or rescued positive gate.",
+  "uncertainty": "Balanced AB/BA paired effects and descriptive pair ranges; per-request paired correctness differences. No IID request assumption, significance claim or generalization beyond covered scenarios."
+}

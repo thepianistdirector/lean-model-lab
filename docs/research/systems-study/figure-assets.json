@@ -1,0 +1,207 @@
+{
+  "created_utc": "2026-09-08T21:24:43.563380+00:00",
+  "scope": "Explicit binary PNG/PDF asset manifest after visual figure review; source SVG variants retained separately.",
+  "plot_source_sha256": "ee3874abdf9d567955e4465bd29f5e095d6eec98f56acd83f393ec0b6922b5ea",
+  "analysis_source_sha256": "eed8fa66ff66b90c99971fb5512003315362546252cd95a684c3f8c4560b823a",
+  "analysis_summary_sha256": "5cd7327c907012c2ed10b35892a8aa0c581e329051e291f6c24cbeb745d9a21f",
+  "review_record": "figure-review.json",
+  "review_record_sha256": "d18f536fcac45bd6db1c94f324099db4db3aedce4d6b29a0cbeefc7af2f8f226",
+  "assets": [
+    {
+      "source_relative_path": "docs/research/systems-study/figures/d1-small-reuse24-cache.png",
+      "relative_path": "figures/d1-small-reuse24-cache.png",
+      "bytes": 153824,
+      "sha256": "0444e2561c0a2b43a2cb2559afa33325c680f934b05261f07dda23cfe7e93547",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/d1-small-reuse24-cache.pdf",
+      "relative_path": "figures/d1-small-reuse24-cache.pdf",
+      "bytes": 16258,
+      "sha256": "6cdf0d2cf0163fa7d61b46f7e780a2e644998ffa0bddf74802dbf36f138fbd3f",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/d1-small-reuse24-cost.png",
+      "relative_path": "figures/d1-small-reuse24-cost.png",
+      "bytes": 140151,
+      "sha256": "38d77049b88a492f17736ce50c62b35178da1f0e0bbecb0447e4fbd497701e16",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/d1-small-reuse24-cost.pdf",
+      "relative_path": "figures/d1-small-reuse24-cost.pdf",
+      "bytes": 40165,
+      "sha256": "98851be2a53417b1abcab016395d4fee0e62b603f23e72c6070f135f3ea555a5",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/d2-large-reuse24-cache.png",
+      "relative_path": "figures/d2-large-reuse24-cache.png",
+      "bytes": 153896,
+      "sha256": "1a2d5680ed0f819c318fe36b126c7e1f0762b51b265dea295d339318ac7da2ad",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/d2-large-reuse24-cache.pdf",
+      "relative_path": "figures/d2-large-reuse24-cache.pdf",
+      "bytes": 16270,
+      "sha256": "9512a5e275a5d76b421ae9ef4e0ab4d18b1d94215647ca40a67ea3e36ca0feb7",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/d2-large-reuse24-cost.png",
+      "relative_path": "figures/d2-large-reuse24-cost.png",
+      "bytes": 150750,
+      "sha256": "d223b84646dab0e080986f1fe54141628d9ca13aca9f52ee71ddd62a453ad55a",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/d2-large-reuse24-cost.pdf",
+      "relative_path": "figures/d2-large-reuse24-cost.pdf",
+      "bytes": 40227,
+      "sha256": "6487e05b49eb91af3bbb16d7355f6265793b4b31759b2b9e9fd3fda10490c8d3",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h1-small-reuse24-cache.png",
+      "relative_path": "figures/h1-small-reuse24-cache.png",
+      "bytes": 150614,
+      "sha256": "9b91391d548ec44b449c1ab01a26350c5e3e0e96cfd6ff82b90e6bd28f02a6f1",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h1-small-reuse24-cache.pdf",
+      "relative_path": "figures/h1-small-reuse24-cache.pdf",
+      "bytes": 16138,
+      "sha256": "2fcb5c6a6cc7f9085329f7dc5f437af5c5cce799ed7f84afa83c1dac7325282f",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h1-small-reuse24-cost.png",
+      "relative_path": "figures/h1-small-reuse24-cost.png",
+      "bytes": 148140,
+      "sha256": "a65f35ba0720d618543107e2747a0b19ff6883f10fe0d5e3a5f592d5928a9178",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h1-small-reuse24-cost.pdf",
+      "relative_path": "figures/h1-small-reuse24-cost.pdf",
+      "bytes": 40133,
+      "sha256": "f113172d7624df2d993150c219eaae59e12968cd7c4a2a517343ee1fd7f0620f",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h1-small-reuse24-table-effects.png",
+      "relative_path": "figures/h1-small-reuse24-table-effects.png",
+      "bytes": 222982,
+      "sha256": "a4616a4a333d95625c31647b076d414d5b5289dacf54f985c2d0879e8fdc8ee5",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h1-small-reuse24-table-effects.pdf",
+      "relative_path": "figures/h1-small-reuse24-table-effects.pdf",
+      "bytes": 44422,
+      "sha256": "f5ff10a2d359ce12e8fee83b820f4eaf5742545d47ff6c4a34aad0ef76a46128",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h2-small-reuse64-cache.png",
+      "relative_path": "figures/h2-small-reuse64-cache.png",
+      "bytes": 155416,
+      "sha256": "9479507be65f94ec7543f877ab30084f04d259cdbbad84cb7e0f01caefbb1ef5",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h2-small-reuse64-cache.pdf",
+      "relative_path": "figures/h2-small-reuse64-cache.pdf",
+      "bytes": 16172,
+      "sha256": "eede452145c0799ec02d583daefcec45b462cc296c59c54883fefdc047fb69f9",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h2-small-reuse64-cost.png",
+      "relative_path": "figures/h2-small-reuse64-cost.png",
+      "bytes": 151014,
+      "sha256": "5efab151ac4701cc5eff912f81c0f7536a438e4d829778d4600e9cbe66b67b0c",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h2-small-reuse64-cost.pdf",
+      "relative_path": "figures/h2-small-reuse64-cost.pdf",
+      "bytes": 40206,
+      "sha256": "b52b9949e90dd2be298045d4cdcd173f4174f3aa74ea5968f5e9c4dd5bed4cfb",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h2-small-reuse64-table-effects.png",
+      "relative_path": "figures/h2-small-reuse64-table-effects.png",
+      "bytes": 221320,
+      "sha256": "c917a42308bbf0f9a05f61ab575390c02f38970be0710a4e4c705a46403f5f09",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h2-small-reuse64-table-effects.pdf",
+      "relative_path": "figures/h2-small-reuse64-table-effects.pdf",
+      "bytes": 44239,
+      "sha256": "22a7b7a052997029c3b479a59813b3b271a97fd79f779ea8c9801c00bdf060e5",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h3-large-reuse24-cache.png",
+      "relative_path": "figures/h3-large-reuse24-cache.png",
+      "bytes": 149374,
+      "sha256": "5b23b116823e8aa54be9498506e2b2dfa1c244e35a23742c4f9e35c8be0361ff",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h3-large-reuse24-cache.pdf",
+      "relative_path": "figures/h3-large-reuse24-cache.pdf",
+      "bytes": 16152,
+      "sha256": "de0c7ba0cff13f637f8d4a45fdd3b98330e67251c254c077f57771449978e300",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h3-large-reuse24-cost.png",
+      "relative_path": "figures/h3-large-reuse24-cost.png",
+      "bytes": 152225,
+      "sha256": "2b73a3ae88583f6a8e6d0b4596fd3cf64e7942645021a9655abb2e2669f2e59e",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h3-large-reuse24-cost.pdf",
+      "relative_path": "figures/h3-large-reuse24-cost.pdf",
+      "bytes": 40240,
+      "sha256": "2c850b2a6b94cb5d2087361508f4195ca7971d4cd67cfa0670233994c499378a",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h3-large-reuse24-table-effects.png",
+      "relative_path": "figures/h3-large-reuse24-table-effects.png",
+      "bytes": 219416,
+      "sha256": "5b593185b746537334dab703c75975ab5350fff8f8aa73af36630cecc310c12c",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/h3-large-reuse24-table-effects.pdf",
+      "relative_path": "figures/h3-large-reuse24-table-effects.pdf",
+      "bytes": 44420,
+      "sha256": "09eaf2b1010caff7494e8bdf055fb36b359bc64aa4226d53fa98e239c978ed98",
+      "media_type": "application/pdf"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/quality.png",
+      "relative_path": "figures/quality.png",
+      "bytes": 154199,
+      "sha256": "806886a0127f0a9681bfc16e4faf8de0731fcfce973e0e9ad592c58d3401487f",
+      "media_type": "image/png"
+    },
+    {
+      "source_relative_path": "docs/research/systems-study/figures/quality.pdf",
+      "relative_path": "figures/quality.pdf",
+      "bytes": 16059,
+      "sha256": "bf361c7203b0ed890107893143b1c563c0d777c907d29ee4c1479ceffe86701a",
+      "media_type": "application/pdf"
+    }
+  ]
+}

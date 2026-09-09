@@ -1,0 +1,9 @@
+{
+  "status": "FROZEN_BEFORE_RECIPE_OR_WORKLOAD_GENERATION",
+  "frozen_monotonic_ns": 288311331734684,
+  "protocol_sha256": "82d1d704115878f038a28069a4cb6465a2b5901dae06edf155bacc00452b23c0",
+  "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+  "prior_package_inventory_sha256": "256c8dc4434c59ca97bb7fdbceb875766e73afc632ce9aa35ff75b487285e674",
+  "confirmation_seed": 2026090901,
+  "native_requests_so_far": 0
+}

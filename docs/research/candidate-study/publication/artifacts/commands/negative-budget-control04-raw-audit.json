@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "tools/audit_raw_study.py",
+    ".cache/v1-investigations-20260908/candidate/negative-budget-control-study04",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/negative-budget-control-raw-audit04.json"
+  ],
+  "exit_code": 0,
+  "finished_ns": 292934918812893,
+  "label": "negative-budget-control04-raw-audit",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 292934604678442,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 34,
+    "sha256": "1a65e18f1ee095e73a720e295671baac16c9a76fe3de6b343038e3bcabc151bc"
+  }
+}

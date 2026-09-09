@@ -1,0 +1,49 @@
+{
+  "status": "VISUAL_REVIEW_COMPLETE",
+  "reviewed_utc": "2026-09-08T21:19:25.194741+00:00",
+  "reviewer_scope": "Author visual artifact review, not independent scientific replication. Every final Matplotlib PNG and every actual final PDF page rendered with PDFium was opened and inspected. SVGs were checked with the distribution SVG validator.",
+  "reviewed_figure_stems": [
+    "d1-small-reuse24-cache",
+    "d1-small-reuse24-cost",
+    "d2-large-reuse24-cache",
+    "d2-large-reuse24-cost",
+    "h1-small-reuse24-cache",
+    "h1-small-reuse24-cost",
+    "h1-small-reuse24-table-effects",
+    "h2-small-reuse64-cache",
+    "h2-small-reuse64-cost",
+    "h2-small-reuse64-table-effects",
+    "h3-large-reuse24-cache",
+    "h3-large-reuse24-cost",
+    "h3-large-reuse24-table-effects",
+    "quality"
+  ],
+  "checks": [
+    "All five cases and both arms appear in the quality figure with full offered denominators and the unchanged 95% reference gate.",
+    "All cache panels label first-use versus subsequent-query versus complete-attempt denominators and disclose differing scales/common-prefix reuse.",
+    "All cost figures retain every balanced attempt, full envelope and service values, with readable dark text on white annotation backgrounds and explicit ineligibility.",
+    "All held-out table-effect figures show all 16 table groups and both repetitions; correctness stacks total eight tasks and warm-token differences stay visible.",
+    "No clipped labels, overlapping annotations, cropped legends or unsupported efficiency ratios were observed."
+  ],
+  "analysis_summary_sha256": "5cd7327c907012c2ed10b35892a8aa0c581e329051e291f6c24cbeb745d9a21f",
+  "plot_source_sha256": "ee3874abdf9d567955e4465bd29f5e095d6eec98f56acd83f393ec0b6922b5ea",
+  "reviewed_pdf_stems": [
+    "d1-small-reuse24-cache",
+    "d1-small-reuse24-cost",
+    "d2-large-reuse24-cache",
+    "d2-large-reuse24-cost",
+    "h1-small-reuse24-cache",
+    "h1-small-reuse24-cost",
+    "h1-small-reuse24-table-effects",
+    "h2-small-reuse64-cache",
+    "h2-small-reuse64-cost",
+    "h2-small-reuse64-table-effects",
+    "h3-large-reuse24-cache",
+    "h3-large-reuse24-cost",
+    "h3-large-reuse24-table-effects",
+    "quality"
+  ],
+  "pdf_review_record": "pdf-visual-review.json",
+  "pdf_review_record_sha256": "8a2c392d12a31ca320f79377ec0f3852fa71bf611c279e12a702f0ce7dfb51ec",
+  "pdf_review_completed_utc": "2026-09-08T21:24:43.281858+00:00"
+}

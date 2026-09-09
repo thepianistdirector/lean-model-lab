@@ -1,0 +1,1073 @@
+{
+  "prefix-cache-control": {
+    "schema_version": 1,
+    "id": "prefix-cache-control",
+    "title": "Validate measurement with a known prefix-cache policy",
+    "domain": "inference",
+    "kind": "known_method_control",
+    "objective": "efficiency_at_quality",
+    "mechanism_id": "prefix-cache-toggle-v1",
+    "mechanism": "Reuse an unchanged token prefix in the same native slot using the existing reviewed cache_prompt toggle.",
+    "prediction": "Reused prompt work may decrease, while exact answers, token identity and full cost accounting remain unchanged in meaning.",
+    "prior_art": [
+      {
+        "source_id": "src-63ebb2ade22f",
+        "overlap": "RadixAttention reuses KV state across repeated prefixes in structured generation programs.",
+        "proposed_difference": "No novelty proposed. Reproduce this known mechanism through the exact reviewed local adapter."
+      },
+      {
+        "source_id": "src-13e96645595a",
+        "overlap": "The reviewed cache_prompt field controls same-slot prefix reuse; independent global cache settings must remain fixed.",
+        "proposed_difference": "No novelty proposed. Reproduce this known mechanism through the exact reviewed local adapter."
+      }
+    ],
+    "technique_ids": [
+      "prefix-cache"
+    ],
+    "baseline": "The accepted v2 recipe with cache_prompt=false.",
+    "candidate_delta": "Set cache_prompt=true only; every other frozen field remains equal.",
+    "invariants": [
+      "Same reviewed model and tokenizer/template",
+      "Same offered request population, output ceiling, sampling, slot policy and paired schedule",
+      "Same quality rule and complete shared-cost ledger"
+    ],
+    "quality_contract": {
+      "metric": "exact_key_after_outer_whitespace_strip",
+      "direction": "higher",
+      "decision_rule": "At least 95% of all offered requests correct, with exact output-token and prompt-token-count parity; other existing v2 gates remain binding.",
+      "evaluation_revision": "Accepted v2 recipe/evaluator implementation and immutable workload digests",
+      "population": "The complete reviewed synthetic key-copy population regenerated from the accepted recipe",
+      "semantic_equivalence": "Same checkpoint, exact output-token parity, unchanged stop rules; no broad-language-quality claim"
+    },
+    "metrics": [
+      {
+        "name": "service_wall",
+        "unit": "seconds",
+        "direction": "lower",
+        "decision_rule": "Use the existing recipe paired decision and report uncertainty; no ratio on failed gates."
+      },
+      {
+        "name": "full_allocation_wall",
+        "unit": "seconds",
+        "direction": "lower",
+        "decision_rule": "Retain all shared preparation, failed, recovery and review costs without double counting."
+      }
+    ],
+    "ablations": [
+      "Cache disabled versus enabled under the same explicit slot routing",
+      "Preserve both concurrency modes and declared AB/BA repetitions from the recipe"
+    ],
+    "falsifiers": [
+      "Any changed output token, missing request, failed quality threshold or invalid native readback defeats the comparable-work claim.",
+      "No demonstrated benefit if the paired result does not clear its declared practical/uncertainty rule."
+    ],
+    "required_capabilities": [
+      "reviewed-cpu-prefix-cache-v2",
+      "immutable-recipe-and-recovery",
+      "synthetic-key-copy-evaluator"
+    ],
+    "resources": {
+      "cpu_threads": 12,
+      "memory_bytes": 60000000000,
+      "disk_bytes": 200000000000,
+      "wall_seconds": 43200,
+      "gpu_requirement": "None for the current registered CPU control. Future model-stage needs require separate admission."
+    },
+    "stop_rules": [
+      "Respect the accepted recipe allocation and original deadline; do not create a new clock.",
+      "Retain failed and interrupted attempts; do not replace a measured same-recipe result."
+    ],
+    "evaluation": {
+      "development": "Use separately labeled feasibility and protocol controls; all costs retained.",
+      "confirmation": "No protected or external confirmation is supplied by this known-method development infrastructure control.",
+      "selection_rule": "No novelty or general efficiency claim; apply the accepted recipe scientific gates."
+    },
+    "novelty": {
+      "status": "KNOWN_METHOD",
+      "search_scope": "Pinned native source and referenced published prefix-cache methods.",
+      "unresolved_questions": [
+        "Only applicability to this exact local workload/device remains empirical."
+      ]
+    },
+    "stage": "llm_development",
+    "claim_limit": "Known-method infrastructure control; successful execution is not an innovative mechanism or a general LLM quality result."
+  },
+  "trained-certifiable-omission": {
+    "schema_version": 1,
+    "id": "trained-certifiable-omission",
+    "title": "Train computation that can be omitted with an end-to-end certificate",
+    "domain": "joint",
+    "kind": "mechanism_hypothesis",
+    "objective": "frontier_shift",
+    "mechanism_id": "trained-certifiable-omission-v1",
+    "mechanism": "Can a representation trained jointly with cheap remainder bounds let an executor omit weight channels, layers or history blocks while certifying the same greedy token as its own full-reference model, at a net reduction in work?",
+    "prediction": "Turn learned redundancy into provably skippable computation instead of always paying for full verification.",
+    "prior_art": [
+      {
+        "source_id": "src-3ab07c12f815",
+        "overlap": "KIVI uses different quantization axes for keys and values to reduce cache storage.",
+        "proposed_difference": "Local quantized-attention certificates already exist; trained early exits and sparse architectures already exist. The proposed contribution must be useful end-to-end logit/argmax certificates with measured total cost, not another local error bound."
+      },
+      {
+        "source_id": "src-32b9aa821edd",
+        "overlap": "The preprint bounds per-head, per-step quantized-attention errors and uses precision fallback; it explicitly does not guarantee end-to-end model correctness.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-281dff0cba8c",
+        "overlap": "Layer dropout and early-exit training improve draft predictions; later layers verify while sharing computation.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-85197cd170be",
+        "overlap": "Selected layers can be skipped for draft generation and the original model used for verification without extra training.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-74cf7186aa6d",
+        "overlap": "NSA combines coarse compression and fine token selection with hardware-aligned sparse computation throughout training and inference.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-43bc3364b4ed",
+        "overlap": "Quantized weights and hierarchical quantized KV accelerate self-speculative drafts.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      }
+    ],
+    "technique_ids": [
+      "inf-08-kv-quantization",
+      "inf-13-self-speculation-early-exit",
+      "inf-19-trained-native-sparse-attention"
+    ],
+    "baseline": "Same trained model without omission; LayerSkip-style verified exit; QuantSpec-style full verification; Local attention bounds propagated conservatively",
+    "candidate_delta": "Local quantized-attention certificates already exist; trained early exits and sparse architectures already exist. The proposed contribution must be useful end-to-end logit/argmax certificates with measured total cost, not another local error bound.",
+    "invariants": [
+      "Same new checkpoint/reference semantics for exact-execution comparisons; original-model quality is a separate matched-budget test.",
+      "Count training, state construction, selection, verification, fallback and repair.",
+      "Keep tokenizer, quality evaluation and declared workload/length strata fixed per family."
+    ],
+    "quality_contract": {
+      "metric": "held_out_task_quality_and_reference_agreement",
+      "direction": "higher",
+      "decision_rule": "Stage 1: any false certificate or reference mismatch under the claimed exactness rule rejects that rule. Later LLM quality/efficiency gates must be numerically preregistered after evaluator admission.",
+      "evaluation_revision": "Requires a new immutable stage-specific reference oracle and general quality evaluator; neither is supplied by key-copy quality.",
+      "population": "Adversarial finite cases first; later held-out contexts, domains, lengths and model scales.",
+      "semantic_equivalence": "Fixed, newly trained full-reference implementation, tokenizer, precision and tie rule. Training changes the model, so no equivalence to the original Qwen checkpoint is claimed. Greedy certification does not establish exact stochastic sampling or semantic answer correctness."
+    },
+    "metrics": [
+      {
+        "name": "total_reference_work_including_controller",
+        "unit": "declared bytes or scalar operations in the synthetic stage",
+        "direction": "lower",
+        "decision_rule": "Reject the proposed regime if even the optimistic all-cost oracle cannot beat the strongest applicable reference. Actual LLM speed must be measured separately."
+      },
+      {
+        "name": "held_out_quality_at_fixed_budget",
+        "unit": "stage-specific preregistered score",
+        "direction": "higher",
+        "decision_rule": "A future model-stage proposal must fix the evaluator, numerical gain/noninferiority thresholds, seeds and budget before execution."
+      }
+    ],
+    "ablations": [
+      "Same trained model without omission",
+      "LayerSkip-style verified exit",
+      "QuantSpec-style full verification",
+      "Local attention bounds propagated conservatively",
+      "Disable the learned controller/correction and compare with an equal-cost simple or random allocation."
+    ],
+    "falsifiers": [
+      "Before any large training, construct exhaustive tiny residual/attention networks with cancellation, near ties and outliers. A certified token mismatch under the declared arithmetic immediately falsifies soundness.",
+      "Bound the unavoidable certificate, retained metadata and fallback costs. If even an optimistic oracle omission schedule cannot beat the full-reference byte/FLOP cost, reject that representation/hardware pairing.",
+      "On a future small approved model, reject practical usefulness if sound bounds cause near-universal fallback or erase the preregistered quality advantage at matched training budget."
+    ],
+    "required_capabilities": [
+      "custom-model-training",
+      "custom-attention-operator",
+      "general-quality-evaluator",
+      "untrusted-candidate-isolation"
+    ],
+    "resources": {
+      "cpu_threads": 12,
+      "memory_bytes": 60000000000,
+      "disk_bytes": 200000000000,
+      "wall_seconds": 900,
+      "gpu_requirement": "No GPU needed for a mathematical falsifier; future learned-model stages require a separate admitted training plan."
+    },
+    "stop_rules": [
+      "Stop on any counterexample to claimed exactness, state independence or bounded cost.",
+      "Stop promotion when controller/metadata/fallback cost eliminates the candidate frontier gain.",
+      "Do not launch model training or a custom operator until its implementation, evaluator and resource capabilities are admitted."
+    ],
+    "evaluation": {
+      "development": "Start with theory and tiny finite counterexamples; exploratory evidence cannot become a full LLM efficiency claim.",
+      "confirmation": "Reserve untouched model/workload/scale cases before selection; protected evaluator execution is a later capability gate.",
+      "selection_rule": "Advance only if the central mechanism survives its cheapest decisive falsifiers and all-cost comparison; absence of prior art is not proof of novelty."
+    },
+    "novelty": {
+      "status": "UNVERIFIED",
+      "search_scope": "Bounded primary-source landscape and close-prior comparison through 2026-09-08; nonexhaustive.",
+      "unresolved_questions": [
+        "Local quantized-attention certificates already exist; trained early exits and sparse architectures already exist. The proposed contribution must be useful end-to-end logit/argmax certificates with measured total cost, not another local error bound.",
+        "Whether the proposed delta has already been demonstrated elsewhere.",
+        "Whether the mechanism can deliver a large net frontier shift at LLM scale."
+      ]
+    },
+    "stage": "synthetic_falsifier",
+    "claim_limit": "Unexecuted mechanism hypothesis. A mathematical/local certificate does not establish full-model correctness, useful speed or semantic answer quality."
+  },
+  "composable-context-correction": {
+    "schema_version": 1,
+    "id": "composable-context-correction",
+    "title": "Compose reusable context states with bounded corrective work",
+    "domain": "joint",
+    "kind": "mechanism_hypothesis",
+    "objective": "efficiency_at_quality",
+    "mechanism_id": "composable-context-correction-v1",
+    "mechanism": "Can jointly trained context-block representations support cheap composition plus certified correction under changed preceding context, extending useful reuse beyond exact prefixes?",
+    "prediction": "Amortize prefill over independently reused documents without silently dropping cross-document dependencies.",
+    "prior_art": [
+      {
+        "source_id": "src-63ebb2ade22f",
+        "overlap": "RadixAttention reuses KV state across repeated prefixes in structured generation programs.",
+        "proposed_difference": "CacheBlend already repairs independent caches selectively; MLA already compresses KV. A new mechanism must characterize composition error and its repair cost, not rename non-prefix caching."
+      },
+      {
+        "source_id": "src-13e96645595a",
+        "overlap": "The reviewed cache_prompt field controls same-slot prefix reuse; independent global cache settings must remain fixed.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-79eb55ac7258",
+        "overlap": "Multi-head Latent Attention compresses KV state into a latent representation as part of a trained architecture.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-a114e852aac1",
+        "overlap": "GQA uses fewer KV heads than query heads; conversion from multi-head checkpoints requires uptraining in the demonstrated recipe.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-9eb3c8f8c40d",
+        "overlap": "Independent non-prefix chunk caches omit preceding-context interactions; CacheBlend selectively recomputes tokens to recover task quality.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-32b9aa821edd",
+        "overlap": "The preprint bounds per-head, per-step quantized-attention errors and uses precision fallback; it explicitly does not guarantee end-to-end model correctness.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      }
+    ],
+    "technique_ids": [
+      "prefix-cache",
+      "inf-10-compact-attention-architecture",
+      "inf-20-nonprefix-cache-fusion"
+    ],
+    "baseline": "Full prefill; Exact-prefix cache; CacheBlend-style selective recomputation; Same compressed architecture without caching",
+    "candidate_delta": "CacheBlend already repairs independent caches selectively; MLA already compresses KV. A new mechanism must characterize composition error and its repair cost, not rename non-prefix caching.",
+    "invariants": [
+      "Same new checkpoint/reference semantics for exact-execution comparisons; original-model quality is a separate matched-budget test.",
+      "Count training, state construction, selection, verification, fallback and repair.",
+      "Keep tokenizer, quality evaluation and declared workload/length strata fixed per family."
+    ],
+    "quality_contract": {
+      "metric": "held_out_task_quality_and_reference_agreement",
+      "direction": "higher",
+      "decision_rule": "Stage 1: any false certificate or reference mismatch under the claimed exactness rule rejects that rule. Later LLM quality/efficiency gates must be numerically preregistered after evaluator admission.",
+      "evaluation_revision": "Requires a new immutable stage-specific reference oracle and general quality evaluator; neither is supplied by key-copy quality.",
+      "population": "Adversarial finite cases first; later held-out contexts, domains, lengths and model scales.",
+      "semantic_equivalence": "Either certify the fixed new model's greedy result or explicitly register an approximation budget. Arbitrary lossless constant-size summaries of unbounded random content are not assumed possible."
+    },
+    "metrics": [
+      {
+        "name": "total_reference_work_including_controller",
+        "unit": "declared bytes or scalar operations in the synthetic stage",
+        "direction": "lower",
+        "decision_rule": "Reject the proposed regime if even the optimistic all-cost oracle cannot beat the strongest applicable reference. Actual LLM speed must be measured separately."
+      },
+      {
+        "name": "held_out_quality_at_fixed_budget",
+        "unit": "stage-specific preregistered score",
+        "direction": "higher",
+        "decision_rule": "A future model-stage proposal must fix the evaluator, numerical gain/noninferiority thresholds, seeds and budget before execution."
+      }
+    ],
+    "ablations": [
+      "Full prefill",
+      "Exact-prefix cache",
+      "CacheBlend-style selective recomputation",
+      "Same compressed architecture without caching",
+      "Disable the learned controller/correction and compare with an equal-cost simple or random allocation."
+    ],
+    "falsifiers": [
+      "Use tiny causal attention examples with permuted chunks, absolute/rotary positions, contradictory facts and random key-value associations; a claimed context-independent exact composition broken by one example is false.",
+      "Analyze rank and information requirements of the context-induced state change. If the proposed fixed-size correction cannot represent a constructed full-rank interaction, reject its universal claim.",
+      "Reject the economic regime if fetching summaries, computing bounds and repairing blocks costs at least complete prefill even with ideal cache hits."
+    ],
+    "required_capabilities": [
+      "custom-model-training",
+      "custom-attention-operator",
+      "general-quality-evaluator",
+      "untrusted-candidate-isolation"
+    ],
+    "resources": {
+      "cpu_threads": 12,
+      "memory_bytes": 60000000000,
+      "disk_bytes": 200000000000,
+      "wall_seconds": 900,
+      "gpu_requirement": "No GPU needed for a mathematical falsifier; future learned-model stages require a separate admitted training plan."
+    },
+    "stop_rules": [
+      "Stop on any counterexample to claimed exactness, state independence or bounded cost.",
+      "Stop promotion when controller/metadata/fallback cost eliminates the candidate frontier gain.",
+      "Do not launch model training or a custom operator until its implementation, evaluator and resource capabilities are admitted."
+    ],
+    "evaluation": {
+      "development": "Start with theory and tiny finite counterexamples; exploratory evidence cannot become a full LLM efficiency claim.",
+      "confirmation": "Reserve untouched model/workload/scale cases before selection; protected evaluator execution is a later capability gate.",
+      "selection_rule": "Advance only if the central mechanism survives its cheapest decisive falsifiers and all-cost comparison; absence of prior art is not proof of novelty."
+    },
+    "novelty": {
+      "status": "UNVERIFIED",
+      "search_scope": "Bounded primary-source landscape and close-prior comparison through 2026-09-08; nonexhaustive.",
+      "unresolved_questions": [
+        "CacheBlend already repairs independent caches selectively; MLA already compresses KV. A new mechanism must characterize composition error and its repair cost, not rename non-prefix caching.",
+        "Whether the proposed delta has already been demonstrated elsewhere.",
+        "Whether the mechanism can deliver a large net frontier shift at LLM scale."
+      ]
+    },
+    "stage": "synthetic_falsifier",
+    "claim_limit": "Unexecuted mechanism hypothesis. A mathematical/local certificate does not establish full-model correctness, useful speed or semantic answer quality."
+  },
+  "accepted-work-drafter": {
+    "schema_version": 1,
+    "id": "accepted-work-drafter",
+    "title": "Train a compact drafter for accepted tokens per byte moved",
+    "domain": "joint",
+    "kind": "mechanism_hypothesis",
+    "objective": "efficiency_at_quality",
+    "mechanism_id": "accepted-work-drafter-v1",
+    "mechanism": "Can a compact recurrent drafter trained for accepted tokens per total target-plus-draft byte moved outperform feature/diffusion drafters on CPU bandwidth-limited decoding while retaining full-target verification?",
+    "prediction": "Amortize target weight traffic across several verified tokens without a second attention-sized cache.",
+    "prior_art": [
+      {
+        "source_id": "src-951958eafe57",
+        "overlap": "Speculative sampling preserves the target distribution while verifying multiple proposed tokens in parallel.",
+        "proposed_difference": "DFlash already parallelizes drafts; EAGLE already conditions on target features; DVI already trains from verification feedback. The conjecture concerns recurrent state, a bandwidth-aware objective and measured CPU crossover, with no novelty claim for combining names."
+      },
+      {
+        "source_id": "src-fd3d857f4120",
+        "overlap": "Peer-reviewed ICML proceedings version describes the distribution-preserving algorithm.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-28b779a3c292",
+        "overlap": "EAGLE-3 trains direct token prediction using fused target-layer features and target verification.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-aee7fd01612d",
+        "overlap": "Medusa adds future-token heads and tree verification; its typical-acceptance extension relaxes distribution matching.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-feedff645417",
+        "overlap": "A lightweight diffusion drafter predicts blocks in parallel using target context features, with target verification.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-8832d45c6255",
+        "overlap": "Mamba-3 combines richer discretization, complex-valued state updates and MIMO recurrence to improve state tracking and inference efficiency.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-0c47ea4675bf",
+        "overlap": "State-space duality connects structured recurrent computation and attention variants and motivates Mamba-2.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-5a97b3a3855d",
+        "overlap": "Verifier decisions supervise online drafter-head updates in a training-aware self-speculative framework.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-ccb7205ad26b",
+        "overlap": "SparseSpec reuses verification information for sparse-attention drafting and co-designs scheduling and KV management.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      }
+    ],
+    "technique_ids": [
+      "inf-11-exact-speculative-decoding",
+      "inf-12-feature-multihead-drafting",
+      "inf-14-parallel-diffusion-drafting",
+      "inf-17-selective-state-space-models"
+    ],
+    "baseline": "Full target decoding; Cheap n-gram proposals with the same verifier; Separate small autoregressive drafter; Feature or diffusion drafter at matched storage/training budget",
+    "candidate_delta": "DFlash already parallelizes drafts; EAGLE already conditions on target features; DVI already trains from verification feedback. The conjecture concerns recurrent state, a bandwidth-aware objective and measured CPU crossover, with no novelty claim for combining names.",
+    "invariants": [
+      "Same new checkpoint/reference semantics for exact-execution comparisons; original-model quality is a separate matched-budget test.",
+      "Count training, state construction, selection, verification, fallback and repair.",
+      "Keep tokenizer, quality evaluation and declared workload/length strata fixed per family."
+    ],
+    "quality_contract": {
+      "metric": "held_out_task_quality_and_reference_agreement",
+      "direction": "higher",
+      "decision_rule": "Stage 1: any false certificate or reference mismatch under the claimed exactness rule rejects that rule. Later LLM quality/efficiency gates must be numerically preregistered after evaluator admission.",
+      "evaluation_revision": "Requires a new immutable stage-specific reference oracle and general quality evaluator; neither is supplied by key-copy quality.",
+      "population": "Adversarial finite cases first; later held-out contexts, domains, lengths and model scales.",
+      "semantic_equivalence": "Unchanged target distribution with proven acceptance/correction; identical greedy tokens under the pinned arithmetic. Drafter quality changes acceptance, not the admitted target."
+    },
+    "metrics": [
+      {
+        "name": "total_reference_work_including_controller",
+        "unit": "declared bytes or scalar operations in the synthetic stage",
+        "direction": "lower",
+        "decision_rule": "Reject the proposed regime if even the optimistic all-cost oracle cannot beat the strongest applicable reference. Actual LLM speed must be measured separately."
+      },
+      {
+        "name": "held_out_quality_at_fixed_budget",
+        "unit": "stage-specific preregistered score",
+        "direction": "higher",
+        "decision_rule": "A future model-stage proposal must fix the evaluator, numerical gain/noninferiority thresholds, seeds and budget before execution."
+      }
+    ],
+    "ablations": [
+      "Full target decoding",
+      "Cheap n-gram proposals with the same verifier",
+      "Separate small autoregressive drafter",
+      "Feature or diffusion drafter at matched storage/training budget",
+      "Disable the learned controller/correction and compare with an equal-cost simple or random allocation."
+    ],
+    "falsifiers": [
+      "Exhaustively test a finite-vocabulary toy verifier including rejection, EOS, rollback and distribution correction; any output-law mismatch falsifies exactness.",
+      "Use a lower-bound cost model L=(draft+verify+rollback)/accepted_tokens. If even perfect acceptance cannot beat the measured target regime, reject the hardware/proposal budget before training.",
+      "In a later approved tiny pilot, include cacheless unique prompts and domain shifts; reject if reduced draft state destroys acceptance enough to eliminate total-cost gains."
+    ],
+    "required_capabilities": [
+      "custom-model-training",
+      "custom-attention-operator",
+      "general-quality-evaluator",
+      "untrusted-candidate-isolation"
+    ],
+    "resources": {
+      "cpu_threads": 12,
+      "memory_bytes": 60000000000,
+      "disk_bytes": 200000000000,
+      "wall_seconds": 900,
+      "gpu_requirement": "No GPU needed for a mathematical falsifier; future learned-model stages require a separate admitted training plan."
+    },
+    "stop_rules": [
+      "Stop on any counterexample to claimed exactness, state independence or bounded cost.",
+      "Stop promotion when controller/metadata/fallback cost eliminates the candidate frontier gain.",
+      "Do not launch model training or a custom operator until its implementation, evaluator and resource capabilities are admitted."
+    ],
+    "evaluation": {
+      "development": "Start with theory and tiny finite counterexamples; exploratory evidence cannot become a full LLM efficiency claim.",
+      "confirmation": "Reserve untouched model/workload/scale cases before selection; protected evaluator execution is a later capability gate.",
+      "selection_rule": "Advance only if the central mechanism survives its cheapest decisive falsifiers and all-cost comparison; absence of prior art is not proof of novelty."
+    },
+    "novelty": {
+      "status": "UNVERIFIED",
+      "search_scope": "Bounded primary-source landscape and close-prior comparison through 2026-09-08; nonexhaustive.",
+      "unresolved_questions": [
+        "DFlash already parallelizes drafts; EAGLE already conditions on target features; DVI already trains from verification feedback. The conjecture concerns recurrent state, a bandwidth-aware objective and measured CPU crossover, with no novelty claim for combining names.",
+        "Whether the proposed delta has already been demonstrated elsewhere.",
+        "Whether the mechanism can deliver a large net frontier shift at LLM scale."
+      ]
+    },
+    "stage": "synthetic_falsifier",
+    "claim_limit": "Unexecuted mechanism hypothesis. A mathematical/local certificate does not establish full-model correctness, useful speed or semantic answer quality."
+  },
+  "adaptive-memory-retrieval": {
+    "schema_version": 1,
+    "id": "adaptive-memory-retrieval",
+    "title": "Allocate recurrent memory and precise retrieval jointly",
+    "domain": "joint",
+    "kind": "mechanism_hypothesis",
+    "objective": "frontier_shift",
+    "mechanism_id": "adaptive-memory-retrieval-v1",
+    "mechanism": "Can a jointly trained recurrent memory allocate precise attention only when its own uncertainty predicts missing evidence, giving a better quality/cost frontier than fixed recurrent-attention hybrids?",
+    "prediction": "Spend context bandwidth according to task-dependent information demand rather than retaining or scanning all history uniformly.",
+    "prior_art": [
+      {
+        "source_id": "src-8832d45c6255",
+        "overlap": "Mamba-3 combines richer discretization, complex-valued state updates and MIMO recurrence to improve state tracking and inference efficiency.",
+        "proposed_difference": "Gated DeltaNet hybrids, Mamba-3 state tracking, Titans memory and NSA selection are already close. A contribution must show calibrated demand detection and avoided work beyond these matched comparators."
+      },
+      {
+        "source_id": "src-0c47ea4675bf",
+        "overlap": "State-space duality connects structured recurrent computation and attention variants and motivates Mamba-2.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-696719a93729",
+        "overlap": "Gating controls erasure while delta updates modify memory selectively; hybrid models combine recurrent and attention layers.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-d68f2d3cf9bd",
+        "overlap": "A learned long-term memory module complements short-term attention during inference.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      },
+      {
+        "source_id": "src-74cf7186aa6d",
+        "overlap": "NSA combines coarse compression and fine token selection with hardware-aligned sparse computation throughout training and inference.",
+        "proposed_difference": "Use this existing method as a matched comparator or ablation for the separately declared mechanism; no novelty is established."
+      }
+    ],
+    "technique_ids": [
+      "inf-17-selective-state-space-models",
+      "inf-18-linear-attention-learned-memory",
+      "inf-19-trained-native-sparse-attention"
+    ],
+    "baseline": "Fixed recurrent model; Fixed recurrent-plus-window hybrid; Sparse-attention model; Full-attention reference at matched resources",
+    "candidate_delta": "Gated DeltaNet hybrids, Mamba-3 state tracking, Titans memory and NSA selection are already close. A contribution must show calibrated demand detection and avoided work beyond these matched comparators.",
+    "invariants": [
+      "Same new checkpoint/reference semantics for exact-execution comparisons; original-model quality is a separate matched-budget test.",
+      "Count training, state construction, selection, verification, fallback and repair.",
+      "Keep tokenizer, quality evaluation and declared workload/length strata fixed per family."
+    ],
+    "quality_contract": {
+      "metric": "held_out_task_quality_and_reference_agreement",
+      "direction": "higher",
+      "decision_rule": "Stage 1: any false certificate or reference mismatch under the claimed exactness rule rejects that rule. Later LLM quality/efficiency gates must be numerically preregistered after evaluator admission.",
+      "evaluation_revision": "Requires a new immutable stage-specific reference oracle and general quality evaluator; neither is supplied by key-copy quality.",
+      "population": "Adversarial finite cases first; later held-out contexts, domains, lengths and model scales.",
+      "semantic_equivalence": "New approximate architecture relative to a transformer; compare quality, retrieval reliability and total training/inference cost. Do not promise arbitrary exact retrieval from bounded state."
+    },
+    "metrics": [
+      {
+        "name": "total_reference_work_including_controller",
+        "unit": "declared bytes or scalar operations in the synthetic stage",
+        "direction": "lower",
+        "decision_rule": "Reject the proposed regime if even the optimistic all-cost oracle cannot beat the strongest applicable reference. Actual LLM speed must be measured separately."
+      },
+      {
+        "name": "held_out_quality_at_fixed_budget",
+        "unit": "stage-specific preregistered score",
+        "direction": "higher",
+        "decision_rule": "A future model-stage proposal must fix the evaluator, numerical gain/noninferiority thresholds, seeds and budget before execution."
+      }
+    ],
+    "ablations": [
+      "Fixed recurrent model",
+      "Fixed recurrent-plus-window hybrid",
+      "Sparse-attention model",
+      "Full-attention reference at matched resources",
+      "Disable the learned controller/correction and compare with an equal-cost simple or random allocation."
+    ],
+    "falsifiers": [
+      "Construct random-association recall where required information exceeds state capacity, delayed corrections and repeated entity aliases. If the controller remains confident while omitting needed retrieval, its detection claim fails.",
+      "On small matched-budget training, compare learned gating with random, fixed-period and oracle access. Reject if the learned controller provides no advantage after charging detection and retrieval.",
+      "Stress multi-step contradictory trajectories; reject any broad quality claim that holds only for single-needle retrieval while failing adversarial chains."
+    ],
+    "required_capabilities": [
+      "custom-model-training",
+      "custom-attention-operator",
+      "general-quality-evaluator",
+      "untrusted-candidate-isolation"
+    ],
+    "resources": {
+      "cpu_threads": 12,
+      "memory_bytes": 60000000000,
+      "disk_bytes": 200000000000,
+      "wall_seconds": 900,
+      "gpu_requirement": "No GPU needed for a mathematical falsifier; future learned-model stages require a separate admitted training plan."
+    },
+    "stop_rules": [
+      "Stop on any counterexample to claimed exactness, state independence or bounded cost.",
+      "Stop promotion when controller/metadata/fallback cost eliminates the candidate frontier gain.",
+      "Do not launch model training or a custom operator until its implementation, evaluator and resource capabilities are admitted."
+    ],
+    "evaluation": {
+      "development": "Start with theory and tiny finite counterexamples; exploratory evidence cannot become a full LLM efficiency claim.",
+      "confirmation": "Reserve untouched model/workload/scale cases before selection; protected evaluator execution is a later capability gate.",
+      "selection_rule": "Advance only if the central mechanism survives its cheapest decisive falsifiers and all-cost comparison; absence of prior art is not proof of novelty."
+    },
+    "novelty": {
+      "status": "UNVERIFIED",
+      "search_scope": "Bounded primary-source landscape and close-prior comparison through 2026-09-08; nonexhaustive.",
+      "unresolved_questions": [
+        "Gated DeltaNet hybrids, Mamba-3 state tracking, Titans memory and NSA selection are already close. A contribution must show calibrated demand detection and avoided work beyond these matched comparators.",
+        "Whether the proposed delta has already been demonstrated elsewhere.",
+        "Whether the mechanism can deliver a large net frontier shift at LLM scale."
+      ]
+    },
+    "stage": "synthetic_falsifier",
+    "claim_limit": "Unexecuted mechanism hypothesis. A mathematical/local certificate does not establish full-model correctness, useful speed or semantic answer quality."
+  },
+  "adaptive-optimizer-state": {
+    "schema_version": 1,
+    "id": "adaptive-optimizer-state",
+    "title": "Adaptive sufficient statistics for full-weight learning",
+    "domain": "training",
+    "kind": "mechanism_hypothesis",
+    "objective": "efficiency_at_quality",
+    "mechanism_id": "adaptive-optimizer-state-v1",
+    "mechanism": "Can an optimizer adapt its gradient-state rank and precision to measured approximation error, while preserving full-weight learning and improving the total time/memory frontier beyond the best fixed compressed-state optimizer?",
+    "prediction": "Proposed, unvalidated target: at least 2x lower optimizer-state bytes and 20% less end-to-end time to the same held-out quality than the best feasible fixed control; no material worst-domain regression.",
+    "prior_art": [
+      {
+        "source_id": "src-6bbea2425ce9",
+        "overlap": "Block-wise dynamic quantization stores optimizer statistics in eight bits; the paper also uses a stable embedding strategy to address language-model gradient variability.",
+        "proposed_difference": "A reproducible controller that allocates a fixed global state-byte budget across matrices and time using an error signal, with controller/refresh costs charged."
+      },
+      {
+        "source_id": "src-000bf34c8989",
+        "overlap": "Low-rank gradient projection reduces optimizer-state memory while updating full model parameters; original demonstrations include LLaMA-style pretraining and RoBERTa finetuning.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-40bccc2669ce",
+        "overlap": "The framework targets projection-update overhead and integration with modern sharding, and reports Llama-7B pretraining from scratch up to 500B tokens.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-e10347752a32",
+        "overlap": "Random projections support structured approximate learning-rate scaling with very small auxiliary optimizer state; APOLLO-Mini explores a rank-one variant.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-510819c7165f",
+        "overlap": "Matrix-update orthogonalization with weight decay and update-scale adjustment is evaluated at larger language-model scales; authors report favorable compute-optimal scaling and release distributed Muon code.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-2d64e7506dc8",
+        "overlap": "Neuron-wise second-moment normalization follows orthogonalization; the paper also describes distributed orthogonalization with FSDP2.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-dcc69a3e1bb8",
+        "overlap": "Dynamic-range expansion compresses optimizer states; mixed-granularity activation quantization reduces training memory. Authors report 1.54x memory reduction and 1.43x end-to-end speedup against their BF16 setting.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      }
+    ],
+    "technique_ids": [
+      "train-02",
+      "train-07",
+      "train-08",
+      "train-09"
+    ],
+    "baseline": "Register dense AdamW, 8-bit AdamW, GaLore-2/APOLLO and Muon-family controls where available. First test fixed rank/precision grids; then isolate adaptation through rank-only, precision-only and joint ablations. Use at least three seeds and one held-out model size/data mixture.",
+    "candidate_delta": "A reproducible controller that allocates a fixed global state-byte budget across matrices and time using an error signal, with controller/refresh costs charged.",
+    "invariants": [
+      "Same accepted data/tokenizer and evaluator/calibration revision.",
+      "Separate fixed parameter, token, FLOP, wall-time and lifecycle budgets.",
+      "Retain all controller, teacher, proxy, adaptation, evaluation and recovery work."
+    ],
+    "quality_contract": {
+      "metric": "held_out_prediction_quality_and_worst_domain_retention",
+      "direction": "higher",
+      "decision_rule": "Proposed, unvalidated target: at least 2x lower optimizer-state bytes and 20% less end-to-end time to the same held-out quality than the best feasible fixed control; no material worst-domain regression. Exact task-specific numeric metrics and noninferiority bounds must be frozen in a new model-stage plan before execution.",
+      "evaluation_revision": "Requires versioned training/evaluation runtime; corrected DCLM baseline revisions must remain explicit where applicable.",
+      "population": "Chronological or held-out development/confirmation splits, multiple seeds, adverse cases and an unseen scale/domain.",
+      "semantic_equivalence": "Training changes weights/state; assess quality at equal resources and efficiency to a declared quality target separately."
+    },
+    "metrics": [
+      {
+        "name": "quality_at_fixed_total_budget",
+        "unit": "preregistered task score or negative held-out loss",
+        "direction": "higher",
+        "decision_rule": "Compare held-out loss and domain scores after the same end-to-end compute/wall budget."
+      },
+      {
+        "name": "full_cost_to_quality",
+        "unit": "seconds and bytes; measured energy only if supported",
+        "direction": "lower",
+        "decision_rule": "Measure total wall/device energy if observable and peak memory needed to reach a frozen quality target."
+      }
+    ],
+    "ablations": [
+      "Compare against the strongest feasible fixed/static policy at equal total resource use.",
+      "Disable adaptive allocation while keeping the same representation and accounting.",
+      "Compare the complete mechanism to its individual components and a simple matched-budget controller."
+    ],
+    "falsifiers": [
+      "Replay a short recorded gradient sequence: if adaptive state has worse update error than the best fixed budget allocation, reject its allocation rule before language-model training.",
+      "Use matrices with rapid subspace rotation/outlier gradients and include every basis-refresh operation; a win that disappears when refresh costs are counted is a negative result."
+    ],
+    "required_capabilities": [
+      "training-runtime",
+      "custom-model-training",
+      "general-quality-evaluator",
+      "untrusted-candidate-isolation"
+    ],
+    "resources": {
+      "cpu_threads": 12,
+      "memory_bytes": 60000000000,
+      "disk_bytes": 200000000000,
+      "wall_seconds": 900,
+      "gpu_requirement": "No GPU for an initial synthetic counterexample; actual model-stage resources remain a separate unapproved requirement."
+    },
+    "stop_rules": [
+      "Stop promotion if any registered seed diverges or violates memory budget.",
+      "Stop if the fixed-control Pareto frontier dominates after controller overhead, or held-out scale reverses the gain.",
+      "Do not escalate from a short-horizon win without a convergence target and longer-horizon confirmation."
+    ],
+    "evaluation": {
+      "development": "Register dense AdamW, 8-bit AdamW, GaLore-2/APOLLO and Muon-family controls where available. First test fixed rank/precision grids; then isolate adaptation through rank-only, precision-only and joint ablations. Use at least three seeds and one held-out model size/data mixture.",
+      "confirmation": "Freeze selection before untouched scale/domain evaluation in a protected context; proposal generation cannot read those outcomes.",
+      "selection_rule": "Use the registered objective and all-cost Pareto controls; a short-horizon or fixed-parameter win cannot establish broader efficiency."
+    },
+    "novelty": {
+      "status": "UNVERIFIED",
+      "search_scope": "Bounded training-method primary-source review through 2026-09-08; related control/active-learning literature remains an explicit gap.",
+      "unresolved_questions": [
+        "GaLore/GaLore-2 already project gradients; APOLLO already coarsens adaptive scaling; COAT quantizes state; Muon/NorMuon alter matrix update geometry. Merely combining these names is not novelty.",
+        "The precise novelty of the proposed controller/criterion and its benefit beyond tuned existing combinations."
+      ]
+    },
+    "stage": "synthetic_falsifier",
+    "claim_limit": "Proposed training research only; no local training runtime, trained candidate, protected evaluation or validated breakthrough is supplied."
+  },
+  "selective-recurrence": {
+    "schema_version": 1,
+    "id": "selective-recurrence",
+    "title": "Stable selective recurrence across training and deployment",
+    "domain": "joint",
+    "kind": "mechanism_hypothesis",
+    "objective": "quality_at_budget",
+    "mechanism_id": "selective-recurrence-v1",
+    "mechanism": "Can a stable recurrent-depth model learn when to spend additional computation, reaching a better quality frontier than fixed-depth, fixed-loop and token-routing models under the same total training budget and bounded inference tail latency?",
+    "prediction": "Proposed, unvalidated target: match the strongest fixed-budget baseline with half its parameter memory and no worse p95 latency at the chosen serving load; alternatively establish a held-out quality gain at identical memory and latency limits.",
+    "prior_art": [
+      {
+        "source_id": "src-46fd66187ec3",
+        "overlap": "A sweep of model sizes and token budgets derives a compute-allocation relationship and tests a smaller, more extensively trained model at a fixed training budget.",
+        "proposed_difference": "Jointly calibrate training recurrence and causal deployment halting against an explicit lifecycle budget; preserve the difference between fixed-parameter, fixed-FLOP and fixed-wall comparisons."
+      },
+      {
+        "source_id": "src-4401f8f5a512",
+        "overlap": "Top-k token routing under a fixed layer capacity allocates attention/MLP computation unevenly across depth while keeping total tensor-work budgets predictable.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-3c4c76e049f3",
+        "overlap": "A constrained injection parameterization stabilizes recurrent-depth training; experiments study training/test-time recurrence scaling and models up to 1.3B.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-9dbd7059c841",
+        "overlap": "A learned decider allocates extra latent iterations to difficult tokens, with depth-aware LoRA and duo-causal attention; the paper identifies overthinking in always-iterate baselines.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-0c47ea4675bf",
+        "overlap": "State-space duality connects structured recurrent computation and attention variants and motivates Mamba-2.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      }
+    ],
+    "technique_ids": [
+      "train-13",
+      "train-16",
+      "train-17"
+    ],
+    "baseline": "Use one data/tokenizer/evaluator version, fixed-depth dense baselines and best fixed-loop schedules. Isolate recurrence stabilization, halting and training-time recurrence adaptation. Hold out length and difficulty shifts; meter actual loops, routing cost and dense-kernel efficiency.",
+    "candidate_delta": "Jointly calibrate training recurrence and causal deployment halting against an explicit lifecycle budget; preserve the difference between fixed-parameter, fixed-FLOP and fixed-wall comparisons.",
+    "invariants": [
+      "Same accepted data/tokenizer and evaluator/calibration revision.",
+      "Separate fixed parameter, token, FLOP, wall-time and lifecycle budgets.",
+      "Retain all controller, teacher, proxy, adaptation, evaluation and recovery work."
+    ],
+    "quality_contract": {
+      "metric": "held_out_prediction_quality_and_worst_domain_retention",
+      "direction": "higher",
+      "decision_rule": "Proposed, unvalidated target: match the strongest fixed-budget baseline with half its parameter memory and no worse p95 latency at the chosen serving load; alternatively establish a held-out quality gain at identical memory and latency limits. Exact task-specific numeric metrics and noninferiority bounds must be frozen in a new model-stage plan before execution.",
+      "evaluation_revision": "Requires versioned training/evaluation runtime; corrected DCLM baseline revisions must remain explicit where applicable.",
+      "population": "Chronological or held-out development/confirmation splits, multiple seeds, adverse cases and an unseen scale/domain.",
+      "semantic_equivalence": "Training changes weights/state; assess quality at equal resources and efficiency to a declared quality target separately."
+    },
+    "metrics": [
+      {
+        "name": "quality_at_fixed_total_budget",
+        "unit": "preregistered task score or negative held-out loss",
+        "direction": "higher",
+        "decision_rule": "Score models after equal total training expenditure, including router/controller learning."
+      },
+      {
+        "name": "full_cost_to_quality",
+        "unit": "seconds and bytes; measured energy only if supported",
+        "direction": "lower",
+        "decision_rule": "Compare deployment memory and full-response latency at fixed quality, with offline training cost reported separately."
+      }
+    ],
+    "ablations": [
+      "Compare against the strongest feasible fixed/static policy at equal total resource use.",
+      "Disable adaptive allocation while keeping the same representation and accounting.",
+      "Compare the complete mechanism to its individual components and a simple matched-budget controller."
+    ],
+    "falsifiers": [
+      "Begin with a short validation batch containing easy and hard examples: test whether additional loops systematically correct errors or instead overthink correct predictions.",
+      "Compare a learned controller with constant/random matched-compute routing; if its oracle upper bound is small or it cannot beat these cheap controls, stop.",
+      "Reject a fixed-parameter win obtained solely by spending extra loop FLOPs."
+    ],
+    "required_capabilities": [
+      "training-runtime",
+      "custom-model-training",
+      "general-quality-evaluator",
+      "untrusted-candidate-isolation"
+    ],
+    "resources": {
+      "cpu_threads": 12,
+      "memory_bytes": 60000000000,
+      "disk_bytes": 200000000000,
+      "wall_seconds": 900,
+      "gpu_requirement": "No GPU for an initial synthetic counterexample; actual model-stage resources remain a separate unapproved requirement."
+    },
+    "stop_rules": [
+      "Stop on residual explosion, recurrent-gradient instability or failure to restore exact recurrence state.",
+      "Stop if wall-clock savings vanish despite fewer theoretical FLOPs, or held-out lengths violate the inference tail cap.",
+      "Require the controller to beat the tuned fixed-loop frontier before larger-model escalation."
+    ],
+    "evaluation": {
+      "development": "Use one data/tokenizer/evaluator version, fixed-depth dense baselines and best fixed-loop schedules. Isolate recurrence stabilization, halting and training-time recurrence adaptation. Hold out length and difficulty shifts; meter actual loops, routing cost and dense-kernel efficiency.",
+      "confirmation": "Freeze selection before untouched scale/domain evaluation in a protected context; proposal generation cannot read those outcomes.",
+      "selection_rule": "Use the registered objective and all-cost Pareto controls; a short-horizon or fixed-parameter win cannot establish broader efficiency."
+    },
+    "novelty": {
+      "status": "UNVERIFIED",
+      "search_scope": "Bounded training-method primary-source review through 2026-09-08; related control/active-learning literature remains an explicit gap.",
+      "unresolved_questions": [
+        "MoD already routes token computation; Parcae already stabilizes looping and studies scaling; Think-at-Hard already learns selective iterations and exposes latent overthinking.",
+        "The precise novelty of the proposed controller/criterion and its benefit beyond tuned existing combinations."
+      ]
+    },
+    "stage": "synthetic_falsifier",
+    "claim_limit": "Proposed training research only; no local training runtime, trained candidate, protected evaluation or validated breakthrough is supplied."
+  },
+  "selective-memory-consolidation": {
+    "schema_version": 1,
+    "id": "selective-memory-consolidation",
+    "title": "Bounded online memory with selective consolidation",
+    "domain": "joint",
+    "kind": "mechanism_hypothesis",
+    "objective": "quality_at_budget",
+    "mechanism_id": "selective-memory-consolidation-v1",
+    "mechanism": "Can a model learn from a stream through bounded fast memory and selectively consolidate useful information into slower parameters, improving future held-out prediction without sacrificing prior competence or charging unbounded adaptation cost?",
+    "prediction": "Proposed, unvalidated target: at least 20% lower post-shift predictive regret at the same combined budget, with no more than one percentage point loss on protected prior tasks and a fixed fast-state cap.",
+    "prior_art": [
+      {
+        "source_id": "src-bc2f646116c0",
+        "overlap": "TTT layers treat hidden state as a learnable model updated by self-supervised steps while consuming a sequence; linear and MLP instantiations are evaluated at 125M–1.3B scale.",
+        "proposed_difference": "A falsifiable consolidation criterion and memory budget tested on chronological, reversible distribution shifts, with explicit state-isolation and full update-cost accounting."
+      },
+      {
+        "source_id": "src-fd16c584290f",
+        "overlap": "Neural long-term memory learns during sequence processing and is combined with attention-based short-term memory in several architectures.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-1b17ddee7a6b",
+        "overlap": "MIRAS treats sequence models as associative memory and varies memory architecture, inner objective, retention regularizer and update algorithm.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-0e47561f5fa2",
+        "overlap": "Google Research describes nested optimization levels with different update rates and the Hope proof-of-concept for memory/continual learning.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-4fe853316d06",
+        "overlap": "In programming/math instruction tuning and continued pretraining, standard low-rank LoRA underperformed full finetuning while better retaining out-of-domain base behavior.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      }
+    ],
+    "technique_ids": [
+      "train-10",
+      "train-18"
+    ],
+    "baseline": "Compare frozen attention/retrieval, TTT, a no-consolidation fast-memory model and periodic ordinary finetuning. Use delayed labels unavailable to the learner, chronological splits and protected tasks. Factor retention, consolidation frequency and inner-objective changes.",
+    "candidate_delta": "A falsifiable consolidation criterion and memory budget tested on chronological, reversible distribution shifts, with explicit state-isolation and full update-cost accounting.",
+    "invariants": [
+      "Same accepted data/tokenizer and evaluator/calibration revision.",
+      "Separate fixed parameter, token, FLOP, wall-time and lifecycle budgets.",
+      "Retain all controller, teacher, proxy, adaptation, evaluation and recovery work."
+    ],
+    "quality_contract": {
+      "metric": "held_out_prediction_quality_and_worst_domain_retention",
+      "direction": "higher",
+      "decision_rule": "Proposed, unvalidated target: at least 20% lower post-shift predictive regret at the same combined budget, with no more than one percentage point loss on protected prior tasks and a fixed fast-state cap. Exact task-specific numeric metrics and noninferiority bounds must be frozen in a new model-stage plan before execution.",
+      "evaluation_revision": "Requires versioned training/evaluation runtime; corrected DCLM baseline revisions must remain explicit where applicable.",
+      "population": "Chronological or held-out development/confirmation splits, multiple seeds, adverse cases and an unseen scale/domain.",
+      "semantic_equivalence": "Training changes weights/state; assess quality at equal resources and efficiency to a declared quality target separately."
+    },
+    "metrics": [
+      {
+        "name": "quality_at_fixed_total_budget",
+        "unit": "preregistered task score or negative held-out loss",
+        "direction": "higher",
+        "decision_rule": "Measure prequential held-out quality/forgetting under a fixed combined read+adapt budget."
+      },
+      {
+        "name": "full_cost_to_quality",
+        "unit": "seconds and bytes; measured energy only if supported",
+        "direction": "lower",
+        "decision_rule": "Measure memory and adaptation-plus-inference time to a fixed recovery/retention target."
+      }
+    ],
+    "ablations": [
+      "Compare against the strongest feasible fixed/static policy at equal total resource use.",
+      "Disable adaptive allocation while keeping the same representation and accounting.",
+      "Compare the complete mechanism to its individual components and a simple matched-budget controller."
+    ],
+    "falsifiers": [
+      "Use an unchanged-distribution stream: adaptation that hurts the frozen model without compensating future benefit is an immediate negative control.",
+      "Alternate two simple incompatible domains, then restore the original; failure to recover exposes forgetting cheaply.",
+      "Reset fast state between independent streams and inject irrelevant/corrupted context; any gain relying on cross-stream leakage is invalid."
+    ],
+    "required_capabilities": [
+      "training-runtime",
+      "custom-model-training",
+      "general-quality-evaluator",
+      "untrusted-candidate-isolation"
+    ],
+    "resources": {
+      "cpu_threads": 12,
+      "memory_bytes": 60000000000,
+      "disk_bytes": 200000000000,
+      "wall_seconds": 900,
+      "gpu_requirement": "No GPU for an initial synthetic counterexample; actual model-stage resources remain a separate unapproved requirement."
+    },
+    "stop_rules": [
+      "Stop if protected-task degradation or adaptation cost exceeds the preregistered cap.",
+      "Stop if improvement exists only when test labels/evaluation feedback leak into adaptation.",
+      "Stop if memory/state serialization cannot reproduce subsequent predictions or recomputation double-applies updates."
+    ],
+    "evaluation": {
+      "development": "Compare frozen attention/retrieval, TTT, a no-consolidation fast-memory model and periodic ordinary finetuning. Use delayed labels unavailable to the learner, chronological splits and protected tasks. Factor retention, consolidation frequency and inner-objective changes.",
+      "confirmation": "Freeze selection before untouched scale/domain evaluation in a protected context; proposal generation cannot read those outcomes.",
+      "selection_rule": "Use the registered objective and all-cost Pareto controls; a short-horizon or fixed-parameter win cannot establish broader efficiency."
+    },
+    "novelty": {
+      "status": "UNVERIFIED",
+      "search_scope": "Bounded training-method primary-source review through 2026-09-08; related control/active-learning literature remains an explicit gap.",
+      "unresolved_questions": [
+        "TTT already updates learnable hidden state; Titans adds neural long-term memory; MIRAS varies inner objectives/retention; Nested Learning proposes multiple update timescales.",
+        "The precise novelty of the proposed controller/criterion and its benefit beyond tuned existing combinations."
+      ]
+    },
+    "stage": "synthetic_falsifier",
+    "claim_limit": "Proposed training research only; no local training runtime, trained candidate, protected evaluation or validated breakthrough is supplied."
+  },
+  "marginal-learning-allocation": {
+    "schema_version": 1,
+    "id": "marginal-learning-allocation",
+    "title": "Allocate data and teacher work by marginal learning value",
+    "domain": "training",
+    "kind": "mechanism_hypothesis",
+    "objective": "efficiency_at_quality",
+    "mechanism_id": "marginal-learning-allocation-v1",
+    "mechanism": "Can a controller decide which examples deserve ordinary training, stronger teacher supervision or no further compute, reaching protected quality targets with substantially less total data-curation, teacher and student work than tuned static mixtures and distillation?",
+    "prediction": "Proposed, unvalidated target: at least 2x lower total counted work to the same protected quality than the strongest static baseline, with no material worst-domain regression.",
+    "prior_art": [
+      {
+        "source_id": "src-2c97f7638e07",
+        "overlap": "A small proxy trained with distributionally robust domain reweighting sets the mixture for a larger model; authors demonstrate proxy-to-8B transfer.",
+        "proposed_difference": "Estimate marginal transferable learning value under a single total compute budget, separating teacher selection, sample reweighting and proxy reuse, and validate transfer to unseen domains/model sizes."
+      },
+      {
+        "source_id": "src-d25788b044e7",
+        "overlap": "Controlled data curation experiments use standardized training recipes and downstream evaluations; filtering and data mixing are experimentally meaningful design choices.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-b81fec5a671e",
+        "overlap": "Official README reports corrected multiple-choice baseline values: older and newer centered CORE/EXTENDED scores are not directly comparable; displayed results may still use old values.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-46fd66187ec3",
+        "overlap": "A sweep of model sizes and token budgets derives a compute-allocation relationship and tests a smaller, more extensively trained model at a fixed training budget.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-50d37923b14e",
+        "overlap": "Reverse-KL distillation is developed for generative language models and evaluated on instruction-following students from 120M to 13B parameters.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      },
+      {
+        "source_id": "src-4cd8fde22db0",
+        "overlap": "Large-scale RL post-training, plus cold-start/multi-stage training in R1, is used to develop reasoning behavior; distilled dense checkpoints are also released.",
+        "proposed_difference": "Separate the declared adaptive mechanism from this established comparator under matched, fully counted resources."
+      }
+    ],
+    "technique_ids": [
+      "train-12",
+      "train-13",
+      "train-14",
+      "train-20"
+    ],
+    "baseline": "Start with uniform sampling, best static domain weights, DoReMi-style proxy weights, fixed teacher distillation and student-only training. Keep evaluation inaccessible to policy updates; deduplicate all teacher/student data against protected tests; pin corrected DCLM evaluator metadata.",
+    "candidate_delta": "Estimate marginal transferable learning value under a single total compute budget, separating teacher selection, sample reweighting and proxy reuse, and validate transfer to unseen domains/model sizes.",
+    "invariants": [
+      "Same accepted data/tokenizer and evaluator/calibration revision.",
+      "Separate fixed parameter, token, FLOP, wall-time and lifecycle budgets.",
+      "Retain all controller, teacher, proxy, adaptation, evaluation and recovery work."
+    ],
+    "quality_contract": {
+      "metric": "held_out_prediction_quality_and_worst_domain_retention",
+      "direction": "higher",
+      "decision_rule": "Proposed, unvalidated target: at least 2x lower total counted work to the same protected quality than the strongest static baseline, with no material worst-domain regression. Exact task-specific numeric metrics and noninferiority bounds must be frozen in a new model-stage plan before execution.",
+      "evaluation_revision": "Requires versioned training/evaluation runtime; corrected DCLM baseline revisions must remain explicit where applicable.",
+      "population": "Chronological or held-out development/confirmation splits, multiple seeds, adverse cases and an unseen scale/domain.",
+      "semantic_equivalence": "Training changes weights/state; assess quality at equal resources and efficiency to a declared quality target separately."
+    },
+    "metrics": [
+      {
+        "name": "quality_at_fixed_total_budget",
+        "unit": "preregistered task score or negative held-out loss",
+        "direction": "higher",
+        "decision_rule": "Use one total ledger for filtering/proxies/teacher generation or scoring/student updates."
+      },
+      {
+        "name": "full_cost_to_quality",
+        "unit": "seconds and bytes; measured energy only if supported",
+        "direction": "lower",
+        "decision_rule": "Compare cost to a frozen aggregate and worst-domain quality target."
+      }
+    ],
+    "ablations": [
+      "Compare against the strongest feasible fixed/static policy at equal total resource use.",
+      "Disable adaptive allocation while keeping the same representation and accounting.",
+      "Compare the complete mechanism to its individual components and a simple matched-budget controller."
+    ],
+    "falsifiers": [
+      "Charge teacher/proxy work in a small offline pilot: if selection overhead exceeds the maximum possible student saving, stop immediately.",
+      "Compare the learned allocation with token-length matching, random selection and a cheap static quality filter; failure to beat them rejects the elaborate controller.",
+      "Use a teacher deliberately weak on one domain to test whether selection preserves coverage rather than copying teacher blind spots."
+    ],
+    "required_capabilities": [
+      "training-runtime",
+      "custom-model-training",
+      "general-quality-evaluator",
+      "untrusted-candidate-isolation"
+    ],
+    "resources": {
+      "cpu_threads": 12,
+      "memory_bytes": 60000000000,
+      "disk_bytes": 200000000000,
+      "wall_seconds": 900,
+      "gpu_requirement": "No GPU for an initial synthetic counterexample; actual model-stage resources remain a separate unapproved requirement."
+    },
+    "stop_rules": [
+      "Stop on protected-test contamination, unversioned teacher outputs or omission of acquisition/filtering work.",
+      "Stop if the gain disappears under matched unique-token counts or corrected evaluator baselines.",
+      "Stop escalation if the policy fails to transfer to a held-out model scale/domain mixture."
+    ],
+    "evaluation": {
+      "development": "Start with uniform sampling, best static domain weights, DoReMi-style proxy weights, fixed teacher distillation and student-only training. Keep evaluation inaccessible to policy updates; deduplicate all teacher/student data against protected tests; pin corrected DCLM evaluator metadata.",
+      "confirmation": "Freeze selection before untouched scale/domain evaluation in a protected context; proposal generation cannot read those outcomes.",
+      "selection_rule": "Use the registered objective and all-cost Pareto controls; a short-horizon or fixed-parameter win cannot establish broader efficiency."
+    },
+    "novelty": {
+      "status": "UNVERIFIED",
+      "search_scope": "Bounded training-method primary-source review through 2026-09-08; related control/active-learning literature remains an explicit gap.",
+      "unresolved_questions": [
+        "DoReMi already learns domain mixtures with proxies; DCLM supplies curation baselines; MiniLLM and R1 demonstrate teacher-based transfer. Adaptive data/teacher allocation alone is not established as novel.",
+        "The precise novelty of the proposed controller/criterion and its benefit beyond tuned existing combinations."
+      ]
+    },
+    "stage": "synthetic_falsifier",
+    "claim_limit": "Proposed training research only; no local training runtime, trained candidate, protected evaluation or validated breakthrough is supplied."
+  }
+}

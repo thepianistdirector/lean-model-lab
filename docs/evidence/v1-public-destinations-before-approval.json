@@ -1,0 +1,48 @@
+{
+  "status": "READ_ONLY_PREPARATION_NO_PUBLICATION",
+  "observations": [
+    {
+      "url": "https://api.github.com/repos/thepianistdirector/lean-model-lab",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/thepianistdirector/lean-model-lab",
+      "bytes": 6035,
+      "sha256": "d86007b82060f3466e53e61f1be9b0d6572a7257e261ed5339c6af9fd6c533bd",
+      "observed_utc": "2026-09-08T23:33:57.344213+00:00",
+      "summary": {
+        "full_name": "thepianistdirector/lean-model-lab",
+        "visibility": "public",
+        "default_branch": "main",
+        "html_url": "https://github.com/thepianistdirector/lean-model-lab",
+        "archived": false
+      }
+    },
+    {
+      "url": "https://api.github.com/repos/thepianistdirector/lean-model-lab/releases",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/thepianistdirector/lean-model-lab/releases",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "observed_utc": "2026-09-08T23:33:57.317601+00:00",
+      "summary": []
+    },
+    {
+      "url": "https://tanduna.com/projects/lean-model-lab",
+      "status": 200,
+      "final_url": "https://tanduna.com/projects/lean-model-lab",
+      "bytes": 44412,
+      "sha256": "7447a30fe4aa26f3505ea139da6209db7b84ee060036f3526abe957c85de2228",
+      "observed_utc": "2026-09-08T23:33:57.676408+00:00"
+    }
+  ],
+  "tanduna_visible_state": {
+    "project": "Lean Model Lab",
+    "published_roadmap": "No published scope yet",
+    "open_tasks": 0,
+    "releases": 0,
+    "open_proposals": 1,
+    "visible_repository_foundation_commit": "821c636",
+    "scope": "Visible public page only; no authenticated editorial session or native plan submission capability established."
+  },
+  "local_git_author_configuration": "No repository or inherited user.name/user.email returned; author identity has not been assigned.",
+  "release_boundary": "These are intended existing destinations. No source push, tag, release, Tanduna write, outreach or paper submission was performed."
+}

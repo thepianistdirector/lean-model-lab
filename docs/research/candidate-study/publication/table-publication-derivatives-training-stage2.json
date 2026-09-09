@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "original_filename": "requests.csv",
+      "original_sha256": "777a97ade0683d688ff99e25265546adcd96df992610921e8009abd5b1a48f60",
+      "publication_path": "docs/research/candidate-study/publication/tables/training-stage2/requests.csv",
+      "derived_sha256": "f90ee6eee4095aeffc4cbee12b74f440cac6193a2e0bd80d84871b872187690b",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "Only operational extraction-root tokens normalized; all scientific values unchanged."
+    },
+    {
+      "original_filename": "repetition-stability.csv",
+      "original_sha256": "8a91af19666c0b66deeee6cd954bea1466738129069e8d7d84a590723c4f2e53",
+      "publication_path": "docs/research/candidate-study/publication/tables/training-stage2/repetition-stability.csv",
+      "derived_sha256": "0c900ecd5b3666466357c69bc473ed5077ee8424cceea559fdae6d258aae90e8",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "Only operational extraction-root tokens normalized; all scientific values unchanged."
+    },
+    {
+      "original_filename": "attempts.csv",
+      "original_sha256": "4eca701d41596b9102d2221d1fe508885259ef3c47a4e04717127b6aa588f1ac",
+      "publication_path": "docs/research/candidate-study/publication/tables/training-stage2/attempts.csv",
+      "derived_sha256": "15e23f561c7dba38296def3a1dcfb1ed1f7fd17fec2e87fb3487704fba7393cc",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "Only operational extraction-root tokens normalized; all scientific values unchanged."
+    },
+    {
+      "original_filename": "paired.csv",
+      "original_sha256": "9685d9c480f3bae246f8c3d17ba3a39e2026f0c48d23e9c10258a2953e5c005a",
+      "publication_path": "docs/research/candidate-study/publication/tables/training-stage2/paired.csv",
+      "derived_sha256": "b3675479290c08af092aa3103386b5080cb71924e087e5849690584394e5c8d1",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "Only operational extraction-root tokens normalized; all scientific values unchanged."
+    },
+    {
+      "original_filename": "route-counts.csv",
+      "original_sha256": "8cd7cdaa5a56fa35d35386b05b5deda0477d57399ef5c62b45d68e35c0b96f08",
+      "publication_path": "docs/research/candidate-study/publication/tables/training-stage2/route-counts.csv",
+      "derived_sha256": "55535d001968f4ce869dfee4970281b721488facfb471cf0b363119410d159e7",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "Only operational extraction-root tokens normalized; all scientific values unchanged."
+    },
+    {
+      "original_filename": "analysis.json",
+      "original_sha256": "73791cab65b4d737cc285ece7108a071e0cd1f275aaf5bf2956271db58db6b14",
+      "publication_path": "docs/research/candidate-study/publication/tables/training-stage2/analysis.json",
+      "derived_sha256": "f3352d9a977fa214accca9699a24551f0d8b1ab427a52f8b4fe23355eab5a9f6",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 5
+      },
+      "scope": "Only operational extraction-root tokens normalized; all scientific values unchanged."
+    },
+    {
+      "original_filename": "oracle-strata.csv",
+      "original_sha256": "ee96abffc8a0ae265d41667e81a02cc3a12b73af7c71bf2dd30b67867c1b3419",
+      "publication_path": "docs/research/candidate-study/publication/tables/training-stage2/oracle-strata.csv",
+      "derived_sha256": "5de0f60d414c79270a8a10c120262d12f7f5802930e8e1936bfff25372412bd5",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "Only operational extraction-root tokens normalized; all scientific values unchanged."
+    },
+    {
+      "original_filename": "cost-scopes.csv",
+      "original_sha256": "c9fde6127dbf17ae85459ae8807de5e58affbdd6ed61ffa469968726b07f1b42",
+      "publication_path": "docs/research/candidate-study/publication/tables/training-stage2/cost-scopes.csv",
+      "derived_sha256": "e4c651863de2e743912a0291127729335e20228de9e5ab598ff1a4a1dd3ded92",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "Only operational extraction-root tokens normalized; all scientific values unchanged."
+    }
+  ]
+}

@@ -49,3 +49,12 @@ For each model and dataset, record provenance, permitted use, attribution, redis
 Official documentation establishes what an upstream project says it supports. A local capability probe establishes what one exact environment exposes. Correctness tests establish a bounded behavior. Controlled repeated measurements establish performance within their workload/hardware/runtime envelope. None alone proves portability, scientific novelty or a production service.
 
 The repository's original content is AGPL-3.0-only. Referenced papers, software, model weights, tokenizers and datasets retain their own terms and are not relicensed by this repository.
+
+## 0.1 adoption review — proposed, not installed
+
+The current Linux CPU host and exact proposed dependency graph are reviewed in `docs/decisions/backend-audit.md`. This supersedes the old host assumption for the new narrow path. The existing Python 3.12 standard library implements the model-free increment; no production package is installed for it.
+
+- [llama.cpp v0.2.0 / pinned source bb4caa7540188872173c44d161602d9271386413](https://github.com/ggml-org/llama.cpp/tree/bb4caa7540188872173c44d161602d9271386413): reviewed CPU native completion/stream/cache interface and bundled source graph; actual approved CPU build and comparison completed 2026-09-08 with the explicitly recorded GCC 8 patch; see `docs/results/cpu-20260908.md`.
+- [Official Qwen2.5-0.5B-Instruct-GGUF revision 9217f5db79a29953eb74d5343926648285ec7e67](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/tree/9217f5db79a29953eb74d5343926648285ec7e67): proposed FP16 weights plus embedded tokenizer, with exact SHA-256 and Apache-2.0 license recorded in the decision. No acquisition or weight redistribution is claimed.
+- [Pinned native server documentation](https://github.com/ggml-org/llama.cpp/blob/bb4caa7540188872173c44d161602d9271386413/tools/server/README.md) and source serialization distinguish actual cached-prefix count (`timings.cache_n`) from final slot occupancy (`tokens_cached`); final SSE output arrays are empty. These details are normalization requirements, not evidence of an executed model.
+- Original synthetic key-copy prompts are generated in this repository and carry its AGPL-3.0-only terms. Expected keys predate model outputs; no external dataset or private prompt is used.

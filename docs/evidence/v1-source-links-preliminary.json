@@ -1,0 +1,20 @@
+{
+  "checked": 212,
+  "missing": [
+    {
+      "source": "docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+      "target": "README.ijg",
+      "classification": "PRESERVED_UPSTREAM_NOTICE_RELATIVE_LINK",
+      "available_notice": "docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt",
+      "available_notice_sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6"
+    },
+    {
+      "source": "docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+      "target": "README.ijg",
+      "classification": "PRESERVED_UPSTREAM_NOTICE_RELATIVE_LINK",
+      "available_notice": "docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt",
+      "available_notice_sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6"
+    }
+  ],
+  "scope": "Pre-final source Markdown link check; 210 local links resolve, two unchanged upstream notice links refer to IJG license text retained under the upstream packaging filename. No network or final ZIP link check."
+}

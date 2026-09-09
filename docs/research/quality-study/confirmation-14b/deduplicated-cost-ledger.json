@@ -1,0 +1,4468 @@
+[
+  {
+    "duration_s": 3.393730642,
+    "finish_ns": 267653993683191,
+    "start_ns": 267650599952549,
+    "views": [
+      {
+        "bytes_acquired": 203560001,
+        "details": "source-acquisition; exact source/model profile; all logs retained",
+        "duration_s": 3.393730642,
+        "finish_ns": 267653993683191,
+        "kind": "inherited_or_current_setup",
+        "phase": "source-acquisition",
+        "record_index": 0,
+        "start_ns": 267650599952549,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 203560001,
+        "details": "source-acquisition; exact source/model profile; all logs retained",
+        "duration_s": 3.393730642,
+        "finish_ns": 267653993683191,
+        "kind": "inherited_or_current_setup",
+        "phase": "source-acquisition",
+        "record_index": 0,
+        "start_ns": 267650599952549,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 203560001,
+        "details": "source-acquisition; exact source/model profile; all logs retained",
+        "duration_s": 3.393730642,
+        "finish_ns": 267653993683191,
+        "kind": "inherited_or_current_setup",
+        "phase": "source-acquisition",
+        "record_index": 0,
+        "start_ns": 267650599952549,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1385.24336402,
+    "finish_ns": 269039296706754,
+    "start_ns": 267654053342734,
+    "views": [
+      {
+        "bytes_acquired": 29547718862,
+        "details": "model-acquisition; exact source/model profile; all logs retained",
+        "duration_s": 1385.24336402,
+        "finish_ns": 269039296706754,
+        "kind": "inherited_or_current_setup",
+        "phase": "model-acquisition",
+        "record_index": 1,
+        "start_ns": 267654053342734,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 29547718862,
+        "details": "model-acquisition; exact source/model profile; all logs retained",
+        "duration_s": 1385.24336402,
+        "finish_ns": 269039296706754,
+        "kind": "inherited_or_current_setup",
+        "phase": "model-acquisition",
+        "record_index": 1,
+        "start_ns": 267654053342734,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 29547718862,
+        "details": "model-acquisition; exact source/model profile; all logs retained",
+        "duration_s": 1385.24336402,
+        "finish_ns": 269039296706754,
+        "kind": "inherited_or_current_setup",
+        "phase": "model-acquisition",
+        "record_index": 1,
+        "start_ns": 267654053342734,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 50.694853791,
+    "finish_ns": 269090033173571,
+    "start_ns": 269039338319780,
+    "views": [
+      {
+        "bytes_acquired": 91272566,
+        "details": "build; exact source/model profile; all logs retained",
+        "duration_s": 50.694853791,
+        "finish_ns": 269090033173571,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 2,
+        "start_ns": 269039338319780,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 91272566,
+        "details": "build; exact source/model profile; all logs retained",
+        "duration_s": 50.694853791,
+        "finish_ns": 269090033173571,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 2,
+        "start_ns": 269039338319780,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 91272566,
+        "details": "build; exact source/model profile; all logs retained",
+        "duration_s": 50.694853791,
+        "finish_ns": 269090033173571,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 2,
+        "start_ns": 269039338319780,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.008284047,
+    "finish_ns": 271078589922117,
+    "start_ns": 271078581638070,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 0.008284047,
+        "finish_ns": 271078589922117,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 3,
+        "start_ns": 271078581638070,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 0.008284047,
+        "finish_ns": 271078589922117,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 3,
+        "start_ns": 271078581638070,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 0.008284047,
+        "finish_ns": 271078589922117,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 3,
+        "start_ns": 271078581638070,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 96.617754436,
+    "finish_ns": 271175228741085,
+    "start_ns": 271078610986649,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-ef23c70543104805b968deb5c49ea142\",\"source_attempt_sha256\":\"71c53484ecac5aac87bf719605ad7517199b163e03cbc0266cd9d8d77f158fe0\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 96.617754436,
+        "finish_ns": 271175228741085,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 4,
+        "start_ns": 271078610986649,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-ef23c70543104805b968deb5c49ea142\",\"source_attempt_sha256\":\"71c53484ecac5aac87bf719605ad7517199b163e03cbc0266cd9d8d77f158fe0\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 96.617754436,
+        "finish_ns": 271175228741085,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 4,
+        "start_ns": 271078610986649,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-ef23c70543104805b968deb5c49ea142\",\"source_attempt_sha256\":\"71c53484ecac5aac87bf719605ad7517199b163e03cbc0266cd9d8d77f158fe0\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 96.617754436,
+        "finish_ns": 271175228741085,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 4,
+        "start_ns": 271078610986649,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.062001679,
+    "finish_ns": 271175290742764,
+    "start_ns": 271175228741085,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.062001679,
+        "finish_ns": 271175290742764,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 5,
+        "start_ns": 271175228741085,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.062001679,
+        "finish_ns": 271175290742764,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 5,
+        "start_ns": 271175228741085,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.062001679,
+        "finish_ns": 271175290742764,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 5,
+        "start_ns": 271175228741085,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 64.379326116,
+    "finish_ns": 271239693667903,
+    "start_ns": 271175314341787,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-feeb086c3bf648dd9770a98792ac4635\",\"source_attempt_sha256\":\"723de5dcf65959f652751f2e5238879e216e789f079c3ccaa8d9b3db771fc11d\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 64.379326116,
+        "finish_ns": 271239693667903,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 6,
+        "start_ns": 271175314341787,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-feeb086c3bf648dd9770a98792ac4635\",\"source_attempt_sha256\":\"723de5dcf65959f652751f2e5238879e216e789f079c3ccaa8d9b3db771fc11d\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 64.379326116,
+        "finish_ns": 271239693667903,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 6,
+        "start_ns": 271175314341787,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-feeb086c3bf648dd9770a98792ac4635\",\"source_attempt_sha256\":\"723de5dcf65959f652751f2e5238879e216e789f079c3ccaa8d9b3db771fc11d\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 64.379326116,
+        "finish_ns": 271239693667903,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 6,
+        "start_ns": 271175314341787,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.055089893,
+    "finish_ns": 271239748757796,
+    "start_ns": 271239693667903,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.055089893,
+        "finish_ns": 271239748757796,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 7,
+        "start_ns": 271239693667903,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.055089893,
+        "finish_ns": 271239748757796,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 7,
+        "start_ns": 271239693667903,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.055089893,
+        "finish_ns": 271239748757796,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 7,
+        "start_ns": 271239693667903,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 62.980189246,
+    "finish_ns": 271302754089694,
+    "start_ns": 271239773900448,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-32b79126ee88461b9928ee5d34ebf2e0\",\"source_attempt_sha256\":\"58069c00aeaa9df1ca7172564ee7e64afbc6c74f76690431d66ace03c3e2e992\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 62.980189246,
+        "finish_ns": 271302754089694,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 8,
+        "start_ns": 271239773900448,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-32b79126ee88461b9928ee5d34ebf2e0\",\"source_attempt_sha256\":\"58069c00aeaa9df1ca7172564ee7e64afbc6c74f76690431d66ace03c3e2e992\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 62.980189246,
+        "finish_ns": 271302754089694,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 8,
+        "start_ns": 271239773900448,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-32b79126ee88461b9928ee5d34ebf2e0\",\"source_attempt_sha256\":\"58069c00aeaa9df1ca7172564ee7e64afbc6c74f76690431d66ace03c3e2e992\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 62.980189246,
+        "finish_ns": 271302754089694,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 8,
+        "start_ns": 271239773900448,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.064326882,
+    "finish_ns": 271302818416576,
+    "start_ns": 271302754089694,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.064326882,
+        "finish_ns": 271302818416576,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 9,
+        "start_ns": 271302754089694,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.064326882,
+        "finish_ns": 271302818416576,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 9,
+        "start_ns": 271302754089694,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.064326882,
+        "finish_ns": 271302818416576,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 9,
+        "start_ns": 271302754089694,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 96.006130498,
+    "finish_ns": 271398857876832,
+    "start_ns": 271302851746334,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-192da4ce255c41ee96a5e87290d1998d\",\"source_attempt_sha256\":\"04a210939664bad26f26e8cc2db6a109a2ba9ca400f6220a87b5d19cfe4ace91\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 96.006130498,
+        "finish_ns": 271398857876832,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 10,
+        "start_ns": 271302851746334,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-192da4ce255c41ee96a5e87290d1998d\",\"source_attempt_sha256\":\"04a210939664bad26f26e8cc2db6a109a2ba9ca400f6220a87b5d19cfe4ace91\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 96.006130498,
+        "finish_ns": 271398857876832,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 10,
+        "start_ns": 271302851746334,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-192da4ce255c41ee96a5e87290d1998d\",\"source_attempt_sha256\":\"04a210939664bad26f26e8cc2db6a109a2ba9ca400f6220a87b5d19cfe4ace91\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"8bee2851104647af831546ec6d75de87\"}",
+        "duration_s": 96.006130498,
+        "finish_ns": 271398857876832,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 10,
+        "start_ns": 271302851746334,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.095390388,
+    "finish_ns": 271398953267220,
+    "start_ns": 271398857876832,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.095390388,
+        "finish_ns": 271398953267220,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 11,
+        "start_ns": 271398857876832,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.095390388,
+        "finish_ns": 271398953267220,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 11,
+        "start_ns": 271398857876832,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.095390388,
+        "finish_ns": 271398953267220,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 11,
+        "start_ns": 271398857876832,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.046526767,
+    "finish_ns": 271452708154195,
+    "start_ns": 271452661627428,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 0.046526767,
+        "finish_ns": 271452708154195,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 12,
+        "start_ns": 271452661627428,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 0.046526767,
+        "finish_ns": 271452708154195,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 12,
+        "start_ns": 271452661627428,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 0.046526767,
+        "finish_ns": 271452708154195,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 12,
+        "start_ns": 271452661627428,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 38.597964321,
+    "finish_ns": 271491405291334,
+    "start_ns": 271452807327013,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":2,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-3d51d5a6e6a548c9ae3f0655bf6c41cf\",\"source_attempt_sha256\":\"afaef0a5ea238838d3787a240b7ba2567bc77edd7f80a34ebcebc96fc7daef27\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"1423c6c92493420aadeac4fddd29145c\"}",
+        "duration_s": 38.597964321,
+        "finish_ns": 271491405291334,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 13,
+        "start_ns": 271452807327013,
+        "status": "INTERRUPTED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":2,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-3d51d5a6e6a548c9ae3f0655bf6c41cf\",\"source_attempt_sha256\":\"afaef0a5ea238838d3787a240b7ba2567bc77edd7f80a34ebcebc96fc7daef27\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"1423c6c92493420aadeac4fddd29145c\"}",
+        "duration_s": 38.597964321,
+        "finish_ns": 271491405291334,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 13,
+        "start_ns": 271452807327013,
+        "status": "INTERRUPTED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":2,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-3d51d5a6e6a548c9ae3f0655bf6c41cf\",\"source_attempt_sha256\":\"afaef0a5ea238838d3787a240b7ba2567bc77edd7f80a34ebcebc96fc7daef27\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"1423c6c92493420aadeac4fddd29145c\"}",
+        "duration_s": 38.597964321,
+        "finish_ns": 271491405291334,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 13,
+        "start_ns": 271452807327013,
+        "status": "INTERRUPTED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.024577,
+    "finish_ns": 271491429868334,
+    "start_ns": 271491405291334,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "retained interrupted/publication attempt; recovery wait, raw hashing and finalization",
+        "duration_s": 0.024577,
+        "finish_ns": 271491429868334,
+        "kind": "inherited_or_current_setup",
+        "phase": "recovery-reconciliation",
+        "record_index": 14,
+        "start_ns": 271491405291334,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "retained interrupted/publication attempt; recovery wait, raw hashing and finalization",
+        "duration_s": 0.024577,
+        "finish_ns": 271491429868334,
+        "kind": "inherited_or_current_setup",
+        "phase": "recovery-reconciliation",
+        "record_index": 14,
+        "start_ns": 271491405291334,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "retained interrupted/publication attempt; recovery wait, raw hashing and finalization",
+        "duration_s": 0.024577,
+        "finish_ns": 271491429868334,
+        "kind": "inherited_or_current_setup",
+        "phase": "recovery-reconciliation",
+        "record_index": 14,
+        "start_ns": 271491405291334,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 92.931312056,
+    "finish_ns": 271584499268658,
+    "start_ns": 271491567956602,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-522fee4b7a6f4552aabf4d3aa801c159\",\"source_attempt_sha256\":\"b5fa42ca912c95380122cb0cf87589bd8ad1cfd7fa362611ec88ec01b351f677\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"1423c6c92493420aadeac4fddd29145c\"}",
+        "duration_s": 92.931312056,
+        "finish_ns": 271584499268658,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 15,
+        "start_ns": 271491567956602,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-522fee4b7a6f4552aabf4d3aa801c159\",\"source_attempt_sha256\":\"b5fa42ca912c95380122cb0cf87589bd8ad1cfd7fa362611ec88ec01b351f677\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"1423c6c92493420aadeac4fddd29145c\"}",
+        "duration_s": 92.931312056,
+        "finish_ns": 271584499268658,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 15,
+        "start_ns": 271491567956602,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-522fee4b7a6f4552aabf4d3aa801c159\",\"source_attempt_sha256\":\"b5fa42ca912c95380122cb0cf87589bd8ad1cfd7fa362611ec88ec01b351f677\",\"source_config_sha256\":\"ca33891a79a8d02c71b924ca73b2ccee453c9067a39cc346cc8bdd5c3f6bf8e9\",\"source_recipe_sha256\":\"28a1de610c82ff42cd01ff0bca24414b2629c3fb91832b0f45eb0173dcaa54a4\",\"source_session_id\":\"1423c6c92493420aadeac4fddd29145c\"}",
+        "duration_s": 92.931312056,
+        "finish_ns": 271584499268658,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 15,
+        "start_ns": 271491567956602,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.075137595,
+    "finish_ns": 271584574406253,
+    "start_ns": 271584499268658,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.075137595,
+        "finish_ns": 271584574406253,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 16,
+        "start_ns": 271584499268658,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.075137595,
+        "finish_ns": 271584574406253,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 16,
+        "start_ns": 271584499268658,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.075137595,
+        "finish_ns": 271584574406253,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 16,
+        "start_ns": 271584499268658,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.215167826,
+    "finish_ns": 272080307749245,
+    "start_ns": 272080092581419,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 0.215167826,
+        "finish_ns": 272080307749245,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 17,
+        "start_ns": 272080092581419,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 0.215167826,
+        "finish_ns": 272080307749245,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 17,
+        "start_ns": 272080092581419,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 0.215167826,
+        "finish_ns": 272080307749245,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 17,
+        "start_ns": 272080092581419,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.110276197,
+    "finish_ns": 273311397577539,
+    "start_ns": 273311287301342,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.110276197,
+        "finish_ns": 273311397577539,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 18,
+        "start_ns": 273311287301342,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.110276197,
+        "finish_ns": 273311397577539,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 19,
+        "start_ns": 273311287301342,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.110276197,
+        "finish_ns": 273311397577539,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 19,
+        "start_ns": 273311287301342,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.154250908,
+    "finish_ns": 274015110915674,
+    "start_ns": 274014956664766,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.154250908,
+        "finish_ns": 274015110915674,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 19,
+        "start_ns": 274014956664766,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.154250908,
+        "finish_ns": 274015110915674,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 21,
+        "start_ns": 274014956664766,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.154250908,
+        "finish_ns": 274015110915674,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 21,
+        "start_ns": 274014956664766,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.256397216,
+    "finish_ns": 274738541277210,
+    "start_ns": 274738284879994,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.256397216,
+        "finish_ns": 274738541277210,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 20,
+        "start_ns": 274738284879994,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.256397216,
+        "finish_ns": 274738541277210,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 23,
+        "start_ns": 274738284879994,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.256397216,
+        "finish_ns": 274738541277210,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 23,
+        "start_ns": 274738284879994,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.30909328,
+    "finish_ns": 275963291979495,
+    "start_ns": 275962982886215,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.30909328,
+        "finish_ns": 275963291979495,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 21,
+        "start_ns": 275962982886215,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.30909328,
+        "finish_ns": 275963291979495,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 25,
+        "start_ns": 275962982886215,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.30909328,
+        "finish_ns": 275963291979495,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 25,
+        "start_ns": 275962982886215,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.352223774,
+    "finish_ns": 277212179733167,
+    "start_ns": 277211827509393,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.352223774,
+        "finish_ns": 277212179733167,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 22,
+        "start_ns": 277211827509393,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.352223774,
+        "finish_ns": 277212179733167,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 27,
+        "start_ns": 277211827509393,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.352223774,
+        "finish_ns": 277212179733167,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 27,
+        "start_ns": 277211827509393,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.510082653,
+    "finish_ns": 277941273554209,
+    "start_ns": 277940763471556,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.510082653,
+        "finish_ns": 277941273554209,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 23,
+        "start_ns": 277940763471556,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.510082653,
+        "finish_ns": 277941273554209,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 29,
+        "start_ns": 277940763471556,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.510082653,
+        "finish_ns": 277941273554209,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 29,
+        "start_ns": 277940763471556,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.494803987,
+    "finish_ns": 278664871034367,
+    "start_ns": 278664376230380,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.494803987,
+        "finish_ns": 278664871034367,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 24,
+        "start_ns": 278664376230380,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.494803987,
+        "finish_ns": 278664871034367,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 31,
+        "start_ns": 278664376230380,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.494803987,
+        "finish_ns": 278664871034367,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 31,
+        "start_ns": 278664376230380,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.642293372,
+    "finish_ns": 279913991050247,
+    "start_ns": 279913348756875,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.642293372,
+        "finish_ns": 279913991050247,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 25,
+        "start_ns": 279913348756875,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.642293372,
+        "finish_ns": 279913991050247,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 33,
+        "start_ns": 279913348756875,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.642293372,
+        "finish_ns": 279913991050247,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 33,
+        "start_ns": 279913348756875,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.628802145,
+    "finish_ns": 281045628112717,
+    "start_ns": 281044999310572,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.628802145,
+        "finish_ns": 281045628112717,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 26,
+        "start_ns": 281044999310572,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.628802145,
+        "finish_ns": 281045628112717,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 35,
+        "start_ns": 281044999310572,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.628802145,
+        "finish_ns": 281045628112717,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 35,
+        "start_ns": 281044999310572,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.783910832,
+    "finish_ns": 281380641196210,
+    "start_ns": 281379857285378,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.783910832,
+        "finish_ns": 281380641196210,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 27,
+        "start_ns": 281379857285378,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.783910832,
+        "finish_ns": 281380641196210,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 37,
+        "start_ns": 281379857285378,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.783910832,
+        "finish_ns": 281380641196210,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 37,
+        "start_ns": 281379857285378,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.876015779,
+    "finish_ns": 281737387834459,
+    "start_ns": 281736511818680,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.876015779,
+        "finish_ns": 281737387834459,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 28,
+        "start_ns": 281736511818680,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.876015779,
+        "finish_ns": 281737387834459,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 39,
+        "start_ns": 281736511818680,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.876015779,
+        "finish_ns": 281737387834459,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 39,
+        "start_ns": 281736511818680,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.828078179,
+    "finish_ns": 282928563478722,
+    "start_ns": 282927735400543,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.828078179,
+        "finish_ns": 282928563478722,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 29,
+        "start_ns": 282927735400543,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.828078179,
+        "finish_ns": 282928563478722,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 41,
+        "start_ns": 282927735400543,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.828078179,
+        "finish_ns": 282928563478722,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 41,
+        "start_ns": 282927735400543,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.898840874,
+    "finish_ns": 284080859953249,
+    "start_ns": 284079961112375,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.898840874,
+        "finish_ns": 284080859953249,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 30,
+        "start_ns": 284079961112375,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.898840874,
+        "finish_ns": 284080859953249,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 43,
+        "start_ns": 284079961112375,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.898840874,
+        "finish_ns": 284080859953249,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 43,
+        "start_ns": 284079961112375,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1.024601778,
+    "finish_ns": 284371671022263,
+    "start_ns": 284370646420485,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 1.024601778,
+        "finish_ns": 284371671022263,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 31,
+        "start_ns": 284370646420485,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 1.024601778,
+        "finish_ns": 284371671022263,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 45,
+        "start_ns": 284370646420485,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 1.024601778,
+        "finish_ns": 284371671022263,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 45,
+        "start_ns": 284370646420485,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1.067276149,
+    "finish_ns": 284667805451043,
+    "start_ns": 284666738174894,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 1.067276149,
+        "finish_ns": 284667805451043,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 32,
+        "start_ns": 284666738174894,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 1.067276149,
+        "finish_ns": 284667805451043,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 47,
+        "start_ns": 284666738174894,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 1.067276149,
+        "finish_ns": 284667805451043,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 47,
+        "start_ns": 284666738174894,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1.145030206,
+    "finish_ns": 285838453027090,
+    "start_ns": 285837307996884,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 1.145030206,
+        "finish_ns": 285838453027090,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 33,
+        "start_ns": 285837307996884,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 1.145030206,
+        "finish_ns": 285838453027090,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 49,
+        "start_ns": 285837307996884,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 1.145030206,
+        "finish_ns": 285838453027090,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 49,
+        "start_ns": 285837307996884,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 728.301245691,
+    "finish_ns": 277940763471556,
+    "start_ns": 277212462225865,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 728.301245691,
+        "finish_ns": 277940763471556,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-d13e813736b24df7bb5b01a7508de0eb",
+        "start_ns": 277212462225865,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-d13e813736b24df7bb5b01a7508de0eb\",\"source_attempt_sha256\":\"fec2c86fdb7e0b6d8a1e959f745a0b6463a526ad811a2e1e736cf2d48fc930d9\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 728.301245691,
+        "finish_ns": 277940763471556,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 28,
+        "start_ns": 277212462225865,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-d13e813736b24df7bb5b01a7508de0eb\",\"source_attempt_sha256\":\"fec2c86fdb7e0b6d8a1e959f745a0b6463a526ad811a2e1e736cf2d48fc930d9\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 728.301245691,
+        "finish_ns": 277940763471556,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 28,
+        "start_ns": 277212462225865,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 289.104072768,
+    "finish_ns": 284370646420485,
+    "start_ns": 284081542347717,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 289.104072768,
+        "finish_ns": 284370646420485,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-71dd4c560fa14c84a56659b393046b86",
+        "start_ns": 284081542347717,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-71dd4c560fa14c84a56659b393046b86\",\"source_attempt_sha256\":\"a41786c086c4980dd1a49316e163aa4ced65c52e9340e440c0e98d74be4813c0\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 289.104072768,
+        "finish_ns": 284370646420485,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 44,
+        "start_ns": 284081542347717,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-71dd4c560fa14c84a56659b393046b86\",\"source_attempt_sha256\":\"a41786c086c4980dd1a49316e163aa4ced65c52e9340e440c0e98d74be4813c0\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 289.104072768,
+        "finish_ns": 284370646420485,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 44,
+        "start_ns": 284081542347717,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1130.494161354,
+    "finish_ns": 281044999310572,
+    "start_ns": 279914505149218,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 1130.494161354,
+        "finish_ns": 281044999310572,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-357c80e6e5e94281b84b212643a7408d",
+        "start_ns": 279914505149218,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-357c80e6e5e94281b84b212643a7408d\",\"source_attempt_sha256\":\"bdb0ea6e091e388b594174e1fea054a38259a3b498c6bcc14fff64ec2d55cc65\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1130.494161354,
+        "finish_ns": 281044999310572,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 34,
+        "start_ns": 279914505149218,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-357c80e6e5e94281b84b212643a7408d\",\"source_attempt_sha256\":\"bdb0ea6e091e388b594174e1fea054a38259a3b498c6bcc14fff64ec2d55cc65\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1130.494161354,
+        "finish_ns": 281044999310572,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 34,
+        "start_ns": 279914505149218,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1248.293882597,
+    "finish_ns": 277211827509393,
+    "start_ns": 275963533626796,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 1248.293882597,
+        "finish_ns": 277211827509393,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-50443973acdc475ab42accaf1b0f48ea",
+        "start_ns": 275963533626796,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-50443973acdc475ab42accaf1b0f48ea\",\"source_attempt_sha256\":\"ea5c93c8c836eed4eb6e5480f847e86d51cfc61f777ef1968f3676f23cefc725\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1248.293882597,
+        "finish_ns": 277211827509393,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 26,
+        "start_ns": 275963533626796,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-50443973acdc475ab42accaf1b0f48ea\",\"source_attempt_sha256\":\"ea5c93c8c836eed4eb6e5480f847e86d51cfc61f777ef1968f3676f23cefc725\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1248.293882597,
+        "finish_ns": 277211827509393,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 26,
+        "start_ns": 275963533626796,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 355.285925059,
+    "finish_ns": 281736511818680,
+    "start_ns": 281381225893621,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 355.285925059,
+        "finish_ns": 281736511818680,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-59cd557c468f4441b94dcc2f5a19b3d8",
+        "start_ns": 281381225893621,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-59cd557c468f4441b94dcc2f5a19b3d8\",\"source_attempt_sha256\":\"fa5cc71d2777d61de8b44a3f0e28c3b55353da8bd2714a85fd597df98c7da9cd\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 355.285925059,
+        "finish_ns": 281736511818680,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 38,
+        "start_ns": 281381225893621,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-59cd557c468f4441b94dcc2f5a19b3d8\",\"source_attempt_sha256\":\"fa5cc71d2777d61de8b44a3f0e28c3b55353da8bd2714a85fd597df98c7da9cd\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 355.285925059,
+        "finish_ns": 281736511818680,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 38,
+        "start_ns": 281381225893621,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 723.056493534,
+    "finish_ns": 274738284879994,
+    "start_ns": 274015228386460,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 723.056493534,
+        "finish_ns": 274738284879994,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-af146de3b73d4fd0ac7d5446b42940ad",
+        "start_ns": 274015228386460,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-af146de3b73d4fd0ac7d5446b42940ad\",\"source_attempt_sha256\":\"fd079f777791c3d87b9d0653cca8040936d0513d58964fa036c92cfb8acd2563\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 723.056493534,
+        "finish_ns": 274738284879994,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 22,
+        "start_ns": 274015228386460,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-af146de3b73d4fd0ac7d5446b42940ad\",\"source_attempt_sha256\":\"fd079f777791c3d87b9d0653cca8040936d0513d58964fa036c92cfb8acd2563\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 723.056493534,
+        "finish_ns": 274738284879994,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 22,
+        "start_ns": 274015228386460,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1230.953130641,
+    "finish_ns": 273311287301342,
+    "start_ns": 272080334170701,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 1230.953130641,
+        "finish_ns": 273311287301342,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-ec5f35cf66cb410b9d97fbf8c2084c66",
+        "start_ns": 272080334170701,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-ec5f35cf66cb410b9d97fbf8c2084c66\",\"source_attempt_sha256\":\"d2f4d4afe0e27e8d8b91217376fd2c761cf9ebf8acadf40f32783d12baca38e0\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1230.953130641,
+        "finish_ns": 273311287301342,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 18,
+        "start_ns": 272080334170701,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-ec5f35cf66cb410b9d97fbf8c2084c66\",\"source_attempt_sha256\":\"d2f4d4afe0e27e8d8b91217376fd2c761cf9ebf8acadf40f32783d12baca38e0\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1230.953130641,
+        "finish_ns": 273311287301342,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 18,
+        "start_ns": 272080334170701,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1224.257154639,
+    "finish_ns": 275962982886215,
+    "start_ns": 274738725731576,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 1224.257154639,
+        "finish_ns": 275962982886215,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-988cad0681ac478ba6d32525882a287b",
+        "start_ns": 274738725731576,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-988cad0681ac478ba6d32525882a287b\",\"source_attempt_sha256\":\"43b790b9c4d0bdd969d088f13ad6df759b49fc5f7ca8dacf06f0feeb12a67309\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1224.257154639,
+        "finish_ns": 275962982886215,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 24,
+        "start_ns": 274738725731576,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-988cad0681ac478ba6d32525882a287b\",\"source_attempt_sha256\":\"43b790b9c4d0bdd969d088f13ad6df759b49fc5f7ca8dacf06f0feeb12a67309\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1224.257154639,
+        "finish_ns": 275962982886215,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 24,
+        "start_ns": 274738725731576,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1248.083525949,
+    "finish_ns": 279913348756875,
+    "start_ns": 278665265230926,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 1248.083525949,
+        "finish_ns": 279913348756875,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-c303d6408a1d419ab96362e13ee6dd09",
+        "start_ns": 278665265230926,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-c303d6408a1d419ab96362e13ee6dd09\",\"source_attempt_sha256\":\"33c2bbd6f5a796236edd9cda293a14dcf951faabed2679ed85570148a6408c83\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1248.083525949,
+        "finish_ns": 279913348756875,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 32,
+        "start_ns": 278665265230926,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-c303d6408a1d419ab96362e13ee6dd09\",\"source_attempt_sha256\":\"33c2bbd6f5a796236edd9cda293a14dcf951faabed2679ed85570148a6408c83\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1248.083525949,
+        "finish_ns": 279913348756875,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 32,
+        "start_ns": 278665265230926,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1189.687068263,
+    "finish_ns": 282927735400543,
+    "start_ns": 281738048332280,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 1189.687068263,
+        "finish_ns": 282927735400543,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-9b041326da4d407b9d9e5b72315860aa",
+        "start_ns": 281738048332280,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-9b041326da4d407b9d9e5b72315860aa\",\"source_attempt_sha256\":\"178e04de88f95f1f5187baa1189b79079c1dcd58be53b58e7e35cadd772c76ef\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1189.687068263,
+        "finish_ns": 282927735400543,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 40,
+        "start_ns": 281738048332280,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-9b041326da4d407b9d9e5b72315860aa\",\"source_attempt_sha256\":\"178e04de88f95f1f5187baa1189b79079c1dcd58be53b58e7e35cadd772c76ef\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1189.687068263,
+        "finish_ns": 282927735400543,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 40,
+        "start_ns": 281738048332280,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1150.723671686,
+    "finish_ns": 284079961112375,
+    "start_ns": 282929237440689,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 1150.723671686,
+        "finish_ns": 284079961112375,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-7c9be96cd8f44a358d194e6953ac5695",
+        "start_ns": 282929237440689,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-7c9be96cd8f44a358d194e6953ac5695\",\"source_attempt_sha256\":\"04a0f57d2c6f64f67850d3371817bd91513718964ec142b889124f57fd681fa0\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1150.723671686,
+        "finish_ns": 284079961112375,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 42,
+        "start_ns": 282929237440689,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-7c9be96cd8f44a358d194e6953ac5695\",\"source_attempt_sha256\":\"04a0f57d2c6f64f67850d3371817bd91513718964ec142b889124f57fd681fa0\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1150.723671686,
+        "finish_ns": 284079961112375,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 42,
+        "start_ns": 282929237440689,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 703.469432129,
+    "finish_ns": 274014956664766,
+    "start_ns": 273311487232637,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 703.469432129,
+        "finish_ns": 274014956664766,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-5c026fdd420f41658ecb853f15b5cbe5",
+        "start_ns": 273311487232637,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-5c026fdd420f41658ecb853f15b5cbe5\",\"source_attempt_sha256\":\"7fcfa3e045f27029b149b705a5929da427d3c3168dc1e9e70cbf483cea830e21\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 703.469432129,
+        "finish_ns": 274014956664766,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 20,
+        "start_ns": 273311487232637,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-5c026fdd420f41658ecb853f15b5cbe5\",\"source_attempt_sha256\":\"7fcfa3e045f27029b149b705a5929da427d3c3168dc1e9e70cbf483cea830e21\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 703.469432129,
+        "finish_ns": 274014956664766,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 20,
+        "start_ns": 273311487232637,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 333.72429583,
+    "finish_ns": 281379857285378,
+    "start_ns": 281046132989548,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 333.72429583,
+        "finish_ns": 281379857285378,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-34d417c369374b8f9b3b312c74b38a83",
+        "start_ns": 281046132989548,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-34d417c369374b8f9b3b312c74b38a83\",\"source_attempt_sha256\":\"76dc63f75cd406650afc675934194941b9a58d2957db6f235a5bce5cb4e51237\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 333.72429583,
+        "finish_ns": 281379857285378,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 36,
+        "start_ns": 281046132989548,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-34d417c369374b8f9b3b312c74b38a83\",\"source_attempt_sha256\":\"76dc63f75cd406650afc675934194941b9a58d2957db6f235a5bce5cb4e51237\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 333.72429583,
+        "finish_ns": 281379857285378,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 36,
+        "start_ns": 281046132989548,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1168.637503013,
+    "finish_ns": 285837307996884,
+    "start_ns": 284668670493871,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 1168.637503013,
+        "finish_ns": 285837307996884,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-236e9d95e84d429099b3c0f21140f7f0",
+        "start_ns": 284668670493871,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-236e9d95e84d429099b3c0f21140f7f0\",\"source_attempt_sha256\":\"49d26013c2241376c358eceafaa34f74c9cbcd9a7093405b5d4f61345a8659d3\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1168.637503013,
+        "finish_ns": 285837307996884,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 48,
+        "start_ns": 284668670493871,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-236e9d95e84d429099b3c0f21140f7f0\",\"source_attempt_sha256\":\"49d26013c2241376c358eceafaa34f74c9cbcd9a7093405b5d4f61345a8659d3\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 1168.637503013,
+        "finish_ns": 285837307996884,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 48,
+        "start_ns": 284668670493871,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 294.230521086,
+    "finish_ns": 284666738174894,
+    "start_ns": 284372507653808,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 294.230521086,
+        "finish_ns": 284666738174894,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-b5455be84a2b4eed9da360cbcbbd9827",
+        "start_ns": 284372507653808,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-b5455be84a2b4eed9da360cbcbbd9827\",\"source_attempt_sha256\":\"1bb9197ca11545ccaa93d816cce1f420bacdc906b61754e6a348735c0dda0ce2\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 294.230521086,
+        "finish_ns": 284666738174894,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 46,
+        "start_ns": 284372507653808,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-b5455be84a2b4eed9da360cbcbbd9827\",\"source_attempt_sha256\":\"1bb9197ca11545ccaa93d816cce1f420bacdc906b61754e6a348735c0dda0ce2\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 294.230521086,
+        "finish_ns": 284666738174894,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 46,
+        "start_ns": 284372507653808,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 722.756782898,
+    "finish_ns": 278664376230380,
+    "start_ns": 277941619447482,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 722.756782898,
+        "finish_ns": 278664376230380,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-51f395ff6dca4ef5a6eaf7c28f294cc8",
+        "start_ns": 277941619447482,
+        "status": "COMPLETED",
+        "study": "14b"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-51f395ff6dca4ef5a6eaf7c28f294cc8\",\"source_attempt_sha256\":\"e8c8339940dabfe734302fa0f16bfb57b1ec1143341ca716d78fd1bbf64af2e1\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 722.756782898,
+        "finish_ns": 278664376230380,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 30,
+        "start_ns": 277941619447482,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":128,\"observed_requests\":128,\"purpose\":\"MEASUREMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-51f395ff6dca4ef5a6eaf7c28f294cc8\",\"source_attempt_sha256\":\"e8c8339940dabfe734302fa0f16bfb57b1ec1143341ca716d78fd1bbf64af2e1\",\"source_config_sha256\":\"4f7e364f2ab05dda246480c29d89e3c210034a0ecc1622da2e729b59cee6eb16\",\"source_recipe_sha256\":\"d7337c983048b83dfab1cf218cb91da24b60f086f783f5a7fa184bddb7dd0a80\",\"source_session_id\":\"667c6b34f22f45f192acb928b880468d\"}",
+        "duration_s": 722.756782898,
+        "finish_ns": 278664376230380,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 30,
+        "start_ns": 277941619447482,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 3.941347381,
+    "finish_ns": 262768334950432,
+    "start_ns": 262764393603051,
+    "views": [
+      {
+        "bytes_acquired": 203559997,
+        "details": "source-acquisition; retained local logs and artifacts",
+        "duration_s": 3.941347381,
+        "finish_ns": 262768334950432,
+        "kind": "inherited_or_current_setup",
+        "phase": "source-acquisition",
+        "record_index": 0,
+        "start_ns": 262764393603051,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      },
+      {
+        "bytes_acquired": 203559997,
+        "details": "source-acquisition; retained local logs and artifacts",
+        "duration_s": 3.941347381,
+        "finish_ns": 262768334950432,
+        "kind": "inherited_or_current_setup",
+        "phase": "source-acquisition",
+        "record_index": 0,
+        "start_ns": 262764393603051,
+        "status": "COMPLETED",
+        "study": "legacy-protocol-failure"
+      }
+    ]
+  },
+  {
+    "duration_s": 43.600795922,
+    "finish_ns": 262811996753960,
+    "start_ns": 262768395958038,
+    "views": [
+      {
+        "bytes_acquired": 1266425774,
+        "details": "model-acquisition; retained local logs and artifacts",
+        "duration_s": 43.600795922,
+        "finish_ns": 262811996753960,
+        "kind": "inherited_or_current_setup",
+        "phase": "model-acquisition",
+        "record_index": 1,
+        "start_ns": 262768395958038,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      },
+      {
+        "bytes_acquired": 1266425774,
+        "details": "model-acquisition; retained local logs and artifacts",
+        "duration_s": 43.600795922,
+        "finish_ns": 262811996753960,
+        "kind": "inherited_or_current_setup",
+        "phase": "model-acquisition",
+        "record_index": 1,
+        "start_ns": 262768395958038,
+        "status": "COMPLETED",
+        "study": "legacy-protocol-failure"
+      }
+    ]
+  },
+  {
+    "duration_s": 17.340386789,
+    "finish_ns": 262829398167912,
+    "start_ns": 262812057781123,
+    "views": [
+      {
+        "bytes_acquired": 12121092,
+        "details": "build; retained local logs and artifacts",
+        "duration_s": 17.340386789,
+        "finish_ns": 262829398167912,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 2,
+        "start_ns": 262812057781123,
+        "status": "FAILED",
+        "study": "legacy-comparison"
+      },
+      {
+        "bytes_acquired": 12121092,
+        "details": "build; retained local logs and artifacts",
+        "duration_s": 17.340386789,
+        "finish_ns": 262829398167912,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 2,
+        "start_ns": 262812057781123,
+        "status": "FAILED",
+        "study": "legacy-protocol-failure"
+      }
+    ]
+  },
+  {
+    "duration_s": 126.036407925,
+    "finish_ns": 263121629656133,
+    "start_ns": 262995593248208,
+    "views": [
+      {
+        "bytes_acquired": 56535198,
+        "details": "GCC8 link configuration recovery; source unchanged; original failed build and all costs retained",
+        "duration_s": 126.036407925,
+        "finish_ns": 263121629656133,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 3,
+        "start_ns": 262995593248208,
+        "status": "FAILED",
+        "study": "legacy-comparison"
+      },
+      {
+        "bytes_acquired": 56535198,
+        "details": "GCC8 link configuration recovery; source unchanged; original failed build and all costs retained",
+        "duration_s": 126.036407925,
+        "finish_ns": 263121629656133,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 3,
+        "start_ns": 262995593248208,
+        "status": "FAILED",
+        "study": "legacy-protocol-failure"
+      }
+    ]
+  },
+  {
+    "duration_s": 17.120165123,
+    "finish_ns": 263441225141148,
+    "start_ns": 263424104976025,
+    "views": [
+      {
+        "bytes_acquired": 29561368,
+        "details": "GCC8 link configuration recovery; reviewed CTAD patch on pinned source; both original failed builds and all costs retained",
+        "duration_s": 17.120165123,
+        "finish_ns": 263441225141148,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 4,
+        "start_ns": 263424104976025,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      },
+      {
+        "bytes_acquired": 29561368,
+        "details": "GCC8 link configuration recovery; reviewed CTAD patch on pinned source; both original failed builds and all costs retained",
+        "duration_s": 17.120165123,
+        "finish_ns": 263441225141148,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 4,
+        "start_ns": 263424104976025,
+        "status": "COMPLETED",
+        "study": "legacy-protocol-failure"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.696355173,
+    "finish_ns": 263535450688659,
+    "start_ns": 263534754333486,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "local binary version and model/backend SHA-256 verification",
+        "duration_s": 0.696355173,
+        "finish_ns": 263535450688659,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-verification",
+        "record_index": 5,
+        "start_ns": 263534754333486,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "local binary version and model/backend SHA-256 verification",
+        "duration_s": 0.696355173,
+        "finish_ns": 263535450688659,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-verification",
+        "record_index": 5,
+        "start_ns": 263534754333486,
+        "status": "COMPLETED",
+        "study": "legacy-protocol-failure"
+      }
+    ]
+  },
+  {
+    "duration_s": 38.811665795,
+    "finish_ns": 263574302386372,
+    "start_ns": 263535490720577,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"attempt_id\": \"attempt-79ef9215fce64bbb86824cbcd11c9d16\", \"attempt_sha256\": \"06d37917391d75f04de4862276c1c7f7c9c4051bee3d68b4495abed167427cb8\", \"expected_requests\": 128, \"missing_requests\": 98, \"observed_requests\": 30, \"prior_study\": \"cpu-20260908-01\", \"scope\": \"original immutable failed client-normalization attempt; no candidate arm measured; not deleted or relabeled; positive efficiency claim remains ineligible for this allocation\", \"status\": \"INTERRUPTED\"}",
+        "duration_s": 38.811665795,
+        "finish_ns": 263574302386372,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-protocol-validation",
+        "record_index": 6,
+        "start_ns": 263535490720577,
+        "status": "FAILED",
+        "study": "legacy-comparison"
+      },
+      {
+        "details": "baseline",
+        "duration_s": 38.811665795,
+        "finish_ns": 263574302386372,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-79ef9215fce64bbb86824cbcd11c9d16",
+        "start_ns": 263535490720577,
+        "status": "INTERRUPTED",
+        "study": "legacy-protocol-failure"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.062935794,
+    "finish_ns": 263574365322166,
+    "start_ns": 263574302386372,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.062935794,
+        "finish_ns": 263574365322166,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 7,
+        "start_ns": 263574302386372,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.062935794,
+        "finish_ns": 263574365322166,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 6,
+        "start_ns": 263574302386372,
+        "status": "COMPLETED",
+        "study": "legacy-protocol-failure"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.690368817,
+    "finish_ns": 263881453678212,
+    "start_ns": 263880763309395,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "local binary version and model/backend SHA-256 verification",
+        "duration_s": 0.690368817,
+        "finish_ns": 263881453678212,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-verification",
+        "record_index": 8,
+        "start_ns": 263880763309395,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.095646085,
+    "finish_ns": 264042618949609,
+    "start_ns": 264042523303524,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.095646085,
+        "finish_ns": 264042618949609,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 9,
+        "start_ns": 264042523303524,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.146522347,
+    "finish_ns": 264123322725843,
+    "start_ns": 264123176203496,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.146522347,
+        "finish_ns": 264123322725843,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 10,
+        "start_ns": 264123176203496,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.18966125,
+    "finish_ns": 264204058827182,
+    "start_ns": 264203869165932,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.18966125,
+        "finish_ns": 264204058827182,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 11,
+        "start_ns": 264203869165932,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.257295235,
+    "finish_ns": 264370819405020,
+    "start_ns": 264370562109785,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.257295235,
+        "finish_ns": 264370819405020,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 12,
+        "start_ns": 264370562109785,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.295804176,
+    "finish_ns": 264536343273246,
+    "start_ns": 264536047469070,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.295804176,
+        "finish_ns": 264536343273246,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 13,
+        "start_ns": 264536047469070,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.347108709,
+    "finish_ns": 264617288119003,
+    "start_ns": 264616941010294,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.347108709,
+        "finish_ns": 264617288119003,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 14,
+        "start_ns": 264616941010294,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.480574429,
+    "finish_ns": 264781700154027,
+    "start_ns": 264781219579598,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.480574429,
+        "finish_ns": 264781700154027,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 15,
+        "start_ns": 264781219579598,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.438327882,
+    "finish_ns": 264811410963930,
+    "start_ns": 264810972636048,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.438327882,
+        "finish_ns": 264811410963930,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 16,
+        "start_ns": 264810972636048,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.486568891,
+    "finish_ns": 264840525550484,
+    "start_ns": 264840038981593,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.486568891,
+        "finish_ns": 264840525550484,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 17,
+        "start_ns": 264840038981593,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.600528203,
+    "finish_ns": 264998807923077,
+    "start_ns": 264998207394874,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.600528203,
+        "finish_ns": 264998807923077,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 18,
+        "start_ns": 264998207394874,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.61120559,
+    "finish_ns": 265158132130285,
+    "start_ns": 265157520924695,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.61120559,
+        "finish_ns": 265158132130285,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 19,
+        "start_ns": 265157520924695,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.68440016,
+    "finish_ns": 265187607622260,
+    "start_ns": 265186923222100,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw evidence hashing, immutable attempt publication and inventory reconciliation",
+        "duration_s": 0.68440016,
+        "finish_ns": 265187607622260,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 20,
+        "start_ns": 265186923222100,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 166.361103969,
+    "finish_ns": 264370562109785,
+    "start_ns": 264204201005816,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 166.361103969,
+        "finish_ns": 264370562109785,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-ff893fe67723474c9f6da20edbeec395",
+        "start_ns": 264204201005816,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 28.897258995,
+    "finish_ns": 264810972636048,
+    "start_ns": 264782075377053,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 28.897258995,
+        "finish_ns": 264810972636048,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-2b30a89a94b84ead9df92a9ac8003ab6",
+        "start_ns": 264782075377053,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 28.27796413,
+    "finish_ns": 264840038981593,
+    "start_ns": 264811761017463,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 28.27796413,
+        "finish_ns": 264840038981593,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-2b0790a3a70c4e55b26b20fcb6176933",
+        "start_ns": 264811761017463,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 161.009815317,
+    "finish_ns": 264042523303524,
+    "start_ns": 263881513488207,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 161.009815317,
+        "finish_ns": 264042523303524,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-c82e85b5a55f4d2ea23a96d3b643ba55",
+        "start_ns": 263881513488207,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 80.502754872,
+    "finish_ns": 264123176203496,
+    "start_ns": 264042673448624,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 80.502754872,
+        "finish_ns": 264123176203496,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-7e8d30b9fe014d74a2983459225b1145",
+        "start_ns": 264042673448624,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 80.361600308,
+    "finish_ns": 264616941010294,
+    "start_ns": 264536579409986,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 80.361600308,
+        "finish_ns": 264616941010294,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-807b9d388a774011acbb04d391d1191b",
+        "start_ns": 264536579409986,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 80.448130474,
+    "finish_ns": 264203869165932,
+    "start_ns": 264123421035458,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 80.448130474,
+        "finish_ns": 264203869165932,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-c8478af2e19a441baa00086d2455f5f3",
+        "start_ns": 264123421035458,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 28.294671884,
+    "finish_ns": 265186923222100,
+    "start_ns": 265158628550216,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 28.294671884,
+        "finish_ns": 265186923222100,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-f5e310022c50421eb0c8fbaca9a8c64b",
+        "start_ns": 265158628550216,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 165.035843464,
+    "finish_ns": 264536047469070,
+    "start_ns": 264371011625606,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 165.035843464,
+        "finish_ns": 264536047469070,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-415f123085be4036a4720561cc6fac27",
+        "start_ns": 264371011625606,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 158.244367473,
+    "finish_ns": 265157520924695,
+    "start_ns": 264999276557222,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 158.244367473,
+        "finish_ns": 265157520924695,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-2fd2e65f95d44d8eaece2f96086beb53",
+        "start_ns": 264999276557222,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 163.652160105,
+    "finish_ns": 264781219579598,
+    "start_ns": 264617567419493,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 163.652160105,
+        "finish_ns": 264781219579598,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-e998bd9edfc24cdc9d9b114042c66bdd",
+        "start_ns": 264617567419493,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 157.293902242,
+    "finish_ns": 264998207394874,
+    "start_ns": 264840913492632,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 157.293902242,
+        "finish_ns": 264998207394874,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-658054606e3744f0a397f220d88b7170",
+        "start_ns": 264840913492632,
+        "status": "COMPLETED",
+        "study": "legacy-comparison"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.182009375,
+    "finish_ns": 286157137960029,
+    "start_ns": 286156955950654,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"ancestor\":{\"attestation_boundary\":\"Original receipt and pinned artifact bytes are verified; this operation does not rebuild, run git, certify an unchanged source checkout or authenticate the receipt author.\",\"historical_costs\":{\"allocation_identity\":null,\"allocation_scope\":\"Legacy schema 1 has no allocation object; no ID, closure proof or complete allocation-wide wall total is invented.\",\"attributed_phase_ns\":247610059902,\"finished_ns\":263574365322166,\"recorded_bytes_acquired\":1568203429,\"scope\":\"Historical source setup only; never charged as current-allocation intervals. Full source records, including failures, are retained verbatim. Nested ancestor scopes, if present, remain separate rather than being summed twice.\",\"setup_span_ns\":809971719115,\"started_ns\":262764393603051,\"terminal_counts\":{\"COMPLETED\":5,\"FAILED\":3,\"INTERRUPTED\":0},\"unattributed_gap_ns\":562361659213},\"schema_version\":1,\"source_patch_sha256\":\"598d10a911e4d9c33926bd2dfd75735d143b84db14ad644a7502f35bec8e0f1c\",\"source_receipt_path\":\".cache/prepared-20260908-01/setup-with-protocol-recovery.json\",\"source_receipt_raw_utf8\":\"{\\\"artifacts\\\":{\\\"backend_patch_sha256\\\":\\\"598d10a911e4d9c33926bd2dfd75735d143b84db14ad644a7502f35bec8e0f1c\\\",\\\"backend_revision\\\":\\\"bb4caa7540188872173c44d161602d9271386413\\\",\\\"model_sha256\\\":\\\"8e0ae26000627ed62de0e78e41860af70094558b9d2913385c842a6aa06cf3fc\\\",\\\"server_sha256\\\":\\\"22bb24feddd1b44d0b793d044fd86dad4119b40d5485e58d9a6213d296cf71b2\\\"},\\\"boot_id\\\":\\\"bf6e335a-b7ba-4c68-ba5f-b7c47549b388\\\",\\\"records\\\":[{\\\"bytes_acquired\\\":203559997,\\\"details\\\":\\\"source-acquisition; retained local logs and artifacts\\\",\\\"finished_ns\\\":262768334950432,\\\"phase\\\":\\\"source-acquisition\\\",\\\"started_ns\\\":262764393603051,\\\"status\\\":\\\"COMPLETED\\\"},{\\\"bytes_acquired\\\":1266425774,\\\"details\\\":\\\"model-acquisition; retained local logs and artifacts\\\",\\\"finished_ns\\\":262811996753960,\\\"phase\\\":\\\"model-acquisition\\\",\\\"started_ns\\\":262768395958038,\\\"status\\\":\\\"COMPLETED\\\"},{\\\"bytes_acquired\\\":12121092,\\\"details\\\":\\\"build; retained local logs and artifacts\\\",\\\"finished_ns\\\":262829398167912,\\\"phase\\\":\\\"build\\\",\\\"started_ns\\\":262812057781123,\\\"status\\\":\\\"FAILED\\\"},{\\\"bytes_acquired\\\":56535198,\\\"details\\\":\\\"GCC8 link configuration recovery; source unchanged; original failed build and all costs retained\\\",\\\"finished_ns\\\":263121629656133,\\\"phase\\\":\\\"build\\\",\\\"started_ns\\\":262995593248208,\\\"status\\\":\\\"FAILED\\\"},{\\\"bytes_acquired\\\":29561368,\\\"details\\\":\\\"GCC8 link configuration recovery; reviewed CTAD patch on pinned source; both original failed builds and all costs retained\\\",\\\"finished_ns\\\":263441225141148,\\\"phase\\\":\\\"build\\\",\\\"started_ns\\\":263424104976025,\\\"status\\\":\\\"COMPLETED\\\"},{\\\"bytes_acquired\\\":0,\\\"details\\\":\\\"local binary version and model/backend SHA-256 verification\\\",\\\"finished_ns\\\":263535450688659,\\\"phase\\\":\\\"runtime-verification\\\",\\\"started_ns\\\":263534754333486,\\\"status\\\":\\\"COMPLETED\\\"},{\\\"bytes_acquired\\\":0,\\\"details\\\":\\\"{\\\\\\\"attempt_id\\\\\\\": \\\\\\\"attempt-79ef9215fce64bbb86824cbcd11c9d16\\\\\\\", \\\\\\\"attempt_sha256\\\\\\\": \\\\\\\"06d37917391d75f04de4862276c1c7f7c9c4051bee3d68b4495abed167427cb8\\\\\\\", \\\\\\\"expected_requests\\\\\\\": 128, \\\\\\\"missing_requests\\\\\\\": 98, \\\\\\\"observed_requests\\\\\\\": 30, \\\\\\\"prior_study\\\\\\\": \\\\\\\"cpu-20260908-01\\\\\\\", \\\\\\\"scope\\\\\\\": \\\\\\\"original immutable failed client-normalization attempt; no candidate arm measured; not deleted or relabeled; positive efficiency claim remains ineligible for this allocation\\\\\\\", \\\\\\\"status\\\\\\\": \\\\\\\"INTERRUPTED\\\\\\\"}\\\",\\\"finished_ns\\\":263574302386372,\\\"phase\\\":\\\"runtime-protocol-validation\\\",\\\"started_ns\\\":263535490720577,\\\"status\\\":\\\"FAILED\\\"},{\\\"bytes_acquired\\\":0,\\\"details\\\":\\\"raw evidence hashing, immutable attempt publication and inventory reconciliation\\\",\\\"finished_ns\\\":263574365322166,\\\"phase\\\":\\\"artifact-finalization\\\",\\\"started_ns\\\":263574302386372,\\\"status\\\":\\\"COMPLETED\\\"}],\\\"schema_version\\\":1}\\n\",\"source_receipt_sha256\":\"6d9a4d46d03f2771b003b3d7ee3f5e0ae10e88567e8d44a98b2582cd6b58115c\",\"source_revision\":\"bb4caa7540188872173c44d161602d9271386413\"},\"ancestor_receipt_file\":\"source-setup.json\",\"ancestor_receipt_sha256\":\"6d9a4d46d03f2771b003b3d7ee3f5e0ae10e88567e8d44a98b2582cd6b58115c\",\"cost_boundary\":\"This interval measures current verification only. Historical acquisition/build/failure costs remain a separate ancestor scope.\",\"explanation\":\"Reuse and verify historical receipt, admitted profile and pinned source/patch identity; no source acquisition. Exact ancestor bytes and all historical cost records retained.\",\"newly_acquired_artifact_bytes\":0,\"operation\":\"reuse-and-verification\"}",
+        "duration_s": 0.182009375,
+        "finish_ns": 286157137960029,
+        "kind": "inherited_or_current_setup",
+        "phase": "source-acquisition",
+        "record_index": 50,
+        "start_ns": 286156955950654,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"ancestor\":{\"attestation_boundary\":\"Original receipt and pinned artifact bytes are verified; this operation does not rebuild, run git, certify an unchanged source checkout or authenticate the receipt author.\",\"historical_costs\":{\"allocation_identity\":null,\"allocation_scope\":\"Legacy schema 1 has no allocation object; no ID, closure proof or complete allocation-wide wall total is invented.\",\"attributed_phase_ns\":247610059902,\"finished_ns\":263574365322166,\"recorded_bytes_acquired\":1568203429,\"scope\":\"Historical source setup only; never charged as current-allocation intervals. Full source records, including failures, are retained verbatim. Nested ancestor scopes, if present, remain separate rather than being summed twice.\",\"setup_span_ns\":809971719115,\"started_ns\":262764393603051,\"terminal_counts\":{\"COMPLETED\":5,\"FAILED\":3,\"INTERRUPTED\":0},\"unattributed_gap_ns\":562361659213},\"schema_version\":1,\"source_patch_sha256\":\"598d10a911e4d9c33926bd2dfd75735d143b84db14ad644a7502f35bec8e0f1c\",\"source_receipt_path\":\".cache/prepared-20260908-01/setup-with-protocol-recovery.json\",\"source_receipt_raw_utf8\":\"{\\\"artifacts\\\":{\\\"backend_patch_sha256\\\":\\\"598d10a911e4d9c33926bd2dfd75735d143b84db14ad644a7502f35bec8e0f1c\\\",\\\"backend_revision\\\":\\\"bb4caa7540188872173c44d161602d9271386413\\\",\\\"model_sha256\\\":\\\"8e0ae26000627ed62de0e78e41860af70094558b9d2913385c842a6aa06cf3fc\\\",\\\"server_sha256\\\":\\\"22bb24feddd1b44d0b793d044fd86dad4119b40d5485e58d9a6213d296cf71b2\\\"},\\\"boot_id\\\":\\\"bf6e335a-b7ba-4c68-ba5f-b7c47549b388\\\",\\\"records\\\":[{\\\"bytes_acquired\\\":203559997,\\\"details\\\":\\\"source-acquisition; retained local logs and artifacts\\\",\\\"finished_ns\\\":262768334950432,\\\"phase\\\":\\\"source-acquisition\\\",\\\"started_ns\\\":262764393603051,\\\"status\\\":\\\"COMPLETED\\\"},{\\\"bytes_acquired\\\":1266425774,\\\"details\\\":\\\"model-acquisition; retained local logs and artifacts\\\",\\\"finished_ns\\\":262811996753960,\\\"phase\\\":\\\"model-acquisition\\\",\\\"started_ns\\\":262768395958038,\\\"status\\\":\\\"COMPLETED\\\"},{\\\"bytes_acquired\\\":12121092,\\\"details\\\":\\\"build; retained local logs and artifacts\\\",\\\"finished_ns\\\":262829398167912,\\\"phase\\\":\\\"build\\\",\\\"started_ns\\\":262812057781123,\\\"status\\\":\\\"FAILED\\\"},{\\\"bytes_acquired\\\":56535198,\\\"details\\\":\\\"GCC8 link configuration recovery; source unchanged; original failed build and all costs retained\\\",\\\"finished_ns\\\":263121629656133,\\\"phase\\\":\\\"build\\\",\\\"started_ns\\\":262995593248208,\\\"status\\\":\\\"FAILED\\\"},{\\\"bytes_acquired\\\":29561368,\\\"details\\\":\\\"GCC8 link configuration recovery; reviewed CTAD patch on pinned source; both original failed builds and all costs retained\\\",\\\"finished_ns\\\":263441225141148,\\\"phase\\\":\\\"build\\\",\\\"started_ns\\\":263424104976025,\\\"status\\\":\\\"COMPLETED\\\"},{\\\"bytes_acquired\\\":0,\\\"details\\\":\\\"local binary version and model/backend SHA-256 verification\\\",\\\"finished_ns\\\":263535450688659,\\\"phase\\\":\\\"runtime-verification\\\",\\\"started_ns\\\":263534754333486,\\\"status\\\":\\\"COMPLETED\\\"},{\\\"bytes_acquired\\\":0,\\\"details\\\":\\\"{\\\\\\\"attempt_id\\\\\\\": \\\\\\\"attempt-79ef9215fce64bbb86824cbcd11c9d16\\\\\\\", \\\\\\\"attempt_sha256\\\\\\\": \\\\\\\"06d37917391d75f04de4862276c1c7f7c9c4051bee3d68b4495abed167427cb8\\\\\\\", \\\\\\\"expected_requests\\\\\\\": 128, \\\\\\\"missing_requests\\\\\\\": 98, \\\\\\\"observed_requests\\\\\\\": 30, \\\\\\\"prior_study\\\\\\\": \\\\\\\"cpu-20260908-01\\\\\\\", \\\\\\\"scope\\\\\\\": \\\\\\\"original immutable failed client-normalization attempt; no candidate arm measured; not deleted or relabeled; positive efficiency claim remains ineligible for this allocation\\\\\\\", \\\\\\\"status\\\\\\\": \\\\\\\"INTERRUPTED\\\\\\\"}\\\",\\\"finished_ns\\\":263574302386372,\\\"phase\\\":\\\"runtime-protocol-validation\\\",\\\"started_ns\\\":263535490720577,\\\"status\\\":\\\"FAILED\\\"},{\\\"bytes_acquired\\\":0,\\\"details\\\":\\\"raw evidence hashing, immutable attempt publication and inventory reconciliation\\\",\\\"finished_ns\\\":263574365322166,\\\"phase\\\":\\\"artifact-finalization\\\",\\\"started_ns\\\":263574302386372,\\\"status\\\":\\\"COMPLETED\\\"}],\\\"schema_version\\\":1}\\n\",\"source_receipt_sha256\":\"6d9a4d46d03f2771b003b3d7ee3f5e0ae10e88567e8d44a98b2582cd6b58115c\",\"source_revision\":\"bb4caa7540188872173c44d161602d9271386413\"},\"ancestor_receipt_file\":\"source-setup.json\",\"ancestor_receipt_sha256\":\"6d9a4d46d03f2771b003b3d7ee3f5e0ae10e88567e8d44a98b2582cd6b58115c\",\"cost_boundary\":\"This interval measures current verification only. Historical acquisition/build/failure costs remain a separate ancestor scope.\",\"explanation\":\"Reuse and verify historical receipt, admitted profile and pinned source/patch identity; no source acquisition. Exact ancestor bytes and all historical cost records retained.\",\"newly_acquired_artifact_bytes\":0,\"operation\":\"reuse-and-verification\"}",
+        "duration_s": 0.182009375,
+        "finish_ns": 286157137960029,
+        "kind": "inherited_or_current_setup",
+        "phase": "source-acquisition",
+        "record_index": 50,
+        "start_ns": 286156955950654,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.868718599,
+    "finish_ns": 286158011483859,
+    "start_ns": 286157142765260,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"ancestor_receipt_file\":\"source-setup.json\",\"ancestor_receipt_sha256\":\"6d9a4d46d03f2771b003b3d7ee3f5e0ae10e88567e8d44a98b2582cd6b58115c\",\"cost_boundary\":\"This interval measures current verification only. Historical acquisition/build/failure costs remain a separate ancestor scope.\",\"explanation\":\"Reuse and stream-verify every already present reviewed model shard; no download or model copy.\",\"newly_acquired_artifact_bytes\":0,\"operation\":\"reuse-and-verification\"}",
+        "duration_s": 0.868718599,
+        "finish_ns": 286158011483859,
+        "kind": "inherited_or_current_setup",
+        "phase": "model-acquisition",
+        "record_index": 51,
+        "start_ns": 286157142765260,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"ancestor_receipt_file\":\"source-setup.json\",\"ancestor_receipt_sha256\":\"6d9a4d46d03f2771b003b3d7ee3f5e0ae10e88567e8d44a98b2582cd6b58115c\",\"cost_boundary\":\"This interval measures current verification only. Historical acquisition/build/failure costs remain a separate ancestor scope.\",\"explanation\":\"Reuse and stream-verify every already present reviewed model shard; no download or model copy.\",\"newly_acquired_artifact_bytes\":0,\"operation\":\"reuse-and-verification\"}",
+        "duration_s": 0.868718599,
+        "finish_ns": 286158011483859,
+        "kind": "inherited_or_current_setup",
+        "phase": "model-acquisition",
+        "record_index": 51,
+        "start_ns": 286157142765260,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.1861239,
+    "finish_ns": 286158200084277,
+    "start_ns": 286158013960377,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"ancestor_receipt_file\":\"source-setup.json\",\"ancestor_receipt_sha256\":\"6d9a4d46d03f2771b003b3d7ee3f5e0ae10e88567e8d44a98b2582cd6b58115c\",\"cost_boundary\":\"This interval measures current verification only. Historical acquisition/build/failure costs remain a separate ancestor scope.\",\"explanation\":\"Reuse and verify exact already compiled server bytes against the ancestor; no build, server execution or new backend qualification.\",\"newly_acquired_artifact_bytes\":0,\"operation\":\"reuse-and-verification\"}",
+        "duration_s": 0.1861239,
+        "finish_ns": 286158200084277,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 52,
+        "start_ns": 286158013960377,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"ancestor_receipt_file\":\"source-setup.json\",\"ancestor_receipt_sha256\":\"6d9a4d46d03f2771b003b3d7ee3f5e0ae10e88567e8d44a98b2582cd6b58115c\",\"cost_boundary\":\"This interval measures current verification only. Historical acquisition/build/failure costs remain a separate ancestor scope.\",\"explanation\":\"Reuse and verify exact already compiled server bytes against the ancestor; no build, server execution or new backend qualification.\",\"newly_acquired_artifact_bytes\":0,\"operation\":\"reuse-and-verification\"}",
+        "duration_s": 0.1861239,
+        "finish_ns": 286158200084277,
+        "kind": "inherited_or_current_setup",
+        "phase": "build",
+        "record_index": 52,
+        "start_ns": 286158013960377,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 2.009313188,
+    "finish_ns": 286176364953799,
+    "start_ns": 286174355640611,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 2.009313188,
+        "finish_ns": 286176364953799,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 53,
+        "start_ns": 286174355640611,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 2.009313188,
+        "finish_ns": 286176364953799,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 53,
+        "start_ns": 286174355640611,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 9.924063462,
+    "finish_ns": 286186370953140,
+    "start_ns": 286176446889678,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-727fa77103d2428fafbd14698407f690\",\"source_attempt_sha256\":\"6fc6f259702f1ed54a3ba18889e16a747ea1647b09731963272e216fc22b39fc\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"183adb6a0b1e482a944df3f0e7fed222\"}",
+        "duration_s": 9.924063462,
+        "finish_ns": 286186370953140,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 54,
+        "start_ns": 286176446889678,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-727fa77103d2428fafbd14698407f690\",\"source_attempt_sha256\":\"6fc6f259702f1ed54a3ba18889e16a747ea1647b09731963272e216fc22b39fc\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"183adb6a0b1e482a944df3f0e7fed222\"}",
+        "duration_s": 9.924063462,
+        "finish_ns": 286186370953140,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 54,
+        "start_ns": 286176446889678,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.110018459,
+    "finish_ns": 286186480971599,
+    "start_ns": 286186370953140,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.110018459,
+        "finish_ns": 286186480971599,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 55,
+        "start_ns": 286186370953140,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.110018459,
+        "finish_ns": 286186480971599,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 55,
+        "start_ns": 286186370953140,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 9.911927561,
+    "finish_ns": 286196471916329,
+    "start_ns": 286186559988768,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-90ed1fd963d84327a183881c97b54217\",\"source_attempt_sha256\":\"a2b149da76f4d575f2e18e7eedc6195bcd7546fe01e3ac76f610b14f9873c120\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"183adb6a0b1e482a944df3f0e7fed222\"}",
+        "duration_s": 9.911927561,
+        "finish_ns": 286196471916329,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 56,
+        "start_ns": 286186559988768,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-90ed1fd963d84327a183881c97b54217\",\"source_attempt_sha256\":\"a2b149da76f4d575f2e18e7eedc6195bcd7546fe01e3ac76f610b14f9873c120\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"183adb6a0b1e482a944df3f0e7fed222\"}",
+        "duration_s": 9.911927561,
+        "finish_ns": 286196471916329,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 56,
+        "start_ns": 286186559988768,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.118434769,
+    "finish_ns": 286196590351098,
+    "start_ns": 286196471916329,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.118434769,
+        "finish_ns": 286196590351098,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 57,
+        "start_ns": 286196471916329,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.118434769,
+        "finish_ns": 286196590351098,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 57,
+        "start_ns": 286196471916329,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 9.91860767,
+    "finish_ns": 286206606440892,
+    "start_ns": 286196687833222,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-f42a114086d048579292e3c787a3e4bf\",\"source_attempt_sha256\":\"408da8fff1c47dccaf370438a716c1b326fb0eacc527c7bbb3a9f241bf9ac5d7\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"183adb6a0b1e482a944df3f0e7fed222\"}",
+        "duration_s": 9.91860767,
+        "finish_ns": 286206606440892,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 58,
+        "start_ns": 286196687833222,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-f42a114086d048579292e3c787a3e4bf\",\"source_attempt_sha256\":\"408da8fff1c47dccaf370438a716c1b326fb0eacc527c7bbb3a9f241bf9ac5d7\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"183adb6a0b1e482a944df3f0e7fed222\"}",
+        "duration_s": 9.91860767,
+        "finish_ns": 286206606440892,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 58,
+        "start_ns": 286196687833222,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.139936255,
+    "finish_ns": 286206746377147,
+    "start_ns": 286206606440892,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.139936255,
+        "finish_ns": 286206746377147,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 59,
+        "start_ns": 286206606440892,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.139936255,
+        "finish_ns": 286206746377147,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 59,
+        "start_ns": 286206606440892,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 9.915632426,
+    "finish_ns": 286216780119196,
+    "start_ns": 286206864486770,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-89b0a21a13c2446185065f4ea7d10a81\",\"source_attempt_sha256\":\"44a15478d93c231d22224a5e300f6916204c3f0590be08bfbf480e92a00b1e5d\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"183adb6a0b1e482a944df3f0e7fed222\"}",
+        "duration_s": 9.915632426,
+        "finish_ns": 286216780119196,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 60,
+        "start_ns": 286206864486770,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-89b0a21a13c2446185065f4ea7d10a81\",\"source_attempt_sha256\":\"44a15478d93c231d22224a5e300f6916204c3f0590be08bfbf480e92a00b1e5d\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"183adb6a0b1e482a944df3f0e7fed222\"}",
+        "duration_s": 9.915632426,
+        "finish_ns": 286216780119196,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 60,
+        "start_ns": 286206864486770,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.203767307,
+    "finish_ns": 286216983886503,
+    "start_ns": 286216780119196,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.203767307,
+        "finish_ns": 286216983886503,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 61,
+        "start_ns": 286216780119196,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.203767307,
+        "finish_ns": 286216983886503,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 61,
+        "start_ns": 286216780119196,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 2.275361425,
+    "finish_ns": 286220945990033,
+    "start_ns": 286218670628608,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 2.275361425,
+        "finish_ns": 286220945990033,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 62,
+        "start_ns": 286218670628608,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 2.275361425,
+        "finish_ns": 286220945990033,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 62,
+        "start_ns": 286218670628608,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 5.073639151,
+    "finish_ns": 286226108645968,
+    "start_ns": 286221035006817,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":2,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-cc513b5d391e4bb3bea79ce3ebb22a91\",\"source_attempt_sha256\":\"2c0d1d315f72aadf430b75ce03976c6626b4a55d46a50f9d22c57a6ee57c6965\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"56c1998cbb4d433495748bd1a52360d3\"}",
+        "duration_s": 5.073639151,
+        "finish_ns": 286226108645968,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 63,
+        "start_ns": 286221035006817,
+        "status": "INTERRUPTED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":2,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-cc513b5d391e4bb3bea79ce3ebb22a91\",\"source_attempt_sha256\":\"2c0d1d315f72aadf430b75ce03976c6626b4a55d46a50f9d22c57a6ee57c6965\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"56c1998cbb4d433495748bd1a52360d3\"}",
+        "duration_s": 5.073639151,
+        "finish_ns": 286226108645968,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 63,
+        "start_ns": 286221035006817,
+        "status": "INTERRUPTED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.097111235,
+    "finish_ns": 286226205757203,
+    "start_ns": 286226108645968,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "retained interrupted/publication attempt; recovery wait, raw hashing and finalization",
+        "duration_s": 0.097111235,
+        "finish_ns": 286226205757203,
+        "kind": "inherited_or_current_setup",
+        "phase": "recovery-reconciliation",
+        "record_index": 64,
+        "start_ns": 286226108645968,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "retained interrupted/publication attempt; recovery wait, raw hashing and finalization",
+        "duration_s": 0.097111235,
+        "finish_ns": 286226205757203,
+        "kind": "inherited_or_current_setup",
+        "phase": "recovery-reconciliation",
+        "record_index": 64,
+        "start_ns": 286226108645968,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 9.91750538,
+    "finish_ns": 286236453058457,
+    "start_ns": 286226535553077,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-069fb03c85f744e18b7d17139ba5d6cb\",\"source_attempt_sha256\":\"81c42f2203bd8a27ed71d9c503e4896ce5463aba1503026d641902fc85834c54\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"56c1998cbb4d433495748bd1a52360d3\"}",
+        "duration_s": 9.91750538,
+        "finish_ns": 286236453058457,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 65,
+        "start_ns": 286226535553077,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-069fb03c85f744e18b7d17139ba5d6cb\",\"source_attempt_sha256\":\"81c42f2203bd8a27ed71d9c503e4896ce5463aba1503026d641902fc85834c54\",\"source_config_sha256\":\"37cc160d896fb7cc67650a70d97cb3d943c5be65a47fb99f192343b5af815896\",\"source_recipe_sha256\":\"46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506\",\"source_session_id\":\"56c1998cbb4d433495748bd1a52360d3\"}",
+        "duration_s": 9.91750538,
+        "finish_ns": 286236453058457,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 65,
+        "start_ns": 286226535553077,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 2.38682384,
+    "finish_ns": 286664837422693,
+    "start_ns": 286662450598853,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 2.38682384,
+        "finish_ns": 286664837422693,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 66,
+        "start_ns": 286662450598853,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 2.38682384,
+        "finish_ns": 286664837422693,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 66,
+        "start_ns": 286662450598853,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.116864186,
+    "finish_ns": 286674983579389,
+    "start_ns": 286674866715203,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.116864186,
+        "finish_ns": 286674983579389,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 67,
+        "start_ns": 286674866715203,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.116864186,
+        "finish_ns": 286674983579389,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 68,
+        "start_ns": 286674866715203,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.137589308,
+    "finish_ns": 286685187058971,
+    "start_ns": 286685049469663,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.137589308,
+        "finish_ns": 286685187058971,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 68,
+        "start_ns": 286685049469663,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.137589308,
+        "finish_ns": 286685187058971,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 70,
+        "start_ns": 286685049469663,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.171145893,
+    "finish_ns": 286695490554791,
+    "start_ns": 286695319408898,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.171145893,
+        "finish_ns": 286695490554791,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 69,
+        "start_ns": 286695319408898,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.171145893,
+        "finish_ns": 286695490554791,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 72,
+        "start_ns": 286695319408898,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.202411454,
+    "finish_ns": 286705871005041,
+    "start_ns": 286705668593587,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.202411454,
+        "finish_ns": 286705871005041,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 70,
+        "start_ns": 286705668593587,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.202411454,
+        "finish_ns": 286705871005041,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 74,
+        "start_ns": 286705668593587,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 9.947170004,
+    "finish_ns": 286674866715203,
+    "start_ns": 286664919545199,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 9.947170004,
+        "finish_ns": 286674866715203,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-95b5419029c448338f1073c7165f594a",
+        "start_ns": 286664919545199,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-95b5419029c448338f1073c7165f594a\",\"source_attempt_sha256\":\"0347fce0e2da158c2d6b7a63b0e31f9c126d0767f713572ec1841cd5922c2df3\",\"source_config_sha256\":\"b9b953174dcab1bf132a7c96d7f8dadfd91bee26acbfd23f87b1d789ef7ca440\",\"source_recipe_sha256\":\"1867f2c64e90e172b3e0085262eec69e32ddd1a43ddd532a7f7bae2954ef654f\",\"source_session_id\":\"30b314dd46ec43dc806918899647fb5c\"}",
+        "duration_s": 9.947170004,
+        "finish_ns": 286674866715203,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 67,
+        "start_ns": 286664919545199,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 9.976775448,
+    "finish_ns": 286685049469663,
+    "start_ns": 286675072694215,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 9.976775448,
+        "finish_ns": 286685049469663,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-cdfa74b562fa44cea228a4ecb7b7dc97",
+        "start_ns": 286675072694215,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-cdfa74b562fa44cea228a4ecb7b7dc97\",\"source_attempt_sha256\":\"7f56e31e8ccd47df0b4b329397766309fee4124493605c6cebef6433d3740e16\",\"source_config_sha256\":\"b9b953174dcab1bf132a7c96d7f8dadfd91bee26acbfd23f87b1d789ef7ca440\",\"source_recipe_sha256\":\"1867f2c64e90e172b3e0085262eec69e32ddd1a43ddd532a7f7bae2954ef654f\",\"source_session_id\":\"30b314dd46ec43dc806918899647fb5c\"}",
+        "duration_s": 9.976775448,
+        "finish_ns": 286685049469663,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 69,
+        "start_ns": 286675072694215,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 10.047206792,
+    "finish_ns": 286705668593587,
+    "start_ns": 286695621386795,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 10.047206792,
+        "finish_ns": 286705668593587,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-8491a78c65ed49c4bcd802b881f8f339",
+        "start_ns": 286695621386795,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-8491a78c65ed49c4bcd802b881f8f339\",\"source_attempt_sha256\":\"f1ab9368861989a4ede5320e547eea3b91e87d2b961e919105248f367745a004\",\"source_config_sha256\":\"b9b953174dcab1bf132a7c96d7f8dadfd91bee26acbfd23f87b1d789ef7ca440\",\"source_recipe_sha256\":\"1867f2c64e90e172b3e0085262eec69e32ddd1a43ddd532a7f7bae2954ef654f\",\"source_session_id\":\"30b314dd46ec43dc806918899647fb5c\"}",
+        "duration_s": 10.047206792,
+        "finish_ns": 286705668593587,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 73,
+        "start_ns": 286695621386795,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 10.00963218,
+    "finish_ns": 286695319408898,
+    "start_ns": 286685309776718,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 10.00963218,
+        "finish_ns": 286695319408898,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-a80e37f0d3f84a1389dfec4fd0cf9dd5",
+        "start_ns": 286685309776718,
+        "status": "COMPLETED",
+        "study": "development"
+      },
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-a80e37f0d3f84a1389dfec4fd0cf9dd5\",\"source_attempt_sha256\":\"42da30575fac2838ba6300847a2dfcdc869f5631d7d93cc1eed0a2615f8f99f8\",\"source_config_sha256\":\"b9b953174dcab1bf132a7c96d7f8dadfd91bee26acbfd23f87b1d789ef7ca440\",\"source_recipe_sha256\":\"1867f2c64e90e172b3e0085262eec69e32ddd1a43ddd532a7f7bae2954ef654f\",\"source_session_id\":\"30b314dd46ec43dc806918899647fb5c\"}",
+        "duration_s": 10.00963218,
+        "finish_ns": 286695319408898,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 71,
+        "start_ns": 286685309776718,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 2.643797924,
+    "finish_ns": 286833544393615,
+    "start_ns": 286830900595691,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 2.643797924,
+        "finish_ns": 286833544393615,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 75,
+        "start_ns": 286830900595691,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 138.180478324,
+    "finish_ns": 286971775588452,
+    "start_ns": 286833595110128,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-cc3ebd7fc6654be7a2ace9632c7238f7\",\"source_attempt_sha256\":\"1a75ec8f4ba978006b96bcf48b42c055cd871f0ae4f29ece45f64a4a26b9a0be\",\"source_config_sha256\":\"36d2729b509eb06d511286ac4cb2f03c8cf5d919afe37d85cc128e3ef5d54d9f\",\"source_recipe_sha256\":\"18bd463c586e307baf064a6ae2bd87b5231adbf417cdd160003505b4287d6527\",\"source_session_id\":\"18c63155c4994eb8853e9db808e5e615\"}",
+        "duration_s": 138.180478324,
+        "finish_ns": 286971775588452,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 76,
+        "start_ns": 286833595110128,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.095449312,
+    "finish_ns": 286971871037764,
+    "start_ns": 286971775588452,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.095449312,
+        "finish_ns": 286971871037764,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 77,
+        "start_ns": 286971775588452,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 93.112162726,
+    "finish_ns": 287065060649912,
+    "start_ns": 286971948487186,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-e1654646befe488b9c24685b6c55cda6\",\"source_attempt_sha256\":\"d2928f314b97efaf20162a1e4e3049d21ecf531709d15e8f844e2846bd7a51b9\",\"source_config_sha256\":\"36d2729b509eb06d511286ac4cb2f03c8cf5d919afe37d85cc128e3ef5d54d9f\",\"source_recipe_sha256\":\"18bd463c586e307baf064a6ae2bd87b5231adbf417cdd160003505b4287d6527\",\"source_session_id\":\"18c63155c4994eb8853e9db808e5e615\"}",
+        "duration_s": 93.112162726,
+        "finish_ns": 287065060649912,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 78,
+        "start_ns": 286971948487186,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.126905489,
+    "finish_ns": 287065187555401,
+    "start_ns": 287065060649912,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.126905489,
+        "finish_ns": 287065187555401,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 79,
+        "start_ns": 287065060649912,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 93.352388077,
+    "finish_ns": 287158647054036,
+    "start_ns": 287065294665959,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-49b1e2e4ca7449e9ba0325bbdffaf734\",\"source_attempt_sha256\":\"5256fef1c0e6500cff81bf926f3f27b298fda8a734dba11306cae24202cef1fd\",\"source_config_sha256\":\"36d2729b509eb06d511286ac4cb2f03c8cf5d919afe37d85cc128e3ef5d54d9f\",\"source_recipe_sha256\":\"18bd463c586e307baf064a6ae2bd87b5231adbf417cdd160003505b4287d6527\",\"source_session_id\":\"18c63155c4994eb8853e9db808e5e615\"}",
+        "duration_s": 93.352388077,
+        "finish_ns": 287158647054036,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 80,
+        "start_ns": 287065294665959,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.152049428,
+    "finish_ns": 287158799103464,
+    "start_ns": 287158647054036,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.152049428,
+        "finish_ns": 287158799103464,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 81,
+        "start_ns": 287158647054036,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 139.698570032,
+    "finish_ns": 287298625282915,
+    "start_ns": 287158926712883,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-70c3b5d04ef7494f885780f85ba3b4e5\",\"source_attempt_sha256\":\"75a13e3ff49e5e3993def9e480ff6ddce554a707d7ebdf5c8352c07571080daa\",\"source_config_sha256\":\"36d2729b509eb06d511286ac4cb2f03c8cf5d919afe37d85cc128e3ef5d54d9f\",\"source_recipe_sha256\":\"18bd463c586e307baf064a6ae2bd87b5231adbf417cdd160003505b4287d6527\",\"source_session_id\":\"18c63155c4994eb8853e9db808e5e615\"}",
+        "duration_s": 139.698570032,
+        "finish_ns": 287298625282915,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 82,
+        "start_ns": 287158926712883,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.214858621,
+    "finish_ns": 287298840141536,
+    "start_ns": 287298625282915,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.214858621,
+        "finish_ns": 287298840141536,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 83,
+        "start_ns": 287298625282915,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 3.085085791,
+    "finish_ns": 287323944976512,
+    "start_ns": 287320859890721,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 3.085085791,
+        "finish_ns": 287323944976512,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 84,
+        "start_ns": 287320859890721,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 6.129656528,
+    "finish_ns": 287330126211629,
+    "start_ns": 287323996555101,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-be5e5948f72a445aabaa85c068208136\",\"source_attempt_sha256\":\"6cbc4d49f030d785159730e608cf01e45d4ef16f5cf28dd758849cd5be534cc2\",\"source_config_sha256\":\"12a6f846020b564e414794290c679047a99df1bda471f64d75837ef20faf7ebf\",\"source_recipe_sha256\":\"b197606b27b6f9c5d25fc81d2c27a1584d5560bce888912e80bb12e474022468\",\"source_session_id\":\"54da237947ac4426983e805175403395\"}",
+        "duration_s": 6.129656528,
+        "finish_ns": 287330126211629,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 85,
+        "start_ns": 287323996555101,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.112350802,
+    "finish_ns": 287330238562431,
+    "start_ns": 287330126211629,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.112350802,
+        "finish_ns": 287330238562431,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 86,
+        "start_ns": 287330126211629,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 6.239864262,
+    "finish_ns": 287336560521375,
+    "start_ns": 287330320657113,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-e3062f1adbe444078edd4548b198a9e0\",\"source_attempt_sha256\":\"d6672ed23353058bf45811322d7c002d27ba76a0e715f20f06a7bd2dbfaf950a\",\"source_config_sha256\":\"12a6f846020b564e414794290c679047a99df1bda471f64d75837ef20faf7ebf\",\"source_recipe_sha256\":\"b197606b27b6f9c5d25fc81d2c27a1584d5560bce888912e80bb12e474022468\",\"source_session_id\":\"54da237947ac4426983e805175403395\"}",
+        "duration_s": 6.239864262,
+        "finish_ns": 287336560521375,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 87,
+        "start_ns": 287330320657113,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.141119133,
+    "finish_ns": 287336701640508,
+    "start_ns": 287336560521375,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.141119133,
+        "finish_ns": 287336701640508,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 88,
+        "start_ns": 287336560521375,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 6.271708627,
+    "finish_ns": 287343084995687,
+    "start_ns": 287336813287060,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-45af48da75a14de98489227a2d528ccc\",\"source_attempt_sha256\":\"7d1a42081988dd7279644ee5cbabb4d3ab744c6e10d6b359adfce9a305245bb3\",\"source_config_sha256\":\"12a6f846020b564e414794290c679047a99df1bda471f64d75837ef20faf7ebf\",\"source_recipe_sha256\":\"b197606b27b6f9c5d25fc81d2c27a1584d5560bce888912e80bb12e474022468\",\"source_session_id\":\"54da237947ac4426983e805175403395\"}",
+        "duration_s": 6.271708627,
+        "finish_ns": 287343084995687,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 89,
+        "start_ns": 287336813287060,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.162660519,
+    "finish_ns": 287343247656206,
+    "start_ns": 287343084995687,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.162660519,
+        "finish_ns": 287343247656206,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 90,
+        "start_ns": 287343084995687,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 6.386968119,
+    "finish_ns": 287349773036893,
+    "start_ns": 287343386068774,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-fd6771027773471e953b29a541459d73\",\"source_attempt_sha256\":\"3b467790a69df086a76704cc1bcc52823d51a0b3a27e0c9bb9c47b5a886faa9e\",\"source_config_sha256\":\"12a6f846020b564e414794290c679047a99df1bda471f64d75837ef20faf7ebf\",\"source_recipe_sha256\":\"b197606b27b6f9c5d25fc81d2c27a1584d5560bce888912e80bb12e474022468\",\"source_session_id\":\"54da237947ac4426983e805175403395\"}",
+        "duration_s": 6.386968119,
+        "finish_ns": 287349773036893,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 91,
+        "start_ns": 287343386068774,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.190085091,
+    "finish_ns": 287349963121984,
+    "start_ns": 287349773036893,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.190085091,
+        "finish_ns": 287349963121984,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 92,
+        "start_ns": 287349773036893,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 3.28581192,
+    "finish_ns": 287962889750848,
+    "start_ns": 287959603938928,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 3.28581192,
+        "finish_ns": 287962889750848,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 93,
+        "start_ns": 287959603938928,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 10.190968666,
+    "finish_ns": 287973134320475,
+    "start_ns": 287962943351809,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-08bf3387a127497eb05a8a0882bc4a60\",\"source_attempt_sha256\":\"bfbf1ccec8e601066dcd4f3d0bc783f886a84bb1c863f047783dbeb08f4b13e5\",\"source_config_sha256\":\"46d7f1b811b406df51dad9bd203e30ea60d7933c8dfb22fe4398499eaa92c2a4\",\"source_recipe_sha256\":\"9f403ac067b94d64b07e61af7e7a6d3c4d90968a7ba445ee9ce6720954271626\",\"source_session_id\":\"259c39a1d92340bfa7fa5f465e2cf0ec\"}",
+        "duration_s": 10.190968666,
+        "finish_ns": 287973134320475,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 94,
+        "start_ns": 287962943351809,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.118034786,
+    "finish_ns": 287973252355261,
+    "start_ns": 287973134320475,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.118034786,
+        "finish_ns": 287973252355261,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 95,
+        "start_ns": 287973134320475,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 15.411522119,
+    "finish_ns": 287988737067936,
+    "start_ns": 287973325545817,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-3646b50a4e7f416295b4b8ef93b20ac8\",\"source_attempt_sha256\":\"6cd3c9e7b8f82aef1935c44def5baf2971bfceeca8209e499c8320ff3e3887a5\",\"source_config_sha256\":\"46d7f1b811b406df51dad9bd203e30ea60d7933c8dfb22fe4398499eaa92c2a4\",\"source_recipe_sha256\":\"9f403ac067b94d64b07e61af7e7a6d3c4d90968a7ba445ee9ce6720954271626\",\"source_session_id\":\"259c39a1d92340bfa7fa5f465e2cf0ec\"}",
+        "duration_s": 15.411522119,
+        "finish_ns": 287988737067936,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 96,
+        "start_ns": 287973325545817,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.120706226,
+    "finish_ns": 287988857774162,
+    "start_ns": 287988737067936,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.120706226,
+        "finish_ns": 287988857774162,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 97,
+        "start_ns": 287988737067936,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 14.398157779,
+    "finish_ns": 288003356590490,
+    "start_ns": 287988958432711,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-d06d629c537749539419e33e8fb89e5e\",\"source_attempt_sha256\":\"909ce5b9fcfb498c1548ebb493ecafc3d9c2f3ad54378482476692b49f12f0c7\",\"source_config_sha256\":\"46d7f1b811b406df51dad9bd203e30ea60d7933c8dfb22fe4398499eaa92c2a4\",\"source_recipe_sha256\":\"9f403ac067b94d64b07e61af7e7a6d3c4d90968a7ba445ee9ce6720954271626\",\"source_session_id\":\"259c39a1d92340bfa7fa5f465e2cf0ec\"}",
+        "duration_s": 14.398157779,
+        "finish_ns": 288003356590490,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 98,
+        "start_ns": 287988958432711,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.155826835,
+    "finish_ns": 288003512417325,
+    "start_ns": 288003356590490,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.155826835,
+        "finish_ns": 288003512417325,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 99,
+        "start_ns": 288003356590490,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 10.117220512,
+    "finish_ns": 288013758030203,
+    "start_ns": 288003640809691,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-e76b70a0126a44b8a024f61f464a32f4\",\"source_attempt_sha256\":\"cabc518602f929e07cc411945e3d153bb26f5e27887de00ec8d3d42de74342f3\",\"source_config_sha256\":\"46d7f1b811b406df51dad9bd203e30ea60d7933c8dfb22fe4398499eaa92c2a4\",\"source_recipe_sha256\":\"9f403ac067b94d64b07e61af7e7a6d3c4d90968a7ba445ee9ce6720954271626\",\"source_session_id\":\"259c39a1d92340bfa7fa5f465e2cf0ec\"}",
+        "duration_s": 10.117220512,
+        "finish_ns": 288013758030203,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 100,
+        "start_ns": 288003640809691,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.182393963,
+    "finish_ns": 288013940424166,
+    "start_ns": 288013758030203,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.182393963,
+        "finish_ns": 288013940424166,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 101,
+        "start_ns": 288013758030203,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 3.433122113,
+    "finish_ns": 288215556709220,
+    "start_ns": 288212123587107,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 3.433122113,
+        "finish_ns": 288215556709220,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 102,
+        "start_ns": 288212123587107,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 61.785654398,
+    "finish_ns": 288277394652648,
+    "start_ns": 288215608998250,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-6e1d6aae3bb44acba3d2c26ce412eb3e\",\"source_attempt_sha256\":\"c5d498be95eaa570c150b6aa2df3eda202431dedec722b51343a8e1f5589f64d\",\"source_config_sha256\":\"acf3aa1fc8f5717eae113287f7c8a62a3d5b6e01c0d813139b734593d8947247\",\"source_recipe_sha256\":\"908f214c2deeac8f40433332c3524d963ad70d4eed6949ad11e4d422778a6907\",\"source_session_id\":\"4683d11655264739b9e08e7835c94593\"}",
+        "duration_s": 61.785654398,
+        "finish_ns": 288277394652648,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 103,
+        "start_ns": 288215608998250,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.121673918,
+    "finish_ns": 288277516326566,
+    "start_ns": 288277394652648,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.121673918,
+        "finish_ns": 288277516326566,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 104,
+        "start_ns": 288277394652648,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 45.288720147,
+    "finish_ns": 288322890720891,
+    "start_ns": 288277602000744,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-5c47e3d568704c4baee9929ec1e79037\",\"source_attempt_sha256\":\"044847798043d43fc08ca377f120e2d94d67bc1c99900ef3dd29ecf5a40e50d6\",\"source_config_sha256\":\"acf3aa1fc8f5717eae113287f7c8a62a3d5b6e01c0d813139b734593d8947247\",\"source_recipe_sha256\":\"908f214c2deeac8f40433332c3524d963ad70d4eed6949ad11e4d422778a6907\",\"source_session_id\":\"4683d11655264739b9e08e7835c94593\"}",
+        "duration_s": 45.288720147,
+        "finish_ns": 288322890720891,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 105,
+        "start_ns": 288277602000744,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.145332701,
+    "finish_ns": 288323036053592,
+    "start_ns": 288322890720891,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.145332701,
+        "finish_ns": 288323036053592,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 106,
+        "start_ns": 288322890720891,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 44.662196811,
+    "finish_ns": 288367811977133,
+    "start_ns": 288323149780322,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-53cedc1e12bd4444b72ec00d9834c3b3\",\"source_attempt_sha256\":\"b8a663923f9b8ed3f6cb9ee4a5acfafba4aa47a357dbf051075c1fe03b93b8bf\",\"source_config_sha256\":\"acf3aa1fc8f5717eae113287f7c8a62a3d5b6e01c0d813139b734593d8947247\",\"source_recipe_sha256\":\"908f214c2deeac8f40433332c3524d963ad70d4eed6949ad11e4d422778a6907\",\"source_session_id\":\"4683d11655264739b9e08e7835c94593\"}",
+        "duration_s": 44.662196811,
+        "finish_ns": 288367811977133,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 107,
+        "start_ns": 288323149780322,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.176758015,
+    "finish_ns": 288367988735148,
+    "start_ns": 288367811977133,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.176758015,
+        "finish_ns": 288367988735148,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 108,
+        "start_ns": 288367811977133,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 61.988418076,
+    "finish_ns": 288430109955786,
+    "start_ns": 288368121537710,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "{\"expected_requests\":8,\"observed_requests\":8,\"purpose\":\"DEVELOPMENT\",\"scope\":\"prior recipe trial retained, not a cell in this recipe\",\"source_attempt_id\":\"attempt-27208fbbabd54825b71bef1ce6b90514\",\"source_attempt_sha256\":\"51e8022179567796eede3ab9747b6dbd3c9e7c751d1e54ae423add8e3443ab7c\",\"source_config_sha256\":\"acf3aa1fc8f5717eae113287f7c8a62a3d5b6e01c0d813139b734593d8947247\",\"source_recipe_sha256\":\"908f214c2deeac8f40433332c3524d963ad70d4eed6949ad11e4d422778a6907\",\"source_session_id\":\"4683d11655264739b9e08e7835c94593\"}",
+        "duration_s": 61.988418076,
+        "finish_ns": 288430109955786,
+        "kind": "inherited_or_current_setup",
+        "phase": "predecessor-study-attempt",
+        "record_index": 109,
+        "start_ns": 288368121537710,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.199619044,
+    "finish_ns": 288430309574830,
+    "start_ns": 288430109955786,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.199619044,
+        "finish_ns": 288430309574830,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 110,
+        "start_ns": 288430109955786,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 3.677122543,
+    "finish_ns": 288439221716437,
+    "start_ns": 288435544593894,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "recipe/setup/hardware/prior-cost admission; actual shard and binary verification occurs inside each retained attempt",
+        "duration_s": 3.677122543,
+        "finish_ns": 288439221716437,
+        "kind": "inherited_or_current_setup",
+        "phase": "runtime-admission",
+        "record_index": 111,
+        "start_ns": 288435544593894,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.139235642,
+    "finish_ns": 289541412864045,
+    "start_ns": 289541273628403,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.139235642,
+        "finish_ns": 289541412864045,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 112,
+        "start_ns": 289541273628403,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.179983021,
+    "finish_ns": 289818731265735,
+    "start_ns": 289818551282714,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.179983021,
+        "finish_ns": 289818731265735,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 113,
+        "start_ns": 289818551282714,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.280086113,
+    "finish_ns": 290106077820123,
+    "start_ns": 290105797734010,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.280086113,
+        "finish_ns": 290106077820123,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 114,
+        "start_ns": 290105797734010,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 0.338619882,
+    "finish_ns": 291210012268005,
+    "start_ns": 291209673648123,
+    "views": [
+      {
+        "bytes_acquired": 0,
+        "details": "raw hashing and immutable recipe-attempt publication",
+        "duration_s": 0.338619882,
+        "finish_ns": 291210012268005,
+        "kind": "inherited_or_current_setup",
+        "phase": "artifact-finalization",
+        "record_index": 115,
+        "start_ns": 291209673648123,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1102.001907745,
+    "finish_ns": 289541273628403,
+    "start_ns": 288439271720658,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 1102.001907745,
+        "finish_ns": 289541273628403,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-c11d044ecdb642b3b22ced85ff8e0c18",
+        "start_ns": 288439271720658,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 277.050606249,
+    "finish_ns": 289818551282714,
+    "start_ns": 289541500676465,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 277.050606249,
+        "finish_ns": 289818551282714,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-033f9d36d8aa4b3cbe5aa44db0bfb48f",
+        "start_ns": 289541500676465,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 286.916577237,
+    "finish_ns": 290105797734010,
+    "start_ns": 289818881156773,
+    "views": [
+      {
+        "details": "candidate",
+        "duration_s": 286.916577237,
+        "finish_ns": 290105797734010,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-da272db19c274606b494cda494c0971b",
+        "start_ns": 289818881156773,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  },
+  {
+    "duration_s": 1103.40155585,
+    "finish_ns": 291209673648123,
+    "start_ns": 290106272092273,
+    "views": [
+      {
+        "details": "baseline",
+        "duration_s": 1103.40155585,
+        "finish_ns": 291209673648123,
+        "kind": "native_attempt",
+        "phase": "attempt",
+        "record_index": "attempt-09705c8591f64372be44520df2ee1d34",
+        "start_ns": 290106272092273,
+        "status": "COMPLETED",
+        "study": "confirmation-14b"
+      }
+    ]
+  }
+]

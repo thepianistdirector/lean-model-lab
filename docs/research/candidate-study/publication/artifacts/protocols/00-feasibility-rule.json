@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "status": "PROSPECTIVE_FEASIBILITY_RULE_BEFORE_NATIVE_EXECUTION",
+  "investigator": "candidate-investigator-2",
+  "model_identity": {"model": "gpt-6-astra", "effort": "high", "thread_id": "01a080f7-a923-7ef1-a160-a67c8888f814"},
+  "archive": ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+  "archive_sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f",
+  "original_allocation_deadline_ns": 310468865220540,
+  "prior_workflow": {"path": ".cache/v1-first-workflow-20260908-02", "model": "0.5B", "family": "reference-chain", "context_records": 8, "correct_per_arm": "1/8 in each arm", "interpretation": "Retained adverse first-workflow evidence; no positive quality claim."},
+  "native_feasibility": {"model_profile": "qwen2.5-14b-instruct-fp16-v1", "mechanism": "dependency-slice-v1", "family": "reference-chain", "context_records": 8, "split": "development", "purpose": "DEVELOPMENT", "request_count": 8, "seed": 920260801, "concurrency": [1], "pairs": 2, "pair_order": ["AB", "BA"], "compute_threads": 6, "expected_native_offered_requests": 32},
+  "advance_rule": "Advance this 14B model toward the separately frozen mixed-population label study only if every complete full and sliced feasibility arm meets the unchanged 95% exact-task gate (8/8 for this cell), no pair shows aggregate candidate quality loss, raw native evidence reconciles, and observed full-wall timing supports the finite remaining campaign. This is development feasibility, not confirmation or a population guarantee.",
+  "failure_rule": "Retain every invalid, failed, incomplete or unfavorable attempt. If the 14B quality/timing rule fails, report a concrete alternative to root before any large label/confirmation study. No automatic retries or successful replacement.",
+  "optional_alternative": "Only if needed and separately justified to root, one 0.5B direct-lookup feasibility cell may use the remaining feasibility allowance. At most 64 native offered feasibility requests total.",
+  "campaign_ceiling": {"new_native_offered_requests": 2000, "actual_native_execution_seconds": 10800, "heavy_jobs": 1},
+  "native_entrypoint": "tools/run_queued_recipe.py invokes the exact packaged CLI once; no direct native run or scratch experiment.",
+  "novelty_scope": "Empirical investigation of a small model-bound acceptance controller; overlap identified, no priority, Qwen training or population-risk guarantee."
+}

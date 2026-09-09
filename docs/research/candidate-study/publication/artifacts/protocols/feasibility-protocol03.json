@@ -1,0 +1,25 @@
+{
+  "ablations": [
+    "Full original context with cache disabled.",
+    "Lexical target-only selection without transitive closure.",
+    "Dependency closure with certificate and conservative fallback.",
+    "Same record-count budget without dependency-based selection; report actual token budget differences.",
+    "A symbolic task interpreter is a non-LLM floor for this restricted grammar, not a general-language competitor."
+  ],
+  "baseline": "The same checkpoint, offered requests and inference settings on complete original contexts with cache disabled.",
+  "claim_limit": "Development feasibility only. Certificate proves restricted syntax/dependency closure, not model output equivalence. No novel architecture, Qwen training, population guarantee or broad speed claim.",
+  "confirmation_isolation": "No protected confirmation is performed in this development cell. Future fit/calibration/confirmation populations and a new mixed family must be independently frozen through product commands. Shared Unix identity is a workflow convention, not malicious-writer isolation.",
+  "development_evidence": "Retained first packaged0.5B reference-chain/context8 workflow at .cache/v1-first-workflow-20260908-02 achieved1/8correct perarm. This14Bcell is prospective feasibility, not confirmation; archive03 and all costs are retained.",
+  "hypothesis": "The larger already admitted model may be a usable label-source checkpoint where the retained 0.5B first workflow was 1/8 correct per arm. No positive quality claim is assumed.",
+  "primary_sources": [
+    "https://arxiv.org/abs/2310.04408",
+    "https://arxiv.org/abs/2403.12968",
+    "https://arxiv.org/abs/2605.17304",
+    "https://arxiv.org/abs/2509.17338"
+  ],
+  "proposal_sha256": "f904ec440707ab8f1c05b62506a8318d7749d0a3b3edeb6735e6973399af9239",
+  "question": "Does the already admitted Qwen2.5 14B FP16 model meet the unchanged 95% exact-task gate for full and dependency-sliced reference-chain/context8 prompts at affordable complete cost?",
+  "selection_rule": "Prospective rule in 00-feasibility-rule.json: exactly 8 requests, seed920260801, development split, reference-chain/context8, two AB/BA pairs, concurrency1, six compute threads; advance only with every full and sliced arm at least95% correct and no aggregate paired quality loss, reconciled raw evidence, and affordable full-wall timing. No tuning on confirmation.",
+  "stopping_rule": "Execute this exact recipe once through the queue. Retain all failures and unfavorable outcomes. Stop on original allocation deadline310468865220540, identity/protocol failure, cancellation or resource exhaustion. If quality or timing feasibility fails, report a concrete alternative before any large label study. No automatic retry.",
+  "uncertainty": "Balanced AB/BA paired effects and descriptive pair ranges; per-request paired correctness differences. No IID request assumption, significance claim or generalization beyond covered scenarios."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "created_ns": 290650662179291,
+  "layout": "Exact builder layout: lean-model-lab-source plus evidence and producers at extraction root.",
+  "manifest_sha256": "0e2e65aa0abe3439aab9f58f6420e73bd2ecbd216cbe87fa0ff5720f3b01a5f2",
+  "analysis_script_sha256": "fbe957e468cfc1f3da3a54fae1781e922f506d3aa3c1bddad087ebde1bf71eb8",
+  "plot_script_sha256": "b5d314b5b23c9ba5f62d4cc87abc1462f28784ab0a0826371872c62ef25fa71c",
+  "native_offered": 64,
+  "scope": "Both actual redacted exports reanalyzed in new output; no private originals read or runtime cache constants used. Native counts, oracle classes and numeric tables match the prior layout.",
+  "figures": {
+    "closed-0.5b-clarification.pdf": "52016a0b6652c2632fab758df2c96a4f5210092ddc1dfe8d8c10086ece681feb",
+    "closed-0.5b-clarification.png": "e36649393248d8a6ce0259a42ff3cfe482868eaef6b576cc395e0a7f646acde9",
+    "closed-0.5b-clarification.svg": "f755a84d9edbb5b0b73655064fc8dc2544bed7edad63ee6accb1b9f9a27048d4",
+    "closed-14b-feasibility.pdf": "eda942fbcc43e87b8b3c7a786a4663e4a9bbd8add8e74f8990b8d57bbf7485da",
+    "closed-14b-feasibility.png": "adda6e2cf2d0a3837e73a154470ff77154671fe6c0d1aa5c970a86b912d53858",
+    "closed-14b-feasibility.svg": "53c0c8dfe1e61254d5387513c7e4e214a341a8ccc9334fead2904f46f80ea74a"
+  }
+}

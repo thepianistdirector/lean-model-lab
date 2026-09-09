@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "evidence_class": "AUTOMATED_SOFTWARE_TESTS",
+  "tests": 295,
+  "status": "PASS",
+  "duration_seconds": 61.034,
+  "log_sha256": "45a3a47dbcd00f4395bdd31cbf62ac9c4a22c114522e0829b0f9e2dd83114a1b",
+  "retained_initial_failure": {
+    "log_sha256": "977aa5f300c7bdd7761f2591f4e23a95811fb427f60f1c07107b998400a3cf20",
+    "reason": "Workspace test assumed TMPDIR points within source workspace; test now creates its scoped temporary directory explicitly."
+  },
+  "final_report_integration_log_sha256": "5bb35851b8bd00b2b0b0c3e55ea22b3d0f80ad108776017faee3f1ff6a9c39bc",
+  "scope": "Python3.12.14/Linux; registered controller fitting and native protocol controls use explicit inert fixtures, not actual learned research results.",
+  "observed_monotonic_ns": 285499836317922
+}

@@ -1,12 +1,14 @@
 # Lean Model Lab experiment and evaluation contract
 
-Status: accepted architecture-foundation requirements; no experiment has run in this repository.
+Status: architecture-foundation requirements with an owner-directed research mission update on 8 September 2026. Real CPU cache controls and recovery observations exist; they validate the measurement foundation. General training and novel-mechanism results are not yet established. See [the research mission](docs/RESEARCH-MISSION.md) and [current evidence](STATUS.md).
 
 ## Question and comparison family
 
 Each experiment asks whether one declared candidate changes a metric vector for one accepted comparison family while its hard constraints remain satisfied. The family fixes model semantics, tokenizer, data/workload population, evaluator, hardware class, runtime boundary and clock envelope. A result outside that envelope starts another family; it is not silently pooled.
 
-The first planned family is local decoder-only inference over a deterministic synthetic trace, followed later by a tiny training comparison. The initial harness parses and validates contracts without loading weights or running a benchmark. Model/backend adoption remains a separate Wave 1 decision.
+The first implemented family is local decoder-only inference over a deterministic synthetic trace. Its known cache policy is an infrastructure control. Research proposals must separately name whether they reproduce a known method, combine existing mechanisms or test a proposed new mechanism; novelty remains an explicit review question. Training and model-changing hypotheses require appropriate adapters and quality evaluators, rather than inheriting the synthetic key-copy contract.
+
+Research objectives distinguish efficiency at a declared quality level, quality at a fixed resource budget and a shift of the quality/resource frontier. Prior-art comparison, the proposed technical delta, strong baselines, ablations and cheap decisive falsifiers precede expensive measurement. A favorable synthetic or operator result may justify the next stage but does not constitute a general LLM improvement.
 
 ## Evidence classes
 
@@ -132,3 +134,9 @@ That packet also records a local capability inventory and chooses one exact deco
 Stop or hold when rights/provenance are missing, the evaluator is compromised, the budget is exhausted, the device falls outside the accepted envelope, required quality cannot be evaluated, results are dominated within the chosen constraints or the practical effect is below noise. Preserve the evidence before replanning.
 
 No run may imply cross-model, cross-tokenizer, cross-backend or cross-device portability without separate evidence. No local plan validator, fixture parser, profiler trace, simulation or agent interpretation is a benchmark result.
+
+## Narrow 0.1 successor contract
+
+`docs/benchmarks/first-workload.md` predeclares a synthetic exact-key task quality rule, output parity as an additional constraint, paired order and measurement boundaries. `workloads/synthetic-key-copy-v1.json` is the generated immutable 128-request trace, with four filler-word strata (actual tokenizer IDs/counts are retained in the 2026-09-08 measured evidence), maximum 32 requested output tokens and concurrency modes 1 and 4. Its model-free validator rejects changes to prompt, answer, quality, sampling and arrival semantics. The historical quality placeholder is preserved only in lineage; it cannot admit a measured 0.1 run.
+
+The historical no-compute entry above is preserved as its original contract. Actual CPU inference and recovery now have separately dated evidence in STATUS.md. The paid-compute budget remains zero; unsupported measurements remain UNAVAILABLE. Public reproduction, qualified-review evidence and native Tanduna publication remain distinct required release gates. The owner-directed research programme builds on these controls and does not rename them as novel techniques.

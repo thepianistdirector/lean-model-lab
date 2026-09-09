@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "status": "PROSPECTIVE_FINITE_DEVELOPMENT_DIAGNOSIS_BEFORE_NATIVE_EXECUTION",
+  "parent_rule_sha256": "7a48707673d407ae8dd73ddbe0dc3fb157826eba25c74cc41ee7b6d9a638b7a1",
+  "authorization": "Root explicitly approved the single wording-only 0.5B alternative after complete 14B failure; replaces the optional direct-lookup branch, does not add to the 64-request feasibility ceiling.",
+  "archive_binding": "A separate freeze receipt must bind the supplied fixed archive, exact recipe and instruction text before execution.",
+  "native_feasibility": {
+    "model_profile": "qwen2.5-0.5b-instruct-fp16-v2",
+    "mechanism": "explicit-grammar-v2",
+    "baseline": "Original RECORD-LANGUAGE v1 FULL context, unchanged.",
+    "candidate": "Explicit grammar instructions with fixed unrelated example; FULL original records retained. No dependency slicing, answer substitution or task/seed change.",
+    "family": "reference-chain",
+    "context_records": 8,
+    "request_count": 8,
+    "seed": 920260801,
+    "concurrency": [
+      1
+    ],
+    "pairs": 2,
+    "pair_order": [
+      "AB",
+      "BA"
+    ],
+    "compute_threads": 2,
+    "split": "development",
+    "purpose": "DEVELOPMENT",
+    "native_offered_requests": 32
+  },
+  "advance_rule": "Advance only if the clarified candidate has exactly 8/8 correct in BOTH complete repetitions under unchanged exact scoring, raw evidence reconciles, no capped completion passes, and observed full-wall cost allows the finite remaining main campaign within the existing 180-minute native budget and original allocation deadline. The baseline remains in every denominator and all paired classes. This is solely development diagnosis; a failing baseline cannot become an eligible efficiency comparison.",
+  "stop_rule": "If clarification fails, no further prompt, task or seed search under this investigation. Retain all results and leave trained-controller and confirmation gates incomplete. No automatic rerun or replacement of failed attempts.",
+  "campaign_ceiling": {
+    "all_new_native_offered_requests": 2000,
+    "all_native_feasibility_offered_requests": 64,
+    "all_new_actual_native_execution_seconds": 10800,
+    "original_deadline_ns": 310468865220540
+  },
+  "remaining_proposed_main_if_feasible": {
+    "fit": 32,
+    "calibration": 32,
+    "fit_and_calibration_native_offered": 256,
+    "confirmation_unique_questions": 128,
+    "confirmation_policies": [
+      "dependency-slice-v1",
+      "simple-gated-slice-v1",
+      "learned-gated-slice-v1"
+    ],
+    "confirmation_pairs_each": 2,
+    "confirmation_native_offered": 1536,
+    "total_including_both_feasibility_cells": 1856,
+    "scope": "Only a proposed main matrix. Separate exact training protocol and confirmation freeze required; mixed family minimum subgroup coverage must be disclosed."
+  },
+  "interpretation": "No model training or novelty claim. The same records/expected answers isolate instruction wording causally within one fixed model. A pass would only support feasibility of later explicit-language mixed tasks."
+}

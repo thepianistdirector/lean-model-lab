@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "reviewer": "Verified GPT-6 Astra leaf investigator",
+  "scope": "Agent visual review of final PNG files and actual rendered PDF pages, not external human or institutional review.",
+  "checks": [
+    "No clipped labels or legends in the actual exported PNG/PDF renderings.",
+    "Discrete offset circle/square pair markers with no connecting lines.",
+    "Actual AB/BA labels, shared scales and 1.05 reference.",
+    "Retained-main and new-held-out identities separated.",
+    "Quality uses minimum arm accuracy; 95% gate, hatching and direct labels remain legible.",
+    "Latency curves retain denominators, correlation note and 30-second reference."
+  ],
+  "reviewed_files": [
+    {
+      "path": "docs/research/quality-study/confirmation-14b/publication/figures/latency-distributions.pdf",
+      "bytes": 40820,
+      "sha256": "5659b4357cc943cfebd949246504b6cb0e0b631c8c45445de9962bccbffba626",
+      "source_csv": "docs/research/quality-study/confirmation-14b/publication/requests.csv",
+      "source_csv_sha256": "1ecccedf665f612b4ef0cd349c6baaaa75c5989335519f77362270416f39bc92",
+      "visual_review": "Actual PDF page rendered with pypdfium2 and inspected"
+    },
+    {
+      "path": "docs/research/quality-study/confirmation-14b/publication/figures/latency-distributions.png",
+      "bytes": 150171,
+      "sha256": "b71c59cba9568d5c99a7789fd5c0ed0fb3a8749479d944aba4b4e5ba64f3b35e",
+      "source_csv": "docs/research/quality-study/confirmation-14b/publication/requests.csv",
+      "source_csv_sha256": "1ecccedf665f612b4ef0cd349c6baaaa75c5989335519f77362270416f39bc92",
+      "visual_review": "Actual PNG inspected"
+    },
+    {
+      "path": "docs/research/quality-study/confirmation-14b/publication/figures/paired-effects.pdf",
+      "bytes": 26710,
+      "sha256": "c5e916572d2a513a32cb5db73beb57e4bce7db705d66a0338b5cf4f883db79ef",
+      "source_csv": "docs/research/quality-study/confirmation-14b/publication/pairs.csv",
+      "source_csv_sha256": "76b9e62c0d4c190466d0593c5491a698002f92137506a824c99c07c2f0b0b4cc",
+      "visual_review": "Actual PDF page rendered with pypdfium2 and inspected"
+    },
+    {
+      "path": "docs/research/quality-study/confirmation-14b/publication/figures/paired-effects.png",
+      "bytes": 85429,
+      "sha256": "3143467d3368c588e7100772f1fa500f43c05387c4d572b1cd3816bdc5b1535a",
+      "source_csv": "docs/research/quality-study/confirmation-14b/publication/pairs.csv",
+      "source_csv_sha256": "76b9e62c0d4c190466d0593c5491a698002f92137506a824c99c07c2f0b0b4cc",
+      "visual_review": "Actual PNG inspected"
+    },
+    {
+      "path": "docs/research/quality-study/confirmation-14b/publication/figures/quality-gates.pdf",
+      "bytes": 19450,
+      "sha256": "d61f3ee0f7df81fa68dafae30656461004ccadf8c625759402ed8d267788d5d9",
+      "source_csv": "docs/research/quality-study/confirmation-14b/publication/attempts.csv",
+      "source_csv_sha256": "1d9e324cd78929829dcdd338649ac29b5ecadaad1d0b7000a169922528045628",
+      "visual_review": "Actual PDF page rendered with pypdfium2 and inspected"
+    },
+    {
+      "path": "docs/research/quality-study/confirmation-14b/publication/figures/quality-gates.png",
+      "bytes": 111761,
+      "sha256": "58df39ec6f5c8950202e68eba26d56a63f984d8adaf6d3e5c95813bab11f556d",
+      "source_csv": "docs/research/quality-study/confirmation-14b/publication/attempts.csv",
+      "source_csv_sha256": "1d9e324cd78929829dcdd338649ac29b5ecadaad1d0b7000a169922528045628",
+      "visual_review": "Actual PNG inspected"
+    }
+  ],
+  "pdf_renderer": {
+    "renderer": "pypdfium2",
+    "version": "5.13.0",
+    "scope": "Local visual QA only; not a reanalysis/runtime dependency or model measurement."
+  },
+  "reviewed_monotonic_ns": 291798566450050
+}

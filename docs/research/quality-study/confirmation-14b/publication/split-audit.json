@@ -1,0 +1,7 @@
+{
+  "confirmation_seed": 2026090901,
+  "confirmation_unique_full_prompt_count": 128,
+  "exact_full_prompt_overlap_count": 0,
+  "historical_seed": 20260908,
+  "scope": "Full prompt identity versus historical128-request measurement population; fixed shared filler prefixes and grammar remain intentional. No overlap-driven resampling."
+}

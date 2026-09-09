@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "observed_requests": 3646,
+  "offered_requests": 3744,
+  "attempts": 33,
+  "pairs": 16,
+  "exact_token_difference_rows": 5,
+  "historical14b_report_matches_original_json": true,
+  "ineligible_ratios_remain_null": true,
+  "broken_markdown_links": [],
+  "standalone_png_visual_inspection": "PASS; all three inspected after final chart edits",
+  "reproduction": "PENDING_SEPARATE_AGENT",
+  "validated_monotonic_ns": 287422828009863
+}

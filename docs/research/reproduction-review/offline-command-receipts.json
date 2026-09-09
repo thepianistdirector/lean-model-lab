@@ -1,0 +1,257 @@
+{
+  "scope": "Extracted package scripts, existing interpreter, unrelated cwd and fresh outputs. First invocation failures and corrected documented invocations both retained. Work is within the original allocation; analysis command elapsed times must not be added to overlapping native or allocation wall time. Documentary placeholders replace host-specific paths.",
+  "commands": [
+    {
+      "name": "quality",
+      "argv": [
+        "<source-workspace>/.cache/research-plot-env/bin/python",
+        "-I",
+        "<review-workspace>/extracted/quality/lean-model-lab-source/docs/research/quality-study/confirmation-14b/portable_reanalysis.py",
+        "--evidence-manifest",
+        "<review-workspace>/extracted/quality/evidence-manifest.json",
+        "--output",
+        "<review-workspace>/reanalysis/quality"
+      ],
+      "cwd": "<review-workspace>/unrelated-cwd",
+      "started_ns": 303315466726317,
+      "finished_ns": 303317328489203,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "c80b812890b4406c2c3c972bf8d3f93e583fe8089546d7f8db8a83e2382f88c9",
+          "bytes": 6239
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "name": "candidate",
+      "argv": [
+        "<source-workspace>/.cache/research-plot-env/bin/python",
+        "-I",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/scripts/reanalyze.py",
+        "--manifest",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/evidence-manifest-final.json",
+        "--evidence-root",
+        "<review-workspace>/extracted/candidate",
+        "--output",
+        "<review-workspace>/reanalysis/candidate"
+      ],
+      "cwd": "<review-workspace>/unrelated-cwd",
+      "started_ns": 303317328720613,
+      "finished_ns": 303317436391598,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "6c1476bc7397cef908273f350873e53d5a2df4b41b13f5ce7fceca11fd67cd38",
+          "bytes": 189
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "name": "training",
+      "argv": [
+        "<source-workspace>/.cache/research-plot-env/bin/python",
+        "-I",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/scripts/validate_training.py",
+        "--manifest",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/evidence-manifest-final.json",
+        "--evidence-root",
+        "<review-workspace>/extracted/candidate",
+        "--output",
+        "<review-workspace>/reanalysis/training.json"
+      ],
+      "cwd": "<review-workspace>/unrelated-cwd",
+      "started_ns": 303317488445250,
+      "finished_ns": 303317507880105,
+      "exit_code": 1,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr": {
+          "sha256": "c8e33fb6bccf6979d85fef07e7f4b58bb887601280cd339939ac425905f933d5",
+          "bytes": 368
+        }
+      }
+    },
+    {
+      "name": "resources",
+      "argv": [
+        "<source-workspace>/.cache/research-plot-env/bin/python",
+        "-I",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/scripts/summarize_resources.py",
+        "--manifest",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/evidence-manifest-final.json",
+        "--evidence-root",
+        "<review-workspace>/extracted/candidate",
+        "--output",
+        "<review-workspace>/reanalysis/candidate-resources.json"
+      ],
+      "cwd": "<review-workspace>/unrelated-cwd",
+      "started_ns": 303317508100734,
+      "finished_ns": 303317538650137,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "ec1114c5a438d90f2234137508260d96733ce44f6bdf28eb70726b4c68e41640",
+          "bytes": 938
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "name": "illustrations",
+      "argv": [
+        "<source-workspace>/.cache/research-plot-env/bin/python",
+        "-I",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/scripts/illustrations.py",
+        "--manifest",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/evidence-manifest-final.json",
+        "--evidence-root",
+        "<review-workspace>/extracted/candidate",
+        "--analysis",
+        "<review-workspace>/reanalysis/candidate",
+        "--output",
+        "<review-workspace>/reanalysis/illustrations"
+      ],
+      "cwd": "<review-workspace>/unrelated-cwd",
+      "started_ns": 303317538886757,
+      "finished_ns": 303317556344419,
+      "exit_code": 1,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        "stderr": {
+          "sha256": "43e664ea7c2faaba895b00021c6db3726a07e33ece618f6e5ad20d0415ab98bd",
+          "bytes": 362
+        }
+      }
+    },
+    {
+      "name": "systems",
+      "argv": [
+        "<source-workspace>/.cache/research-plot-env/bin/python",
+        "-I",
+        "<review-workspace>/extracted/systems/lean-model-lab-source/docs/research/systems-study/analyze.py",
+        "<review-workspace>/extracted/systems/lean-model-lab-source/docs/research/systems-study/evidence-manifest.json",
+        "--evidence-root",
+        "<review-workspace>/extracted/systems",
+        "--output",
+        "<review-workspace>/reanalysis/systems"
+      ],
+      "cwd": "<review-workspace>/unrelated-cwd",
+      "started_ns": 303317556553697,
+      "finished_ns": 303317795364796,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "5cd7327c907012c2ed10b35892a8aa0c581e329051e291f6c24cbeb745d9a21f",
+          "bytes": 11113
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "name": "systems-populations",
+      "argv": [
+        "<source-workspace>/.cache/research-plot-env/bin/python",
+        "-I",
+        "<review-workspace>/extracted/systems/lean-model-lab-source/docs/research/systems-study/check-populations.py",
+        "<review-workspace>/extracted/systems/lean-model-lab-source/docs/research/systems-study/evidence-manifest.json",
+        "--evidence-root",
+        "<review-workspace>/extracted/systems",
+        "--output",
+        "<review-workspace>/reanalysis/systems-populations.json"
+      ],
+      "cwd": "<review-workspace>/unrelated-cwd",
+      "started_ns": 303317795649965,
+      "finished_ns": 303317816715820,
+      "exit_code": 0,
+      "output_hashes": {
+        "stdout": {
+          "sha256": "9031a81caa9b4918440be09bde8b299d3ff6a572c10ca50b0ffb0f63e75fa2ad",
+          "bytes": 33
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "argv": [
+        "<source-workspace>/.cache/research-plot-env/bin/python",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/scripts/validate_training.py",
+        "--manifest",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/evidence-manifest-final.json",
+        "--evidence-root",
+        "<review-workspace>/extracted/candidate",
+        "--output",
+        "<review-workspace>/reanalysis/training-documented.json"
+      ],
+      "exit_code": 0,
+      "started_ns": 303356597341907,
+      "finished_ns": 303356626602876,
+      "cwd": "<review-workspace>/unrelated-cwd",
+      "reason": "Use documented invocation without reviewer-added isolated-mode flag; sibling imports require script directory on sys.path. First failure retained.",
+      "output_hashes": {
+        "stdout": {
+          "sha256": "0152533a7795b8e6dbffbe16ed7f0a871fb305f0929439c26c1c964cf72e5ea8",
+          "bytes": 723
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "argv": [
+        "<source-workspace>/.cache/research-plot-env/bin/python",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/scripts/illustrations.py",
+        "--manifest",
+        "<review-workspace>/extracted/candidate/lean-model-lab-source/docs/research/candidate-study/publication/evidence-manifest-final.json",
+        "--evidence-root",
+        "<review-workspace>/extracted/candidate",
+        "--analysis",
+        "<review-workspace>/reanalysis/candidate",
+        "--output",
+        "<review-workspace>/reanalysis/illustrations-documented"
+      ],
+      "exit_code": 0,
+      "started_ns": 303356626669109,
+      "finished_ns": 303356663930992,
+      "cwd": "<review-workspace>/unrelated-cwd",
+      "reason": "Use documented invocation without reviewer-added isolated-mode flag; sibling imports require script directory on sys.path. First failure retained.",
+      "output_hashes": {
+        "stdout": {
+          "sha256": "4af541ac9df64e4c640ee89147a02b68b0da524a58c7519a886017a12d9897e6",
+          "bytes": 815
+        },
+        "stderr": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "original_producer_inspection": "original-producer-inspection.json",
+  "reviewer_discrepancies": "reviewer-command-discrepancies.json"
+}

@@ -1,0 +1,15 @@
+{
+  "approval_reference": "Lucas explicit approval in this task, 2026-09-08: pinned llama.cpp v0.2.0 CPU build, official Qwen2.5-0.5B FP16 and frozen 128-request comparison; 2 hours, 5 GiB disk, 4 GiB RAM, two compute threads. APPROVED, CONTINUE.",
+  "approved": true,
+  "backend_revision": "bb4caa7540188872173c44d161602d9271386413",
+  "limits": {
+    "disk_bytes": 5368709120,
+    "full_wall_seconds": 7200,
+    "max_heavy_jobs": 1,
+    "memory_bytes": 4294967296,
+    "request_timeout_seconds": 120,
+    "startup_timeout_seconds": 180
+  },
+  "model_sha256": "8e0ae26000627ed62de0e78e41860af70094558b9d2913385c842a6aa06cf3fc",
+  "schema_version": 1
+}

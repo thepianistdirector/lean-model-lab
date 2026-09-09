@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "recorded_ns": 299401068706457,
+  "original_logical_native_study_id": "clarification-0.5b-study04",
+  "safe_public_package_alias": "clarification-05b-study04",
+  "scope": "Operational public directory/CLI alias correction only. The actual builder rejected the period in the original alias before writing ZIP output; its name boundary is unchanged. Original native directories, filenames, record populations, outputs, scientific metrics and expected content hashes are unchanged. A prior source snapshot check did not exercise --study alias parsing.",
+  "original_manifest_sha256": "7b3ff880aa620dbb67bad98e1ce68e1d6f0a9c32d33283318ba1a6e22f4bf54b",
+  "new_manifest_sha256": "f3e29240b15aad46cd704e95a7c4f4ffecfba310ac4594efac43997ac3942760",
+  "prior_operator_map_sha256": "42ce8f6cee5806771f74f0bb9205fbf38c8915d8fd7069f6aced008016677ce7",
+  "builder_sha256": "87cf56157b137677822198d6d6c4289453e5bc2894caad3460d85c4cb4514226",
+  "actual_study_argument_checks": {
+    "old_alias_rejected": true,
+    "new_alias_accepted": true
+  },
+  "validation": {
+    "staged_reanalysis": "PASS",
+    "staged_training": "PASS",
+    "staged_memory_resources": "PASS",
+    "staged_illustrations": "PASS",
+    "staged_plotting": "PASS",
+    "original_and_new_analysis_equal_except_manifest_timestamp_and_public_directory": true,
+    "original_and_new_resource_values_equal_except_manifest_and_public_directory": true
+  },
+  "unchanged_scientific_csv_sha256": {
+    "requests.csv": "9baa62751e0469bbb9edd10e04071874247e1a18a7b98702ec99418409add433",
+    "repetition-stability.csv": "a79f9736db593765f6543c04633eab6efed56e8a608043b3b4bff13c8f25666a",
+    "attempts.csv": "e7233622982d2a0868b4ef857f04d1c126e519a66286d68c609dd663faa5e8e0",
+    "paired.csv": "5d47ccbd931769f2b215a1f3a35d186d8695693704924b86ffc506c113644acc",
+    "route-counts.csv": "8eebdf94507f5db54289f711a85682e601646829b09cd2071c5717b49b0194ed",
+    "oracle-strata.csv": "9e67addd8231e1a2b1bb80c8ec730204f817e10364c135a6e92630fed696f46c",
+    "cost-scopes.csv": "d88e34c9c7ec3ceb30e3b3098e2bf90acb80d72499cfd032c8eed9a06d230d5b"
+  },
+  "published_reviewed_assets_byte_unchanged": {
+    "docs/research/candidate-study/figures/closed/closed-0.5b-clarification.pdf": "32f41561845a26151e4e1f7ff2ce7b3aaca4b41395a70aec6143692fc26e2aeb",
+    "docs/research/candidate-study/figures/closed/closed-0.5b-clarification.png": "77b3e3794b808e878a5cd41b37cbbb1d2dec67efd541f41905d5fbe6adffe159",
+    "docs/research/candidate-study/figures/closed/closed-14b-feasibility.pdf": "8e718b8a955578a210d4c2be93eebd75cbdd39cc42a6c062356b6eba4470c8a1",
+    "docs/research/candidate-study/figures/closed/closed-14b-feasibility.png": "b136048f0e18b964470acc5a82b4120c7677a283ca3004b4bee70d17a4a09edf",
+    "docs/research/candidate-study/figures/confirmation/confirmation-four-outcomes.pdf": "f7668c99672b242fa5c899fc8f5e5c806127792a979a4f869737364a4a073520",
+    "docs/research/candidate-study/figures/confirmation/confirmation-four-outcomes.png": "b0fe1a199fc1a6026a0123ba896ccdab6e01d593482ff9b4aef6b9be44e02d13",
+    "docs/research/candidate-study/figures/confirmation/confirmation-quality-and-cost.pdf": "e7a5fffd0c53b36d6c8615c371080d4d78a5b64c734c1c8239c89f93f52796c8",
+    "docs/research/candidate-study/figures/confirmation/confirmation-quality-and-cost.png": "b3b5919454c1c22d1f726578b66c250b0f92eca4fb8128fa651665dc81ee0d65",
+    "docs/research/candidate-study/figures/confirmation/slice-family-outcomes.pdf": "dc70ae3f9f7fab8228f725fdfc71bb96df83166861a3ac969a3b7c48efd49b7e",
+    "docs/research/candidate-study/figures/confirmation/slice-family-outcomes.png": "34f39d6119189f432c98eea4a00abe8d8f67a21e7df724d98dca9d905f6c147d",
+    "docs/research/candidate-study/figures/development/controller-calibration.pdf": "2c88db2c78ed600176a5ada1d654c4542cbbf618a510afe0d15ff3c832350cdc",
+    "docs/research/candidate-study/figures/development/controller-calibration.png": "87c8c55517c80b2c59c1b0f185d9129304060520f0a629c5e11621a40ad06ac9",
+    "docs/research/candidate-study/figures/development/matched-budget-development-control.pdf": "a73648ee21464d20bcdf0802d683d142b95e3c0cab1cc1c5440f83c2290c0053",
+    "docs/research/candidate-study/figures/development/matched-budget-development-control.png": "d19f8e74c2d0c96f60dec0dcdd9327506a479900c962e5891ff663ee9fef20da",
+    "docs/research/candidate-study/figures/pdf-review-closed/closed-0.5b-clarification.png": "2d5e228c6144a92f88dba175546e8223c81c449a289d4d7377b4f19b423e9fa2",
+    "docs/research/candidate-study/figures/pdf-review-closed/closed-14b-feasibility.png": "e51b46de22a50c85804f6040be4cedc72c5d81a8e95b683f73592a31c3ddd477",
+    "docs/research/candidate-study/figures/pdf-review-confirmation/confirmation-four-outcomes.png": "721f811803056da127510b77a7e20a202365991a76afbee234714383585c5e83",
+    "docs/research/candidate-study/figures/pdf-review-confirmation/confirmation-quality-and-cost.png": "a4ad2f2056c77765cb56cf3f87bf30f6cf50335bd33eef9787f746e486cc25df",
+    "docs/research/candidate-study/figures/pdf-review-confirmation/slice-family-outcomes.png": "7fbced3be4c707e747032a0cc17624c0b07bd11e67509214f25e5f4e04551a82",
+    "docs/research/candidate-study/figures/pdf-review-development/controller-calibration.png": "677f528ef452d828cd42468c0f4afe52fce2cf1f892be827c476f88e3e188307",
+    "docs/research/candidate-study/figures/pdf-review-development/matched-budget-development-control.png": "235bb91b9696206765328ab22500c497765d74aff2cb37b538515127cfaafaed"
+  },
+  "regenerated_figure_comparison": {
+    "controller-calibration.pdf": {
+      "byte_identical": false,
+      "previous_sha256": "60b5441dcc6e49bfe17ff5f09f43f8e37354be1100470b1366abd25bc5e7aa03",
+      "regenerated_sha256": "aa8e48a3e34d1fe42cb323af3723cb570fcdd244692712084bf18b5c342a88e5"
+    },
+    "closed-0.5b-clarification.svg": {
+      "byte_identical": false,
+      "previous_sha256": "d2c60abcd3e069d879fbabc654e5021ec2beae288ca607c3a52cf9c57fe29b4b",
+      "regenerated_sha256": "c33a1c9c74562e55c306d842a8a344e26a4052f44d2df5a24edfc5e341a4e5cb"
+    },
+    "slice-family-outcomes.svg": {
+      "byte_identical": false,
+      "previous_sha256": "3b06682bd6dc255ef6698505654f0d0d799555af3047c0e9f714ba2c9c550311",
+      "regenerated_sha256": "b53c9c860f988caba0fae2cf6f4fff3eadbe99b33d7f596654a93e89996d1b24"
+    },
+    "closed-14b-feasibility.svg": {
+      "byte_identical": false,
+      "previous_sha256": "26bdada3dfa36deda6387192661d31bdcec4cbcef3a2028ac14d5fef3646ec8f",
+      "regenerated_sha256": "ede37fac86e300f4dee9955be1a2d900f9c56821c543c5c6a62bd37fa37cfa43"
+    },
+    "controller-calibration.svg": {
+      "byte_identical": false,
+      "previous_sha256": "e3d47098543819a400998748a0208bc116c717a3a5c33f883d120ee5b0bab98d",
+      "regenerated_sha256": "82af2a433966c30dd20b797787c8ad42570db19c2308fe44a1187b471fda701b"
+    },
+    "confirmation-four-outcomes.png": {
+      "byte_identical": true,
+      "previous_sha256": "b0fe1a199fc1a6026a0123ba896ccdab6e01d593482ff9b4aef6b9be44e02d13",
+      "regenerated_sha256": "b0fe1a199fc1a6026a0123ba896ccdab6e01d593482ff9b4aef6b9be44e02d13"
+    },
+    "matched-budget-development-control.pdf": {
+      "byte_identical": false,
+      "previous_sha256": "36022cffbd10d9bbfefa956b0943f1829e51d6bb5aea1c54d715f9e874722b02",
+      "regenerated_sha256": "aeca4ae78cb58950cfb4a93b8932ce877e10bb8c64948a6d51623bfe22daf38c"
+    },
+    "confirmation-quality-and-cost.pdf": {
+      "byte_identical": false,
+      "previous_sha256": "e7a5fffd0c53b36d6c8615c371080d4d78a5b64c734c1c8239c89f93f52796c8",
+      "regenerated_sha256": "70cd71bc177e998e232d1484f5e04d99d719d46027198cf6886cce0fd229e532"
+    },
+    "confirmation-quality-and-cost.png": {
+      "byte_identical": true,
+      "previous_sha256": "b3b5919454c1c22d1f726578b66c250b0f92eca4fb8128fa651665dc81ee0d65",
+      "regenerated_sha256": "b3b5919454c1c22d1f726578b66c250b0f92eca4fb8128fa651665dc81ee0d65"
+    },
+    "closed-14b-feasibility.pdf": {
+      "byte_identical": false,
+      "previous_sha256": "cb96c7f2685b891fee0e96b8ab19371409dea7ba0dde95f147e9a2f50df8589a",
+      "regenerated_sha256": "33ba9a24eedb38753a4cf356f49628f45b47aee77de3e3de11216103e0214c2d"
+    },
+    "matched-budget-development-control.png": {
+      "byte_identical": true,
+      "previous_sha256": "d19f8e74c2d0c96f60dec0dcdd9327506a479900c962e5891ff663ee9fef20da",
+      "regenerated_sha256": "d19f8e74c2d0c96f60dec0dcdd9327506a479900c962e5891ff663ee9fef20da"
+    },
+    "confirmation-quality-and-cost.svg": {
+      "byte_identical": false,
+      "previous_sha256": "9e96e89c62223c6cf97d14b555d2119006c61e0e73bd3426569c9a6119620c9f",
+      "regenerated_sha256": "d37b92ee372c2637376734063217f39d3ac44404825ae02758e98d13ebd4ed8d"
+    },
+    "confirmation-four-outcomes.pdf": {
+      "byte_identical": false,
+      "previous_sha256": "f7668c99672b242fa5c899fc8f5e5c806127792a979a4f869737364a4a073520",
+      "regenerated_sha256": "9217c91c531f9f3c7b16dec5195f213db218c58f6fef79f5b5f83ebd1e371d3f"
+    },
+    "controller-calibration.png": {
+      "byte_identical": true,
+      "previous_sha256": "87c8c55517c80b2c59c1b0f185d9129304060520f0a629c5e11621a40ad06ac9",
+      "regenerated_sha256": "87c8c55517c80b2c59c1b0f185d9129304060520f0a629c5e11621a40ad06ac9"
+    },
+    "confirmation-four-outcomes.svg": {
+      "byte_identical": false,
+      "previous_sha256": "ff7fe3a62b874c1f0c1ae5b273dbf0d735b6571927e1ecae14fe83635a70b52b",
+      "regenerated_sha256": "ea2cbc79f9c5fcaf1d578f9d20b4bbb9e60903cc1ebed72e9d0cd6e20158e759"
+    },
+    "slice-family-outcomes.pdf": {
+      "byte_identical": false,
+      "previous_sha256": "dc70ae3f9f7fab8228f725fdfc71bb96df83166861a3ac969a3b7c48efd49b7e",
+      "regenerated_sha256": "7c5c17e3d28571e713acfc23d7d7d8207e3c72b3e4c392b4c53b9986e9a61cb1"
+    },
+    "closed-0.5b-clarification.png": {
+      "byte_identical": true,
+      "previous_sha256": "77b3e3794b808e878a5cd41b37cbbb1d2dec67efd541f41905d5fbe6adffe159",
+      "regenerated_sha256": "77b3e3794b808e878a5cd41b37cbbb1d2dec67efd541f41905d5fbe6adffe159"
+    },
+    "slice-family-outcomes.png": {
+      "byte_identical": true,
+      "previous_sha256": "34f39d6119189f432c98eea4a00abe8d8f67a21e7df724d98dca9d905f6c147d",
+      "regenerated_sha256": "34f39d6119189f432c98eea4a00abe8d8f67a21e7df724d98dca9d905f6c147d"
+    },
+    "closed-0.5b-clarification.pdf": {
+      "byte_identical": false,
+      "previous_sha256": "7df1605da35616849d5d6839878c0a214c4f49e2112702b65f7007a34f7c415d",
+      "regenerated_sha256": "c2a54cc1155f523c47d06810413f2b3ed11d6c4b01f336fe29be5176e041b739"
+    },
+    "matched-budget-development-control.svg": {
+      "byte_identical": false,
+      "previous_sha256": "c673ba1f341e00c20995af553e0229118a4d2c21832a6b90f0b132baf91ca188",
+      "regenerated_sha256": "224008dd4b9eabe32649ececfffd3399fa78dd3d39b89e4d4d80e793ee88758e"
+    },
+    "closed-14b-feasibility.png": {
+      "byte_identical": true,
+      "previous_sha256": "b136048f0e18b964470acc5a82b4120c7677a283ca3004b4bee70d17a4a09edf",
+      "regenerated_sha256": "b136048f0e18b964470acc5a82b4120c7677a283ca3004b4bee70d17a4a09edf"
+    }
+  },
+  "figure_scope": "All seven regenerated PNGs byte-identical. All original published PNG/SVG/PDF files retained unchanged; regenerated SVG/PDF metadata may differ and are not substituted.",
+  "native_execution": false
+}

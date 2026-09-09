@@ -1,0 +1,6 @@
+{
+  "comparison": "D1 archive03 versus D2 archive04, original record-reuse, matched model transfer",
+  "all_generated_request_records_identical": true,
+  "d1_workload_file_sha256": "ebee3f3c0edc5619636d5dd34c9439d222d462ba0ba024e757c48629a76e0612",
+  "d2_workload_file_sha256": "ebee3f3c0edc5619636d5dd34c9439d222d462ba0ba024e757c48629a76e0612"
+}

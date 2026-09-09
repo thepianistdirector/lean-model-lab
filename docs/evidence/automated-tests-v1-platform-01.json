@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "evidence_class": "AUTOMATED_SOFTWARE_TESTS",
+  "tests": 270,
+  "status": "PASS",
+  "duration_seconds": 52.98,
+  "log_sha256": "055b6abd480c3a86a991f52e2755c9c1580fcda7d9cc92db876bc165296b2875",
+  "scope": "Python3.12.14/Linux; includes actual inert HTTP processes, no actual model inference. Native prior producer remains independent frozen archive.",
+  "observed_monotonic_ns": 282793262584343
+}

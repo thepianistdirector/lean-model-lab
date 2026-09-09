@@ -1,0 +1,25 @@
+{
+  "stage": "BOTH_PREDECLARED_MODEL_FEASIBILITY_BRANCHES_FAILED_QUALITY_NO_FURTHER_SEARCH",
+  "offered_requests_used": 64,
+  "native_attempt_wall_seconds": 238.753186968,
+  "queue_execution_elapsed_seconds": 248.081342296,
+  "request_budget_remaining": 2936,
+  "conservative_native_execution_budget_seconds_remaining": 5151.918657704,
+  "next_gate": "Await root decision on distinct frozen held-out failure/system-cost challenge. No automatic native continuation.",
+  "cases": [
+    {
+      "id": "d1-small-reuse24",
+      "baseline_correct": 2,
+      "candidate_correct": 8,
+      "denominator_per_arm": 16,
+      "raw_audit": "PASS"
+    },
+    {
+      "id": "d2-large-reuse24",
+      "baseline_correct": 6,
+      "candidate_correct": 2,
+      "denominator_per_arm": 16,
+      "raw_audit": "PASS"
+    }
+  ]
+}

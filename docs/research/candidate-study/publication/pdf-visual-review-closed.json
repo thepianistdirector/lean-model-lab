@@ -1,0 +1,28 @@
+{
+  "created_ns": 292535543210604,
+  "renderer": {
+    "renderer": "pypdfium2",
+    "version": "5.13.0",
+    "scope": "Local visual QA only; rendered output still requires visual inspection. No model execution."
+  },
+  "renderer_script_sha256": "448553de073943552f33034651621ead5b3af717fc59b2d5eee7a9594c7e7c97",
+  "files": [
+    {
+      "pdf": "docs/research/candidate-study/figures/closed/closed-0.5b-clarification.pdf",
+      "pdf_sha256": "32f41561845a26151e4e1f7ff2ce7b3aaca4b41395a70aec6143692fc26e2aeb",
+      "preview": "docs/research/candidate-study/figures/pdf-review-closed/closed-0.5b-clarification.png",
+      "preview_sha256": "2d5e228c6144a92f88dba175546e8223c81c449a289d4d7377b4f19b423e9fa2",
+      "status": "VISUALLY_INSPECTED_PASS",
+      "review": "Single-page PDF rasterization inspected: all counts/timings/units/AB-BA labels match the plotted table; charcoal threshold and candidate hatch remain clear; no clipping."
+    },
+    {
+      "pdf": "docs/research/candidate-study/figures/closed/closed-14b-feasibility.pdf",
+      "pdf_sha256": "8e718b8a955578a210d4c2be93eebd75cbdd39cc42a6c062356b6eba4470c8a1",
+      "preview": "docs/research/candidate-study/figures/pdf-review-closed/closed-14b-feasibility.png",
+      "preview_sha256": "e51b46de22a50c85804f6040be4cedc72c5d81a8e95b683f73592a31c3ddd477",
+      "status": "VISUALLY_INSPECTED_PASS",
+      "review": "Single-page PDF rasterization inspected: all counts/timings/units/AB-BA labels match the plotted table; charcoal threshold and candidate hatch remain clear; no clipping."
+    }
+  ],
+  "scope": "Existing optional PDF QA dependency reused; no install, model execution or native runtime dependency change."
+}

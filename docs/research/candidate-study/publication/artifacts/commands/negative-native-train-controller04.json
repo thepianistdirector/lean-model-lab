@@ -1,0 +1,30 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "research",
+    "train-controller",
+    "--fit-study",
+    ".cache/v1-investigations-20260908/candidate/negative-fit-study04",
+    "--calibration-study",
+    ".cache/v1-investigations-20260908/candidate/negative-calibration-study04",
+    "--protocol",
+    ".cache/v1-investigations-20260908/candidate/negative-training-protocol04.json",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/negative-controller04"
+  ],
+  "exit_code": 0,
+  "finished_ns": 292229964915087,
+  "label": "negative-native-train-controller04",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 292229200371665,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 536,
+    "sha256": "706247bba59de57390bf17155934ec3e2ea23d5efe2f8c69c1a55a7f42b6accd"
+  }
+}

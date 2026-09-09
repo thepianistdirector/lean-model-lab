@@ -1,0 +1,2635 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>Evaluator test fixture · Lean Model Lab</title>
+<style>
+:root{color-scheme:light;--ink:#192b32;--muted:#41585f;--line:#c8d3d5;--paper:#f7f9f8;--accent:#09655b}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 system-ui,sans-serif}
+a{color:var(--accent)}a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid #9d4a00;outline-offset:4px}
+.skip{position:absolute;left:1rem;top:-6rem;background:white;padding:1rem}.skip:focus{top:1rem}
+header,main,footer{max-width:1120px;margin:auto;padding:2rem 1.5rem}header{border-bottom:1px solid var(--line)}
+.wordmark{font-weight:750;letter-spacing:.025em;margin:0 0 2rem}.badge{font-size:.8rem;font-weight:750;color:var(--accent);letter-spacing:.06em}
+h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.08;letter-spacing:-.035em;max-width:20ch;margin:.8rem 0 1.4rem}
+h2{font-size:1.4rem;margin:0 0 1rem}h3{font-size:1.05rem}p{max-width:78ch}.lede{font-size:1.15rem;color:var(--muted)}
+section{margin-bottom:2.5rem}.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem;margin:1.5rem 0}
+.facts div{border-top:2px solid var(--line);padding-top:.7rem}dt{color:var(--muted)}dd{font-size:1.5rem;font-weight:650;margin:.4rem 0}
+.notice{border-left:4px solid #9d4a00;padding:.1rem 1rem;background:#fff5e8}.groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2rem}
+.table-scroll{overflow:auto;border:1px solid var(--line);background:white}table{border-collapse:collapse;width:100%;font-size:.875rem}
+caption{text-align:left;padding:1rem;font-weight:600}th,td{padding:.75rem;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}th{white-space:nowrap;background:#eaf0ed}td:first-child{overflow-wrap:anywhere;min-width:10rem}
+summary{cursor:pointer;font-weight:650;padding:.8rem 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;padding:1rem;background:white;border:1px solid var(--line);font-size:.8rem}
+footer{border-top:1px solid var(--line);font-size:.875rem;color:var(--muted)}li{margin:.4rem 0}code{overflow-wrap:anywhere}
+@media(max-width:480px){header,main,footer{padding:1.5rem 1rem}.wordmark{margin-bottom:1.5rem}}
+@media print{header,main,footer{max-width:none;padding:1rem}.table-scroll{overflow:visible}table{font-size:9px}details{display:none}}
+</style></head><body><a class="skip" href="#main">Skip to evidence</a>
+<header><p class="wordmark">Lean Model Lab / 0.1 development</p><p class="badge">TEST DATA · NO MODEL INFERENCE</p>
+<h1>Evaluator test fixture</h1><p class="lede">Test fixture only. Baseline versus one prompt-prefix cache policy, with quality and complete request accounting.</p>
+<div class="notice"><p>This report exercises the evaluator with fabricated test inputs. It contains no measured model result or speedup claim.</p></div>
+</header><main id="main">
+<section aria-labelledby="accounting"><h2 id="accounting">Every attempt stays in view</h2>
+<dl class="facts"><div><dt>Retained attempts</dt><dd>12</dd></div>
+<div><dt>Observed requests</dt><dd>1536</dd></div>
+<div><dt>Missing requests</dt><dd>0</dd></div>
+<div><dt>Attempt wall time</dt><dd>0.000 s</dd></div></dl>
+<p>Attempt wall time includes retained attempt overhead. Acquisition and build costs require the separate setup ledger; this view does not silently count them as zero.</p>
+<p>Absolute quality: at least 95% exact synthetic keys in every arm. Token parity is an additional check. Energy and engine-internal token emission times are unavailable.</p>
+</section>
+<section aria-labelledby="paired"><h2 id="paired">Three pairs, two concurrency modes</h2>
+<p>AB / BA / AB order is fixed before execution. Ratios below are descriptive; three pairs do not support a precise confidence interval.</p>
+<div class="groups"><section><h3>Concurrency 1</h3><p>Practical gain in all three pairs</p><ul><li>Pair 1: 1.250× request throughput; token parity passed.</li><li>Pair 2: 1.250× request throughput; token parity passed.</li><li>Pair 3: 1.250× request throughput; token parity passed.</li></ul></section><section><h3>Concurrency 4</h3><p>Practical gain in all three pairs</p><ul><li>Pair 1: 1.250× request throughput; token parity passed.</li><li>Pair 2: 1.250× request throughput; token parity passed.</li><li>Pair 3: 1.250× request throughput; token parity passed.</li></ul></section></div></section>
+<section aria-labelledby="attempts"><h2 id="attempts">Complete attempt results</h2><p id="table-help">Scroll the table horizontally on narrow screens. Quality and observed-request counts retain all expected requests in their denominators.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Attempt results table" aria-describedby="table-help"><table>
+<caption>All retained attempts, in execution order</caption><thead><tr><th scope="col">Attempt</th><th scope="col">Arm</th><th scope="col">Concurrency</th><th scope="col">Pair</th><th scope="col">Status</th><th scope="col">Correct / expected</th><th scope="col">Observed / expected</th><th scope="col">Requests / s</th><th scope="col">End-to-end p95</th><th scope="col">Full wall</th></tr></thead><tbody><tr><td>attempt-f105976a0bf14de3bb0ded4cc5241b87</td><td>baseline</td><td>1</td><td>1</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>10000000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-ede4d22f59c546b9ba9e0dd3cc34938f</td><td>candidate</td><td>1</td><td>1</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>12500000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-1c603cdb286f4eddab0d915e276d9b4e</td><td>candidate</td><td>1</td><td>2</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>12500000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-081d6d280029486e9e1a0ff4827d32bd</td><td>baseline</td><td>1</td><td>2</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>10000000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-8321dbf4e78d46709bb6f6bd2f9e3720</td><td>baseline</td><td>1</td><td>3</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>10000000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-0b6d839bf81a4edfb82938ee3bd45509</td><td>candidate</td><td>1</td><td>3</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>12500000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-2a013d6c200d4c85be444922dc5b80ec</td><td>baseline</td><td>4</td><td>1</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>40000000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-88ccf8428cfd4fb4a1a1a51553ac84ef</td><td>candidate</td><td>4</td><td>1</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>50000000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-2bfe71038b534777b311b5441c120ca2</td><td>candidate</td><td>4</td><td>2</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>50000000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-93bba10ff8fe4e6f924b935718b86029</td><td>baseline</td><td>4</td><td>2</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>40000000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-7f2b4e6d1c994ddeb99e213ec3cb38fc</td><td>baseline</td><td>4</td><td>3</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>40000000.000</td><td>0.000 s</td><td>0.000 s</td></tr><tr><td>attempt-dcb64f53e9414534b47066c391a39083</td><td>candidate</td><td>4</td><td>3</td><td>COMPLETED</td><td>128/128</td><td>128/128</td><td>50000000.000</td><td>0.000 s</td><td>0.000 s</td></tr></tbody></table></div></section>
+<section aria-labelledby="limits"><h2 id="limits">What this evidence can support</h2><ul><li>Three independent pairs per concurrency; ranges are descriptive, not confidence intervals or significance tests.</li><li>128-request p95/p99 estimates, and 32-request stratum tails, are unstable.</li><li>Client chunk receipts do not establish individual token emission times or engine-internal latency.</li><li>Synthetic key copying does not establish general language-model competence.</li><li>All supplied attempts are retained; this file alone cannot prove omitted attempts do not exist.</li><li>Digest consistency does not authenticate externally supplied observations.</li><li>Attempt-only evaluation does not verify complete inventory or acquisition/build costs.</li><li>Device-specific finite queued batch; no online serving, energy, or cross-device superiority claim.</li></ul>
+<p>Configuration SHA-256: <code>9081e3640e9e69ee4ae0a226be6be564859ef0b57271aa637bec320519ee601f</code><br>Workload SHA-256: <code>ddaec977b3c0dc527030a143e2d21b7328752d335430b84f18440492ccf8ac02</code></p></section>
+<details><summary>Inspect the complete derived JSON</summary><pre>{
+  &quot;accounting&quot;: {
+    &quot;attempt_count&quot;: 12,
+    &quot;elapsed_span_ns&quot;: 100700,
+    &quot;expected_requests_across_attempts&quot;: 1536,
+    &quot;full_cost_accounting&quot;: {
+      &quot;attributed_setup_and_attempt_ns&quot;: 99747,
+      &quot;current_report_publication&quot;: &quot;separate report receipt in the rendering environment; never extends the producer clock&quot;,
+      &quot;cutoff_ns&quot;: 101700,
+      &quot;registered_full_wall_ns&quot;: 101699,
+      &quot;scope&quot;: &quot;first retained setup phase through last retained producer observation; includes intervening idle/coordinator work&quot;,
+      &quot;status&quot;: &quot;RECORDED&quot;,
+      &quot;unattributed_coordinator_or_idle_ns&quot;: 1952
+    },
+    &quot;full_wall_ns&quot;: 99600,
+    &quot;generated_tokens_reported&quot;: 7680,
+    &quot;generated_tokens_unknown_requests&quot;: 0,
+    &quot;missing_requests&quot;: 0,
+    &quot;monetary_cost&quot;: {
+      &quot;scope&quot;: &quot;no monetary-cost probe or estimate&quot;,
+      &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+      &quot;value&quot;: null
+    },
+    &quot;observed_requests&quot;: 1536,
+    &quot;overhead_ns&quot;: {
+      &quot;cache_preparation&quot;: 0,
+      &quot;compilation&quot;: 0,
+      &quot;evaluation&quot;: 600,
+      &quot;load&quot;: 3600,
+      &quot;recovery&quot;: 0,
+      &quot;reporting&quot;: 600,
+      &quot;service&quot;: 86400,
+      &quot;startup&quot;: 1200,
+      &quot;verification&quot;: 2400,
+      &quot;warmup&quot;: 4800
+    },
+    &quot;setup_acquisition_build_costs&quot;: {
+      &quot;bytes_acquired_known&quot;: 0,
+      &quot;bytes_acquired_unknown_records&quot;: 0,
+      &quot;elapsed_span_ns&quot;: 249,
+      &quot;failed_records&quot;: 0,
+      &quot;full_wall_ns&quot;: 147,
+      &quot;interrupted_records&quot;: 0,
+      &quot;record_count&quot;: 3,
+      &quot;records&quot;: [
+        {
+          &quot;bytes_acquired&quot;: 0,
+          &quot;details&quot;: &quot;model-free receipt fixture&quot;,
+          &quot;finished_ns&quot;: 50,
+          &quot;phase&quot;: &quot;source-acquisition&quot;,
+          &quot;started_ns&quot;: 1,
+          &quot;status&quot;: &quot;COMPLETED&quot;
+        },
+        {
+          &quot;bytes_acquired&quot;: 0,
+          &quot;details&quot;: &quot;model-free receipt fixture&quot;,
+          &quot;finished_ns&quot;: 150,
+          &quot;phase&quot;: &quot;model-acquisition&quot;,
+          &quot;started_ns&quot;: 101,
+          &quot;status&quot;: &quot;COMPLETED&quot;
+        },
+        {
+          &quot;bytes_acquired&quot;: 0,
+          &quot;details&quot;: &quot;model-free receipt fixture&quot;,
+          &quot;finished_ns&quot;: 250,
+          &quot;phase&quot;: &quot;build&quot;,
+          &quot;started_ns&quot;: 201,
+          &quot;status&quot;: &quot;COMPLETED&quot;
+        }
+      ],
+      &quot;scope&quot;: &quot;Only supplied setup phases; an empty ledger does not mean zero setup cost.&quot;,
+      &quot;status&quot;: &quot;RECORDED&quot;
+    },
+    &quot;unattributed_wall_ns&quot;: 0,
+    &quot;visible_output_tokens_observed&quot;: 7680
+  },
+  &quot;attempts&quot;: [
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;baseline&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-f105976a0bf14de3bb0ded4cc5241b87&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 1,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 13900,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 6450.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 6400,
+          &quot;p95&quot;: 12200,
+          &quot;p99&quot;: 12700,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 6350.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 6300,
+          &quot;p95&quot;: 12100,
+          &quot;p99&quot;: 12600,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 6400.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 6350,
+          &quot;p95&quot;: 12150,
+          &quot;p99&quot;: 12650,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 12800,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 0,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 12800,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6500.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6300,
+            &quot;p95&quot;: 12300,
+            &quot;p99&quot;: 12700,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6300.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6100,
+            &quot;p95&quot;: 12100,
+            &quot;p99&quot;: 12500,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6600.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6400,
+            &quot;p95&quot;: 12400,
+            &quot;p99&quot;: 12800,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6400.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6200,
+            &quot;p95&quot;: 12200,
+            &quot;p99&quot;: 12600,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 50000000.0,
+      &quot;successful_requests_per_second&quot;: 10000000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;candidate&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-ede4d22f59c546b9ba9e0dd3cc34938f&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 1,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 11340,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 5160.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 5120,
+          &quot;p95&quot;: 9760,
+          &quot;p99&quot;: 10160,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 5080.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 5040,
+          &quot;p95&quot;: 9680,
+          &quot;p99&quot;: 10080,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 5120.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 5080,
+          &quot;p95&quot;: 9720,
+          &quot;p99&quot;: 10120,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 10240,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 0,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 10240,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5200.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 5040,
+            &quot;p95&quot;: 9840,
+            &quot;p99&quot;: 10160,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5040.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 4880,
+            &quot;p95&quot;: 9680,
+            &quot;p99&quot;: 10000,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5280.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 5120,
+            &quot;p95&quot;: 9920,
+            &quot;p99&quot;: 10240,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5120.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 4960,
+            &quot;p95&quot;: 9760,
+            &quot;p99&quot;: 10080,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 62500000.0,
+      &quot;successful_requests_per_second&quot;: 12500000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;candidate&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-1c603cdb286f4eddab0d915e276d9b4e&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 1,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 11340,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 5160.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 5120,
+          &quot;p95&quot;: 9760,
+          &quot;p99&quot;: 10160,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 5080.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 5040,
+          &quot;p95&quot;: 9680,
+          &quot;p99&quot;: 10080,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 5120.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 5080,
+          &quot;p95&quot;: 9720,
+          &quot;p99&quot;: 10120,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 10240,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 1,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 10240,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5200.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 5040,
+            &quot;p95&quot;: 9840,
+            &quot;p99&quot;: 10160,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5040.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 4880,
+            &quot;p95&quot;: 9680,
+            &quot;p99&quot;: 10000,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5280.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 5120,
+            &quot;p95&quot;: 9920,
+            &quot;p99&quot;: 10240,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5120.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 4960,
+            &quot;p95&quot;: 9760,
+            &quot;p99&quot;: 10080,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 62500000.0,
+      &quot;successful_requests_per_second&quot;: 12500000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;baseline&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-081d6d280029486e9e1a0ff4827d32bd&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 1,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 13900,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 6450.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 6400,
+          &quot;p95&quot;: 12200,
+          &quot;p99&quot;: 12700,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 6350.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 6300,
+          &quot;p95&quot;: 12100,
+          &quot;p99&quot;: 12600,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 6400.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 6350,
+          &quot;p95&quot;: 12150,
+          &quot;p99&quot;: 12650,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 12800,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 1,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 12800,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6500.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6300,
+            &quot;p95&quot;: 12300,
+            &quot;p99&quot;: 12700,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6300.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6100,
+            &quot;p95&quot;: 12100,
+            &quot;p99&quot;: 12500,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6600.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6400,
+            &quot;p95&quot;: 12400,
+            &quot;p99&quot;: 12800,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6400.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6200,
+            &quot;p95&quot;: 12200,
+            &quot;p99&quot;: 12600,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 50000000.0,
+      &quot;successful_requests_per_second&quot;: 10000000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;baseline&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-8321dbf4e78d46709bb6f6bd2f9e3720&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 1,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 13900,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 6450.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 6400,
+          &quot;p95&quot;: 12200,
+          &quot;p99&quot;: 12700,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 6350.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 6300,
+          &quot;p95&quot;: 12100,
+          &quot;p99&quot;: 12600,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 6400.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 6350,
+          &quot;p95&quot;: 12150,
+          &quot;p99&quot;: 12650,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 12800,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 2,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 12800,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6500.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6300,
+            &quot;p95&quot;: 12300,
+            &quot;p99&quot;: 12700,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6300.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6100,
+            &quot;p95&quot;: 12100,
+            &quot;p99&quot;: 12500,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6600.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6400,
+            &quot;p95&quot;: 12400,
+            &quot;p99&quot;: 12800,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 6400.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 6200,
+            &quot;p95&quot;: 12200,
+            &quot;p99&quot;: 12600,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 50000000.0,
+      &quot;successful_requests_per_second&quot;: 10000000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;candidate&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-0b6d839bf81a4edfb82938ee3bd45509&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 1,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 11340,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 5160.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 5120,
+          &quot;p95&quot;: 9760,
+          &quot;p99&quot;: 10160,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 5080.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 5040,
+          &quot;p95&quot;: 9680,
+          &quot;p99&quot;: 10080,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 5120.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 5080,
+          &quot;p95&quot;: 9720,
+          &quot;p99&quot;: 10120,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 10240,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 2,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 10240,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5200.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 5040,
+            &quot;p95&quot;: 9840,
+            &quot;p99&quot;: 10160,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5040.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 4880,
+            &quot;p95&quot;: 9680,
+            &quot;p99&quot;: 10000,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5280.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 5120,
+            &quot;p95&quot;: 9920,
+            &quot;p99&quot;: 10240,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 5120.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 4960,
+            &quot;p95&quot;: 9760,
+            &quot;p99&quot;: 10080,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 62500000.0,
+      &quot;successful_requests_per_second&quot;: 12500000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;baseline&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-2a013d6c200d4c85be444922dc5b80ec&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 4,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 4300,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1650.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1600,
+          &quot;p95&quot;: 3100,
+          &quot;p99&quot;: 3200,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1550.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1500,
+          &quot;p95&quot;: 3000,
+          &quot;p99&quot;: 3100,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1600.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1550,
+          &quot;p95&quot;: 3050,
+          &quot;p99&quot;: 3150,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 3200,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 0,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 3200,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 200000000.0,
+      &quot;successful_requests_per_second&quot;: 40000000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;candidate&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-88ccf8428cfd4fb4a1a1a51553ac84ef&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 4,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 3660,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1320.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1280,
+          &quot;p95&quot;: 2480,
+          &quot;p99&quot;: 2560,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1240.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1200,
+          &quot;p95&quot;: 2400,
+          &quot;p99&quot;: 2480,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1280.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1240,
+          &quot;p95&quot;: 2440,
+          &quot;p99&quot;: 2520,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 2560,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 0,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 2560,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 250000000.0,
+      &quot;successful_requests_per_second&quot;: 50000000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;candidate&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-2bfe71038b534777b311b5441c120ca2&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 4,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 3660,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1320.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1280,
+          &quot;p95&quot;: 2480,
+          &quot;p99&quot;: 2560,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1240.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1200,
+          &quot;p95&quot;: 2400,
+          &quot;p99&quot;: 2480,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1280.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1240,
+          &quot;p95&quot;: 2440,
+          &quot;p99&quot;: 2520,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 2560,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 1,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 2560,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 250000000.0,
+      &quot;successful_requests_per_second&quot;: 50000000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;baseline&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-93bba10ff8fe4e6f924b935718b86029&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 4,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 4300,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1650.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1600,
+          &quot;p95&quot;: 3100,
+          &quot;p99&quot;: 3200,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1550.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1500,
+          &quot;p95&quot;: 3000,
+          &quot;p99&quot;: 3100,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1600.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1550,
+          &quot;p95&quot;: 3050,
+          &quot;p99&quot;: 3150,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 3200,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 1,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 3200,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 200000000.0,
+      &quot;successful_requests_per_second&quot;: 40000000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;baseline&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-7f2b4e6d1c994ddeb99e213ec3cb38fc&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 4,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 4300,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1650.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1600,
+          &quot;p95&quot;: 3100,
+          &quot;p99&quot;: 3200,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1550.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1500,
+          &quot;p95&quot;: 3000,
+          &quot;p99&quot;: 3100,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1600.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1550,
+          &quot;p95&quot;: 3050,
+          &quot;p99&quot;: 3150,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 3200,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 2,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 3200,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1650.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1600,
+            &quot;p95&quot;: 3100,
+            &quot;p99&quot;: 3200,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 200000000.0,
+      &quot;successful_requests_per_second&quot;: 40000000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    },
+    {
+      &quot;accelerator_memory_bytes&quot;: {
+        &quot;scope&quot;: &quot;CPU adapter has no accelerator probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;arm&quot;: &quot;candidate&quot;,
+      &quot;attempt_id&quot;: &quot;attempt-dcb64f53e9414534b47066c391a39083&quot;,
+      &quot;cancelled_requests&quot;: 0,
+      &quot;concurrency&quot;: 4,
+      &quot;denominator_notes&quot;: &quot;Quality uses all 128 expected requests. Latency includes every retained terminal request; TTFT includes only requests with an observed nonempty token chunk. Missing counts remain explicit.&quot;,
+      &quot;dispatch_to_engine_start_ns&quot;: {
+        &quot;scope&quot;: &quot;the fixed adapter has no engine-start probe&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;eligible&quot;: true,
+      &quot;environment&quot;: {
+        &quot;cpu&quot;: &quot;fixture&quot;,
+        &quot;energy&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;load&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;memory&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;observer&quot;: &quot;unittest&quot;,
+        &quot;platform&quot;: &quot;fixture&quot;,
+        &quot;thermal&quot;: {
+          &quot;scope&quot;: &quot;no probe in test fixture&quot;,
+          &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+          &quot;unit&quot;: &quot;unavailable&quot;,
+          &quot;value&quot;: null
+        },
+        &quot;version&quot;: &quot;0.1.0&quot;
+      },
+      &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+      &quot;expected_requests&quot;: 128,
+      &quot;failed_requests&quot;: 0,
+      &quot;full_wall_ns&quot;: 3660,
+      &quot;generated_minus_visible_tokens&quot;: 0,
+      &quot;generated_tokens_reported&quot;: 640,
+      &quot;generated_tokens_unknown_requests&quot;: 0,
+      &quot;ineligibility_reasons&quot;: [],
+      &quot;inter_token_latency_ns&quot;: {
+        &quot;scope&quot;: &quot;stream chunks do not establish individual engine token emission times&quot;,
+        &quot;status&quot;: &quot;UNAVAILABLE&quot;,
+        &quot;value&quot;: null
+      },
+      &quot;latency&quot;: {
+        &quot;admission_to_dispatch_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_chunk_gap_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1,
+          &quot;p95&quot;: 1,
+          &quot;p99&quot;: 1,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_end_to_end_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1320.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1280,
+          &quot;p95&quot;: 2480,
+          &quot;p99&quot;: 2560,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_queue_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1240.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1200,
+          &quot;p95&quot;: 2400,
+          &quot;p99&quot;: 2480,
+          &quot;unit&quot;: &quot;ns&quot;
+        },
+        &quot;client_ttft_ns&quot;: {
+          &quot;count&quot;: 128,
+          &quot;mean&quot;: 1280.0,
+          &quot;method&quot;: &quot;nearest_rank&quot;,
+          &quot;p50&quot;: 1240,
+          &quot;p95&quot;: 2440,
+          &quot;p99&quot;: 2520,
+          &quot;unit&quot;: &quot;ns&quot;
+        }
+      },
+      &quot;missing_request_ids&quot;: [],
+      &quot;observed_requests&quot;: 128,
+      &quot;output_tokens_observed&quot;: 640,
+      &quot;over_token_budget_requests&quot;: 0,
+      &quot;overhead_ns&quot;: {
+        &quot;cache_preparation&quot;: 0,
+        &quot;compilation&quot;: 0,
+        &quot;evaluation&quot;: 50,
+        &quot;load&quot;: 300,
+        &quot;recovery&quot;: 0,
+        &quot;reporting&quot;: 50,
+        &quot;service&quot;: 2560,
+        &quot;startup&quot;: 100,
+        &quot;verification&quot;: 200,
+        &quot;warmup&quot;: 400
+      },
+      &quot;pair_index&quot;: 2,
+      &quot;prompt_tokens_observed&quot;: 18688,
+      &quot;quality_accuracy&quot;: 1.0,
+      &quot;quality_correct&quot;: 128,
+      &quot;quality_denominator&quot;: 128,
+      &quot;quality_pass&quot;: true,
+      &quot;service_ns&quot;: 2560,
+      &quot;status&quot;: &quot;COMPLETED&quot;,
+      &quot;strata&quot;: {
+        &quot;128&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;16&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;256&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        },
+        &quot;64&quot;: {
+          &quot;client_end_to_end_ns&quot;: {
+            &quot;count&quot;: 32,
+            &quot;mean&quot;: 1320.0,
+            &quot;method&quot;: &quot;nearest_rank&quot;,
+            &quot;p50&quot;: 1280,
+            &quot;p95&quot;: 2480,
+            &quot;p99&quot;: 2560,
+            &quot;unit&quot;: &quot;ns&quot;
+          },
+          &quot;expected_count&quot;: 32,
+          &quot;observed_count&quot;: 32,
+          &quot;quality_accuracy&quot;: 1.0
+        }
+      },
+      &quot;succeeded_requests&quot;: 128,
+      &quot;successful_output_tokens_per_second&quot;: 250000000.0,
+      &quot;successful_requests_per_second&quot;: 50000000.0,
+      &quot;truncated_requests&quot;: 0,
+      &quot;unattributed_wall_ns&quot;: 0
+    }
+  ],
+  &quot;concurrency_groups&quot;: {
+    &quot;1&quot;: {
+      &quot;counterbalanced_order_valid&quot;: true,
+      &quot;eligible&quot;: true,
+      &quot;finding&quot;: &quot;PRACTICAL_GAIN_IN_ALL_THREE_PAIRS&quot;,
+      &quot;pair_count&quot;: 3,
+      &quot;pairs&quot;: [
+        {
+          &quot;baseline_attempt_id&quot;: &quot;attempt-f105976a0bf14de3bb0ded4cc5241b87&quot;,
+          &quot;campaign_prompt_identity_drift_request_ids&quot;: [],
+          &quot;candidate_attempt_id&quot;: &quot;attempt-ede4d22f59c546b9ba9e0dd3cc34938f&quot;,
+          &quot;eligible&quot;: true,
+          &quot;end_to_end_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          },
+          &quot;pair_index&quot;: 0,
+          &quot;prompt_token_mismatch_request_ids&quot;: [],
+          &quot;throughput_candidate_over_baseline&quot;: 1.25,
+          &quot;token_mismatch_request_ids&quot;: [],
+          &quot;token_parity&quot;: true,
+          &quot;ttft_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          }
+        },
+        {
+          &quot;baseline_attempt_id&quot;: &quot;attempt-081d6d280029486e9e1a0ff4827d32bd&quot;,
+          &quot;campaign_prompt_identity_drift_request_ids&quot;: [],
+          &quot;candidate_attempt_id&quot;: &quot;attempt-1c603cdb286f4eddab0d915e276d9b4e&quot;,
+          &quot;eligible&quot;: true,
+          &quot;end_to_end_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          },
+          &quot;pair_index&quot;: 1,
+          &quot;prompt_token_mismatch_request_ids&quot;: [],
+          &quot;throughput_candidate_over_baseline&quot;: 1.25,
+          &quot;token_mismatch_request_ids&quot;: [],
+          &quot;token_parity&quot;: true,
+          &quot;ttft_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          }
+        },
+        {
+          &quot;baseline_attempt_id&quot;: &quot;attempt-8321dbf4e78d46709bb6f6bd2f9e3720&quot;,
+          &quot;campaign_prompt_identity_drift_request_ids&quot;: [],
+          &quot;candidate_attempt_id&quot;: &quot;attempt-0b6d839bf81a4edfb82938ee3bd45509&quot;,
+          &quot;eligible&quot;: true,
+          &quot;end_to_end_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          },
+          &quot;pair_index&quot;: 2,
+          &quot;prompt_token_mismatch_request_ids&quot;: [],
+          &quot;throughput_candidate_over_baseline&quot;: 1.25,
+          &quot;token_mismatch_request_ids&quot;: [],
+          &quot;token_parity&quot;: true,
+          &quot;ttft_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          }
+        }
+      ],
+      &quot;throughput_ratio_median&quot;: 1.25,
+      &quot;throughput_ratio_range&quot;: [
+        1.25,
+        1.25
+      ]
+    },
+    &quot;4&quot;: {
+      &quot;counterbalanced_order_valid&quot;: true,
+      &quot;eligible&quot;: true,
+      &quot;finding&quot;: &quot;PRACTICAL_GAIN_IN_ALL_THREE_PAIRS&quot;,
+      &quot;pair_count&quot;: 3,
+      &quot;pairs&quot;: [
+        {
+          &quot;baseline_attempt_id&quot;: &quot;attempt-2a013d6c200d4c85be444922dc5b80ec&quot;,
+          &quot;campaign_prompt_identity_drift_request_ids&quot;: [],
+          &quot;candidate_attempt_id&quot;: &quot;attempt-88ccf8428cfd4fb4a1a1a51553ac84ef&quot;,
+          &quot;eligible&quot;: true,
+          &quot;end_to_end_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          },
+          &quot;pair_index&quot;: 0,
+          &quot;prompt_token_mismatch_request_ids&quot;: [],
+          &quot;throughput_candidate_over_baseline&quot;: 1.25,
+          &quot;token_mismatch_request_ids&quot;: [],
+          &quot;token_parity&quot;: true,
+          &quot;ttft_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          }
+        },
+        {
+          &quot;baseline_attempt_id&quot;: &quot;attempt-93bba10ff8fe4e6f924b935718b86029&quot;,
+          &quot;campaign_prompt_identity_drift_request_ids&quot;: [],
+          &quot;candidate_attempt_id&quot;: &quot;attempt-2bfe71038b534777b311b5441c120ca2&quot;,
+          &quot;eligible&quot;: true,
+          &quot;end_to_end_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          },
+          &quot;pair_index&quot;: 1,
+          &quot;prompt_token_mismatch_request_ids&quot;: [],
+          &quot;throughput_candidate_over_baseline&quot;: 1.25,
+          &quot;token_mismatch_request_ids&quot;: [],
+          &quot;token_parity&quot;: true,
+          &quot;ttft_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          }
+        },
+        {
+          &quot;baseline_attempt_id&quot;: &quot;attempt-7f2b4e6d1c994ddeb99e213ec3cb38fc&quot;,
+          &quot;campaign_prompt_identity_drift_request_ids&quot;: [],
+          &quot;candidate_attempt_id&quot;: &quot;attempt-dcb64f53e9414534b47066c391a39083&quot;,
+          &quot;eligible&quot;: true,
+          &quot;end_to_end_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          },
+          &quot;pair_index&quot;: 2,
+          &quot;prompt_token_mismatch_request_ids&quot;: [],
+          &quot;throughput_candidate_over_baseline&quot;: 1.25,
+          &quot;token_mismatch_request_ids&quot;: [],
+          &quot;token_parity&quot;: true,
+          &quot;ttft_tail_candidate_over_baseline&quot;: {
+            &quot;p95&quot;: 0.8,
+            &quot;p99&quot;: 0.8
+          }
+        }
+      ],
+      &quot;throughput_ratio_median&quot;: 1.25,
+      &quot;throughput_ratio_range&quot;: [
+        1.25,
+        1.25
+      ]
+    }
+  },
+  &quot;config_sha256&quot;: &quot;9081e3640e9e69ee4ae0a226be6be564859ef0b57271aa637bec320519ee601f&quot;,
+  &quot;eligible&quot;: true,
+  &quot;evaluator_version&quot;: &quot;0.1.0&quot;,
+  &quot;evidence_class&quot;: &quot;TEST_FIXTURE&quot;,
+  &quot;finding&quot;: &quot;TEST_FIXTURE_ONLY&quot;,
+  &quot;ineligibility_reasons&quot;: [],
+  &quot;inventory_integrity&quot;: {
+    &quot;complete&quot;: true,
+    &quot;event_count&quot;: 24,
+    &quot;reservation_count&quot;: 12,
+    &quot;scope&quot;: &quot;immutable local events, normalized attempts and raw-file hashes&quot;
+  },
+  &quot;limitations&quot;: [
+    &quot;Three independent pairs per concurrency; ranges are descriptive, not confidence intervals or significance tests.&quot;,
+    &quot;128-request p95/p99 estimates, and 32-request stratum tails, are unstable.&quot;,
+    &quot;Client chunk receipts do not establish individual token emission times or engine-internal latency.&quot;,
+    &quot;Synthetic key copying does not establish general language-model competence.&quot;,
+    &quot;All supplied attempts are retained; this file alone cannot prove omitted attempts do not exist.&quot;,
+    &quot;Digest consistency does not authenticate externally supplied observations.&quot;,
+    &quot;Attempt-only evaluation does not verify complete inventory or acquisition/build costs.&quot;,
+    &quot;Device-specific finite queued batch; no online serving, energy, or cross-device superiority claim.&quot;
+  ],
+  &quot;measured_claim_eligible&quot;: false,
+  &quot;schema_version&quot;: 1,
+  &quot;thresholds&quot;: {
+    &quot;absolute_accuracy&quot;: 0.95,
+    &quot;maximum_tail_regression&quot;: 0.1,
+    &quot;practical_throughput_gain&quot;: 0.05
+  },
+  &quot;workload_sha256&quot;: &quot;ddaec977b3c0dc527030a143e2d21b7328752d335430b84f18440492ccf8ac02&quot;
+}</pre></details>
+</main><footer>Generated from validated raw evidence. Local development artifact; this page does not establish public release, external reproduction or human review. No remote scripts, fonts or telemetry.</footer></body></html>

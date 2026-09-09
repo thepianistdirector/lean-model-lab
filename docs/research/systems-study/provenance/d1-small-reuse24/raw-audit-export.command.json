@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python3",
+    "${WORKSPACE_ROOT}/tools/audit_raw_study.py",
+    "${WORKSPACE_ROOT}/.cache/v1-investigations-20260908/systems/d1-small-reuse24/export/study",
+    "--output",
+    "${WORKSPACE_ROOT}/docs/research/systems-study/provenance/d1-small-reuse24/raw-audit-export.json"
+  ],
+  "started_ns": 290044421102442,
+  "finished_ns": 290044836178708,
+  "returncode": 0,
+  "archive_sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f"
+}

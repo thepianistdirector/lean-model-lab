@@ -1,0 +1,1 @@
+{"studies": 1, "compatibility_groups": 1, "inference_performed": false, "scope": "Read-only local evidence comparison; no pooled or cross-study speed claim."}

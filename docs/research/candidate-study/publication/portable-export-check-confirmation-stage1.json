@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "native_offered": 960,
+  "actual_exports": 6,
+  "manifest_sha256": "4c07c21cf62a9e72857b6c469b04477843a94feb7aa3e0bb8f52ef391a7314d9",
+  "reanalyze_sha256": "5b0d3f9831b9693713580c2dd164d69634545bc1e096b5efd7c6a72c47932b6b",
+  "illustrations_sha256": "09c77b3c4508bf1f278667aea3062e3630467c28e85bb6975c6bddc733751c62",
+  "operational_derivatives": [
+    {
+      "artifact": "docs/research/candidate-study/publication/tables/confirmation-stage1/analysis.json",
+      "original_sha256": "2a21aba3691f57e29980dd77fb9d1390dfdad5a9b97f6f570e9750c1adc7a590",
+      "derived_sha256": "5c1d7c49bef14b1964849deeac14d2587126ae3458c63f50900c806d79edb594",
+      "operation": "Operational absolute evidence-root text replaced with $EVIDENCE_ROOT; scientific values unchanged."
+    }
+  ],
+  "scope": "Executed on actual six exported studies in final builder layout; all offered questions retained. Simple/learned confirmation remains pending, with frozen policies unchanged."
+}

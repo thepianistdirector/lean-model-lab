@@ -1,0 +1,24 @@
+{
+  "comment_text": null,
+  "core-metadata": {
+    "sha256": "ef3d3b0b63299fda9e9df2fbd3978dfef47a3dd35817f979c4a13891d0089b5d"
+  },
+  "digests": {
+    "blake2b_256": "d37c74a2fb48e5b0d2402d9ca64b39074c722d67e9a8a2c58449a843a8c2329a",
+    "md5": "7f4919e5e1e2c3ebd4436a1eab20466c",
+    "sha256": "81df25c1ab4c13ff773102d3cbea1967511d079123b067fc077bd0c4d57d91d8"
+  },
+  "downloads": -1,
+  "filename": "pypdfium2-5.13.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+  "has_sig": false,
+  "md5_digest": "7f4919e5e1e2c3ebd4436a1eab20466c",
+  "packagetype": "bdist_wheel",
+  "python_version": "py3",
+  "requires_python": ">=3.6",
+  "size": 3730077,
+  "upload_time": "2026-08-13T10:57:54",
+  "upload_time_iso_8601": "2026-08-13T10:57:54.021202Z",
+  "url": "https://files.pythonhosted.org/packages/d3/7c/74a2fb48e5b0d2402d9ca64b39074c722d67e9a8a2c58449a843a8c2329a/pypdfium2-5.13.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+  "yanked": false,
+  "yanked_reason": null
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "scope": "Template only. Populate paths using the extracted publication bundle and fresh audits of its exported derivatives; safe directory names are configurable.",
+  "studies": [
+    {
+      "id": "14b",
+      "study": "evidence/retained-14b-main/study",
+      "report": "evidence/retained-14b-main/report.json",
+      "raw_audit": "audits/retained-14b-main.json",
+      "producer_archive": "producer-5ae4372aa38b68dbe4a198e431602b1e98a127727020bcb666b10d1af29d497f.pyz",
+      "producer_archive_sha256": "5ae4372aa38b68dbe4a198e431602b1e98a127727020bcb666b10d1af29d497f"
+    },
+    {
+      "id": "legacy-comparison",
+      "study": "evidence/legacy-05b-comparison/study",
+      "report": "evidence/legacy-05b-comparison/report.json",
+      "raw_audit": "audits/legacy-05b-comparison.json",
+      "producer_archive": "producer-9550fd27836ea280c3fca8b3613c327be618b278bbf94457e2346523d2bc6c3d.pyz",
+      "producer_archive_sha256": "9550fd27836ea280c3fca8b3613c327be618b278bbf94457e2346523d2bc6c3d"
+    },
+    {
+      "id": "legacy-protocol-failure",
+      "study": "evidence/legacy-protocol-failure/study",
+      "report": "evidence/legacy-protocol-failure/report.json",
+      "raw_audit": "audits/legacy-protocol-failure.json"
+    },
+    {
+      "id": "development",
+      "study": "evidence/quality-05b-development/study",
+      "report": "evidence/quality-05b-development/report.json",
+      "raw_audit": "audits/quality-05b-development.json",
+      "producer_archive": "producer-f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f.pyz",
+      "producer_archive_sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f"
+    },
+    {
+      "id": "confirmation-14b",
+      "study": "evidence/quality-14b-confirmation/study",
+      "report": "evidence/quality-14b-confirmation/report.json",
+      "raw_audit": "audits/quality-14b-confirmation.json",
+      "producer_archive": "producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+      "producer_archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-03/lean-model-lab.pyz",
+    "inspect",
+    ".cache/v1-investigations-20260908/candidate/feasibility-14b-study03"
+  ],
+  "exit_code": 0,
+  "finished_ns": 287339729941045,
+  "label": "feasibility-inspect03",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 287339516119113,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 40035,
+    "sha256": "9bcaa11c9591606b0d6bec59e8d047680419683c441f9f99332cb1f7d1453a12"
+  }
+}

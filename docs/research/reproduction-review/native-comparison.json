@@ -1,0 +1,677 @@
+{
+  "status": "COMPLETE",
+  "scope": "Same-host retained-cell reproduction. Scientific outputs and settings compared exactly; new times, shared-host conditions, setup ancestry and allocation cutoff are separate observations. No fresh held-out campaign, general task-solving or failed-quality efficiency claim.",
+  "cells": {
+    "quality": {
+      "original_study": "quality-14b-confirmation",
+      "reproduction_alias": "reproduction-quality",
+      "config_byte_identical": true,
+      "workload_byte_identical": true,
+      "original_config_sha256": "f887041f06f8cc3b1da3b1bf08268e540c2190e17e04162517b2101f34be121e",
+      "reproduction_config_sha256": "f887041f06f8cc3b1da3b1bf08268e540c2190e17e04162517b2101f34be121e",
+      "attempts": 4,
+      "offered": 512,
+      "observed": 512,
+      "normalized_scientific_differences": [],
+      "native_token_counter_differences": [],
+      "tokenized_input_differing_cells": [],
+      "prompt_intervention_differing_cells": [],
+      "arm_metrics": [
+        {
+          "cell": "quality",
+          "concurrency": 4,
+          "pair": 0,
+          "arm": "baseline",
+          "offered": 128,
+          "original_correct": 127,
+          "reproduction_correct": 127,
+          "original_prompt_tokens": 22281,
+          "reproduction_prompt_tokens": 22281,
+          "original_generated_tokens": 523,
+          "reproduction_generated_tokens": 523,
+          "original_full_seconds": 1102.001907745,
+          "reproduction_full_seconds": 1102.278158751,
+          "full_seconds_difference": 0.276251006,
+          "original_service_seconds": 1083.631827213,
+          "reproduction_service_seconds": 1084.277576036,
+          "original_slo_qualified": 0,
+          "reproduction_slo_qualified": 0,
+          "original_server_vmhwm_bytes": 31327109120,
+          "reproduction_server_vmhwm_bytes": 31328649216,
+          "original_client_interval_union_seconds": 1082.74912826,
+          "reproduction_client_interval_union_seconds": 1037.737530171,
+          "original_service_outside_client_interval_union_seconds": 0.882698953,
+          "reproduction_service_outside_client_interval_union_seconds": 46.540045865
+        },
+        {
+          "cell": "quality",
+          "concurrency": 4,
+          "pair": 0,
+          "arm": "candidate",
+          "offered": 128,
+          "original_correct": 127,
+          "reproduction_correct": 127,
+          "original_prompt_tokens": 22281,
+          "reproduction_prompt_tokens": 22281,
+          "original_generated_tokens": 523,
+          "reproduction_generated_tokens": 523,
+          "original_full_seconds": 277.050606249,
+          "reproduction_full_seconds": 319.622449356,
+          "full_seconds_difference": 42.571843107,
+          "original_service_seconds": 258.324310915,
+          "reproduction_service_seconds": 301.144618963,
+          "original_slo_qualified": 0,
+          "reproduction_slo_qualified": 0,
+          "original_server_vmhwm_bytes": 31321767936,
+          "reproduction_server_vmhwm_bytes": 31329120256,
+          "original_client_interval_union_seconds": 257.638320501,
+          "reproduction_client_interval_union_seconds": 269.459559413,
+          "original_service_outside_client_interval_union_seconds": 0.685990414,
+          "reproduction_service_outside_client_interval_union_seconds": 31.68505955
+        },
+        {
+          "cell": "quality",
+          "concurrency": 4,
+          "pair": 1,
+          "arm": "baseline",
+          "offered": 128,
+          "original_correct": 127,
+          "reproduction_correct": 127,
+          "original_prompt_tokens": 22281,
+          "reproduction_prompt_tokens": 22281,
+          "original_generated_tokens": 523,
+          "reproduction_generated_tokens": 523,
+          "original_full_seconds": 1103.40155585,
+          "reproduction_full_seconds": 1104.225809672,
+          "full_seconds_difference": 0.824253822,
+          "original_service_seconds": 1084.777395479,
+          "reproduction_service_seconds": 1085.691105733,
+          "original_slo_qualified": 0,
+          "reproduction_slo_qualified": 0,
+          "original_server_vmhwm_bytes": 31326674944,
+          "reproduction_server_vmhwm_bytes": 31332225024,
+          "original_client_interval_union_seconds": 1078.118625715,
+          "reproduction_client_interval_union_seconds": 1037.880816531,
+          "original_service_outside_client_interval_union_seconds": 6.658769764,
+          "reproduction_service_outside_client_interval_union_seconds": 47.810289202
+        },
+        {
+          "cell": "quality",
+          "concurrency": 4,
+          "pair": 1,
+          "arm": "candidate",
+          "offered": 128,
+          "original_correct": 127,
+          "reproduction_correct": 127,
+          "original_prompt_tokens": 22281,
+          "reproduction_prompt_tokens": 22281,
+          "original_generated_tokens": 523,
+          "reproduction_generated_tokens": 523,
+          "original_full_seconds": 286.916577237,
+          "reproduction_full_seconds": 311.474088633,
+          "full_seconds_difference": 24.557511396,
+          "original_service_seconds": 267.753022491,
+          "reproduction_service_seconds": 293.547993745,
+          "original_slo_qualified": 0,
+          "reproduction_slo_qualified": 0,
+          "original_server_vmhwm_bytes": 31324135424,
+          "reproduction_server_vmhwm_bytes": 31332134912,
+          "original_client_interval_union_seconds": 267.056539817,
+          "reproduction_client_interval_union_seconds": 273.453403058,
+          "original_service_outside_client_interval_union_seconds": 0.696482674,
+          "reproduction_service_outside_client_interval_union_seconds": 20.094590687
+        }
+      ],
+      "pairs": [
+        {
+          "concurrency": 4,
+          "pair": 0,
+          "original_classes": {
+            "both_correct": 127,
+            "baseline_only": 0,
+            "candidate_only": 0,
+            "both_wrong": 1
+          },
+          "reproduction_classes": {
+            "both_correct": 127,
+            "baseline_only": 0,
+            "candidate_only": 0,
+            "both_wrong": 1
+          },
+          "original_official_pair_eligible": true,
+          "reproduction_official_pair_eligible": false,
+          "original_service_ratio": 4.194850354481589,
+          "reproduction_service_ratio": null,
+          "original_full_attempt_ratio": 3.9776195499625535,
+          "reproduction_full_attempt_ratio": null,
+          "reproduction_ttft_tail_ratios": {
+            "p95": null,
+            "p99": null
+          },
+          "reproduction_end_to_end_tail_ratios": {
+            "p95": null,
+            "p99": null
+          },
+          "reproduction_additional_full_cost_numeric_threshold_met": true
+        },
+        {
+          "concurrency": 4,
+          "pair": 1,
+          "original_classes": {
+            "both_correct": 127,
+            "baseline_only": 0,
+            "candidate_only": 0,
+            "both_wrong": 1
+          },
+          "reproduction_classes": {
+            "both_correct": 127,
+            "baseline_only": 0,
+            "candidate_only": 0,
+            "both_wrong": 1
+          },
+          "original_official_pair_eligible": true,
+          "reproduction_official_pair_eligible": false,
+          "original_service_ratio": 4.051410457991983,
+          "reproduction_service_ratio": null,
+          "original_full_attempt_ratio": 3.8457225667325723,
+          "reproduction_full_attempt_ratio": null,
+          "reproduction_ttft_tail_ratios": {
+            "p95": null,
+            "p99": null
+          },
+          "reproduction_end_to_end_tail_ratios": {
+            "p95": null,
+            "p99": null
+          },
+          "reproduction_additional_full_cost_numeric_threshold_met": true
+        }
+      ],
+      "original_official_eligible": true,
+      "reproduction_official_eligible": false,
+      "original_ineligibility_reasons": [],
+      "reproduction_ineligibility_reasons": [
+        "retained_prior_same_recipe_measurement"
+      ],
+      "queue_process_costs": {
+        "original": {
+          "queue_wait_seconds": 90.012337226,
+          "archive_execution_seconds": 2774.945479864,
+          "queue_to_finish_seconds": 2864.95781709
+        },
+        "reproduction": {
+          "queue_wait_seconds": 0.012067999,
+          "archive_execution_seconds": 2851.58844444,
+          "queue_to_finish_seconds": 2851.600512439
+        }
+      },
+      "reproduction_allocation_cost_snapshot": {
+        "allocation_id": "lean-model-lab-0.4-20260908-01",
+        "attributed_setup_and_attempt_ns": 28888012170652,
+        "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+        "cutoff_ns": 306110633375375,
+        "registered_full_wall_ns": 38841768154835,
+        "scope": "original allocation start through last retained producer observation; all intervening development/idle/prior work remains charged",
+        "status": "RECORDED",
+        "unattributed_coordinator_or_idle_ns": 9953755984183
+      }
+    },
+    "candidate": {
+      "original_study": "negative-confirm-slice-study04",
+      "reproduction_alias": "reproduction-candidate",
+      "config_byte_identical": true,
+      "workload_byte_identical": true,
+      "original_config_sha256": "8fd87d6e71883d398d5273f27a49e53685cdd1117819f8a4345c6fa069d1da5d",
+      "reproduction_config_sha256": "8fd87d6e71883d398d5273f27a49e53685cdd1117819f8a4345c6fa069d1da5d",
+      "attempts": 4,
+      "offered": 512,
+      "observed": 512,
+      "normalized_scientific_differences": [],
+      "native_token_counter_differences": [],
+      "tokenized_input_differing_cells": [],
+      "prompt_intervention_differing_cells": [],
+      "arm_metrics": [
+        {
+          "cell": "candidate",
+          "concurrency": 1,
+          "pair": 0,
+          "arm": "baseline",
+          "offered": 128,
+          "original_correct": 23,
+          "reproduction_correct": 23,
+          "original_prompt_tokens": 35257,
+          "reproduction_prompt_tokens": 35257,
+          "original_generated_tokens": 545,
+          "reproduction_generated_tokens": 545,
+          "original_full_seconds": 259.595488736,
+          "reproduction_full_seconds": 513.759484237,
+          "full_seconds_difference": 254.163995501,
+          "original_service_seconds": 257.60181957,
+          "reproduction_service_seconds": 511.775634747,
+          "original_slo_qualified": 1,
+          "reproduction_slo_qualified": 1,
+          "original_server_vmhwm_bytes": 1383596032,
+          "reproduction_server_vmhwm_bytes": 1383505920,
+          "original_client_interval_union_seconds": 222.63604087,
+          "reproduction_client_interval_union_seconds": 222.76729398,
+          "original_service_outside_client_interval_union_seconds": 34.9657787,
+          "reproduction_service_outside_client_interval_union_seconds": 289.008340767
+        },
+        {
+          "cell": "candidate",
+          "concurrency": 1,
+          "pair": 0,
+          "arm": "candidate",
+          "offered": 128,
+          "original_correct": 34,
+          "reproduction_correct": 34,
+          "original_prompt_tokens": 13473,
+          "reproduction_prompt_tokens": 13473,
+          "original_generated_tokens": 550,
+          "reproduction_generated_tokens": 550,
+          "original_full_seconds": 131.789282664,
+          "reproduction_full_seconds": 345.089900002,
+          "full_seconds_difference": 213.300617338,
+          "original_service_seconds": 129.261175423,
+          "reproduction_service_seconds": 342.997928922,
+          "original_slo_qualified": 6,
+          "reproduction_slo_qualified": 2,
+          "original_server_vmhwm_bytes": 1375109120,
+          "reproduction_server_vmhwm_bytes": 1370898432,
+          "original_client_interval_union_seconds": 93.232745887,
+          "reproduction_client_interval_union_seconds": 93.399417187,
+          "original_service_outside_client_interval_union_seconds": 36.028429536,
+          "reproduction_service_outside_client_interval_union_seconds": 249.598511735
+        },
+        {
+          "cell": "candidate",
+          "concurrency": 1,
+          "pair": 1,
+          "arm": "baseline",
+          "offered": 128,
+          "original_correct": 23,
+          "reproduction_correct": 23,
+          "original_prompt_tokens": 35257,
+          "reproduction_prompt_tokens": 35257,
+          "original_generated_tokens": 545,
+          "reproduction_generated_tokens": 545,
+          "original_full_seconds": 264.110309985,
+          "reproduction_full_seconds": 516.879115796,
+          "full_seconds_difference": 252.768805811,
+          "original_service_seconds": 261.757827837,
+          "reproduction_service_seconds": 514.451432839,
+          "original_slo_qualified": 1,
+          "reproduction_slo_qualified": 1,
+          "original_server_vmhwm_bytes": 1383596032,
+          "reproduction_server_vmhwm_bytes": 1383501824,
+          "original_client_interval_union_seconds": 226.631807722,
+          "reproduction_client_interval_union_seconds": 223.933685541,
+          "original_service_outside_client_interval_union_seconds": 35.126020115,
+          "reproduction_service_outside_client_interval_union_seconds": 290.517747298
+        },
+        {
+          "cell": "candidate",
+          "concurrency": 1,
+          "pair": 1,
+          "arm": "candidate",
+          "offered": 128,
+          "original_correct": 34,
+          "reproduction_correct": 34,
+          "original_prompt_tokens": 13473,
+          "reproduction_prompt_tokens": 13473,
+          "original_generated_tokens": 550,
+          "reproduction_generated_tokens": 550,
+          "original_full_seconds": 131.528670226,
+          "reproduction_full_seconds": 348.438973848,
+          "full_seconds_difference": 216.910303622,
+          "original_service_seconds": 129.257793286,
+          "reproduction_service_seconds": 346.06381627,
+          "original_slo_qualified": 6,
+          "reproduction_slo_qualified": 2,
+          "original_server_vmhwm_bytes": 1375092736,
+          "reproduction_server_vmhwm_bytes": 1370923008,
+          "original_client_interval_union_seconds": 92.576794734,
+          "reproduction_client_interval_union_seconds": 93.788173293,
+          "original_service_outside_client_interval_union_seconds": 36.680998552,
+          "reproduction_service_outside_client_interval_union_seconds": 252.275642977
+        }
+      ],
+      "pairs": [
+        {
+          "concurrency": 1,
+          "pair": 0,
+          "original_classes": {
+            "both_correct": 10,
+            "baseline_only": 13,
+            "candidate_only": 24,
+            "both_wrong": 81
+          },
+          "reproduction_classes": {
+            "both_correct": 10,
+            "baseline_only": 13,
+            "candidate_only": 24,
+            "both_wrong": 81
+          },
+          "original_official_pair_eligible": false,
+          "reproduction_official_pair_eligible": false
+        },
+        {
+          "concurrency": 1,
+          "pair": 1,
+          "original_classes": {
+            "both_correct": 10,
+            "baseline_only": 13,
+            "candidate_only": 24,
+            "both_wrong": 81
+          },
+          "reproduction_classes": {
+            "both_correct": 10,
+            "baseline_only": 13,
+            "candidate_only": 24,
+            "both_wrong": 81
+          },
+          "original_official_pair_eligible": false,
+          "reproduction_official_pair_eligible": false
+        }
+      ],
+      "original_official_eligible": false,
+      "reproduction_official_eligible": false,
+      "original_ineligibility_reasons": [
+        "one_or_more_attempts_ineligible"
+      ],
+      "reproduction_ineligibility_reasons": [
+        "one_or_more_attempts_ineligible",
+        "retained_prior_same_recipe_measurement"
+      ],
+      "queue_process_costs": {
+        "original": {
+          "queue_wait_seconds": 2340.025967349,
+          "archive_execution_seconds": 800.03081706,
+          "queue_to_finish_seconds": 3140.056784409
+        },
+        "reproduction": {
+          "queue_wait_seconds": 0.023988786,
+          "archive_execution_seconds": 1742.721050275,
+          "queue_to_finish_seconds": 1742.745039061
+        }
+      },
+      "reproduction_allocation_cost_snapshot": {
+        "allocation_id": "lean-model-lab-0.4-20260908-01",
+        "attributed_setup_and_attempt_ns": 30675991826967,
+        "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+        "cutoff_ns": 308363112841154,
+        "registered_full_wall_ns": 41094247620614,
+        "scope": "original allocation start through last retained producer observation; all intervening development/idle/prior work remains charged",
+        "status": "RECORDED",
+        "unattributed_coordinator_or_idle_ns": 10418255793647
+      }
+    },
+    "systems": {
+      "original_study": "systems-h1-small-reuse24",
+      "reproduction_alias": "reproduction-systems",
+      "config_byte_identical": true,
+      "workload_byte_identical": true,
+      "original_config_sha256": "117cc9462e909419ed9329df384da3178ba94ac161234d8a21e2b5b7bfb244f4",
+      "reproduction_config_sha256": "117cc9462e909419ed9329df384da3178ba94ac161234d8a21e2b5b7bfb244f4",
+      "attempts": 4,
+      "offered": 512,
+      "observed": 512,
+      "normalized_scientific_differences": [],
+      "native_token_counter_differences": [],
+      "tokenized_input_differing_cells": [],
+      "prompt_intervention_differing_cells": [],
+      "arm_metrics": [
+        {
+          "cell": "systems",
+          "concurrency": 1,
+          "pair": 0,
+          "arm": "baseline",
+          "offered": 128,
+          "original_correct": 55,
+          "reproduction_correct": 55,
+          "original_prompt_tokens": 35374,
+          "reproduction_prompt_tokens": 35374,
+          "original_generated_tokens": 534,
+          "reproduction_generated_tokens": 534,
+          "original_full_seconds": 83.089783997,
+          "reproduction_full_seconds": 353.90184952,
+          "full_seconds_difference": 270.812065523,
+          "original_service_seconds": 81.187302012,
+          "reproduction_service_seconds": 352.016245285,
+          "original_slo_qualified": 11,
+          "reproduction_slo_qualified": 1,
+          "original_server_vmhwm_bytes": 1381482496,
+          "reproduction_server_vmhwm_bytes": 1381482496,
+          "original_client_interval_union_seconds": 42.708629884,
+          "reproduction_client_interval_union_seconds": 42.699737544,
+          "original_service_outside_client_interval_union_seconds": 38.478672128,
+          "reproduction_service_outside_client_interval_union_seconds": 309.316507741
+        },
+        {
+          "cell": "systems",
+          "concurrency": 1,
+          "pair": 0,
+          "arm": "candidate",
+          "offered": 128,
+          "original_correct": 63,
+          "reproduction_correct": 63,
+          "original_prompt_tokens": 11769,
+          "reproduction_prompt_tokens": 11769,
+          "original_generated_tokens": 532,
+          "reproduction_generated_tokens": 532,
+          "original_full_seconds": 78.247833203,
+          "reproduction_full_seconds": 344.152143757,
+          "full_seconds_difference": 265.904310554,
+          "original_service_seconds": 76.232676974,
+          "reproduction_service_seconds": 342.121377613,
+          "original_slo_qualified": 14,
+          "reproduction_slo_qualified": 3,
+          "original_server_vmhwm_bytes": 1373020160,
+          "reproduction_server_vmhwm_bytes": 1370877952,
+          "original_client_interval_union_seconds": 31.329517756,
+          "reproduction_client_interval_union_seconds": 31.16654091,
+          "original_service_outside_client_interval_union_seconds": 44.903159218,
+          "reproduction_service_outside_client_interval_union_seconds": 310.954836703
+        },
+        {
+          "cell": "systems",
+          "concurrency": 1,
+          "pair": 1,
+          "arm": "baseline",
+          "offered": 128,
+          "original_correct": 55,
+          "reproduction_correct": 55,
+          "original_prompt_tokens": 35374,
+          "reproduction_prompt_tokens": 35374,
+          "original_generated_tokens": 534,
+          "reproduction_generated_tokens": 534,
+          "original_full_seconds": 84.334565038,
+          "reproduction_full_seconds": 356.193254524,
+          "full_seconds_difference": 271.858689486,
+          "original_service_seconds": 82.203363175,
+          "reproduction_service_seconds": 354.010516591,
+          "original_slo_qualified": 11,
+          "reproduction_slo_qualified": 1,
+          "original_server_vmhwm_bytes": 1381408768,
+          "reproduction_server_vmhwm_bytes": 1381474304,
+          "original_client_interval_union_seconds": 42.810519128,
+          "reproduction_client_interval_union_seconds": 42.662378051,
+          "original_service_outside_client_interval_union_seconds": 39.392844047,
+          "reproduction_service_outside_client_interval_union_seconds": 311.34813854
+        },
+        {
+          "cell": "systems",
+          "concurrency": 1,
+          "pair": 1,
+          "arm": "candidate",
+          "offered": 128,
+          "original_correct": 63,
+          "reproduction_correct": 63,
+          "original_prompt_tokens": 11769,
+          "reproduction_prompt_tokens": 11769,
+          "original_generated_tokens": 532,
+          "reproduction_generated_tokens": 532,
+          "original_full_seconds": 76.011695537,
+          "reproduction_full_seconds": 345.644383123,
+          "full_seconds_difference": 269.632687586,
+          "original_service_seconds": 73.949950685,
+          "reproduction_service_seconds": 343.573612253,
+          "original_slo_qualified": 15,
+          "reproduction_slo_qualified": 3,
+          "original_server_vmhwm_bytes": 1373143040,
+          "reproduction_server_vmhwm_bytes": 1373003776,
+          "original_client_interval_union_seconds": 30.912005164,
+          "reproduction_client_interval_union_seconds": 31.807303609,
+          "original_service_outside_client_interval_union_seconds": 43.037945521,
+          "reproduction_service_outside_client_interval_union_seconds": 311.766308644
+        }
+      ],
+      "pairs": [
+        {
+          "concurrency": 1,
+          "pair": 0,
+          "original_classes": {
+            "both_correct": 31,
+            "baseline_only": 24,
+            "candidate_only": 32,
+            "both_wrong": 41
+          },
+          "reproduction_classes": {
+            "both_correct": 31,
+            "baseline_only": 24,
+            "candidate_only": 32,
+            "both_wrong": 41
+          },
+          "original_official_pair_eligible": false,
+          "reproduction_official_pair_eligible": false
+        },
+        {
+          "concurrency": 1,
+          "pair": 1,
+          "original_classes": {
+            "both_correct": 31,
+            "baseline_only": 24,
+            "candidate_only": 32,
+            "both_wrong": 41
+          },
+          "reproduction_classes": {
+            "both_correct": 31,
+            "baseline_only": 24,
+            "candidate_only": 32,
+            "both_wrong": 41
+          },
+          "original_official_pair_eligible": false,
+          "reproduction_official_pair_eligible": false
+        }
+      ],
+      "original_official_eligible": false,
+      "reproduction_official_eligible": false,
+      "original_ineligibility_reasons": [
+        "one_or_more_attempts_ineligible"
+      ],
+      "reproduction_ineligibility_reasons": [
+        "one_or_more_attempts_ineligible",
+        "retained_prior_same_recipe_measurement"
+      ],
+      "queue_process_costs": {
+        "original": {
+          "queue_wait_seconds": 2700.025659908,
+          "archive_execution_seconds": 329.082441857,
+          "queue_to_finish_seconds": 3029.108101765
+        },
+        "reproduction": {
+          "queue_wait_seconds": 0.007912598,
+          "archive_execution_seconds": 1417.766976548,
+          "queue_to_finish_seconds": 1417.774889146
+        }
+      },
+      "reproduction_allocation_cost_snapshot": {
+        "allocation_id": "lean-model-lab-0.4-20260908-01",
+        "attributed_setup_and_attempt_ns": 32092049491085,
+        "current_report_publication": "separate report receipt in the rendering environment; never extends the producer clock",
+        "cutoff_ns": 309781264414557,
+        "registered_full_wall_ns": 42512399194017,
+        "scope": "original allocation start through last retained producer observation; all intervening development/idle/prior work remains charged",
+        "status": "RECORDED",
+        "unattributed_coordinator_or_idle_ns": 10420349702932
+      }
+    }
+  },
+  "failed_candidate_admission": {
+    "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+    "deadline_ns": 310468865220540,
+    "error": null,
+    "execution_started_ns": 306111111493221,
+    "exit_code": 2,
+    "finished_ns": 306117831985180,
+    "scope": "Queue/process receipt; successful process exit alone does not establish quality or efficiency.",
+    "started_ns": 306111102711231,
+    "status": "FAILED_OR_CANCELLED"
+  },
+  "complete_matrix_summary": {
+    "status": "COMPLETE_WITH_RETAINED_PRE_INFERENCE_ADMISSION_FAILURE",
+    "execution_seconds_including_failed_admission": 6018.796963221999,
+    "offered_native_requests": 1536,
+    "finished_ns": 309782040506018
+  },
+  "quality_observational_gate_check": {
+    "status": "OBSERVATIONAL_THRESHOLDS_MET_OFFICIAL_REPEAT_INELIGIBLE",
+    "official_campaign_eligible": false,
+    "official_ineligibility_reasons": [
+      "retained_prior_same_recipe_measurement"
+    ],
+    "native_observed_requests": 512,
+    "correct_per_arm": [
+      127,
+      127,
+      127,
+      127
+    ],
+    "slo_qualified_per_arm": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "pairs": [
+      {
+        "pair": 0,
+        "observed_numeric_checks": {
+          "both_absolute_quality_at_least_95_percent": true,
+          "no_observed_aggregate_quality_loss": true,
+          "exact_output_token_parity": true,
+          "prompt_parity_and_no_campaign_drift": true,
+          "service_practical_effect_at_least_5_percent": true,
+          "full_attempt_practical_effect_at_least_5_percent": true,
+          "ttft_p95_relative_tail_within_10_percent": true,
+          "ttft_p99_relative_tail_within_10_percent": true,
+          "end_to_end_p95_relative_tail_within_10_percent": true,
+          "end_to_end_p99_relative_tail_within_10_percent": true
+        },
+        "all_observed_numeric_checks_pass": true,
+        "official_pair_eligible": false,
+        "official_service_ratio": null
+      },
+      {
+        "pair": 1,
+        "observed_numeric_checks": {
+          "both_absolute_quality_at_least_95_percent": true,
+          "no_observed_aggregate_quality_loss": true,
+          "exact_output_token_parity": true,
+          "prompt_parity_and_no_campaign_drift": true,
+          "service_practical_effect_at_least_5_percent": true,
+          "full_attempt_practical_effect_at_least_5_percent": true,
+          "ttft_p95_relative_tail_within_10_percent": true,
+          "ttft_p99_relative_tail_within_10_percent": true,
+          "end_to_end_p95_relative_tail_within_10_percent": true,
+          "end_to_end_p99_relative_tail_within_10_percent": true
+        },
+        "all_observed_numeric_checks_pass": true,
+        "official_pair_eligible": false,
+        "official_service_ratio": null
+      }
+    ],
+    "scope": "Independent descriptive threshold comparison for the predeclared retained-cell reproduction. Official null ratios and retained_prior_same_recipe_measurement ineligibility remain unchanged. This is not a new eligible campaign, a replacement result, or an interactive-serving claim.",
+    "checked_ns": 306453887510575
+  },
+  "created_ns": 309827284602269
+}

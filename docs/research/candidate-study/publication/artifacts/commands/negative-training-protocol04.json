@@ -1,0 +1,28 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "research",
+    "training-protocol",
+    "--fit-recipe",
+    ".cache/v1-investigations-20260908/candidate/negative-fit-recipe04.json",
+    "--calibration-recipe",
+    ".cache/v1-investigations-20260908/candidate/negative-calibration-recipe04.json",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/negative-training-protocol04.json"
+  ],
+  "exit_code": 0,
+  "finished_ns": 288448739620929,
+  "label": "negative-training-protocol04",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 288448625861547,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 834,
+    "sha256": "8f7cb7b63886c1c98c3dfa5762e559d43a860f1ad054d5049219b99ab65aad82"
+  }
+}

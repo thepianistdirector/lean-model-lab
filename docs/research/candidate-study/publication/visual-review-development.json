@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "Actual PNG and independently PDFium-rendered PDF pages visually inspected; counts, 95% reference, label separation and hatches checked.",
+  "recorded_ns": 293180149372040,
+  "reviewed_assets": {
+    "docs/research/candidate-study/figures/development/controller-calibration.pdf": "2c88db2c78ed600176a5ada1d654c4542cbbf618a510afe0d15ff3c832350cdc",
+    "docs/research/candidate-study/figures/development/matched-budget-development-control.pdf": "a73648ee21464d20bcdf0802d683d142b95e3c0cab1cc1c5440f83c2290c0053",
+    "docs/research/candidate-study/figures/development/matched-budget-development-control.png": "d19f8e74c2d0c96f60dec0dcdd9327506a479900c962e5891ff663ee9fef20da",
+    "docs/research/candidate-study/figures/development/controller-calibration.png": "87c8c55517c80b2c59c1b0f185d9129304060520f0a629c5e11621a40ad06ac9",
+    "docs/research/candidate-study/figures/pdf-review-development/matched-budget-development-control.png": "235bb91b9696206765328ab22500c497765d74aff2cb37b538515127cfaafaed",
+    "docs/research/candidate-study/figures/pdf-review-development/controller-calibration.png": "677f528ef452d828cd42468c0f4afe52fce2cf1f892be827c476f88e3e188307"
+  },
+  "renderer": {
+    "renderer": "pypdfium2",
+    "version": "5.13.0",
+    "scope": "Local visual QA only; rendered output still requires visual inspection. No model execution."
+  }
+}

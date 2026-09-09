@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "path_tokens": {
+    "$EVIDENCE_ROOT": "Root of the separately extracted evidence layout used for reanalysis."
+  },
+  "files": [
+    {
+      "original_filename": "analysis.json",
+      "original_sha256": "ef402d0752b30423453fe8f479aff670fed08e893c966379a927551c4f143682",
+      "publication_path": "docs/research/candidate-study/publication/tables/closed/analysis.json",
+      "derived_sha256": "0f7a0edcccb01f141843f6a82434812ec10d6d874d5520e6321dc045ca144b21",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 3
+      },
+      "scope": "CSV scientific values copied byte-exact; JSON changes only documentary extracted-root path tokens. Quality, cost, token, timestamp and protocol fields preserved."
+    },
+    {
+      "original_filename": "attempts.csv",
+      "original_sha256": "c4fd35752dd7d4ea9ac28ca6cf282f84b9e090de647f39d60c1a505a88e58d83",
+      "publication_path": "docs/research/candidate-study/publication/tables/closed/attempts.csv",
+      "derived_sha256": "b4ef3620fbbac89fc347ced816115533c07a6bc35a87d08f278c182b59f5cef4",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "CSV scientific values copied byte-exact; JSON changes only documentary extracted-root path tokens. Quality, cost, token, timestamp and protocol fields preserved."
+    },
+    {
+      "original_filename": "cost-scopes.csv",
+      "original_sha256": "24dfbe80a56b6c2b82a2ba6b2daac7af8ada070f2466698f3dd4d1965f963e59",
+      "publication_path": "docs/research/candidate-study/publication/tables/closed/cost-scopes.csv",
+      "derived_sha256": "d622abca9439192d1df5ce2a5183302eeda3312c007ccbfed261be89ce7fde83",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "CSV scientific values copied byte-exact; JSON changes only documentary extracted-root path tokens. Quality, cost, token, timestamp and protocol fields preserved."
+    },
+    {
+      "original_filename": "oracle-strata.csv",
+      "original_sha256": "67c828cdf370e983025970f28e6337ee996e87f0184e9e1d11e8990cf941ebf7",
+      "publication_path": "docs/research/candidate-study/publication/tables/closed/oracle-strata.csv",
+      "derived_sha256": "6e0b812718796c73bbcc19a612a25842269c87c08f2a6c98812813c5094eb942",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "CSV scientific values copied byte-exact; JSON changes only documentary extracted-root path tokens. Quality, cost, token, timestamp and protocol fields preserved."
+    },
+    {
+      "original_filename": "paired.csv",
+      "original_sha256": "bd090e89789ba2ce6b69b657822f69ccb4447f8a6f2251612f74a77e247782f0",
+      "publication_path": "docs/research/candidate-study/publication/tables/closed/paired.csv",
+      "derived_sha256": "7c09ab5d1020780cc68e6bb7d210ce89115ab6c74929e4dff27398af9b0e74cc",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "CSV scientific values copied byte-exact; JSON changes only documentary extracted-root path tokens. Quality, cost, token, timestamp and protocol fields preserved."
+    },
+    {
+      "original_filename": "repetition-stability.csv",
+      "original_sha256": "fcc1a7ef0e67d795902813e41db3518ac24489e7cf266ec929b6a23034c008aa",
+      "publication_path": "docs/research/candidate-study/publication/tables/closed/repetition-stability.csv",
+      "derived_sha256": "c3dc023b4fcc48d3ac5a9531dcc998e4dd84de5b6e9e1224ad16fa59ecdf23af",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "CSV scientific values copied byte-exact; JSON changes only documentary extracted-root path tokens. Quality, cost, token, timestamp and protocol fields preserved."
+    },
+    {
+      "original_filename": "requests.csv",
+      "original_sha256": "035c6f59387c04c72fa0c629797a1649cf0d4795fb7e1e22c135f997b7684ab6",
+      "publication_path": "docs/research/candidate-study/publication/tables/closed/requests.csv",
+      "derived_sha256": "35c4cdf0f159c763e782704bd771efe25b6cd70737f32d7880e126093bfe62df",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "CSV scientific values copied byte-exact; JSON changes only documentary extracted-root path tokens. Quality, cost, token, timestamp and protocol fields preserved."
+    },
+    {
+      "original_filename": "route-counts.csv",
+      "original_sha256": "f028f003efda0de117d207b68f4e8b706340dee06a8a815c99fc2f1ec6cdfe97",
+      "publication_path": "docs/research/candidate-study/publication/tables/closed/route-counts.csv",
+      "derived_sha256": "48462354aadb198e0b4dd22b4d2b50f6484f7bc3d3bac3f912cc6b5d6b8000ef",
+      "replacement_counts": {
+        "EVIDENCE_ROOT": 0
+      },
+      "scope": "CSV scientific values copied byte-exact; JSON changes only documentary extracted-root path tokens. Quality, cost, token, timestamp and protocol fields preserved."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+usage: lean-model-lab research training-protocol [-h] --fit-recipe FIT_RECIPE
+                                                 --calibration-recipe
+                                                 CALIBRATION_RECIPE --output
+                                                 OUTPUT
+
+options:
+  -h, --help            show this help message and exit
+  --fit-recipe FIT_RECIPE
+  --calibration-recipe CALIBRATION_RECIPE
+  --output OUTPUT

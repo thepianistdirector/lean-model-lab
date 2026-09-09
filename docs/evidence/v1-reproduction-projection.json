@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "status": "PRE_DISPATCH_PROJECTION_ONLY",
+  "recorded_ns": 297987150250853,
+  "original_deadline_ns": 310468865220540,
+  "selected_original_cells": {
+    "quality": {
+      "receipt_sha256": "483d0720a96f8953d2ec870b559195d96659c3ba502a9945532b3ebb47804dac",
+      "observed_execution_seconds": 2774.945479864,
+      "offered_native_reproduction_requests": 512,
+      "producer_archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986"
+    },
+    "candidate": {
+      "receipt_sha256": "31148949fe27b46847caaac6acbc7d15bbdde3e1fb29860045b928747a8f3d13",
+      "observed_execution_seconds": 800.03081706,
+      "offered_native_reproduction_requests": 512,
+      "producer_archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986"
+    },
+    "systems": {
+      "receipt_sha256": "c837ef294e998bc42a6cdd929ffdc25e252eb39d763bdaf293b9c066da043c07",
+      "observed_execution_seconds": 329.082441857,
+      "offered_native_reproduction_requests": 512,
+      "producer_archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986"
+    }
+  },
+  "observed_total_seconds": 3904.058738781,
+  "safety_factor": 1.5,
+  "projected_seconds": 5856.0881081715,
+  "reproduction_execution_ceiling_seconds": 6300,
+  "remaining_original_seconds": 12481.714969687,
+  "fits_execution_ceiling": true,
+  "scope": "Not permission, a reservation or new clock. Reviewer must repeat admission before actual execution and after any delay or changed observed timing. Selection predates reproduction outcomes."
+}

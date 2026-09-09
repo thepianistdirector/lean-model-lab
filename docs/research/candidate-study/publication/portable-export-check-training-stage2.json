@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "created_ns": 292644414957725,
+  "manifest_sha256": "47543e5fda319f4fc5afa7e6cfbcf3228b0817e2067ce51fcc2879d67081adf0",
+  "analysis_script_sha256": "fbe957e468cfc1f3da3a54fae1781e922f506d3aa3c1bddad087ebde1bf71eb8",
+  "training_validator_sha256": "61fd1e423e3a8db417204c7840291841ac5a150f3ab2ce8171893ca8ba75d037",
+  "native_offered": 320,
+  "training_mode": "ALWAYS_FULL",
+  "copied_training_files": {
+    "calibration-labels.json": "6bbae59de5793bdee720e702b8848c6bba82be6f00cb0775f7ec75ad46b84ec0",
+    "controller.json": "4eddbc0eb75fe434d08351e045c07921662ba7bde666830ab2bf7566f1c40c91",
+    "fit-labels.json": "d87ea5782077fd77cc98f866934604c6b828329b46573fe2876aa05959b7c486",
+    "training-protocol.json": "2bb5a29e4e075f5930ee1c6edde0d3891f1c68a4a2f9a2fabf93eb080e403916",
+    "training-receipt.json": "8af183a0ad094f7ea805475f021ebc17f69c231128961c7208668adea53f2023"
+  },
+  "scope": "Actual exported fit and calibration plus closed derivatives; all native labels, groups, costs, fitted node counts and fixed calibration grid independently reconcile through portable published code."
+}

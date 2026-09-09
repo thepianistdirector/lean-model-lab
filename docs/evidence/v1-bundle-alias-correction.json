@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "status": "RETAINED_PRE_OUTPUT_ARGUMENT_REJECTION",
+  "recorded_ns": 299299889331801,
+  "build_log_sha256": "ff511d05559ce968428754af502daae3d5947c3df8be308cb992b04c6554f9a0",
+  "queue_receipt_sha256": "e5cd020e324aa74816c35db4f6bf1988b0e58ba8c10c58dd60e621e0587ede4b",
+  "rejected_alias": "clarification-0.5b-study04",
+  "required_alias": "clarification-05b-study04",
+  "output_directory_created": false,
+  "reason": "Packaging identifiers accept letters, digits, underscores and hyphens; the proposed public alias included a dot. Native original names and scientific evidence remain unchanged. Portable path alias correction is in progress.",
+  "scope": "Packaging integration failure before ZIP creation; no native request, changed gate or new result.",
+  "resolution": "Portable alias correction passed; all seven scientific CSVs and seven regenerated PNGs unchanged. Root finalized safe spec and operator mappings after investigator usage-limit stop. Actual global ZIP build follows.",
+  "candidate_alias_receipt_sha256": "03020cecb62f0150040b4496bc3de162079f11849b089a6b4c7329e85bad59e4",
+  "current_candidate_manifest_sha256": "f3e29240b15aad46cd704e95a7c4f4ffecfba310ac4594efac43997ac3942760"
+}

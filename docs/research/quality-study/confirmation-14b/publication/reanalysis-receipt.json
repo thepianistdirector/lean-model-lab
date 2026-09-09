@@ -1,0 +1,7 @@
+{
+  "evidence_manifest_sha256": "ca56cafea92b732a6c179ae168f0acb21eba20295a820c9e55489a15df11f111",
+  "new_native_requests": 0,
+  "scope": "Checks retained bytes, evaluator agreement and optional producer archive hashes; not producer authentication, external execution or independent human validation.",
+  "script_sha256": "637f86dfd005a4e33abc8c6407a63a0c643d48d3839a12920f9349f7ba716375",
+  "status": "COMPLETED_LOCAL_HASH_CONSISTENCY_CHECKS"
+}

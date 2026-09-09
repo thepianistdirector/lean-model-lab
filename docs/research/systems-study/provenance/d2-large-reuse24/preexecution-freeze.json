@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-09-08T19:16:54.647873+00:00",
+  "frozen_ns": 288203087500799,
+  "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+  "protocol_file_sha256": "3887284419ea34ed320a55f9b24c00be2c2e46644bc1daaec3ea899c2bf936d5",
+  "recipe_file_sha256": "82fd56cd20c3ed9652085a88737295802e8310d572c0306b16aead9a85efbe37",
+  "new_offered_requests": 32,
+  "prior_investigator_offered_requests": 32,
+  "prior_queue_execution_seconds": 29.500493033,
+  "original_deadline_ns": 310468865220540,
+  "stage": "single predeclared 14B feasibility alternative; no confirmation"
+}

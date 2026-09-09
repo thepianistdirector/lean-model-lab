@@ -1,0 +1,126 @@
+{
+  "archive": {
+    "schema_version": 1,
+    "evidence_class": "TEST_FIXTURE",
+    "scope": "locally built package on the development host; no model inference or external reproduction",
+    "artifact": {
+      "version": "1.0.0.dev0",
+      "sha256": "b4d3ecee545d4a12bfeaa1b99b8018dcef20fd8c8d2701ad4b2cb2cd47870696",
+      "bytes": 199565,
+      "status": "LOCAL_CANDIDATE_NOT_PUBLISHED"
+    },
+    "implementation_sha256": "35e1ad08af7468c7a792e59643dbe326c2f3be7c58bf6ee49e784545bbd53ee7",
+    "python": "3.12.14",
+    "checks": [
+      {
+        "check": "deterministic_manifest_and_implementation_identity",
+        "status": "PASS"
+      },
+      {
+        "check": "create_trace",
+        "status": "PASS",
+        "exit_code": 0
+      },
+      {
+        "check": "validate_trace",
+        "status": "PASS",
+        "exit_code": 0
+      },
+      {
+        "check": "refuse_trace_overwrite",
+        "status": "PASS",
+        "exit_code": 2
+      },
+      {
+        "check": "evaluate_fixtures",
+        "status": "PASS",
+        "exit_code": 0
+      },
+      {
+        "check": "reject_missing_request",
+        "status": "PASS",
+        "exit_code": 2
+      },
+      {
+        "check": "inspect_complete_inventory",
+        "status": "PASS",
+        "exit_code": 0
+      },
+      {
+        "check": "report_complete_inventory",
+        "status": "PASS",
+        "exit_code": 0
+      },
+      {
+        "check": "detect_torn_journal",
+        "status": "PASS",
+        "exit_code": 0
+      },
+      {
+        "check": "reject_unreconciled_report",
+        "status": "PASS",
+        "exit_code": 2
+      },
+      {
+        "check": "recover_journal",
+        "status": "PASS",
+        "exit_code": 0
+      },
+      {
+        "check": "inspect_recovered_inventory",
+        "status": "PASS",
+        "exit_code": 0
+      }
+    ],
+    "measured_claim_eligible": false
+  },
+  "research_cli": {
+    "archive_sha256": "b4d3ecee545d4a12bfeaa1b99b8018dcef20fd8c8d2701ad4b2cb2cd47870696",
+    "checks": [
+      {
+        "check": "mechanisms",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "proposal",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "protocol",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "learned-recipe",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "learned-validate",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "missing-controller-refused",
+        "exit_code": 2,
+        "status": "PASS"
+      },
+      {
+        "check": "freeze-training-protocol",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "fixture-native-training-refused",
+        "exit_code": 2,
+        "status": "PASS"
+      }
+    ],
+    "evidence_class": "TEST_FIXTURE",
+    "schema_version": 1,
+    "scope": "Isolated exact archive CLI controls, no native model inference or learned research finding. Actual training remains pending.",
+    "status": "PASS"
+  }
+}

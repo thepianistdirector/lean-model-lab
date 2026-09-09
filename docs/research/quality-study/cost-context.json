@@ -1,0 +1,12 @@
+{
+  "current_allocation_elapsed_s": 19774.044398528,
+  "current_allocation_remaining_s": 23425.955601472,
+  "energy": "UNAVAILABLE; no sensor",
+  "money": "UNAVAILABLE; no monetary probe",
+  "original_allocation_deadline_ns": 310468865220540,
+  "original_allocation_start_ns": 267268865220540,
+  "scope": "Current all-clock includes all investigators/coordinator/idle, not attributable to this finding alone. Historical producer cutoffs remain frozen. Historical pre-allocation0.1 costs are separate and not added to current elapsed.",
+  "snapshot_monotonic_ns": 287042909619068,
+  "union_scope": "Union of supplied ledgers only across both historical and current clocks on this same boot; not complete campaign total.",
+  "unique_supplied_interval_union_s": 17297.793405845
+}

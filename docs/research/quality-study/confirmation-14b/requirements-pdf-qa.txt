@@ -1,0 +1,2 @@
+# Optional visual-review helper; not required by portable_reanalysis.py.
+pypdfium2==5.13.0

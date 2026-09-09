@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "scope": "Copied published scripts and actual redacted exports into a separate portable layout; stdlib reanalysis used only explicit manifest/evidence-root/new-output arguments. No private original study paths were read by the analysis.",
+  "script_sha256": "fbe957e468cfc1f3da3a54fae1781e922f506d3aa3c1bddad087ebde1bf71eb8",
+  "manifest_sha256": "36a4e054551705e4c5bb9e10684d38c6f80c621c85ad467678f8bc923a3f2cbe",
+  "native_offered": 64,
+  "oracle_summary": [
+    [
+      "feasibility-14b-study03",
+      "pair_0",
+      3,
+      8
+    ],
+    [
+      "feasibility-14b-study03",
+      "pair_1",
+      3,
+      8
+    ],
+    [
+      "feasibility-14b-study03",
+      "one_arm_correct_in_all_repeats",
+      3,
+      8
+    ],
+    [
+      "clarification-0.5b-study04",
+      "pair_0",
+      1,
+      8
+    ],
+    [
+      "clarification-0.5b-study04",
+      "pair_1",
+      1,
+      8
+    ],
+    [
+      "clarification-0.5b-study04",
+      "one_arm_correct_in_all_repeats",
+      1,
+      8
+    ]
+  ],
+  "export_report_hashes": [
+    "a7a1d9a4ea2bbafd3c643fbaa866100355b7adf11082ad9990f102c9aaaf34d3",
+    "e6ebd72684d4869030823c92ac5aee967ef76d11b17b4205b80d8d742ee73e28"
+  ]
+}

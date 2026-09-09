@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "status": "PASS_RENDERED_ACTUAL_EVIDENCE",
+  "scope": "Read-only archive06 rendering of the retained 512-request quality confirmation; no new native model execution or browser observation.",
+  "archive_sha256": "4d7c6dfa28f4efda1359075d01cd8cf0af613b6a6aab13617dc7de89f0c4fd17",
+  "document_sha256": "5ab3d11d684c4604139526c9c5455cd1211d35101938a3ae3494f1774ee73096",
+  "quality": {
+    "each_arm_each_pair_correct": 127,
+    "each_arm_each_pair_offered": 128
+  },
+  "visible_slo_counts": {
+    "baseline": {
+      "qualified": 0,
+      "offered": 256
+    },
+    "candidate": {
+      "qualified": 0,
+      "offered": 256
+    }
+  },
+  "ttft_target_ns": 15000000000,
+  "completion_target_ns": 30000000000,
+  "scientific_source_unchanged": true,
+  "retained_cancelled_browser_queue": "Archive05 browser queue cancelled before any browser steps because this presentation fix superseded its pending input. Original queue receipt retained.",
+  "initial_render_assertion_correction": "Verification first expected three decimal places; renderer preserves six. Actual numeric values were correct; adjusted verification expected formatting without changing the rendered artifact."
+}

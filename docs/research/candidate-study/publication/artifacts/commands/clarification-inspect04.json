@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "inspect",
+    ".cache/v1-investigations-20260908/candidate/clarification-0.5b-study04"
+  ],
+  "exit_code": 0,
+  "finished_ns": 288040689007531,
+  "label": "clarification-inspect04",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 288040475187593,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 47991,
+    "sha256": "940a2a5542bf5ac896ebb973ca6e738fe01c9bb84db989538678e44a947fede2"
+  }
+}

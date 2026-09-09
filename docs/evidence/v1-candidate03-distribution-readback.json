@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "status": "PASS_ACTUAL_DISTRIBUTION_READBACK",
+  "started_ns": 302964410644275,
+  "candidate_manifest_sha256": "9bddbe5be9ac157f184f4fb4913a929e7ed9f9d76026ec4b457f62f2c46e8a21",
+  "archives": {
+    "candidate-research.zip": {
+      "sha256": "0d7f475e5db5e5e6c7b78b777acd83a5253f75558bc292110b8a09cd83104e21",
+      "files": 7856,
+      "directories": 88,
+      "local_top_level_html_links": {
+        "clarification-05b-study04.html": 0,
+        "feasibility-14b-study03.html": 0,
+        "index.html": 28,
+        "negative-budget-control-study04.html": 0,
+        "negative-calibration-study04.html": 0,
+        "negative-confirm-learned-study04.html": 0,
+        "negative-confirm-simple-study04.html": 0,
+        "negative-confirm-slice-study04.html": 0,
+        "negative-fit-study04.html": 0
+      },
+      "checked_source_markdown_links": 302,
+      "preserved_upstream_notice_exceptions": [
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        },
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        }
+      ]
+    },
+    "clarification-05b-study04-evidence.zip": {
+      "sha256": "3afe38e60ab0ee6384d03f76a17291bc4c06abeb7a6e75d3963043f2d77a995f",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "feasibility-14b-study03-evidence.zip": {
+      "sha256": "23d9d0b8e550a778db477cfb8580e6577ea4f7d05226fd23e8704f6a1c908259",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "lean-model-lab-source.zip": {
+      "sha256": "b9b933e862b9f69f34367bad48e0bbff665cc30d65cfbeed04f2885627d9b430",
+      "files": 1203,
+      "directories": 0,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 302,
+      "preserved_upstream_notice_exceptions": [
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        },
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        }
+      ]
+    },
+    "legacy-05b-comparison-evidence.zip": {
+      "sha256": "cd0dd055f9de383cbe6ee75c765d977085418b9ab68238866d61d1763b6a0983",
+      "files": 4756,
+      "directories": 19,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "legacy-protocol-failure-evidence.zip": {
+      "sha256": "68e6738f96f367c79f70e1f6f8859bef2265208511ef908a963d2d3c7ed4d9b5",
+      "files": 117,
+      "directories": 8,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-budget-control-study04-evidence.zip": {
+      "sha256": "84784541ad875dccf16be60df03d241611ecc912e4075e79a3db0fce56aac490",
+      "files": 468,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-calibration-study04-evidence.zip": {
+      "sha256": "7780ceccb706c2d9e0285ace80c790bf7945b6bfceea09212da76b63e53de70b",
+      "files": 468,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-confirm-learned-study04-evidence.zip": {
+      "sha256": "dad63cbb25e651a39774ab598ecd3a72f8c765fcd2beeecc1c328dffe5afb439",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-confirm-simple-study04-evidence.zip": {
+      "sha256": "80f8ad66dc09439f38f9dedd90d85e9114debc7d146d83d9791c312752b5bbbc",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-confirm-slice-study04-evidence.zip": {
+      "sha256": "48909160f74393ccefb9d3976f554d9c1f715c04d79500c9a24ae4062550483a",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "negative-fit-study04-evidence.zip": {
+      "sha256": "e04f3f3f177dd46d24387424c40be53831d262a1ed25b850b2bf8f4306fdca6b",
+      "files": 468,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "quality-05b-development-evidence.zip": {
+      "sha256": "bc74732f8273e266e77900eb4d29e295850ce10091506dfcbeeb21441b62f743",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "quality-14b-confirmation-evidence.zip": {
+      "sha256": "ed41be95d50d2c7879ebe228fabcd825212b09b79a30c8e5f808e7afa3296918",
+      "files": 1616,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "quality-research.zip": {
+      "sha256": "5c9d4f5f5e47f8a03113fe72c203d0926801c3f515939c43a381be2ec92893ab",
+      "files": 14317,
+      "directories": 72,
+      "local_top_level_html_links": {
+        "index.html": 19,
+        "legacy-05b-comparison.html": 0,
+        "legacy-protocol-failure.html": 0,
+        "quality-05b-development.html": 0,
+        "quality-14b-confirmation.html": 0,
+        "retained-14b-main.html": 0
+      },
+      "checked_source_markdown_links": 302,
+      "preserved_upstream_notice_exceptions": [
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        },
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        }
+      ]
+    },
+    "retained-14b-main-evidence.zip": {
+      "sha256": "616be802ac67a0b48ae819a44874d110705a8082178efd00f7f22785ad761cf9",
+      "files": 6416,
+      "directories": 23,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-d1-small-reuse24-evidence.zip": {
+      "sha256": "a2cbdb03307c2b0d94a4565cd08b0027bf9433fe3e4e926165ac217e194836a2",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-d2-large-reuse24-evidence.zip": {
+      "sha256": "2ed1cec930ed78d7b517b2164cc1150d52cae1c6ab1fae3abd4e25ebb901ab5b",
+      "files": 180,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-h1-small-reuse24-evidence.zip": {
+      "sha256": "5bc8ba33d477682f2ae1b8281c1afd9615e34534a3e421ad43d03c3970ab8c17",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-h2-small-reuse64-evidence.zip": {
+      "sha256": "d2d405e6278963bd5d676a964bfdb291b12b321b27c296336781c1c5940d724f",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-h3-large-reuse24-evidence.zip": {
+      "sha256": "47224c417af86965b50a03528d6c1f2c381e77cad07e42785e2a8a191a16984d",
+      "files": 1620,
+      "directories": 11,
+      "local_top_level_html_links": {},
+      "checked_source_markdown_links": 0,
+      "preserved_upstream_notice_exceptions": []
+    },
+    "systems-research.zip": {
+      "sha256": "7652be420b810b2398649b5e099581da1214f31e4ec632ac4ef4f226760e4085",
+      "files": 6443,
+      "directories": 55,
+      "local_top_level_html_links": {
+        "index.html": 19,
+        "systems-d1-small-reuse24.html": 0,
+        "systems-d2-large-reuse24.html": 0,
+        "systems-h1-small-reuse24.html": 0,
+        "systems-h2-small-reuse64.html": 0,
+        "systems-h3-large-reuse24.html": 0
+      },
+      "checked_source_markdown_links": 302,
+      "preserved_upstream_notice_exceptions": [
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        },
+        {
+          "source": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.md",
+          "target": "README.ijg",
+          "available_notice": "lean-model-lab-source/docs/research/quality-study/confirmation-14b/pdf-qa-provenance/license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt"
+        }
+      ]
+    }
+  },
+  "html_links": {
+    "clarification-05b-study04.html": 0,
+    "feasibility-14b-study03.html": 0,
+    "index.html": 60,
+    "legacy-05b-comparison.html": 0,
+    "legacy-protocol-failure.html": 0,
+    "negative-budget-control-study04.html": 0,
+    "negative-calibration-study04.html": 0,
+    "negative-confirm-learned-study04.html": 0,
+    "negative-confirm-simple-study04.html": 0,
+    "negative-confirm-slice-study04.html": 0,
+    "negative-fit-study04.html": 0,
+    "quality-05b-development.html": 0,
+    "quality-14b-confirmation.html": 0,
+    "retained-14b-main.html": 0,
+    "systems-d1-small-reuse24.html": 0,
+    "systems-d2-large-reuse24.html": 0,
+    "systems-h1-small-reuse24.html": 0,
+    "systems-h2-small-reuse64.html": 0,
+    "systems-h3-large-reuse24.html": 0
+  },
+  "scope": "Actual artifact hashes, ZIP inventories and local top-level HTML link targets. No native execution, public access, publisher authentication or human review. Includes all source Markdown local targets; two preserved upstream IJG links have exact alternate notices identified. This is candidate03, before adding clean-first-use and separate reproduction receipts.",
+  "finished_ns": 302969472465020,
+  "original_receipt_sha256": "1a8749b55ad3845c63b955e2eab2015f6231dcdc3fc4f85c9cc81f5064b3bdd7"
+}

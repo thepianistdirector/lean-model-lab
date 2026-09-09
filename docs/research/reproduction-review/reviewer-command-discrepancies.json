@@ -1,0 +1,133 @@
+{
+  "scope": "Reviewer operational discrepancies and the retained pre-inference native admission failure. These remain separate from original scientific failures. Exact scientific-command outputs and command/time receipts remain retained; all elapsed time remains within the original allocation.",
+  "native_replacement_runs": 0,
+  "analysis_invocation_discrepancies": [
+    {
+      "commands": [
+        "python -I <extracted>/candidate-study/publication/scripts/validate_training.py --manifest <frozen-manifest> --evidence-root <extracted-package> --output <new-json>",
+        "python -I <extracted>/candidate-study/publication/scripts/illustrations.py --manifest <frozen-manifest> --evidence-root <extracted-package> --analysis <fresh-analysis> --output <new-directory>"
+      ],
+      "result": "ModuleNotFoundError: No module named reanalyze",
+      "cause": "Reviewer added -I although these documented commands intentionally use the script directory for sibling imports.",
+      "resolution": "After inspecting the first failures, ran the documented commands without -I against unchanged extracted scripts/inputs. Both passed; no existing partial outputs were overwritten."
+    },
+    {
+      "command": "python3 check_frozen_split_trace.py",
+      "result": "KeyError: split_trace",
+      "cause": "Reviewer initially guessed the retained trace-field name.",
+      "resolution": "Inspected actual controller keys; retained first script/log and used a separately named v2 checker on the existing training.trace field. All69 frozen candidates passed; no controller fitted."
+    },
+    {
+      "command": "Read-only inline quality summary after successful exact-producer report",
+      "result": "TypeError: '<' not supported between instances of 'NoneType' and 'NoneType'",
+      "cause": "Reviewer attempted median of official null throughput ratios before checking retained-prior-measurement ineligibility.",
+      "resolution": "Preserved the successful official report and its nulls; inspected the explicit ineligibility reason, then calculated only labeled descriptive numeric gate booleans in quality-reproduction-gate-observation.json. No native process was rerun."
+    }
+  ],
+  "placement_adaptation": {
+    "command": "python3 finalize_native.py",
+    "result": "Intentionally interrupted while waiting; no finalization child command had begun.",
+    "reason": "Delay derivative writes until the full native matrix completes, avoiding concurrent partial-export discovery by later native admission.",
+    "resolution": "The separately named v2 finalizer waited for matrix completion, then exited on the real candidate admission failure before running any finalization commands. After explicit root authorization and exact predecessor restoration, v3 resumed finalization waiting against the new candidate output path. No native process interrupted."
+  },
+  "read_only_exploratory_mistakes": [
+    {
+      "command_fragment": "rg ... src/lean_model_lab/native.py",
+      "result": "No such file or directory",
+      "resolution": "Read the actual runner_recipe.py discovered in the packaged file inventory."
+    },
+    {
+      "command_fragment": "rg -n adopt|setup src/lean_model_lab/recipes.py",
+      "result": "No matches; rg status1",
+      "resolution": "Located adoption and runner definitions by source-tree search."
+    },
+    {
+      "command_fragment": "cat reanalysis/training.json",
+      "result": "No such file or directory",
+      "resolution": "Inspected failed isolated-mode command stderr before the documented invocation."
+    },
+    {
+      "command_fragment": "rg ... src/lean_model_lab/research_workloads.py",
+      "result": "No such file or directory",
+      "resolution": "Read actual structured_workloads.py after listing available source files."
+    },
+    {
+      "command_fragment": "cat THIRD-PARTY.md",
+      "result": "No such file or directory",
+      "resolution": "Read the inventoried THIRD_PARTY_NOTICES.md."
+    },
+    {
+      "command_fragment": "inline Python progress snapshot with one extra closing parenthesis",
+      "result": "SyntaxError: closing parenthesis does not match opening brace",
+      "resolution": "Corrected the read-only snapshot and later retained a reusable progress_snapshot.py."
+    },
+    {
+      "command_fragment": "Inspect names in documented-commands.json",
+      "result": "KeyError: name",
+      "resolution": "Read the two actual command records; unlike original records they use argv without name. Receipt assembly now derives the documented output stem from its exact --output argument. No commands or native observations repeated."
+    },
+    {
+      "command_fragment": "Cheap last-arm progress snapshot counted raw/*.jsonl files",
+      "result": "516 JSONL files after finalization, including four scheduler.jsonl artifacts.",
+      "resolution": "Inspected actual workload request IDs and excluded scheduler artifacts. Final reports, exact comparison and independent raw audit all confirm exactly 512 systems requests and 1536 total; no extra inference occurred."
+    }
+  ],
+  "failure_output_hashes": {
+    "reanalysis/training.stderr.txt": {
+      "sha256": "c8e33fb6bccf6979d85fef07e7f4b58bb887601280cd339939ac425905f933d5",
+      "bytes": 368
+    },
+    "reanalysis/illustrations.stderr.txt": {
+      "sha256": "43e664ea7c2faaba895b00021c6db3726a07e33ece618f6e5ad20d0415ab98bd",
+      "bytes": 362
+    },
+    "frozen-split-trace-check.log": {
+      "sha256": "26ee98b41fb7fd87985fe861febfb3d6c1670f4a6f36774eeefaa2dbdcc634ed",
+      "bytes": 919
+    },
+    "finalization.log": {
+      "sha256": "255c85638485c7da4d1f62e5aad1735187893067d3f8f60fd315a3906e16192f",
+      "bytes": 220
+    },
+    "finalization-v2.log": {
+      "sha256": "3509eee9bf03f294c4d644cdb0dc8eb5767adf76795b8c9d816899991b5409db",
+      "bytes": 51
+    },
+    "native/candidate.queue/receipt.json": {
+      "sha256": "3d75eac56634b0dc5496c565ec1463f710ba2e93847c9fbc9fda9aed17e010c8",
+      "bytes": 377
+    },
+    "native/candidate.queue/registration.json": {
+      "sha256": "e17170d40cd19f27aa3540cc02dae2003767a8f1fe02a823686a43bc5e2a7ddc",
+      "bytes": 317
+    },
+    "watchdog-continuation-adaptation.json": {
+      "sha256": "1f49cebb5ae231f83f834bedd7859a61a23a65c493b68fcde47c27ec8c105b49",
+      "bytes": 355
+    }
+  },
+  "impact": "No change to native science, seed, policy, controller, allocation, model or acceptance gates. One explicit continuation followed exact restoration of missing provenance; zero requests preceded that failure, and all failed process time remains charged.",
+  "native_admission_discrepancy": {
+    "first_attempt_status": "FAILED_OR_CANCELLED",
+    "exit_code": 2,
+    "error_text": "local derivative lacks its original predecessor producer",
+    "offered_native_requests": 0,
+    "archive_execution_seconds": 6.720491959,
+    "cause": "Clean-worktree derivative exports were inside the active workspace but their two exact originals were outside native admission discovery.",
+    "resolution": "The root restored the exact original trees without changing derivatives or scientific inputs; the reviewer checked all 181 restored files against the existing original catalogs. Root authorized one continuation in a new output directory. The original failed queue receipt, registration and product log remain retained and charged.",
+    "restoration_check": "producer-history-restoration-check.json",
+    "continued_candidate_output_alias": "reproduction-candidate",
+    "quality_reruns": 0,
+    "additional_inference_beyond_original_planned_cells": 0
+  },
+  "watchdog_adaptation": {
+    "reason": "The continuation used a new candidate output path after the zero-inference failure.",
+    "action": "Stopped the old waiting watchdog and installed a separately named mapping-aware watcher. It counts quality, the failed candidate admission, resumed candidate and systems under the unchanged 6300-second execution ceiling and original deadline. No producer was stopped by the mapping change."
+  },
+  "public_packaging_discrepancy": {
+    "status": "CORRECTED_DOCUMENTARY_PATH_ONLY",
+    "initial_result": "Final build04 refused an unreviewed private path in native-command-receipts.json.",
+    "cause": "Three independent completion command records used the existing interpreter named python; initial sanitization covered the interpreter named python3.",
+    "correction": "Replaced those three documentary interpreter values with <existing-python>; preserved all pre-correction public files privately. Exact original command records remain retained. No scientific field, clock, status, native observation or export changed."
+  }
+}

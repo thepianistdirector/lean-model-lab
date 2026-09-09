@@ -1,0 +1,50 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "research",
+    "study-create",
+    "--proposal",
+    ".cache/v1-investigations-20260908/candidate/negative-simple-proposal04.json",
+    "--protocol",
+    ".cache/v1-investigations-20260908/candidate/negative-confirm-simple-protocol04.json",
+    "--allocation",
+    ".cache/allocation-0.4-20260908.json",
+    "--model-profile",
+    "qwen2.5-0.5b-instruct-fp16-v2",
+    "--family",
+    "record-mixed-v1",
+    "--context-records",
+    "24",
+    "--split",
+    "confirmation",
+    "--purpose",
+    "MEASUREMENT",
+    "--requests",
+    "128",
+    "--seed",
+    "920260813",
+    "--concurrency",
+    "1",
+    "--pairs",
+    "2",
+    "--threads",
+    "2",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/negative-confirm-simple-recipe04.json"
+  ],
+  "exit_code": 0,
+  "finished_ns": 292402603439057,
+  "label": "negative-confirm-simple-study-create04",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 292402489721466,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 464,
+    "sha256": "542fc461681d6045fc0f62293b1c2250a608a20b45f17d3e75fe8947eb69ec58"
+  }
+}

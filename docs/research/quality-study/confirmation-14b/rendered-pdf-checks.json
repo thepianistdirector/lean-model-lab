@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "command": [
+    ".cache/research-plot-env/bin/python",
+    "docs/research/quality-study/confirmation-14b/render_pdf_for_review.py",
+    "--figure-directory",
+    "docs/research/quality-study/confirmation-14b/publication/figures",
+    "--output",
+    ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-previews-command-check",
+    "--dependency-directory",
+    ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-dependencies"
+  ],
+  "start_ns": 292115798938220,
+  "finish_ns": 292115924299846,
+  "elapsed_s": 0.125361626,
+  "returncode": 0,
+  "renderer": {
+    "renderer": "pypdfium2",
+    "version": "5.13.0",
+    "scope": "Local visual QA only; rendered output still requires visual inspection. No model execution."
+  },
+  "method": "Sequential pypdfium2.PdfDocument; assert one page; page.render(scale=1.8); bitmap.to_pil().save(PNG); close resources.",
+  "renderer_helper_source": "docs/research/quality-study/confirmation-14b/render_pdf_for_review.py",
+  "renderer_helper_sha256": "448553de073943552f33034651621ead5b3af717fc59b2d5eee7a9594c7e7c97",
+  "dependency_location": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-dependencies",
+  "installation_history": "pypdfium2 5.13.0 was installed once during this investigator QA into its owned project cache; this exact command reuses it without installing dependencies.",
+  "scope": "Local generated-PDF rasterization and agent visual review; not external human review or a native-model experiment.",
+  "files": [
+    {
+      "pdf_source": "docs/research/quality-study/confirmation-14b/publication/figures/latency-distributions.pdf",
+      "pdf_sha256": "5659b4357cc943cfebd949246504b6cb0e0b631c8c45445de9962bccbffba626",
+      "rendered_png": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-previews-command-check/latency-distributions.png",
+      "rendered_png_sha256": "2c5f05fb7f57aeaae6e2e3191b6a7aab9a32f9f4015433275c4b6d1390fa08cf",
+      "matches_previously_visually_inspected_pdf_rendering": true
+    },
+    {
+      "pdf_source": "docs/research/quality-study/confirmation-14b/publication/figures/paired-effects.pdf",
+      "pdf_sha256": "c5e916572d2a513a32cb5db73beb57e4bce7db705d66a0338b5cf4f883db79ef",
+      "rendered_png": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-previews-command-check/paired-effects.png",
+      "rendered_png_sha256": "6037b000e95ccd9dc4ed17795049ceea72a7a805fc700b6d01cb8e2d2bccc70c",
+      "matches_previously_visually_inspected_pdf_rendering": true
+    },
+    {
+      "pdf_source": "docs/research/quality-study/confirmation-14b/publication/figures/quality-gates.pdf",
+      "pdf_sha256": "d61f3ee0f7df81fa68dafae30656461004ccadf8c625759402ed8d267788d5d9",
+      "rendered_png": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-previews-command-check/quality-gates.png",
+      "rendered_png_sha256": "1df1cadc2ed2dcb3b0f42fe471fef93b22e3ab64f7519507c708178977a9b1d2",
+      "matches_previously_visually_inspected_pdf_rendering": true
+    }
+  ]
+}

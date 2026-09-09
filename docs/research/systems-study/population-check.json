@@ -1,0 +1,254 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case_id": "d1-small-reuse24",
+      "split": "development",
+      "seed": 940101,
+      "context_records": 24,
+      "offered_tasks": 8,
+      "distinct_tables": 1,
+      "queries_per_table": [
+        8
+      ],
+      "distinct_queries_per_table": [
+        8
+      ],
+      "eight_distinct_queries_per_table": true,
+      "workload_file_sha256": "ebee3f3c0edc5619636d5dd34c9439d222d462ba0ba024e757c48629a76e0612",
+      "table_sha256": [
+        "9db71a904d6ba17ac26b341aa3c05c7e729eaed18bd0d5986039c4e05dfa4a0f"
+      ]
+    },
+    {
+      "case_id": "d2-large-reuse24",
+      "split": "development",
+      "seed": 940101,
+      "context_records": 24,
+      "offered_tasks": 8,
+      "distinct_tables": 1,
+      "queries_per_table": [
+        8
+      ],
+      "distinct_queries_per_table": [
+        8
+      ],
+      "eight_distinct_queries_per_table": true,
+      "workload_file_sha256": "ebee3f3c0edc5619636d5dd34c9439d222d462ba0ba024e757c48629a76e0612",
+      "table_sha256": [
+        "9db71a904d6ba17ac26b341aa3c05c7e729eaed18bd0d5986039c4e05dfa4a0f"
+      ]
+    },
+    {
+      "case_id": "h1-small-reuse24",
+      "split": "confirmation",
+      "seed": 940129,
+      "context_records": 24,
+      "offered_tasks": 128,
+      "distinct_tables": 16,
+      "queries_per_table": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "distinct_queries_per_table": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "eight_distinct_queries_per_table": true,
+      "workload_file_sha256": "d8e6eaaa3b8e2a7b169aaaf19294f635bb9a4abbc78ad8ce0a5d02564fbf2e41",
+      "table_sha256": [
+        "e2bbcf7fdcde8b11629d90c05f4882448617accadbe671b62961f35e85473931",
+        "5a1ee5278b6015963dfae3285b51acf7892b79a0d9029eedd2291b9ef4f8aa2d",
+        "4b2234251b56f044b6c9d6572412a4f70ddf4d9d40746b2f7ff5b754c458c9a3",
+        "de7452659b7303feb075caac1c0e06e99c3f8c11f8563dcadf86a93adf7e608d",
+        "465aba40aeff43f68e362d37f102e2178ab71d65fb90a666b41011b524868280",
+        "ce6da994793097e8265f857fad5e4e835b9ff468e4bbf067e735e140b309694e",
+        "31c273a31cd186f5a8a683fcd5738d3b6ca032eb15fcf924351121440bf92fa2",
+        "ce463ecae5f51b8506fc3a430b267bad026cb4a2f4a1a80ab72faeb6f40b2987",
+        "56d9cfb76db81890e3f27be0447bd2a04a2fcdf8ac5ea1dc287b177c12fc4fcc",
+        "7dfce28e2c90ec4cf02b6faa00cc10bfbe877bc0128c2dc426154a4072defced",
+        "b74e2f13ac0461af186d9e3d4ae5ae77a0a95f703d5ec928740df1bab8cf56d3",
+        "5a349e401fff133aa08cf08ac9effdaaf2656297fb7ec4f69fd66df1d01f4756",
+        "edefefb0bcf5d7dd4f9b5205bc5c43ac53d77498099c84e68441a5f68437daf8",
+        "c7aab0ddac869462273e075103bd0ef7393b6afd4edf83ad4c92dd6a7c739030",
+        "8072f457b97eb28dfeab619075dbb71df9d5b884ad0d9061be00f5ea028355ea",
+        "8f5d398b8c2e9af3d3281a2bd74b8562743308cf4e7ea1f1fed4a9810c4542b3"
+      ]
+    },
+    {
+      "case_id": "h2-small-reuse64",
+      "split": "confirmation",
+      "seed": 940193,
+      "context_records": 64,
+      "offered_tasks": 128,
+      "distinct_tables": 16,
+      "queries_per_table": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "distinct_queries_per_table": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "eight_distinct_queries_per_table": true,
+      "workload_file_sha256": "b5bcdbd4da1467b83e4716c6275df9f9d88e3aba06642774617d9ba7f7c18c02",
+      "table_sha256": [
+        "363708ff503f422442a84205041663204f6ca24df6094fb6ccdee1fa90089452",
+        "bbf57066674006b1972ce3add31d36a2e3d882ffc9ff1ba72f67913cea899c51",
+        "3f36045073a7e3ea0bdc2d225bc8f1527be54ad91409eceb85f08880257b6cda",
+        "97d1a0ffe814888e0b953ccdbaebac51e9405046c416b2d26277c67210d2c04d",
+        "49a4a6f3b0d4bdbce0372394528fcbda918e69727938772e103f943fa24f070f",
+        "773276865e31957cc099eb49a810711fa968e72b30adaee99ef888ec93469acd",
+        "992b8f50c056aa6a827fa2aa6f814f155d868289b32bd4fd8e6818079b3f6d50",
+        "c346add73791c5b9734afc4d2569a121216762d04195e1c3f89771846d7152aa",
+        "32073d2604158d4d79867d3e59c604cc04b768c12c2de3ef7ace418367fb2948",
+        "d7390d56000586c3cb3667baaf8333af3ecc3cb46e395fd50bf81c7ac8d0e8f2",
+        "bc708ad77692546142999282f7852c06f1f763a4af482caa555ec2bf3782b6bd",
+        "83eb72a128089e4c4acd490ddb61b7fc1ff52e701220c3f863de5a1ed0d1ab52",
+        "97f0fe773db407e3ea703e9d896ff10b1d7a28865ea7310ee4aa0a15a73340ae",
+        "c7b70dab4d36cb30d5e673373ef2a93b4091bdd561e6620bdb9fd867021d1082",
+        "09eaa24cc71ab399e2535f01d02bb32674a448760f00557330f0feeb3e791797",
+        "8f66e2c926b626d3de1bc31e5816ffed29e15bb75a4715096d4da2d970e0bbc4"
+      ]
+    },
+    {
+      "case_id": "h3-large-reuse24",
+      "split": "confirmation",
+      "seed": 940129,
+      "context_records": 24,
+      "offered_tasks": 128,
+      "distinct_tables": 16,
+      "queries_per_table": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "distinct_queries_per_table": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "eight_distinct_queries_per_table": true,
+      "workload_file_sha256": "d8e6eaaa3b8e2a7b169aaaf19294f635bb9a4abbc78ad8ce0a5d02564fbf2e41",
+      "table_sha256": [
+        "e2bbcf7fdcde8b11629d90c05f4882448617accadbe671b62961f35e85473931",
+        "5a1ee5278b6015963dfae3285b51acf7892b79a0d9029eedd2291b9ef4f8aa2d",
+        "4b2234251b56f044b6c9d6572412a4f70ddf4d9d40746b2f7ff5b754c458c9a3",
+        "de7452659b7303feb075caac1c0e06e99c3f8c11f8563dcadf86a93adf7e608d",
+        "465aba40aeff43f68e362d37f102e2178ab71d65fb90a666b41011b524868280",
+        "ce6da994793097e8265f857fad5e4e835b9ff468e4bbf067e735e140b309694e",
+        "31c273a31cd186f5a8a683fcd5738d3b6ca032eb15fcf924351121440bf92fa2",
+        "ce463ecae5f51b8506fc3a430b267bad026cb4a2f4a1a80ab72faeb6f40b2987",
+        "56d9cfb76db81890e3f27be0447bd2a04a2fcdf8ac5ea1dc287b177c12fc4fcc",
+        "7dfce28e2c90ec4cf02b6faa00cc10bfbe877bc0128c2dc426154a4072defced",
+        "b74e2f13ac0461af186d9e3d4ae5ae77a0a95f703d5ec928740df1bab8cf56d3",
+        "5a349e401fff133aa08cf08ac9effdaaf2656297fb7ec4f69fd66df1d01f4756",
+        "edefefb0bcf5d7dd4f9b5205bc5c43ac53d77498099c84e68441a5f68437daf8",
+        "c7aab0ddac869462273e075103bd0ef7393b6afd4edf83ad4c92dd6a7c739030",
+        "8072f457b97eb28dfeab619075dbb71df9d5b884ad0d9061be00f5ea028355ea",
+        "8f5d398b8c2e9af3d3281a2bd74b8562743308cf4e7ea1f1fed4a9810c4542b3"
+      ]
+    }
+  ],
+  "matched_model_comparisons": [
+    {
+      "cases": [
+        "d1-small-reuse24",
+        "d2-large-reuse24"
+      ],
+      "all_generated_request_records_identical": true
+    },
+    {
+      "cases": [
+        "h1-small-reuse24",
+        "h3-large-reuse24"
+      ],
+      "all_generated_request_records_identical": true
+    }
+  ],
+  "development_confirmation_table_overlap": [],
+  "distinct_table_prefixes_across_cases": 33,
+  "scope": "Exact retained original table/query identity; deterministic repetitions and matched-model reuse do not become independent observations. This does not establish adversarial split isolation or a statistical population guarantee."
+}

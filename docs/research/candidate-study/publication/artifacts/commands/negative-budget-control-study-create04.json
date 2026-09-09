@@ -1,0 +1,50 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "research",
+    "study-create",
+    "--proposal",
+    ".cache/v1-investigations-20260908/candidate/negative-budget-proposal04.json",
+    "--protocol",
+    ".cache/v1-investigations-20260908/candidate/negative-budget-protocol04.json",
+    "--allocation",
+    ".cache/allocation-0.4-20260908.json",
+    "--model-profile",
+    "qwen2.5-0.5b-instruct-fp16-v2",
+    "--family",
+    "record-mixed-v1",
+    "--context-records",
+    "24",
+    "--split",
+    "development",
+    "--purpose",
+    "DEVELOPMENT",
+    "--requests",
+    "32",
+    "--seed",
+    "920260811",
+    "--concurrency",
+    "1",
+    "--pairs",
+    "2",
+    "--threads",
+    "2",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/negative-budget-control-recipe04.json"
+  ],
+  "exit_code": 0,
+  "finished_ns": 288448603437200,
+  "label": "negative-budget-control-study-create04",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 288448489711211,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 464,
+    "sha256": "449de3b9db4b2fdc4df658b18f335281843fd8bf0970cc4bf21e850b1d34fee0"
+  }
+}

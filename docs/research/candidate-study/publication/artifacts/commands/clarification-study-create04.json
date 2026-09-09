@@ -1,0 +1,50 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "research",
+    "study-create",
+    "--proposal",
+    ".cache/v1-investigations-20260908/candidate/clarification-proposal04.json",
+    "--protocol",
+    ".cache/v1-investigations-20260908/candidate/clarification-protocol04.json",
+    "--allocation",
+    ".cache/allocation-0.4-20260908.json",
+    "--model-profile",
+    "qwen2.5-0.5b-instruct-fp16-v2",
+    "--family",
+    "reference-chain",
+    "--context-records",
+    "8",
+    "--split",
+    "development",
+    "--purpose",
+    "DEVELOPMENT",
+    "--requests",
+    "8",
+    "--seed",
+    "920260801",
+    "--concurrency",
+    "1",
+    "--pairs",
+    "2",
+    "--threads",
+    "2",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/clarification-0.5b-recipe04.json"
+  ],
+  "exit_code": 0,
+  "finished_ns": 287933510236567,
+  "label": "clarification-study-create04",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 287933396582662,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 464,
+    "sha256": "7a4d4ee4a3f7534d8d7ae64bcc5346b98c690697867bbc79941c0d81c1594399"
+  }
+}

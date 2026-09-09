@@ -1,0 +1,13 @@
+{
+  "status": "PASS_EXACT_ARCHIVE04_PREDECESSOR_ADMISSION",
+  "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+  "started_ns": 306474787326218,
+  "finished_ns": 306481493689946,
+  "predecessor_count": 23,
+  "required_restored_sessions": [
+    "be2a5873b4f94963b5716a10146298f2",
+    "d54fab57a65c4813bf99ecbf01245ee7"
+  ],
+  "both_restored_sessions_discovered": true,
+  "scope": "Read-only original producer discovery through the exact failed native producer. No model execution, history deletion or clock change."
+}

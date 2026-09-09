@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "created_ns": 291788529730235,
+  "manifest_sha256": "6e1dd5d792ed7fc7498ed636b84e162f932e57c548d524a104f33d88b70f566d",
+  "analysis_script_sha256": "fbe957e468cfc1f3da3a54fae1781e922f506d3aa3c1bddad087ebde1bf71eb8",
+  "native_offered": 192,
+  "new_fit_native_offered": 128,
+  "oracle_fit_correct_per_pair_and_conservative": 12,
+  "fit_denominator": 32,
+  "scope": "Actual exported fit derivative plus both closed exports, analyzed through copied publication code in exact release layout. No private originals or model execution used."
+}

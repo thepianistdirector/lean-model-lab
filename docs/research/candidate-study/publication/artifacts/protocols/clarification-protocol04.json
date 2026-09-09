@@ -1,0 +1,19 @@
+{
+  "ablations": [
+    "Unchanged compact v1 full-context instructions.",
+    "Fixed explicit v2 instructions with all original full-context task records retained."
+  ],
+  "baseline": "The same checkpoint, offered requests and inference settings on complete original contexts with cache disabled.",
+  "claim_limit": "One fixed development wording diagnosis on identical task records. No prompt search, architecture novelty, LLM training or universal comprehension/efficiency claim. Failed original results remain retained.",
+  "confirmation_isolation": "This is explicitly DEVELOPMENT, not protected confirmation. It diagnoses one fixed instruction revision on identical record bodies; no response-derived rewriting. Future label/confirmation recipes require separate prospective product freezes. Shared Unix identity provides workflow separation only.",
+  "development_evidence": "14B native feasibility03 has full1/8 and slice2/8 in bothpairs with one full-only correct counterexample; earlier0.5B workflow allarms1/8. Preserve all. Root authorizes one32-request wording diagnosis, replacing optional direct-lookup branch within64 feasibility requests.",
+  "hypothesis": "A fixed clarification of operand roles and output format may improve model comprehension of the same records; failure would rule out this single wording alternative, not every possible prompt.",
+  "primary_sources": [
+    "https://arxiv.org/abs/2005.14165"
+  ],
+  "proposal_sha256": "e4761e447f98d9e0f19c768b047efc74f5baba9a21962cc8c95ddb1a3cbd6819",
+  "question": "Does one fixed explicit definition of operand roles and output format improve comprehension of identical full-context record tasks?",
+  "selection_rule": "Frozen01-clarification-rule.json: fixed0.5B profilev2, reference-chain/context8, seed920260801,8requests,twoAB/BApairs,C1,two threads. Candidate retains ALLrecords with fixed instruction digest ecc109d587be31927f3da220a9f48a8714d73af643c27273e43e75e74b5b4837. Advance only if candidate8/8 in BOTH complete pairs, raw audit reconciles and remaining finite main costs fit180 native minutes and original deadline. Overall efficiency eligibility still requires both arms95%; no score change.",
+  "stopping_rule": "Run this exact diagnostic once via tools/run_queued_recipe.py. No extra prompt/seed search, retries or replacement. If clarified armfails, leave label/training/confirmation gates incomplete. Stop on original allocation deadline310468865220540, cancellation, identity/protocol failure or exhaustion. Retain all arms and all four correctness classes.",
+  "uncertainty": "Balanced AB/BA paired effects and descriptive pair ranges; per-request paired correctness differences. No IID request assumption, significance claim or generalization beyond covered scenarios."
+}

@@ -1,0 +1,6 @@
+study,concurrency,pair_index,request_id,expected,transition,baseline_output,candidate_output,baseline_tokens,candidate_tokens
+legacy-comparison,4,0,r108,XTIQG,wrong_wrong,river stone cloud field tree path light water,river,"[5469, 9798, 9437, 2070, 4916, 1815, 3100, 3015, 151645]","[5469, 151645]"
+legacy-comparison,4,0,r121,BQSBI,wrong_wrong,river,river stone cloud field tree path light water,"[5469, 151645]","[5469, 9798, 9437, 2070, 4916, 1815, 3100, 3015, 151645]"
+legacy-comparison,4,1,r108,XTIQG,wrong_wrong,river stone cloud field tree path light water,river,"[5469, 9798, 9437, 2070, 4916, 1815, 3100, 3015, 151645]","[5469, 151645]"
+legacy-comparison,4,1,r121,BQSBI,wrong_wrong,river,river stone cloud field tree path light water,"[5469, 151645]","[5469, 9798, 9437, 2070, 4916, 1815, 3100, 3015, 151645]"
+legacy-comparison,4,2,r121,BQSBI,wrong_wrong,river,river stone cloud field tree path light water,"[5469, 151645]","[5469, 9798, 9437, 2070, 4916, 1815, 3100, 3015, 151645]"

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "restored_producers": [
+    {
+      "restored_original": "study",
+      "session_id": "be2a5873b4f94963b5716a10146298f2",
+      "files_verified_against_preexisting_export_original_catalog": 126,
+      "original_catalog_sha256": "559ee5321fea425788c9054b1d07f289b8414f048933122b46d2f50ebd35d068"
+    },
+    {
+      "restored_original": "recovery-study",
+      "session_id": "d54fab57a65c4813bf99ecbf01245ee7",
+      "files_verified_against_preexisting_export_original_catalog": 55,
+      "original_catalog_sha256": "f3ff73827318463dbe6810932d8c9bed429b9b73bf680325c63e29f3e368b796"
+    }
+  ],
+  "root_restoration_receipt_sha256": "39d081d88c9e45c5bc2738aaafb0112146c1c097bd1953903835229a59f18afc",
+  "root_original_producer_admission_recheck_sha256": "99d454744e5f158021d41ba0630371c2910493d72206839122da007c1b391e91",
+  "scope": "Restored original files match the original hashes retained in existing export provenance. No derivative was relabeled as an original, history deleted, clock changed, or admission bypassed. This verifies local consistency, not producer authentication.",
+  "checked_ns": 306774542800745
+}

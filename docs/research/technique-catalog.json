@@ -1,0 +1,2292 @@
+{
+  "schema_version": 1,
+  "catalog_id": "llm-method-landscape-20260908-v1",
+  "reviewed_date": "2026-09-08",
+  "coverage": {
+    "inference_families": 20,
+    "training_families": 20,
+    "exhaustive": false,
+    "scope": "Selected important families with primary sources. This living catalog is not all techniques in existence and absence never proves novelty.",
+    "gaps": [
+      "No exhaustive patent or unpublished-work review",
+      "Most author results are not independently replicated locally",
+      "Hardware-specific and emerging variants need further adapter and applicability review"
+    ],
+    "adoption_rule": "Catalog descriptions never enable runtime features. Only explicit reviewed adapter bindings are executable after normal admission."
+  },
+  "sources": [
+    {
+      "id": "src-5727fed78bdd",
+      "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+      "date": "2022-05-27",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2205.14135",
+      "supported_claim": "Tiling reduces transfers between GPU memory levels while evaluating dense attention; the paper separately identifies its block-sparse variant as approximate.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-d76220d9c241",
+      "title": "FlashAttention-4: Algorithm and Kernel Pipelining Co-Design for Asymmetric Hardware Scaling",
+      "date": "2026-03-05",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2603.05451",
+      "supported_claim": "Blackwell-specific pipelines address asymmetric scaling of matrix operations, memory and exponentiation.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-ef8b5f9fca84",
+      "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "date": "2023-09-12",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2309.06180",
+      "supported_claim": "PagedAttention reduces KV fragmentation and enables flexible cache sharing within and across requests.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-65982f142e36",
+      "title": "Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve",
+      "date": "2024-03-04",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2403.02310",
+      "supported_claim": "Chunked prefills and stall-free schedules balance prefill work with ongoing decoding.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-63ebb2ade22f",
+      "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+      "date": "2023-12-12",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2312.07104",
+      "supported_claim": "RadixAttention reuses KV state across repeated prefixes in structured generation programs.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-7f62a71089e8",
+      "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving",
+      "date": "2024-01-18",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2401.09670",
+      "supported_claim": "Separating prefill and decode resources reduces interference and permits phase-specific allocation.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-8399403836f2",
+      "title": "Lynx: Progressive Speculative Quantization for accelerating KV Transfer in Long-Context Inference",
+      "date": "2026-07-02",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2607.01831",
+      "supported_claim": "Anchor and residual KV bit streams permit speculative decoding during transfer, followed by higher-precision verification.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-9d933cbebef5",
+      "title": "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration",
+      "date": "2023-06-01",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2306.00978",
+      "supported_claim": "Activation-informed channel scaling reduces low-bit weight quantization error; packed kernels realize the storage/computation tradeoff.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-4deb705f0770",
+      "title": "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+      "date": "2022-11-18",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2211.10438",
+      "supported_claim": "An equivalent channel rescaling shifts activation outliers into weights to make W8A8 execution practical.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-3ab07c12f815",
+      "title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache",
+      "date": "2024-02-05",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2402.02750",
+      "supported_claim": "KIVI uses different quantization axes for keys and values to reduce cache storage.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-32b9aa821edd",
+      "title": "Runtime-Certified Bounded-Error Quantized Attention",
+      "date": "2026-05-20",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2605.20868",
+      "supported_claim": "The preprint bounds per-head, per-step quantized-attention errors and uses precision fallback; it explicitly does not guarantee end-to-end model correctness.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract and explicit scope limitation",
+      "independent_replication": false
+    },
+    {
+      "id": "src-e977ab80893e",
+      "title": "H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models",
+      "date": "2023-06-24",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2306.14048",
+      "supported_claim": "H2O retains a balance of recent tokens and attention heavy hitters instead of the entire cache.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-9f2f8008d0d4",
+      "title": "Efficient Streaming Language Models with Attention Sinks",
+      "date": "2023-09-29",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2309.17453",
+      "supported_claim": "Keeping initial attention sinks with a recent window stabilizes streaming beyond a bounded cache.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-79eb55ac7258",
+      "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+      "date": "2024-05-07",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2405.04434",
+      "supported_claim": "Multi-head Latent Attention compresses KV state into a latent representation as part of a trained architecture.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-a114e852aac1",
+      "title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints",
+      "date": "2023-05-22",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2305.13245",
+      "supported_claim": "GQA uses fewer KV heads than query heads; conversion from multi-head checkpoints requires uptraining in the demonstrated recipe.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-951958eafe57",
+      "title": "Fast Inference from Transformers via Speculative Decoding",
+      "date": "2022-11-30",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2211.17192",
+      "supported_claim": "Speculative sampling preserves the target distribution while verifying multiple proposed tokens in parallel.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-fd3d857f4120",
+      "title": "Fast Inference from Transformers via Speculative Decoding",
+      "date": "2023",
+      "date_basis": "proceedings_year",
+      "url": "https://proceedings.mlr.press/v202/leviathan23a.html",
+      "supported_claim": "Peer-reviewed ICML proceedings version describes the distribution-preserving algorithm.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "official proceedings abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-28b779a3c292",
+      "title": "EAGLE-3: Scaling up Inference Acceleration of Large Language Models via Training-Time Test",
+      "date": "2025-03-03",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2503.01840",
+      "supported_claim": "EAGLE-3 trains direct token prediction using fused target-layer features and target verification.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-aee7fd01612d",
+      "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+      "date": "2024-01-19",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2401.10774",
+      "supported_claim": "Medusa adds future-token heads and tree verification; its typical-acceptance extension relaxes distribution matching.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract and HTML section 2.3.1",
+      "independent_replication": false
+    },
+    {
+      "id": "src-281dff0cba8c",
+      "title": "LayerSkip: Enabling Early Exit Inference and Self-Speculative Decoding",
+      "date": "2024-04-25",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2404.16710",
+      "supported_claim": "Layer dropout and early-exit training improve draft predictions; later layers verify while sharing computation.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-85197cd170be",
+      "title": "Draft & Verify: Lossless Large Language Model Acceleration via Self-Speculative Decoding",
+      "date": "2023-09-15",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2309.08168",
+      "supported_claim": "Selected layers can be skipped for draft generation and the original model used for verification without extra training.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-feedff645417",
+      "title": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "date": "2026-02-05",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2602.06036",
+      "supported_claim": "A lightweight diffusion drafter predicts blocks in parallel using target context features, with target verification.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract and HTML methods/temperature tables",
+      "independent_replication": false
+    },
+    {
+      "id": "src-05b051f41877",
+      "title": "PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU",
+      "date": "2023-12-16",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2312.12456",
+      "supported_claim": "Hot neurons reside on GPU while cold-neuron computation uses CPU, with predictors and sparse operators.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-de539966b9f5",
+      "title": "DeepSeek-V3 Technical Report",
+      "date": "2024-12-27",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2412.19437",
+      "supported_claim": "DeepSeek-V3 activates a subset of MoE parameters per token and combines MoE with MLA and multi-token prediction.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-4d3e8dcf4356",
+      "title": "Pre-Attention Expert Prediction and Prefetching for Mixture-of-Experts Large Language Models",
+      "date": "2025-11-10",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2511.10676",
+      "supported_claim": "Pre-attention predictors estimate selected experts early to enable prefetching.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-8832d45c6255",
+      "title": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+      "date": "2026-03-16",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2603.15569",
+      "supported_claim": "Mamba-3 combines richer discretization, complex-valued state updates and MIMO recurrence to improve state tracking and inference efficiency.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-0c47ea4675bf",
+      "title": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+      "date": "2024-05-31",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2405.21060",
+      "supported_claim": "State-space duality connects structured recurrent computation and attention variants and motivates Mamba-2.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-696719a93729",
+      "title": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
+      "date": "2024-12-09",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2412.06464",
+      "supported_claim": "Gating controls erasure while delta updates modify memory selectively; hybrid models combine recurrent and attention layers.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-d68f2d3cf9bd",
+      "title": "Titans: Learning to Memorize at Test Time",
+      "date": "2024-12-31",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2501.00663",
+      "supported_claim": "A learned long-term memory module complements short-term attention during inference.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-74cf7186aa6d",
+      "title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention",
+      "date": "2025-02-16",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2502.11089",
+      "supported_claim": "NSA combines coarse compression and fine token selection with hardware-aligned sparse computation throughout training and inference.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-9eb3c8f8c40d",
+      "title": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
+      "date": "2024-05-26",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2405.16444",
+      "supported_claim": "Independent non-prefix chunk caches omit preceding-context interactions; CacheBlend selectively recomputes tokens to recover task quality.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-43bc3364b4ed",
+      "title": "QuantSpec: Self-Speculative Decoding with Hierarchical Quantized KV Cache",
+      "date": "2025-02-05",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2502.10424",
+      "supported_claim": "Quantized weights and hierarchical quantized KV accelerate self-speculative drafts.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-ccb7205ad26b",
+      "title": "Accelerating Large-Scale Reasoning Model Inference with Sparse Self-Speculative Decoding",
+      "date": "2025-12-01",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2512.01278",
+      "supported_claim": "SparseSpec reuses verification information for sparse-attention drafting and co-designs scheduling and KV management.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-5a97b3a3855d",
+      "title": "Draft, Verify, and Improve: Toward Training-Aware Speculative Decoding",
+      "date": "2025-10-06",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2510.05421",
+      "supported_claim": "Verifier decisions supervise online drafter-head updates in a training-aware self-speculative framework.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-534ba1562261",
+      "title": "SpecPV: Improving Self-Speculative Decoding for Long-Context Generation via Partial Verification",
+      "date": "2025-12-02",
+      "date_basis": "first_public_submission",
+      "url": "https://arxiv.org/abs/2512.02337",
+      "supported_claim": "Partial-KV verification with periodic full verification trades speed against minor reported degradation; it is not a distribution-exact counterexample.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "primary abstract",
+      "independent_replication": false
+    },
+    {
+      "id": "src-4791e267352f",
+      "title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision",
+      "date": "2024-07-11",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2407.08608",
+      "supported_claim": "Warp-specialized asynchronous attention overlaps movement, matrix multiplication and softmax on Hopper; the paper reports FP16 and FP8 attention-kernel gains.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-dcc69a3e1bb8",
+      "title": "COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training",
+      "date": "2024-10-25",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2410.19313",
+      "supported_claim": "Dynamic-range expansion compresses optimizer states; mixed-granularity activation quantization reduces training memory. Authors report 1.54x memory reduction and 1.43x end-to-end speedup against their BF16 setting.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-d272f1e52d2f",
+      "title": "Hardware-Aware FP4 FlashAttention-4",
+      "date": "2026-09-03",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2609.04105",
+      "supported_claim": "This preprint separates fast FP4 noncausal attention from causal training; it reports that all tested distributed MXFP4 probability/value training trajectories diverged.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-0f1c4ab49436",
+      "title": "Efficient Sequence Packing without Cross-contamination: Accelerating Large Language Models without Impacting Performance",
+      "date": "2021-06-29",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2107.02027v2",
+      "supported_claim": "Bin-packing-based batching can remove padding while adapting masks and model behavior to preserve independence; reported BERT phase-two pretraining gains demonstrate a concrete case.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-a66b923a999f",
+      "title": "Current and New Activation Checkpointing Techniques in PyTorch",
+      "date": "2025-03-05",
+      "date_basis": "official_post_publication",
+      "url": "https://pytorch.org/blog/activation-checkpointing-techniques/",
+      "supported_claim": "Selective activation checkpointing chooses operations to save or recompute; a compile-based memory-budget interface automates some speed-memory tradeoffs.",
+      "evidence_type": "FIRST_PARTY_ENGINEERING_OR_RESEARCH_NOTICE",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-1480e50475d6",
+      "title": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+      "date": "2019-10-04",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/1910.02054",
+      "supported_claim": "Partitioning redundant optimizer, gradient and parameter state across data-parallel workers increases model capacity while managing communication.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-d615264099a3",
+      "title": "ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning",
+      "date": "2021-04-16",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2104.07857",
+      "supported_claim": "Heterogeneous GPU, CPU and NVMe placement plus data movement scheduling expands the training memory hierarchy.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-b1eecc936879",
+      "title": "Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM",
+      "date": "2021-04-09",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2104.04473",
+      "supported_claim": "Composing tensor, pipeline and data parallelism, including interleaved pipeline scheduling, addresses memory and utilization limits in large training jobs.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-6bbea2425ce9",
+      "title": "8-bit Optimizers via Block-wise Quantization",
+      "date": "2021-10-06",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2110.02861",
+      "supported_claim": "Block-wise dynamic quantization stores optimizer statistics in eight bits; the paper also uses a stable embedding strategy to address language-model gradient variability.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-000bf34c8989",
+      "title": "GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection",
+      "date": "2024-03-06",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2403.03507",
+      "supported_claim": "Low-rank gradient projection reduces optimizer-state memory while updating full model parameters; original demonstrations include LLaMA-style pretraining and RoBERTa finetuning.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-40bccc2669ce",
+      "title": "GaLore 2: Large-Scale LLM Pre-Training by Gradient Low-Rank Projection",
+      "date": "2025-04-29",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2504.20437",
+      "supported_claim": "The framework targets projection-update overhead and integration with modern sharding, and reports Llama-7B pretraining from scratch up to 500B tokens.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-e10347752a32",
+      "title": "APOLLO: SGD-like Memory, AdamW-level Performance",
+      "date": "2024-12-06",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2412.05270",
+      "supported_claim": "Random projections support structured approximate learning-rate scaling with very small auxiliary optimizer state; APOLLO-Mini explores a rank-one variant.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-510819c7165f",
+      "title": "Muon is Scalable for LLM Training",
+      "date": "2025-02-24",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2502.16982",
+      "supported_claim": "Matrix-update orthogonalization with weight decay and update-scale adjustment is evaluated at larger language-model scales; authors report favorable compute-optimal scaling and release distributed Muon code.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-2d64e7506dc8",
+      "title": "NorMuon: Making Muon more efficient and scalable",
+      "date": "2025-10-07",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2510.05491",
+      "supported_claim": "Neuron-wise second-moment normalization follows orthogonalization; the paper also describes distributed orthogonalization with FSDP2.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-cae140a2c5e7",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "date": "2021-06-17",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2106.09685",
+      "supported_claim": "Freezes pretrained weights and trains low-rank matrix updates for downstream adaptation, reducing trainable state.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-2e95ee3ff8d6",
+      "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+      "date": "2023-05-23",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2305.14314",
+      "supported_claim": "Backpropagates through frozen four-bit base weights into LoRA adapters; NF4, double quantization and paged optimizers target memory use.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-4fe853316d06",
+      "title": "LoRA Learns Less and Forgets Less",
+      "date": "2024-05-15",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2405.09673",
+      "supported_claim": "In programming/math instruction tuning and continued pretraining, standard low-rank LoRA underperformed full finetuning while better retaining out-of-domain base behavior.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-599c53bccc36",
+      "title": "ReLoRA: High-Rank Training Through Low-Rank Updates",
+      "date": "2023-07-11",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2307.05695",
+      "supported_claim": "Repeated low-rank updates and merges can accumulate a high-rank solution; paper experiments reach transformer LMs up to 1.3B parameters.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-2c97f7638e07",
+      "title": "DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining",
+      "date": "2023-05-17",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2305.10429",
+      "supported_claim": "A small proxy trained with distributionally robust domain reweighting sets the mixture for a larger model; authors demonstrate proxy-to-8B transfer.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-d25788b044e7",
+      "title": "DataComp-LM: In search of the next generation of training sets for language models",
+      "date": "2024-06-17",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2406.11794",
+      "supported_claim": "Controlled data curation experiments use standardized training recipes and downstream evaluations; filtering and data mixing are experimentally meaningful design choices.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-b81fec5a671e",
+      "title": "Updates to centered CORE and EXTENDED calculations (9/5/2025)",
+      "date": "2025-09-05",
+      "date_basis": "official_correction_notice",
+      "url": "https://github.com/mlfoundations/dclm",
+      "supported_claim": "Official README reports corrected multiple-choice baseline values: older and newer centered CORE/EXTENDED scores are not directly comparable; displayed results may still use old values.",
+      "evidence_type": "FIRST_PARTY_ENGINEERING_OR_RESEARCH_NOTICE",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-46fd66187ec3",
+      "title": "Training Compute-Optimal Large Language Models",
+      "date": "2022-03-29",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2203.15556",
+      "supported_claim": "A sweep of model sizes and token budgets derives a compute-allocation relationship and tests a smaller, more extensively trained model at a fixed training budget.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-50d37923b14e",
+      "title": "MiniLLM: On-Policy Distillation of Large Language Models",
+      "date": "2023-06-14",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2306.08543",
+      "supported_claim": "Reverse-KL distillation is developed for generative language models and evaluated on instruction-following students from 120M to 13B parameters.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-4401f8f5a512",
+      "title": "Mixture-of-Depths: Dynamically allocating compute in transformer-based language models",
+      "date": "2024-04-02",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2404.02258",
+      "supported_claim": "Top-k token routing under a fixed layer capacity allocates attention/MLP computation unevenly across depth while keeping total tensor-work budgets predictable.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-3c4c76e049f3",
+      "title": "Parcae: Scaling Laws For Stable Looped Language Models",
+      "date": "2026-04-14",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2604.12946v1",
+      "supported_claim": "A constrained injection parameterization stabilizes recurrent-depth training; experiments study training/test-time recurrence scaling and models up to 1.3B.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-bc2f646116c0",
+      "title": "Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+      "date": "2024-07-05",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2407.04620",
+      "supported_claim": "TTT layers treat hidden state as a learnable model updated by self-supervised steps while consuming a sequence; linear and MLP instantiations are evaluated at 125M–1.3B scale.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-fd16c584290f",
+      "title": "Titans: Learning to Memorize at Test Time",
+      "date": "2024-12-31",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2501.00663v1",
+      "supported_claim": "Neural long-term memory learns during sequence processing and is combined with attention-based short-term memory in several architectures.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-1b17ddee7a6b",
+      "title": "It's All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization",
+      "date": "2025-04-17",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2504.13173",
+      "supported_claim": "MIRAS treats sequence models as associative memory and varies memory architecture, inner objective, retention regularizer and update algorithm.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-0e47561f5fa2",
+      "title": "Introducing Nested Learning: A new ML paradigm for continual learning",
+      "date": "2025-11-07",
+      "date_basis": "official_post_publication",
+      "url": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/",
+      "supported_claim": "Google Research describes nested optimization levels with different update rates and the Hope proof-of-concept for memory/continual learning.",
+      "evidence_type": "FIRST_PARTY_ENGINEERING_OR_RESEARCH_NOTICE",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-f56a235313fe",
+      "title": "Large Language Diffusion Models",
+      "date": "2025-02-14",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2502.09992",
+      "supported_claim": "LLaDA trains a masked diffusion language model from scratch with pretraining and SFT, using a denoising likelihood-bound objective instead of causal next-token factorization.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-4cd8fde22db0",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "date": "2025-01-22",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "supported_claim": "Large-scale RL post-training, plus cold-start/multi-stage training in R1, is used to develop reasoning behavior; distilled dense checkpoints are also released.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary abstract/metadata or first-party page read; no experiment or independent reproduction performed.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-9dbd7059c841",
+      "title": "Think-at-Hard: Dynamic Looped Transformers for Improved Reasoning",
+      "date": "2025-11-11",
+      "date_basis": "first_arxiv_submission",
+      "url": "https://arxiv.org/abs/2511.08577v4",
+      "supported_claim": "A learned decider allocates extra latent iterations to difficult tokens, with depth-aware LoRA and duo-causal attention; the paper identifies overthinking in always-iterate baselines.",
+      "evidence_type": "PRIMARY_RESEARCH_PAPER",
+      "verification_scope": "Primary v4 abstract, version dates and title read; no experiment reproduced.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-13e96645595a",
+      "title": "Pinned llama.cpp native slot selection and prefix reuse implementation",
+      "date": "2026-09-08",
+      "date_basis": "local_source_review_date",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/bb4caa7540188872173c44d161602d9271386413/tools/server/server-context.cpp",
+      "supported_claim": "The reviewed cache_prompt field controls same-slot prefix reuse; independent global cache settings must remain fixed.",
+      "evidence_type": "PRIMARY_RESEARCH_OR_IMPLEMENTATION",
+      "verification_scope": "Pinned native source reviewed; real local development and historical raw readback retained in project evidence.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-e328bbedf98a",
+      "title": "RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation",
+      "date": "2023-10-06",
+      "date_basis": "arXiv first submission date",
+      "url": "https://arxiv.org/abs/2310.04408",
+      "supported_claim": "Extractive and abstractive compression before language-model inference; existing compression/selection baseline, not a local reproduction.",
+      "evidence_type": "PRIMARY_RESEARCH",
+      "verification_scope": "Primary abstract and submission metadata reviewed 2026-09-08; no local reproduction of paper results.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-31ff4c063d85",
+      "title": "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression",
+      "date": "2024-03-19",
+      "date_basis": "arXiv first submission date",
+      "url": "https://arxiv.org/abs/2403.12968",
+      "supported_claim": "Learned extractive prompt compression via token classification; overlaps the general aim of preserving useful information while shortening prompts.",
+      "evidence_type": "PRIMARY_RESEARCH",
+      "verification_scope": "Primary abstract and submission metadata reviewed 2026-09-08; no local reproduction of paper results.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-3c432f15c030",
+      "title": "Compress the Context, Keep the Commitments: A Formal Framework for Verifiable LLM Context Compression",
+      "date": "2026-05-17",
+      "date_basis": "arXiv first submission date",
+      "url": "https://arxiv.org/abs/2605.17304",
+      "supported_claim": "Commitment-level representation, verification and conservative fallbacks; closest recent conceptual overlap, not a guarantee of unchanged model outputs.",
+      "evidence_type": "PRIMARY_RESEARCH",
+      "verification_scope": "Primary abstract and submission metadata reviewed 2026-09-08; no local reproduction of paper results.",
+      "independent_replication": false
+    },
+    {
+      "id": "src-b7b2127b7c85",
+      "title": "SLICET5: Static Program Slicing using Language Models with Copy Mechanism and Constrained Decoding",
+      "date": "2025-09-22",
+      "date_basis": "arXiv first submission date",
+      "url": "https://arxiv.org/abs/2509.17338",
+      "supported_claim": "Learned static slicing with dependency identification and constrained generation; overlaps source-grounded dependency selection, with different model and task scope.",
+      "evidence_type": "PRIMARY_RESEARCH",
+      "verification_scope": "Primary abstract and submission metadata reviewed 2026-09-08; no local reproduction of paper results.",
+      "independent_replication": false
+    }
+  ],
+  "techniques": [
+    {
+      "id": "inf-01-io-aware-dense-attention",
+      "name": "IO-aware tiled dense-attention kernels",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-01-io-aware-dense-attention",
+      "mechanism": "IO-aware tiled dense-attention kernels",
+      "source_ids": [
+        "src-5727fed78bdd",
+        "src-d76220d9c241"
+      ],
+      "semantic_effect": "Dense mathematical attention is preserved; floating-point ordering, low precision and exponential approximations require numerical qualification, not bitwise-equivalence claims.",
+      "model_changes": "No retraining for dense-kernel replacement.",
+      "applicability": [
+        "Long-prefill or attention-heavy workloads"
+      ],
+      "prerequisites": [
+        "Compatible attention kernel and layout",
+        "FA4 specifically targets Blackwell GPUs"
+      ],
+      "required_capabilities": [
+        "kernel_build_identity",
+        "attention_mode_control",
+        "numeric_differential_trace"
+      ],
+      "interaction_risks": [
+        "Sparse masks, quantized KV and speculative trees need compatible kernels; their names do not establish composition."
+      ],
+      "limitations": [
+        "Kernel speed is not end-to-end speed; decoding can remain weight-bandwidth limited."
+      ],
+      "local_scope_note": "GPU results do not establish a CPU kernel intervention in the pinned adapter."
+    },
+    {
+      "id": "inf-02-paged-kv-memory",
+      "name": "Paged KV allocation and copy-on-write sharing",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-02-paged-kv-memory",
+      "mechanism": "Paged KV allocation and copy-on-write sharing",
+      "source_ids": [
+        "src-ef8b5f9fca84"
+      ],
+      "semantic_effect": "Memory placement can preserve the same attention computation; scheduling and numerical kernels still require parity checks.",
+      "model_changes": "None required.",
+      "applicability": [
+        "Concurrent variable-length serving"
+      ],
+      "prerequisites": [
+        "Page-table-aware attention kernels",
+        "Reference counting and copy-on-write cache ownership"
+      ],
+      "required_capabilities": [
+        "kv_page_inventory",
+        "copy_on_write_audit",
+        "allocator_policy_control"
+      ],
+      "interaction_risks": [
+        "Quantized layouts, eviction, prefix sharing and rollback must agree on block ownership and layout."
+      ],
+      "limitations": [
+        "Benefits depend on fragmentation, sequence lengths and usable batch capacity."
+      ],
+      "local_scope_note": "No exposed or validated PagedAttention allocator intervention; ordinary cache presence is insufficient."
+    },
+    {
+      "id": "inf-03-batching-chunked-prefill",
+      "name": "Iteration scheduling, continuous batching and chunked prefill",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-03-batching-chunked-prefill",
+      "mechanism": "Iteration scheduling, continuous batching and chunked prefill",
+      "source_ids": [
+        "src-65982f142e36"
+      ],
+      "semantic_effect": "Scheduling preserves request semantics in principle; finite-precision batch-shape changes can affect greedy results.",
+      "model_changes": "None required.",
+      "applicability": [
+        "Mixed prefill/decode traffic and bursty arrivals"
+      ],
+      "prerequisites": [
+        "Scheduler with controlled token budget",
+        "Chunkable prefill",
+        "Per-request queue and execution observations"
+      ],
+      "required_capabilities": [
+        "prefill_chunk_policy",
+        "scheduler_token_budget",
+        "queue_and_service_telemetry"
+      ],
+      "interaction_risks": [
+        "Speculation consumes additional verification tokens; prefix hits alter prefill demand; disaggregation changes scheduler economics."
+      ],
+      "limitations": [
+        "Throughput gains can trade against TTFT or tail latency; workload arrival process matters."
+      ],
+      "local_scope_note": "continuous_batching=True is frozen in engine config; scheduler or chunk-size interventions are not admitted."
+    },
+    {
+      "id": "prefix-cache",
+      "name": "Exact token-prefix KV reuse and cache-aware request placement",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-04-exact-prefix-cache",
+      "mechanism": "Exact token-prefix KV reuse and cache-aware request placement",
+      "source_ids": [
+        "src-63ebb2ade22f",
+        "src-13e96645595a"
+      ],
+      "semantic_effect": "Reuse requires identical preceding tokens and effective model, position, mask and adapter state; similar text or non-prefix chunks do not suffice.",
+      "model_changes": "None required for exact prefix reuse.",
+      "applicability": [
+        "Repeated system prompts, conversation branches and shared document prefixes"
+      ],
+      "prerequisites": [
+        "Persistent compatible KV state",
+        "Cache lookup and invalidation semantics"
+      ],
+      "required_capabilities": [
+        "token_id_prefix_identity",
+        "reused_and_new_token_counts",
+        "explicit_cache_policy"
+      ],
+      "interaction_risks": [
+        "Model changes, KV formats and positional transformations invalidate keys; speculative rollback must preserve committed prefixes."
+      ],
+      "limitations": [
+        "Low overlap, eviction or short prefills can erase the benefit; caching does not accelerate all decode work."
+      ],
+      "local_scope_note": "Only cache_prompt false/true with explicit slots and reconciled token counts is admitted; this is not SGLang/RadixAttention support."
+    },
+    {
+      "id": "inf-05-prefill-decode-disaggregation",
+      "name": "Disaggregated prefill/decode with explicit KV transport",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-05-prefill-decode-disaggregation",
+      "mechanism": "Disaggregated prefill/decode with explicit KV transport",
+      "source_ids": [
+        "src-7f62a71089e8",
+        "src-8399403836f2"
+      ],
+      "semantic_effect": "Exact state transfer can preserve the target. Progressive low-precision execution needs the stated verification; it is not automatically exact before correction.",
+      "model_changes": "None inherently required.",
+      "applicability": [
+        "Multi-device services with different prefill/decode demands"
+      ],
+      "prerequisites": [
+        "Separate execution resources",
+        "Compatible state serialization",
+        "Sufficient interconnect bandwidth"
+      ],
+      "required_capabilities": [
+        "kv_export_import",
+        "transfer_bytes_and_time",
+        "phase_resource_identity",
+        "verified_commit_boundary"
+      ],
+      "interaction_risks": [
+        "KV quantization, MLA, cache pages and model revisions must agree across endpoints."
+      ],
+      "limitations": [
+        "Transport, duplication and queue costs can exceed saved interference; Lynx is author-reported preprint evidence."
+      ],
+      "local_scope_note": "Single-host pinned CPU experiments expose neither distributed placement nor KV transfer."
+    },
+    {
+      "id": "inf-06-weight-only-quantization",
+      "name": "Activation-aware low-bit weight quantization",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-06-weight-only-quantization",
+      "mechanism": "Activation-aware low-bit weight quantization",
+      "source_ids": [
+        "src-9d933cbebef5"
+      ],
+      "semantic_effect": "Approximate relative to original FP16 weights; comparable benchmark quality is not identical outputs.",
+      "model_changes": "New quantized artifact and calibration provenance; no backpropagation required by AWQ.",
+      "applicability": [
+        "Weight-bandwidth or model-capacity-limited inference"
+      ],
+      "prerequisites": [
+        "Matching packed-weight format and efficient dequantization/matmul kernels",
+        "Calibration activations"
+      ],
+      "required_capabilities": [
+        "quantized_model_profile",
+        "calibration_identity",
+        "quant_format_kernel_identity",
+        "quality_guardrail"
+      ],
+      "interaction_risks": [
+        "AWQ and activation-quantization transforms need joint calibration; an exact verifier using quantized target weights preserves that target, not original FP16."
+      ],
+      "limitations": [
+        "Quality, speed and memory depend on bit width, grouping, calibration and kernel implementation."
+      ],
+      "local_scope_note": "Current admitted profiles are FP16; GGUF or backend naming does not admit AWQ or other quantization."
+    },
+    {
+      "id": "inf-07-weight-activation-quantization",
+      "name": "Outlier smoothing for weight-and-activation quantization",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-07-weight-activation-quantization",
+      "mechanism": "Outlier smoothing for weight-and-activation quantization",
+      "source_ids": [
+        "src-4deb705f0770"
+      ],
+      "semantic_effect": "Rescaling is mathematically equivalent before quantization; the quantized network is approximate.",
+      "model_changes": "Calibrated/scaled quantized weights and activation scales.",
+      "applicability": [
+        "Compute-heavy batched inference and prefills"
+      ],
+      "prerequisites": [
+        "Efficient integer matrix kernels",
+        "Representative calibration data",
+        "Supported accumulator behavior"
+      ],
+      "required_capabilities": [
+        "activation_dtype_control",
+        "scale_provenance",
+        "saturation_telemetry",
+        "quantized_quality_evaluation"
+      ],
+      "interaction_risks": [
+        "Weight-only quantization, LoRA and normalization fusions change calibration or scale placement."
+      ],
+      "limitations": [
+        "Saturation, outlier drift and conversion overhead can dominate; INT8 naming alone implies no speedup."
+      ],
+      "local_scope_note": "No W8A8 profile or observed integer-kernel capability in the admitted adapter."
+    },
+    {
+      "id": "inf-08-kv-quantization",
+      "name": "Asymmetric KV quantization and precision fallback",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-08-kv-quantization",
+      "mechanism": "Asymmetric KV quantization and precision fallback",
+      "source_ids": [
+        "src-3ab07c12f815",
+        "src-32b9aa821edd"
+      ],
+      "semantic_effect": "Ordinary KV quantization is approximate. Local attention bounds do not certify final logits, autoregressive trajectories or answer correctness.",
+      "model_changes": "Typically no weight retraining; cache representation and possibly fallback state change.",
+      "applicability": [
+        "Long-context, KV-bandwidth-limited decoding"
+      ],
+      "prerequisites": [
+        "Packed KV attention kernels",
+        "Scale metadata",
+        "Retained reference state if exact fallback is claimed"
+      ],
+      "required_capabilities": [
+        "kv_dtype_control",
+        "kv_scale_and_residual_inventory",
+        "fallback_trace",
+        "end_to_end_quality_checks"
+      ],
+      "interaction_risks": [
+        "MLA/GQA layouts and cache eviction alter quantization assumptions; a full verifier must see its exact target state."
+      ],
+      "limitations": [
+        "Dequantization and residual/reference state reduce savings; recent certification claims remain unreplicated here."
+      ],
+      "local_scope_note": "No admitted KV dtype intervention or attention-error certificate interface."
+    },
+    {
+      "id": "inf-09-kv-eviction-sparse-history",
+      "name": "Recent/heavy-hitter/sink-based KV retention",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-09-kv-eviction-sparse-history",
+      "mechanism": "Recent/heavy-hitter/sink-based KV retention",
+      "source_ids": [
+        "src-e977ab80893e",
+        "src-9f2f8008d0d4"
+      ],
+      "semantic_effect": "Approximate relative to dense full-history attention; fluent streaming is not unlimited faithful retrieval.",
+      "model_changes": "Inference-time policies can avoid retraining; trained sink variants are separate models.",
+      "applicability": [
+        "Streaming workloads and long contexts with compressible relevance"
+      ],
+      "prerequisites": [
+        "Selective KV indexing and position handling",
+        "Retention statistics or fixed sink/window policy"
+      ],
+      "required_capabilities": [
+        "kv_retention_policy",
+        "eviction_trace",
+        "position_map",
+        "remote_evidence_stress_tests"
+      ],
+      "interaction_risks": [
+        "Eviction changes exact prefix state and target verification; quantization can also perturb retention decisions."
+      ],
+      "limitations": [
+        "Discarded remote evidence can cause rare catastrophic retrieval failures."
+      ],
+      "local_scope_note": "Context shift is disabled; no H2O/sink eviction policy is admitted."
+    },
+    {
+      "id": "inf-10-compact-attention-architecture",
+      "name": "Grouped/shared KV heads and latent KV representation",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-10-compact-attention-architecture",
+      "mechanism": "Grouped/shared KV heads and latent KV representation",
+      "source_ids": [
+        "src-79eb55ac7258",
+        "src-a114e852aac1"
+      ],
+      "semantic_effect": "Exact execution of a different trained architecture is not an exact conversion of an arbitrary fixed dense checkpoint.",
+      "model_changes": "Architecture and training/uptraining change; each checkpoint needs independent quality evaluation.",
+      "applicability": [
+        "Model design where KV bandwidth/capacity is central"
+      ],
+      "prerequisites": [
+        "Supported grouped or latent attention kernels",
+        "Matching positional encoding and checkpoint format"
+      ],
+      "required_capabilities": [
+        "architecture_profile",
+        "kv_shape_identity",
+        "checkpoint_conversion_provenance"
+      ],
+      "interaction_risks": [
+        "KV quantization grouping, tensor partitioning and speculative features must match the new layout."
+      ],
+      "limitations": [
+        "Compression ratios are architecture-specific and cannot be multiplied independently by all cache optimizations."
+      ],
+      "local_scope_note": "Existing model internals are fixed; no GQA/MLA architecture intervention or conversion is admitted."
+    },
+    {
+      "id": "inf-11-exact-speculative-decoding",
+      "name": "Draft tokens followed by full-target acceptance and correction",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-11-exact-speculative-decoding",
+      "mechanism": "Draft tokens followed by full-target acceptance and correction",
+      "source_ids": [
+        "src-951958eafe57",
+        "src-fd3d857f4120"
+      ],
+      "semantic_effect": "Distribution-exact under the algorithm's assumptions; greedy parity is a different check from same-seed stochastic sample identity.",
+      "model_changes": "Target can remain frozen; drafter may be a separate model.",
+      "applicability": [
+        "Decode-bound workloads with inexpensive correlated proposals"
+      ],
+      "prerequisites": [
+        "Block verification",
+        "Acceptance/residual sampling",
+        "KV rollback",
+        "Compatible token vocabulary or explicit alignment"
+      ],
+      "required_capabilities": [
+        "draft_verify_protocol",
+        "accepted_rejected_token_trace",
+        "kv_rollback",
+        "sampling_distribution_tests"
+      ],
+      "interaction_risks": [
+        "Approximate target weights/KV change the preserved distribution; scheduler and RNG semantics require explicit composition."
+      ],
+      "limitations": [
+        "Low acceptance, drafter costs or already-saturated batching can eliminate speedup."
+      ],
+      "local_scope_note": "No draft/verifier, rollback or acceptance interface is admitted."
+    },
+    {
+      "id": "inf-12-feature-multihead-drafting",
+      "name": "Target-feature-conditioned or multi-head speculative drafting",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-12-feature-multihead-drafting",
+      "mechanism": "Target-feature-conditioned or multi-head speculative drafting",
+      "source_ids": [
+        "src-28b779a3c292",
+        "src-aee7fd01612d"
+      ],
+      "semantic_effect": "EAGLE uses lossless speculative verification. Medusa-1 frozen-backbone greedy verification differs from Medusa-2 backbone training and approximate typical acceptance.",
+      "model_changes": "Trained draft/head parameters; some variants also alter backbone weights.",
+      "applicability": [
+        "Targets with reusable trained draft artifacts"
+      ],
+      "prerequisites": [
+        "Hidden-feature extraction",
+        "Tree masks",
+        "Matching trained drafter",
+        "Target-verification kernels"
+      ],
+      "required_capabilities": [
+        "feature_taps",
+        "draft_artifact_profile",
+        "tree_verification",
+        "explicit_acceptance_mode"
+      ],
+      "interaction_risks": [
+        "Architecture/quantization/adapter changes can invalidate draft features; trees compete with batch capacity."
+      ],
+      "limitations": [
+        "Feature extraction, trees and drafter training add costs and model-version coupling."
+      ],
+      "local_scope_note": "No internal feature or tree-verification capabilities admitted."
+    },
+    {
+      "id": "inf-13-self-speculation-early-exit",
+      "name": "Layer-skipping or early-exit drafting with full-depth verification",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-13-self-speculation-early-exit",
+      "mechanism": "Layer-skipping or early-exit drafting with full-depth verification",
+      "source_ids": [
+        "src-281dff0cba8c",
+        "src-85197cd170be"
+      ],
+      "semantic_effect": "Verified self-speculation can preserve the chosen full model; unverified early exit is approximate. LayerSkip's trained model differs from its untrained predecessor.",
+      "model_changes": "LayerSkip requires its training recipe/checkpoint; Draft & Verify is a distinct no-retraining alternative.",
+      "applicability": [
+        "Memory-constrained deployment where separate drafters are expensive"
+      ],
+      "prerequisites": [
+        "Layer execution control",
+        "Shared draft/verifier activations",
+        "Correct KV rollback"
+      ],
+      "required_capabilities": [
+        "layer_exit_control",
+        "shared_activation_ledger",
+        "full_depth_verification"
+      ],
+      "interaction_risks": [
+        "Activation reuse must match quantization, layer order and full-target state."
+      ],
+      "limitations": [
+        "Skipping fewer operations than the verification overhead saves yields no benefit."
+      ],
+      "local_scope_note": "No layer skipping, exit logits or shared verifier protocol exposed."
+    },
+    {
+      "id": "inf-14-parallel-diffusion-drafting",
+      "name": "Parallel block-diffusion drafter conditioned on target features",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-14-parallel-diffusion-drafting",
+      "mechanism": "Parallel block-diffusion drafter conditioned on target features",
+      "source_ids": [
+        "src-feedff645417"
+      ],
+      "semantic_effect": "Author-reported lossless target verification, including greedy and sampled evaluations; implementation-level distribution/rollback tests remain necessary.",
+      "model_changes": "Train a target-specific diffusion drafter; target can remain frozen.",
+      "applicability": [
+        "Long decoding where autoregressive draft latency limits speculation"
+      ],
+      "prerequisites": [
+        "Parallel block drafting",
+        "Target feature taps",
+        "Block masks and exact verification"
+      ],
+      "required_capabilities": [
+        "parallel_draft_model",
+        "target_context_features",
+        "block_verification",
+        "draft_training_cost_ledger"
+      ],
+      "interaction_risks": [
+        "Context features couple to target checkpoint/precision; larger blocks compete with batching and can waste rejected work."
+      ],
+      "limitations": [
+        "Published GPU gains do not predict CPU gains; training, feature extraction, draft memory and verification all count."
+      ],
+      "local_scope_note": "No diffusion drafter, trained artifact or block-verification support established."
+    },
+    {
+      "id": "inf-15-sparse-activation-offload",
+      "name": "Activation-locality-aware sparse computation and CPU/GPU placement",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-15-sparse-activation-offload",
+      "mechanism": "Activation-locality-aware sparse computation and CPU/GPU placement",
+      "source_ids": [
+        "src-05b051f41877"
+      ],
+      "semantic_effect": "Do not equate retained benchmark accuracy with output identity. Exact sparse execution requires no omitted nonzero contributions; predictions require correctness-preserving fallback.",
+      "model_changes": "Requires compatible activation sparsity; converting a dense activation architecture is a model change.",
+      "applicability": [
+        "Models with exploitable activation locality and limited GPU memory"
+      ],
+      "prerequisites": [
+        "CPU plus consumer GPU",
+        "Sparse operators",
+        "Activation predictors and placement policy"
+      ],
+      "required_capabilities": [
+        "sparse_operator_profile",
+        "activation_mask_trace",
+        "placement_and_transfer_ledger",
+        "miss_fallback"
+      ],
+      "interaction_risks": [
+        "Quantization changes sparsity/routing; continuous batches activate the union of many neurons; missing predicted work needs recovery."
+      ],
+      "limitations": [
+        "Prediction, transfers and dense activations can destroy sparsity benefits."
+      ],
+      "local_scope_note": "The admitted stack uses device=none and gpu_layers=0; PowerInfer's heterogeneous design is not applicable as configured."
+    },
+    {
+      "id": "inf-16-moe-conditional-compute",
+      "name": "Sparse expert routing and expert-aware serving",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-16-moe-conditional-compute",
+      "mechanism": "Sparse expert routing and expert-aware serving",
+      "source_ids": [
+        "src-de539966b9f5",
+        "src-4d3e8dcf4356"
+      ],
+      "semantic_effect": "Exact for a fixed MoE router only if selected experts are executed correctly. Replacing dense layers, pruning experts or changing routing changes the model.",
+      "model_changes": "MoE checkpoint/training; optional prefetch predictors require training.",
+      "applicability": [
+        "Conditional-compute model design and multi-device serving"
+      ],
+      "prerequisites": [
+        "Expert storage and routing kernels",
+        "Placement or expert-parallel transport",
+        "Miss handling"
+      ],
+      "required_capabilities": [
+        "expert_routing_trace",
+        "expert_profile",
+        "placement_policy",
+        "routing_miss_accounting"
+      ],
+      "interaction_risks": [
+        "Batching increases distinct experts touched; quantization and speculation alter expert demand."
+      ],
+      "limitations": [
+        "Low active parameter count does not eliminate total weight storage, communication or imbalance."
+      ],
+      "local_scope_note": "Current dense FP16 Qwen profiles do not admit MoE architecture or expert placement experiments."
+    },
+    {
+      "id": "inf-17-selective-state-space-models",
+      "name": "Selective recurrent state-space computation",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-17-selective-state-space-models",
+      "mechanism": "Selective recurrent state-space computation",
+      "source_ids": [
+        "src-8832d45c6255",
+        "src-0c47ea4675bf"
+      ],
+      "semantic_effect": "A different trained model; bounded recurrent memory does not reproduce arbitrary dense-attention histories exactly.",
+      "model_changes": "New architecture and trained checkpoint.",
+      "applicability": [
+        "Long-sequence architectures and compact-state drafters"
+      ],
+      "prerequisites": [
+        "Efficient recurrent/scan kernels",
+        "State checkpoint and rollback semantics"
+      ],
+      "required_capabilities": [
+        "recurrent_model_profile",
+        "state_export_import",
+        "state_size_ledger",
+        "recurrent_branch_rollback"
+      ],
+      "interaction_risks": [
+        "Transformer KV caches and tree verification do not directly apply; branches need reversible or copied recurrent state."
+      ],
+      "limitations": [
+        "Algorithmic linearity is not guaranteed wall-clock efficiency; capacity and retrieval/state tracking need adversarial evaluation."
+      ],
+      "local_scope_note": "No SSM model profile or recurrent-state protocol admitted."
+    },
+    {
+      "id": "inf-18-linear-attention-learned-memory",
+      "name": "Gated delta-rule memory and hybrid recurrent/attention models",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-18-linear-attention-learned-memory",
+      "mechanism": "Gated delta-rule memory and hybrid recurrent/attention models",
+      "source_ids": [
+        "src-696719a93729",
+        "src-d68f2d3cf9bd"
+      ],
+      "semantic_effect": "New architecture/state update, not an exact compression of arbitrary transformer KV.",
+      "model_changes": "Architecture and training; adaptive memory can perform test-time updates.",
+      "applicability": [
+        "Research into learned compact memory and long-context tradeoffs"
+      ],
+      "prerequisites": [
+        "Matrix-state update kernels",
+        "Training protocol",
+        "State isolation/reset and branch semantics"
+      ],
+      "required_capabilities": [
+        "learned_memory_profile",
+        "state_update_trace",
+        "branch_and_reset_control",
+        "training_cost_ledger"
+      ],
+      "interaction_risks": [
+        "Prefix reuse must include full learned-state identity; test-time updates and speculative rollback can interact."
+      ],
+      "limitations": [
+        "Memory interference and state capacity limit exact retrieval; update and reset costs count."
+      ],
+      "local_scope_note": "No learned recurrent-memory or training adapter admitted."
+    },
+    {
+      "id": "inf-19-trained-native-sparse-attention",
+      "name": "Trainable hierarchical compression, selection and local attention",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-19-trained-native-sparse-attention",
+      "mechanism": "Trainable hierarchical compression, selection and local attention",
+      "source_ids": [
+        "src-74cf7186aa6d"
+      ],
+      "semantic_effect": "Exact implementation of the trained sparse architecture is not equivalent to full attention with the same nominal weights.",
+      "model_changes": "Sparse architecture and end-to-end training.",
+      "applicability": [
+        "Joint model/kernel design for long-context compute reduction"
+      ],
+      "prerequisites": [
+        "Block-sparse kernels",
+        "Selection/compression operators",
+        "Training infrastructure"
+      ],
+      "required_capabilities": [
+        "sparse_architecture_profile",
+        "selection_mask_trace",
+        "kernel_cost_ledger",
+        "matched_training_evaluation"
+      ],
+      "interaction_risks": [
+        "Dense FlashAttention assumptions, speculative masks, GQA/MLA layout and quantization need integrated kernels."
+      ],
+      "limitations": [
+        "Selector and block-gather costs, useful context length and quality determine practical benefit."
+      ],
+      "local_scope_note": "No trainable sparse architecture or selection-mask interface admitted."
+    },
+    {
+      "id": "inf-20-nonprefix-cache-fusion",
+      "name": "Selective recomputation when fusing independently cached context chunks",
+      "domains": [
+        "inference"
+      ],
+      "family": "inf-20-nonprefix-cache-fusion",
+      "mechanism": "Selective recomputation when fusing independently cached context chunks",
+      "source_ids": [
+        "src-9eb3c8f8c40d"
+      ],
+      "semantic_effect": "Approximate non-prefix reuse; matched task quality is not identical logits or target distribution.",
+      "model_changes": "No mandatory weight retraining in CacheBlend.",
+      "applicability": [
+        "RAG with repeatedly reused documents in changing order"
+      ],
+      "prerequisites": [
+        "Chunk cache retrieval",
+        "Selective layer/token recomputation",
+        "Correct position handling"
+      ],
+      "required_capabilities": [
+        "chunk_state_cache",
+        "partial_recompute_control",
+        "cross_chunk_dependency_tests",
+        "repair_cost_ledger"
+      ],
+      "interaction_risks": [
+        "Exact prefix semantics do not extend to arbitrary chunks; quantization, eviction and learned memory change repair requirements."
+      ],
+      "limitations": [
+        "Cross-chunk dependencies and reordered or adversarial evidence can defeat sparse recomputation."
+      ],
+      "local_scope_note": "Current policy reuses exact prefixes only; arbitrary chunk cache fusion is not exposed."
+    },
+    {
+      "id": "train-01",
+      "name": "Exact attention kernels and hardware scheduling",
+      "domains": [
+        "training"
+      ],
+      "family": "T01",
+      "mechanism": "Tile attention to reduce memory traffic; overlap transfers and tensor operations; specialize forward/backward pipelines for accelerator asymmetry.",
+      "source_ids": [
+        "src-4791e267352f",
+        "src-d76220d9c241"
+      ],
+      "semantic_effect": "Reusable systems baseline; FP8 variants belong to a separate numerical-approximation comparison.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "supervised_finetuning"
+      ],
+      "prerequisites": [
+        "Autograd-compatible attention operator with reference forward/backward",
+        "Matching GPU generation and supported masks/shapes"
+      ],
+      "required_capabilities": [
+        "Kernel/backend pinning",
+        "Synchronized forward/backward timing and peak device memory",
+        "Gradient/output tolerances versus reference",
+        "End-to-end valid-token throughput; fixed-budget and target-quality tests"
+      ],
+      "interaction_risks": [
+        "Packing masks, sequence/context parallelism and checkpoint recomputation must preserve semantics; kernel speedups cannot be multiplied with overlapping fusion gains."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-02",
+      "name": "Low-precision activations, weights and optimizer state",
+      "domains": [
+        "training"
+      ],
+      "family": "T02",
+      "mechanism": "Choose formats/scales and granularity for saved activations and optimizer statistics; exploit native low-precision arithmetic where stable.",
+      "source_ids": [
+        "src-dcc69a3e1bb8",
+        "src-d272f1e52d2f"
+      ],
+      "semantic_effect": "Memory/throughput baseline plus numerical research surface.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "full_finetuning"
+      ],
+      "prerequisites": [
+        "Reference higher-precision training",
+        "Tensor format/scaling telemetry and accelerator kernels"
+      ],
+      "required_capabilities": [
+        "Quantization-aware backward and optimizer state serialization",
+        "Overflow, scale, update and loss-spike monitoring",
+        "Long-horizon convergence and divergence rate",
+        "Time-to-quality with batch-size effects separated"
+      ],
+      "interaction_risks": [
+        "Do not stack independently specified state quantizers blindly; activation recomputation must reuse or correctly recompute scales. FP4 kernel success is not evidence of stable training."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-03",
+      "name": "Sequence packing and padding elimination",
+      "domains": [
+        "training"
+      ],
+      "family": "T03",
+      "mechanism": "Pack variable-length examples into fewer padded blocks while keeping the intended attention boundaries and loss weighting.",
+      "source_ids": [
+        "src-0f1c4ab49436"
+      ],
+      "semantic_effect": "Reusable data-loader baseline, conditional on semantic equivalence.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "supervised_finetuning"
+      ],
+      "prerequisites": [
+        "Frozen example boundaries/tokenization",
+        "Mask and position-ID support in selected attention kernels"
+      ],
+      "required_capabilities": [
+        "Deterministic resumable packing/data cursor",
+        "Packed and unpacked reference batches",
+        "Loss/gradient equivalence control",
+        "Useful non-padding tokens per second and per optimizer update"
+      ],
+      "interaction_risks": [
+        "Naive concatenation can leak across documents or alter SFT labels; token-based versus example-based loss and gradient accumulation must agree."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-04",
+      "name": "Selective activation checkpointing and rematerialization",
+      "domains": [
+        "training"
+      ],
+      "family": "T04",
+      "mechanism": "Discard selected saved activations and recompute them during backward, potentially guided by compiler memory budgets.",
+      "source_ids": [
+        "src-a66b923a999f"
+      ],
+      "semantic_effect": "Reusable memory baseline; trades memory for additional computation.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "finetuning"
+      ],
+      "prerequisites": [
+        "Autograd and deterministic recomputation semantics",
+        "RNG and stateful-operator handling"
+      ],
+      "required_capabilities": [
+        "Save/recompute policy hooks",
+        "Memory traces and recomputation accounting",
+        "Gradient-equivalence tests",
+        "Peak memory and elapsed training at matched quality"
+      ],
+      "interaction_risks": [
+        "Quantization scales, dropout, mutable fast weights and routing decisions must replay correctly; do not confuse with restart checkpoints."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-05",
+      "name": "Sharded states and heterogeneous offload",
+      "domains": [
+        "training"
+      ],
+      "family": "T05",
+      "mechanism": "Partition redundant model/optimizer/gradient states; optionally schedule CPU/NVMe transfers to enlarge the training memory hierarchy.",
+      "source_ids": [
+        "src-1480e50475d6",
+        "src-d615264099a3"
+      ],
+      "semantic_effect": "Reusable capacity baseline, not an algorithmic learning improvement.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "full_finetuning"
+      ],
+      "prerequisites": [
+        "Distributed collectives and topology inventory",
+        "Host/device/storage budgets"
+      ],
+      "required_capabilities": [
+        "Distributed optimizer checkpoints",
+        "Communication and offload byte/time counters; process-group failure cleanup",
+        "Restored-update equivalence",
+        "Aggregate device+host+disk cost and time-to-quality"
+      ],
+      "interaction_risks": [
+        "Optimizer custom states, adapters and low-rank bases need correct partition/restore logic; offload may compete with dataset reads and durable checkpoint writes."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-06",
+      "name": "Tensor, pipeline, data and sequence/context parallelism",
+      "domains": [
+        "training"
+      ],
+      "family": "T06",
+      "mechanism": "Partition model operations and schedule microbatches across devices to fit models and reduce idle time.",
+      "source_ids": [
+        "src-b1eecc936879"
+      ],
+      "semantic_effect": "Reusable distributed systems baseline.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "finetuning"
+      ],
+      "prerequisites": [
+        "Multiple suitable accelerators and interconnect",
+        "Topology-aware operator partitioning and loss normalization"
+      ],
+      "required_capabilities": [
+        "Distributed launch/collectives",
+        "Per-stage timings, bubbles, stragglers and consistent multi-rank restore",
+        "Single-device/distributed update comparison",
+        "Global-token throughput and convergence at matched effective batch"
+      ],
+      "interaction_risks": [
+        "Microbatch changes affect bubbles and optimization; expert routing, activation recomputation and custom matrix optimizers change communication schedules."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-07",
+      "name": "Quantized optimizer statistics",
+      "domains": [
+        "training"
+      ],
+      "family": "T07",
+      "mechanism": "Block-wise dynamic quantization reduces momentum/variance storage while retaining floating-point training parameters where required.",
+      "source_ids": [
+        "src-6bbea2425ce9"
+      ],
+      "semantic_effect": "Strong memory baseline against new compressed-state optimizers.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "finetuning"
+      ],
+      "prerequisites": [
+        "Optimizer tensor hooks and stable higher-precision control",
+        "State quantization/dequantization kernels"
+      ],
+      "required_capabilities": [
+        "Per-parameter optimizer-state formats",
+        "Optimizer checkpoint round-trip and update counters",
+        "State-memory savings versus total-memory savings",
+        "Convergence, overflow and throughput across multiple seeds"
+      ],
+      "interaction_risks": [
+        "Small tensors or sensitive embeddings may need exceptions; sharding and projection-based optimizers need a single explicit state representation."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-08",
+      "name": "Low-rank gradient/state projection and approximate scaling",
+      "domains": [
+        "training"
+      ],
+      "family": "T08",
+      "mechanism": "Store and update reduced gradient coordinates or structured learning-rate statistics while allowing dense parameter updates.",
+      "source_ids": [
+        "src-000bf34c8989",
+        "src-40bccc2669ce",
+        "src-e10347752a32"
+      ],
+      "semantic_effect": "Algorithmic optimizer baselines and a research surface; distinct from frozen-base PEFT.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "full_finetuning"
+      ],
+      "prerequisites": [
+        "Matrix-gradient access",
+        "Projection/rank/refresh controls; higher-precision reference optimizer"
+      ],
+      "required_capabilities": [
+        "Projection-state serialization",
+        "Refresh and optimizer-step cost accounting",
+        "Fixed-batch versus memory-enabled larger-batch comparisons",
+        "Loss-to-compute curves, divergence and long-horizon quality"
+      ],
+      "interaction_risks": [
+        "SVD/random projection overhead can dominate; per-layer updates can conflict with gradient accumulation or global clipping; FSDP must preserve matrix semantics."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-09",
+      "name": "Orthogonalized and structured adaptive optimizers",
+      "domains": [
+        "training"
+      ],
+      "family": "T09",
+      "mechanism": "Orthogonalize matrix updates and optionally add neuron-wise adaptive normalization to change optimization geometry.",
+      "source_ids": [
+        "src-510819c7165f",
+        "src-2d64e7506dc8"
+      ],
+      "semantic_effect": "Strong algorithmic baseline, with an explicit hyperparameter/search budget.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "full_finetuning"
+      ],
+      "prerequisites": [
+        "Matrix parameter classification",
+        "Orthogonalization implementation and separate treatment of non-matrix parameters"
+      ],
+      "required_capabilities": [
+        "Hybrid optimizer groups",
+        "Orthogonalization/collective timing and checkpointed state",
+        "Matched tuning budgets and fixed-compute scaling sweeps",
+        "Time-to-held-out-quality and stability"
+      ],
+      "interaction_risks": [
+        "Sharding can split matrices needed by the update; quantization may alter orthogonality/conditioning; AdamW scaling and weight-decay choices are not automatically portable."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-10",
+      "name": "Low-rank parameter-efficient adaptation and quantized-base adaptation",
+      "domains": [
+        "training"
+      ],
+      "family": "T10",
+      "mechanism": "Freeze a pretrained base and learn small adapter updates, optionally holding base weights in four-bit form.",
+      "source_ids": [
+        "src-cae140a2c5e7",
+        "src-2e95ee3ff8d6",
+        "src-4fe853316d06"
+      ],
+      "semantic_effect": "Adaptation baseline, never mislabeled full-parameter pretraining.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "supervised_finetuning",
+        "domain_adaptation",
+        "continued_pretraining_experiments"
+      ],
+      "prerequisites": [
+        "Lawful compatible base checkpoint and tokenizer",
+        "Adapter placement/rank and quantized-linear backward support"
+      ],
+      "required_capabilities": [
+        "Trainable-parameter inventory",
+        "Adapter/base identity and merge/export verification",
+        "Target-domain gain plus retained out-of-domain competence",
+        "Equal data/tuning budgets and total memory"
+      ],
+      "interaction_risks": [
+        "Learning capacity and forgetting differ from full finetuning; merged and unmerged inference are separate artifacts; quantized bases need compatible sharding."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-11",
+      "name": "Repeated low-rank updates for high-rank training",
+      "domains": [
+        "training"
+      ],
+      "family": "T11",
+      "mechanism": "Accumulate successive low-rank updates into dense weights with scheduled merges and resets.",
+      "source_ids": [
+        "src-599c53bccc36"
+      ],
+      "semantic_effect": "Research baseline for changing update parameterization across time.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining"
+      ],
+      "prerequisites": [
+        "Dense master weights",
+        "Merge/reset schedules, optimizer reset rules and any warm-start budget"
+      ],
+      "required_capabilities": [
+        "Scheduled structural optimizer events",
+        "Merge-aware checkpoint/restore",
+        "Dense versus accumulated update rank",
+        "Total-cost matched convergence including warm starts and resets"
+      ],
+      "interaction_risks": [
+        "Frozen-base quantization cannot be assumed compatible with repeated dense merges; restart must restore the exact merge phase and optimizer state."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-12",
+      "name": "Data curation, deduplication and mixture reweighting",
+      "domains": [
+        "training"
+      ],
+      "family": "T12",
+      "mechanism": "Change which source examples/domains receive training compute through filtering, deduplication or proxy-derived domain weights.",
+      "source_ids": [
+        "src-2c97f7638e07",
+        "src-d25788b044e7",
+        "src-b81fec5a671e"
+      ],
+      "semantic_effect": "Reusable data baselines plus research on learnability and transfer.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "finetuning_data_design"
+      ],
+      "prerequisites": [
+        "Versioned lawful corpus and domain labels",
+        "Protected evaluation split and contamination checks"
+      ],
+      "required_capabilities": [
+        "Dataset lineage, weights and resumable sampling",
+        "Proxy/curation costs in the experiment ledger",
+        "Per-domain loss and worst-group quality",
+        "Pinned task/baseline tables; unique versus repeated token counts"
+      ],
+      "interaction_risks": [
+        "Filtering changes the population; proxy models and teachers consume compute; tokenization and packing affect apparent efficiency. CORE/EXTENDED evaluator corrections prohibit unversioned cross-paper comparisons."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-13",
+      "name": "Compute-optimal model/data allocation and scaling experiments",
+      "domains": [
+        "training"
+      ],
+      "family": "T13",
+      "mechanism": "Use controlled sweeps to allocate a finite budget across model size, training tokens and, for recurrent models, repeated computation.",
+      "source_ids": [
+        "src-46fd66187ec3",
+        "src-3c4c76e049f3"
+      ],
+      "semantic_effect": "Experiment-design baseline; a fitted law is conditional evidence.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining_design"
+      ],
+      "prerequisites": [
+        "Several model/compute scales",
+        "Comparable data, optimizer and token accounting"
+      ],
+      "required_capabilities": [
+        "Budget-aware stopping and sweep registration",
+        "Actual training plus search cost ledger",
+        "Held-out scaling-law fits and extrapolation error",
+        "Separate quality-at-budget, training-efficiency-at-quality and lifecycle inference cost"
+      ],
+      "interaction_risks": [
+        "More repeated data, new architectures or deployment-cost weighting can move the optimum; fixed parameter count is not fixed training FLOPs."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-14",
+      "name": "Teacher-to-student distillation",
+      "domains": [
+        "training"
+      ],
+      "family": "T14",
+      "mechanism": "Train a smaller student using teacher distributions, outputs or reasoning examples; objective and sampling policy determine what transfers.",
+      "source_ids": [
+        "src-50d37923b14e",
+        "src-4cd8fde22db0"
+      ],
+      "semantic_effect": "Reusable compression/transfer baseline; teacher work is part of cost.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "instruction_finetuning",
+        "reasoning_posttraining",
+        "student_training"
+      ],
+      "prerequisites": [
+        "Versioned teacher and access to required logits/generations",
+        "Student objective and tokenizer alignment"
+      ],
+      "required_capabilities": [
+        "Teacher generation/scoring receipts",
+        "Distillation loss and student checkpointing",
+        "Student quality/calibration and deployment cost",
+        "Total teacher+student compute and held-out leakage controls"
+      ],
+      "interaction_risks": [
+        "Reverse-KL requires appropriate teacher/student support; sequence distillation can change output-length distribution; repeated teacher calls are not free training data."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-15",
+      "name": "Sparse mixture-of-experts and load-balanced conditional capacity",
+      "domains": [
+        "training"
+      ],
+      "family": "T15",
+      "mechanism": "Route tokens to a small subset of experts, separating total parameter capacity from active per-token computation.",
+      "source_ids": [
+        "src-de539966b9f5"
+      ],
+      "semantic_effect": "Architecture baseline and composition tool; not a measured local capability.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "posttraining"
+      ],
+      "prerequisites": [
+        "Expert/router operators",
+        "Capacity/load-balancing policies and expert parallelism"
+      ],
+      "required_capabilities": [
+        "Per-expert load/drop counters",
+        "Active/total parameter and communication accounting",
+        "Loss/quality at total training budget",
+        "Router stability and worst-domain coverage, not only active-parameter size"
+      ],
+      "interaction_risks": [
+        "Routing imbalance, overflow/drop policy and all-to-all cost can erase theoretical FLOP savings; FP8 and multi-token prediction are distinct ingredients in the integrated V3 report."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-16",
+      "name": "Dynamic depth, token routing and recurrent computation",
+      "domains": [
+        "training"
+      ],
+      "family": "T16",
+      "mechanism": "Spend computation selectively on tokens or reuse layers through stable recurrent depth, decoupling parameters from executed work.",
+      "source_ids": [
+        "src-4401f8f5a512",
+        "src-3c4c76e049f3",
+        "src-9dbd7059c841"
+      ],
+      "semantic_effect": "Ambitious architecture research with fixed-depth and fixed-budget baselines.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "architecture_posttraining"
+      ],
+      "prerequisites": [
+        "Causal routing or stable recurrence design",
+        "Explicit per-example/sequence compute caps"
+      ],
+      "required_capabilities": [
+        "Per-token executed-depth/loop counters",
+        "Routing/recurrence state restore and variable-compute scheduling",
+        "Equal-FLOP and equal-wall quality comparisons",
+        "Tail latency, routing overhead and stability across scales"
+      ],
+      "interaction_risks": [
+        "Extra loops consume compute even with fixed parameters; sparse routing may hurt kernel efficiency; recurrent gradients/checkpoints and test-time loop budgets must agree with training."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-17",
+      "name": "Linear recurrent and state-space sequence models",
+      "domains": [
+        "training"
+      ],
+      "family": "T17",
+      "mechanism": "Use structured recurrent state/semiseparable operations instead of retaining a full attention history.",
+      "source_ids": [
+        "src-0c47ea4675bf"
+      ],
+      "semantic_effect": "Architecture baseline for memory and sequence-compute scaling.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "continued_pretraining",
+        "architecture_finetuning"
+      ],
+      "prerequisites": [
+        "Selective SSM kernels and backward pass",
+        "State initialization/reset and sequence chunking semantics"
+      ],
+      "required_capabilities": [
+        "Stateful chunked training",
+        "Reference recurrence and checkpointable hidden state",
+        "Recall plus broad language modeling quality",
+        "Context-length cost curves and state-reset leakage tests"
+      ],
+      "interaction_risks": [
+        "Fixed-size memory is not interchangeable with exact attention retrieval; packing must reset state between independent documents; hybrid attention changes cost."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-18",
+      "name": "Test-time training, neural memory and multiple update timescales",
+      "domains": [
+        "training"
+      ],
+      "family": "T18",
+      "mechanism": "Learn fast memory during sequence processing and train outer parameters/retention rules; explore nested update frequencies.",
+      "source_ids": [
+        "src-bc2f646116c0",
+        "src-fd16c584290f",
+        "src-1b17ddee7a6b",
+        "src-0e47561f5fa2"
+      ],
+      "semantic_effect": "Frontier research; online memory updates are neither free inference nor ordinary full-model retraining.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "architecture_pretraining",
+        "online_adaptation",
+        "continual_learning_experiments"
+      ],
+      "prerequisites": [
+        "Inner/outer update implementation",
+        "Stream boundaries, retention policy and isolated fast state"
+      ],
+      "required_capabilities": [
+        "Nested differentiation/update schedules",
+        "Versioned fast/slow state and per-update cost receipts",
+        "Prequential held-out loss, forgetting and drift recovery",
+        "State-isolation, perturbation and adaptation-cost controls"
+      ],
+      "interaction_risks": [
+        "Checkpoint replay must include fast weights and optimizer/RNG state; cross-session state reuse can leak data; activation recomputation cannot accidentally update memory twice."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-19",
+      "name": "Masked diffusion language objectives",
+      "domains": [
+        "training"
+      ],
+      "family": "T19",
+      "mechanism": "Train a bidirectional mask predictor under a denoising likelihood-bound objective, then generate through iterative denoising.",
+      "source_ids": [
+        "src-f56a235313fe"
+      ],
+      "semantic_effect": "Alternative learning/generation family, not a drop-in speed optimization.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "pretraining",
+        "supervised_finetuning",
+        "alternative_objective_research"
+      ],
+      "prerequisites": [
+        "Mask-ratio sampling, denoising loss and bidirectional masks",
+        "Objective-specific likelihood/generation evaluator"
+      ],
+      "required_capabilities": [
+        "Denoising training loop",
+        "Noise/mask RNG state and objective-aware checkpoints",
+        "Calibrated likelihood estimates and task quality",
+        "Training cost and full-response generation cost at matched quality"
+      ],
+      "interaction_risks": [
+        "Autoregressive token-loss and cache assumptions do not transfer unchanged; fewer denoising steps can reduce quality; compare complete responses and total model evaluations."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    },
+    {
+      "id": "train-20",
+      "name": "Reinforcement-learning post-training and verifiable rewards",
+      "domains": [
+        "training"
+      ],
+      "family": "T20",
+      "mechanism": "Optimize an existing language model using sampled outputs and task rewards, potentially interleaved with SFT/cold-start data.",
+      "source_ids": [
+        "src-4cd8fde22db0"
+      ],
+      "semantic_effect": "Learning baseline/research surface; distinguish post-training from pretraining.",
+      "model_changes": "Training behavior or its execution changes; mathematical, numerical and quality equivalence need separate tests.",
+      "applicability": [
+        "reasoning_posttraining",
+        "alignment_posttraining"
+      ],
+      "prerequisites": [
+        "Versioned base policy, reward/verifier and rollout engine",
+        "Explicit sampling, KL/reference and optimizer policies"
+      ],
+      "required_capabilities": [
+        "Policy rollout/optimization synchronization",
+        "Policy/version-specific trajectory receipts and resumable optimizer state",
+        "Held-out verified success at a fixed total rollout+update budget",
+        "Reward-hacking, output-length and base-competence retention controls"
+      ],
+      "interaction_risks": [
+        "Longer outputs raise rollout cost and can inflate task scores; PEFT changes policy capacity; reward exploitation and contaminated verifiers can invalidate quality gains."
+      ],
+      "limitations": [
+        "Analyst-derived integration requirements; these are not claims that the cited paper tested every listed combination."
+      ],
+      "local_scope_note": "Training runtime and general quality evaluation are not implemented in this local increment."
+    }
+  ],
+  "composition_rules": [
+    "Speedup factors do not multiply automatically; optimizations can remove the same bottleneck or contend for the same resources.",
+    "Cache identity includes model, tokenizer, positions, masks, precision, adapters and committed state; similar strings are insufficient.",
+    "Approximate draft work can compose with exact target verification. Approximate target work requires a separate correctness argument.",
+    "Training or architecture changes require both a same-checkpoint execution comparison and a separate matched-resource quality comparison.",
+    "Charge training, calibration, metadata, copies, certificate computation, fallbacks, rejected work, queueing and recovery; inspect adverse trajectories.",
+    "Distribution preservation does not imply identical RNG traces or semantic answer correctness; greedy parity alone does not validate sampling."
+  ],
+  "evaluation_cautions": [
+    {
+      "source_ids": [
+        "src-d272f1e52d2f"
+      ],
+      "finding": "A 2026 FP4-attention preprint reports divergence in every tested distributed MXFP4 probability/value trajectory despite kernel or one-update gains.",
+      "implication": "Require sustained training stability; classify this fresh result as preliminary, not a universal FP4 conclusion."
+    },
+    {
+      "source_ids": [
+        "src-4fe853316d06"
+      ],
+      "finding": "Standard low-rank LoRA can learn less than full finetuning while forgetting less.",
+      "implication": "Adaptation capacity, retention and memory are distinct axes; a memory win cannot certify full-training equivalence."
+    },
+    {
+      "source_ids": [
+        "src-b81fec5a671e"
+      ],
+      "finding": "Official DCLM correction makes pre- and post-September-2025 centered CORE/EXTENDED values directly incomparable without re-evaluation.",
+      "implication": "Freeze evaluator/calibration revisions; do not pool published scores across this boundary."
+    },
+    {
+      "source_ids": [
+        "src-9dbd7059c841"
+      ],
+      "finding": "Additional latent iterations can revise correct easy-token predictions into errors.",
+      "implication": "Use constant/random routing and an oracle-bound diagnostic before investing in a learned halting controller."
+    },
+    {
+      "source_ids": [
+        "src-3c4c76e049f3"
+      ],
+      "finding": "Keeping parameters and data fixed does not keep recurrence FLOPs fixed.",
+      "implication": "Separate parameter-efficiency evidence from training-compute efficiency."
+    }
+  ]
+}

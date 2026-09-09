@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "recorded_ns": 293456575427766,
+  "study": "negative-confirm-slice-study04",
+  "scope": "Descriptive illustration rule declared before any native confirmation outcome exists; it changes no metric, denominator, policy or inference. Complete request tables remain accompanying evidence.",
+  "harmful_case_rule": "Select lexicographically first request_id among record-lookup questions that are full-correct and slice-wrong in every repetition. If none exists, select lexicographically first such harmful request across all families. If no repeated harmful request exists, report no qualifying illustration.",
+  "beneficial_case_rule": "Select lexicographically first request_id that is full-wrong and slice-correct in every repetition. If none exists, report no qualifying illustration.",
+  "retained_material": "Original prompt; selected prompt; expected answer; all repetitions and native output texts; selected/closure record indices; original attempt and trace hashes; independent interpreter check.",
+  "no_selection_effect": "Figures and numerical results retain every offered question and all four classes. Illustrations do not establish frequencies or population effects."
+}

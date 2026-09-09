@@ -1,0 +1,170 @@
+{
+  "archive": {
+    "artifact": {
+      "bytes": 202519,
+      "sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+      "status": "LOCAL_CANDIDATE_NOT_PUBLISHED",
+      "version": "1.0.0.dev0"
+    },
+    "checks": [
+      {
+        "check": "deterministic_manifest_and_implementation_identity",
+        "status": "PASS"
+      },
+      {
+        "check": "create_trace",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "validate_trace",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "refuse_trace_overwrite",
+        "exit_code": 2,
+        "status": "PASS"
+      },
+      {
+        "check": "evaluate_fixtures",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "reject_missing_request",
+        "exit_code": 2,
+        "status": "PASS"
+      },
+      {
+        "check": "inspect_complete_inventory",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "report_complete_inventory",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "detect_torn_journal",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "reject_unreconciled_report",
+        "exit_code": 2,
+        "status": "PASS"
+      },
+      {
+        "check": "recover_journal",
+        "exit_code": 0,
+        "status": "PASS"
+      },
+      {
+        "check": "inspect_recovered_inventory",
+        "exit_code": 0,
+        "status": "PASS"
+      }
+    ],
+    "evidence_class": "TEST_FIXTURE",
+    "implementation_sha256": "18c28e8075ebc9e5651bf4e0a66c2fca332480b4834a7342fc49d43775a9ab32",
+    "measured_claim_eligible": false,
+    "python": "3.12.14",
+    "schema_version": 1,
+    "scope": "locally built package on the development host; no model inference or external reproduction"
+  },
+  "research_cli": {
+    "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+    "checks": [
+      {
+        "check": "mechanisms",
+        "status": "PASS"
+      },
+      {
+        "check": "dependency-slice-v1-proposal",
+        "status": "PASS"
+      },
+      {
+        "check": "dependency-slice-v1-protocol",
+        "status": "PASS"
+      },
+      {
+        "check": "explicit-grammar-v2-proposal",
+        "status": "PASS"
+      },
+      {
+        "check": "explicit-grammar-v2-protocol",
+        "status": "PASS"
+      },
+      {
+        "check": "mixed32",
+        "status": "PASS"
+      },
+      {
+        "check": "mixed32-validate",
+        "status": "PASS"
+      },
+      {
+        "check": "mixed128",
+        "status": "PASS"
+      },
+      {
+        "check": "mixed128-validate",
+        "status": "PASS"
+      },
+      {
+        "check": "explicit-mixed32",
+        "status": "PASS"
+      },
+      {
+        "check": "explicit-mixed32-validate",
+        "status": "PASS"
+      },
+      {
+        "check": "wording-diagnosis",
+        "status": "PASS"
+      },
+      {
+        "check": "wording-diagnosis-validate",
+        "status": "PASS"
+      },
+      {
+        "check": "24_prior_family_population_digests_unchanged_from_archive03",
+        "digests": {
+          "record-lookup/24/confirmation": "38a3f3f693acecd6711b35337f39d5bf6ff7c63ef1c189ab424178bd6560ed32",
+          "record-lookup/24/development": "9519ffb5c4d1e3c214743ed15988749ef4efc16e8a9ed997f5bc04a8b8a886a8",
+          "record-lookup/64/confirmation": "2fac799d6296623b8ae8c8bdca68e556e8e69b965c41db465219ff60bf3f43dc",
+          "record-lookup/64/development": "4941849f3f92b64e84d38188decc58dedb0feeced3ab90ad15e2df7d45090faf",
+          "record-lookup/8/confirmation": "f74b400c05492581ee95817478c41d0dda4d11af15c7d206aa26c2cb9152db32",
+          "record-lookup/8/development": "69bd925ed7320c12501684d039628d39408f44c4c02d33bcf40bc0f82e799869",
+          "record-reuse/24/confirmation": "e78a8bcc5f240a812b1ad68f72e6b342c9cb02c3b02db57319db13a96d5257e7",
+          "record-reuse/24/development": "1f1efc69164671dc949da04f722e0e21d5e0b45e758450d0b367431a450a6535",
+          "record-reuse/64/confirmation": "b9b3aed3f2774d5c6ed40803191be84ce294bec56b6649986d18e4f0cd732a5d",
+          "record-reuse/64/development": "9627f8778b46c1e9206d8219fc5bc5898d24f55d155e8fbb91c690fdfe8fafc5",
+          "record-reuse/8/confirmation": "2fcda465dcfcdfa1540fe6f9485402db90d3ad176de538ba8f32fcf150a9914d",
+          "record-reuse/8/development": "192256d68e7619baa5807f57a79fff3f0c97510675cb66b98c0618985ea84689",
+          "record-updates/24/confirmation": "2333888e6a497ee19860ed3e8477af9138df9d87392c8abc872011b39bf35116",
+          "record-updates/24/development": "d401ddf0663069771e4f96a0522867d503c6cd8f72430020a63c5df644e94098",
+          "record-updates/64/confirmation": "4bd780e4d611a3121ca6f4816150c9f02784da9c0516acd3038bf8689f62ff8b",
+          "record-updates/64/development": "d7e0613ea9dfbd3477f11f25ab77693d69c3df7466c6932fa94764ab7fab5fd6",
+          "record-updates/8/confirmation": "dc717dc03a8663fde7f644826d1fee0b397a8d058ecd4a217becc941ff1fe57a",
+          "record-updates/8/development": "b6eb645cba9f56e0e707a56b5f0eefb61c0433deab678edac383d1956f9ba8e8",
+          "reference-chain/24/confirmation": "23e441f576aa7613af59fded573139f5304405294b38f365a31d07325dde127f",
+          "reference-chain/24/development": "ab45ad3037b538b11c8ce2227149566b4ef1e309015c45f1e6cbb8c571ba6af8",
+          "reference-chain/64/confirmation": "5fa9128baa742c4637726798531f529c56967040692721a6891549dca58bd8e6",
+          "reference-chain/64/development": "705906e47688648a948ca9dbda419b67cf24e076147068e60ceeb6f51f45b76c",
+          "reference-chain/8/confirmation": "2c1febdef004475a106895b7da0863d9f03f4564a8b48619cfa6d8ff18716e1f",
+          "reference-chain/8/development": "3a282a53f76158576940747b4d94cd084b5da4f8bba6f0941c25c937bd44edfd"
+        },
+        "status": "PASS"
+      }
+    ],
+    "evidence_class": "TEST_FIXTURE",
+    "schema_version": 1,
+    "scope": "Isolated revised archive CLI, prior population compatibility, no actual native model evidence.",
+    "status": "PASS"
+  },
+  "schema_version": 1,
+  "scope": "Archive04 adds mixed-record populations and one fixed instruction clarification; prior populations preserve their exact archive03 bytes. Isolated CLI fixtures do not establish research or external reproduction."
+}

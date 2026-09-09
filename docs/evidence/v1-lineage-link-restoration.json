@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "RESTORED_EXACT_HISTORICAL_LINK_TARGET",
+  "source_revision": "821c6364ad3a0b4d553de5be0762eee60256c6bf",
+  "source_path": "EXPERIMENTS.md",
+  "restored_path": "plan/lineage/821c6364/EXPERIMENTS.md",
+  "sha256": "ecac8fb8e7d4f9c59af27958e5d95af119e1cd2496130a4362e65f2de6fac429",
+  "bytes": 15715,
+  "scope": "Restores a relative link used by the immutable historical ROADMAP, using exact local Git object bytes. Existing lineage files and their five-file registry remain unchanged. Discovered by actual ZIP Markdown link verification."
+}

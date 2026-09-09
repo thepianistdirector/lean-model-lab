@@ -1,0 +1,22 @@
+{
+  "ablations": [
+    "Full context without cache versus full context with cache: prefix-cache-v1.",
+    "Uncached full context versus uncached dependency slice: dependency-slice-v1.",
+    "Both arms cached: slice-versus-full-cache-v1, the primary strong comparator."
+  ],
+  "baseline": "Complete original record table with same-slot prefix caching enabled; candidate uses dependency slice with caching also enabled. Each arm has its own real cold-start history.",
+  "claim_limit": "Instrumented CPU cache-compression interaction and model-transfer study; substantial known prior-art overlap; novelty unestablished; this eight-request development case cannot establish measurement eligibility, broad natural-language quality, energy savings, API-price equivalence or novelty.",
+  "confirmation_isolation": "Separate modules, candidate receives prompt only, regenerated fixed answers, distinct seeded split, frozen implementation hashes. Shared Unix identity: workflow convention, not an adversarial security boundary.",
+  "development_evidence": "D1 original record-reuse/context24/seed940101: 0.5B full-cache baseline 1/8 correct and sliced-cache candidate 4/8 correct in each of two repetitions. Both failed 95%. The predeclared single 14B alternative uses identical original grammar, table and queries. The unrelated single explicit-language chain diagnostic was adverse; no wording search is performed.",
+  "hypothesis": "Repeated-table full-context caching can reuse the original table prefix across changing queries, while query-dependent dependency slices can destroy that reuse. Shorter prompts may then have no quality-qualified full-cost advantage; actual native histories, not API prices or two hypothetical simultaneous caches, decide.",
+  "primary_sources": [
+    "https://arxiv.org/abs/2607.15516",
+    "https://arxiv.org/abs/2310.04408",
+    "https://arxiv.org/abs/2403.12968"
+  ],
+  "proposal_sha256": "ea937fc7d7c1dbdbdb771e6e3e6b1613d80716750de314d79975859c88be157d",
+  "question": "When do context omission savings disappear against full-context prefix caching under repeated tables, longer contexts, arrivals and model transfer?",
+  "selection_rule": "Require BOTH full-context and sliced arms to reach at least 95% exact task accuracy in EACH attempt, requiring 8/8 here, plus no pair-level aggregate accuracy loss. Any failure stops model and wording search. Root coordination and a new finite pre-confirmation freeze are required before any held-out matrix.",
+  "stopping_rule": "Execute this single fixed 14B development case once: original record-reuse, context24, seed940101, 8 requests per attempt, two balanced AB/BA pairs, C1, six threads, slice-versus-full-cache-v1. Preserve every failed or interrupted attempt. No further model/wording/seed search after quality failure; any subsequent frozen held-out failure/system-cost challenge requires separate root coordination. Investigator total <=3000 new offered requests and <=5400 seconds native execution; original deadline310468865220540 cannot change.",
+  "uncertainty": "Two balanced AB/BA pairs; descriptive pair ranges only. Eight-query shared-table trajectories are dependent. No request-IID confidence or cross-device/population claim."
+}

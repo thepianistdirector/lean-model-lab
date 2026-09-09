@@ -1,10 +1,12 @@
 # Lean Model Lab architecture
 
-Status: **architecture foundation accepted; research runtime not implemented**. Owner: Lucas Santana. Foundation date: 2026-09-07. Acceptance evidence: [STATUS.md](STATUS.md).
+Status: **architecture foundation accepted; bounded CPU inference runtime implemented; broader research layers remain planned**. Owner: Lucas Santana. Foundation date: 2026-09-07. Acceptance evidence: [STATUS.md](STATUS.md).
 
 ## Product contract
 
-Lean Model Lab is a rigorous optimization laboratory for language-model training and inference. It should answer a bounded question: for an exact model, data/tokenizer contract, workload, runtime and hardware envelope, which candidate configurations improve a declared combination of quality, wall time, latency, throughput, memory, energy and cost, and where do those gains stop transferring?
+Lean Model Lab is a discovery and experimentation laboratory for language-model training and inference. Its [owner-directed research mission](docs/RESEARCH-MISSION.md) is to discover new mechanisms capable of large efficiency or quality improvements. A source-backed known-method catalog supplies reusable implementations and strong comparison baselines. The discovery layer turns Astra's mechanism proposals into falsifiable, bounded experiments, evidence and adoption decisions.
+
+Each experiment asks a precise question: for an accepted data/tokenizer, workload, evaluation and resource envelope, does the proposed mechanism improve efficiency at the required quality, improve quality at fixed resources, or shift the attainable frontier? New architectures and training algorithms may change model semantics explicitly; an execution-only cache control retains exact model/output equivalence. Those comparison families remain separate.
 
 The long-range ambition is a portable research programme that can progress from one laptop to heterogeneous devices and remote workers, compare training and serving ideas under shared evidence rules, and accumulate useful negative results. The first system remains a local command-line lab with filesystem artifacts. Scale follows measured need; it is not an initial infrastructure requirement.
 
@@ -172,4 +174,10 @@ Use the Python standard library for the first contract and plan harness. Adopt n
 
 Inputs, model cards and generated text are untrusted data. Untrusted code never runs with personal credentials, default network access, arbitrary remote-code trust, shell interpolation or unrestricted filesystem access. Serialized model formats require a safe-loading decision. OS/container/VM policy—not application intent—enforces candidate read/write, credential, network and resource boundaries and protects evaluator logic and confirmation data. Publishing a finding, spending money, downloading gated weights, adding a production dependency or running remote/cloud compute requires separate authority.
 
-This architecture does not claim an implemented simulator, benchmark runner, backend, energy meter, distributed system, autonomous researcher or research result. It defines the contracts against which those later systems can be built and falsified.
+This architecture defines the long-term contracts. The narrow CPU coordinator, admitted backend adapter and local measured cache-policy comparison are implemented; see `docs/results/cpu-20260908.md` for failed quality/parity and exact evidence boundaries. Simulation, energy metering, distributed execution and autonomous research remain future work.
+
+## Owner-authorized 0.1 successor — 7 September 2026
+
+The launch audit and narrow contract are in `docs/decisions/launch-audit.md` and `docs/benchmarks/first-workload.md`. The accepted foundation remains accepted. This owner instruction advances local implementation beyond the historical no-compute entry; dependency/model adoption, resource allocation, publication and qualified review retain their explicit gates.
+
+The first local module boundary is `src/lean_model_lab/`: `contracts` owns immutable workload identity; `artifacts` owns exclusive atomic files and append-only journals; `evidence` owns independent validity/quality/accounting; `cli` owns user commands. A reviewed backend adapter will be separate from evaluator logic. Standard-library source runs without installing dependencies. This is an implementation map for the narrow inference path, not proof that the broader module architecture is finished.

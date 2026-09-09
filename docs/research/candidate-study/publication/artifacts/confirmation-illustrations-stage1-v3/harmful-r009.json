@@ -1,0 +1,278 @@
+{
+  "study": "negative-confirm-slice-study04",
+  "kind": "harmful",
+  "request_id": "r009",
+  "family": "record-lookup",
+  "expected": "CGMSA",
+  "original_prompt": "RECORD-LANGUAGE v1\nTASK record-lookup\nRULES Last assignment wins. REF follows the final assignment of its target.\nOUTPUT Resolve ASK to a VALUE. Reply with that alphabetic value only.\nBEGIN\nVALUE CMWGH CGCAC\nVALUE CECER CCUAJ\nVALUE CEUNK CPZYU\nVALUE CIDED CYCHW\nVALUE CTJCB CGELY\nVALUE CMHBZ CPFDD\nVALUE CONDH CGNKP\nVALUE CGKXE CNMFD\nVALUE COWPG CGMSA\nVALUE CKDTJ CZLAS\nVALUE CYHFU CRWVF\nVALUE CJAXX CYTEA\nVALUE CBANR CPOKQ\nVALUE CHQPD CWTRS\nVALUE CGIOA CMWFR\nVALUE CKPUI CZPLD\nVALUE CUNHE CAPXK\nVALUE CHXJW CFSVO\nVALUE COWPA CJKGJ\nVALUE CMJJJ CPIVM\nVALUE CKFJS CLQRP\nVALUE CVTDO CUZDU\nVALUE CRANO CDEAC\nVALUE CWBYE CPBKQ\nEND\nASK COWPG\nANSWER:",
+  "source_group_id": "55a6df82dde3961f81759835bfae276523c931862a02ca1cfd1b46aa90880e31",
+  "features": {
+    "closure_records": 1,
+    "max_retained_position_permille": 347,
+    "min_retained_position_permille": 347,
+    "overwritten_writes": 0,
+    "total_records": 24
+  },
+  "qualifying_repeated_case_count": 13,
+  "qualifying_repeated_lookup_count": 11,
+  "native_rows": [
+    {
+      "pair_index": 0,
+      "order": "AB",
+      "arm": "baseline",
+      "attempt_id": "attempt-d9243ec1ba214342bf8f86e67be0e81d",
+      "exported_attempt_sha256": "96f37326fbbe8d569abf98840dd502cc7c60e1b6623ac0941d46c0e4ead48b64",
+      "exported_trace_sha256": "d86dcef21952c87f72f9114addb4810b0a75e7db292682cfc7d5757f33379183",
+      "prompt": "RECORD-LANGUAGE v1\nTASK record-lookup\nRULES Last assignment wins. REF follows the final assignment of its target.\nOUTPUT Resolve ASK to a VALUE. Reply with that alphabetic value only.\nBEGIN\nVALUE CMWGH CGCAC\nVALUE CECER CCUAJ\nVALUE CEUNK CPZYU\nVALUE CIDED CYCHW\nVALUE CTJCB CGELY\nVALUE CMHBZ CPFDD\nVALUE CONDH CGNKP\nVALUE CGKXE CNMFD\nVALUE COWPG CGMSA\nVALUE CKDTJ CZLAS\nVALUE CYHFU CRWVF\nVALUE CJAXX CYTEA\nVALUE CBANR CPOKQ\nVALUE CHQPD CWTRS\nVALUE CGIOA CMWFR\nVALUE CKPUI CZPLD\nVALUE CUNHE CAPXK\nVALUE CHXJW CFSVO\nVALUE COWPA CJKGJ\nVALUE CMJJJ CPIVM\nVALUE CKFJS CLQRP\nVALUE CVTDO CUZDU\nVALUE CRANO CDEAC\nVALUE CWBYE CPBKQ\nEND\nASK COWPG\nANSWER:",
+      "output_text": "CGMSA",
+      "output_token_ids": [
+        8798,
+        4826,
+        32,
+        151645
+      ],
+      "finish_reason": "eos",
+      "status": "SUCCEEDED",
+      "correct": true,
+      "prompt_tokens": 269,
+      "generated_tokens": 4,
+      "certificate": {
+        "budget_matched_to_dependency": false,
+        "budget_unit": "record_lines",
+        "closure_line_indices": [],
+        "closure_record_count": null,
+        "dependency_closure_preserved": null,
+        "fallback_reason": null,
+        "input_prompt_sha256": "335fe0557a3a57c0ae045def0be2a6f1c20e288c5fe9218a19ed6d84421ecd30",
+        "input_record_count": null,
+        "input_syntax_valid": null,
+        "limitation": "No claim about logits, token distributions, model answer equivalence or LLM correctness.",
+        "mechanism_id": "full-context-v1",
+        "output_prompt_sha256": "335fe0557a3a57c0ae045def0be2a6f1c20e288c5fe9218a19ed6d84421ecd30",
+        "query_key": null,
+        "retained_record_count": null,
+        "schema_version": 1,
+        "scope": "IDENTITY_ONLY",
+        "selected_record_line_indices": [],
+        "selection_indices_complete": true
+      },
+      "native_sse": {
+        "exported_stream_path": "evidence/negative-confirm-slice-study04/study/raw/attempt-d9243ec1ba214342bf8f86e67be0e81d/r009.jsonl",
+        "exported_stream_sha256": "a78d8aac2455ea52c126a582eaff20005054f034998220bf0b4f737e6563a8fa",
+        "native_content_reconstruction": "CGMSA",
+        "native_token_ids": [
+          8798,
+          4826,
+          32,
+          151645
+        ],
+        "excluded_prompt_progress_events": 2,
+        "progress_scope": "Native prompt-progress events report zero predicted tokens; their sentinel token field is not a generated output token.",
+        "terminal_event_count": 1,
+        "native_stop_type": "eos",
+        "native_truncated": false,
+        "native_tokens_predicted": 4,
+        "native_tokens_evaluated": 269,
+        "native_prompt_cache_reused": 0,
+        "native_max_tokens": 32,
+        "native_temperature": 0.0
+      }
+    },
+    {
+      "pair_index": 0,
+      "order": "AB",
+      "arm": "candidate",
+      "attempt_id": "attempt-afac8d13924c45eb8e1105e81e36b4fa",
+      "exported_attempt_sha256": "9c839797a144198abe79dc39787effaa531838c81485b75aacbb65872ee72491",
+      "exported_trace_sha256": "677136e40c0b60ae705d3a177a95bd82bc0847a151446f82ff48fab09b2adf18",
+      "prompt": "RECORD-LANGUAGE v1\nTASK record-lookup\nRULES Last assignment wins. REF follows the final assignment of its target.\nOUTPUT Resolve ASK to a VALUE. Reply with that alphabetic value only.\nBEGIN\nVALUE COWPG CGMSA\nEND\nASK COWPG\nANSWER:",
+      "output_text": "COWPG",
+      "output_token_ids": [
+        34,
+        3307,
+        11383,
+        151645
+      ],
+      "finish_reason": "eos",
+      "status": "SUCCEEDED",
+      "correct": false,
+      "prompt_tokens": 92,
+      "generated_tokens": 4,
+      "certificate": {
+        "budget_matched_to_dependency": false,
+        "budget_unit": "record_lines",
+        "closure_line_indices": [
+          13
+        ],
+        "closure_record_count": 1,
+        "dependency_closure_preserved": true,
+        "fallback_reason": null,
+        "input_prompt_sha256": "335fe0557a3a57c0ae045def0be2a6f1c20e288c5fe9218a19ed6d84421ecd30",
+        "input_record_count": 24,
+        "input_syntax_valid": true,
+        "limitation": "No claim about logits, token distributions, model answer equivalence or LLM correctness.",
+        "mechanism_id": "dependency-slice-v1",
+        "output_prompt_sha256": "1c9d86c92faef130b597bd6242037fed8fd6a83e660e87def155a44f767342ad",
+        "query_key": "COWPG",
+        "retained_record_count": 1,
+        "schema_version": 1,
+        "scope": "SYNTAX_DEPENDENCY_CLOSURE_ONLY",
+        "selected_record_line_indices": [
+          13
+        ],
+        "selection_indices_complete": true
+      },
+      "native_sse": {
+        "exported_stream_path": "evidence/negative-confirm-slice-study04/study/raw/attempt-afac8d13924c45eb8e1105e81e36b4fa/r009.jsonl",
+        "exported_stream_sha256": "e6bd4b96455a9af22cae32a67b4cdfd534da05dda69aba078f5eb3c214ea1602",
+        "native_content_reconstruction": "COWPG",
+        "native_token_ids": [
+          34,
+          3307,
+          11383,
+          151645
+        ],
+        "excluded_prompt_progress_events": 2,
+        "progress_scope": "Native prompt-progress events report zero predicted tokens; their sentinel token field is not a generated output token.",
+        "terminal_event_count": 1,
+        "native_stop_type": "eos",
+        "native_truncated": false,
+        "native_tokens_predicted": 4,
+        "native_tokens_evaluated": 92,
+        "native_prompt_cache_reused": 0,
+        "native_max_tokens": 32,
+        "native_temperature": 0.0
+      }
+    },
+    {
+      "pair_index": 1,
+      "order": "BA",
+      "arm": "baseline",
+      "attempt_id": "attempt-e070505dc1994de9a2d58ce16cbb5c2f",
+      "exported_attempt_sha256": "6707a5cee5e3ee67ed2e4e14f13a9ded836c75bb7b5879345b43545987a4e063",
+      "exported_trace_sha256": "bd378c713136579a4cd0fcd11263effefedca23fd52e8a603d278ffbdec67059",
+      "prompt": "RECORD-LANGUAGE v1\nTASK record-lookup\nRULES Last assignment wins. REF follows the final assignment of its target.\nOUTPUT Resolve ASK to a VALUE. Reply with that alphabetic value only.\nBEGIN\nVALUE CMWGH CGCAC\nVALUE CECER CCUAJ\nVALUE CEUNK CPZYU\nVALUE CIDED CYCHW\nVALUE CTJCB CGELY\nVALUE CMHBZ CPFDD\nVALUE CONDH CGNKP\nVALUE CGKXE CNMFD\nVALUE COWPG CGMSA\nVALUE CKDTJ CZLAS\nVALUE CYHFU CRWVF\nVALUE CJAXX CYTEA\nVALUE CBANR CPOKQ\nVALUE CHQPD CWTRS\nVALUE CGIOA CMWFR\nVALUE CKPUI CZPLD\nVALUE CUNHE CAPXK\nVALUE CHXJW CFSVO\nVALUE COWPA CJKGJ\nVALUE CMJJJ CPIVM\nVALUE CKFJS CLQRP\nVALUE CVTDO CUZDU\nVALUE CRANO CDEAC\nVALUE CWBYE CPBKQ\nEND\nASK COWPG\nANSWER:",
+      "output_text": "CGMSA",
+      "output_token_ids": [
+        8798,
+        4826,
+        32,
+        151645
+      ],
+      "finish_reason": "eos",
+      "status": "SUCCEEDED",
+      "correct": true,
+      "prompt_tokens": 269,
+      "generated_tokens": 4,
+      "certificate": {
+        "budget_matched_to_dependency": false,
+        "budget_unit": "record_lines",
+        "closure_line_indices": [],
+        "closure_record_count": null,
+        "dependency_closure_preserved": null,
+        "fallback_reason": null,
+        "input_prompt_sha256": "335fe0557a3a57c0ae045def0be2a6f1c20e288c5fe9218a19ed6d84421ecd30",
+        "input_record_count": null,
+        "input_syntax_valid": null,
+        "limitation": "No claim about logits, token distributions, model answer equivalence or LLM correctness.",
+        "mechanism_id": "full-context-v1",
+        "output_prompt_sha256": "335fe0557a3a57c0ae045def0be2a6f1c20e288c5fe9218a19ed6d84421ecd30",
+        "query_key": null,
+        "retained_record_count": null,
+        "schema_version": 1,
+        "scope": "IDENTITY_ONLY",
+        "selected_record_line_indices": [],
+        "selection_indices_complete": true
+      },
+      "native_sse": {
+        "exported_stream_path": "evidence/negative-confirm-slice-study04/study/raw/attempt-e070505dc1994de9a2d58ce16cbb5c2f/r009.jsonl",
+        "exported_stream_sha256": "e26d3a92d623703f22927a22478d2abd6c64e86ef3f2a30684c2b673de3d31a5",
+        "native_content_reconstruction": "CGMSA",
+        "native_token_ids": [
+          8798,
+          4826,
+          32,
+          151645
+        ],
+        "excluded_prompt_progress_events": 2,
+        "progress_scope": "Native prompt-progress events report zero predicted tokens; their sentinel token field is not a generated output token.",
+        "terminal_event_count": 1,
+        "native_stop_type": "eos",
+        "native_truncated": false,
+        "native_tokens_predicted": 4,
+        "native_tokens_evaluated": 269,
+        "native_prompt_cache_reused": 0,
+        "native_max_tokens": 32,
+        "native_temperature": 0.0
+      }
+    },
+    {
+      "pair_index": 1,
+      "order": "BA",
+      "arm": "candidate",
+      "attempt_id": "attempt-10d60b6b7ddf4b3ea2d330ac2407fa5f",
+      "exported_attempt_sha256": "0d70a19786cd85edf29ecd2149a3579c716cf3c760d882e31eb11199271f957a",
+      "exported_trace_sha256": "e91e95999a61081812215fa0f830ecdbd6b40fc1c6aa31c967338c1dce0af544",
+      "prompt": "RECORD-LANGUAGE v1\nTASK record-lookup\nRULES Last assignment wins. REF follows the final assignment of its target.\nOUTPUT Resolve ASK to a VALUE. Reply with that alphabetic value only.\nBEGIN\nVALUE COWPG CGMSA\nEND\nASK COWPG\nANSWER:",
+      "output_text": "COWPG",
+      "output_token_ids": [
+        34,
+        3307,
+        11383,
+        151645
+      ],
+      "finish_reason": "eos",
+      "status": "SUCCEEDED",
+      "correct": false,
+      "prompt_tokens": 92,
+      "generated_tokens": 4,
+      "certificate": {
+        "budget_matched_to_dependency": false,
+        "budget_unit": "record_lines",
+        "closure_line_indices": [
+          13
+        ],
+        "closure_record_count": 1,
+        "dependency_closure_preserved": true,
+        "fallback_reason": null,
+        "input_prompt_sha256": "335fe0557a3a57c0ae045def0be2a6f1c20e288c5fe9218a19ed6d84421ecd30",
+        "input_record_count": 24,
+        "input_syntax_valid": true,
+        "limitation": "No claim about logits, token distributions, model answer equivalence or LLM correctness.",
+        "mechanism_id": "dependency-slice-v1",
+        "output_prompt_sha256": "1c9d86c92faef130b597bd6242037fed8fd6a83e660e87def155a44f767342ad",
+        "query_key": "COWPG",
+        "retained_record_count": 1,
+        "schema_version": 1,
+        "scope": "SYNTAX_DEPENDENCY_CLOSURE_ONLY",
+        "selected_record_line_indices": [
+          13
+        ],
+        "selection_indices_complete": true
+      },
+      "native_sse": {
+        "exported_stream_path": "evidence/negative-confirm-slice-study04/study/raw/attempt-10d60b6b7ddf4b3ea2d330ac2407fa5f/r009.jsonl",
+        "exported_stream_sha256": "aee8bf3ca23897c0050b904dd29705204921fe5909bd207fa933a3a71624c1f3",
+        "native_content_reconstruction": "COWPG",
+        "native_token_ids": [
+          34,
+          3307,
+          11383,
+          151645
+        ],
+        "excluded_prompt_progress_events": 2,
+        "progress_scope": "Native prompt-progress events report zero predicted tokens; their sentinel token field is not a generated output token.",
+        "terminal_event_count": 1,
+        "native_stop_type": "eos",
+        "native_truncated": false,
+        "native_tokens_predicted": 4,
+        "native_tokens_evaluated": 92,
+        "native_prompt_cache_reused": 0,
+        "native_max_tokens": 32,
+        "native_temperature": 0.0
+      }
+    }
+  ],
+  "independent_symbolic_answer_check": "PASS for original and every selected prompt",
+  "scope": "Descriptive selected illustration, with original and all selected native prompts and outputs. Hashes identify actual exported evidence derivatives. Complete population tables determine reported frequencies."
+}

@@ -1,0 +1,106 @@
+{
+  "status": "ORIGINAL_EVIDENCE_OFFLINE_REVIEW_COMPLETE_WITH_VERIFIED_SUPPLEMENT",
+  "review_type": "Separate GPT-6 Astra process on the same physical host and Unix identity; not external human or institutional validation.",
+  "packages": {
+    "candidate-research.zip": {
+      "sha256": "0d7f475e5db5e5e6c7b78b777acd83a5253f75558bc292110b8a09cd83104e21",
+      "files": 7857,
+      "directories": 88,
+      "manifest_entries_verified_after_extraction": 7856,
+      "safe_paths": true
+    },
+    "quality-research.zip": {
+      "sha256": "5c9d4f5f5e47f8a03113fe72c203d0926801c3f515939c43a381be2ec92893ab",
+      "files": 14318,
+      "directories": 72,
+      "manifest_entries_verified_after_extraction": 14317,
+      "safe_paths": true
+    },
+    "systems-research.zip": {
+      "sha256": "7652be420b810b2398649b5e099581da1214f31e4ec632ac4ef4f226760e4085",
+      "files": 6444,
+      "directories": 55,
+      "manifest_entries_verified_after_extraction": 6443,
+      "safe_paths": true
+    }
+  },
+  "source_zip_sha256": "b9b933e862b9f69f34367bad48e0bbff665cc30d65cfbeed04f2885627d9b430",
+  "source_payload_files_byte_identical_per_package": 1203,
+  "source_manifest_note": "Each enclosing ZIP has its own FILE-MANIFEST.json. That expected wrapper difference is not a source-payload difference.",
+  "queue_helper": {
+    "workspace_sha256": "f1bd53f296ef734fa5614622576a8849c40d9603fb43309157221417c450e5c4",
+    "extracted_hashes": {
+      "quality": "f1bd53f296ef734fa5614622576a8849c40d9603fb43309157221417c450e5c4",
+      "candidate": "f1bd53f296ef734fa5614622576a8849c40d9603fb43309157221417c450e5c4",
+      "systems": "f1bd53f296ef734fa5614622576a8849c40d9603fb43309157221417c450e5c4"
+    },
+    "equal": true
+  },
+  "native_producer_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+  "original_studies": 18,
+  "original_attempts": 89,
+  "original_offered": 7840,
+  "original_observed": 7742,
+  "raw_streams_reconstructed": 7742,
+  "historical_protocol_discrepancy": {
+    "failed_observations": 30,
+    "missing_offered_requests": 98,
+    "cause": "Historical failed normalization retains two prompt-progress sentinel zeros as generated token IDs. Independent reconstruction excludes prompt_progress. All30 mismatches occur only in the explicitly INTERRUPTED legacy study.",
+    "effect": "Retained adverse evidence, no completed comparison or scientific eligibility. Original output never edited."
+  },
+  "reanalyzed_csvs": {
+    "quality": 5,
+    "candidate": 7,
+    "systems": 5
+  },
+  "reanalysis_scientific_data": "All compared scientific CSVs match byte for byte; systems summary JSON, quality summary/gates/split audit/deduplicated costs also match. JSON differences are explicit path/manifest/renderer bindings and current reanalysis clock fields.",
+  "quality_figures_byte_identical": 9,
+  "frozen_controller": {
+    "mode": "ALWAYS_FULL",
+    "labels_checked": 64,
+    "fixed_calibration_thresholds_checked": 6,
+    "frozen_tree_nodes_checked": 7,
+    "declared_split_candidates_checked": 69,
+    "retrained": false
+  },
+  "matched_record_control": {
+    "fit_tables": 32,
+    "symbolic_answer_preserved": 0,
+    "native_correct": 0,
+    "comparison_limit": "This particular nonsemantic prefix control is weak by construction as a task-preservation comparator; its failure cannot support superiority over all shortening methods."
+  },
+  "split_limit": "D development and C confirmation namespaces plus split-derived random streams change lexical inputs. Disjoint tables do not establish IID exchangeability or lexical invariance.",
+  "substantive_distinctness": {
+    "quality": "Quality-gated same-input prefix-reuse batch benchmark; no interactive SLO or all-allocation gain.",
+    "candidate": "Uncached prompt omission and an actual fitted harmful-omission controller that refuses deployment; grammar preservation does not preserve model answers.",
+    "systems": "Query-dependent omission versus full-context caching, retaining first-use/subsequent-query input work and model/context transfer; no eligible efficiency claim."
+  },
+  "overall_claim_limit": "All tasks are directly solvable by symbolic interpretation. These are bounded CPU model-input/serving observations, not a workload requiring general language inference or a general task-solving advance.",
+  "unobserved_gates": [
+    "public release",
+    "separate physical-host execution",
+    "external person use",
+    "qualified researcher review",
+    "accessibility expertise"
+  ],
+  "visual_review": {
+    "inspected": [
+      "quality paired-effects.png",
+      "candidate confirmation-four-outcomes.png",
+      "systems h1-small-reuse24-cache.png"
+    ],
+    "observations": "Labels, denominators, arm/pair distinctions and units visible; candidate chart retains both-wrong classes; systems chart explicitly distinguishes first/subsequent/all-query units and differing y scales. This is not expert accessibility review."
+  },
+  "created_ns": 304058080609469,
+  "native_reproduction_status_at_offline_checkpoint": "RUNNING",
+  "quality_queue_provenance_gap": {
+    "id": "QP-01",
+    "original_status": "Candidate03 omitted exact original queue receipt, registration and product log despite listing their hashes.",
+    "source_supplement_status": "Exact original bytes now independently verified against original inventory hashes; all three claimed queue/process intervals recomputed exactly.",
+    "verification": "quality-queue-supplement-check.json",
+    "final_zip_inclusion": "Separate final integration validation; original candidate03 ZIP remains unchanged."
+  },
+  "entrypoint_relative_links_checked": 50,
+  "entrypoint_missing_relative_links": 0,
+  "updated_ns": 304658215821237
+}

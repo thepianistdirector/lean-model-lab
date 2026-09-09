@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "native_offered": 1984,
+  "actual_exports": 8,
+  "unique_original_tables": 200,
+  "native_execution_s": 4104.999705749,
+  "manifest_sha256": "f3e29240b15aad46cd704e95a7c4f4ffecfba310ac4594efac43997ac3942760",
+  "executed_staged_scripts": {
+    "reanalyze.py": "5b0d3f9831b9693713580c2dd164d69634545bc1e096b5efd7c6a72c47932b6b",
+    "validate_training.py": "61fd1e423e3a8db417204c7840291841ac5a150f3ab2ce8171893ca8ba75d037",
+    "summarize_resources.py": "2310805f29139732936dc7eaa9b6c408cea75a70c460f7f3af2d691d4c0627d2",
+    "illustrations.py": "1798b3bcb899e61dffcea741276d36ee42cde902d6725e72f373e6ad66167ea8",
+    "plot.py": "6adf519387e0495e6b4e1d4f6671e9362e8c542e3c2c8053fa1186f32945bb4e"
+  },
+  "original_analysis_sha256": "77e46c4f0d8886203a1bc290150ed4b23eb730f0eb576ac809468430a4c277ec",
+  "training_validation_sha256": "30adbe299cecbb5012edea78b5c2b89b5520b8733c866f69d6696c30c4e52b49",
+  "resource_summary_sha256": "a22fd25997c2cb18bc7c74d0da28e8e80fe09387bef32f9026679ea152b6116d",
+  "illustration_receipt_sha256": "8b93cefb64f9eb5a97516f17283ff8266d443795616bbe224df92eec7e0b692e",
+  "operational_derivatives": [
+    {
+      "artifact": "docs/research/candidate-study/publication/tables/final/analysis.json",
+      "original_sha256": "77e46c4f0d8886203a1bc290150ed4b23eb730f0eb576ac809468430a4c277ec",
+      "derived_sha256": "1f2e69267afb9471ac1624424efa01608c4d453af3afa67d3d3e432036175436",
+      "operation": "Operational absolute evidence root replaced with $EVIDENCE_ROOT; scientific values unchanged."
+    }
+  ],
+  "scope": "All five staged portable entrypoints executed on the corrected actual eight-export alias layout. Original native identity retained. All seven CSVs and regenerated PNGs byte-identical; published reviewed figure files unchanged. Prior manifest/proofs/operator map retained under explicit before-package-alias names. This validates the real CLI study-argument parser, not the still-separate global ZIP build.",
+  "alias_correction_receipt_sha256": "03020cecb62f0150040b4496bc3de162079f11849b089a6b4c7329e85bad59e4"
+}

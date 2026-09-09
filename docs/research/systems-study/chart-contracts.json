@@ -1,0 +1,51 @@
+{
+  "surface": "User-requested standalone scientific figures (PNG, SVG and PDF), rendered with existing Matplotlib environment; source figures for manuscript, not a new HTML application.",
+  "palette_policy": "hard two-root cap: blue #3478B8 for full-context cached baseline, gold #C99024 for sliced cached candidate; charcoal text, neutral grids. Hatches and direct labels distinguish arms without color.",
+  "branding": "Third-party project manuscript; no provider blossom or other implied institutional endorsement.",
+  "charts": [
+    {
+      "id": "quality",
+      "question": "Does either arm meet the predeclared 95% quality gate?",
+      "takeaway": "Each observed model and case must clear its own unchanged quality threshold; pooled counts expose all offered outputs and do not create independent samples.",
+      "family": "Comparison and benchmark",
+      "type": "Grouped zero-based bars with a 95% reference line",
+      "data": "tables/cases.csv; numerator and full offered denominator per arm. Each development case has 16 native outputs per arm, comprising two repetitions of eight unique tasks; no confidence intervals.",
+      "footprint": "Width adapts to case count; 5.5 inches high",
+      "outputs": "figures/quality.{png,svg,pdf}",
+      "qa": "Inspect the exported PNG at native size for labels, threshold placement, denominator and absence of an unsupported efficiency claim."
+    },
+    {
+      "id": "cache",
+      "question": "How does actual prefix reuse change cold, warm and full-table new-token work?",
+      "takeaway": "Cold and warm histories can point in different directions. All-query totals always retain first-use work.",
+      "family": "Comparison across cache state",
+      "type": "Three zero-based bar panels: first-use new tokens, mean subsequent-query new tokens, total new tokens per attempt",
+      "data": "tables/requests.csv and tables/attempts.csv; all observed native counters, averaged across the retained repetitions. First-use requests and table transitions remain included.",
+      "footprint": "12 by 4.4 inches per case",
+      "outputs": "figures/<case>-cache.{png,svg,pdf}",
+      "qa": "Panel denominators and different y scales are explicit; no timing or API-price equivalence is implied."
+    },
+    {
+      "id": "cost",
+      "question": "Do service observations translate to full attempt cost differences?",
+      "takeaway": "Service and other charged attempt work stay visible separately; a quality failure prevents an efficiency claim regardless of timing direction.",
+      "family": "Cost decomposition and paired comparison",
+      "type": "Stacked zero-based bars for service and remaining attempt wall, grouped by balanced pair",
+      "data": "tables/attempts.csv; individual attempts and complete costs, without omissions or hypothetically pooled cache histories.",
+      "footprint": "10 by 4.8 inches per case",
+      "outputs": "figures/<case>-cost.{png,svg,pdf}",
+      "qa": "Service plus remaining work exactly sum to full attempt wall; pair labels and AB/BA producer order are clear. Failed states remain in the analysis."
+    },
+    {
+      "id": "table-effects",
+      "question": "Does warm-token reversal recur across new tables, and which harmful, beneficial and shared correctness outcomes accompany it?",
+      "takeaway": "Display every retained table and both balanced repetitions, keeping all four correctness classes and the unchanged eligibility decision visible.",
+      "family": "Paired per-table comparison and composition",
+      "type": "Two thin bars per table for subsequent-query slice-minus-full new-token work, alongside two stacked eight-task correctness-class bars per table.",
+      "data": "tables/tables.csv; each held-out case has 16 table groups and two balanced repetitions. First-use work remains in the other figures and full accounting.",
+      "footprint": "13 by 5.6 inches per held-out case",
+      "outputs": "figures/<case>-table-effects.{png,svg,pdf}",
+      "qa": "All table indices and both repetitions are present; stacked classes sum to eight; warm-delta signs agree with raw-derived counter totals. No independent-query uncertainty or quality-qualified efficiency claim after ineligibility."
+    }
+  ]
+}

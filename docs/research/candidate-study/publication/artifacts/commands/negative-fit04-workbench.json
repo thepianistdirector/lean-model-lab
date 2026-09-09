@@ -1,0 +1,27 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "workbench",
+    "--study",
+    ".cache/v1-investigations-20260908/candidate/negative-fit-study04",
+    "--output",
+    ".cache/v1-investigations-20260908/candidate/negative-fit-workbench04.json",
+    "--html",
+    ".cache/v1-investigations-20260908/candidate/negative-fit-workbench04.html"
+  ],
+  "exit_code": 0,
+  "finished_ns": 291458170750564,
+  "label": "negative-fit04-workbench",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 291457606546013,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 159,
+    "sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "scope": "Exact-byte publication filename adaptation for the source archive text allowlist. Original installer filenames and private originals are preserved by this mapping; no dependency reinstallation or scientific evidence change.",
+  "path_base": "Containing pdf-qa-provenance directory for original_public_filename and included_filename; workspace root for retained_private_original.",
+  "files": [
+    {
+      "original_public_filename": "installed-metadata/INSTALLER",
+      "included_filename": "installed-metadata/INSTALLER.txt",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "retained_private_original": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-provenance/installed-metadata/INSTALLER",
+      "private_original_sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "original_public_filename": "installed-metadata/METADATA",
+      "included_filename": "installed-metadata/METADATA.txt",
+      "bytes": 66484,
+      "sha256": "ef3d3b0b63299fda9e9df2fbd3978dfef47a3dd35817f979c4a13891d0089b5d",
+      "retained_private_original": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-provenance/installed-metadata/METADATA",
+      "private_original_sha256": "ef3d3b0b63299fda9e9df2fbd3978dfef47a3dd35817f979c4a13891d0089b5d"
+    },
+    {
+      "original_public_filename": "installed-metadata/RECORD",
+      "included_filename": "installed-metadata/RECORD.txt",
+      "bytes": 9713,
+      "sha256": "77475d1276ded59eb8d3ecc0bb6f4559145f227ec9bc8bc3b79b34b18d623094",
+      "retained_private_original": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-provenance/installed-metadata/RECORD",
+      "private_original_sha256": "77475d1276ded59eb8d3ecc0bb6f4559145f227ec9bc8bc3b79b34b18d623094"
+    },
+    {
+      "original_public_filename": "installed-metadata/REQUESTED",
+      "included_filename": "installed-metadata/REQUESTED.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retained_private_original": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-provenance/installed-metadata/REQUESTED",
+      "private_original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "original_public_filename": "installed-metadata/WHEEL",
+      "included_filename": "installed-metadata/WHEEL.txt",
+      "bytes": 145,
+      "sha256": "af9692d48e099b442a5d1067c267c59491e13ba47f761b33ae0b2b8e01714190",
+      "retained_private_original": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-provenance/installed-metadata/WHEEL",
+      "private_original_sha256": "af9692d48e099b442a5d1067c267c59491e13ba47f761b33ae0b2b8e01714190"
+    },
+    {
+      "original_public_filename": "installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg",
+      "included_filename": "installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt",
+      "bytes": 12799,
+      "sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6",
+      "retained_private_original": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-provenance/installed-metadata/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg",
+      "private_original_sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6"
+    },
+    {
+      "original_public_filename": "license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg",
+      "included_filename": "license-files/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg.txt",
+      "bytes": 12799,
+      "sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6",
+      "retained_private_original": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-dependencies/pypdfium2-5.13.0.dist-info/licenses/data/linux_x64/BUILD_LICENSES/libjpeg_turbo.ijg",
+      "private_original_sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6"
+    },
+    {
+      "original_public_filename": "original-install.log",
+      "included_filename": "original-install.log.txt",
+      "bytes": 580,
+      "sha256": "d8d173f08239da30da3eec6483fe00fc94ef005e87ff5f07a3e8cf3191961b7c",
+      "retained_private_original": ".cache/v1-investigations-20260908/quality/confirmation-14b/pdf-qa-provenance/original-install.log",
+      "private_original_sha256": "d8d173f08239da30da3eec6483fe00fc94ef005e87ff5f07a3e8cf3191961b7c"
+    }
+  ]
+}

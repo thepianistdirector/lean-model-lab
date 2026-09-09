@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "evidence_root": ".",
+  "scope": "Use --evidence-root for the extracted self-contained investigation root; analysis output can be any new directory.",
+  "cases": [
+    {
+      "id": "d1-small-reuse24",
+      "study": "evidence/systems-d1-small-reuse24/study",
+      "report": "lean-model-lab-source/docs/research/systems-study/provenance/d1-small-reuse24/report.json",
+      "inspect": "lean-model-lab-source/docs/research/systems-study/provenance/d1-small-reuse24/inspect-export.json",
+      "raw_audit": "lean-model-lab-source/docs/research/systems-study/provenance/d1-small-reuse24/raw-audit-export.json",
+      "queue_receipt": "lean-model-lab-source/docs/research/systems-study/provenance/d1-small-reuse24/queue-receipt.json"
+    },
+    {
+      "id": "d2-large-reuse24",
+      "study": "evidence/systems-d2-large-reuse24/study",
+      "report": "lean-model-lab-source/docs/research/systems-study/provenance/d2-large-reuse24/report.json",
+      "inspect": "lean-model-lab-source/docs/research/systems-study/provenance/d2-large-reuse24/inspect-export.json",
+      "raw_audit": "lean-model-lab-source/docs/research/systems-study/provenance/d2-large-reuse24/raw-audit-export.json",
+      "queue_receipt": "lean-model-lab-source/docs/research/systems-study/provenance/d2-large-reuse24/queue-receipt.json"
+    },
+    {
+      "id": "h1-small-reuse24",
+      "study": "evidence/systems-h1-small-reuse24/study",
+      "report": "lean-model-lab-source/docs/research/systems-study/provenance/h1-small-reuse24/report.json",
+      "inspect": "lean-model-lab-source/docs/research/systems-study/provenance/h1-small-reuse24/inspect-export.json",
+      "raw_audit": "lean-model-lab-source/docs/research/systems-study/provenance/h1-small-reuse24/raw-audit-export.json",
+      "queue_receipt": "lean-model-lab-source/docs/research/systems-study/provenance/h1-small-reuse24/queue-receipt.json"
+    },
+    {
+      "id": "h2-small-reuse64",
+      "study": "evidence/systems-h2-small-reuse64/study",
+      "report": "lean-model-lab-source/docs/research/systems-study/provenance/h2-small-reuse64/report.json",
+      "inspect": "lean-model-lab-source/docs/research/systems-study/provenance/h2-small-reuse64/inspect-export.json",
+      "raw_audit": "lean-model-lab-source/docs/research/systems-study/provenance/h2-small-reuse64/raw-audit-export.json",
+      "queue_receipt": "lean-model-lab-source/docs/research/systems-study/provenance/h2-small-reuse64/queue-receipt.json"
+    },
+    {
+      "id": "h3-large-reuse24",
+      "study": "evidence/systems-h3-large-reuse24/study",
+      "report": "lean-model-lab-source/docs/research/systems-study/provenance/h3-large-reuse24/report.json",
+      "inspect": "lean-model-lab-source/docs/research/systems-study/provenance/h3-large-reuse24/inspect-export.json",
+      "raw_audit": "lean-model-lab-source/docs/research/systems-study/provenance/h3-large-reuse24/raw-audit-export.json",
+      "queue_receipt": "lean-model-lab-source/docs/research/systems-study/provenance/h3-large-reuse24/queue-receipt.json"
+    }
+  ]
+}

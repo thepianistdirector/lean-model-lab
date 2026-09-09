@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "study": "negative-confirm-slice-study04",
+  "manifest_sha256": "f3e29240b15aad46cd704e95a7c4f4ffecfba310ac4594efac43997ac3942760",
+  "analysis_sha256": "77e46c4f0d8886203a1bc290150ed4b23eb730f0eb576ac809468430a4c277ec",
+  "selection_rule_sha256": "6809ebc3d4c9cc9c07c671bd97876f3b03865a8f33880bcbb0daeb72587dcff4",
+  "selection_script_sha256": "1798b3bcb899e61dffcea741276d36ee42cde902d6725e72f373e6ad66167ea8",
+  "selections": [
+    {
+      "kind": "harmful",
+      "status": "SELECTED",
+      "request_id": "r009",
+      "artifact": "harmful-r009.json",
+      "qualifying_repeated_cases": 13,
+      "qualifying_repeated_lookup_cases": 11
+    },
+    {
+      "kind": "beneficial",
+      "status": "SELECTED",
+      "request_id": "r003",
+      "artifact": "beneficial-r003.json",
+      "qualifying_repeated_cases": 24,
+      "qualifying_repeated_lookup_cases": 12
+    }
+  ],
+  "native_execution": false
+}

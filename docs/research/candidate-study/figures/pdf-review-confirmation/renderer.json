@@ -1,0 +1,5 @@
+{
+  "renderer": "pypdfium2",
+  "version": "5.13.0",
+  "scope": "Local visual QA only; rendered output still requires visual inspection. No model execution."
+}

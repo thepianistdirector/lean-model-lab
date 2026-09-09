@@ -1,0 +1,13 @@
+{
+  "full_attempt_gate": "Prospectively declared external protocol requirement in addition to native v2 service criterion.",
+  "full_attempt_practical_threshold_ratio": 1.05,
+  "maximum_tail_ratio": 1.1,
+  "native_v2_eligible": true,
+  "observed_pairs": 2,
+  "observed_requests": 512,
+  "offered_requests": 512,
+  "required_pairs": 2,
+  "service_practical_threshold_ratio": 1.05,
+  "slo_goodput_separate": true,
+  "status": "PASS"
+}

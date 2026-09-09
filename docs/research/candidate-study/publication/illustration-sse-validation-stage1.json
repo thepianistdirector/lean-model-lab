@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "Additional independent check of actual exported native SSE streams for the already selected illustrations; no native execution or case reselection.",
+  "development_correction": "An initial auxiliary decoder counted prompt-progress sentinel token fields as output tokens. The native stream explicitly marks these events with prompt_progress and tokens_predicted=0. The corrected decoder verifies their empty generated content and excludes only these progress events; product scoring and the existing independent raw audit were already correct.",
+  "checks": [
+    {
+      "artifact": "harmful-r009.json",
+      "same_prospectively_selected_case": true,
+      "previous_scientific_fields_unchanged": true,
+      "raw_native_stream_reconstruction": "PASS"
+    },
+    {
+      "artifact": "beneficial-r003.json",
+      "same_prospectively_selected_case": true,
+      "previous_scientific_fields_unchanged": true,
+      "raw_native_stream_reconstruction": "PASS"
+    }
+  ],
+  "script_sha256": "1798b3bcb899e61dffcea741276d36ee42cde902d6725e72f373e6ad66167ea8"
+}

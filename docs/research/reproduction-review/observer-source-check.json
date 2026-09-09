@@ -1,0 +1,95 @@
+{
+  "status": "EXACT_ORIGINAL_PRODUCER_SOURCE_CONFIRMED",
+  "producer_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+  "modules": [
+    {
+      "archive_member": "lean_model_lab/runner_recipe.py",
+      "sha256": "ea5cd67043fccbd622b49bb7aa6c6e7b271a241a7342c0708ad326f8cf497106",
+      "matches_extracted_source": true,
+      "references": [
+        {
+          "line": 21,
+          "text": "from .runner import (RunStopped,_free_port,_json_request,_limits,_rss,_stream,directory_bytes,"
+        },
+        {
+          "line": 120,
+          "text": "        replay=LaneReplay(workload,concurrency,service_started);futures={};last_disk=0"
+        },
+        {
+          "line": 132,
+          "text": "                        if now-last_disk>10**9:"
+        },
+        {
+          "line": 133,
+          "text": "                            if directory_bytes(project_root)>limits['disk_bytes']:raise RunStopped('project disk allocation exhausted')"
+        },
+        {
+          "line": 134,
+          "text": "                            last_disk=now"
+        }
+      ]
+    },
+    {
+      "archive_member": "lean_model_lab/resources.py",
+      "sha256": "6841951647e49dd5971eb45c623aba4186fe8c2ff96656f2b3249a849f06ae37",
+      "matches_extracted_source": true,
+      "references": []
+    },
+    {
+      "archive_member": "lean_model_lab/runner.py",
+      "sha256": "05ace5087a12c5324acca1ec56706a5ff86de38bcaa3e36a8cbe32eed63b289d",
+      "matches_extracted_source": true,
+      "references": [
+        {
+          "line": 73,
+          "text": "def directory_bytes(path: Path) -> int:"
+        },
+        {
+          "line": 74,
+          "text": "    total=0"
+        },
+        {
+          "line": 75,
+          "text": "    for entry in path.rglob('*'):"
+        },
+        {
+          "line": 76,
+          "text": "        if entry.is_file() and not entry.is_symlink():"
+        },
+        {
+          "line": 77,
+          "text": "            try:total+=entry.stat().st_size"
+        },
+        {
+          "line": 78,
+          "text": "            except FileNotFoundError:pass"
+        },
+        {
+          "line": 79,
+          "text": "    return total"
+        },
+        {
+          "line": 80,
+          "text": ""
+        },
+        {
+          "line": 81,
+          "text": ""
+        },
+        {
+          "line": 82,
+          "text": "def _rss(pid: int, field='VmRSS') -> int | None:"
+        },
+        {
+          "line": 83,
+          "text": "    try:"
+        },
+        {
+          "line": 84,
+          "text": "        for line in Path(f'/proc/{pid}/status').read_text().splitlines():"
+        }
+      ]
+    }
+  ],
+  "interpretation": "The synchronous periodic whole-workspace disk-usage scan is in the exact original producer. A changed workspace is a plausible contributor to observed coordinator gaps; no isolated causal timing experiment was performed and no scan duration is measured by this source check."
+}

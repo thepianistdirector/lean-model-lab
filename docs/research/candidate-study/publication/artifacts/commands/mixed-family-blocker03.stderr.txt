@@ -1,0 +1,23 @@
+usage: lean-model-lab research study-create [-h] --proposal PROPOSAL
+                                            --protocol PROTOCOL
+                                            [--controller CONTROLLER]
+                                            --allocation ALLOCATION
+                                            --model-profile MODEL_PROFILE
+                                            --output OUTPUT --family
+                                            {record-lookup,reference-chain,record-updates,record-reuse}
+                                            [--context-records {8,24,64}]
+                                            --split {development,confirmation}
+                                            [--requests REQUESTS] --seed SEED
+                                            [--max-output-tokens MAX_OUTPUT_TOKENS]
+                                            [--concurrency CONCURRENCY [CONCURRENCY ...]]
+                                            [--pairs PAIRS]
+                                            [--threads THREADS] --purpose
+                                            {DEVELOPMENT,MEASUREMENT}
+                                            [--arrival {simultaneous,paced,burst}]
+                                            [--interval-ms INTERVAL_MS]
+                                            [--burst-size BURST_SIZE]
+                                            [--queue-capacity QUEUE_CAPACITY]
+                                            [--admission-deadline-ms ADMISSION_DEADLINE_MS]
+                                            [--ttft-slo-ms TTFT_SLO_MS]
+                                            [--end-to-end-slo-ms END_TO_END_SLO_MS]
+lean-model-lab research study-create: error: argument --family: invalid choice: 'record-mixed-v1' (choose from record-lookup, reference-chain, record-updates, record-reuse)

@@ -1,0 +1,230 @@
+{
+  "status": "COMPLETED_ACTUAL_PRELIMINARY_PACKAGE_WORKFLOW",
+  "started_ns": 291477520691275,
+  "execution_started_ns": 291838310469238,
+  "finished_ns": 291891159216496,
+  "original_deadline_ns": 310468865220540,
+  "allocation_id": "lean-model-lab-0.4-20260908-01",
+  "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+  "python": "3.12.14",
+  "system": "Linux",
+  "machine": "x86_64",
+  "kernel": "4.18.0-553.159.1.el8_10.x86_64",
+  "offered_native_cap": 64,
+  "execution_ceiling_seconds": 300,
+  "scope": "Preliminary packaged application in a same-host detached worktree, with an explicit minimal environment, shared original leases/allocation, and reused admitted weights/backend. Not a final distribution, separate physical host or external person.",
+  "environment_keys": [
+    "LANG",
+    "OMP_NUM_THREADS",
+    "OPENBLAS_NUM_THREADS",
+    "PATH",
+    "PYTHONDONTWRITEBYTECODE",
+    "TMPDIR"
+  ],
+  "recipe_sha256": "50ea3e7a86eec536e1bcd964e14a3b05e4d3d59d134a747d099439d8c12ec74e",
+  "schema_version": 1,
+  "original_receipt_sha256": "53607c1aebf7e16f6bec07b6cb5e732838315f0f470086ff2ec1425e26ac2f6b",
+  "projection": "Exact command paths omitted; step outcomes and log digests retained. Original receipt remains retained.",
+  "steps": [
+    {
+      "name": "version",
+      "started_ns": 291477521106167,
+      "finished_ns": 291477584823923,
+      "exit_code": 0,
+      "stdout_sha256": "02c273fd4e0e03afde30730e55a1b0558e7d40777889e92307cf0b5f46fa715b",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "profiles",
+      "started_ns": 291477584935090,
+      "finished_ns": 291477648498450,
+      "exit_code": 0,
+      "stdout_sha256": "28cff260e4fe2f08cecd2cced307f8662810318627a2cebfefaa5546d3a48e6e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "mechanisms",
+      "started_ns": 291477648707238,
+      "finished_ns": 291477712423833,
+      "exit_code": 0,
+      "stdout_sha256": "d363d0baec498afa4949c45874bc35816c243cc810d91f2b0e14ae02228f6d89",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "trace-validate",
+      "started_ns": 291477712599008,
+      "finished_ns": 291477776250172,
+      "exit_code": 0,
+      "stdout_sha256": "076b1fc717e594215ab65792b26a6aa25d2736faf8d3f07f20749c7378c1ae94",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "proposal",
+      "started_ns": 291477776479959,
+      "finished_ns": 291477890159933,
+      "exit_code": 0,
+      "stdout_sha256": "af91957614045722e7c09cfed34c01d54ffca3dc1108e60b1a4edc4db8df5f66",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "protocol",
+      "started_ns": 291477890395101,
+      "finished_ns": 291477954032778,
+      "exit_code": 0,
+      "stdout_sha256": "12e4057f7b687a936c98533fc4f16a185d52323bc79dce7e697d0b201f2eedd6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "freeze",
+      "started_ns": 291477954223974,
+      "finished_ns": 291478067863343,
+      "exit_code": 0,
+      "stdout_sha256": "571971a37b0c402a04e37f0ab7a266921dd51bedeb8b6456dc70c2baea8072e1",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "verify-freeze",
+      "started_ns": 291478068101005,
+      "finished_ns": 291478131698849,
+      "exit_code": 0,
+      "stdout_sha256": "cecb1755f72ce080bdb6e213cef2dc61e9fd791d9acd5a04b3c4b04bb3485865",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "recipe",
+      "started_ns": 291478132008214,
+      "finished_ns": 291478245674062,
+      "exit_code": 0,
+      "stdout_sha256": "1fda8db0243c27bc096d5c62be1b2b2b4e457cdde79d3b20f3a1951a8b810537",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "recipe-validate",
+      "started_ns": 291478245852183,
+      "finished_ns": 291478309417577,
+      "exit_code": 0,
+      "stdout_sha256": "0bcda3811efaa6e650fc290c64608bf511d4aaea9c7d86f5b70c0849c7f32ef3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "adopt",
+      "started_ns": 291838310505485,
+      "finished_ns": 291839175261617,
+      "exit_code": 0,
+      "stdout_sha256": "0c62188f5c79e627717ecfae35fd6efc8aaa89cb4bc7d2b7106a5b707f310255",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "native",
+      "started_ns": 291839175544433,
+      "finished_ns": 291873890246839,
+      "exit_code": 0,
+      "stdout_sha256": "89691c177afbddb38559f7f7fc288ce42d2e39eb2d3098766eecc51a85eecbbe",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "inspect",
+      "started_ns": 291873890525667,
+      "finished_ns": 291874104377898,
+      "exit_code": 0,
+      "stdout_sha256": "082f0b694207c4302b08e1516eeaab501d8438987a2e0989e6a51bb62bc83fcc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "report",
+      "started_ns": 291874104500155,
+      "finished_ns": 291874368275040,
+      "exit_code": 0,
+      "stdout_sha256": "c5543f0e9dd027bd30d5dd11ff3d3ccc061c71b4e680b3e377c9fdc071133c7f",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "workbench",
+      "started_ns": 291874368398339,
+      "finished_ns": 291874732288063,
+      "exit_code": 0,
+      "stdout_sha256": "70d6b55984c07ddd48a51786ff5c710b08d8c10b552072d646df3c193b3f51c2",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "raw-audit",
+      "started_ns": 291874732516397,
+      "finished_ns": 291874946284872,
+      "exit_code": 0,
+      "stdout_sha256": "0bf1b64fd3a8e0b8f13f1bd763a0452a842545acf00bf8baaea8d839ed0bb388",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "recovery",
+      "started_ns": 291874946493059,
+      "finished_ns": 291890380365107,
+      "exit_code": 0,
+      "stdout_sha256": "73dd12cb84bfc96537e1c60497c3e1f1912b6d16feab56e8757281b457252cfc",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "export",
+      "started_ns": 291890380570789,
+      "finished_ns": 291890844592965,
+      "exit_code": 0,
+      "stdout_sha256": "fc4637c17dc70cb1c987d3f1bac2856cb095f49b1b239ca587fbbd5c33bbd338",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "export-recovery",
+      "started_ns": 291890844790593,
+      "finished_ns": 291891158940322,
+      "exit_code": 0,
+      "stdout_sha256": "651bbc001f37c2c2d9c675d9758f079d4c03b815a3360188301d81e1f8148443",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "recovery": {
+    "allocation_elapsed_ns": 24621471585897,
+    "allocation_id": "lean-model-lab-0.4-20260908-01",
+    "allocation_started_ns": 267268865220540,
+    "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+    "backend_stopped_on_parent_death": true,
+    "damaged_journal_sha256": "a71fa2c9ccb52e6b428368cc449fa28686f45428d2673d357256c0218c103b46",
+    "evidence_class": "MEASURED_RECOVERY_CONTROL",
+    "finished_ns": 291890336806437,
+    "observed_requests_before_crash": 2,
+    "original_attempt_id": "attempt-23a991e03ec94d0eb51fcdddaa49a1dc",
+    "original_attempt_unchanged": true,
+    "original_journal_sha256": "7f46d9a74e096b590ad17d1c483271241c3f98d08fa93ef99ff53022e0c83ca0",
+    "recipe_sha256": "46db99c115954c09232f213466cd1a77985a1ac2155ec2e88f49c69be3e98506",
+    "replacement_attempt_id": "attempt-dc2291c0db51424295184db2e2335f50",
+    "replacement_requests": 8,
+    "resume_exit_code": -2,
+    "retained_attempt_count": 2,
+    "retained_observed_requests": 10,
+    "schema_version": 2,
+    "scope": "Intentional crash, torn-journal repair, same-boot reconciliation and first-cell restart using the real packaged CLI/model; not a completed extra comparison.",
+    "started_ns": 291874990176441,
+    "status": "PASS",
+    "stop_semantics": "SIGINT after first replacement terminal; graceful cancellation or KeyboardInterrupt accepted only after final inventory reconciliation",
+    "study_schema_version": 3,
+    "successful_replacement_native_requests": 8,
+    "unique_terminal_ids": true,
+    "within_original_allocation": true
+  },
+  "exports": {
+    "export": {
+      "changed_raw_file_count": 36,
+      "expected_requests": 32,
+      "observed_requests": 32,
+      "provenance_sha256": "e2d5624af3e4ab4643f773f509ce7c160a7b11596c9fbaca407128d534b0cd17",
+      "report_sha256": "0d10e5fb914d768618340af91c0b44919d17d6a14b05c85d040503956539772d",
+      "status": "LOCAL_REDACTED_EXPORT_VERIFIED_NOT_PUBLISHED"
+    },
+    "recovery-export": {
+      "changed_raw_file_count": 12,
+      "expected_requests": 16,
+      "observed_requests": 10,
+      "provenance_sha256": "daf742293b4ff6c1b3634098796701922478db55a6179bc65a24eef415f9813b",
+      "report_sha256": "96a7697a528ccca0a9529a02df0f526ba5ff31d3799a1dfbf655b558ec8213ed",
+      "status": "LOCAL_REDACTED_EXPORT_VERIFIED_NOT_PUBLISHED"
+    }
+  },
+  "raw_audit_status": "PASS"
+}

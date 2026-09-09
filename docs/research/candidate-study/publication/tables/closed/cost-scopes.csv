@@ -1,0 +1,3 @@
+study,native_offered,unique_tables,queue_execution_s,attempt_full_wall_s,enclosing_study_span_s,original_allocation_full_wall_ns,scope
+feasibility-14b-study03,32,8,468.325690458,464.343599159,465.030172787,20029974920996,"Queue, attempt and allocation scopes overlap; never add them. Only disjoint queue executions are summed across studies."
+clarification-0.5b-study04,32,8,54.699974316,50.117869076,50.814678394,20745075203626,"Queue, attempt and allocation scopes overlap; never add them. Only disjoint queue executions are summed across studies."

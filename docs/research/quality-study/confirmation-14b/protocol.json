@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "classification": "PROSPECTIVELY_FROZEN_HELD_OUT_14B_CONFIRMATION",
+  "frozen_utc": "2026-09-08T19:18:42Z",
+  "frozen_monotonic_ns": 288311331431991,
+  "question": "Does the known native same-slot prefix-cache effect retain exact task quality and output parity, practical batch efficiency, and non-regressing tails on one new seeded 14B workload?",
+  "hypothesis": "Same-slot prefix reuse preserves all observed exact answers and output token identities while reducing both service and full-attempt cost on this new 128-request key-copy population. Absolute service latency may still miss the frozen SLOs.",
+  "primary_sources": [
+    "https://arxiv.org/abs/2312.07104",
+    "https://arxiv.org/abs/2412.15115",
+    "https://github.com/ggml-org/llama.cpp/tree/bb4caa7540188872173c44d161602d9271386413"
+  ],
+  "historical_evidence": "The completed 2048-request historical 14B study informed this follow-up. It remains unchanged and was not protected confirmation. The stopped 0.5B branch remains closed with its confirmation unstarted.",
+  "implementation": {
+    "archive": ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+    "implementation_sha256": "18c28e8075ebc9e5651bf4e0a66c2fca332480b4834a7342fc49d43775a9ab32",
+    "version": "1.0.0.dev0",
+    "recipe_schema_version": 2
+  },
+  "population": {
+    "family": "standard v2 synthetic filler/key-copy",
+    "requests_per_arm": 128,
+    "seed": 2026090901,
+    "concurrency_modes": [
+      4
+    ],
+    "pairs": 2,
+    "pair_order": [
+      "AB",
+      "BA"
+    ],
+    "arrival_mode": "simultaneous",
+    "max_output_tokens": 32,
+    "queue_capacity": 128,
+    "admission_deadline": null
+  },
+  "model_runtime": {
+    "model_profile": "qwen2.5-14b-instruct-fp16-v1",
+    "model_revision": "b466e1f8c07172155743e8e1307507d8a4f91fbd",
+    "first_shard_sha256": "18ccd380458642716373134dd9aeb194bf11b97085c5ce78aaec768f0f2a51aa",
+    "backend_revision": "bb4caa7540188872173c44d161602d9271386413",
+    "backend_sha256": "e6e4555daed18ae36a87276f16bd4c9f859c92787884b726b7967474d8c4681e",
+    "backend_patch_sha256": "598d10a911e4d9c33926bd2dfd75735d143b84db14ad644a7502f35bec8e0f1c",
+    "template_sha256": "5e72fa95f7f6782b2363d5a3e2f93e181098b914d2994180b050ad8fc67196f7",
+    "compute_threads": 12,
+    "thread_authorization": "Explicit root exception to six-thread preference, within original owner-approved twelve-thread and one-heavy-job ceiling.",
+    "settings": "Match historical 14B engine and sampling settings except new fixed seed, C4-only, two pairs and new producer archive. No additional setting change."
+  },
+  "comparator": "Identical model, actual prompt token IDs, offered requests, sampling and execution settings within pair. Baseline cache_prompt=false; candidate cache_prompt=true. No changed-input intervention or additional ablation.",
+  "quality_gate": {
+    "minimum_accuracy_each_arm": 0.95,
+    "no_pair_accuracy_loss": true,
+    "exact_input_and_output_token_parity": true,
+    "all_offered_denominator": true,
+    "retain_harmful_beneficial_and_wrong_wrong_changes": true
+  },
+  "cost_latency_gate": {
+    "minimum_service_throughput_gain": 0.05,
+    "minimum_full_attempt_efficiency_gain": 0.05,
+    "maximum_p95_p99_tail_regression": 0.1,
+    "ttft_slo_seconds": 15,
+    "end_to_end_slo_seconds": 30,
+    "interpretation": "Report joint exact-answer/latency goodput separately even if native quality/efficiency eligibility passes. No claim that practical relative gains imply acceptable absolute service latency. Shared setup/allocation costs retained without assigning them twice."
+  },
+  "selection": "One fixed unseen seed and scenario selected by root before generation or observation. No confirmation input creation before this freeze, no tuning, interim selection, additional seed/family search or replacement study.",
+  "isolation": "Conventional prospective split: new fixed seed, frozen package/protocol before workload generation, candidate receives prompts only. Same Unix identity, accessible local files and no adversarial isolation; not cryptographically hidden data or external independent confirmation.",
+  "uncertainty": "Exactly two balanced pairs; report both effects and minimum/median/maximum with per-request output transitions and nearest-rank p50/p95/p99. No IID-request, significance, population-risk or universal-gain claim.",
+  "stopping": "Execute the one frozen study once. No retries. Stop on resource exhaustion, identity/protocol/runtime failure, cancellation, original deadline or 90-minute conservative queue-wrapper timeout. A failed/interrupted arm remains evidence; do not resume for a successful replacement.",
+  "budget": {
+    "additional_native_requests_max": 512,
+    "investigator_native_requests_total_max": 544,
+    "additional_queue_wrapper_seconds_max": 5400,
+    "original_allocation_start_ns": 267268865220540,
+    "original_allocation_deadline_ns": 310468865220540,
+    "max_heavy_jobs": 1,
+    "memory_bytes": 60000000000,
+    "disk_bytes": 200000000000,
+    "new_spend": false
+  },
+  "claim_limits": "Known cache mechanism and one held-out seed on one shared CPU host; no architecture or model-training contribution, controlled scaling law, external human validation, energy measurement or all-allocation savings ratio."
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "scope": "Actual exported study trees staged under public extraction layout with relative paths; no private-path dependency.",
+  "studies": [
+    {
+      "id": "14b",
+      "study": "evidence/retained-14b-main/study",
+      "report": "evidence/retained-14b-main/report.json",
+      "raw_audit": "audits/retained-14b-main.json",
+      "report_sha256": "6024c7a525d88ae81ffa5564acd982fb9c2f5dda458eed74de697b48cbd6a60b",
+      "raw_audit_sha256": "c38756b3c50be0665f66b2052a1a5e6bbee3ceb566c6bec0db239c098654215d",
+      "producer_archive": "producer-5ae4372aa38b68dbe4a198e431602b1e98a127727020bcb666b10d1af29d497f.pyz",
+      "producer_archive_sha256": "5ae4372aa38b68dbe4a198e431602b1e98a127727020bcb666b10d1af29d497f"
+    },
+    {
+      "id": "legacy-comparison",
+      "study": "evidence/legacy-05b-comparison/study",
+      "report": "evidence/legacy-05b-comparison/report.json",
+      "raw_audit": "audits/legacy-05b-comparison.json",
+      "report_sha256": "2d4923350a85ba036f10a546d46bf0b171da5f47c66708a32338beabbbb94367",
+      "raw_audit_sha256": "4a4b953e66a5d80f470cda97f2066a1457002b9f52953f386e07297f994409a9"
+    },
+    {
+      "id": "legacy-protocol-failure",
+      "study": "evidence/legacy-protocol-failure/study",
+      "report": "evidence/legacy-protocol-failure/report.json",
+      "raw_audit": "audits/legacy-protocol-failure.json",
+      "report_sha256": "685c7e96f7595a432922aae07a3e22632f9219b524ac3a90c037438c4cbac2af",
+      "raw_audit_sha256": "ac15a48b68762521518558f64d3d81a9a4eb24d0281d5b20ea5de519e26d5da4"
+    },
+    {
+      "id": "development",
+      "study": "evidence/quality-05b-development/study",
+      "report": "evidence/quality-05b-development/report.json",
+      "raw_audit": "audits/quality-05b-development.json",
+      "report_sha256": "c54a9da3961dd095a922e636885b854b45f1b1e0fcab5ab44aaac6f488ae625a",
+      "raw_audit_sha256": "cc7f5604ffd316f8a2d6b9654c6c691c81ec8822e33717727ac9ee614d95ba57",
+      "producer_archive": "producer-f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f.pyz",
+      "producer_archive_sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f"
+    },
+    {
+      "id": "confirmation-14b",
+      "study": "evidence/quality-14b-confirmation/study",
+      "report": "evidence/quality-14b-confirmation/report.json",
+      "raw_audit": "audits/quality-14b-confirmation.json",
+      "report_sha256": "c3bd5b569b424d1b14fd83471a2e4cec9a0db13b4e452fedbd998da2f990c478",
+      "raw_audit_sha256": "36707153095ee91cb76de689ddb73f49088f74faf2d416c8b132f7757e1fe295",
+      "producer_archive": "producer-5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986.pyz",
+      "producer_archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986"
+    }
+  ]
+}

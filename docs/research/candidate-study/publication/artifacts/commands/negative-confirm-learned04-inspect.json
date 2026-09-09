@@ -1,0 +1,22 @@
+{
+  "command": [
+    "python3",
+    "-I",
+    ".cache/packaged-v1-platform-20260908-04/lean-model-lab.pyz",
+    "inspect",
+    ".cache/v1-investigations-20260908/candidate/negative-confirm-learned-study04"
+  ],
+  "exit_code": 0,
+  "finished_ns": 298562021533132,
+  "label": "negative-confirm-learned04-inspect",
+  "scope": "Command receipt only; no assertion of quality or scientific eligibility.",
+  "started_ns": 298561206986728,
+  "stderr": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stdout": {
+    "bytes": 91870,
+    "sha256": "42c64fa7ea93ef571b2afb3bc4f339a63c3bd9e8ed5c412eda3a826c19d7b6a9"
+  }
+}

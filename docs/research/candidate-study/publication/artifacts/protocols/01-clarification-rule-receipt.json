@@ -1,0 +1,7 @@
+{
+  "created_monotonic_ns": 287739894305470,
+  "rule": ".cache/v1-investigations-20260908/candidate/01-clarification-rule.json",
+  "rule_sha256": "c4dd88762a5f864dbb7eb3e70bd0018b7d53dcc134de2b8c956342428f78af66",
+  "native_already_offered": 32,
+  "status": "RULE_FROZEN_AWAITING_FIXED_BUILD_AND_RECIPE_BINDING"
+}

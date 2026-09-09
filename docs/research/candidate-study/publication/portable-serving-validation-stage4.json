@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Added existing native serving metrics and unique input counts to independent portable analysis. Every previously reported scientific CSV value remains identical. No native reruns or evaluation changes.",
+  "original_column_value_equality": {
+    "requests.csv": true,
+    "repetition-stability.csv": true,
+    "attempts.csv": true,
+    "paired.csv": true,
+    "route-counts.csv": true,
+    "oracle-strata.csv": true,
+    "cost-scopes.csv": true
+  },
+  "native_offered": 448,
+  "unique_record_bodies_across_studies": 72,
+  "script_sha256": "b645559775b634e8365bcff32166ea39d5ee50a28683bf5fe9aa8612f0cabc3d"
+}

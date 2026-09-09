@@ -1,0 +1,703 @@
+{
+  "schema_version": 1,
+  "status": "PASS_SCOPED_ACTUAL_FINAL_RUNTIME_WORKBENCH",
+  "archive_sha256": "4d7c6dfa28f4efda1359075d01cd8cf0af613b6a6aab13617dc7de89f0c4fd17",
+  "implementation_sha256": "69ffbaab10385701d00629852777301d568702c5cdf97259a46486ccaaa1a570",
+  "queue_receipt_sha256": "7346f7d814d176ccee49291b316bce0befa77b24e0e41df5a8c6e010484cfa76",
+  "cases": [
+    {
+      "case": "quality-100",
+      "status": "PASS",
+      "original_receipt_sha256": "4dc78710408c70b75acb922c39eccf8d3aa0d147b20dff25e56344a7e121f6fc",
+      "harness_sha256": "a4efbfd04fc569985c4af129b3fb4e299fd07496a905275598a059c9cc17056e",
+      "browser_version": {
+        "protocolVersion": "1.3",
+        "product": "Chrome/140.0.7339.186",
+        "revision": "@c643dfff61ee0c447b89c05001216825c74120ff",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36",
+        "jsVersion": "14.0.1500365"
+      },
+      "browser_sha256": "5386de944dc312f838d69a974253d23bdb029acc072e28e6b11aa478c8b504d5",
+      "source_document_sha256": "5ab3d11d684c4604139526c9c5455cd1211d35101938a3ae3494f1774ee73096",
+      "source_unchanged": true,
+      "native_zoom": 1,
+      "dom": {
+        "ready": "complete",
+        "title": "Evidence workbench \u00b7 Lean Model Lab",
+        "innerWidth": 1440,
+        "innerHeight": 860,
+        "outerWidth": 1440,
+        "outerHeight": 1000,
+        "dpr": 1,
+        "visualScale": 1,
+        "visualWidth": 1425,
+        "probeWidth": 255,
+        "probeHeight": 44,
+        "bodyZoom": "1",
+        "htmlZoom": "1"
+      },
+      "interaction": {
+        "navigation": {
+          "domContentLoaded_ms": 119.60000002384186,
+          "loadEvent_ms": 121.20000004768372,
+          "documentBytes": 3633513,
+          "requestRows": 512,
+          "enabledFilters": 7,
+          "rootScrollWidth": 1425,
+          "viewport": 1425
+        },
+        "skip": {
+          "matches": true,
+          "tag": "A",
+          "id": "",
+          "text": "Skip to evidence",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 164.796875,
+            "height": 56.796875,
+            "top": 16,
+            "right": 180.796875,
+            "bottom": 72.796875,
+            "left": 16
+          },
+          "tabs": 1
+        },
+        "skipDestination": "main",
+        "armFocus": {
+          "matches": true,
+          "tag": "SELECT",
+          "id": "filter-arm",
+          "text": "AllBaselineCandidate",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 1127,
+            "y": 408.609375,
+            "width": 255,
+            "height": 44,
+            "top": 408.609375,
+            "right": 1382,
+            "bottom": 452.609375,
+            "left": 1127
+          },
+          "tabs": 13
+        },
+        "filtered": {
+          "value": "baseline",
+          "visible": 256,
+          "total": 512,
+          "allMatch": true,
+          "expected": 256,
+          "liveCount": "256 of 512 request rows shown.",
+          "liveRegion": "polite"
+        },
+        "focusScreenshot": {
+          "path": "docs/release/screenshots/v1-workbench-quality-100-keyboard.png",
+          "sha256": "aaa6d1e02786db2a5ab2cc700d2c080b41d890278d25d9bb2c9acb1015679ccc"
+        },
+        "resetFocus": {
+          "matches": true,
+          "tag": "BUTTON",
+          "id": "reset-filters",
+          "text": "Reset filters",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 1268.65625,
+            "y": 498.203125,
+            "width": 113.34375,
+            "height": 44,
+            "top": 498.203125,
+            "right": 1382,
+            "bottom": 542.203125,
+            "left": 1268.65625
+          },
+          "tabs": 4
+        },
+        "reset": {
+          "values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "visible": 512
+        },
+        "disclosureFocus": {
+          "matches": true,
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Evidence for r000",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 1099.96875,
+            "y": 134.0625,
+            "width": 288.03125,
+            "height": 44,
+            "top": 134.0625,
+            "right": 1388,
+            "bottom": 178.0625,
+            "left": 1099.96875
+          },
+          "tabs": 2
+        },
+        "disclosureOpened": true,
+        "disclosureClosed": true
+      },
+      "screenshots": [
+        {
+          "path": "docs/release/screenshots/v1-workbench-quality-100.png",
+          "sha256": "4004471300715efb93b7ba4195e88b523cb52a49aec80a4d1423221e973f91a1"
+        },
+        {
+          "path": "docs/release/screenshots/v1-workbench-quality-100-keyboard.png",
+          "sha256": "aaa6d1e02786db2a5ab2cc700d2c080b41d890278d25d9bb2c9acb1015679ccc"
+        }
+      ],
+      "sandbox_enabled": true,
+      "network_namespace_verified": "EMPTY_NETWORK_NAMESPACE_VERIFIED",
+      "owned_ip_sockets": [],
+      "owned_tcp_listeners": [],
+      "network_trace_sha256": "a358223caa0d25c10c58e8bd3d27e977dab7aa2bd89289fccaf97b28aa31b036",
+      "blocked_resolution_errors": 7,
+      "failed_route_probes": 1,
+      "page_exceptions": [],
+      "owned_running_processes_remaining": 0,
+      "owned_short_tmp_removed": true
+    },
+    {
+      "case": "quality-200",
+      "status": "PASS",
+      "original_receipt_sha256": "addbb6cce22154639011f65ea9f7e6dbf9e28e63846d44bd8a05ae0e741c33fd",
+      "harness_sha256": "a4efbfd04fc569985c4af129b3fb4e299fd07496a905275598a059c9cc17056e",
+      "browser_version": {
+        "protocolVersion": "1.3",
+        "product": "Chrome/140.0.7339.186",
+        "revision": "@c643dfff61ee0c447b89c05001216825c74120ff",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36",
+        "jsVersion": "14.0.1500365"
+      },
+      "browser_sha256": "5386de944dc312f838d69a974253d23bdb029acc072e28e6b11aa478c8b504d5",
+      "source_document_sha256": "5ab3d11d684c4604139526c9c5455cd1211d35101938a3ae3494f1774ee73096",
+      "source_unchanged": true,
+      "native_zoom": 2,
+      "dom": {
+        "ready": "complete",
+        "title": "Evidence workbench \u00b7 Lean Model Lab",
+        "innerWidth": 720,
+        "innerHeight": 430,
+        "outerWidth": 1440,
+        "outerHeight": 1000,
+        "dpr": 2,
+        "visualScale": 1,
+        "visualWidth": 712.5,
+        "probeWidth": 305.25,
+        "probeHeight": 44,
+        "bodyZoom": "1",
+        "htmlZoom": "1"
+      },
+      "interaction": {
+        "navigation": {
+          "domContentLoaded_ms": 123.69999998807907,
+          "loadEvent_ms": 125.30000001192093,
+          "documentBytes": 3633513,
+          "requestRows": 512,
+          "enabledFilters": 7,
+          "rootScrollWidth": 712,
+          "viewport": 712
+        },
+        "skip": {
+          "matches": true,
+          "tag": "A",
+          "id": "",
+          "text": "Skip to evidence",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 164.796875,
+            "height": 56.796875,
+            "top": 16,
+            "right": 180.796875,
+            "bottom": 72.796875,
+            "left": 16
+          },
+          "tabs": 1
+        },
+        "skipDestination": "main",
+        "armFocus": {
+          "matches": true,
+          "tag": "SELECT",
+          "id": "filter-arm",
+          "text": "AllBaselineCandidate",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 43,
+            "y": 372.6484375,
+            "width": 305.25,
+            "height": 44,
+            "top": 372.6484375,
+            "right": 348.25,
+            "bottom": 416.6484375,
+            "left": 43
+          },
+          "tabs": 13
+        },
+        "filtered": {
+          "value": "baseline",
+          "visible": 256,
+          "total": 512,
+          "allMatch": true,
+          "expected": 256,
+          "liveCount": "256 of 512 request rows shown.",
+          "liveRegion": "polite"
+        },
+        "focusScreenshot": {
+          "path": "docs/release/screenshots/v1-workbench-quality-200-keyboard.png",
+          "sha256": "140e735ffb691ff59c309040852bc7d5253e694a385e9a87abc7de0bbe70abf3"
+        },
+        "resetFocus": {
+          "matches": true,
+          "tag": "BUTTON",
+          "id": "reset-filters",
+          "text": "Reset filters",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 556.1640625,
+            "y": 193.2421875,
+            "width": 113.3359375,
+            "height": 44,
+            "top": 193.2421875,
+            "right": 669.5,
+            "bottom": 237.2421875,
+            "left": 556.1640625
+          },
+          "tabs": 4
+        },
+        "reset": {
+          "values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "visible": 512
+        },
+        "disclosureFocus": {
+          "matches": true,
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Evidence for r000",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 387.6484375,
+            "y": 155.8203125,
+            "width": 288,
+            "height": 44,
+            "top": 155.8203125,
+            "right": 675.6484375,
+            "bottom": 199.8203125,
+            "left": 387.6484375
+          },
+          "tabs": 2
+        },
+        "disclosureOpened": true,
+        "disclosureClosed": true
+      },
+      "screenshots": [
+        {
+          "path": "docs/release/screenshots/v1-workbench-quality-200.png",
+          "sha256": "ef5394d25f9b782bbe387d445e157fd4c9b035b7887ee1a753fbe1124a5aab77"
+        },
+        {
+          "path": "docs/release/screenshots/v1-workbench-quality-200-keyboard.png",
+          "sha256": "140e735ffb691ff59c309040852bc7d5253e694a385e9a87abc7de0bbe70abf3"
+        }
+      ],
+      "sandbox_enabled": true,
+      "network_namespace_verified": "EMPTY_NETWORK_NAMESPACE_VERIFIED",
+      "owned_ip_sockets": [],
+      "owned_tcp_listeners": [],
+      "network_trace_sha256": "c85aefe3ff3301cae8bd4afd9a874a271ad402f52c7fa69632d68467913afe5a",
+      "blocked_resolution_errors": 7,
+      "failed_route_probes": 1,
+      "page_exceptions": [],
+      "owned_running_processes_remaining": 0,
+      "owned_short_tmp_removed": true
+    },
+    {
+      "case": "quality-narrow",
+      "status": "PASS",
+      "original_receipt_sha256": "c01f1d27125cb0c68d0b6e2fc0fe4faab65f728eeb09d68c8cb6bec190ab0f17",
+      "harness_sha256": "a4efbfd04fc569985c4af129b3fb4e299fd07496a905275598a059c9cc17056e",
+      "browser_version": {
+        "protocolVersion": "1.3",
+        "product": "Chrome/140.0.7339.186",
+        "revision": "@c643dfff61ee0c447b89c05001216825c74120ff",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36",
+        "jsVersion": "14.0.1500365"
+      },
+      "browser_sha256": "5386de944dc312f838d69a974253d23bdb029acc072e28e6b11aa478c8b504d5",
+      "source_document_sha256": "5ab3d11d684c4604139526c9c5455cd1211d35101938a3ae3494f1774ee73096",
+      "source_unchanged": true,
+      "native_zoom": 1,
+      "dom": {
+        "ready": "complete",
+        "title": "Evidence workbench \u00b7 Lean Model Lab",
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "outerWidth": 500,
+        "outerHeight": 1000,
+        "dpr": 1,
+        "visualScale": 1,
+        "visualWidth": 375,
+        "probeWidth": 313,
+        "probeHeight": 44,
+        "bodyZoom": "1",
+        "htmlZoom": "1"
+      },
+      "interaction": {
+        "navigation": {
+          "domContentLoaded_ms": 115.70000004768372,
+          "loadEvent_ms": 117.20000004768372,
+          "documentBytes": 3633513,
+          "requestRows": 512,
+          "enabledFilters": 7,
+          "rootScrollWidth": 375,
+          "viewport": 375
+        },
+        "skip": {
+          "matches": true,
+          "tag": "A",
+          "id": "",
+          "text": "Skip to evidence",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 164.796875,
+            "height": 56.796875,
+            "top": 16,
+            "right": 180.796875,
+            "bottom": 72.796875,
+            "left": 16
+          },
+          "tabs": 1
+        },
+        "skipDestination": "main",
+        "armFocus": {
+          "matches": true,
+          "tag": "SELECT",
+          "id": "filter-arm",
+          "text": "AllBaselineCandidate",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 31,
+            "y": 758.859375,
+            "width": 313,
+            "height": 44,
+            "top": 758.859375,
+            "right": 344,
+            "bottom": 802.859375,
+            "left": 31
+          },
+          "tabs": 13
+        },
+        "filtered": {
+          "value": "baseline",
+          "visible": 256,
+          "total": 512,
+          "allMatch": true,
+          "expected": 256,
+          "liveCount": "256 of 512 request rows shown.",
+          "liveRegion": "polite"
+        },
+        "focusScreenshot": {
+          "path": "docs/release/screenshots/v1-workbench-quality-narrow-keyboard.png",
+          "sha256": "34ed96bfa5c9d23cccce840c5c5478c0ec158221a810ec2367ecaa9bb7271909"
+        },
+        "resetFocus": {
+          "matches": true,
+          "tag": "BUTTON",
+          "id": "reset-filters",
+          "text": "Reset filters",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 31,
+            "y": 550.046875,
+            "width": 113.34375,
+            "height": 44,
+            "top": 550.046875,
+            "right": 144.34375,
+            "bottom": 594.046875,
+            "left": 31
+          },
+          "tabs": 3
+        },
+        "reset": {
+          "values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "visible": 512
+        },
+        "disclosureFocus": {
+          "matches": true,
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Evidence for r000",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 58.1875,
+            "y": 155.59375,
+            "width": 288,
+            "height": 44,
+            "top": 155.59375,
+            "right": 346.1875,
+            "bottom": 199.59375,
+            "left": 58.1875
+          },
+          "tabs": 2
+        },
+        "disclosureOpened": true,
+        "disclosureClosed": true
+      },
+      "screenshots": [
+        {
+          "path": "docs/release/screenshots/v1-workbench-quality-narrow.png",
+          "sha256": "f7b6c587f518b2aec28c7d1c2ac0a3ead48d5fbec0b63d3c24e9c9eee999a0a8"
+        },
+        {
+          "path": "docs/release/screenshots/v1-workbench-quality-narrow-keyboard.png",
+          "sha256": "34ed96bfa5c9d23cccce840c5c5478c0ec158221a810ec2367ecaa9bb7271909"
+        }
+      ],
+      "sandbox_enabled": true,
+      "network_namespace_verified": "EMPTY_NETWORK_NAMESPACE_VERIFIED",
+      "owned_ip_sockets": [],
+      "owned_tcp_listeners": [],
+      "network_trace_sha256": "730a5b6049b216ed5dff347be688d9c52828c79967c53fb9f66fc2e440b48c52",
+      "blocked_resolution_errors": 7,
+      "failed_route_probes": 1,
+      "page_exceptions": [],
+      "owned_running_processes_remaining": 0,
+      "owned_short_tmp_removed": true
+    },
+    {
+      "case": "largest-100",
+      "status": "PASS",
+      "original_receipt_sha256": "b801f97d68208c22e59db169a2562663cd252dfd58368187cb797b50ff63f6e3",
+      "harness_sha256": "a4efbfd04fc569985c4af129b3fb4e299fd07496a905275598a059c9cc17056e",
+      "browser_version": {
+        "protocolVersion": "1.3",
+        "product": "Chrome/140.0.7339.186",
+        "revision": "@c643dfff61ee0c447b89c05001216825c74120ff",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36",
+        "jsVersion": "14.0.1500365"
+      },
+      "browser_sha256": "5386de944dc312f838d69a974253d23bdb029acc072e28e6b11aa478c8b504d5",
+      "source_document_sha256": "d963c3166ef0bce42d4152e648ee3f2640e59952118e084776faddd4c288f50b",
+      "source_unchanged": true,
+      "native_zoom": 1,
+      "dom": {
+        "ready": "complete",
+        "title": "Evidence workbench \u00b7 Lean Model Lab",
+        "innerWidth": 1440,
+        "innerHeight": 861,
+        "outerWidth": 1440,
+        "outerHeight": 1000,
+        "dpr": 1,
+        "visualScale": 1,
+        "visualWidth": 1425,
+        "probeWidth": 255,
+        "probeHeight": 44,
+        "bodyZoom": "1",
+        "htmlZoom": "1"
+      },
+      "interaction": {
+        "navigation": {
+          "domContentLoaded_ms": 491.30000001192093,
+          "loadEvent_ms": 496,
+          "documentBytes": 14243006,
+          "requestRows": 2048,
+          "enabledFilters": 7,
+          "rootScrollWidth": 1425,
+          "viewport": 1425
+        },
+        "skip": {
+          "matches": true,
+          "tag": "A",
+          "id": "",
+          "text": "Skip to evidence",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 16,
+            "y": 16,
+            "width": 164.796875,
+            "height": 56.796875,
+            "top": 16,
+            "right": 180.796875,
+            "bottom": 72.796875,
+            "left": 16
+          },
+          "tabs": 1
+        },
+        "skipDestination": "main",
+        "armFocus": {
+          "matches": true,
+          "tag": "SELECT",
+          "id": "filter-arm",
+          "text": "AllBaselineCandidate",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 1127,
+            "y": 817.234375,
+            "width": 255,
+            "height": 44,
+            "top": 817.234375,
+            "right": 1382,
+            "bottom": 861.234375,
+            "left": 1127
+          },
+          "tabs": 25
+        },
+        "filtered": {
+          "value": "baseline",
+          "visible": 1024,
+          "total": 2048,
+          "allMatch": true,
+          "expected": 1024,
+          "liveCount": "1024 of 2048 request rows shown.",
+          "liveRegion": "polite"
+        },
+        "focusScreenshot": {
+          "path": "docs/release/screenshots/v1-workbench-largest-100-keyboard.png",
+          "sha256": "382fb0c4fa97d99595b94633d51689e85b36c847ff18e7c09be8de9a90d8f541"
+        },
+        "resetFocus": {
+          "matches": true,
+          "tag": "BUTTON",
+          "id": "reset-filters",
+          "text": "Reset filters",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 1268.65625,
+            "y": 408.828125,
+            "width": 113.34375,
+            "height": 44,
+            "top": 408.828125,
+            "right": 1382,
+            "bottom": 452.828125,
+            "left": 1268.65625
+          },
+          "tabs": 4
+        },
+        "reset": {
+          "values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "visible": 2048
+        },
+        "disclosureFocus": {
+          "matches": true,
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Evidence for r000",
+          "focusVisible": true,
+          "outline": "rgb(157, 74, 0) solid 3px",
+          "rect": {
+            "x": 1099.953125,
+            "y": 133.6875,
+            "width": 288.046875,
+            "height": 44,
+            "top": 133.6875,
+            "right": 1388,
+            "bottom": 177.6875,
+            "left": 1099.953125
+          },
+          "tabs": 2
+        },
+        "disclosureOpened": true,
+        "disclosureClosed": true
+      },
+      "screenshots": [
+        {
+          "path": "docs/release/screenshots/v1-workbench-largest-100.png",
+          "sha256": "27c9d5ab3c235cee0882c96d18d0c238a61ac58dae1b718a1db9b35a71a48807"
+        },
+        {
+          "path": "docs/release/screenshots/v1-workbench-largest-100-keyboard.png",
+          "sha256": "382fb0c4fa97d99595b94633d51689e85b36c847ff18e7c09be8de9a90d8f541"
+        }
+      ],
+      "sandbox_enabled": true,
+      "network_namespace_verified": "EMPTY_NETWORK_NAMESPACE_VERIFIED",
+      "owned_ip_sockets": [],
+      "owned_tcp_listeners": [],
+      "network_trace_sha256": "12b7ce75f706fe1fdad74e3ee795aa8e83810706b88e59ca4e243af66b0f4fd1",
+      "blocked_resolution_errors": 8,
+      "failed_route_probes": 2,
+      "page_exceptions": [],
+      "owned_running_processes_remaining": 0,
+      "owned_short_tmp_removed": true
+    }
+  ],
+  "scope": "Actual archive06 workbenches generated from 512-observation quality confirmation and 2048-observation retained main study. Same-host Chromium 140 normal sandbox, empty private network namespace, CDP keyboard task segments, actual native browser zoom and emulated narrow desktop viewport. Screenshots copied without pixel edits and visually reviewed by root. Not final distribution index, external person, physical mobile device, human screen-reader session or accessibility certification. Single loading observations are not a performance distribution or scalability guarantee.",
+  "prior_failure": "Original quality/large keyboard harness runs retained. Their keyDown Enter event omitted text; reset did not activate. Corrected CDP Enter includes carriage-return text. Identical application source then passes. Failed-run forced browser shutdown also left incomplete NetLog; normal Browser.close now precedes termination fallback. No application change or native model rerun.",
+  "retained_preceding_runs": [
+    {
+      "case": "quality-100",
+      "original_receipt_sha256": "d9be4f63d1a91b7f19d983e6c0a6126215daa59e2523916b48a48fea24feeae5",
+      "source_document_sha256": "5ab3d11d684c4604139526c9c5455cd1211d35101938a3ae3494f1774ee73096",
+      "status": "STOP_NETLOG_REVIEW",
+      "error": "Error: keyboard filter reset failed",
+      "netlog_error": "SyntaxError: Unexpected end of JSON input",
+      "started_utc": "2026-09-08T21:28:50.409Z",
+      "finished_utc": "2026-09-08T21:28:51.381Z",
+      "harness_sha256": "0383fe368743c0c486c8e6cc5dfba5ddb1f12aebe9654d7abe80491d86cbe0a1"
+    },
+    {
+      "case": "largest-100",
+      "original_receipt_sha256": "19ce0a1492bca54f35afde34e45e885ad9fa50a8e79eef9495240391dc14f24c",
+      "source_document_sha256": "d963c3166ef0bce42d4152e648ee3f2640e59952118e084776faddd4c288f50b",
+      "status": "STOP_NETLOG_REVIEW",
+      "error": "Error: keyboard filter reset failed",
+      "netlog_error": "SyntaxError: Unexpected end of JSON input",
+      "started_utc": "2026-09-08T21:29:07.209Z",
+      "finished_utc": "2026-09-08T21:29:08.640Z",
+      "harness_sha256": "0383fe368743c0c486c8e6cc5dfba5ddb1f12aebe9654d7abe80491d86cbe0a1"
+    }
+  ]
+}

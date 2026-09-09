@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "study_role": "Investigator 3 systems/generalization",
+  "classification": "Instrumented CPU cache-compression interaction and model-transfer study; substantial known prior-art overlap; novelty unestablished",
+  "question": "When do context omission savings disappear against full-context prefix caching under repeated tables, longer contexts, arrivals and model transfer?",
+  "frozen_before_development_utc": "2026-09-08T18:54:19.394598+00:00",
+  "archive_sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f",
+  "implementation_sha256": "fe572bc610c0bc395672bf8b4e8f681260e2e6bdccf4280d6a7ec0784c30d5fe",
+  "original_deadline_ns": 310468865220540,
+  "maximum_new_native_offered_requests": 3000,
+  "maximum_new_native_execution_seconds": 5400,
+  "development": [
+    {
+      "id": "d1-small-reuse24",
+      "profile": "qwen2.5-0.5b-instruct-fp16-v2",
+      "family": "record-reuse",
+      "context_records": 24,
+      "seed": 940101,
+      "requests_per_attempt": 8,
+      "balanced_pairs": 2,
+      "offered_requests": 32,
+      "threads": 2,
+      "concurrency": 1,
+      "mechanism": "slice-versus-full-cache-v1",
+      "split": "development",
+      "condition": "Run once before confirmation."
+    },
+    {
+      "id": "d2-large-reuse24",
+      "profile": "qwen2.5-14b-instruct-fp16-v1",
+      "family": "record-reuse",
+      "context_records": 24,
+      "seed": 940101,
+      "requests_per_attempt": 8,
+      "balanced_pairs": 2,
+      "offered_requests": 32,
+      "threads": 6,
+      "concurrency": 1,
+      "mechanism": "slice-versus-full-cache-v1",
+      "split": "development",
+      "condition": "Single predeclared alternative only if small-model full-context quality fails; same generated tasks permit bounded model comparison. Coordinate root first."
+    }
+  ],
+  "development_gate": "Require each full-context baseline attempt at least95% exact task accuracy (8/8 in eight-request feasibility). If baseline fails, preserve complete adverse study and do not launch small-model confirmations. Any harmful omission remains visible.",
+  "prospective_confirmation_options": [
+    "Small model record-reuse/context24 and64 strong both-cached comparison, seeds940129/940193.",
+    "At context64, full cache versus no cache and uncached dependency slice versus uncached full constituent controls, matched population/settings.",
+    "One predeclared paced/burst trace only after observed feasibility and before confirmation; all cold primers and table transitions retained.",
+    "Single14B strong cached comparison at one context as predeclared alternative, contingent on feasibility and shared budget."
+  ],
+  "matrix_limit": "At most five512-offered-request measurements plus up to64 development offered requests=2624; options are conditional, not an instruction to execute all. A final finite matrix requires post-development root coordination and pre-confirmation freeze.",
+  "quality_rule": "Both arms>=95% per attempt, no observed pair-level aggregate candidate accuracy loss, report all4pairedcorrectnessclasses. Same-input controls require token parity.",
+  "cost_rule": "Primary full-attempt wall includes transformation, tokenization, backend/model verification, load and shutdown. Report service wall descriptively; include all shared setup, search, failed and historical costs once without counterfactual cache pooling.",
+  "stopping": "Exactly frozen cells once. No automatic rerun, no filtering baseline failures, no gate relaxation. Stop before request/time/globaldeadline caps. Failed/interrupted native attempts retain costs and cancel remaining confirmation cells.",
+  "uncertainty": "Two balanced AB/BA pairs; descriptive pair ranges only. Eight-query shared-table trajectories are dependent. No request-IID confidence or cross-device/population claim.",
+  "prior_sources": [
+    {
+      "url": "https://arxiv.org/abs/2607.15516",
+      "title": "Cache-Aware Prompt Compression:A Two-Tier Cost Model for LLM API Caching",
+      "first_submission_date": "2026-07-17",
+      "role": "Direct prior art for cache/compression crossover; API pricing/cache architecture is not a CPU-latency model."
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.04408",
+      "title": "RECOMP: Improving Retrieval-Augmented LMs with Compression and Selective Augmentation",
+      "first_submission_date": "2023-10-06",
+      "role": "Existing downstream-quality-aware context compression."
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.12968",
+      "title": "LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression",
+      "first_submission_date": "2024-03-19",
+      "role": "Existing learned token selection; no implementation replication claimed."
+    }
+  ],
+  "earlier_feasibility_context": "Root reports0.5B reference-chain/context8 only1/8correctperarm; quality investigator reportslookup/context8 6/8perarm. These are warning signals, not outcomes of the newly frozen repeated-table population."
+}

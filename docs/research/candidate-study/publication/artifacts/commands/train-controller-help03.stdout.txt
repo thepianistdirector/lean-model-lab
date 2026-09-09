@@ -1,0 +1,11 @@
+usage: lean-model-lab research train-controller [-h] --fit-study FIT_STUDY
+                                                --calibration-study
+                                                CALIBRATION_STUDY --protocol
+                                                PROTOCOL --output OUTPUT
+
+options:
+  -h, --help            show this help message and exit
+  --fit-study FIT_STUDY
+  --calibration-study CALIBRATION_STUDY
+  --protocol PROTOCOL
+  --output OUTPUT

@@ -1,0 +1,30 @@
+{
+  "status": "LOCAL_BENCHMARK_AND_NEGATIVE_CONTRAST_READY_FOR_SKEPTICAL_REVIEW",
+  "native_development": "COMPLETED_ADVERSE",
+  "confirmation": "UNSTARTED_BY_FUTILITY_RULE",
+  "retained14b": "COMPLETE_QUALITY_PARITY_ELIGIBLE",
+  "legacy05b": "INELIGIBLE_QUALITY_PARITY_AND_RETAINED_PROTOCOL_FAILURE",
+  "packaged_cli_inspect_report_workbench": "OPERATED_ON_ALL_FOUR_STUDIES",
+  "source_raw_audit": {
+    "14b": "PASS",
+    "legacy-comparison": "PASS",
+    "legacy-protocol-failure": "INCOMPLETE_OR_FAILED",
+    "development": "PASS"
+  },
+  "independent_table_consistency": "Every observed exact answer count and paired token mismatch list agrees with packaged reports.",
+  "new_export": "VERIFIED_LOCAL_NOT_PUBLISHED",
+  "standalone_figures": "PNG_AND_SVG_VISUALLY_INSPECTED",
+  "skeptical_reproduction": "PENDING_SEPARATE_AGENT",
+  "external_human_review": "NOT_OBSERVED",
+  "public_release": "NOT_AUTHORIZED_NOT_PUBLISHED",
+  "platform_blockers": [],
+  "limitations": [
+    "Historical studies are not protected confirmation.",
+    "Models, seeds, CPU threads, binaries and producer versions differ across historical studies.",
+    "New development uses a distinct structured record grammar.",
+    "Shared host, finite simultaneous batches and four 14B pairs per concurrency; no universal or significance claim.",
+    "Full allocation contains shared research/idle costs; no allocation-wide savings ratio.",
+    "No measured energy/thermal/monetary or CPU-time sensor in these records.",
+    "Hashes establish internal consistency, not external authenticity."
+  ]
+}

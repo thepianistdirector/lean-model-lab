@@ -1,0 +1,9 @@
+Running recipe pair 1, concurrency 1, baseline
+Retained COMPLETED: 128/128 offered request records
+Running recipe pair 1, concurrency 1, candidate
+Retained COMPLETED: 128/128 offered request records
+Running recipe pair 2, concurrency 1, candidate
+Retained COMPLETED: 128/128 offered request records
+Running recipe pair 2, concurrency 1, baseline
+Retained COMPLETED: 128/128 offered request records
+{"reserved_attempts": 4, "terminal_attempts": 4, "inventory_complete": true}

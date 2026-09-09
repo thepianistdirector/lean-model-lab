@@ -1,0 +1,98 @@
+{
+  "status": "PASS_EXACT_PRODUCER_AND_RETAINED_WORKLOAD_NAMESPACE_CHECK",
+  "checked_utc": "2026-09-08T21:35:03.939544+00:00",
+  "method": "Read the exact retained archive 03/04 generator module bytes and all five existing workload files; assert every VALUE key/value and expected answer matches its split namespace. No generator, native model, scientific analysis or figure rerun.",
+  "producers": [
+    {
+      "producer_archive_sha256": "f90c48dd0be36b29c3188c365ba6b8ab2cbe709897cd7f4cce0e4825a147db6f",
+      "module": "lean_model_lab/structured_workloads.py",
+      "module_sha256": "6cf7c37d9968192516e97f01700aec7265a1800cbf2e11be1abec7804133a79c",
+      "namespace_assignment_line": 120,
+      "random_stream_derivation_line": 117,
+      "stream_fields": {
+        "generator_version": 3,
+        "seed": "case seed",
+        "family": "record-reuse for every systems case",
+        "split": "development or confirmation"
+      },
+      "family_mapping": "Original family directly"
+    },
+    {
+      "producer_archive_sha256": "5f1aabf84635e33dd166ee656d5bcb5830f25a5f4f5d68433e2fd3e4498fb986",
+      "module": "lean_model_lab/structured_workloads.py",
+      "module_sha256": "f3c5411806c7c0cebfda345894f70c0669a661ade90acdda0b925f58a990f2d3",
+      "namespace_assignment_line": 123,
+      "random_stream_derivation_line": 120,
+      "stream_fields": {
+        "generator_version": 3,
+        "seed": "case seed",
+        "family": "record-reuse for every systems case",
+        "split": "development or confirmation"
+      },
+      "family_mapping": "source_family resolves explicit variants; original record-reuse remains record-reuse"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "d1-small-reuse24",
+      "family": "record-reuse",
+      "split": "development",
+      "seed": 940101,
+      "namespace": "D",
+      "workload_file_sha256": "ebee3f3c0edc5619636d5dd34c9439d222d462ba0ba024e757c48629a76e0612",
+      "retained_requests_checked": 8,
+      "value_rows_checked_including_repeated_table_rows": 192,
+      "all_value_keys_values_and_expected_answers_match_namespace": true
+    },
+    {
+      "case_id": "d2-large-reuse24",
+      "family": "record-reuse",
+      "split": "development",
+      "seed": 940101,
+      "namespace": "D",
+      "workload_file_sha256": "ebee3f3c0edc5619636d5dd34c9439d222d462ba0ba024e757c48629a76e0612",
+      "retained_requests_checked": 8,
+      "value_rows_checked_including_repeated_table_rows": 192,
+      "all_value_keys_values_and_expected_answers_match_namespace": true
+    },
+    {
+      "case_id": "h1-small-reuse24",
+      "family": "record-reuse",
+      "split": "confirmation",
+      "seed": 940129,
+      "namespace": "C",
+      "workload_file_sha256": "d8e6eaaa3b8e2a7b169aaaf19294f635bb9a4abbc78ad8ce0a5d02564fbf2e41",
+      "retained_requests_checked": 128,
+      "value_rows_checked_including_repeated_table_rows": 3072,
+      "all_value_keys_values_and_expected_answers_match_namespace": true
+    },
+    {
+      "case_id": "h2-small-reuse64",
+      "family": "record-reuse",
+      "split": "confirmation",
+      "seed": 940193,
+      "namespace": "C",
+      "workload_file_sha256": "b5bcdbd4da1467b83e4716c6275df9f9d88e3aba06642774617d9ba7f7c18c02",
+      "retained_requests_checked": 128,
+      "value_rows_checked_including_repeated_table_rows": 8192,
+      "all_value_keys_values_and_expected_answers_match_namespace": true
+    },
+    {
+      "case_id": "h3-large-reuse24",
+      "family": "record-reuse",
+      "split": "confirmation",
+      "seed": 940129,
+      "namespace": "C",
+      "workload_file_sha256": "d8e6eaaa3b8e2a7b169aaaf19294f635bb9a4abbc78ad8ce0a5d02564fbf2e41",
+      "retained_requests_checked": 128,
+      "value_rows_checked_including_repeated_table_rows": 3072,
+      "all_value_keys_values_and_expected_answers_match_namespace": true
+    }
+  ],
+  "interpretation": "Fresh held-out table groups do not establish IID sampling, development/confirmation exchangeability or lexical invariance. Development-to-confirmation comparisons include D-to-C lexical namespace and split-derived pseudorandom-stream differences. H1/H3 compare identical confirmation request records.",
+  "unchanged_artifact_checks": {
+    "all_five_workload_hashes_match_existing_population_check": true,
+    "all_six_analysis_hashes_match_existing_export_reanalysis_proof": true,
+    "all_28_binary_figure_hashes_match_existing_reviewed_asset_map": true
+  }
+}

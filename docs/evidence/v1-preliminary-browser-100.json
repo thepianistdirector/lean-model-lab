@@ -1,0 +1,131 @@
+{
+  "started_utc": "2026-09-08T20:11:28.861Z",
+  "finished_utc": "2026-09-08T20:11:29.692Z",
+  "scope": "actual local workbench native zoom observation; no external person",
+  "expected_zoom": 1,
+  "browser_sha256": "5386de944dc312f838d69a974253d23bdb029acc072e28e6b11aa478c8b504d5",
+  "version": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/140.0.7339.186",
+    "revision": "@c643dfff61ee0c447b89c05001216825c74120ff",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/140.0.0.0 Safari/537.36",
+    "jsVersion": "14.0.1500365"
+  },
+  "document_sha256": "28315ca8248f9fd61bb1c88cad4a7c7b11baee0de9030fb7b5f72e579830d8f5",
+  "dom": {
+    "ready": "complete",
+    "title": "Evidence workbench \u00b7 Lean Model Lab",
+    "innerWidth": 1440,
+    "innerHeight": 844,
+    "outerWidth": 1440,
+    "outerHeight": 1000,
+    "dpr": 1,
+    "visualScale": 1,
+    "visualWidth": 1425,
+    "probeWidth": 255,
+    "probeHeight": 44,
+    "bodyZoom": "1",
+    "htmlZoom": "1"
+  },
+  "layout": {
+    "layoutViewport": {
+      "pageX": 0,
+      "pageY": 0,
+      "clientWidth": 1425,
+      "clientHeight": 844
+    },
+    "visualViewport": {
+      "offsetX": 0,
+      "offsetY": 0,
+      "pageX": 0,
+      "pageY": 0,
+      "clientWidth": 1425,
+      "clientHeight": 844,
+      "scale": 1,
+      "zoom": 1
+    },
+    "contentSize": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 5943
+    },
+    "cssLayoutViewport": {
+      "pageX": 0,
+      "pageY": 0,
+      "clientWidth": 1425,
+      "clientHeight": 844
+    },
+    "cssVisualViewport": {
+      "offsetX": 0,
+      "offsetY": 0,
+      "pageX": 0,
+      "pageY": 0,
+      "clientWidth": 1425,
+      "clientHeight": 844,
+      "scale": 1,
+      "zoom": 1
+    },
+    "cssContentSize": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 5943
+    }
+  },
+  "exceptions": [],
+  "sandbox_disabling_flags": false,
+  "smoke_status": "PASS",
+  "source_unchanged": true,
+  "owned_tcp_listeners": [],
+  "owned_ip_sockets": [],
+  "owned_running_processes_remaining": 0,
+  "owned_short_tmp_removed": true,
+  "exit": {
+    "code": 0,
+    "signal": null
+  },
+  "schema_version": 1,
+  "original_receipt_sha256": "551fac970c37eb5bfffadcbfd03694f58845a2c1dee348fb67d0a78de39ee768",
+  "projection": "Selected observed fields; private process paths and verbose browser logs retained in the original receipt.",
+  "screenshot": {
+    "path": "docs/release/screenshots/preliminary-workbench-100.png",
+    "sha256": "c23a2b3a9ef1d6f9cea77094e13c40c054a54b3aa615f280a725e80f7417e125"
+  },
+  "namespace": {
+    "status": "EMPTY_NETWORK_NAMESPACE_VERIFIED",
+    "browser_retained_namespace": true,
+    "only_loopback_observed": true,
+    "routes": ""
+  },
+  "netlog": {
+    "sha256": "0ec201f01fee121d116a39949f0597591a1ee4de0af4d07e0e775f9fe998afd3",
+    "events": 162,
+    "connection_events": [
+      {
+        "name": "UDP_CONNECT",
+        "phase": 1,
+        "params": {
+          "address": "[2001:4860:4860::8888]:443"
+        }
+      },
+      {
+        "name": "UDP_CONNECT",
+        "phase": 2,
+        "params": {
+          "net_error": -108
+        }
+      }
+    ],
+    "failed_route_probes": [
+      {
+        "name": "UDP_CONNECT",
+        "phase": 2,
+        "params": {
+          "net_error": -108
+        }
+      }
+    ]
+  },
+  "visual_review": "Root agent inspected actual screenshot; legible at recorded native zoom. No human accessibility claim."
+}
